@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/nubia_list_item_background_material" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/improve_share_more_listitme_img" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/share_item_tv" android:id="@id/improve_share_more_listitme_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_toEndOf="@id/improve_share_more_listitme_img" />
+        <View android:background="#33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_alignStart="@id/improve_share_more_listitme_tv" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:color="@color/picker_ark_color_gray_drak" />
+    <item android:state_pressed="true" android:color="@color/picker_ark_color_white_text" />
+</selector>

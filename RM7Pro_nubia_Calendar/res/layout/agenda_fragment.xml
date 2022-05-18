@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/agenda_sticky_header_list" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_weight="0.4" class="cn.nubia.calendar.ui_component.view.StickyHeaderListView">
+        <FrameLayout android:id="@id/agenda_events_list_Frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+            <view android:id="@id/agenda_events_list" android:fadingEdge="none" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" class="cn.nubia.calendar.submodule_agenda.view.AgendaListView" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/agenda_events_list_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingBottom="@dimen/calendar_event_list_empty_bottom_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nubia_empty_icon" />
+                <TextView android:textSize="@dimen/calendar_event_view_empty_text_size" android:textColor="@color/calendar_event_view_empty_text_color" android:fadingEdge="none" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_events_found" />
+            </LinearLayout>
+        </FrameLayout>
+    </view>
+    <FrameLayout android:id="@id/agenda_event_info" android:background="@color/background_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_weight="0.6" />
+</LinearLayout>

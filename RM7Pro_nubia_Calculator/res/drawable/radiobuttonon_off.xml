@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/radio_button_on"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="circle" android:animation="@drawable/$radiobuttonon_off__0" />
+    <target android:name="inner" android:animation="@drawable/$radiobuttonon_off__1" />
+</animated-vector>

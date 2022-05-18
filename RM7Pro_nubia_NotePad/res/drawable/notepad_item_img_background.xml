@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/notepad_list_item_img_background_color" />
+    <size android:height="@dimen/notepad_list_img_count_width" android:width="@dimen/notepad_list_img_count_width" />
+</shape>

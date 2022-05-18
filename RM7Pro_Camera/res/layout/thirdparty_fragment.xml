@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/thirdparty_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:RotateTextImageView="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/thirdPartyPreviewRelativePage" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image_capture_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/hint_text_color" android:id="@id/factorytest_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_3" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="25.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/thirdparty_exit_cancel_done_layout" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.RotateTextImageView android:gravity="center" android:id="@id/exitCamera" android:background="@drawable/nubia_small_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@string/nubia_cancel_button_bg" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimens_18" android:layout_alignParentStart="true" RotateTextImageView:rotatTextColor="@color/highlight_color" RotateTextImageView:rotatTextSize="@dimen/dimens_14" RotateTextImageView:text="@string/bottom_cancel" />
+        <RelativeLayout android:id="@id/thirdparty_cancel_done_layout" android:background="@color/bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/bottom_cancel_done_view" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/camera_picker_layout" />
+    <TextView android:textSize="@dimen/dimens_30" android:textColor="@color/highlight_color" android:id="@id/gyrooffsetcalibrationTip" android:visibility="gone" android:text="@string/gyro_offset_calibration_tip" android:layout_centerInParent="true" style="@style/TopTipStyle" />
+</RelativeLayout>

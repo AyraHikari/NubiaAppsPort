@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/manager_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/download_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_42" android:textColor="#ff7f7f7f" android:ellipsize="marquee" android:id="@id/tab_left" android:background="@drawable/left_selected" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="14.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_420" android:text="@string/nowplayinglist" android:singleLine="true" android:layout_toLeftOf="@id/divider" />
+        <View android:id="@id/divider" android:background="#fff79a9a" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignTop="@id/tab_left" android:layout_alignBottom="@id/tab_left" android:layout_centerInParent="true" />
+        <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_42" android:textColor="#fff25252" android:ellipsize="marquee" android:id="@id/tab_right" android:background="@drawable/right" android:paddingLeft="14.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_420" android:text="@string/playhistory" android:singleLine="true" android:layout_toRightOf="@id/divider" />
+    </RelativeLayout>
+    <cn.nubia.music.ui.MiniMusicPlayBar android:layout_gravity="bottom" android:id="@id/mini_play_bar" android:background="@color/nubia_mini_play_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/dimen_15" />
+</LinearLayout>

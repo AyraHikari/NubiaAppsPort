@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/action_mode_close" android:background="@drawable/nubia_action_mode_close_menu_material" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    <View android:layout_gravity="start|center" android:background="@color/action_mode_divider_color" android:layout_width="0.6700001dip" android:layout_height="24.0dip" android:layout_marginStart="47.329987dip" />
+    <Button android:textSize="16.0dip" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/action_mode_delete_button" android:background="@drawable/nubia_btn_color1_default_material" android:layout_width="156.29999dip" android:layout_height="36.0dip" android:text="@string/timer_delete" />
+    <View android:layout_gravity="end|center" android:background="@color/action_mode_divider_color" android:layout_width="0.6700001dip" android:layout_height="24.0dip" android:layout_marginEnd="47.329987dip" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/action_mode_select" android:background="@drawable/nubia_action_mode_bottom_unselect_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.camera.hitchcock.TipView android:id="@id/touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:id="@id/tip_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hitchcock_in_rect_tip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/toast_hint" />
+    <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:id="@id/zoom_text" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_15" android:layout_above="@id/zoom_bar" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@id/zoom_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_5" android:layout_marginBottom="155.0dip" android:progressDrawable="@drawable/hitchcock_progress_bar" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <RelativeLayout android:id="@id/bottom_recording_layout" android:background="@color/bar_background" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/video_stop" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/video_stop_icon" camera:button_color="red" style="@style/ShutterOrSwitchToButtonIcon" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+    </RelativeLayout>
+</RelativeLayout>

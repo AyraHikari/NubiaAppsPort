@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Opptatt</item>
+        <item>Tilgjengelig</item>
+        <item>Kanskje</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dag</item>
+        <item>Uke</item>
+        <item>Måned</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Bare denne aktiviteten</item>
+        <item>Alle hendelser i serien</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Bare denne hendelsen</item>
+        <item>Denne og fremtidige aktiviteter</item>
+        <item>Alle hendelser</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Denne og framtidige hendelser</item>
+        <item>Alle hendelser</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>første</item>
+        <item>andre</item>
+        <item>tredje</item>
+        <item>fjerde</item>
+        <item>siste</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Alltid</item>
+        <item>Kun ved stille modus</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ingen</item>
+        <item>0 minutter</item>
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+        <item>45 minutter</item>
+        <item>1 time</item>
+        <item>2 timer</item>
+        <item>3 timer</item>
+        <item>12 timer</item>
+        <item>1 døgn</item>
+        <item>2 dager</item>
+        <item>1 uke</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Språkstandard</item>
+        <item>Lørdag</item>
+        <item>Søndag</item>
+        <item>Mandag</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Forsinkelse på noen få minutter.</item>
+        <item>Er der om cirka 10 minutter.</item>
+        <item>Sett i gang uten meg.</item>
+        <item>Beklager, jeg rekker det ikke. Vi må avtale nytt tidspunkt.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Varsling</item>
+        <item>E-post</item>
+        <item>Tekstmelding</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minutter</item>
+        <item>1 minutt</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+        <item>45 minutter</item>
+        <item>1 time</item>
+        <item>To timer</item>
+        <item>3 timer</item>
+        <item>12 timer</item>
+        <item>1 døgn</item>
+        <item>2 dager</item>
+        <item>1 uke</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Ingen svar</item>
+        <item>Ja</item>
+        <item>Kanskje</item>
+        <item>Nei</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalløyene</item>
+        <item>Midway Island</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>Sentr.-Amerika</item>
+        <item>Sentraltid</item>
+        <item>Mexico city</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Grønland</item>
+        <item>Montevideo</item>
+        <item>Midt-Atlanteren</item>
+        <item>Azorene</item>
+        <item>Kapp Verde-øyene</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Brussel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Vestafrika-tid</item>
+        <item>Amman, Jordan</item>
+        <item>Aten, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Standard</item>
+        <item>Privat</item>
+        <item>Offentlig</item>
+    </string-array>
+</resources>

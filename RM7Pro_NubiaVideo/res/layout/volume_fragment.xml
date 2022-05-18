@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/submenu_trim" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/editor_submenu_item_height">
+        <ImageView android:gravity="center" android:id="@id/volume_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/player_volume_icon" />
+        <SeekBar android:gravity="center" android:id="@id/volume_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:max="100" android:layout_weight="1.0" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/progress_status" android:layout_width="40.0dip" android:layout_height="fill_parent" android:hint="0%" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/editor_submenu_title_height">
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/submenu_concel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/back" android:layout_weight="1.0" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/submenu_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/volume" android:layout_weight="3.0" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/back" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

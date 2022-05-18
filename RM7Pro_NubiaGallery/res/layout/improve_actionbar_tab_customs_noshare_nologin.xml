@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/nubia_tab_background_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> > <LinearLayout android:orientation="horizontal" android:id="@id/group" android:layout_width="@dimen/improve_encrypt_progress_dialog_layout_width_300dp" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/actionbar_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/actionbar_tab_camera" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tab_camera" android:layout_weight="1.0" style="@style/tab_btn_item" />
+            <RadioButton android:id="@id/actionbar_tab_album" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tab_albumset" android:layout_weight="1.0" style="@style/tab_btn_item" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

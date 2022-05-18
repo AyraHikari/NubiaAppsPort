@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Animation.Dialog" />
+        <TextView android:textSize="@dimen/textsize_42" android:textColor="@color/color_black_transparent_54" android:layout_gravity="center" android:id="@id/progress_str" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:scaleType="centerCrop" android:text="@string/wait_loading" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/local_empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/empty_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_icon" />
+        <TextView android:textSize="@dimen/textsize_42" android:textColor="@color/color_black_transparent_57" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/no_file_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/no_file" />
+        <TextView android:textSize="@dimen/textsize_48" android:textColor="@color/cf25252" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/scan_button" android:background="@drawable/gray_btn_background" android:layout_width="@dimen/dimen_469" android:layout_height="36.0dip" android:layout_marginTop="15.0dip" android:text="@string/scan_music" />
+    </LinearLayout>
+</RelativeLayout>

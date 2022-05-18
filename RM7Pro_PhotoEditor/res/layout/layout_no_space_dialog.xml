@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/user_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/cta_dialog_title_text_size" android:textColor="@color/user_dialog_title" android:gravity="bottom|center" android:id="@id/title_id" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_title_height" android:text="@string/no_enough_storage" android:layout_alignParentTop="true" />
+    <View android:id="@id/separate1" android:visibility="gone" android:layout_below="@id/title_id" style="@style/common_ui_divider" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/buttonLayout" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_button_height" android:layout_alignParentBottom="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/cta_dialog_title_text_size" android:textColor="@color/user_dialog_button" android:gravity="center" android:id="@id/ok_button" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ok" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/separate2" android:background="@color/user_dialog_button_seperate" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_above="@id/buttonLayout" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/separate2" android:layout_below="@id/separate1">
+        <TextView android:textSize="@dimen/cta_dialog_content_text_size" android:textColor="@color/user_dialog_message" android:gravity="start|center" android:id="@id/message_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/no_enough_storage_info" android:lineSpacingExtra="4.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

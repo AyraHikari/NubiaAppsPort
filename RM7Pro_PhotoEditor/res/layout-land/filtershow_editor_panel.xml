@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/controlArea" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.android.gallery3d.filtershow.editors.VerticalSeekBar android:layout_gravity="center_vertical" android:id="@id/primarySeekBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/editor_panel_container" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:baselineAligned="false">
+        <ImageButton android:gravity="center" android:layout_gravity="center|top" android:id="@id/applyFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/done" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/panelAccessoryViewList" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.android.gallery3d.filtershow.utils.RotateButton android:textSize="@dimen/editor_panel_text_size" android:textColor="@color/hilit_color" android:id="@id/applyEffect" android:background="@null" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="48.0dip" android:layout_height="fill_parent" android:textAllCaps="true" />
+        </LinearLayout>
+        <ImageButton android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/cancelFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/cancel" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/state_panel_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

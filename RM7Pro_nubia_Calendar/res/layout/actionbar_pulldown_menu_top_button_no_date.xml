@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="18.0sp" android:textColor="@color/calendar_view_switch_menu_text_color" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="48.0dip" android:singleLine="true" android:paddingStart="12.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

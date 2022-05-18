@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/word_color" android:layout_width="@dimen/tool_button_width" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/btn_word_color" android:background="@drawable/icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_color" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/small_text_size" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/draw_color" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/word_bold" android:layout_width="@dimen/tool_button_width" android:layout_height="wrap_content" android:layout_toRightOf="@id/word_color">
+        <ImageButton android:id="@id/btn_word_bold" android:background="@drawable/icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_bold_normal" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/small_text_size" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bold" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/word_shadow" android:layout_width="@dimen/tool_button_width" android:layout_height="wrap_content" android:layout_toRightOf="@id/word_bold">
+        <ImageButton android:id="@id/btn_word_shadow" android:background="@drawable/icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_shadow_normal" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/small_text_size" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/shadow" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/word_bubble" android:layout_width="@dimen/tool_button_width" android:layout_height="wrap_content" android:layout_toRightOf="@id/word_shadow">
+        <ImageButton android:id="@id/btn_word_bubble" android:background="@drawable/icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_bubble" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/small_text_size" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bubble" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

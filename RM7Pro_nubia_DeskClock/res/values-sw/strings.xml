@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_alarm">Ongeza kengele</string>
+    <string name="alarm_alert_alert_silenced">Kengele ilinyamazishwa baada ya %d.</string>
+    <string name="alarm_alert_dismiss_text">Kataa</string>
+    <string name="alarm_alert_snooze_set">Inasinzia kwa dakika %d</string>
+    <string name="alarm_alert_snooze_text">Sinzia</string>
+    <string name="alarm_alert_snooze_until">Inapumzisha hadi %s</string>
+    <string name="alarm_klaxon_service_desc">Huduma ya kuchezesha tena za kengele iliyowekwa kwenye Saa.</string>
+    <string name="alarm_repeat">Rudia</string>
+    <string name="alarm_vibrate">Mtetemo</string>
+    <string name="alert">Mlio wa Kengele</string>
+    <string name="app_label">Saa</string>
+    <string name="cities_activity_title">Miji</string>
+    <string name="day">siku 1</string>
+    <string name="day_concat">", "</string>
+    <string name="days">siku %s</string>
+    <string name="delete_alarm">Futa kengele</string>
+    <string name="enable_alarm">Washa kengele</string>
+    <string name="every_day">Kila siku</string>
+    <string name="hour">Saa 1</string>
+    <string name="hours">Saa%s</string>
+    <string name="hours_label">sa</string>
+    <string name="loading_ringtone">Inapakia mlio...</string>
+    <string name="minute">Dakika 1</string>
+    <string name="minutes">Dakika %s</string>
+    <string name="minutes_label">dk</string>
+    <string name="never">Katu</string>
+    <string name="seconds_label">s</string>
+    <string name="silent_alarm_summary">Kimya</string>
+    <string name="sw_start_button">Anza</string>
+    <string name="timer_cancel">Ghairi</string>
+    <string name="timer_delete">Futa</string>
+    <string name="timer_stop">Acha</string>
+    <string name="hours_label_description">saa</string>
+    <string name="minutes_label_description">dakika</string>
+    <string name="seconds_label_description">sekunde</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+</resources>

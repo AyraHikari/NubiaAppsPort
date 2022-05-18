@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="@color/gray" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageButton android:id="@id/back" android:background="@drawable/back_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="60.0px" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_name" android:fontFamily="nubiafont-medium" android:layout_toEndOf="@id/back" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/gif_cancel_tvbg" android:ellipsize="marquee" android:gravity="center" android:id="@id/save" android:background="@drawable/nubia_ab_text_button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/nubia_action_mode_close_button_max_width" android:text="@string/save" android:maxLines="1" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/view1" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0" android:tileMode="repeat">
+        <com.GifEncoder.LooperShowView android:id="@id/makeplay" android:layout_width="fill_parent" android:layout_height="@dimen/show_view_dimen" android:layout_marginTop="@dimen/show_view_top_dimen" android:minWidth="@dimen/show_view_max_dimen" android:minHeight="@dimen/show_view_min_dimen" android:layout_marginStart="@dimen/show_view_left_dimen" android:layout_marginEnd="@dimen/show_view_right_dimen" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="@dimen/makegif_button_group_height">
+        <LinearLayout android:orientation="horizontal" android:background="@color/gray" android:layout_width="wrap_content" android:layout_height="@dimen/dp_makegif_runbtn_heigh" android:layout_centerInParent="true">
+            <Button android:textColor="@color/gif_text_select" android:gravity="center" android:id="@id/rewind" android:background="@drawable/makegif_run_left_sel" android:layout_width="@dimen/dp_makegif_runbtn_width" android:layout_height="@dimen/dp_makegif_runbtn_heigh" android:text="@string/gif_rewind" android:singleLine="true" />
+            <Button android:textColor="@color/gif_text_unselect" android:gravity="center" android:id="@id/unrewind" android:background="@drawable/makegif_run_right" android:layout_width="@dimen/dp_makegif_runbtn_width" android:layout_height="@dimen/dp_makegif_runbtn_heigh" android:text="@string/gif_unrewind" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/gifmake_set" android:background="@drawable/makegif_setting" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+    <View android:background="@color/nubia_disabled_light" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_height">
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/rate_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_centerVertical="true">
+            <RadioButton android:textColor="@color/gif_text_unselect" android:gravity="center" android:id="@id/slow" android:background="@color/translate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="@string/rate_slow" android:drawableTop="@drawable/makegif_radiobtn_selctor" android:layout_weight="1.0" />
+            <RadioButton android:textColor="@color/gif_text_select" android:gravity="center" android:id="@id/middle" android:background="@color/translate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/rate_middle" android:drawableTop="@drawable/makegif_radiobtn_selctor" android:layout_weight="1.0" />
+            <RadioButton android:textColor="@color/gif_text_unselect" android:gravity="center" android:id="@id/fast" android:background="@color/translate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="@string/rate_fast" android:drawableTop="@drawable/makegif_radiobtn_selctor" android:layout_weight="1.0" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

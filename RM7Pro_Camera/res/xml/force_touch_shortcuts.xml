@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_force_touch_selfie" android:enabled="true" android:shortcutId="force_touch_selfie_shortcut" android:shortcutShortLabel="@string/force_touch_selfie_label" android:shortcutLongLabel="@string/force_touch_selfie_label">
+        <intent android:targetPackage="com.android.camera" android:action="com.android.camera.action.FORCE_TOUCH_ACTION_SELFIE" android:targetClass="com.android.camera.Camera" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_force_touch_video" android:enabled="true" android:shortcutId="force_touch_video_shortcut" android:shortcutShortLabel="@string/force_touch_video_label" android:shortcutLongLabel="@string/force_touch_video_label">
+        <intent android:targetPackage="com.android.camera" android:action="com.android.camera.action.FORCE_TOUCH_ACTION_VIDEO" android:targetClass="com.android.camera.Camera" />
+    </shortcut>
+</shortcuts>

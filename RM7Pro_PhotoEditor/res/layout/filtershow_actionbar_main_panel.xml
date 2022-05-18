@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/actionbar_view_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/backOrResetLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+                <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/hilit_color" android:gravity="center" android:id="@id/topBackButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/back" android:singleLine="true" android:onClick="onResetButtonClick" android:drawableStart="@drawable/back_white" android:fontFamily="nubiafont-medium" android:paddingEnd="5.0dip" android:layout_marginStart="2.0dip" />
+                <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/hilit_color" android:gravity="center" android:id="@id/topResetButton" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/btn_reset" android:singleLine="true" android:onClick="onResetButtonClick" android:fontFamily="nubiafont-medium" android:paddingEnd="5.0dip" android:layout_marginStart="16.0dip" />
+            </FrameLayout>
+            <ImageButton android:gravity="center" android:id="@id/topUndoButton" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_undo_selector" android:onClick="onUndoButtonClick" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:gravity="center" android:id="@id/topRedoButton" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_redo_selector" android:onClick="onRedoButtonClick" android:layout_marginStart="5.0dip" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/textview_enable_disable" android:gravity="center" android:id="@id/topSaveButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/save" android:singleLine="true" android:onClick="onSaveButtonClick" android:fontFamily="nubiafont-medium" android:paddingStart="5.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/actionbar_view_editor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/hilit_color" android:id="@id/actionbar_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apply_effect" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

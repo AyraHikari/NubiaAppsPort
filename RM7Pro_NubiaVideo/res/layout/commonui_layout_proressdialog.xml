@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/dialog_bgview" android:background="@android:color/transparent" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/dialog_animaview" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/common_ui_linelayout_delete">
+        <TextView android:gravity="center|top" android:id="@id/dialog_tv_title" android:background="@drawable/nubia_dialog_top_btn_default_normal" android:paddingTop="18.299988dip" android:clickable="true" android:text="@string/confirm" style="@style/common_ui_title" />
+        <View style="@style/common_ui_divider" />
+        <RelativeLayout android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="@color/dialog_conform_color" android:gravity="center" android:id="@id/dialog_tv1" android:background="@drawable/nubia_dialog_below_btn_default_material" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/nubia_progress_horizontal_material" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="?android:progressBarStyleHorizontal" />
+        </RelativeLayout>
+        <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="8.299988dip" />
+        <TextView android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="@color/nubia_activated_green" android:gravity="center" android:id="@id/dialog_tv2" android:background="@drawable/nubia_dialog_total_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/cancel" android:fontFamily="nubiafont-medium" />
+    </LinearLayout>
+</RelativeLayout>

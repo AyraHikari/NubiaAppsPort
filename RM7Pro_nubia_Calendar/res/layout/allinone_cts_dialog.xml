@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarThumbVertical="@drawable/nubia_scroll_view_thumb_vertical" android:layout_gravity="center_horizontal" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0px" android:layout_weight="1.0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <TextView android:textSize="@dimen/nubia_dialog_title_text_size" android:textColor="@color/cta_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cta_header" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/cta_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cta_list_1" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/cta_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/cta_list_2" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/cta_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/cta_list_3" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/cta_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/cta_list_4" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/nubia_dialog_title_text_size" android:textColor="@color/cta_text_color" android:textColorLink="@color/nubia_button_text_color_ok" android:id="@id/cta_agreen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cta_text" android:layout_marginStart="@dimen/nubia_alert_dialog_context_padding_right" android:layout_marginEnd="@dimen/nubia_alert_dialog_context_padding_right" />
+</LinearLayout>

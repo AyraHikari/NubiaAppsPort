@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/add_resource_fragment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/add_resource" android:background="@drawable/add_resource_background_rect" android:layout_width="80.0dip" android:layout_height="120.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="336.66406dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/res_add_video" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/res_video" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/res_add_audio" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/res_audio" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/res_add_image" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/res_image" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/add_resource_background_triangle" android:layout_below="@id/add_resource" />
+</RelativeLayout>

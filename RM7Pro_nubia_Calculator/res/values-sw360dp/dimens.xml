@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mfvc_appbar_primary_title_width">296.0dip</dimen>
+    <dimen name="mfvc_appbar_primary_title_width_landscape">592.0dip</dimen>
+    <dimen name="mtrl_calendar_day_size">40.0dip</dimen>
+    <dimen name="mtrl_calendar_day_size_corner">20.0dip</dimen>
+    <dimen name="result_padding_bottom_split">8.0dip</dimen>
+    <item type="dimen" name="result_padding_end_split">@dimen/mfvc_large_padding</item>
+    <dimen name="result_padding_top_split">0.0dip</dimen>
+    <dimen name="ripple_background_radius_float">24.0dip</dimen>
+    <dimen name="ripple_background_radius_split">24.0dip</dimen>
+</resources>

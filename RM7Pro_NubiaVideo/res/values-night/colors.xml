@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_navigation">#ff000000</color>
+    <color name="divider_line_color">#1affffff</color>
+    <color name="nubia_activated_green">#ffbd2020</color>
+    <color name="nubia_alert_dialog_list_item_color_checked">#fff44234</color>
+    <color name="nubia_background_green">#ffbd2020</color>
+    <color name="nubia_button_text_color_primary">#ffffffff</color>
+    <color name="nubia_common_activated_green">#ffffffff</color>
+    <color name="nubia_dialog_choice_title_text_color">#80ffffff</color>
+    <color name="nubia_dialog_message_text_color">#80ffffff</color>
+    <color name="nubia_dialog_title_text_color">#ffffffff</color>
+    <color name="nubia_pop_override_default_text_color">#d9ffffff</color>
+    <color name="nubia_pop_override_disable_text_color">#36ffffff</color>
+    <color name="nubia_primary_text_default_material_light">#e6ffffff</color>
+    <color name="nubia_privacy_setting_background">#ff000000</color>
+    <color name="nubia_ripple_material_light">#ff000000</color>
+    <color name="nubia_subprime_text_default_material_light">#80ffffff</color>
+    <color name="pression_tips_title_text_color">#e6ffffff</color>
+    <color name="txt_main_color">#ffffffff</color>
+    <color name="nubia_activated_red">#ffbd2020</color>
+    <color name="nubia_center_alert_dialog_title_color">#ffffffff</color>
+    <color name="nubia_character_normal_color">#4affffff</color>
+    <color name="nubia_emptyview_text_color">#4affffff</color>
+    <color name="nubia_hint_foreground_holo_light">#4affffff</color>
+    <color name="nubia_ic_ab_back_color">#ffffffff</color>
+    <color name="nubia_primary_text_material_light">#edffffff</color>
+    <color name="nubia_secondary_text_default_material_light">#80ffffff</color>
+    <color name="nubia_wheelview_middle_zone_color">#ff252733</color>
+    <color name="nubia_wheelview_text_color">#ffffffff</color>
+    <color name="seekbar_background">#c8000000</color>
+    <color name="seekbar_textcolor">#40ffffff</color>
+    <color name="user_dialog_title">#e6ffffff</color>
+</resources>

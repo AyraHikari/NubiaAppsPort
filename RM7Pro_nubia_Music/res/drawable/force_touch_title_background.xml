@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/force_touch_round_radius" android:topRightRadius="@dimen/force_touch_round_radius" />
+    <solid android:color="@color/force_touch_title_background" />
+</shape>

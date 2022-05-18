@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>予定あり</item>
+        <item>予定なし</item>
+        <item>仮承諾</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>日</item>
+        <item>週</item>
+        <item>月</item>
+        <item>予定リスト</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>この予定のみ</item>
+        <item>繰り返す予定すべて</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>この日の予定のみ</item>
+        <item>これ以降の予定</item>
+        <item>すべての予定</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>これ以降の予定</item>
+        <item>すべての予定</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第1</item>
+        <item>第2</item>
+        <item>第3</item>
+        <item>第4</item>
+        <item>最終</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>常に使用</item>
+        <item>マナーモード時のみ</item>
+        <item>使用しない</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Non rappeler</item>
+        <item>0 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>24 heures</item>
+        <item>1 semaine</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ユーザーの言語/地域でのデフォルト設定</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+        <item>月曜日</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>数分遅れています。</item>
+        <item>10分ほどで着きます。</item>
+        <item>先に始めていてください。</item>
+        <item>申し訳ありませんが、参加できません。日程を変更させてください。</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notification</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Alarme</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Non rappeler</item>
+        <item>0 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>24 heures</item>
+        <item>1 semaine</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>応答がありません</item>
+        <item>はい</item>
+        <item>未定</item>
+        <item>いいえ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>マーシャル諸島</item>
+        <item>ミッドウェー諸島</item>
+        <item>ハワイ</item>
+        <item>アラスカ</item>
+        <item>太平洋標準時</item>
+        <item>ティフアナ</item>
+        <item>アリゾナ</item>
+        <item>チワワ</item>
+        <item>山地標準時</item>
+        <item>中央アメリカ</item>
+        <item>中部標準時</item>
+        <item>メキシコシティ</item>
+        <item>サスカチュワン</item>
+        <item>ボゴタ</item>
+        <item>東部標準時</item>
+        <item>ベネズエラ</item>
+        <item>大西洋時間（バルバドス）</item>
+        <item>大西洋時間（カナダ）</item>
+        <item>マナウス</item>
+        <item>サンティアゴ</item>
+        <item>ニューファンドランド</item>
+        <item>ブラジリア</item>
+        <item>ブエノスアイレス</item>
+        <item>グリーンランド</item>
+        <item>モンテビデオ</item>
+        <item>中部大西洋</item>
+        <item>アゾレス</item>
+        <item>カボベルデ諸島</item>
+        <item>カサブランカ</item>
+        <item>ロンドン、ダブリン</item>
+        <item>アムステルダム、ベルリン</item>
+        <item>ベオグラード</item>
+        <item>ブリュッセル</item>
+        <item>サラエボ</item>
+        <item>ウィントフック</item>
+        <item>西アフリカ標準時</item>
+        <item>アンマン、ヨルダン</item>
+        <item>アテネ、イスタンブール</item>
+        <item>ベイルート、レバノン</item>
+        <item>カイロ</item>
+        <item>ヘルシンキ</item>
+        <item>エルサレム</item>
+        <item>ミンスク</item>
+        <item>ハラーレ</item>
+        <item>バグダッド</item>
+        <item>モスクワ</item>
+        <item>クウェート</item>
+        <item>ナイロビ</item>
+        <item>テヘラン</item>
+        <item>バクー</item>
+        <item>トビリシ</item>
+        <item>エレバン</item>
+        <item>ドバイ</item>
+        <item>カブール</item>
+        <item>イスラマーバード、カラチ</item>
+        <item>ウラリスク</item>
+        <item>エカテリンブルグ</item>
+        <item>コルカタ</item>
+        <item>スリランカ</item>
+        <item>カトマンズ</item>
+        <item>アスタナ</item>
+        <item>ヤンゴン</item>
+        <item>クラスノヤルスク</item>
+        <item>バンコク</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>イルクーツク</item>
+        <item>クアラルンプール</item>
+        <item>パース</item>
+        <item>台北</item>
+        <item>ソウル</item>
+        <item>東京、大阪</item>
+        <item>ヤクーツク</item>
+        <item>アデレード</item>
+        <item>ダーウィン</item>
+        <item>ブリスベン</item>
+        <item>ホバート</item>
+        <item>シドニー、キャンベラ</item>
+        <item>ウラジオストク</item>
+        <item>グアム</item>
+        <item>マガダン</item>
+        <item>オークランド</item>
+        <item>フィジー</item>
+        <item>トンガ</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>デフォルト</item>
+        <item>限定公開</item>
+        <item>一般公開</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>デフォルト</item>
+        <item>ミュート</item>
+        <item>バイブレーション</item>
+        <item>着信音</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>マップ</item>
+        <item>天気</item>
+        <item>フード</item>
+        <item>移動</item>
+        <item>ホテル</item>
+    </string-array>
+    <string-array name="month_top_display">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>日付に切り替え</item>
+        <item>予定表</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>「日曜日」</item>
+        <item>「月曜日」</item>
+        <item>「火曜日」</item>
+        <item>「水曜日」</item>
+        <item>「木曜日」</item>
+        <item>「金曜日」</item>
+        <item>「土曜日」</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>日曜</item>
+        <item>月曜</item>
+        <item>火曜</item>
+        <item>水曜</item>
+        <item>木曜</item>
+        <item>金曜</item>
+        <item>土曜</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>写真を撮る</item>
+        <item>画像</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>常に使用</item>
+        <item>一回のみ</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>本日 9:00</item>
+        <item>前日 9:00</item>
+        <item>前々日 9:00</item>
+        <item>1週間前 9:00</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day_of_birthday">
+        <item>なし</item>
+        <item>本日 9:00</item>
+        <item>前日 9:00</item>
+        <item>前々日 9:00</item>
+        <item>1週間前 9:00</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>人造人間ビーム</item>
+        <item>メール送信</item>
+        <item>Bluetooth</item>
+        <item>メッセージ</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+</resources>

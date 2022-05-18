@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.common.ui.RotateLayout android:id="@id/videomaker_tip_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.common.ui.RotateImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_5" android:src="@drawable/videomaker_tip" />
+        <TextView android:id="@id/tips_text" android:text="@string/video_maker_tip" style="@style/TopTipStyle" />
+    </LinearLayout>
+</com.android.common.ui.RotateLayout>

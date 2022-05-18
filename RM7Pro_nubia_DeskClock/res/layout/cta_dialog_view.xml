@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/cta_messsage" android:padding="0.0dip" android:paddingBottom="@dimen/nubia_center_dialog_vertical_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/nubia_dialog_title_text_size" android:textColor="@color/nubia_dialog_title_text_color" android:gravity="left" android:id="@id/cta_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cta_warning_text" android:layout_marginStart="@dimen/nubia_center_dialog_horizontal_margin" android:layout_marginEnd="@dimen/nubia_center_dialog_horizontal_margin" />
+</ScrollView>

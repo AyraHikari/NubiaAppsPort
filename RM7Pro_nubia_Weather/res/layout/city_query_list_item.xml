@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/weather_cityadd_query_city_text_padding_left" android:paddingRight="@dimen/weather_cityadd_query_city_text_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_item_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/weather_cityadd_query_city_textSize" android:textColor="@color/city_query_list_text_color" android:layout_gravity="center_vertical" android:id="@id/citylst_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/weather_cityadd_query_city_textSize" android:textColor="@color/city_query_list_text_color" android:layout_gravity="center_vertical" android:id="@id/citylst_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/weather_cityadd_query_city_textSize" android:textColor="@color/city_query_list_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/citylst_province" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/weather_cityadd_query_city_textSize" android:textColor="@color/city_query_list_text_color" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/citylst_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

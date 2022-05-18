@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/nubia_ripple_color_gray"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <nine-patch android:src="@drawable/btn_circle_middle_normal" android:tint="@color/nubia_disabled_dark" />
+            </item>
+            <item android:state_pressed="true" android:drawable="@drawable/btn_circle_middle_pressed" />
+            <item>
+                <nine-patch android:src="@drawable/btn_circle_middle_normal" android:tint="@color/nubia_normal_secondary_dark" />
+            </item>
+        </selector>
+    </item>
+</ripple>

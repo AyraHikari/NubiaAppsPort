@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>Continuer</item>
+    </string-array>
+    <string-array name="restore_dialog_title">
+        <item>Restaurer NotePad</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>Partage par texte</item>
+        <item>Partage par image</item>
+    </string-array>
+</resources>

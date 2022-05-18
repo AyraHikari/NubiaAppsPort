@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/list" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_alert_dialog_button_layout_height">
+        <TextView android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:id="@id/manage_sync_set" android:background="@drawable/nubia_btn_default_material" android:layout_width="@dimen/calendar_select_count" android:layout_height="@dimen/nubia_alert_dialog_button_height" android:text="@string/add_account" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

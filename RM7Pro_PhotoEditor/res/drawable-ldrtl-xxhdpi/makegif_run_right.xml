@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/dp_makegif_run_conner" android:bottomLeftRadius="@dimen/dp_makegif_run_conner" />
+    <stroke android:width="1.0dip" android:color="@color/color_makegif_run_sel" />
+    <solid android:color="@color/color_makegif_run" />
+</shape>

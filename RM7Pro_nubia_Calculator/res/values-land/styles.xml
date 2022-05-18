@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DisplayLayoutStyle">
+        <item name="android:layout_weight">46.0</item>
+    </style>
+    <style name="DisplayTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">end|bottom|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+    <style name="DisplayTextStyle.Formula" parent="@style/DisplayTextStyle">
+        <item name="android:textColor">@drawable/text_select_handle</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/formula_padding_top</item>
+        <item name="android:paddingBottom">@dimen/formula_padding_bottom</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="android:textCursorDrawable">@drawable/edit_cursor_port</item>
+        <item name="android:paddingStart">@dimen/formula_padding_start</item>
+        <item name="android:paddingEnd">@dimen/formula_padding_end</item>
+        <item name="fontFamily">@font/zdigit_medium</item>
+        <item name="maxTextSize">@dimen/formula_max_textsize</item>
+        <item name="minTextSize">@dimen/formula_min_textsize</item>
+        <item name="stepTextSize">@dimen/formula_step_textsize</item>
+    </style>
+    <style name="DisplayTextStyle.FormulaZoom" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/formula_textsize_zoom</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/formula_padding_top</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="android:textCursorDrawable">@drawable/edit_cursor_port</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingStart">@dimen/formula_padding_start</item>
+        <item name="android:paddingEnd">@dimen/formula_padding_end_zoom</item>
+    </style>
+    <style name="DisplayTextStyle.Result" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/result_textsize</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/result_padding_top</item>
+        <item name="android:paddingBottom">@dimen/result_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+        <item name="fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="DisplayTextStyle.ResultZoom" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/result_textsize_zoom</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/result_padding_top_zoom</item>
+        <item name="android:paddingBottom">@dimen/result_padding_bottom</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end_zoom</item>
+    </style>
+    <style name="PadButtonStyle.Advanced" parent="@style/PadButtonStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle.Advanced.Text" parent="@style/PadButtonStyle.Advanced">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle.ImageButton" parent="@style/PadButtonStyle">
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg</item>
+    </style>
+    <style name="PadButtonStyle.Numeric" parent="@style/PadButtonStyle">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/simple_numeric_text_color</item>
+        <item name="android:background">@drawable/pad_button_background_numeric</item>
+        <item name="android:layout_weight">11.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Equals" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/equal_text_background_color</item>
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_weight">14.0</item>
+    </style>
+    <style name="PadButtonStyle.Operator" parent="@style/PadButtonStyle">
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:layout_weight">14.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Add" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/div_background_land</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Del" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/portrait_blackspace_icon</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Div" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/div_background_land</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Eq" parent="@style/PadButtonStyle.Operator">
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:src">@drawable/ic_equal_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Mul" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/div_background_land</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Sub" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/div_background_land</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Text" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadLayoutStyle.Advanced" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">33.0</item>
+    </style>
+    <style name="PadLayoutStyle.Numeric" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">47.0</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Zero" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:paddingRight">92.5dip</item>
+    </style>
+    <style name="PadButtonStyle.Clr" parent="@style/PadButtonStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="EmptyHistoryBlankViewStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">3.5</item>
+    </style>
+    <style name="EmptyHistoryViewStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="HistoryItemTextStyleZoom" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/history_textsize_zoom</item>
+        <item name="android:layout_gravity">end|bottom|center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+    </style>
+    <style name="PadButtonStyle.Advanced.Inv" parent="@style/PadButtonStyle.Advanced">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@drawable/corner_left</item>
+        <item name="android:foreground">@drawable/button_ripple_bg</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

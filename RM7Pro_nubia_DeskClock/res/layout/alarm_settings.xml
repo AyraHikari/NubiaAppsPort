@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/scroll_list_Extra" android:background="@color/main_layout_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/controls" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.nubia.deskclock.ui.SnoozeSettingView android:id="@id/snooze_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_alarm_min_height" />
+        <cn.nubia.deskclock.ui.AlarmTypeSettingView android:id="@id/alarm_type_setting" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_alarm_min_height" android:paddingStart="@dimen/add_alarm_padding" android:paddingEnd="@dimen/add_alarm_padding" />
+        <cn.nubia.deskclock.ui.AlarmPowoffSettingView android:id="@id/alarm_poweroff_alarm1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_alarm_min_height" android:paddingStart="@dimen/add_alarm_padding" android:paddingEnd="@dimen/add_alarm_padding" />
+        <cn.nubia.deskclock.ui.AlertIncreasingSettingView android:id="@id/alert_increasing_alarm1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_alarm_other_min_height" android:paddingStart="@dimen/add_alarm_padding" android:paddingEnd="@dimen/add_alarm_padding" />
+        <cn.nubia.deskclock.ui.ShowNextAlarmPointSettingView android:id="@id/show_next_alarm_point" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/add_alarm_other_min_height" android:paddingStart="@dimen/add_alarm_padding" android:paddingEnd="@dimen/add_alarm_padding" />
+    </LinearLayout>
+</RelativeLayout>

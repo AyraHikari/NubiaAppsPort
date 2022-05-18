@@ -1,0 +1,103 @@
+﻿<head>
+    <title>this is js binding test</title>
+</head>
+<body style='background-color:#99CC99'>
+<script>
+function javaToJsWith(arg){
+    document.getElementById("content").innerHTML=arg;
+}
+function getUDID() {
+    var udid = window.nubia.getUDID();
+    document.getElementById("content").innerHTML="<font color='red'>"+udid+"</font>";
+}
+function getAppid() {
+    var appid = window.nubia.getAppid();
+    document.getElementById("content").innerHTML="<font color='red'>"+appid+"</font>";
+}
+function freezeTimestamp() {
+    var timestamp = window.nubia.freezeTimestamp();
+    document.getElementById("content").innerHTML="<font color='red'>"+timestamp+"</font>";
+}
+
+function getPlaintext() {
+    var text = window.nubia.getPlaintext();
+    document.getElementById("content").innerHTML="<font color='red'>"+text+"</font>";
+}
+
+function getCiphertext() {
+    var text = window.nubia.getCiphertext();
+    document.getElementById("content").innerHTML="<font color='red'>"+text+"</font>";
+}
+
+
+function encryText() {
+    var plain = "nubia_76dd7718460458e384bb7e06b680c0e0_1069_1576141885426"; //这个字串是个举例，代表js想做加密的明文
+    var ciphertext = window.nubia.encryText(plain);
+    document.getElementById("content").innerHTML="<font color='red'>明文是:<br/>"+plain+"<br/>密文是:<br/>"+ciphertext+"</font>";
+}
+
+
+</script>
+<h3>this is web page content.</h3>
+<div id="content"></div>
+<br/>
+
+
+<h3>努比亚所提供给js的方法均以window.nubia这个jsbinding对象来提供，如获取udid：</h3>
+<h4>window.nubia.getUDID()<h4>
+    <br/>
+<style>
+    table.dataintable {
+        margin-top: 15px;
+
+        border: 1px solid #aaa;
+        width: 100%;
+        font-size:xx-small;
+    }
+</style>
+<table class="dataintable">
+    <tbody><tr>
+        <th style="width:20%;">函数名</th>
+        <th style="width:20%;">测试</th>
+        <th>描述</th>
+    </tr>
+
+    <tr>
+        <td>getUDID()</td>
+        <td><input type="button"  onclick="getUDID()" value="点我测试"/></td>
+        <td>获取手机唯一ID</td>
+    </tr>
+
+    <tr>
+        <td>getAppid()</td>
+        <td><input type="button"  onclick="getAppid()" value="点我测试"/></td>
+        <td>获取乐播分配的appid</td>
+    </tr>
+
+    <tr>
+        <td>freezeTimestamp()</td>
+        <td><input type="button"  onclick="freezeTimestamp()" value="点我测试"/></td>
+        <td>固定并获取当前时间戳，再调后面获取密文时会以该时间信息参与加密</td>
+    </tr>
+
+    <tr>
+        <td>getPlaintext()</td>
+        <td><input type="button"  onclick="getPlaintext()" value="点我测试"/></td>
+        <td>获取按照nubia_udid_appid_timestamp格式组合的字串，其中时间部分是freezeTimestamp()确定的时间</td>
+    </tr>
+
+    <tr>
+        <td>getCiphertext()</td>
+        <td><input type="button"  onclick="getCiphertext()" value="点我测试"/></td>
+        <td>获取按照nubia_udid_appid_timestamp格式组合的明文所对应的密文</td>
+    </tr>
+
+    <tr>
+        <td>encryText()</td>
+        <td><input type="button"  onclick="encryText()" value="点我测试"/></td>
+        <td>JS可以直接送段完整的明文来做加密，返回加密后的密文</td>
+    </tr>
+
+    </tbody></table>
+
+</body>

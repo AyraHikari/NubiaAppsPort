@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#b2000000" android:gravity="start" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cta_text" android:layout_marginStart="@dimen/weather_cta_dialog_text_margin_start" android:layout_marginEnd="@dimen/weather_cta_dialog_text_margin_end" style="?android:attr/textAppearanceMedium" />
+</ScrollView>

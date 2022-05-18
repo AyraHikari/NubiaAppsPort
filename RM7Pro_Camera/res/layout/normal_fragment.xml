@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.camera.composition.CompositionView android:id="@id/composition_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/normal_ai_layout" />
+    <include layout="@layout/multi_shoot_view" />
+    <com.android.common.ui.ZtemtFunEffectSlider android:id="@id/fun_effect_page" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include layout="@layout/camera_picker_layout" />
+    <include layout="@layout/stop_bottombar" style="@style/InnerBottomBarSize" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/dimens_30" android:layout_marginBottom="@dimen/super_microspur_bottom_margin" android:layout_alignParentBottom="true" layout="@layout/switch_night_scene_hint_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/dimens_30" android:layout_marginBottom="@dimen/super_microspur_bottom_margin" android:layout_alignParentBottom="true" layout="@layout/switch_microsuper_hint_layout" />
+    <TextView android:id="@id/preview_tip_48M" android:visibility="gone" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/hint_48M" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/permanent_hint" />
+</RelativeLayout>

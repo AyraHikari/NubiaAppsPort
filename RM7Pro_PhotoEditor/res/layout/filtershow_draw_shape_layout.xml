@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/draw_shape_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/draw_shape_undo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_undo_selector" android:layout_alignParentStart="true" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/draw_shape_redo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/icon_redo_selector" android:layout_toEndOf="@id/draw_shape_undo" />
+    <ImageView android:id="@id/graffitiShapeArrow" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_edit_graffiti_arrow_btns" android:scaleType="center" android:layout_marginEnd="7.669983dip" />
+    <ImageView android:id="@id/graffitiShapeLine" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_edit_graffiti_line_btns" android:scaleType="center" android:layout_marginStart="7.669983dip" android:layout_marginEnd="7.669983dip" />
+    <ImageView android:id="@id/graffitiShapeRect" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_edit_graffiti_rect_btns" android:scaleType="center" android:layout_marginStart="7.669983dip" android:layout_marginEnd="7.669983dip" />
+    <ImageView android:id="@id/graffitiShapeCircle" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_edit_graffiti_circle_btns" android:scaleType="center" android:layout_marginStart="7.669983dip" />
+</LinearLayout>

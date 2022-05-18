@@ -1,0 +1,148 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: RM7Pro_PhotoEditor.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- png
+- so
+- lib/armeabi-v7a/librs.convolve3x3.so
+- lib/armeabi-v7a/librs.grad.so
+- lib/armeabi-v7a/librs.grey.so
+- lib/armeabi-v7a/librs.saturation.so
+- lib/armeabi-v7a/librs.vignette.so
+- res/drawable-hdpi-v4/actionbar_translucent.9.png
+- res/drawable-hdpi-v4/color_checked_box.9.png
+- res/drawable-hdpi-v4/filtershow_scrubber_primary.9.png
+- res/drawable-hdpi-v4/filtershow_scrubber_secondary.9.png
+- res/drawable-hdpi-v4/filtershow_scrubber_track.9.png
+- res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-hdpi-v4/notification_bg_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-ldrtl-xxhdpi-v4/dialog_left_btn_normal.9.png
+- res/drawable-ldrtl-xxhdpi-v4/dialog_left_btn_pressed.9.png
+- res/drawable-ldrtl-xxhdpi-v4/dialog_right_btn_normal.9.png
+- res/drawable-ldrtl-xxhdpi-v4/dialog_right_btn_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-night-xxhdpi-v8/nubia_btn_default_normal_mtrl_bg.9.png
+- res/drawable-night-xxhdpi-v8/nubia_btn_default_pressed_mtrl_bg.9.png
+- res/drawable-night-xxhdpi-v8/nubia_center_alert_dialog_btn_default_normal_mtrl_bg.9.png
+- res/drawable-night-xxhdpi-v8/nubia_center_alert_dialog_btn_default_pressed_mtrl_bg.9.png
+- res/drawable-night-xxhdpi-v8/nubia_dialog_background_bottom.9.png
+- res/drawable-night-xxhdpi-v8/nubia_dialog_background_center.9.png
+- res/drawable-night-xxhdpi-v8/nubia_dialog_total_btn_default_normal.9.png
+- res/drawable-night-xxhdpi-v8/nubia_dialog_total_btn_default_pressed.9.png
+- res/drawable-night-xxhdpi-v8/nubia_progress_mtrl_background.9.png
+- res/drawable-night-xxhdpi-v8/nubia_progress_mtrl_progress.9.png
+- res/drawable-night-xxhdpi-v8/nubia_progress_mtrl_secondaryprogress.9.png
+- res/drawable-night-xxhdpi-v8/nubia_switch_thumb_mtrl_disabled.9.png
+- res/drawable-night-xxhdpi-v8/nubia_switch_thumb_mtrl_on_off.9.png
+- res/drawable-night-xxhdpi-v8/nubia_switch_track_mtrl_off.9.png
+- res/drawable-nodpi-v4/geometry_shadow.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xxhdpi-v4/blue_normal.9.png
+- res/drawable-xxhdpi-v4/blue_pressed.9.png
+- res/drawable-xxhdpi-v4/choose_bottom.9.png
+- res/drawable-xxhdpi-v4/choose_header.9.png
+- res/drawable-xxhdpi-v4/dialog_left_btn_normal.9.png
+- res/drawable-xxhdpi-v4/dialog_left_btn_pressed.9.png
+- res/drawable-xxhdpi-v4/dialog_right_btn_normal.9.png
+- res/drawable-xxhdpi-v4/dialog_right_btn_pressed.9.png
+- res/drawable-xxhdpi-v4/green_normal.9.png
+- res/drawable-xxhdpi-v4/green_pressed.9.png
+- res/drawable-xxhdpi-v4/ic_git_bottom_bg.9.png
+- res/drawable-xxhdpi-v4/item_normal.9.png
+- res/drawable-xxhdpi-v4/item_selected.9.png
+- res/drawable-xxhdpi-v4/menuframe.9.png
+- res/drawable-xxhdpi-v4/nubia_ab_text_button_bg_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_ab_text_button_bg_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_alert_dialog_btn_default_disabled_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_alert_dialog_btn_default_pressed_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_btn_default_disabled_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_btn_default_mask_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_btn_default_normal_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_btn_default_pressed_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_center_alert_dialog_btn_default_normal_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_center_alert_dialog_btn_default_pressed_mtrl_bg.9.png
+- res/drawable-xxhdpi-v4/nubia_center_alert_dialog_left_btn_default_press.9.png
+- res/drawable-xxhdpi-v4/nubia_center_alert_dialog_right_btn_default_press.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_background.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_background_bottom.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_background_center.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_background_transparent.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_below_btn_default_disabled.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_below_btn_default_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_below_btn_default_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_below_btn_mask.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_disabled.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_normal_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_normal_new.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_default_pressed_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_left_btn_mask.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_mid_btn_default_normal_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_mid_btn_default_pressed_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_middle_btn_default_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_right_btn_default_normal_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_right_btn_default_normal_new.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_right_btn_default_pressed_borderless.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_top_btn_default_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_total_btn_default_disabled.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_total_btn_default_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_total_btn_default_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_dialog_total_btn_mask.9.png
+- res/drawable-xxhdpi-v4/nubia_list_divider_through.9.png
+- res/drawable-xxhdpi-v4/nubia_menu_item_background_normal.9.png
+- res/drawable-xxhdpi-v4/nubia_menu_item_background_pressed.9.png
+- res/drawable-xxhdpi-v4/nubia_menu_item_top_background_normal_dark.9.png
+- res/drawable-xxhdpi-v4/nubia_menu_item_top_background_pressed_dark.9.png
+- res/drawable-xxhdpi-v4/nubia_progress_mtrl_background.9.png
+- res/drawable-xxhdpi-v4/nubia_progress_mtrl_progress.9.png
+- res/drawable-xxhdpi-v4/nubia_progress_mtrl_secondaryprogress.9.png
+- res/drawable-xxhdpi-v4/nubia_scrubber_progress_mtrl_background.9.png
+- res/drawable-xxhdpi-v4/nubia_scrubber_progress_mtrl_disabled.9.png
+- res/drawable-xxhdpi-v4/nubia_scrubber_progress_mtrl_progress.9.png
+- res/drawable-xxhdpi-v4/nubia_scrubber_progress_mtrl_secondaryprogress.9.png
+- res/drawable-xxhdpi-v4/nubia_switch_thumb_mtrl_disabled.9.png
+- res/drawable-xxhdpi-v4/nubia_switch_thumb_mtrl_on_off.9.png
+- res/drawable-xxhdpi-v4/nubia_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/nubia_switch_track_mtrl_off.9.png
+- res/drawable-xxhdpi-v4/nubia_tab_background_normal.9.png
+- res/drawable-xxhdpi-v4/quality_cancle_normal.9.png
+- res/drawable-xxhdpi-v4/quality_cancle_pressed.9.png
+- res/drawable-xxhdpi-v4/red_normal.9.png
+- res/drawable-xxhdpi-v4/red_pressed.9.png
+- res/drawable-xxhdpi-v4/toast.9.png
+- res/drawable-xxhdpi-v4/toast_new.9.png
+- res/drawable-xxhdpi-v4/tool_bar_bg.9.png
+- jpg
+- res/drawable/item_normal.9.png
+- res/drawable/item_selected.9.png
+- res/drawable/menuframe.9.png
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.0-dirty
+versionInfo:
+  versionCode: '5'
+  versionName: neovision10.0 V11.0.36

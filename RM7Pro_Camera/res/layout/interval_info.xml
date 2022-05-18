@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/interval_info_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/interval_count_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/interval_count" android:layout_marginBottom="@dimen/dimens_10" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/interval_countdown_layout" android:paddingTop="@dimen/dimens_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/dimens_16" android:id="@id/interval_countdown" android:background="@drawable/intervalometer_text_bg" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/CountDownText" />
+    </RelativeLayout>
+</RelativeLayout>

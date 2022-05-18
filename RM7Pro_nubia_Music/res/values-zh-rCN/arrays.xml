@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>关闭倒计时</item>
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>45 分钟</item>
+        <item>60 分钟</item>
+        <item>90 分钟</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>虾米热门</item>
+        <item>经典老歌</item>
+        <item>新歌</item>
+        <item>英文首首耐听</item>
+        <item>节奏控</item>
+        <item>华语流行</item>
+        <item>陪你入眠</item>
+        <item>粤语老歌</item>
+        <item>轻音乐</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>虾米音乐榜</item>
+        <item>虾米新歌榜</item>
+        <item>虾米原创榜</item>
+        <item>Oricon公信榜</item>
+        <item>香港劲歌金榜</item>
+        <item>billboard榜</item>
+        <item>hito中文榜</item>
+        <item>M-net周榜</item>
+        <item>英国UK榜</item>
+    </string-array>
+    <string-array name="content_str_select_quality_normal">
+        <item>标准</item>
+        <item>高品质</item>
+    </string-array>
+    <string-array name="content_str_select_quility">
+        <item>标准</item>
+        <item>高品质</item>
+        <item>无损品质</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+</resources>

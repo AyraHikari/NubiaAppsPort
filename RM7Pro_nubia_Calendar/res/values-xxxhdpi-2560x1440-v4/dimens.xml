@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="day_label_text_size">14.0sp</dimen>
+    <dimen name="hours_text_size">12.0sp</dimen>
+    <dimen name="nubia_action_menu_text_size">12.0sp</dimen>
+    <dimen name="actionbar_padding">20.0dip</dimen>
+    <dimen name="ampm_left_margin">2.0dip</dimen>
+    <dimen name="hour_width">40.0dip</dimen>
+    <dimen name="hours_right_margin">2.0dip</dimen>
+    <dimen name="weekdate_height">80.0dip</dimen>
+</resources>

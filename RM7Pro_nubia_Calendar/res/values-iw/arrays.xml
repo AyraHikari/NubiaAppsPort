@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>לא פנוי</item>
+        <item>זמין</item>
+        <item>לא סופי</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>יום</item>
+        <item>שבוע</item>
+        <item>חודש</item>
+        <item>סדר יום</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>אירוע זה בלבד</item>
+        <item>כל האירועים בסדרה</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>רק אירוע זה</item>
+        <item>אירוע זה ואירועים עתידיים</item>
+        <item>כל האירועים</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>אירוע זה ואירועים עתידיים</item>
+        <item>כל האירועים</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>אחרון</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>תמיד</item>
+        <item>במצב שקט בלבד</item>
+        <item>אף פעם</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ללא</item>
+        <item>0 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+        <item>30 דקות</item>
+        <item>שעה אחת</item>
+        <item>יום אח</item>
+        <item>שבוע אחד</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ברירת מחדל של מיקום</item>
+        <item>יום שבת</item>
+        <item>יום ראשון</item>
+        <item>יום שני</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>אאחר רק בכמה דקות.</item>
+        <item>אגיע בערך עוד 10 דקות.</item>
+        <item>תתחילו בלעדי.</item>
+        <item>סליחה, לא אצליח להגיע. נצטרך לקבוע מועד חדש.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>התראה</item>
+        <item>דוא\"ל</item>
+        <item>SMS</item>
+        <item>התראה</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>ללא</item>
+        <item>0 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>15 דקות</item>
+        <item>30 דקות</item>
+        <item>שעה אחת</item>
+        <item>יום אח</item>
+        <item>שבוע אחד</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>אין תגובה</item>
+        <item>כן</item>
+        <item>אולי</item>
+        <item>לא</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>איי מרשל</item>
+        <item>האי מידוויי</item>
+        <item>הוואי</item>
+        <item>אלסקה</item>
+        <item>שעון האוקיינוס השקט</item>
+        <item>טיחואנה</item>
+        <item>אריזונה</item>
+        <item>"צ'יוואווה"</item>
+        <item>שעון אזור ההרים</item>
+        <item>מרכז אמריקה</item>
+        <item>שעון מרכז</item>
+        <item>מקסיקו סיטי</item>
+        <item>"ססקאצ'וון"</item>
+        <item>בוגוטה</item>
+        <item>שעון החוף המזרחי</item>
+        <item>ונצואלה</item>
+        <item>אזור זמן אטלנטי (ברבדוס)</item>
+        <item>אזור זמן אטלנטי (קנדה)</item>
+        <item>מאנוס</item>
+        <item>סנטיאגו</item>
+        <item>ניופאונדלנד</item>
+        <item>ברזיליה</item>
+        <item>בואנוס איירס</item>
+        <item>גרינלנד</item>
+        <item>מונטווידאו</item>
+        <item>מרכז-אטלנטי</item>
+        <item>האיים האזורים</item>
+        <item>איי קייפ ורדה</item>
+        <item>קזבלנקה</item>
+        <item>לונדון, דבלין</item>
+        <item>אמסטרדם, ברלין</item>
+        <item>בלגרד</item>
+        <item>בריסל</item>
+        <item>סרייבו</item>
+        <item>וינדהוק</item>
+        <item>שעון מערב אפריקה</item>
+        <item>עמאן, ירדן</item>
+        <item>אתונה, איסטנבול</item>
+        <item>ביירות, לבנון</item>
+        <item>קהיר</item>
+        <item>הלסינקי</item>
+        <item>ירושלים</item>
+        <item>מינסק</item>
+        <item>הארארה</item>
+        <item>בגדד</item>
+        <item>מוסקבה</item>
+        <item>כוויית</item>
+        <item>ניירובי</item>
+        <item>טהרן</item>
+        <item>באקו</item>
+        <item>טביליסי</item>
+        <item>ירוואן</item>
+        <item>דובאי</item>
+        <item>קאבול</item>
+        <item>"איסלמבאד, קאראצ'י"</item>
+        <item>אורל</item>
+        <item>יקטרינבורג</item>
+        <item>כלכותה</item>
+        <item>סרי לנקה</item>
+        <item>קטמנדו</item>
+        <item>אסטנה</item>
+        <item>יאנגון</item>
+        <item>קרסנויארסק</item>
+        <item>בנגקוק</item>
+        <item>"בייג'ינג"</item>
+        <item>הונג קונג</item>
+        <item>אירקוטסק</item>
+        <item>קואלה לומפור</item>
+        <item>"פרת'"</item>
+        <item>טייפה</item>
+        <item>סיאול</item>
+        <item>טוקיו, אוסקה</item>
+        <item>יקוטסק</item>
+        <item>אדלייד</item>
+        <item>דארווין</item>
+        <item>בריסביין</item>
+        <item>הובארט</item>
+        <item>סידני, קנברה</item>
+        <item>ולדיווסטוק</item>
+        <item>גואם</item>
+        <item>מגדן</item>
+        <item>אוקלנד</item>
+        <item>"פיג'י"</item>
+        <item>טונגה</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>ברירת מחדל</item>
+        <item>פרטי</item>
+        <item>ציבורי</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>ב.מחדל</item>
+        <item>שקט</item>
+        <item>רטט</item>
+        <item>צלצול</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>מפה</item>
+        <item>מזג אוויר</item>
+        <item>אוכל</item>
+        <item>טיסה</item>
+        <item>מלון</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>לעבור עד כה</item>
+        <item>רשימת סדר היום</item>
+        <item>הגדרה</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>צלם תמונה</item>
+        <item>תמונות</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>תמיד</item>
+        <item>לעולם לא</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>דוא\"ל</item>
+        <item>Bluetooth</item>
+        <item>הודעה</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>יָנוּאָר</item>
+        <item>פברואר</item>
+        <item>צְעוּדָה</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>מָלֵא הוֹד</item>
+        <item>סֶפּטֶמבֶּר</item>
+        <item>אוֹקְטוֹבֶּר</item>
+        <item>נוֹבֶמבֶּר</item>
+        <item>דֵצֶמבֶּר</item>
+    </string-array>
+</resources>

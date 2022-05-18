@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/share_panel_imageitem_left_padding" android:paddingRight="@dimen/share_panel_imageitem_left_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareImageViewLinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/shareImageView1" android:layout_width="@dimen/share_panel_imageitem_width" android:layout_height="@dimen/share_panel_imageitem_width" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareTextViewLinearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/shareImageViewLinearLayout1">
+            <TextView android:textSize="@dimen/share_panel_item_text_size" android:textColor="@color/fifty_four_white" android:layout_gravity="center" android:id="@id/shareTextView1" android:paddingTop="@dimen/share_panel_imageitem_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareImageViewLinearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/shareImageView2" android:layout_width="@dimen/share_panel_imageitem_width" android:layout_height="@dimen/share_panel_imageitem_width" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareTextViewLinearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/shareImageViewLinearLayout2">
+            <TextView android:textSize="@dimen/share_panel_item_text_size" android:textColor="@color/fifty_four_white" android:layout_gravity="center" android:id="@id/shareTextView2" android:paddingTop="@dimen/share_panel_imageitem_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareImageViewLinearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/shareImageView3" android:layout_width="@dimen/share_panel_imageitem_width" android:layout_height="@dimen/share_panel_imageitem_width" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareTextViewLinearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/shareImageViewLinearLayout3">
+            <TextView android:textSize="@dimen/share_panel_item_text_size" android:textColor="@color/fifty_four_white" android:layout_gravity="center" android:id="@id/shareTextView3" android:paddingTop="@dimen/share_panel_imageitem_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareImageViewLinearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/shareImageView4" android:layout_width="@dimen/share_panel_imageitem_width" android:layout_height="@dimen/share_panel_imageitem_width" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shareTextViewLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/shareImageViewLinearLayout4">
+            <TextView android:textSize="@dimen/share_panel_item_text_size" android:textColor="@color/fifty_four_white" android:layout_gravity="center" android:id="@id/shareTextView4" android:paddingTop="@dimen/share_panel_imageitem_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

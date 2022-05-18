@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Zaneprázdnený</item>
+        <item>K dispozícii</item>
+        <item>Predbežný</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Deň</item>
+        <item>Týždeň</item>
+        <item>Mesiac</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Iba túto udalosť</item>
+        <item>Všetky udalosti v rade</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Iba túto udalosť</item>
+        <item>Túto a budúce udalosti</item>
+        <item>Všetky udalosti</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Túto a budúce udalosti</item>
+        <item>Všetky udalosti</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>prvý</item>
+        <item>sekunda</item>
+        <item>tretí</item>
+        <item>štvrtý</item>
+        <item>posledné</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Vždy</item>
+        <item>Iba v tichom režime</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Žiadne</item>
+        <item>0 minút</item>
+        <item>1 minúta</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+        <item>45 minút</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+        <item>12 hodín</item>
+        <item>24 hodín</item>
+        <item>2 dni</item>
+        <item>1 týždeň</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Predvolená hodnota miestneho nastavenia</item>
+        <item>Sobota</item>
+        <item>Nedeľa</item>
+        <item>Pondelok</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Budem pár minút meškať.</item>
+        <item>Budem tam o 10 minút.</item>
+        <item>Začnite bezo mňa.</item>
+        <item>Je mi ľúto, ale nestíham. Naplánujeme to na inokedy.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Upozornenie</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Budík</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minút</item>
+        <item>1 minúta</item>
+        <item>5 minút</item>
+        <item>10 minút</item>
+        <item>15 minút</item>
+        <item>20 minút</item>
+        <item>25 minút</item>
+        <item>30 minút</item>
+        <item>45 minút</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+        <item>12 hodín</item>
+        <item>24 hodín</item>
+        <item>2 dni</item>
+        <item>1 týždeň</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Bez odpovede</item>
+        <item>Áno</item>
+        <item>Možno</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Maršalove ostrovy</item>
+        <item>Midwayské ostrovy</item>
+        <item>Havaj</item>
+        <item>Aljaška</item>
+        <item>Tichomorský čas</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Horský čas</item>
+        <item>Stredná Amerika</item>
+        <item>Centrálny čas</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Východný čas</item>
+        <item>Venezuela</item>
+        <item>Atl. čas (Barbados)</item>
+        <item>Atlant. čas (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brazília</item>
+        <item>Buenos Aires</item>
+        <item>Grónsko</item>
+        <item>Montevideo</item>
+        <item>Stredoatlantický čas</item>
+        <item>Azory</item>
+        <item>Kapverdské ostrovy</item>
+        <item>Casablanca</item>
+        <item>Londýn, Dublin</item>
+        <item>Amsterdam, Berlín</item>
+        <item>Belehrad</item>
+        <item>Brusel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Západoafrický čas</item>
+        <item>Ammán, Jordánsko</item>
+        <item>Atény, Istanbul</item>
+        <item>Bejrút, Libanon</item>
+        <item>Káhira</item>
+        <item>Helsinki</item>
+        <item>Jeruzalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Nairobi</item>
+        <item>Teherán</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubaj</item>
+        <item>Kábul</item>
+        <item>Islamabad, Karáči</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kalkata</item>
+        <item>Srí Lanka</item>
+        <item>Káthmandú</item>
+        <item>Astana</item>
+        <item>Rangún</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Soul</item>
+        <item>Tokio, Ósaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Predvolené</item>
+        <item>Súkromné</item>
+        <item>Verejné</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Predvolené</item>
+        <item>Ignorovať</item>
+        <item>Vibrovať</item>
+        <item>Prsteň</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Mapa</item>
+        <item>Počasie</item>
+        <item>Jedlo</item>
+        <item>Let</item>
+        <item>Hotel</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Odfotiť</item>
+        <item>Fotografie</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Vždy</item>
+        <item>Nikdy</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>Poslať e-mail</item>
+        <item>Bluetooth</item>
+        <item>Napísať</item>
+    </string-array>
+</resources>

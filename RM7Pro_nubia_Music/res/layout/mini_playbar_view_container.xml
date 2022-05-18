@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/nubia_mini_play_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/dimen_15"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.music.ui.MiniMusicPlayBar android:id="@id/mini_music_player" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

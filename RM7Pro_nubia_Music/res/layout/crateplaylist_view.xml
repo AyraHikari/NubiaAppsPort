@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/playlistname" android:padding="@dimen/ark_60_px" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="66.0dip" android:maxLength="100" android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="add_project">Add Project</string>
+    <string name="add_text">Add Text</string>
+    <string name="agree">Agree</string>
+    <string name="agree_tips">Clicking Agree means that you agree to the above contend and <a href="https://account.nubia.com/res/html/video_privacy.html">Video privacy policy</a>.</string>
+    <string name="app_name">Media edit or view</string>
+    <string name="audio">Music</string>
+    <string name="audio_btn">Audio</string>
+    <string name="begaining">Scene-Switching</string>
+    <string name="cancel">Cancel</string>
+    <string name="chose_pick_video">Select video</string>
+    <string name="click_to_add">Click To Add</string>
+    <string name="close">Close</string>
+    <string name="confirm">Save</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Editing</string>
+    <string name="decode_mode_hw">Use hardware decoder first</string>
+    <string name="decode_mode_sw">Use software decoder</string>
+    <string name="decode_select">Select decoder</string>
+    <string name="decoder_mode">Decode Mode</string>
+    <string name="delete">Delete</string>
+    <string name="delete_select">Delete Selected</string>
+    <string name="details">Details</string>
+    <string name="details_hms">%1$02d:%2$02d:%3$02d</string>
+    <string name="draw_overlays_permissoin_needed">The permission is not turned on, please enable the permission first</string>
+    <string name="duration">Duration</string>
+    <string name="editing">Saving</string>
+    <string name="editor">Editor</string>
+    <string name="editor_player_duration_title">Total duration</string>
+    <string name="effects_CTF_00" />
+    <string name="encrypt">Encrypt</string>
+    <string name="exceed_filename_size_limitation">This file name has reached the size limit and it will get the first 80 characters automatically.</string>
+    <string name="exit">Exit</string>
+    <string name="file_size">File size</string>
+    <string name="file_sizeLimit">The generated video may not be less than 2 seconds</string>
+    <string name="file_upperLimit">The generated file is no larger than 4G</string>
+    <string name="fileisexist">The file name already exists</string>
+    <string name="filename_invalid">Renaming failed because the name contains invalid characters</string>
+    <string name="filenameisnull">Please enter a file name again</string>
+    <string name="folder_download">Download</string>
+    <string name="gallery_permission">"Welcome to use Video. In order to provide you with better services, the following permissions are required during use:
+ 1. NetWork：Networking service is required,please consult your local operator for specific traffic charges. 
+ 2. SMS/MMS：This permission is required to View the video in the SMS. 
+ 3. File storage: This permission is required to access media content and file on the device."</string>
+    <string name="gif_editor_title">Gif Editor</string>
+    <string name="gif_file_not_exists">Gif file not exists!</string>
+    <string name="gif_maker_exception">Gif editor error!</string>
+    <string name="gif_too_short">Gif length too short!</string>
+    <string name="grid">Grid</string>
+    <string name="hide">Hide</string>
+    <string name="hide_video">Hide videos</string>
+    <string name="indicator_time">00:00</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="invalid_trim">"Can't trim the video due to invalid configurations"</string>
+    <string name="io_error">IO error</string>
+    <string name="list">List</string>
+    <string name="local_btn">Add</string>
+    <string name="missing_file">Unsupported file formats</string>
+    <string name="missing_required_permission">missing_required_permission</string>
+    <string name="missing_size">Unsupported file resolution ratio</string>
+    <string name="more">More</string>
+    <string name="music_0">No</string>
+    <string name="music_1">Exciting</string>
+    <string name="music_2">Roused</string>
+    <string name="music_3">Dynamic</string>
+    <string name="music_4">Rhythmic</string>
+    <string name="music_5">Low</string>
+    <string name="music_own">Original</string>
+    <string name="music_song">Soundtrack</string>
+    <string name="music_sound">Volume</string>
+    <string name="no_audio">Audio files not detected</string>
+    <string name="no_content">No videos</string>
+    <string name="not_show_again">Do not remind again</string>
+    <string name="ok">OK</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="path">Path</string>
+    <string name="path_invalid">Setting failed because the name contains invalid characters</string>
+    <string name="permission_allow">Allow</string>
+    <string name="permission_forbid">Cancel</string>
+    <string name="permission_not_grantted">Permissons not grantted!</string>
+    <string name="permission_request">Service Descriptions</string>
+    <string name="play_btn">Play</string>
+    <string name="player_audio_error">Audio encode error</string>
+    <string name="player_editor_error">Video cannot be played.</string>
+    <string name="player_play_error">"Can't play this video."</string>
+    <string name="player_press_again">Press the key again to exit</string>
+    <string name="player_replay">Replay at ***</string>
+    <string name="player_screen_locked">The screen is locked</string>
+    <string name="player_send_not_available">No application available for sending</string>
+    <string name="player_unknown_title">Unknown title</string>
+    <string name="player_video_error">Video encode error</string>
+    <string name="please_wait">Please wait</string>
+    <string name="pression_contnet_email">Email</string>
+    <string name="pression_contnet_msg">SMS</string>
+    <string name="pression_contnet_sms">Call</string>
+    <string name="pression_contnet_storage">Storage</string>
+    <string name="pression_dots">·</string>
+    <string name="pression_tips_dialog_goset">Set up</string>
+    <string name="pression_tips_title">You need enable the following permissions to use this function, set up now?</string>
+    <string name="privacy">Video Privacy Policy</string>
+    <string name="privacy_title">Nubia Video privacy policy</string>
+    <string name="project_16_9_viewsize">16:9</string>
+    <string name="project_1_1_viewsize">1:1</string>
+    <string name="project_9_16_viewsize">9:16</string>
+    <string name="project_choose_viewsize">Choose VideoSize</string>
+    <string name="project_item_delete">Delete</string>
+    <string name="project_item_editor">Edit</string>
+    <string name="project_item_export">Export</string>
+    <string name="remove_btn">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="rename_success">Renamed successfully</string>
+    <string name="res_add">Add project</string>
+    <string name="res_audio">Audio</string>
+    <string name="res_image">Image</string>
+    <string name="res_video">Video</string>
+    <string name="resolution">Resolution</string>
+    <string name="reverse">Reverse</string>
+    <string name="reverse_maxLimit">Inverted order video no more than 15 seconds.</string>
+    <string name="reverse_resolution_toast">Resolution no more than 1080P</string>
+    <string name="reverse_trim_toast">Video no more than 30 seconds</string>
+    <string name="rotate_gesture">Rotate Gesture</string>
+    <string name="save_as_new">Save as a new file</string>
+    <string name="save_into">Saving video to %1$s …</string>
+    <string name="scale_gesture">Scale Gesture</string>
+    <string name="screen_filter_1">Double</string>
+    <string name="screen_filter_2">Trible</string>
+    <string name="screen_filter_3">Four</string>
+    <string name="screen_filter_4">Six</string>
+    <string name="screen_filter_5">Nine</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_all">Select all</string>
+    <string name="select_audiotrack">Select audiotrack</string>
+    <string name="separate">Separate</string>
+    <string name="share">Share</string>
+    <string name="show_hide_video">Show hidden videos</string>
+    <string name="snapshot">Snapshot</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="sound_equipment_toast">Sound Effects will be automatically turned on when the loudspeaker is used</string>
+    <string name="spaceIsLow_tip">The storage is running out of space</string>
+    <string name="special">Special</string>
+    <string name="special_0" />
+    <string name="special_filter_1">Shine</string>
+    <string name="special_filter_2">Scale</string>
+    <string name="special_filter_3">SoulOut</string>
+    <string name="special_filter_4">Shake</string>
+    <string name="special_filter_5">Film</string>
+    <string name="special_filter_6">Gray</string>
+    <string name="special_filter_7">PragueThree</string>
+    <string name="special_toast1">Choose one and Long Press</string>
+    <string name="special_toast2">Choose one and Click</string>
+    <string name="speed_0.25_time">0.25 times</string>
+    <string name="speed_0.5_time">0.5 times</string>
+    <string name="speed_1.5_time">1.5 times</string>
+    <string name="speed_1_time">1.0 times</string>
+    <string name="speed_2_time">2.0 times</string>
+    <string name="split">Split</string>
+    <string name="split_btn">Split</string>
+    <string name="split_screen">Split-screen</string>
+    <string name="start_edit">Start Video Editor</string>
+    <string name="start_filter_1">Turning</string>
+    <string name="start_filter_2">Starting</string>
+    <string name="start_filter_3">Count Down</string>
+    <string name="start_filter_4">Rotate</string>
+    <string name="start_filter_5">Horizontal Trans</string>
+    <string name="start_filter_6">Vertical Trans</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text">Text</string>
+    <string name="text_effect">Effect</string>
+    <string name="text_string">Text</string>
+    <string name="textfilter_text_font">nubia</string>
+    <string name="time">Time</string>
+    <string name="time_filter_1">Reverse</string>
+    <string name="timing">Time-variant</string>
+    <string name="title">Title</string>
+    <string name="trim">Trim</string>
+    <string name="trim_copy">_copy</string>
+    <string name="trimming">Trimming</string>
+    <string name="unselect_all">Unselect all</string>
+    <string name="video">Video</string>
+    <string name="video_cannot_get_details">"Can't get details."</string>
+    <string name="video_dolby">Dolby Sound Effects</string>
+    <string name="video_dolby_atmos">Dolby Atmos</string>
+    <string name="video_dts">DTS Sound Effects</string>
+    <string name="video_dtshpx">DTS-HPX Sound Effects</string>
+    <string name="video_edit_limit">This video cannot be edited</string>
+    <string name="video_editor_discard_confirm_title">Discard changes?</string>
+    <string name="video_filter">Filter effect</string>
+    <string name="video_fps_fastlimited">Video does not support play fast!</string>
+    <string name="video_fps_slowlimited">Video does not support play slow!</string>
+    <string name="video_nosuport_edit">Video does not support edit!</string>
+    <string name="video_not_support_snapshot">Snapshot is not supported for this video.</string>
+    <string name="video_notsupport_pip">PIP is not supported for this video.</string>
+    <string name="video_privacy_content">"Video is an application (or product, service) operated by Nubia Technology Co., Ltd. (hereinafter referred to We or Nubia), to provide you with a photos manager service. We are deeply aware of the importance of personal information to you and will try our best to guarantee security of your personal information. Nubia guarantees to adopt corresponding safety guarantee measures to protect your personal information in accordance with legal requirements and mature safety standards in the industry.
+ Please carefully read and learn about this Privacy Policy of Nubia Gallery before using our application (or service).
+
+ You guarantee that you are an adult when starting to use this app (or service). If you are a juvenile, it takes your guardians’ approval for you to use this app and agree relevant app service clauses.
+
+ For any concerns about the policy or other relevant matter, You can also fill in relevant information and send your questions to "<a href="mailto:complianceaudit@nubia.com">complianceaudit@nubia.com </a>" or mail to the following address:
+ Compliance Director, Operation and Management Department, 16F, No. 2 Building, Chongwen Park, Nanshan iPark, No. 3370, Liuxian Road, Nanshan District, Shenzhen
+ Tel: "<a href="tel:400-700-6600">400-700-6600 </a>"
+ Postal code: 518000
+ If you are not satisfied with our response, especially when our personal information processing actions have harmed your legitimate rights and interests, you can also file a lawsuit with a competent people's court, file a complaint with an industry self-regulatory association or a relevant government agency, etc. external way to resolve.
+
+ "<b>I. How do we collect and use your personal information</b>"
+
+ “Personal information” refers to any information associated with recognized or recognizable natural persons. Recognizable natural persons refer to natural persons that can be directly or indirectly identified through names, ID, positioning data, network identifier and economic, culture and social identify.
+
+ Personal sensitive information includes ID number, personal biological recognition information, bank account, property information, tracks, transaction information and personal information of children aged 14 and below.
+
+ We will only collect and use your personal information based on the following purposes stated in the statement:
+ Provide following core function services for you
+
+ Business function: data migration.
+ Gallery provides you with services such as browse pictures, photo editors, photo sharing, cloud storage, etc. During use, we will collect the following information:
+ Device information, including device terminal identification, terminal model, system version number, device software version number; type and size of garbage cleaning, self-starting application name, etc.
+
+ The collection of above data aims to create, enhance functions, provide service improvement, customer support and other necessary or required services related to Gallery.
+ Your rejection to provide these information will result in failure to normally operate part of the functions of the application.
+
+ "<b>II. Data storage location and period</b>"
+
+ The personal information collected and generated under the service will be stored within the territory of People’s Republic of China. Unless otherwise specified by laws and regulations, we only keep your personal information within necessary time for the achievement of the purpose stated in this statement and will delete or anonymize your personal information when exceeding the following retention time.
+ In the “Gallery” business, your personal data is retained as follows: since the user’s exchange with Nubia at the last time, no business transactions have occurred for six months, the data will be deleted. In addition, when our products or services cease to operate, we will notify you in the form of official forum announcements, etc., and delete your personal information or anonymize within a reasonable period.
+
+ "<b>III. How is this statement updated</b>"
+
+ Nubia reserves the right to timely update this statement. When the statement is changed, we will display changed one through proper ways. Only after obtaining your consent will we collect, use and store your personal information according to updated statement.
+
+ This statement comes into effect on the date of update.
+
+ Last updated: September 01, 2020
+
+ Important Note: This Privacy Statement is about the statement and commitment of the gallery application on privacy. If you want to learn more about the data subject's rights, information security measures, etc.,"<b>please read the Nubia Privacy Policy</b>(<b><u><a href="https://www.nubia.com/active/privacy.html ">https://www.nubia.com/active/privacy.html </a></u></b>"). "</string>
+    <string name="video_resolution_limited">Video resolution is limited!</string>
+    <string name="video_save_short">Please edit the video！</string>
+    <string name="video_send_not_available">No application available for sending</string>
+    <string name="video_snapshot_failed">Video snapshot failed</string>
+    <string name="video_snapshot_saving">Saving the previous snapshot now, the snapshot this time has failed.</string>
+    <string name="video_snapshot_success">Video snapshot succeeded</string>
+    <string name="video_too_short">Video less than 2 seconds, Unsupport!</string>
+    <string name="videoeditor_project">Video Projects</string>
+    <string name="volume">Volume</string>
+    <string name="widget_nopression">No permissions obtained</string>
+    <string name="widget_novideo">No videos</string>
+    <string name="widget_open_app">Enter App</string>
+    <string name="widget_open_camera">Turn on Video Recording</string>
+    <string name="widget_tips_latestvideo">Recent videos</string>
+    <item type="string" name="APKTOOL_DUMMY_2c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_30">false</item>
+    <item type="string" name="APKTOOL_DUMMY_31">false</item>
+    <item type="string" name="APKTOOL_DUMMY_32">false</item>
+    <item type="string" name="APKTOOL_DUMMY_63">false</item>
+</resources>

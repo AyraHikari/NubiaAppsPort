@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/REaRARA" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_pager_button11111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button22222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button33333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button44444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button55555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button66666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button77777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

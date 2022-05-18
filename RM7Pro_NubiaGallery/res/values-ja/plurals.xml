@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">アイテムを削除しますか？</item>
+        <item quantity="one">アイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">アルバムをオフラインで利用できるようにしています。</item>
+        <item quantity="one">アルバムをオフラインで利用できるようにしています。</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d件選択済み</item>
+        <item quantity="zero">%1$d件選択済み</item>
+        <item quantity="one">%1$d件選択済み</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d件選択済み</item>
+        <item quantity="zero">%1$d件選択済み</item>
+        <item quantity="one">%1$d件選択済み</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d件選択済み</item>
+        <item quantity="zero">%1$d件選択済み</item>
+        <item quantity="one">%1$d件選択済み</item>
+    </plurals>
+</resources>

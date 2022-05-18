@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout" android:layout_width="wrap_content" android:layout_height="@dimen/collage_category_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/leftView" android:layout_width="@dimen/header_left_padding" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/borderImageView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/border_none" android:layout_toRightOf="@id/leftView" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/imageViewRelativeLayout" android:background="@drawable/border_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/leftView" android:layout_alignTop="@id/borderImageView" android:layout_alignBottom="@id/borderImageView" android:layout_alignParentLeft="@id/borderImageView" android:layout_alignParentRight="@id/borderImageView" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/divideRelativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <View android:id="@id/dividerView" android:background="@color/thirty_white" android:layout_width="@dimen/border_divider" android:layout_height="1.0px" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/border_text_size" android:textColor="@color/white" android:id="@id/borderSizeTextView" android:paddingBottom="@dimen/border_size_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/border_none" android:layout_above="@id/divideRelativeLayout" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/border_text_size" android:textColor="@color/twenty_six_white" android:id="@id/borderSizeBottom" android:paddingTop="@dimen/border_size_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/border" android:layout_below="@id/divideRelativeLayout" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:layout_width="@dimen/header_right_padding" android:layout_height="fill_parent" android:layout_toRightOf="@id/imageViewRelativeLayout" />
+</RelativeLayout>

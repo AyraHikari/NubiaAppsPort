@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen_48" android:paddingRight="@dimen/dimen_48" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:textSize="18.0sp" android:id="@id/recycle_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

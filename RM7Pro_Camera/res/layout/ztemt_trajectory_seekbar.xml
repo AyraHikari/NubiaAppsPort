@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/ztemt_trajectory_seekbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.common.ui.RotateLayout android:id="@id/capture_number_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/capture_number_text" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/capture_number_seekbar" android:layout_width="@dimen/dimens_240" android:layout_height="@dimen/dimens_33_5" android:max="2" android:progress="1" android:layout_centerHorizontal="true" />
+        <com.android.common.ui.RotateLayout android:id="@id/capture_number_min_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/capture_number_seekbar">
+            <TextView android:text="@string/trajectory_capture_number_min" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+        <com.android.common.ui.RotateLayout android:id="@id/capture_number_max_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/capture_number_seekbar">
+            <TextView android:text="@string/trajectory_capture_number_max" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.common.ui.RotateLayout android:id="@id/capture_interval_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/capture_interval_text" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/capture_interval_seekbar" android:layout_width="@dimen/dimens_240" android:layout_height="@dimen/dimens_33_5" android:max="99" android:progress="10" android:layout_centerHorizontal="true" />
+        <com.android.common.ui.RotateLayout android:id="@id/capture_interval_min_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/capture_interval_seekbar">
+            <TextView android:text="@string/trajectory_capture_interval_min" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+        <com.android.common.ui.RotateLayout android:id="@id/capture_interval_max_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/capture_interval_seekbar">
+            <TextView android:text="@string/trajectory_capture_interval_max" style="@style/TrajectoryInfoText" />
+        </com.android.common.ui.RotateLayout>
+    </RelativeLayout>
+</LinearLayout>

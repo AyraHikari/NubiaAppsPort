@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_bg" android:background="@drawable/corner_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/textColorPrimary" android:gravity="center" android:id="@id/nubia_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/privacy_title" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/textColor2nd" android:gravity="center" android:id="@id/nubia_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_message" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:layout_marginBottom="30.0dip">
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:layout_gravity="center" android:id="@id/nubia_negative_bn" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/home_cancel" />
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPositive" android:layout_gravity="center" android:id="@id/nubia_positive_bn" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/wifi_open_text" android:layout_marginStart="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

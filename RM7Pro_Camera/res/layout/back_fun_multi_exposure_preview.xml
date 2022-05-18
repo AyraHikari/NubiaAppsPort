@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/back_fun_multi_exposure_preview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/multiexposure_alpha_layout" />
+    <include layout="@layout/back_fun_multi_exposure_show_info" />
+</RelativeLayout>

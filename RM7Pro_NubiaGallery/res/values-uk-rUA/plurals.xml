@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Видалити вибрані елементи?</item>
+        <item quantity="one">Видалити вибраний елемент?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d днів</item>
+        <item quantity="zero">%d день</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Зробити альбоми доступними офлайн.</item>
+        <item quantity="one">Зробити альбом доступним офлайн.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Вибрано %1$d</item>
+        <item quantity="zero">Вибрано %1$d</item>
+        <item quantity="one">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Вибрано %1$d</item>
+        <item quantity="zero">Вибрано %1$d</item>
+        <item quantity="one">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Копіювати %1$d</item>
+        <item quantity="zero">Копіювати %1$d</item>
+        <item quantity="one">Копіювати %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Вирізати %1$d</item>
+        <item quantity="zero">Вирізати %1$d</item>
+        <item quantity="one">Вирізати %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">Ок (%1$d)</item>
+        <item quantity="zero">Ок (%1$d)</item>
+        <item quantity="one">Ок (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Вибрано %1$d</item>
+        <item quantity="zero">Вибрано %1$d</item>
+        <item quantity="one">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">«Відновити вибрані елементи?»</item>
+        <item quantity="one">«Відновити вибрані елементи?»</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">вибрано %1$d елементів</item>
+        <item quantity="zero">вибрано %1$d елемент</item>
+        <item quantity="one">вибрано %1$d елемент</item>
+    </plurals>
+</resources>

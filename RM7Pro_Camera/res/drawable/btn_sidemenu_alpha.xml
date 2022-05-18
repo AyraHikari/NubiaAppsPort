@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="78.0" android:viewportHeight="78.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/btn_sidemenu_drawable_bg_color" android:pathData="M39,39m-39,0a39,39 0,1 1,78 0a39,39 0,1 1,-78 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M15.06,45.84V32.17a24.35,24.35 0,0 1,11.67 -14.5V60.33A24.36,24.36 0,0 1,15.06 45.84Z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+    <path android:fillColor="#ffffffff" android:pathData="M38.39,63.31a24.25,24.25 0,0 1,-11.66 -3V17.67a24.25,24.25 0,0 1,11.66 -3Z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="#ffffffff" android:pathData="M38.39,63.31V14.69a24.26,24.26 0,0 1,11.67 3V60.33A24.26,24.26 0,0 1,38.39 63.31Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="#ffffffff" android:pathData="M39,65A26,26 0,1 1,65 39,26 26,0 0,1 39,65ZM39,15A24,24 0,1 0,63 39,24 24,0 0,0 39,15Z" />
+</vector>

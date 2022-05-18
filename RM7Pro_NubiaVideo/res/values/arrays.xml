@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dolby_atmos_items">
+        <item>@string/video_dolby_atmos</item>
+    </string-array>
+    <string-array name="dolby_items">
+        <item>@string/video_dolby</item>
+    </string-array>
+    <string-array name="dts_items">
+        <item>@string/video_dts</item>
+    </string-array>
+    <string-array name="grid_dolby_atmos_items">
+        <item>@string/grid</item>
+        <item>@string/video_dolby_atmos</item>
+    </string-array>
+    <string-array name="grid_dolby_items">
+        <item>@string/grid</item>
+        <item>@string/video_dolby</item>
+    </string-array>
+    <string-array name="grid_dts_items">
+        <item>@string/grid</item>
+        <item>@string/video_dts</item>
+    </string-array>
+    <string-array name="grid_hpx_items">
+        <item>@string/grid</item>
+        <item>@string/video_dtshpx</item>
+    </string-array>
+    <string-array name="grid_items">
+        <item>@string/grid</item>
+    </string-array>
+    <array name="img_text_colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+    </array>
+    <string-array name="list_dolby_atmos_items">
+        <item>@string/list</item>
+        <item>@string/video_dolby_atmos</item>
+    </string-array>
+    <string-array name="list_dolby_items">
+        <item>@string/list</item>
+        <item>@string/video_dolby</item>
+    </string-array>
+    <string-array name="list_dts_items">
+        <item>@string/list</item>
+        <item>@string/video_dts</item>
+    </string-array>
+    <string-array name="list_hpx_items">
+        <item>@string/list</item>
+        <item>@string/video_dtshpx</item>
+    </string-array>
+    <string-array name="list_items">
+        <item>@string/list</item>
+    </string-array>
+    <string-array name="player_more_items">
+        <item>@string/snapshot</item>
+        <item>@string/share</item>
+        <item>@string/details</item>
+        <item>@string/select_audiotrack</item>
+        <item>@string/decode_select</item>
+        <item>@string/start_edit</item>
+        <item>@string/sound_effects</item>
+    </string-array>
+    <string-array name="player_more_items_no_sound_effects">
+        <item>@string/snapshot</item>
+        <item>@string/share</item>
+        <item>@string/details</item>
+        <item>@string/select_audiotrack</item>
+        <item>@string/decode_select</item>
+        <item>@string/start_edit</item>
+    </string-array>
+    <string-array name="trim_items">
+        <item>@string/overwrite</item>
+        <item>@string/save_as_new</item>
+    </string-array>
+</resources>

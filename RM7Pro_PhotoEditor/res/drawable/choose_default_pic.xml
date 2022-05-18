@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/choosepic_item_default_color" />
+    <size android:height="@dimen/choosepic_item_height" android:width="@dimen/choosepic_item_width" />
+</shape>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.commonui.widget.DialogCenterLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/nubia_parentPanel" android:layout_width="@dimen/nubia_alert_dialog_land_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nubia_center_dialog_horizontal_margin" android:layout_marginRight="@dimen/nubia_center_dialog_horizontal_margin" app:maxHeightRatio="0.67"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/nubia_animPanel" android:background="@drawable/nubia_dialog_background_center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/nubia_pcenterPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_center_alert_dialog_title_vertical_margin_top" android:layout_marginBottom="@dimen/nubia_center_alert_dialog_title_vertical_margin_bottom">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/nubia_center_alert_dialog_title_horizontal_margin" android:layout_marginEnd="@dimen/nubia_center_alert_dialog_title_horizontal_margin">
+                        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:paddingEnd="0.0dip" />
+                        <com.android.internal.widget.DialogTitle android:textSize="@dimen/nubia_center_alert_dialog_title_text_size" android:textColor="@color/nubia_center_alert_dialog_title_color" android:gravity="center" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+                        <com.android.internal.widget.DialogTitle android:textSize="@dimen/nubia_alert_dialog_choice_title_text_size" android:textColor="@color/nubia_dialog_choice_title_text_color" android:gravity="center" android:id="@id/alertChoiceTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/nubia_center_title_content_divider" android:background="@drawable/nubia_list_divider_through" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ScrollView android:scrollbarThumbVertical="@drawable/nubia_scroll_view_thumb_vertical" android:id="@id/scrollView" android:paddingTop="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/nubia_center_alert_dialog_scrollview_horizontal_margin" android:paddingEnd="@dimen/nubia_center_alert_dialog_scrollview_horizontal_margin">
+                        <TextView android:textSize="@dimen/nubia_center_alert_dialog_message_text_size" android:textColor="@color/nubia_dialog_message_text_color" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/nubia_center_alert_dialog_message_horizontal_margin" android:layout_marginEnd="@dimen/nubia_center_alert_dialog_message_horizontal_margin" />
+                    </ScrollView>
+                </LinearLayout>
+                <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                    <FrameLayout android:id="@id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nubia_center_alert_dialog_button_vertical_margin_bottom">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_center_alert_dialog_button_vertical_margin_top" android:measureWithLargestChild="true">
+                    <Button android:textColor="@color/nubia_dialog_button_text_color" android:layout_gravity="start" android:id="@id/button2" android:background="@drawable/nubia_center_alert_dialog_btn_default_material" android:layout_width="wrap_content" android:layout_height="@dimen/nubia_center_alert_dialog_button_height" android:maxLines="1" />
+                    <Button android:textColor="@color/nubia_dialog_button_text_color" android:layout_gravity="center_horizontal" android:id="@id/button3" android:background="@drawable/nubia_center_alert_dialog_btn_default_material" android:layout_width="wrap_content" android:layout_height="@dimen/nubia_center_alert_dialog_button_height" android:maxLines="1" />
+                    <Button android:textColor="@color/nubia_dialog_button_text_color" android:layout_gravity="end" android:id="@id/button1" android:background="@drawable/nubia_center_alert_dialog_btn_default_material" android:layout_width="wrap_content" android:layout_height="@dimen/nubia_center_alert_dialog_button_height" android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</cn.nubia.commonui.widget.DialogCenterLinearLayout>

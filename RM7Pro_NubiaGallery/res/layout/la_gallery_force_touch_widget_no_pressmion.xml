@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/la_gallery_force_touch_titlebar" />
+    <ImageView android:id="@id/divider" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_bar" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/force_touch_container" android:background="@color/force_touch_background_color" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_below="@id/divider">
+        <RelativeLayout android:layout_width="135.0dip" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0dip" android:textColor="@color/black_57" android:id="@id/hint_no_pic_or_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_nopression" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/black_93" android:gravity="center" android:id="@id/open_camera" android:background="@drawable/widget_btn_open" android:clickable="true" android:layout_width="73.0dip" android:layout_height="wrap_content" android:minHeight="24.0dip" android:text="@string/widget_open_app" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" android:elegantTextHeight="true" />
+    </RelativeLayout>
+</RelativeLayout>

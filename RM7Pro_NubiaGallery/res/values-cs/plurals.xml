@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Smazat vybrané položky?</item>
+        <item quantity="one">Smazat vybranou položku?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Zpřístupnění alb offline</item>
+        <item quantity="one">Zpřístupňování alba offline</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Vybráno: %1$d</item>
+        <item quantity="zero">Vybráno: %1$d</item>
+        <item quantity="one">Vybráno: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Vybráno: %1$d</item>
+        <item quantity="zero">Vybráno: %1$d</item>
+        <item quantity="one">Vybráno: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Vybráno: %1$d</item>
+        <item quantity="zero">Vybráno: %1$d</item>
+        <item quantity="one">Vybráno: %1$d</item>
+    </plurals>
+</resources>

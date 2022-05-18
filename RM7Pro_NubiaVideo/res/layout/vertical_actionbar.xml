@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/actionbar_title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/more" android:background="@drawable/menu_more_operation_rappile" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/normal_padding" android:layout_alignParentEnd="true" />
+</RelativeLayout>

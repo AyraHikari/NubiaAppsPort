@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/nubia_dialog_background_bottom" android:layout_width="360.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/pression_tips_title_text_color" android:gravity="start|center" android:id="@id/title_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="8.0dip" android:text="@string/permission_guide_title" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <View android:id="@id/separate1" android:visibility="gone" style="@style/common_ui_divider" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/pression_content_content_text_color" android:gravity="start|center" android:id="@id/message_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/cancel" android:lineSpacingExtra="4.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+    <View android:id="@id/separate2" android:background="@null" style="@style/common_ui_divider" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/buttonLayout" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="@dimen/quit_dialog_button_left_padding" android:paddingEnd="@dimen/quit_dialog_button_right_padding">
+        <Button android:textSize="16.0sp" android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:id="@id/cancel_button" android:background="@drawable/nubia_btn_default_material" android:clickable="true" android:layout_width="150.0dip" android:layout_height="@dimen/nubia_alert_dialog_button_height" android:text="@string/cancel" />
+        <Button android:textSize="16.0sp" android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:id="@id/ok_button" android:background="@drawable/nubia_btn_default_material" android:clickable="true" android:layout_width="150.0dip" android:layout_height="@dimen/nubia_alert_dialog_button_height" android:layout_marginLeft="20.0dip" android:text="@string/go_to_setting" />
+    </LinearLayout>
+</LinearLayout>

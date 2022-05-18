@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/picker_color_black_alpha_40"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true">
+                <nine-patch android:src="@drawable/picker_btn_default_pressed_mtrl_bg" android:tint="@color/picker_color_white" />
+            </item>
+            <item android:state_enabled="false">
+                <nine-patch android:src="@drawable/picker_btn_default_normal_mtrl_bg" android:tint="@color/picker_color_black_alpha_19" />
+            </item>
+            <item>
+                <nine-patch android:src="@drawable/picker_btn_default_normal_mtrl_bg" android:tint="@color/picker_color_black_alpha_42" />
+            </item>
+        </selector>
+    </item>
+</ripple>

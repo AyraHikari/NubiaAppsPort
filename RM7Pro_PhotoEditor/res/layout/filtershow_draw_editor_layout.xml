@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/draw_action_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.gallery3d.filtershow.editors.SwapButton android:textSize="@dimen/sub_panel_text_size" android:textColor="@color/default_text_color" android:gravity="end|center" android:id="@id/drawpaint" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/draw_paint" android:layout_weight="1.0" android:textAllCaps="true" android:layout_marginEnd="18.0dip" />
+    <com.android.gallery3d.filtershow.editors.SwapButton android:textSize="@dimen/sub_panel_text_size" android:textColor="@color/default_text_color" android:gravity="start|center" android:id="@id/drawshape" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/draw_shape" android:layout_weight="1.0" android:textAllCaps="true" android:layout_marginStart="18.0dip" />
+</LinearLayout>

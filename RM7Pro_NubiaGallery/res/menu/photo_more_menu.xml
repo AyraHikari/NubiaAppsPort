@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/photo_playslide" android:title="" />
+    <item android:id="@id/photo_encrypted" android:title="" />
+    <item android:id="@id/photo_setas_wallpaper" android:title="" />
+    <item android:id="@id/photo_setas_contactphoto" android:title="" />
+    <item android:id="@id/set_as_private" android:title="" />
+    <item android:id="@id/photo_details" android:title="" />
+    <item android:id="@id/set_dynamic_wallpaper" android:title="" />
+    <item android:id="@id/select_audiotrack" android:title="" />
+    <item android:id="@id/decode_select" android:title="" />
+    <item android:id="@id/sound_effects" android:title="" />
+</menu>

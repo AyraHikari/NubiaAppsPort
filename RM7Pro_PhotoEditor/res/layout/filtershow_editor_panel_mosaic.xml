@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/editor_panel_mosaic_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="@color/toolbar_separation_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/crop_panel_height" android:baselineAligned="false">
+        <include layout="@layout/filtershow_mosaic_brush_size" />
+        <ImageButton android:gravity="center" android:layout_gravity="center|left" android:id="@id/selectMosaic" android:background="@drawable/nubia_menu_item_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/btn_img_mosaic" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/toolbar_separation_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageButton android:gravity="center" android:layout_gravity="center|left" android:id="@id/cancelFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/cancel" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/panelAccessoryViewList" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.android.gallery3d.filtershow.editors.SwapButton android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/hilit_color" android:layout_gravity="center" android:id="@id/applyEffect" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" />
+        </LinearLayout>
+        <ImageButton android:gravity="center" android:layout_gravity="center|right" android:id="@id/applyFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/done" />
+    </LinearLayout>
+</LinearLayout>

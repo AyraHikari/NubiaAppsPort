@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/shareLayout" android:layout_width="@dimen/menu_item_width" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_10sp" android:textColor="@color/menu_bottom_color" android:gravity="center_horizontal" android:id="@id/shareTextView" android:background="@drawable/menu_item_background" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share" android:singleLine="true" android:drawableTop="@drawable/menu_share_operation" android:drawablePadding="@dimen/menu_text_item_top_padding" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/encryptLayout" android:layout_width="@dimen/menu_item_width" android:layout_height="wrap_content" android:layout_toEndOf="@id/shareLayout">
+        <TextView android:textSize="@dimen/text_size_10sp" android:textColor="@color/menu_bottom_color" android:gravity="center_horizontal" android:id="@id/encryptTextView" android:background="@drawable/menu_item_background" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/encrypt" android:singleLine="true" android:drawableTop="@drawable/menu_encyrpt_operation" android:drawablePadding="@dimen/menu_text_item_top_padding" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/renameLayout" android:layout_width="@dimen/menu_item_width" android:layout_height="wrap_content" android:layout_toEndOf="@id/encryptLayout">
+        <TextView android:textSize="@dimen/text_size_10sp" android:textColor="@color/menu_bottom_color" android:gravity="center_horizontal" android:id="@id/renameTextView" android:background="@drawable/menu_item_background" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rename" android:singleLine="true" android:drawableTop="@drawable/menu_edit_operation" android:drawablePadding="@dimen/menu_text_item_top_padding" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/deleteLayout" android:layout_width="@dimen/menu_item_width" android:layout_height="wrap_content" android:layout_toEndOf="@id/renameLayout">
+        <TextView android:textSize="@dimen/text_size_10sp" android:textColor="@color/menu_bottom_color" android:gravity="center_horizontal" android:id="@id/deleteTextView" android:background="@drawable/menu_item_background" android:paddingTop="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:singleLine="true" android:drawableTop="@drawable/menu_delete_operation" android:drawablePadding="@dimen/menu_text_item_top_padding" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

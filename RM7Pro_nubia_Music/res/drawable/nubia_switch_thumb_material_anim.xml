@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:id="@id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/nubia_switch_thumb_mtrl_on_off" />
+    </item>
+    <item android:state_checked="true" android:id="@id/on">
+        <nine-patch android:gravity="center" android:src="@drawable/nubia_switch_thumb_mtrl_on_off" />
+    </item>
+    <item android:state_checked="false" android:id="@id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/nubia_switch_thumb_mtrl_on_off" />
+    </item>
+</animated-selector>

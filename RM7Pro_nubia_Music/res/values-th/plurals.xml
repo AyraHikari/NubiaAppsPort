@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%dเพลงถูกลบ</item>
+        <item quantity="one">1เพลงถูกลบ</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">เพลงถูกเพิ่มไปยังรายการเล่น</item>
+        <item quantity="one">เพลงถูกเพิ่มไปยังรายการเล่น</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">ทั้งหมด %dอัลบัม</item>
+        <item quantity="one">1อัลบั้ม</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%dเพลง</item>
+    </plurals>
+</resources>

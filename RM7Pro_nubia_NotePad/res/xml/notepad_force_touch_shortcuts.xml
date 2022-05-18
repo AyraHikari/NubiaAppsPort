@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut id="force_touch_search_note_shortcut" icon="notepad_force_touch_search_note" label="notepad_search" rank="2">
+        <intent android:targetPackage="cn.nubia.notepad.preset" android:action="android.intent.action.SEARCH" android:targetClass="cn.nubia.notepad.NoteListActivity" />
+    </shortcut>
+    <shortcut id="force_touch_new_note_shortcut" icon="notepad_force_touch_new_note" label="notepad_force_touch_new_note" rank="3">
+        <intent android:targetPackage="cn.nubia.notepad.preset" android:action="cn.nubia.notepad.force.touch.insert" android:targetClass="cn.nubia.notepad.NotePadEditorActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="116.0dip" android:minHeight="116.0dip" android:layout_marginStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_icon" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/alarm_notification_l_m_large" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="14.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/tab_normal_font" android:ellipsize="marquee" android:id="@id/notifytitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="marquee" android:id="@id/notifytime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/tab_normal_font" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/notifysnoozebtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/snooze" android:singleLine="true" android:paddingEnd="16.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/notifyline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notifyline" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/tab_normal_font" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@id/notifyclosebtn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/alarm_alert_notify_dismiss" android:singleLine="true" android:paddingStart="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

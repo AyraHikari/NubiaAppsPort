@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gif_setting">
+        <item>@string/hd</item>
+        <item>@string/frame_by_frame</item>
+    </string-array>
+    <array name="img_curves_colors">
+        <item>@color/curves_color_white</item>
+        <item>@color/curves_color_red</item>
+        <item>@color/curves_color_green</item>
+        <item>@color/curves_color_blue</item>
+    </array>
+    <array name="img_text_colors">
+        <item>@color/word_color2</item>
+        <item>@color/word_color1</item>
+        <item>@color/word_color3</item>
+        <item>@color/word_color4</item>
+        <item>@color/word_color5</item>
+        <item>@color/word_color6</item>
+        <item>@color/word_color7</item>
+        <item>@color/word_color8</item>
+    </array>
+</resources>

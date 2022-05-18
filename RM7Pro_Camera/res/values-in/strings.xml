@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Tunjukkan jalan ke rumah</string>
+    <string name="abc_action_bar_up_description">Kembali ke atas</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">spasi</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Telusuri kueri</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="clone_specification_introduction_content">Klon adalah modus memfoto yang menyenangkan. Lakukan klon pada orang dan obyek bergerak di suasana yang sama dengan pengambilan foto berlanjut untuk menciptakan gambar inovatif.</string>
+    <string name="clone_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="clone_specification_need">Foto pada suasana sama, (dengan tangan) tahan ponsel agar stabil.</string>
+    <string name="clone_specification_photo1">Gandakan banyak orang yang identik pada adegan yang sama</string>
+    <string name="clone_specification_photo2">Fotografi Suspensi</string>
+    <string name="clone_specification_step">"1. Pilih suasana untuk difoto dan coba simpan latar belakang untuk ditumpuk.
+2. Gerakan obyek yang ingin diklon dan ambil 5 foto. 
+3. Sistem otomatis akan mengenali obyek bergerak dan mengombinasikan gambar.
+4. Pada antarmuka penyunting, gunakan kuas untuk menandai daerah yang ingin Anda tampilkan."</string>
+    <string name="clone_specification_title">Klon</string>
+    <string name="clone_specification_tobbar_title">Klon</string>
+    <string name="dng_specification_introduction_content">DNG adalah jenis format gambar mentah kualitas utuh. Ini menyimpan gambar yang kaya informasi yang diambil dari kamera, ini memungkinkan pemrosesan gambar lebih lanjut. kualitas gambar lebih baik.</string>
+    <string name="dng_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="dng_specification_note">Format gambar DNG tidak bisa dipratinjau sementara atau disunting pada ponsel.</string>
+    <string name="dng_specification_note_title">Catatan</string>
+    <string name="dng_specification_path">Penyimpanan internal/DCIM/Camera/Dng</string>
+    <string name="dng_specification_path1">Format: JPG＋DNG</string>
+    <string name="dng_specification_path1_title">format keluaran</string>
+    <string name="dng_specification_path_title">Direktori penyimpanan</string>
+    <string name="dng_specification_photo1">Rendering awalan untuk data mentah format DNG di Mentah Kamera</string>
+    <string name="dng_specification_photo2">Rendering ubahan untuk data mentah format DNG di Mentah Kamera</string>
+    <string name="dng_specification_step">"1. Pilih berkas format DNG pada direktori penyimpanan;
+2. Buka berkas DNG menggunakan “insert Camera Raw” di Photoshop;
+3. Berkas DNG di dalam plug-in dikonversi menjadi gambar tampak berdasarkan warnanya.
+4. Melakukan pasca pemrosesan individual untuk setiap informasi, seperti contohnya warna gambar; 
+5. Simpan berkas sebagai format yang diperlukan setelah penyesuaian, biasanya format JPG."</string>
+    <string name="dng_specification_step_title">Langkah operasi:</string>
+    <string name="dng_specification_title">DNG</string>
+    <string name="dng_specification_tobbar_title">DNG</string>
+    <string name="electronic_specification_introduction_content">Bukaan Elektronik adalah jenis modus foto prioritas bukaan. Anda bisa mendapatkan foto dari waktu pencahayaan yang lama dengan mengatur bukaan elektronik.</string>
+    <string name="electronic_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="electronic_specification_need">Tahan ponsel Anda agar stabil</string>
+    <string name="electronic_specification_photo1">"Bukaan Elektronik: F/44
+Balans Putih: Otomatis
+Fokus: Otomatis 
+Waktu pencahayaan: 87 detik"</string>
+    <string name="electronic_specification_photo2">"Bukaan Elektronik: F/22
+Balans Putih: Otomatis
+Fokus: Otomatis 
+Waktu pencahayaan: 18 detik"</string>
+    <string name="electronic_specification_title">Bukaan Elektronik</string>
+    <string name="electronic_specification_tobbar_title">Bukaan Elektronik</string>
+    <string name="electronic_specification_where">Awan putih, aliran air, suasana malam, obyek diam, jalan, dll.</string>
+    <string name="grid_focus">Fokus</string>
+    <string name="grid_iso">ISO</string>
+    <string name="grid_light">mengukur</string>
+    <string name="grid_shutter">Kecepatan rana</string>
+    <string name="grid_tripod">Gunakan tripod</string>
+    <string name="grid_wb">Kseimbangn pth</string>
+    <string name="light_draw_specification_introduction_content">Melukis cahaya atau menggambar cahaya, adalah teknik fotografi dimana pencahayaan dibuat dengan menggerakkan tangan yang memegang sumber cahaya, selama proses pengambilan foto dengan pencahayaan lama.</string>
+    <string name="light_draw_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="light_draw_specification_need">Menggerakkan sumber cahaya; tahan ponsel Anda agar stabil.</string>
+    <string name="light_draw_specification_photo1">"Modus memfoto: tahan sumber cahaya untuk menggambarkan bentuk tubuh manusia
+Waktu pencahayaan: 1 menit 30 detik"</string>
+    <string name="light_draw_specification_photo2">"Modus memfoto: tahan sumber cahaya untuk menggambarkan huruf
+Waktu pencahayaan: 50 detik"</string>
+    <string name="light_draw_specification_title">Lukisan Cahaya</string>
+    <string name="light_draw_specification_tobbar_title">Lukisan Cahaya</string>
+    <string name="light_draw_specification_where">Lukisan cahaya, Pergerakan cahaya, dll.</string>
+    <string name="pro_specification_introduction_content">Kami akan memberi penjelasan singkat tentang petunjuk fungsi dan operasi dasar kamera nubia untuk membantu Anda menggunakan fungsi fotografi ini.</string>
+    <string name="pro_specification_introduction_tip">Petunjuk Mulai Cepat untuk kamera nubia Anda</string>
+    <string name="pro_specification_title">Pro</string>
+    <string name="pro_specification_tobbar_title">Pro</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="slow_shutter_specification_introduction_content">Rana Lambat adalah jenis modus foto pada cahaya gelap. Anda bisa memfoto suasana malam yang cerah dengan memperpanjang waktu pencahayaan.</string>
+    <string name="slow_shutter_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="slow_shutter_specification_need">Ambil foto pada pemandangan yang memiliki cahaya gelap; tahan ponsel Anda agar stabil.</string>
+    <string name="slow_shutter_specification_photo1">"Kecepatan rana: 5 detik 
+ISO: 100
+Balans Putih: Otomatis 
+Fokus: Otomatis"</string>
+    <string name="slow_shutter_specification_photo2">"Kecepatan rana: 7 detik 
+ISO: 100
+Balans Putih: 5000K 
+Fokus manual: Tak terhingga"</string>
+    <string name="slow_shutter_specification_title">Rana Lambat</string>
+    <string name="slow_shutter_specification_tobbar_title">Rana Lambat</string>
+    <string name="slow_shutter_specification_where">Jalan cerah, suasana malam, langit bintang, kilat, dll.</string>
+    <string name="specification_need_title">Kondisi fotografi</string>
+    <string name="specification_photo_title">Contoh foto</string>
+    <string name="specification_pro_focus_title">1. Fokus</string>
+    <string name="specification_pro_focus_title1">1.1 Fokus Otomatis</string>
+    <string name="specification_pro_focus_title1_context">Fokus Otomatis diatur secara bawaan saat kamera dimulai. Fokus Otomatis dapat menentukan posisi obyek secara cepat dan akurat dan membuat gambar jelas.</string>
+    <string name="specification_pro_focus_title2">1.2 Kunci Fokus</string>
+    <string name="specification_pro_focus_title2_context">Tujuan: pastikan titik fokus dari obyek konsisten selama pengambilan foto yang berkelanjutan.</string>
+    <string name="specification_pro_focus_title2_context1">Bingkai fokus</string>
+    <string name="specification_pro_focus_title2_context2">Kunci titik fokus</string>
+    <string name="specification_pro_focus_title2_context3">Tekan agak lama</string>
+    <string name="specification_pro_focus_title2_context4">Suasana yang umum dipakai</string>
+    <string name="specification_pro_focus_title2_context5">"Fotografi Makro
+Pengambilan foto kontinu kecepatan tinggi 
+Pengambilan foto kontinu hitungan sendiri"</string>
+    <string name="specification_pro_focus_title3">1.3 Fokus Manual</string>
+    <string name="specification_pro_focus_title3_context">Tujuan: mengatur nilai fokus secara manual untuk membuat gambar obyek dari jarak tertentu menjadi jelas.</string>
+    <string name="specification_pro_focus_title3_context1">1.3.1 Pratinjau DOF</string>
+    <string name="specification_pro_focus_title3_context2">Selama proses fokus manual, daerah yang paling terkonsentrasi dari nilai puncak merah pada gambar berikut ini adalah titik fokus jelas. Ini dapat membantu fotografer untuk mendapat fokus yang lebih akurat.</string>
+    <string name="specification_pro_focus_title3_context3">Contoh foto</string>
+    <string name="specification_pro_focus_title3_context4">Saat mengambil foto, amati nilai puncak merah untuk menentukan tutuk fokus pada gambar.</string>
+    <string name="specification_pro_focus_title3_context5">Gambar selesai difoto. (diperbesar sebagian)</string>
+    <string name="specification_pro_focus_title3_context6">Suasana yang umum dipakai</string>
+    <string name="specification_pro_focus_title3_context7">"Fotografi Makro
+Jendela kaca transparan
+Cahaya gelap, Suasana malam, Langit berbintang, dll."</string>
+    <string name="specification_pro_focus_title_context">Buat gambar jelas dengan cara mendeteksi posisi obyek.</string>
+    <string name="specification_pro_iso_title">5. ISO</string>
+    <string name="specification_pro_iso_title_context">ISO menandakan berapa besar sensitivitas sensor gambar kepada banyaknya cahaya yang ada. Semakin tinggi ISO, maka semakin banyak cahaya yang diserap sensor.</string>
+    <string name="specification_pro_iso_title_context1">Catatan</string>
+    <string name="specification_pro_iso_title_context2">Lihat contoh foto berikut ini. Semakin besar ISO dipilih, semakin besar gangguan yang dihasilkan. Memilih ISO yang rendah akan menjamin kualitas gambar, tetapi akan mengurangi kecepatan rana (menambah waktu ambil foto) untuk mendapatkan pencahayaan yang cukup.</string>
+    <string name="specification_pro_iso_title_context3">Contoh Foto</string>
+    <string name="specification_pro_iso_title_context4_1">ISO Tinggi：3200</string>
+    <string name="specification_pro_iso_title_context4_2">Kecepatan rana：1/500s</string>
+    <string name="specification_pro_iso_title_context5_1">ISO rendah：100</string>
+    <string name="specification_pro_iso_title_context5_2">Kecepatan rana：1/30s</string>
+    <string name="specification_pro_light_title">2. Kompensasi pengukuran / pencahayaan</string>
+    <string name="specification_pro_light_title1">2.1.1 Pengukuran Otomatis</string>
+    <string name="specification_pro_light_title1_context">Pengukuran Otomatis diatur secara bawaan saat kamera dimulai. Ini adalah jenis modus yang memberikan pertimbangan ke semua pendaran cahaya gambar. Secara umum, ini membantu Anda mendapat pencahayaan yang akurat pada gambar.</string>
+    <string name="specification_pro_light_title2">2. 1.2 Pengukuran Terpisah（Fokus / Pengukuran terpisah）</string>
+    <string name="specification_pro_light_title2_context">Modus pengukuran terpisah baru berefek setelah terjadi pemisahan pada bingkai fokus. Lakukan pengukuran terpisah ke daerah terpilih saja. Dan izinkan daerah untuk secara cepat mendapat pencahayaan secara akurat.</string>
+    <string name="specification_pro_light_title2_context1">Contoh foto</string>
+    <string name="specification_pro_light_title2_context2">Suasana backlight (membelakangi cahaya) dengan kontras tinggi.</string>
+    <string name="specification_pro_light_title2_context3">Pindahkan bingkai pengukur agar mendapatkan pencahayaan yang akurat untuk matahari terbenam.</string>
+    <string name="specification_pro_light_title3">2.1.3 Kunci Pengukuran</string>
+    <string name="specification_pro_light_title3_context">Tujuan: memastikan pencahayaan konsisten pada cahaya yang sama selama pengambilan foto yang berkelanjutan.</string>
+    <string name="specification_pro_light_title3_context1">Bingkai pengukuran</string>
+    <string name="specification_pro_light_title3_context2">Kunci pengukuran</string>
+    <string name="specification_pro_light_title3_context3">Tekan agak lama</string>
+    <string name="specification_pro_light_title3_context4">Suasana yang umum dipakai</string>
+    <string name="specification_pro_light_title3_context5">Membelakangi cahaya atau lingkungan cahaya yang kacau. Fotografi selang waktu jangka panjang.</string>
+    <string name="specification_pro_light_title4">2.2 Kompensasi Pencahayaan</string>
+    <string name="specification_pro_light_title4_context">Berdasarkan pengukuran terpisah, atur kompensasi pencahayaan sesukamu untuk mengubah kecerahan / keredupan gambar.</string>
+    <string name="specification_pro_light_title4_context1">Kompensasi pencahayaan</string>
+    <string name="specification_pro_light_title4_context2">Gesek</string>
+    <string name="specification_pro_light_title4_context3">2.2.1 Gunakan kompensasi pencahayaan</string>
+    <string name="specification_pro_light_title4_context4">Di bawah lingkungan cahaya yang rumit, Anda bisa mengatur kompensasi pencahayaan untuk menghindari kekurangan atau kelebihan cahaya saat pencahayaan tidak akurat; Anda juga bisa mengatur kompensasi pencahayaan untuk mendapatkan efek foto yang lebih terang atau gelap ketika pencahayaan sudah pas.</string>
+    <string name="specification_pro_light_title4_context5">Contoh foto</string>
+    <string name="specification_pro_light_title4_context6">Keramik di bawah sinar adalah terlalu terpapar pencahayaan.</string>
+    <string name="specification_pro_light_title4_context7">Setelah pengukuran, kecilkan kompensasi pencahayaan.</string>
+    <string name="specification_pro_light_title4_context8">Suasana yang umum dipakai</string>
+    <string name="specification_pro_light_title4_context9">"Membelakangi cahaya atau suasana cahaya kacau
+Cuaca Berawan, Berkabut, Hujan, dan Salju"</string>
+    <string name="specification_pro_light_title_1">2.1 Pengukuran</string>
+    <string name="specification_pro_light_title_context">Dapatkan pencahayaan yang akurat dengan cara mendeteksi pendaran cahaya pada suasana foto. Pada modus pengukuran yang berbeda, jangkauan pengukuran dan penyesuaian suasana terkadang berbeda pula.</string>
+    <string name="specification_pro_shutter_title">4. Kecepatan Rana</string>
+    <string name="specification_pro_shutter_title_context">Kecepatan rana adalah panjang waktu di mana sensor gambar di dalam kamera terpapar oleh cahaya, contoh 1/2000 detik, 1/500 detik, 1 detik, 2 detik, dll.</string>
+    <string name="specification_pro_shutter_title_context1">Catatan</string>
+    <string name="specification_pro_shutter_title_context2">Kecepatan rana cepat bisa dipakai untuk mengambil foto obyek panjang atau suasana berpendar yang tinggi; sementara kecepatan rana pelan bisa dipakai untuk mengambil foto tanpa cahaya yang cukup; Selama proses pengambilan foto, kecepatan rana akan menyesuaikan dengan ISO untuk mencegah gambar kurang atau kelebihan paparan cahaya.</string>
+    <string name="specification_pro_shutter_title_context3">Contoh foto</string>
+    <string name="specification_pro_shutter_title_context4">Variasi waktu pencahayaan menunjukkan perbedaan kondisi pengambilan gambar obyek, waktu pencahayaan 1/500 detik, membuat mobil dan orang bergerak tampak berhenti.</string>
+    <string name="specification_pro_shutter_title_context5">waktu pencahayaan 2 detik, rekam trek dari cahaya kendaraan yang bergerak.</string>
+    <string name="specification_pro_tripod_title">6. Cara menggunakan tripod</string>
+    <string name="specification_pro_tripod_title_context">Ketika waktu pencahayaan lebih besar dari 1/15 detik, gerakan sedikit saja dari tangan akan menyebabkan gambar kabur. Maka perlu digunakan tripod untuk menghasilkan pengambilan foto yang stabil.</string>
+    <string name="specification_pro_tripod_title_context1">Modus pengambilan foto yang umum</string>
+    <string name="specification_pro_tripod_title_context2">Bukaan Elektronik, Lukisan Cahaya, Trek Bintang, Ambil Foto Kontinu Hitungan Sendiri, dll.</string>
+    <string name="specification_pro_tripod_title_context3">Saran anti getar</string>
+    <string name="specification_pro_tripod_title_context4">Periksa kestabilan perangkat Anda sebelum mulai mengambil foto dan gunakan penghitung waktu mundur selama proses pengambilan foto.</string>
+    <string name="specification_pro_tripod_title_context5">Diagram Operasi Tripod</string>
+    <string name="specification_pro_tripod_title_context6">Jangkauan Aplikasi Tripod</string>
+    <string name="specification_pro_wb_title">3. Balans Putih (BP)</string>
+    <string name="specification_pro_wb_title1">3.1 BP Otomatis</string>
+    <string name="specification_pro_wb_title1_context">BP Otomatis diatur secara bawan saat kamera dimulai. Pada suasana secara umum, ini bisa membantu memulihkan warna asli pada obyek.</string>
+    <string name="specification_pro_wb_title2">3.2 BP Prasetel</string>
+    <string name="specification_pro_wb_title2_context">Kompensasikan sumber cahaya dengan memilih [Berpijar][Berpendar][Cerah][Mendung] atau[Bayangan] untuk mendapat restorasi warna terbaik.</string>
+    <string name="specification_pro_wb_title2_context1">3.2.1 Prinsipil</string>
+    <string name="specification_pro_wb_title2_context2">Contoh: suhu warna dari lampu berpijar sekitar 3000K; gambar yang diambil kurang dari 3000K cenderung untuk menjadi warna merah atau oranye. Kamera akan menyisihkan beberapa cahaya panas dengan modus [Berpendar] untuk membuat gambar menyesuaikan dengan kebiasaan mata manusia karena kamera tidak dapat menyesuaikan dengan keunikan mata manusia.</string>
+    <string name="specification_pro_wb_title2_context3">3.2.2 Keahlian</string>
+    <string name="specification_pro_wb_title2_context4">"1.  Jika BP Prasetel bernilai rendah, seperti [Berpendar], kamera akan menyisihkan beberapa cahaya panas untuk menciptakan gambar yang condong ke warna dingin atau netral. Sebaliknya, pada modus [Bayangan], kamera akan menyisihkan beberapa cahaya dingin untuk membuat gambar condong kepada warna hangat atau netral"</string>
+    <string name="specification_pro_wb_title2_context5">2. Tahu tentang prinsip kerja Balans Putih dan ahli dalam menggunakanya. Pada gambar berikut, Anda dapat menciptakan efek fotografi yang berbeda dengan mengatur BP prasetel.</string>
+    <string name="specification_pro_wb_title2_context6">Contoh foto</string>
+    <string name="specification_pro_wb_title2_context7">Ketika Anda memilih [Berpendar] untuk ambil foto, gambar akan ditampilkan menjadi warna dingin.</string>
+    <string name="specification_pro_wb_title2_context8">Ketika Anda memilih [Berawan] untuk ambil foto, gambar akan ditampilkan menjadi warna panas.</string>
+    <string name="specification_pro_wb_title3">3.3 BP Terpisah</string>
+    <string name="specification_pro_wb_title3_context">Setelah memilih warna secara manual pada beberapa daerah di gambar, kamera akan menyimpan kompensasi berdasarkan warna yang dipilih untuk mengatur warna gambar. Anda bisa memilih warna yang berbeda untuk mengimbangi Balans Putih untuk mendapat efek gambar berwarna.</string>
+    <string name="specification_pro_wb_title3_context1">Contoh foto</string>
+    <string name="specification_pro_wb_title3_context2">3.3.1 Kunci BP Terpisah</string>
+    <string name="specification_pro_wb_title3_context3">Tujuan: memastikan warna konsisten pada cahaya yang sama selama pengambilan foto berkelanjutan.</string>
+    <string name="specification_pro_wb_title3_context4">BP Terpisah</string>
+    <string name="specification_pro_wb_title3_context5">Kunci Balans Putih</string>
+    <string name="specification_pro_wb_title3_context6">Tekan agak lama</string>
+    <string name="specification_pro_wb_title_context">Pulihkan warna asli dari obyek dengan cara mendeteksi sumber cahaya pada suasana.</string>
+    <string name="specification_ready_phone">Telepon</string>
+    <string name="specification_ready_title">Apa yang Anda perlu</string>
+    <string name="specification_ready_tripod">Tripod</string>
+    <string name="specification_where_title">Pemandangan cocok</string>
+    <string name="star_track_specification_introduction_content">Semua bintang terbit dari timur dan tenggelam di barat karena perputaran harian Bumi. Dengan Kamera Trek Bintang, Anda dapat memfoto langit berbintang yang cerah dan terang dan merekam dengan lama pada pergerakan langit yang luar biasa.</string>
+    <string name="star_track_specification_introduction_tip">Perkenalan singkat</string>
+    <string name="star_track_specification_need">Ambil foto pada langit cerah, menghindari pengaruh karena cahaya kuat; tahan ponsel Anda agar stabil</string>
+    <string name="star_track_specification_photo1">"Kecepatan rana: 60 detik 
+ISO: 1600
+Balans Putih: 3500k 
+Fokus manual: Tak terhingga
+Pencahayaan total: 12,540 detik (sekitar 3.5 jam)"</string>
+    <string name="star_track_specification_photo2">"Kecepatan rana: 50 detik 
+ISO: 1600
+Balans Putih: Otomatis 
+Fokus manual: Tak terhingga
+Pencahayaan total: 15,450 detik (sekitar 4.3jam)"</string>
+    <string name="star_track_specification_title">Lagu Bintang</string>
+    <string name="star_track_specification_tobbar_title">Lagu Bintang</string>
+    <string name="star_track_specification_where">Trek langit berbintang, meteor , dll.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@id/videoview1" android:background="@color/nubia_videoview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/textColorPrimary" android:gravity="center" android:id="@id/tv_showMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/activity_wiredlessand_wired_setting_show1" android:layout_below="@id/videoview1" android:layout_centerHorizontal="true" />
+</RelativeLayout>

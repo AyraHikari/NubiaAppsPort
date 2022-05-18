@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_bgview" android:background="@android:color/transparent" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/dialog_animaview" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/common_ui_linelayout_delete">
+        <TextView android:gravity="center|top" android:id="@id/dialog_tv_title" android:background="@drawable/nubia_dialog_top_btn_default_normal" android:paddingTop="19.0dip" android:clickable="true" style="@style/common_ui_title" />
+        <View style="@style/common_ui_divider" />
+        <TextView android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="#fff25252" android:gravity="center" android:id="@id/dialog_tv1" android:background="@drawable/nubia_dialog_below_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+        <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="8.299988dip" />
+        <TextView android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="@color/nubia_common_activated_green" android:gravity="center" android:id="@id/dialog_tv2" android:background="@drawable/nubia_dialog_total_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    </LinearLayout>
+</RelativeLayout>

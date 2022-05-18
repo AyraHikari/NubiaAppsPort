@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/actionbarLayout" android:background="@color/cloud_album_setting_background" android:layout_width="fill_parent" android:layout_height="46.69998dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/actionbarBackImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back_normal_new" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="@dimen/second_menu_text_size" android:textColor="@color/nubia_common_activated_green" android:id="@id/actionbarBackupSettingView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_ablum_backup_setting" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:layout_toEndOf="@id/actionbarBackImageView" android:elegantTextHeight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/subheadings_text_size" android:textColor="@color/cloud_album_setting_textclolor" android:id="@id/backup_album_selection_tips" android:background="@color/cloud_album_setting_background" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_backup_album" android:layout_below="@id/actionbarLayout" android:layout_centerVertical="true" android:fontFamily="nubiafont-bold" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" android:elegantTextHeight="true" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/backup_album_selection_tips">
+        <LinearLayout android:orientation="vertical" android:id="@id/all_album_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <View android:background="@color/cloud_album_setting_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/scroll_view" />
+</RelativeLayout>

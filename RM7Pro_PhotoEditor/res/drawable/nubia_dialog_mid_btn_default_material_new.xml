@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/nubia_dialog_middle_btn_default_pressed" />
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/nubia_alert_dialog_btn_default_disabled_mtrl_bg" />
+    </item>
+</selector>

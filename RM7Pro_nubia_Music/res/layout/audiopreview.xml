@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_audio_preview_bg" android:padding="@dimen/dimen_48" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_336" android:layout_margin="@dimen/dimen_30"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textColor="@color/ark_color_white_selector" android:gravity="center" android:id="@id/loading_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <SeekBar android:id="@id/progress" android:paddingLeft="0.0dip" android:paddingTop="@dimen/dimen_30" android:paddingRight="0.0dip" android:paddingBottom="@dimen/dimen_30" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/shape_audio_preview_seekbar_bg" android:thumb="@drawable/shape_audio_preview_seekbar_thumb" android:thumbOffset="0.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_15">
+        <ImageView android:id="@id/playpause" android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:src="@drawable/mini_play_selector" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="playPauseClicked" android:contentDescription="@string/app_name" />
+        <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_45" android:textColor="@color/black_transparent_90" android:ellipsize="marquee" android:id="@id/song_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/playpause" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+        <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_36" android:textColor="@color/color_black_transparent_54" android:ellipsize="marquee" android:id="@id/artist_name" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/playpause" android:layout_below="@id/song_name" android:marqueeRepeatLimit="marquee_forever" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">Dar %d įvykiai (-ių)</item>
+        <item quantity="one">Dar 1 įvykis</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%d d.</item>
+        <item quantity="one">1 d.</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d įvyk.</item>
+        <item quantity="one">1 įvyk.</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">1 val.</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">%d SAVAITĖ</item>
+    </plurals>
+</resources>

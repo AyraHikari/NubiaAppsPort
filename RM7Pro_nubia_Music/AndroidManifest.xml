@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.nubia.music.preset" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.android.vending.INTENT_VENDING_ONLY"/>
+    <uses-permission android:name="com.google.android.permission.BROADCAST_DATA_MESSAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.WRITE_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.settings.permission.READ_GSETTINGS"/>
+    <uses-permission android:name="com.google.android.providers.settings.permission.WRITE_GSETTINGS"/>
+    <uses-permission android:name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE"/>
+    <uses-permission android:name="com.android.vending.billing.ADD_CREDIT_CARD"/>
+    <uses-permission android:name="com.android.vending.billing.IBillingAccountService.BIND2"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="nubia.permission.nbservice"/>
+    <uses-permission android:name="nubia.permission.nbaccountservice"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <application android:allowBackup="false" android:icon="@drawable/ark_ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="cn.nubia.music.MusicApp" android:resizeableActivity="false" android:theme="@style/AppTheme">
+        <meta-data android:name="appid" android:value="appid:1675055"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="530c285856240bbba32c0104"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="nubiaMusic_preset"/>
+        <meta-data android:name="unique_key" android:value="100074"/>
+        <meta-data android:name="android.max_aspect" android:value="3"/>
+        <meta-data android:name="cn.nubia.music.utils.imageloader.CustomGlideModule" android:value="GlideModule"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="cn.nubia.music.MainActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionModeTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/shortcuts"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="cn.nubia.music.preset.forcetouch"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.nubia.music.activity.SettingActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/action_settings" android:name="cn.nubia.music.activity.MoreActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.CreatePlaylistActivity" android:screenOrientation="portrait" android:theme="@style/AppBaseTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="cn.nubia.music.activity.MediaPlaybackActivity" android:screenOrientation="portrait" android:theme="@style/MediaPlaybackTheme">
+            <intent-filter>
+                <action android:name="cn.nubia.music.preset.PLAYBACK_VIEWER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:exported="false" android:name="cn.nubia.music.activity.DeleteItemsActivity" android:screenOrientation="portrait" android:theme="@style/AppThemeNoDisplay"/>
+        <activity android:exported="false" android:name="cn.nubia.music.activity.ScanningProgressActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.PlayManagerActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.PlayListDetailActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionModeTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.nubia.music.activity.RecentPlayingHistoryActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.MyFavoriteDetailActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.ArtistDetailActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionModeTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.AlbumDetailActivity" android:screenOrientation="portrait" android:theme="@style/TranslucentActionModeTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.RenamePlaylistActivity" android:screenOrientation="portrait" android:theme="@style/AppThemeNoDisplay" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <receiver android:name="cn.nubia.music.app.MediaButtonIntentReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="nubia.music.preset" android:exported="true" android:name="cn.nubia.music.app.db.MusicProvider" android:process="cn.nubia.music.MusicService"/>
+        <service android:exported="true" android:name="cn.nubia.music.MediaPlaybackService" android:process="cn.nubia.music.MusicService"/>
+        <service android:exported="false" android:name="cn.nubia.upgrade.service.UpgradeService" android:process="cn.nubia.upgradeService"/>
+        <service android:name="cn.nubia.music.app.scan.MusicScanService"/>
+        <service android:exported="false" android:name="cn.nubia.music.MusicApp$MountIntentServiceInApp"/>
+        <service android:exported="false" android:name="cn.nubia.music.MediaPlaybackService$MountIntentServiceInService"/>
+        <service android:exported="false" android:name="cn.nubia.music.app.TimeCloseService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.SelectMusicFolderActivity" android:screenOrientation="portrait" android:theme="@style/BeanNoActionbarTransparentTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.nubia.music.activity.PlaylistAddMusicActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.nubia.music.activity.AddToPlaylistActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme"/>
+        <activity android:exported="true" android:name="cn.nubia.music.activity.ForceTouchActivity" android:screenOrientation="portrait" android:theme="@style/AppThemeForceTouchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="cn.nubia.music.activity.AudioPreviewActivity" android:screenOrientation="portrait" android:theme="@style/AudioPreviewTheme"/>
+        <activity android:label="@string/user_feedback_str" android:name="com.zfeedback.view.ZUserInputActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="cn.nubia.music.activity.AboutAppActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.nubia.music.activity.SearchActivity" android:screenOrientation="portrait" android:theme="@style/ActionModeTheme" android:windowSoftInputMode="adjustPan|stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="cn.nubia.upgrade.control.DownloadService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.music.activity.FileNameInputActivity" android:screenOrientation="portrait" android:theme="@style/FileNameInputTransparentTheme"/>
+        <provider android:authorities="cn.nubia.music.preset.UsingNetworksProvider" android:exported="true" android:name="cn.nubia.music.app.db.UsingNetworksProvider" android:process="cn.nubia.music.MusicService"/>
+        <provider android:authorities="cn.nubia.music.preset.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <receiver android:name="cn.nubia.music.widget.ForceTouchProvider" android:process="cn.nubia.music.MusicService">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="cn.nubia.music.preset.metachanged"/>
+                <action android:name="cn.nubia.music.preset.playstatechanged"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/force_touch_provider"/>
+        </receiver>
+    </application>
+</manifest>

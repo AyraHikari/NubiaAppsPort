@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">још %d догађаја</item>
+        <item quantity="one">још 1 догађај</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%d дана</item>
+        <item quantity="one">1 дан</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d догађаја</item>
+        <item quantity="one">1 догађај</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d сата(и)</item>
+        <item quantity="one">1 сат</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">1 мин</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d минута</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">%d. НЕДЕЉА</item>
+    </plurals>
+</resources>

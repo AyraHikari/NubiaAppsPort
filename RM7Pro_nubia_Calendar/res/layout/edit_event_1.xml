@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_button_text_color_primary" android:textColorHint="@color/text_hint_color" android:gravity="center_vertical" android:id="@id/title" android:background="@null" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_min_height" android:hint="@string/hint_what" android:maxLines="9" android:maxLength="250" android:capitalize="sentences" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/nubia_text_cursor" android:paddingStart="@dimen/Padding_Event" android:paddingEnd="@dimen/Padding_Event" />
+    <LinearLayout android:id="@id/all_day_row" style="@style/EditEventItemStyle">
+        <CheckBox android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/is_all_day1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_all_day" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" />
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_button_text_color_primary" android:id="@id/is_all_day_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/edit_event_all_day_label" android:layout_weight="1.0" />
+        <cn.nubia.commonui.widget.NubiaSwitch android:id="@id/is_all_day" android:focusable="false" android:clickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/when_row" android:background="?android:selectableItemBackground" android:focusable="true" android:visibility="gone" android:minHeight="48.0dip" android:paddingStart="30.0dip" style="@style/EditEventItemStyle">
+        <TextView android:textColor="@color/text_color_white_ff" android:id="@id/when_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/when_label" style="@style/TextAppearance.EditEvent_LabelSmall" />
+        <TextView android:textColor="@color/text_color_white_ff" android:id="@id/when" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/from_row" style="@style/EditEventItemStyle">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_button_text_color_primary" android:id="@id/from_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_from_label" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/start_time_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:gravity="end" android:id="@id/start_time_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imv1" style="@style/EditEventItemTimeStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/start_date_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:gravity="end" android:id="@id/start_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/start_date_narrow" style="@style/EditEventItemTimeStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/to_row" style="@style/EditEventItemStyle">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_button_text_color_primary" android:id="@id/to_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_to_label" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/end_time_parent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:gravity="end" android:id="@id/end_time_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/end_time_text_narrow" style="@style/EditEventItemTimeStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/end_date_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:gravity="end" android:id="@id/end_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <ImageView android:id="@id/end_date_narrow" style="@style/EditEventItemTimeStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@style/EditEventSeparator" />
+    <LinearLayout android:orientation="vertical" android:id="@id/timezone_textview_row" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <TextView android:id="@id/timezone_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/TextAppearance.EditEvent_Value" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/timezone_button_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <Button android:gravity="start|center" android:id="@id/timezone_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_pick_time_zone" style="@style/TextAppearance.EditEvent_SpinnerButton" />
+    </LinearLayout>
+    <View style="@style/EditEventSeparator" />
+</LinearLayout>

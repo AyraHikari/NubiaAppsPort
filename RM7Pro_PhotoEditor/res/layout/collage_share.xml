@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/actionbarLayout" android:layout_width="fill_parent" android:layout_height="@dimen/collage_activity_actionbar_height">
+        <RelativeLayout android:id="@id/shareBackLayout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/shareBackImageView" android:paddingLeft="@dimen/collage_activity_actionbar_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_white" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/shareBackTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_share" android:layout_toRightOf="@id/shareBackImageView" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/saveLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/homeTextView" android:paddingRight="@dimen/collage_activity_actionbar_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/saveSucessImageView" android:paddingTop="@dimen/share_save_success_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_success" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/share_text_size" android:textColor="@color/save_success_text" android:id="@id/saveSuccessTextView" android:paddingTop="@dimen/share_save_success_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_success" android:layout_below="@id/saveSucessImageView" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/sharePanelLayout" android:layout_width="fill_parent" android:layout_height="@dimen/share_panel_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/share_to_text_size" android:textColor="@color/twenty_six_white" android:id="@id/shareToTextView" android:paddingLeft="@dimen/share_to_left_padding" android:paddingTop="@dimen/share_to_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_to" android:layout_alignParentLeft="true" />
+        <RelativeLayout android:id="@id/navigationLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/share_panel_bottom_padding" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/navigationImageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_unselected" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/navigationImageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/share_panel_navigation_padding" android:src="@drawable/navigation_selected" android:layout_toLeftOf="@id/navigationImageView2" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/navigationImageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/share_panel_navigation_padding" android:src="@drawable/navigation_unselected" android:layout_toRightOf="@id/navigationImageView2" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/shareViewPagerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/navigationLayout" android:layout_below="@id/shareToTextView">
+            <android.support.v4.view.ViewPager android:id="@id/shareViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/dividerView" android:background="@color/ten_white" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/sharePanelLayout" />
+    <View android:id="@id/oneMoreBottomView" android:layout_width="fill_parent" android:layout_height="@dimen/share_select_one_more_bottom_padding" android:layout_above="@id/dividerView" />
+    <RelativeLayout android:id="@id/selectOneMoreLayout" android:background="@drawable/collage_one_more" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/oneMoreBottomView" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/share_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/selectOneMoreTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collage_one_more" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

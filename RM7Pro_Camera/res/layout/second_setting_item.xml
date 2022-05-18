@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.common.ui.RotateTextView android:textSize="@dimen/dimens_12" android:textColor="@color/alpha54_black" android:gravity="center_horizontal" android:id="@id/second_setting_item" android:paddingTop="@dimen/dimens_1" android:layout_width="@dimen/dimens_76" android:layout_height="@dimen/dimens_76" android:drawablePadding="@dimen/dimens_8"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

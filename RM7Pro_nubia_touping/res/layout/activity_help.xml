@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/textColorPrimary" android:gravity="center_vertical" android:id="@id/help_back" android:layout_width="wrap_content" android:layout_height="64.0dip" android:text="@string/home_help" android:drawablePadding="2.0dip" android:drawableStart="@drawable/scan_back" android:fontFamily="nubiafont-medium" android:layout_marginStart="14.0dip" />
+    <RelativeLayout android:id="@id/help_wireless_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wireless_screen_projection" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jump" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/help_wired_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_screen_projection" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jump" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/help_wired_USB_help" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_screen_projection_usbhelp" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jump" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/help_wired_pccontrolphone" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_screen_projection_pccontrolphone" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jump" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

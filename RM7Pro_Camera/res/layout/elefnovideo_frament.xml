@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/nubia_timing_layout" />
+    <RelativeLayout android:id="@id/bottom_recording_layout" android:background="@color/bar_background" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/video_stop" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/video_stop_icon" camera:button_color="red" style="@style/ShutterOrSwitchToButtonIcon" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+        <com.android.common.ui.RotateImageView android:id="@id/pause_button" android:background="@drawable/nubia_small_button" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_resume" android:layout_centerVertical="true" android:soundEffectsEnabled="false" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/video_pause_tip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:background="@drawable/video_pause_tip" android:text="@string/video_pause_tip" style="@style/VideoPauseTipTextView" />
+    </RelativeLayout>
+</RelativeLayout>

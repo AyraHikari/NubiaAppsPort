@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>সবসময়</item>
+        <item>শুধুমাত্র যখন নীরব থাকবে</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>আমার কয়েক মিনিট দেরী হবে।</item>
+        <item>আমি 10 মিনিটের মধ্যে ওখানে আসছি।</item>
+        <item>সামনে যান এবং আমাকে ছাড়া শুরু করুন</item>
+        <item>দুঃখিত, আমি এটা করতে পারব না৷ আমাদের আবার পুনঃনির্ধারণ করতে হবে</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>ডিফল্ট</item>
+        <item>নিঃশব্দ করুন</item>
+        <item>কম্পন</item>
+        <item>রিং</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>মানচিত্র</item>
+        <item>আবহাওয়া</item>
+        <item>খাদ্য</item>
+        <item>ফ্লাইট</item>
+        <item>হোটেল</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>ছবি তুলুন</item>
+        <item>ছবিগুলি</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>সবসময়</item>
+        <item>কখনই নয়</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android বীম</item>
+        <item>ইমেল পাঠান</item>
+        <item>Bluetooth</item>
+        <item>বার্তা</item>
+    </string-array>
+</resources>

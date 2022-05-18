@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/notepad_widget_text_size" android:textColor="@color/widget_text_color" android:id="@id/notepad_widget_list_one_item_title" android:layout_width="wrap_content" android:layout_height="@dimen/notepad_widget_list_item_text_height" android:layout_marginTop="@dimen/notepad_widget_list_item_text_margin_top" android:maxLines="2" android:paddingEnd="@dimen/notepad_list_item_margin_right" android:layout_marginStart="@dimen/notepad_list_item_margin_left" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wdiget_text_margin" android:layout_marginBottom="@dimen/notepad_widget_list_item_attr_margin_bottom" android:layout_marginStart="@dimen/notepad_list_item_margin_left">
+        <TextView android:textSize="@dimen/notepad_widget_list_item_summary_size" android:textColor="@color/notepad_widget_time_text_color" android:id="@id/notepad_widget_list_one_item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/wdiget_image_marginend" />
+        <ImageView android:id="@id/notepad_widget_list_one_item_sign_remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notepad_list_remind" android:layout_marginEnd="@dimen/wdiget_image_marginend" />
+        <ImageView android:id="@id/notepad_widget_list_one_item_sign_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notepad_list_image" android:layout_marginEnd="@dimen/wdiget_image_marginend" />
+        <ImageView android:id="@id/notepad_widget_list_one_item_sign_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notepad_list_record" android:layout_marginEnd="@dimen/wdiget_image_marginend" />
+        <ImageView android:id="@id/notepad_widget_list_one_item_sign_checklist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/noteapd_list_checked" />
+    </LinearLayout>
+</LinearLayout>

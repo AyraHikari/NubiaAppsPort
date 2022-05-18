@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gifmaker_header_bar" android:layout_width="fill_parent" android:layout_height="168.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/gifmaker_abort" android:background="@drawable/gif_cancel" android:visibility="invisible" android:layout_width="108.0px" android:layout_height="108.0px" android:layout_centerVertical="true" android:layout_marginStart="48.0px" />
+    <TextView android:textColor="@color/gif_edit_title" android:gravity="center" android:id="@id/gifmaker_title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="108.0px" android:text="@string/gif_editor_title" android:layout_centerInParent="true" />
+    <Button android:id="@id/gifmaker_done" android:background="@drawable/gif_save" android:visibility="invisible" android:layout_width="108.0px" android:layout_height="108.0px" android:layout_centerVertical="true" android:layout_marginEnd="48.0px" android:layout_alignParentEnd="true" />
+</RelativeLayout>

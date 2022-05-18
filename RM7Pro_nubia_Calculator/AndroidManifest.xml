@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="cn.nubia.calculator2.preset" platformBuildVersionCode="100001" platformBuildVersionName="11.0.000.0812.2109231354">
+    <uses-permission android:name="com.zte.mifavor.stat.USER_STAT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ZDM_RECOVERY_REBOOT"/>
+    <uses-permission android:name="zte.permission.ZMS"/>
+    <uses-permission android:name="zte.permission.BIND_DATA_COLLECTION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher_calculator" android:label="@string/app_name" android:name="com.android.calculator2.CalculatorApplication" android:supportsRtl="true">
+        <meta-data android:name="package_name" android:value="cn.nubia.calculator2.preset"/>
+        <activity android:configChanges="keyboardHidden" android:directBootAware="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.android.calculator2.Calculator" android:resizeableActivity="true" android:theme="@style/Theme.Calculator">
+            <layout android:defaultHeight="360.0px" android:defaultWidth="427.0px" android:gravity="center" android:minHeight="360.0px" android:minWidth="427.0px"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_CALCULATOR"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.calculator2.start"/>
+                <action android:name="com.android.calculator2.start_from_float"/>
+                <action android:name="com.android.calculator2.startappLand"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.android.calculator2.CalculatorService"/>
+        <meta-data android:name="ZteExtResVersion" android:value="Nubia 11.0.010.002 2021-09-18 14:08"/>
+        <meta-data android:name="buildFlavor" android:value="Nubia"/>
+        <meta-data android:name="CommitId" android:value="5b2df3c"/>
+    </application>
+</manifest>

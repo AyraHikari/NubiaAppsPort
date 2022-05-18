@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_today" android:alphabeticShortcut="t" android:showAsAction="always" android:actionLayout="@layout/today_menu" />
+    <item android:icon="@drawable/menu_create_event_portrait" android:id="@id/action_create_event" android:alphabeticShortcut="c" android:showAsAction="always" />
+    <item android:id="@id/action_search" android:title="@string/search" android:alphabeticShortcut="f" android:imeOptions="actionSearch" android:showAsAction="collapseActionView" android:actionViewClass="cn.nubia.commonui.widget.NubiaSearchView" />
+    <item android:icon="@drawable/menu_more_portrait" android:id="@id/action_more" android:alphabeticShortcut="m" android:showAsAction="always" />
+</menu>

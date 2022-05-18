@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_bg">#ff252733</color>
+    <color name="color2rd">#ff14161f</color>
+    <color name="colorAccent">#80ffffff</color>
+    <color name="colorPrimary">#ff000000</color>
+    <color name="corner_color">#fff44234</color>
+    <color name="divider_color">#19ffffff</color>
+    <color name="gray_background_color">#4c0a0b12</color>
+    <color name="hdmi_title_divider_color">#26ffffff</color>
+    <color name="help_text_color">#80ffffff</color>
+    <color name="help_title_color">#80ffffff</color>
+    <color name="laser_color">#ff00ff00</color>
+    <color name="nubia_button_text_color_disable">#44ffffff</color>
+    <color name="nubia_button_text_color_primary">#ffffffff</color>
+    <color name="nubia_primary_text_default_material_light">#e6ffffff</color>
+    <color name="nubia_status_bar_color">#ff000000</color>
+    <color name="nubia_videoview_background">#ff000000</color>
+    <color name="result_point_color">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="textColor2nd">#80ffffff</color>
+    <color name="textColor3rd">#4dffffff</color>
+    <color name="textColor4th">#d9ffffff</color>
+    <color name="textColorPositive">#fff44234</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="touping_view_navigation_background">#ff000000</color>
+    <color name="viewfinder_frame">#90ffffff</color>
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

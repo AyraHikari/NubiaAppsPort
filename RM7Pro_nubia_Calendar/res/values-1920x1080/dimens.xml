@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ampm_text_size">24.0px</dimen>
+    <dimen name="bound">85.0px</dimen>
+    <dimen name="circel_event_size">2.0dip</dimen>
+    <dimen name="day_header_font_size">12.0dip</dimen>
+    <dimen name="day_label_text_size">36.0px</dimen>
+    <dimen name="dayview_circle_radius">18.0dip</dimen>
+    <dimen name="dayview_circle_size">20.0dip</dimen>
+    <dimen name="min_height">250.0px</dimen>
+    <dimen name="mini_chinese_day_number_text_size">36.0px</dimen>
+    <dimen name="month_x_postion">4.0dip</dimen>
+    <dimen name="month_y_postion">9.0dip</dimen>
+    <dimen name="port_lunar_offset">45.0px</dimen>
+    <dimen name="port_num_offset">12.0px</dimen>
+    <dimen name="port_offset">5.0px</dimen>
+    <dimen name="text_size_month_number">60.0px</dimen>
+    <dimen name="year_padding_size">3.2999878dip</dimen>
+    <dimen name="year_text_size0">14.0dip</dimen>
+</resources>

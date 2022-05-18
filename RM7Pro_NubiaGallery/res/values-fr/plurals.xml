@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Suppr. éléments sélectionnés ?</item>
+        <item quantity="one">Supprimer élément sélectionné ?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d jours</item>
+        <item quantity="zero">%d jour</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">"Activation consultation d'albums hors connexion."</item>
+        <item quantity="one">"Activation de consultation d'album hors connexion."</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="zero">%1$d sélectionné</item>
+        <item quantity="one">%1$d sélectionné</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="zero">%1$d sélectionné</item>
+        <item quantity="one">%1$d sélectionné</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">copier (%1$d)</item>
+        <item quantity="zero">copier (%1$d)</item>
+        <item quantity="one">copier (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">couper (%1$d)</item>
+        <item quantity="zero">couper (%1$d)</item>
+        <item quantity="one">couper (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d sélectionnés</item>
+        <item quantity="zero">%1$d sélectionné</item>
+        <item quantity="one">%1$d sélectionné</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Récupérer les éléments sélectionnés?</item>
+        <item quantity="one">"Récupérer l'élément sélectionné?"</item>
+    </plurals>
+</resources>

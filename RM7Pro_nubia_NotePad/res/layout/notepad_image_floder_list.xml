@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.notepad.view.NotePadGridView android:gravity="center" android:id="@id/gv_imgfloder" android:paddingTop="@dimen/notepad_image_floder_list_padding_top" android:paddingBottom="@dimen/notepad_image_floder_list_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="@dimen/notepad_image_floder_list_horizontal_spacing" android:verticalSpacing="@dimen/notepad_image_floder_list_vertical_spacing" android:numColumns="3" android:paddingStart="@dimen/notepad_image_floder_list_padding_left" android:paddingEnd="@dimen/notepad_image_floder_list_padding_right" />
+</FrameLayout>

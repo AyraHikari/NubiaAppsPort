@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:id="@id/checkbox_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/notepad_editor_checklist_item_checkbox_margin_right">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/notepad_editor_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/notepad_editor_text_color" android:id="@id/short_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+    </LinearLayout>
+    <cn.nubia.notepad.view.NotePadEditTextView android:textSize="@dimen/notepad_editor_text_size" android:textColor="@color/notepad_editor_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/notepad_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/input_note" android:lineSpacingMultiplier="1.4" android:inputType="textCapSentences|textCapWords|textMultiLine" android:imeOptions="actionNone" android:layout_marginEnd="@dimen/notepad_editor_edittext_marginEnd" />
+</LinearLayout>

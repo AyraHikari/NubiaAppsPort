@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="z7_btn_style">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">@dimen/btn_width</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Activity.WithActionBar" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:colorPrimaryDark">@color/nubia_status_bar_color</item>
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="Activity.WithOutActionBar" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="AddButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:src">@drawable/btn_blue_add_bg</item>
+    </style>
+    <style name="Animation.AppCompat.Dialog" parent="@style/Base.Animation.AppCompat.Dialog" />
+    <style name="Animation.AppCompat.DropDownUp" parent="@style/Base.Animation.AppCompat.DropDownUp" />
+    <style name="Animation.Nubia.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/nubia_activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/nubia_activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/nubia_activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/nubia_activity_close_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/nubia_task_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/nubia_task_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/nubia_task_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/nubia_task_close_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/nubia_task_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/nubia_task_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/nubia_task_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/nubia_task_close_exit</item>
+        <item name="android:fragmentOpenEnterAnimation">@animator/nubia_fragment_open_enter</item>
+        <item name="android:fragmentOpenExitAnimation">@animator/nubia_fragment_open_exit</item>
+        <item name="android:fragmentCloseEnterAnimation">@animator/nubia_fragment_close_enter</item>
+        <item name="android:fragmentCloseExitAnimation">@animator/nubia_fragment_close_exit</item>
+    </style>
+    <style name="Animation.Nubia.Dialog" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/nubia_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/nubia_dialog_exit</item>
+    </style>
+    <style name="Animation.NubiaDialog" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/nubia_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/nubia_dialog_exit</item>
+    </style>
+    <style name="Animation.NubiaDialog.AlertInCenter" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/nubia_center_alert_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/nubia_center_alert_dialog_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.Dialog" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/abc_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/abc_popup_exit</item>
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat" parent="@android:style/Widget">
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">?dialogPreferredPadding</item>
+        <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
+        <item name="android:paddingRight">?dialogPreferredPadding</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1" />
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2" />
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@android:style/TextAppearance.Material.Button" />
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="@android:style/TextAppearance.Material.Caption" />
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="@android:style/TextAppearance.Material.Display1" />
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="@android:style/TextAppearance.Material.Display2" />
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="@android:style/TextAppearance.Material.Display3" />
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/abc_text_size_display_4_material</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="@android:style/TextAppearance.Material.Headline" />
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@android:style/TextAppearance.Material.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Large" parent="@android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="@android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="@android:style/TextAppearance.Material.Menu" />
+    <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@android:style/TextAppearance.Material.SearchResult.Title" />
+    <style name="Base.TextAppearance.AppCompat.Small" parent="@android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="@android:style/TextAppearance.Material.Subhead" />
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="@android:style/TextAppearance.Material.Title" />
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large" />
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="@style/TextAppearance.AppCompat.Button" />
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@android:style/TextAppearance.Material.Widget.TextView.SpinnerItem" />
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.CompactMenu" parent="">
+        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.DropDownUp</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog" parent="@style/Base.V21.Theme.AppCompat.Dialog" />
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize" parent="@style/Base.Theme.AppCompat.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@style/Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light" />
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V21.Theme.AppCompat.Light.Dialog" />
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize" parent="@style/Base.Theme.AppCompat.Light.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Theme.AppCompat.Light" />
+    <style name="Base.ThemeOverlay.AppCompat" parent="@android:style/ThemeOverlay.Material">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@android:style/ThemeOverlay.Material.Dark">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="isLightTheme">false</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="isLightTheme">false</item>
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Light">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="isLightTheme">true</item>
+        <item name="colorControlHighlight">@color/ripple_material_light</item>
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Dialog" parent="@style/Base.V7.Theme.AppCompat.Dialog">
+        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat" parent="@style/Base.V7.Theme.AppCompat">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlActivated">?colorControlActivated</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="android:colorPrimary">?colorPrimary</item>
+        <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
+        <item name="android:colorAccent">?colorAccent</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarDivider">?android:actionBarDivider</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionModeBackground">?android:actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:textAppearanceSmallPopupMenu</item>
+        <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackgroundBorderless</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="editTextColor">?android:editTextColor</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog" parent="@style/Base.V11.Theme.AppCompat.Dialog">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlActivated">?colorControlActivated</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="android:colorPrimary">?colorPrimary</item>
+        <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
+        <item name="android:colorAccent">?colorAccent</item>
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarDivider">?android:actionBarDivider</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionModeBackground">?android:actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:textAppearanceSmallPopupMenu</item>
+        <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackgroundBorderless</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="editTextColor">?android:editTextColor</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light" parent="@style/Base.V7.Theme.AppCompat.Light">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlActivated">?colorControlActivated</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="android:colorPrimary">?colorPrimary</item>
+        <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
+        <item name="android:colorAccent">?colorAccent</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarDivider">?android:actionBarDivider</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionModeBackground">?android:actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:textAppearanceSmallPopupMenu</item>
+        <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackgroundBorderless</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="editTextColor">?android:editTextColor</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="@style/Base.V11.Theme.AppCompat.Light.Dialog">
+        <item name="android:colorControlNormal">?colorControlNormal</item>
+        <item name="android:colorControlActivated">?colorControlActivated</item>
+        <item name="android:colorControlHighlight">?colorControlHighlight</item>
+        <item name="android:colorPrimary">?colorPrimary</item>
+        <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
+        <item name="android:colorAccent">?colorAccent</item>
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarDivider">?android:actionBarDivider</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionModeBackground">?android:actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:actionModeCloseDrawable</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
+        <item name="textAppearanceLargePopupMenu">?android:textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:textAppearanceSmallPopupMenu</item>
+        <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackgroundBorderless</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="editTextColor">?android:editTextColor</item>
+        <item name="editTextBackground">?android:editTextBackground</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat" parent="@style/Platform.AppCompat">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
+        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:ratingBarStyle">@style/Widget.AppCompat.RatingBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button</item>
+        <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item name="isLightTheme">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar.Solid</item>
+        <item name="actionBarSplitStyle">?actionBarStyle</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height_material</item>
+        <item name="actionBarDivider">?dividerVertical</item>
+        <item name="actionBarItemBackground">?selectableItemBackgroundBorderless</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
+        <item name="actionModeSplitBackground">?colorPrimaryDark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item name="dialogTheme">@style/Theme.AppCompat.Dialog</item>
+        <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item name="dropdownListPreferredItemHeight">?listPreferredItemHeightSmall</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="selectableItemBackgroundBorderless">?selectableItemBackground</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="editTextColor">?android:textColorPrimary</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text</item>
+        <item name="listPreferredItemHeight">64.0dip</item>
+        <item name="listPreferredItemHeightSmall">48.0dip</item>
+        <item name="listPreferredItemHeightLarge">80.0dip</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorButtonNormal">@color/button_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat">
+        <item name="android:colorBackground">@color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@drawable/abc_dialog_material_background_dark</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/Base.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="listPreferredItemPaddingRight">24.0dip</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
+        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AppCompat.EditText</item>
+        <item name="android:ratingBarStyle">@style/Widget.AppCompat.RatingBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Button</item>
+        <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
+        <item name="isLightTheme">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar.Solid</item>
+        <item name="actionBarSplitStyle">?actionBarStyle</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height_material</item>
+        <item name="actionBarDivider">?dividerVertical</item>
+        <item name="actionBarItemBackground">?selectableItemBackgroundBorderless</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:textColorPrimaryDisableOnly</item>
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
+        <item name="actionModeSplitBackground">?colorPrimaryDark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="dialogTheme">@style/Theme.AppCompat.Light.Dialog</item>
+        <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+        <item name="dropdownListPreferredItemHeight">?listPreferredItemHeightSmall</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="buttonBarStyle">@style/Widget.AppCompat.ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="selectableItemBackgroundBorderless">?selectableItemBackground</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+        <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="editTextColor">?android:textColorPrimary</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text</item>
+        <item name="listPreferredItemHeight">64.0dip</item>
+        <item name="listPreferredItemHeightSmall">48.0dip</item>
+        <item name="listPreferredItemHeightLarge">80.0dip</item>
+        <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
+        <item name="colorPrimary">@color/primary_material_light</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="colorAccent">@color/accent_material_light</item>
+        <item name="colorControlNormal">?android:textColorSecondary</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="colorControlHighlight">@color/ripple_material_light</item>
+        <item name="colorButtonNormal">@color/button_material_light</item>
+        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/background_floating_material_light</item>
+        <item name="android:windowBackground">@drawable/abc_dialog_material_background_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/Base.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="listPreferredItemPaddingRight">24.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar" parent="">
+        <item name="android:gravity">center_vertical</item>
+        <item name="height">?actionBarSize</item>
+        <item name="displayOptions">showTitle</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="divider">?dividerVertical</item>
+        <item name="background">@null</item>
+        <item name="backgroundStacked">@null</item>
+        <item name="backgroundSplit">@null</item>
+        <item name="contentInsetStart">@dimen/abc_action_bar_content_inset_material</item>
+        <item name="contentInsetEnd">@dimen/abc_action_bar_content_inset_material</item>
+        <item name="elevation">8.0dip</item>
+        <item name="popupTheme">?actionBarPopupTheme</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.ActionBar">
+        <item name="background">?colorPrimary</item>
+        <item name="backgroundStacked">?colorPrimary</item>
+        <item name="backgroundSplit">?colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabBar" parent="">
+        <item name="divider">?actionBarDivider</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">8.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.ActionButton" parent="@android:style/Widget.Material.ActionButton" />
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode" parent="@android:style/Widget.Material.ActionButton.CloseMode">
+        <item name="android:minWidth">56.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.ActionMode" parent="">
+        <item name="height">?actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item name="background">?actionModeBackground</item>
+        <item name="backgroundSplit">?actionModeSplitBackground</item>
+        <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActivityChooserView" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abc_ab_share_pack_mtrl_alpha</item>
+        <item name="divider">?dividerVertical</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">6.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView" parent="@android:style/Widget.Material.AutoCompleteTextView" />
+    <style name="Base.Widget.AppCompat.Button" parent="@android:style/Widget.Material.Button" />
+    <style name="Base.Widget.AppCompat.Button.Borderless" parent="@android:style/Widget.Material.Button.Borderless" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small" parent="@android:style/Widget.Material.Button.Small" />
+    <style name="Base.Widget.AppCompat.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" />
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.ButtonBar">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox" />
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton" parent="@android:style/Widget.Material.CompoundButton.RadioButton" />
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:padding">@dimen/abc_switch_padding</item>
+        <item name="android:thumb">@drawable/abc_switch_thumb_material</item>
+        <item name="track">@drawable/abc_switch_track_mtrl_alpha</item>
+        <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item name="showText">false</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item name="drawableSize">24.0dip</item>
+        <item name="gapBetweenBars">3.0dip</item>
+        <item name="barSize">18.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common" parent="">
+        <item name="color">?android:textColorSecondary</item>
+        <item name="spinBars">true</item>
+        <item name="topBottomBarArrowSize">11.309998dip</item>
+        <item name="middleBarArrowSize">16.0dip</item>
+        <item name="thickness">2.0dip</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="@android:style/Widget.Material.DropDownItem.Spinner" />
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textColor">?editTextColor</item>
+        <item name="android:background">?editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar" parent="@style/Base.Widget.AppCompat.ActionBar">
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.Light.ActionBar">
+        <item name="background">?colorPrimary</item>
+        <item name="backgroundStacked">?colorPrimary</item>
+        <item name="backgroundSplit">?colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.ActionBar.TabBar" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@android:style/Widget.Material.Light.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@android:style/Widget.Material.Light.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@android:style/Widget.Material.Light.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@style/Widget.AppCompat.ListPopupWindow" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.Light.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow" parent="@android:style/Widget.Material.ListPopupWindow" />
+    <style name="Base.Widget.AppCompat.ListView.DropDown" parent="@android:style/Widget.Material.ListView.DropDown" />
+    <style name="Base.Widget.AppCompat.ListView.Menu" parent="@android:style/Widget.Material.ListView" />
+    <style name="Base.Widget.AppCompat.PopupMenu" parent="@style/Widget.AppCompat.ListPopupWindow" />
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.PopupMenu">
+        <item name="android:dropDownHorizontalOffset">-4.0dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupWindow" parent="@android:style/Widget.PopupWindow" />
+    <style name="Base.Widget.AppCompat.ProgressBar" parent="@android:style/Widget.Material.ProgressBar" />
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="@android:style/Widget.Material.ProgressBar.Horizontal" />
+    <style name="Base.Widget.AppCompat.RatingBar" parent="@android:style/Widget.Material.RatingBar" />
+    <style name="Base.Widget.AppCompat.Spinner" parent="@android:style/Widget.Material.Spinner" />
+    <style name="Base.Widget.AppCompat.Spinner.DropDown.ActionBar" parent="@android:style/Widget.Material.Spinner">
+        <item name="spinnerMode">dropdown</item>
+        <item name="popupPromptView">@layout/abc_simple_dropdown_hint</item>
+        <item name="disableChildrenWhenDisabled">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@android:style/Widget">
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="contentInsetStart">16.0dip</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item name="titleMargins">4.0dip</item>
+        <item name="maxButtonHeight">56.0dip</item>
+        <item name="collapseIcon">?homeAsUpIndicator</item>
+        <item name="collapseContentDescription">@string/abc_toolbar_collapse_description</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="@android:style/Widget.Material.Toolbar.Button.Navigation" />
+    <style name="BottomMenu_TextView">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:textColor">@color/menu_text_color</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:paddingLeft">@dimen/menu_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/menu_height</item>
+    </style>
+    <style name="Calendar.ActionBar" parent="@style/Theme.Nubia.NoActionBar">
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="CalendarActionBarSpinner" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:background">@color/background_color</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:popupBackground">@color/background_color</item>
+        <item name="android:dropDownWidth">fill_parent</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="CalendarActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.Solid">
+        <item name="android:background">@color/background_color</item>
+        <item name="android:height">@dimen/actionbar_height</item>
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+    <style name="CalendarTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="CalendarTheme.WithActionBar" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimaryDark">@color/nubia_status_bar_color</item>
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="CalendarTheme.WithActionBar.VcalendarImport" parent="@style/CalendarTheme.WithActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CalendarTheme.WithActionBarForEditEventActivity" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimaryDark">@color/nubia_status_bar_color</item>
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="CalendarTheme.WithActionBarWallpaper" parent="@style/CalendarTheme.WithActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Calendarsetting.ActionBar" parent="@style/Theme.Nubia.ActionBar">
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="CapsuleButtonStyle">
+        <item name="capsuleSelectedTextColor">@color/nubia_primary_text_default_material_light</item>
+        <item name="capsuleNormalTextColor">@color/nubia_secondary_text_default_material_light</item>
+        <item name="capsuleBackgroundLeft">@drawable/nubia_capsule_btn_background</item>
+        <item name="capsuleBackgroundMid">@drawable/nubia_capsule_btn_background</item>
+        <item name="capsuleBackgroundRight">@drawable/nubia_capsule_btn_background</item>
+    </style>
+    <style name="CircleProgressBarStyle">
+        <item name="progressNubia">0</item>
+        <item name="maxProgressNubia">100</item>
+        <item name="progressUnreachedColor">@color/nubia_circle_progress_unreached_color</item>
+        <item name="progressReachedColor">@color/nubia_circle_progress_reached_color</item>
+        <item name="progressTextColor">@color/nubia_circle_progress_reached_color</item>
+    </style>
+    <style name="CircleProgressBarStyle.Large" parent="@style/CircleProgressBarStyle">
+        <item name="progressTextSize">@dimen/nubia_text_size_medium</item>
+        <item name="progressCircleRadius">@dimen/nubia_circle_progress_radius_large</item>
+        <item name="progressCircleSize">@dimen/nubia_circle_progress_width_large</item>
+    </style>
+    <style name="CircleProgressBarStyle.Normal" parent="@style/CircleProgressBarStyle">
+        <item name="progressTextSize">@dimen/nubia_text_size_extrasmall</item>
+        <item name="progressCircleRadius">@dimen/nubia_circle_progress_radius_default</item>
+        <item name="progressCircleSize">@dimen/nubia_circle_progress_width_default</item>
+    </style>
+    <style name="DialogWindowTitle" />
+    <style name="DialogWindowTitle.Nubia" parent="@style/DialogWindowTitle">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="EditEventCustomActionButton" parent="@android:style/Widget.DeviceDefault.Light.ActionButton">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="EditEventCustomActionButtonImage">
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EditEventCustomActionButtonText">
+        <item name="android:textAppearance">?android:actionMenuTextAppearance</item>
+        <item name="android:textColor">?android:actionMenuTextColor</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="EditEventItemLineStyle">
+        <item name="android:background">@color/calendar_grid_line_inner_horizontal_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginStart">15.0dip</item>
+    </style>
+    <style name="EditEventItemRightStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/item_right</item>
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="EditEventItemStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/list_item_min_height</item>
+        <item name="android:paddingStart">@dimen/Padding_Event</item>
+        <item name="android:paddingEnd">@dimen/Padding_Event</item>
+    </style>
+    <style name="EditEventItemTimeStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/nubia_right_arrow</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="EditEventItemTitleLineHeadStyle">
+        <item name="android:background">@color/calendar_grid_line_inner_horizontal_head_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">24.0px</item>
+    </style>
+    <style name="EditEventItemTitleLineStyle">
+        <item name="android:background">@color/calendar_grid_line_inner_horizontal_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="EditEventLineStyle">
+        <item name="android:background">@color/calendar_grid_line_inner_horizontal_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="EditEventSeparator">
+        <item name="android:background">@color/edit_event_separator</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">15.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+    <style name="EditEvent_Layout" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="EventViewItemRightStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/item_right</item>
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="GoogleCalendarNodispaly" parent="@android:style/Theme.NoDisplay" />
+    <style name="MenuMoreAnimation">
+        <item name="android:windowEnterAnimation">@anim/menu_anim_show</item>
+        <item name="android:windowExitAnimation">@anim/menu_anim_hide</item>
+    </style>
+    <style name="MinusButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:src">@drawable/item_right</item>
+    </style>
+    <style name="MonthView_DayLabel">
+        <item name="android:textAppearance">@style/TextAppearance.MonthView_DayLabel</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">29.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="MonthView_MiniMonthLabel">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_mini_day_number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="MultiStateButton">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="NotificationPrimaryText" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="NotificationSecondaryText" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="Nubia.ButtonBar" parent="@android:style/Holo.ButtonBar">
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="Nubia.ButtonBar.AlertDialog" parent="@style/Nubia.ButtonBar">
+        <item name="android:background">@null</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+    <style name="NubiaFontBold">
+        <item name="android:fontFamily">nubiafont-bold</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="NubiaFontMedium">
+        <item name="android:fontFamily">nubiafont-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="NubiaPreferenceFragment">
+        <item name="android:paddingStart">@dimen/nubia_preference_fragment_padding_side_material</item>
+        <item name="android:paddingEnd">@dimen/nubia_preference_fragment_padding_side_material</item>
+    </style>
+    <style name="PictureBrowserStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarStyle">?buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:buttonBarStyle">?buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>
+    </style>
+    <style name="Preference">
+        <item name="android:layout">@layout/preference</item>
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_arrow</item>
+    </style>
+    <style name="Preference.Nubia" parent="@style/Preference">
+        <item name="android:layout">@layout/nubia_preference_holo</item>
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_arrow</item>
+    </style>
+    <style name="Preference.Nubia.Category" parent="@style/Preference.Nubia">
+        <item name="android:layout">@layout/nubia_preference_category_holo</item>
+        <item name="android:selectable">false</item>
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Nubia.CheckBoxPreference" parent="@style/Preference.Nubia">
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.Nubia.DialogPreference" parent="@style/Preference.Nubia">
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_arrow</item>
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.Nubia.DialogPreference.EditTextPreference" parent="@style/Preference.Nubia.DialogPreference">
+        <item name="android:dialogLayout">@layout/nubia_preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.Nubia.FirstCategory" parent="@style/Preference.Nubia">
+        <item name="android:layout">@layout/nubia_preference_first_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Nubia.Information" parent="@style/Preference.Nubia">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/nubia_preference_information_holo</item>
+        <item name="android:widgetLayout">@null</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Nubia.PreferenceScreen" parent="@style/Preference.Nubia">
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_arrow</item>
+    </style>
+    <style name="Preference.Nubia.RingtonePreference" parent="@style/Preference.Nubia">
+        <item name="android:layout">@layout/nubia_right_summary_preference</item>
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_arrow</item>
+        <item name="android:ringtoneType">ringtone</item>
+        <item name="android:showDefault">true</item>
+        <item name="android:showSilent">true</item>
+    </style>
+    <style name="Preference.Nubia.SwitchPreference" parent="@style/Preference.Nubia">
+        <item name="android:widgetLayout">@layout/nubia_preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/nubia_capital_on</item>
+        <item name="android:switchTextOff">@string/nubia_capital_off</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingRight">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingLeft">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginLeft">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
+        <item name="android:paddingLeft">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingRight">4.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="@android:style/Widget" />
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner" />
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="@android:style/Widget">
+        <item name="android:layout_marginLeft">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" parent="@style/Base.Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:paddingLeft">@dimen/abc_action_bar_navigation_padding_start_material</item>
+    </style>
+    <style name="ScreenTimeoutRadioItem">
+        <item name="android:textSize">@dimen/nubia_text_size_medium</item>
+        <item name="android:textColor">@color/nubia_button_text_color_primary</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:paddingLeft">@dimen/Padding_Event</item>
+        <item name="android:paddingRight">@dimen/Padding_Event</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/list_item_min_height</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableEnd">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="TextAppearance" parent="@android:style/TextAppearance" />
+    <style name="TextAppearance.AgendaView_ValueLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat" parent="@style/Base.TextAppearance.AppCompat" />
+    <style name="TextAppearance.AppCompat.Body1" parent="@style/Base.TextAppearance.AppCompat.Body1" />
+    <style name="TextAppearance.AppCompat.Body2" parent="@style/Base.TextAppearance.AppCompat.Body2" />
+    <style name="TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat.Button" />
+    <style name="TextAppearance.AppCompat.Caption" parent="@style/Base.TextAppearance.AppCompat.Caption" />
+    <style name="TextAppearance.AppCompat.Display1" parent="@style/Base.TextAppearance.AppCompat.Display1" />
+    <style name="TextAppearance.AppCompat.Display2" parent="@style/Base.TextAppearance.AppCompat.Display2" />
+    <style name="TextAppearance.AppCompat.Display3" parent="@style/Base.TextAppearance.AppCompat.Display3" />
+    <style name="TextAppearance.AppCompat.Display4" parent="@style/Base.TextAppearance.AppCompat.Display4" />
+    <style name="TextAppearance.AppCompat.Headline" parent="@style/Base.TextAppearance.AppCompat.Headline" />
+    <style name="TextAppearance.AppCompat.Inverse" parent="@style/Base.TextAppearance.AppCompat.Inverse" />
+    <style name="TextAppearance.AppCompat.Large" parent="@style/Base.TextAppearance.AppCompat.Large" />
+    <style name="TextAppearance.AppCompat.Large.Inverse" parent="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="@style/TextAppearance.AppCompat.SearchResult.Subtitle" />
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="@style/TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" />
+    <style name="TextAppearance.AppCompat.Medium" parent="@style/Base.TextAppearance.AppCompat.Medium" />
+    <style name="TextAppearance.AppCompat.Medium.Inverse" parent="@style/Base.TextAppearance.AppCompat.Medium.Inverse" />
+    <style name="TextAppearance.AppCompat.Menu" parent="@style/Base.TextAppearance.AppCompat.Menu" />
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle" />
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult.Title" />
+    <style name="TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat.Small" />
+    <style name="TextAppearance.AppCompat.Small.Inverse" parent="@style/Base.TextAppearance.AppCompat.Small.Inverse" />
+    <style name="TextAppearance.AppCompat.Subhead" parent="@style/Base.TextAppearance.AppCompat.Subhead" />
+    <style name="TextAppearance.AppCompat.Subhead.Inverse" parent="@style/Base.TextAppearance.AppCompat.Subhead.Inverse" />
+    <style name="TextAppearance.AppCompat.Title" parent="@style/Base.TextAppearance.AppCompat.Title" />
+    <style name="TextAppearance.AppCompat.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Title.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@style/Base.TextAppearance.AppCompat.Widget.ActionMode.Title" />
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title" />
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="@style/Base.TextAppearance.AppCompat.Widget.DropDownItem" />
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+    <style name="TextAppearance.AppCompat.Widget.Switch" parent="@style/Base.TextAppearance.AppCompat.Widget.Switch" />
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" />
+    <style name="TextAppearance.Date_Range_Title" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/calendar_date_range_color</item>
+    </style>
+    <style name="TextAppearance.EditEvent" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="TextAppearance.EditEventCalSpinner" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/text_color_black_ff</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Button" parent="@style/TextAppearance.EditEvent_Label">
+        <item name="android:textColor">#ff777777</item>
+    </style>
+    <style name="TextAppearance.EditEvent_CalSpinnerValue" parent="@style/TextAppearance.EditEventCalSpinner">
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">-16.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_LabelSmall" parent="@style/TextAppearance.EditEvent_Small">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">144.0dip</item>
+        <item name="android:layout_marginBottom">-12.0dip</item>
+        <item name="android:minHeight">24.0dip</item>
+        <item name="android:layout_marginStart">16.0dip</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Radio" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Small" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Spinner" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:layout_marginStart">12.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_SpinnerButton" parent="@style/TextAppearance.EditEvent_Spinner">
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Value" parent="@style/TextAppearance.EditEvent">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginStart">12.0dip</item>
+        <item name="android:layout_marginEnd">12.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Value1" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/new_view_item_where_text_size</item>
+        <item name="android:textColor">#ffff4d4d</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingBottom">@dimen/edit_event_descript_info_location_margin_bottom</item>
+        <item name="android:minHeight">@dimen/edit_event_calendar_spinner_height</item>
+        <item name="android:layout_marginStart">@dimen/event_info_headline_padding_left</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Value2" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_marginStart">@dimen/event_info_headline_padding_left</item>
+        <item name="android:layout_marginEnd">@dimen/event_info_headline_padding_left</item>
+    </style>
+    <style name="TextAppearance.EditEvent_homeTime" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.EventInfo_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingLeft">16.0dip</item>
+    </style>
+    <style name="TextAppearance.MonthView_DayLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/nubia_text_size_extrasmall</item>
+        <item name="android:textColor">@color/summary_text_color</item>
+    </style>
+    <style name="TextAppearance.MonthView_MiniDayLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">30.0px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_bgcolor</item>
+    </style>
+    <style name="TextAppearance.Nubia" parent="@android:style/TextAppearance.Material" />
+    <style name="TextAppearance.Nubia.ActionBar.Title.BlurEffect" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/nubia_actionbar_title_blureffect_color</item>
+    </style>
+    <style name="TextAppearance.Nubia.ActionBarTittle" parent="@style/TextAppearance.Nubia.Large">
+        <item name="android:textSize">@dimen/nubia_action_bar_title_size</item>
+        <item name="android:textColor">@color/nubia_ic_ab_back_color</item>
+        <item name="android:fontFamily">nubiafont-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="TextAppearance.Nubia.ActionBarTittle.Dark" parent="@style/TextAppearance.Nubia.ActionBarTittle">
+        <item name="android:textColor">@color/nubia_primary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Nubia.AlertDialog.CheckedTextView" parent="@style/TextAppearance.Nubia.Medium">
+        <item name="android:textColor">@color/nubia_alert_dialog_list_item_color</item>
+    </style>
+    <style name="TextAppearance.Nubia.AlertDialogTitle" parent="@style/TextAppearance.Nubia.Small">
+        <item name="android:textSize">@dimen/nubia_dialog_title_text_size</item>
+        <item name="android:textColor">@color/nubia_dialog_title_text_color</item>
+    </style>
+    <style name="TextAppearance.Nubia.ExtraLarge" parent="@android:style/TextAppearance.Material.Large">
+        <item name="android:textSize">@dimen/nubia_text_size_extralarge</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">nubiafont-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="TextAppearance.Nubia.ExtraSmall" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textSize">@dimen/nubia_text_size_extrasmall</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Nubia.Large" parent="@android:style/TextAppearance.Material.Large">
+        <item name="android:textSize">@dimen/nubia_text_size_large</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Nubia.Medium" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textSize">@dimen/nubia_text_size_medium</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Nubia.Small" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textSize">@dimen/nubia_text_size_small</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Nubia.Widget.ActionBar.Menu" parent="@style/TextAppearance.Nubia.Small">
+        <item name="android:textSize">@dimen/nubia_action_bar_menu_text_size</item>
+        <item name="android:textColor">?android:actionMenuTextColor</item>
+        <item name="android:fontFamily">nubiafont-medium</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="TextAppearance.Nubia.WindowTitle" parent="@style/TextAppearance.Nubia">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.SelectCalendar_Name" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    <style name="TextLetterDialog">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextViewColorNormal" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textSize">@dimen/nubia_text_size_medium</item>
+        <item name="android:textColor">@color/nubia_text_view_material_light</item>
+    </style>
+    <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
+    <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
+    <style name="Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.Light" parent="@style/Base.Theme.AppCompat.Light" />
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+    <style name="Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog" />
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="@style/Base.Theme.AppCompat.Light.DialogWhenLarge" />
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.NoActionBar" parent="@style/Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyNubia" parent="@android:style/Theme.Material.Light">
+        <item name="android:disabledAlpha">@dimen/nubia_disabled_alpha_light</item>
+        <item name="android:textColorPrimary">@color/nubia_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/nubia_secondary_text_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Nubia.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Nubia.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Nubia.Small</item>
+        <item name="android:buttonStyle">@style/Widget.Nubia.Button</item>
+        <item name="android:listPreferredItemHeight">@dimen/nubia_list_preferred_item_height_normal</item>
+        <item name="android:windowBackground">@color/nubia_screen_background_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">25.0dip</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle.Nubia</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/nubia_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/nubia_scrollbar_handle_vertical</item>
+        <item name="android:checkboxStyle">@style/Widget.Nubia.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.Nubia.EditText</item>
+        <item name="android:listViewStyle">@style/Widget.Nubia.ListView</item>
+        <item name="android:progressBarStyle">@style/Widget.Nubia.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Nubia.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Nubia.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Nubia.ProgressBar.Large</item>
+        <item name="android:seekBarStyle">@style/Widget.Nubia.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Nubia.CompoundButton.RadioButton</item>
+        <item name="android:textViewStyle">@style/Widget.Nubia.TextView</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Nubia.DropDownItem</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Nubia.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Nubia.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Nubia.Information</item>
+        <item name="android:preferenceStyle">@style/Preference.Nubia</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Nubia.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Nubia.RingtonePreference</item>
+        <item name="android:preferenceLayoutChild">@layout/nubia_preference_child_holo</item>
+        <item name="android:textColorHighlight">?android:colorControlActivated</item>
+        <item name="android:textColorHint">@color/nubia_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/nubia_holo_dark_blue_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Nubia.Activity</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Nubia.TextView.ListSeparator</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Nubia.ProgressBar.Small.Title</item>
+        <item name="android:listDivider">@drawable/nubia_list_divider_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/nubia_btn_radio_material_anim</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/nubia_btn_check_material_anim</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateUnspecified</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Nubia.ActionBar.Solid</item>
+        <item name="android:actionModeBackground">@drawable/nubia_ab_solid_light_material</item>
+        <item name="android:actionModeCloseDrawable">@drawable/nubia_actionmode_circle_close</item>
+        <item name="android:actionBarSize">@dimen/nubia_action_bar_default_height</item>
+        <item name="android:listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Nubia.ActionBar.TabText</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/nubia_activated_background_holo_light</item>
+        <item name="android:listDividerAlertDialog">?android:listDivider</item>
+        <item name="android:alertDialogTheme">@style/Theme.Nubia.Dialog.Alert</item>
+        <item name="android:dividerVertical">?android:listDivider</item>
+        <item name="android:homeAsUpIndicator">@drawable/nubia_ic_ab_back_material</item>
+        <item name="android:selectableItemBackground">@drawable/nubia_item_background_material</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Nubia.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Nubia.ButtonBar</item>
+        <item name="android:editTextBackground">@drawable/nubia_edit_text_material</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Nubia.Widget.ActionBar.Menu</item>
+        <item name="android:actionMenuTextColor">?android:textColorSecondary</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.Nubia.SwitchPreference</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/nubia_list_preferred_item_height_large</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nubia_list_preferred_item_height_small</item>
+        <item name="android:actionBarSplitStyle">@style/Widget.Nubia.actionBarSplit</item>
+        <item name="android:actionModeStyle">@style/Widget.Nubia.ActionMode</item>
+        <item name="android:actionBarItemBackground">@null</item>
+        <item name="android:actionModeSplitBackground">@color/text_color_black_ff</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:colorControlNormal">@color/nubia_normal_light</item>
+        <item name="android:colorControlActivated">@color/nubia_activated_red</item>
+        <item name="android:colorControlHighlight">@color/nubia_ripple_material_light</item>
+        <item name="android:actionBarTheme">@null</item>
+        <item name="textAppearanceExtraSmall">@style/TextAppearance.Nubia.ExtraSmall</item>
+        <item name="titleBackgroundWithLine">@drawable/nubia_ab_background_line</item>
+        <item name="menuItemBackground">@drawable/nubia_menu_item_background</item>
+        <item name="menuItemBottomStyle">@style/Widget.Nubia.TextView.MenuItemBottom</item>
+        <item name="colorActivatedRed">@color/nubia_activated_red</item>
+        <item name="colorActivatedGreen">@color/nubia_activated_green</item>
+        <item name="colorActivatedBlue">@color/nubia_activated_blue</item>
+        <item name="colorActivatedYellow">@color/nubia_activated_yellow</item>
+        <item name="colorControlDisabled">@color/nubia_disabled_light</item>
+        <item name="colorControlNormalSecondary">@color/nubia_normal_secondary_light</item>
+        <item name="disabledActivatedAlpha">@dimen/nubia_disabled_activated_alpha_light</item>
+        <item name="isNubiaStyle">true</item>
+        <item name="nubiaSearchViewStyle">@style/Widget.Nubia.NubiaSearchView</item>
+        <item name="nubiaSelectAllStyle">@style/Widget.Nubia.CompoundButton.NubiaSelectAll</item>
+        <item name="nubiaPagerTabStyle">@style/Widget.Nubia.Tab</item>
+        <item name="selectAllBackground">@drawable/nubia_btn_select_all_background</item>
+        <item name="preferenceRightArrow">@drawable/nubia_right_arrow</item>
+        <item name="listPreferredItemHeightSmallSecondary">@dimen/nubia_list_preferred_item_height_small_secondary</item>
+        <item name="listPreferredItemSpace">@dimen/nubia_list_preferred_item_space</item>
+        <item name="listPreferredItemPaddingTop">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="listPreferredItemPaddingBottom">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="nubiaSwitchStyle">@style/Widget.Nubia.Switch</item>
+        <item name="buttonLeftBackground">@drawable/nubia_dialog_left_btn_default_material</item>
+        <item name="buttonMiddleBackground">@drawable/nubia_dialog_mid_btn_default_material</item>
+        <item name="buttonRightBackground">@drawable/nubia_dialog_right_btn_default_material</item>
+        <item name="seekbarBackgroundColor">@color/nubia_seekbar_background_default_color</item>
+        <item name="alertDialogCenterButtons">false</item>
+    </style>
+    <style name="Theme.Nubia" parent="@style/Theme.AppCompat.Light">
+        <item name="android:disabledAlpha">@dimen/nubia_disabled_alpha_light</item>
+        <item name="android:textColorPrimary">@color/nubia_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/nubia_secondary_text_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Nubia.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Nubia.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Nubia.Small</item>
+        <item name="android:buttonStyle">@style/Widget.Nubia.Button</item>
+        <item name="android:listPreferredItemHeight">@dimen/nubia_list_preferred_item_height_normal</item>
+        <item name="android:windowBackground">@drawable/nubia_window_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">25.0dip</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle.Nubia</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/nubia_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/nubia_scrollbar_handle_vertical</item>
+        <item name="android:checkboxStyle">@style/Widget.Nubia.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.Nubia.EditText</item>
+        <item name="android:listViewStyle">@style/Widget.Nubia.ListView</item>
+        <item name="android:progressBarStyle">@style/Widget.Nubia.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Nubia.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Nubia.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Nubia.ProgressBar.Large</item>
+        <item name="android:seekBarStyle">@style/Widget.Nubia.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Nubia.CompoundButton.RadioButton</item>
+        <item name="android:textViewStyle">@style/Widget.Nubia.TextView</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Nubia.DropDownItem</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Nubia.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Nubia.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Nubia.Information</item>
+        <item name="android:preferenceStyle">@style/Preference.Nubia</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Nubia.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Nubia.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Nubia.RingtonePreference</item>
+        <item name="android:preferenceLayoutChild">@layout/nubia_preference_child_holo</item>
+        <item name="android:textColorHighlight">@color/nubia_textview_highlight_color</item>
+        <item name="android:textColorHint">@color/nubia_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/nubia_link_text_material</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Nubia.Activity</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Nubia.TextView.ListSeparator</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Nubia.ProgressBar.Small.Title</item>
+        <item name="android:listDivider">@drawable/nubia_list_divider_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/nubia_btn_radio_material_anim</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/nubia_btn_check_material_anim</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateUnspecified</item>
+        <item name="android:textSelectHandleLeft">@drawable/nubia_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/nubia_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/nubia_text_select_handle_middle</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Nubia.ActionBar.Solid</item>
+        <item name="android:actionModeBackground">@drawable/nubia_ab_solid_light_material</item>
+        <item name="android:actionModeCloseDrawable">@layout/nubia_action_mode_close_item</item>
+        <item name="android:actionBarSize">@dimen/nubia_action_bar_default_height</item>
+        <item name="android:listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Nubia.ActionBar.TabText</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/nubia_activated_background_holo_light</item>
+        <item name="android:listDividerAlertDialog">?throughDivider</item>
+        <item name="android:alertDialogTheme">@style/Theme.Nubia.Dialog.Alert</item>
+        <item name="android:dividerVertical">?throughDivider</item>
+        <item name="android:homeAsUpIndicator">@drawable/nubia_ic_ab_back_material</item>
+        <item name="android:selectableItemBackground">@drawable/nubia_item_background_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/nubia_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/nubia_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/nubia_ic_menu_paste_material</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Nubia.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Nubia.ButtonBar</item>
+        <item name="android:editTextBackground">@drawable/nubia_edit_text_material</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Nubia.Widget.ActionBar.Menu</item>
+        <item name="android:actionMenuTextColor">?android:textColorSecondary</item>
+        <item name="android:textCursorDrawable">@drawable/nubia_text_cursor</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.Nubia.SwitchPreference</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/nubia_ic_menu_selectall_material</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/nubia_list_preferred_item_height_large</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nubia_list_preferred_item_height_small</item>
+        <item name="android:actionBarSplitStyle">@style/Widget.Nubia.actionBarSplit</item>
+        <item name="android:actionModeStyle">@style/Widget.Nubia.ActionMode</item>
+        <item name="android:actionBarItemBackground">@null</item>
+        <item name="android:actionModeSplitBackground">@drawable/nubia_ab_solid_light_material_bottom</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/nubia_list_preferred_item_pandding_side</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/nubia_list_preferred_item_pandding_side</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/nubia_list_preferred_item_pandding_side</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/nubia_list_preferred_item_pandding_side</item>
+        <item name="android:colorControlNormal">@color/nubia_normal_light</item>
+        <item name="android:colorControlActivated">@color/nubia_activated_red</item>
+        <item name="android:colorControlHighlight">@color/nubia_ripple_material_light</item>
+        <item name="android:actionBarTheme">@null</item>
+        <item name="android:actionModeShareDrawable">@drawable/nubia_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/nubia_ic_menu_search_material</item>
+        <item name="android:windowLightStatusBar">@bool/nubia_statusbar_text_color</item>
+        <item name="capsuleButtonStyle">@style/CapsuleButtonStyle</item>
+        <item name="circleProgressBarStyle">@style/CircleProgressBarStyle.Normal</item>
+        <item name="circleProgressBarStyleLarge">@style/CircleProgressBarStyle.Large</item>
+        <item name="preferenceCategoryTextColor">@color/nubia_activated_green</item>
+        <item name="preferenceCategoryTextSize">@dimen/nubia_text_size_medium</item>
+        <item name="actionModeCloseTextColor">@color/nubia_text_view_material_light_closed</item>
+        <item name="fakeStatusBarBackground">@android:color/transparent</item>
+        <item name="textAppearanceExtraLarge">@style/TextAppearance.Nubia.ExtraLarge</item>
+        <item name="textAppearanceExtraSmall">@style/TextAppearance.Nubia.ExtraSmall</item>
+        <item name="titleBackgroundWithLine">@android:color/transparent</item>
+        <item name="menuItemBottomStyle">@style/Widget.Nubia.TextView.MenuItemBottom</item>
+        <item name="menuItemBottomStyleAllInone">@style/Widget.Nubia.TextView.AllInOne</item>
+        <item name="actionModeTextButtonBackground">@null</item>
+        <item name="colorActivatedRed">@color/nubia_activated_red</item>
+        <item name="colorActivatedGreen">@color/nubia_activated_green</item>
+        <item name="colorActivatedBlue">@color/nubia_activated_blue</item>
+        <item name="colorActivatedYellow">@color/nubia_activated_yellow</item>
+        <item name="colorControlDisabled">@color/nubia_disabled_light</item>
+        <item name="colorControlNormalSecondary">@color/nubia_normal_secondary_light</item>
+        <item name="disabledActivatedAlpha">@dimen/nubia_disabled_activated_alpha_light</item>
+        <item name="isNubiaStyle">true</item>
+        <item name="nubiaSearchViewStyle">@style/Widget.Nubia.NubiaSearchView</item>
+        <item name="nubiaSelectAllStyle">@style/Widget.Nubia.CompoundButton.NubiaSelectAll</item>
+        <item name="nubiaPagerTabStyle">@style/Widget.Nubia.Tab</item>
+        <item name="selectAllBackground">@drawable/nubia_btn_select_all_background</item>
+        <item name="preferenceRightArrow">@drawable/nubia_right_arrow</item>
+        <item name="nubiaPreferenceFragmentStyle">@style/NubiaPreferenceFragment</item>
+        <item name="listPreferredItemHeightSmallSecondary">@dimen/nubia_list_preferred_item_height_small_secondary</item>
+        <item name="listPreferredItemSpace">@dimen/nubia_list_preferred_item_space</item>
+        <item name="listPreferredItemPaddingTop">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="listPreferredItemPaddingBottom">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="nubiaSwitchStyle">@style/Widget.Nubia.Switch</item>
+        <item name="buttonLeftBackground">@drawable/nubia_btn_default_material</item>
+        <item name="buttonMiddleBackground">@drawable/nubia_btn_default_material</item>
+        <item name="buttonRightBackground">@drawable/nubia_btn_default_material</item>
+        <item name="seekbarBackgroundColor">@color/nubia_seekbar_background_default_color</item>
+        <item name="isHideActionBarTitle">false</item>
+        <item name="emptyColor">@color/nubia_empty_color</item>
+        <item name="buttonBackground">@drawable/nubia_btn_default_material</item>
+        <item name="dialogActiviyInAnim">@anim/nubia_dialog_activity_open_anim_in</item>
+        <item name="dialogActiviyOutAnim">@anim/nubia_dialog_activity_open_anim_out</item>
+        <item name="alertDialogCenterButtons">false</item>
+        <item name="alertDialogTitleTextAppearance">@style/TextAppearance.Nubia.AlertDialogTitle</item>
+        <item name="dialogButtonTextColor">@color/nubia_dialog_button_text_color</item>
+        <item name="textColorRed">@color/nubia_text_view_material_light_red</item>
+        <item name="textColorGreen">@color/nubia_text_view_material_light_green</item>
+        <item name="shadowDivider">@drawable/nubia_shadow_divider</item>
+        <item name="throughDivider">@drawable/nubia_list_divider_through</item>
+    </style>
+    <style name="Theme.Nubia.ActionBar" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="actionModeCloseTextColor">@color/nubia_text_view_material_light_closed</item>
+        <item name="fakeStatusBarBackground">@android:color/transparent</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Nubia.ActionBar.TabText</item>
+        <item name="actionBarStyle">@style/Widget.v7.ActionBar.Solid</item>
+        <item name="actionBarSplitStyle">@style/Widget.v7.actionBarSplit</item>
+        <item name="actionBarTheme">@null</item>
+        <item name="actionBarSize">@dimen/nubia_action_bar_default_height</item>
+        <item name="actionBarItemBackground">@null</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Nubia.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:textColorSecondary</item>
+        <item name="actionModeStyle">@style/Widget.v7.ActionMode</item>
+        <item name="actionModeBackground">@drawable/nubia_ab_solid_light_material</item>
+        <item name="actionModeSplitBackground">@drawable/nubia_ab_solid_light_material_bottom</item>
+        <item name="actionModeCloseDrawable">@layout/nubia_action_mode_close_item</item>
+        <item name="homeAsUpIndicator">@drawable/nubia_ic_ab_back_material_new</item>
+    </style>
+    <style name="Theme.Nubia.ActionBar.BlurEffect" parent="@style/Theme.Nubia.ActionBar">
+        <item name="actionBarStyle">@style/Widget.v7.ActionBar.BlurEffect</item>
+        <item name="homeAsUpIndicator">@drawable/nubia_ic_ab_back_actionbar_blureffect</item>
+    </style>
+    <style name="Theme.Nubia.ActionBar.Dark" parent="@style/Theme.Nubia.ActionBar">
+        <item name="actionModeCloseTextColor">@color/nubia_primary_text_default_material_dark</item>
+        <item name="actionBarStyle">@style/Widget.v7.ActionBar.Solid.Dark</item>
+        <item name="actionBarSplitStyle">@style/Widget.v7.actionBarSplit.Dark</item>
+        <item name="actionMenuTextColor">@color/nubia_primary_text_default_material_dark</item>
+        <item name="actionModeStyle">@style/Widget.v7.ActionMode.Dark</item>
+        <item name="homeAsUpIndicator">@drawable/nubia_ic_ab_back_material_dark_new</item>
+        <item name="menuItemBackground">@drawable/nubia_menu_item_background_dark</item>
+    </style>
+    <style name="Theme.Nubia.ActionBar.Main" parent="@style/Theme.Nubia">
+        <item name="android:windowBackground">@color/nubia_month_view</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:statusBarColor">@color/nubia_month_view</item>
+    </style>
+    <style name="Theme.Nubia.ActionBar.Tab" parent="@style/Theme.Nubia.ActionBar">
+        <item name="actionBarStyle">@style/Widget.v7.ActionBar.Tab</item>
+    </style>
+    <style name="Theme.Nubia.BlurEffect" parent="@style/Theme.Nubia">
+        <item name="android:actionBarStyle">@style/Widget.Nubia.ActionBar.BlurEffect</item>
+        <item name="android:homeAsUpIndicator">@drawable/nubia_ic_ab_back_actionbar_blureffect</item>
+    </style>
+    <style name="Theme.Nubia.Dialog" parent="@style/Theme.Nubia">
+        <item name="android:backgroundDimAmount">0.55</item>
+        <item name="android:textAppearance">@style/TextAppearance.Nubia</item>
+        <item name="android:windowBackground">@drawable/nubia_dialog_background_bottom</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Nubia</item>
+        <item name="android:windowAnimationStyle">@style/Animation.NubiaDialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:textColorAlertDialogListItem">@color/nubia_primary_text_default_material_light</item>
+        <item name="android:buttonBarStyle">@style/Nubia.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/nubia_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Theme.Nubia.Dialog.Alert" parent="@style/Theme.Nubia.Dialog" />
+    <style name="Theme.Nubia.Dialog.Alert2" parent="@style/Theme.Nubia">
+        <item name="android:windowBackground">@color/nubia_white</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.Nubia.Dialog.DialogActivity" parent="@style/Theme.Nubia.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="Theme.Nubia.DialogWhenLarge" parent="@style/Theme.Nubia" />
+    <style name="Theme.Nubia.DialogWhenLarge.NoActionBar" parent="@style/Theme.Nubia.NoActionBar" />
+    <style name="Theme.Nubia.Holo" parent="@android:style/Theme.Holo.Light">
+        <item name="android:disabledAlpha">@dimen/nubia_disabled_alpha_light</item>
+        <item name="android:textColorPrimary">@color/nubia_primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/nubia_secondary_text_material_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Nubia.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Nubia.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Nubia.Small</item>
+        <item name="android:buttonStyle">@style/Widget.Nubia.Button</item>
+        <item name="android:listPreferredItemHeight">@dimen/nubia_list_preferred_item_height_normal</item>
+        <item name="android:windowBackground">@color/nubia_screen_background_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleSize">25.0dip</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle.Nubia</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/nubia_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/nubia_scrollbar_handle_vertical</item>
+        <item name="android:checkboxStyle">@style/Widget.Nubia.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.Nubia.EditText</item>
+        <item name="android:listViewStyle">@style/Widget.Nubia.ListView</item>
+        <item name="android:progressBarStyle">@style/Widget.Nubia.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Nubia.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Nubia.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Nubia.ProgressBar.Large</item>
+        <item name="android:seekBarStyle">@style/Widget.Nubia.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Nubia.CompoundButton.RadioButton</item>
+        <item name="android:textViewStyle">@style/Widget.Nubia.TextView</item>
+        <item name="android:dropDownItemStyle">@style/Widget.Nubia.DropDownItem</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Nubia.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Nubia.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Nubia.Information</item>
+        <item name="android:preferenceStyle">@style/Preference.Nubia</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Nubia.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Nubia.DialogPreference</item>
+        <item name="android:editTextPreferenceStyle">@style/Preference.Nubia.DialogPreference.EditTextPreference</item>
+        <item name="android:ringtonePreferenceStyle">@style/Preference.Nubia.RingtonePreference</item>
+        <item name="android:preferenceLayoutChild">@layout/nubia_preference_child_holo</item>
+        <item name="android:textColorHighlight">@color/nubia_textview_highlight_color</item>
+        <item name="android:textColorHint">@color/nubia_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/nubia_holo_dark_blue_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Nubia.Activity</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Nubia.TextView.ListSeparator</item>
+        <item name="android:progressBarStyleSmallTitle">@style/Widget.Nubia.ProgressBar.Small.Title</item>
+        <item name="android:listDivider">@drawable/nubia_list_divider_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/nubia_btn_radio_material_anim</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/nubia_btn_check_material_anim</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateUnspecified</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Nubia.ActionBar.Solid</item>
+        <item name="android:actionModeBackground">@drawable/nubia_ab_solid_light_material</item>
+        <item name="android:actionModeCloseDrawable">@drawable/nubia_actionmode_circle_close</item>
+        <item name="android:actionBarSize">@dimen/nubia_action_bar_default_height</item>
+        <item name="android:listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Nubia.ActionBar.TabText</item>
+        <item name="android:actionModeCloseButtonStyle">@android:style/Widget.Material.ActionButton.CloseMode</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/nubia_activated_background_holo_light</item>
+        <item name="android:listDividerAlertDialog">?throughDivider</item>
+        <item name="android:alertDialogTheme">@style/Theme.Nubia.Dialog.Alert</item>
+        <item name="android:dividerVertical">?throughDivider</item>
+        <item name="android:homeAsUpIndicator">@drawable/nubia_ic_ab_back_material</item>
+        <item name="android:selectableItemBackground">@drawable/nubia_item_background_material</item>
+        <item name="android:borderlessButtonStyle">@style/Widget.Nubia.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Nubia.ButtonBar</item>
+        <item name="android:editTextBackground">@drawable/nubia_edit_text_material</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Nubia.Widget.ActionBar.Menu</item>
+        <item name="android:actionMenuTextColor">?android:textColorSecondary</item>
+        <item name="android:switchPreferenceStyle">@style/Preference.Nubia.SwitchPreference</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/nubia_list_preferred_item_height_large</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nubia_list_preferred_item_height_small</item>
+        <item name="android:actionBarSplitStyle">@style/Widget.Nubia.actionBarSplit</item>
+        <item name="android:actionModeStyle">@style/Widget.Nubia.ActionMode</item>
+        <item name="android:actionBarItemBackground">@null</item>
+        <item name="android:actionModeSplitBackground">@color/nubia_white</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="android:colorControlNormal">@color/nubia_normal_light</item>
+        <item name="android:colorControlActivated">@color/nubia_activated_red</item>
+        <item name="android:colorControlHighlight">@color/nubia_ripple_material_light</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.ActionBar</item>
+        <item name="textAppearanceExtraSmall">@style/TextAppearance.Nubia.ExtraSmall</item>
+        <item name="titleBackgroundWithLine">@drawable/nubia_ab_background_line</item>
+        <item name="menuItemBackground">@drawable/nubia_menu_item_background</item>
+        <item name="menuItemBottomStyle">@style/Widget.Nubia.TextView.MenuItemBottom</item>
+        <item name="menuItemBottomStyleAllInone">@style/Widget.Nubia.TextView.AllInOne</item>
+        <item name="colorActivatedRed">@color/nubia_activated_red</item>
+        <item name="colorActivatedGreen">@color/nubia_activated_green</item>
+        <item name="colorActivatedBlue">@color/nubia_activated_blue</item>
+        <item name="colorActivatedYellow">@color/nubia_activated_yellow</item>
+        <item name="colorControlDisabled">@color/nubia_disabled_light</item>
+        <item name="colorControlNormalSecondary">@color/nubia_normal_secondary_light</item>
+        <item name="disabledActivatedAlpha">@dimen/nubia_disabled_activated_alpha_light</item>
+        <item name="isNubiaStyle">true</item>
+        <item name="nubiaSearchViewStyle">@style/Widget.Nubia.NubiaSearchView</item>
+        <item name="nubiaSelectAllStyle">@style/Widget.Nubia.CompoundButton.NubiaSelectAll</item>
+        <item name="nubiaPagerTabStyle">@style/Widget.Nubia.Tab</item>
+        <item name="selectAllBackground">@drawable/nubia_btn_select_all_background</item>
+        <item name="preferenceRightArrow">@drawable/nubia_right_arrow</item>
+        <item name="listPreferredItemHeightSmallSecondary">@dimen/nubia_list_preferred_item_height_small_secondary</item>
+        <item name="listPreferredItemSpace">@dimen/nubia_list_preferred_item_space</item>
+        <item name="listPreferredItemPaddingTop">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="listPreferredItemPaddingBottom">@dimen/nubia_list_preferred_item_pandding</item>
+        <item name="nubiaSwitchStyle">@style/Widget.Nubia.Switch</item>
+        <item name="buttonLeftBackground">@drawable/nubia_dialog_left_btn_default_material</item>
+        <item name="buttonMiddleBackground">@drawable/nubia_dialog_mid_btn_default_material</item>
+        <item name="buttonRightBackground">@drawable/nubia_dialog_right_btn_default_material</item>
+        <item name="seekbarBackgroundColor">@color/nubia_seekbar_background_default_color</item>
+        <item name="isHideActionBarTitle">false</item>
+        <item name="emptyColor">@color/nubia_empty_color</item>
+        <item name="buttonBackground">@drawable/nubia_btn_default_material</item>
+        <item name="dialogActiviyInAnim">@anim/nubia_dialog_activity_open_anim_in</item>
+        <item name="dialogActiviyOutAnim">@anim/nubia_dialog_activity_open_anim_out</item>
+        <item name="alertDialogCenterButtons">false</item>
+    </style>
+    <style name="Theme.Nubia.NoActionBar" parent="@style/Theme.Nubia">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Nubia.NoActionBar.DialogActivity" parent="@style/Theme.Nubia.NoActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@color/nubia_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/nubia_status_bar_color</item>
+    </style>
+    <style name="Theme.Nubia.NoActionBar.Fullscreen" parent="@style/Theme.Nubia.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Nubia.Tab" parent="@style/Theme.Nubia">
+        <item name="android:actionBarStyle">@style/Widget.Nubia.ActionBar.Tab</item>
+    </style>
+    <style name="Theme.Nubia.Translucent.NoTitleBar" parent="@style/Theme.Nubia">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.Nubia.Wallpaper" parent="@style/Theme.Nubia">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.Nubia.Wallpaper.NoTitleBar" parent="@style/Theme.Nubia.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat" parent="@style/Base.ThemeOverlay.AppCompat" />
+    <style name="ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.ActionBar" />
+    <style name="ThemeOverlay.AppCompat.Dark" parent="@style/Base.ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="ThemeOverlay.AppCompat.Light" parent="@style/Base.ThemeOverlay.AppCompat.Light" />
+    <style name="Widget" />
+    <style name="Widget.ActionMode" parent="@android:style/Widget">
+        <item name="android:background">?android:actionModeBackground</item>
+        <item name="android:height">?android:actionBarSize</item>
+        <item name="android:backgroundSplit">?android:actionModeSplitBackground</item>
+    </style>
+    <style name="Widget.AppCompat.ActionBar" parent="@style/Base.Widget.AppCompat.ActionBar" />
+    <style name="Widget.AppCompat.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.ActionBar.Solid" />
+    <style name="Widget.AppCompat.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.ActionBar.TabText" parent="@style/Base.Widget.AppCompat.ActionBar.TabText" />
+    <style name="Widget.AppCompat.ActionBar.TabView" parent="@style/Base.Widget.AppCompat.ActionBar.TabView" />
+    <style name="Widget.AppCompat.ActionButton" parent="@style/Base.Widget.AppCompat.ActionButton" />
+    <style name="Widget.AppCompat.ActionButton.CloseMode" parent="@style/Base.Widget.AppCompat.ActionButton.CloseMode" />
+    <style name="Widget.AppCompat.ActionButton.Overflow" parent="@style/RtlOverlay.Widget.AppCompat.ActionButton.Overflow" />
+    <style name="Widget.AppCompat.ActionMode" parent="@style/Base.Widget.AppCompat.ActionMode" />
+    <style name="Widget.AppCompat.ActivityChooserView" parent="@style/Base.Widget.AppCompat.ActivityChooserView" />
+    <style name="Widget.AppCompat.AutoCompleteTextView" parent="@style/Base.Widget.AppCompat.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Button" parent="@style/Base.Widget.AppCompat.Button" />
+    <style name="Widget.AppCompat.Button.Borderless" parent="@style/Base.Widget.AppCompat.Button.Borderless" />
+    <style name="Widget.AppCompat.Button.Borderless.Colored" parent="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+    <style name="Widget.AppCompat.Button.Small" parent="@style/Base.Widget.AppCompat.Button.Small" />
+    <style name="Widget.AppCompat.ButtonBar" parent="@style/Base.Widget.AppCompat.ButtonBar" />
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.ButtonBar.AlertDialog" />
+    <style name="Widget.AppCompat.CompoundButton.CheckBox" parent="@style/Base.Widget.AppCompat.CompoundButton.CheckBox" />
+    <style name="Widget.AppCompat.CompoundButton.RadioButton" parent="@style/Base.Widget.AppCompat.CompoundButton.RadioButton" />
+    <style name="Widget.AppCompat.CompoundButton.Switch" parent="@style/Base.Widget.AppCompat.CompoundButton.Switch" />
+    <style name="Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">?colorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner" parent="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Text" />
+    <style name="Widget.AppCompat.EditText" parent="@style/Base.Widget.AppCompat.EditText" />
+    <style name="Widget.AppCompat.Light.ActionBar" parent="@style/Base.Widget.AppCompat.Light.ActionBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="@style/Base.Widget.AppCompat.Light.ActionBar.Solid" />
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.Solid" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.TabBar" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabText" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabText" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabView" parent="@style/Base.Widget.AppCompat.Light.ActionBar.TabView" />
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse" parent="@style/Widget.AppCompat.Light.ActionBar.TabView" />
+    <style name="Widget.AppCompat.Light.ActionButton" parent="@style/Widget.AppCompat.ActionButton" />
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode" parent="@style/Widget.AppCompat.ActionButton.CloseMode" />
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow" parent="@style/Widget.AppCompat.ActionButton.Overflow" />
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse" parent="@style/Widget.AppCompat.ActionMode" />
+    <style name="Widget.AppCompat.Light.ActivityChooserView" parent="@style/Widget.AppCompat.ActivityChooserView" />
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView" parent="@style/Widget.AppCompat.AutoCompleteTextView" />
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner" parent="@style/Widget.AppCompat.DropDownItem.Spinner" />
+    <style name="Widget.AppCompat.Light.ListPopupWindow" parent="@style/Widget.AppCompat.ListPopupWindow" />
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="@style/Widget.AppCompat.ListView.DropDown" />
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="@style/Base.Widget.AppCompat.Light.PopupMenu" />
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.Light.PopupMenu.Overflow" />
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar" />
+    <style name="Widget.AppCompat.ListPopupWindow" parent="@style/Base.Widget.AppCompat.ListPopupWindow" />
+    <style name="Widget.AppCompat.ListView.DropDown" parent="@style/Base.Widget.AppCompat.ListView.DropDown" />
+    <style name="Widget.AppCompat.ListView.Menu" parent="@style/Base.Widget.AppCompat.ListView.Menu" />
+    <style name="Widget.AppCompat.PopupMenu" parent="@style/Base.Widget.AppCompat.PopupMenu" />
+    <style name="Widget.AppCompat.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.PopupMenu.Overflow" />
+    <style name="Widget.AppCompat.PopupWindow" parent="@style/Base.Widget.AppCompat.PopupWindow" />
+    <style name="Widget.AppCompat.ProgressBar" parent="@style/Base.Widget.AppCompat.ProgressBar" />
+    <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <style name="Widget.AppCompat.RatingBar" parent="@style/Base.Widget.AppCompat.RatingBar" />
+    <style name="Widget.AppCompat.Spinner" parent="@style/Base.Widget.AppCompat.Spinner" />
+    <style name="Widget.AppCompat.Spinner.DropDown" parent="@style/Widget.AppCompat.Spinner" />
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="@style/Base.Widget.AppCompat.Spinner.DropDown.ActionBar" />
+    <style name="Widget.AppCompat.Spinner.Underlined" parent="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    <style name="Widget.AppCompat.TextView.SpinnerItem" parent="@style/Base.Widget.AppCompat.TextView.SpinnerItem" />
+    <style name="Widget.AppCompat.Toolbar" parent="@style/Base.Widget.AppCompat.Toolbar" />
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="@style/RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation" />
+    <style name="Widget.Nubia" parent="@style/Widget" />
+    <style name="Widget.Nubia.ActionBar.BlurEffect" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Nubia.ActionBar.Title.BlurEffect</item>
+        <item name="android:backgroundSplit">@drawable/nubia_ab_bottom_transparent_light_holo</item>
+    </style>
+    <style name="Widget.Nubia.ActionBar.Solid" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:progressBarStyle">@style/Widget.Nubia.ProgressBar.Horizontal</item>
+        <item name="android:background">@drawable/nubia_ab_solid_light_material</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Nubia.ActionBarTittle</item>
+        <item name="android:homeLayout">@layout/nubia_action_bar_home</item>
+        <item name="android:backgroundStacked">@color/nubia_white</item>
+        <item name="android:backgroundSplit">@drawable/nubia_ab_solid_light_material_bottom</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="Widget.Nubia.ActionBar.Tab" parent="@style/Widget.Nubia.ActionBar.Solid">
+        <item name="android:background">@drawable/nubia_actionbar_tab_bg</item>
+    </style>
+    <style name="Widget.Nubia.ActionBar.TabText" parent="@android:style/Widget.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.Nubia.Medium</item>
+    </style>
+    <style name="Widget.Nubia.ActionMode" parent="@style/Widget.ActionMode" />
+    <style name="Widget.Nubia.Button" parent="@android:style/Widget.Material.Light.Button">
+        <item name="android:textSize">@dimen/nubia_btn_text_size</item>
+        <item name="android:textColor">@color/nubia_button_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/nubia_btn_default_material</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">nubiafont-medium</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="Widget.Nubia.Button.AlertDialogBorderlessButton" parent="@style/Widget.Nubia.Button">
+        <item name="android:textColor">?dialogButtonTextColor</item>
+        <item name="android:background">@drawable/nubia_bottom_alert_dialog_btn_default_material</item>
+    </style>
+    <style name="Widget.Nubia.Button.AlertDialogBorderlessButton.Center" parent="@style/Widget.Nubia.Button.AlertDialogBorderlessButton">
+        <item name="android:background">@drawable/nubia_center_alert_dialog_btn_default_material</item>
+    </style>
+    <style name="Widget.Nubia.Button.AlertDialogCalendar" parent="@style/Widget.Nubia.Button">
+        <item name="android:textColor">@color/nubia_dialog_button_text_color</item>
+        <item name="android:background">@drawable/nubia_bottom_alert_dialog_btn_default_material</item>
+        <item name="android:elegantTextHeight">true</item>
+    </style>
+    <style name="Widget.Nubia.Button.Borderless" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:paddingStart">4.0dip</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="Widget.Nubia.Button.Color1" parent="@style/Widget.Nubia.Button">
+        <item name="android:textColor">@color/nubia_button_text_color</item>
+        <item name="android:background">@drawable/nubia_btn_default_material</item>
+    </style>
+    <style name="Widget.Nubia.CompoundButton.CheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">?android:listChoiceIndicatorMultiple</item>
+    </style>
+    <style name="Widget.Nubia.CompoundButton.NubiaSelectAll" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/nubia_btn_select_all_circle_background</item>
+    </style>
+    <style name="Widget.Nubia.CompoundButton.RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.Nubia.DropDownItem" parent="@android:style/Widget.DropDownItem">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="Widget.Nubia.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Widget.Nubia.GuideButton" parent="@style/Widget.Nubia.Button">
+        <item name="android:textSize">@dimen/nubia_guide_btn_text_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/nubia_guide_btn_default_material</item>
+        <item name="android:maxWidth">@dimen/nubia_guide_btn_max_width</item>
+        <item name="android:minWidth">@dimen/nubia_guide_btn_min_width</item>
+        <item name="android:minHeight">@dimen/nubia_guide_btn_min_height</item>
+        <item name="android:text">@string/nubia_guide_button_text</item>
+        <item name="android:paddingStart">@dimen/nubia_guide_btn_padding_start</item>
+        <item name="android:paddingEnd">@dimen/nubia_guide_btn_padding_end</item>
+    </style>
+    <style name="Widget.Nubia.ListView" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?android:listDivider</item>
+    </style>
+    <style name="Widget.Nubia.NubiaEmptyView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/nubia_empty_view_text_size</item>
+        <item name="android:textColor">@color/nubia_emptyview_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/nubia_empty_message</item>
+        <item name="android:drawableTop">@drawable/nubia_empty_icon</item>
+        <item name="android:drawablePadding">17.0dip</item>
+    </style>
+    <style name="Widget.Nubia.NubiaSearchView" parent="@style/Widget.Nubia">
+        <item name="layout">@layout/nubia_search_view</item>
+        <item name="closeIcon">@drawable/nubia_ic_clear_material</item>
+        <item name="goIcon">@drawable/nubia_ic_go_search_api_material</item>
+        <item name="searchIcon">@drawable/nubia_ic_search_api_material</item>
+        <item name="queryBackground">@drawable/nubia_ic_search_query_background</item>
+        <item name="submitBackground">@null</item>
+    </style>
+    <style name="Widget.Nubia.ProgressBar" parent="@android:style/Widget.Material.Light.ProgressBar">
+        <item name="android:maxWidth">36.0dip</item>
+        <item name="android:maxHeight">36.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/nubia_progress_medium_material</item>
+        <item name="android:minWidth">36.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+    </style>
+    <style name="Widget.Nubia.ProgressBar.Horizontal" parent="@android:style/Widget.Material.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/nubia_progress_horizontal_material</item>
+    </style>
+    <style name="Widget.Nubia.ProgressBar.Large" parent="@android:style/Widget.Material.Light.ProgressBar.Large">
+        <item name="android:maxWidth">48.0dip</item>
+        <item name="android:maxHeight">48.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/nubia_progress_large_material</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.Nubia.ProgressBar.Small" parent="@android:style/Widget.Material.Light.ProgressBar.Small">
+        <item name="android:maxWidth">24.0dip</item>
+        <item name="android:maxHeight">24.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/nubia_progress_small_material</item>
+        <item name="android:minWidth">24.0dip</item>
+        <item name="android:minHeight">24.0dip</item>
+    </style>
+    <style name="Widget.Nubia.ProgressBar.Small.Title" parent="@style/Widget.Nubia.ProgressBar.Small" />
+    <style name="Widget.Nubia.SeekBar" parent="@android:style/Widget.Material.Light.SeekBar">
+        <item name="android:background">@null</item>
+        <item name="android:indeterminateDrawable">@drawable/nubia_scrubber_progress_horizontal_material</item>
+        <item name="android:progressDrawable">@drawable/nubia_scrubber_progress_horizontal_material</item>
+        <item name="android:thumb">@drawable/nubia_scrubber_control_material_anim</item>
+    </style>
+    <style name="Widget.Nubia.Switch" parent="@style/Widget.Nubia">
+        <item name="android:background">@null</item>
+        <item name="thumb">@drawable/nubia_switch_thumb_material</item>
+        <item name="track">@drawable/nubia_switch_track_material</item>
+        <item name="textOn">@string/nubia_capital_on</item>
+        <item name="textOff">@string/nubia_capital_off</item>
+        <item name="switchTextAppearance">?android:textAppearance</item>
+        <item name="switchMinWidth">46.0dip</item>
+        <item name="switchMinHight">48.0dip</item>
+        <item name="showText">false</item>
+    </style>
+    <style name="Widget.Nubia.Tab" parent="@style/Widget.Nubia">
+        <item name="tabTextSize">@dimen/nubia_text_size_medium_no_change</item>
+        <item name="tabActivatedColor">@color/nubia_tab_activated_red</item>
+        <item name="tabNormalColor">@color/nubia_tab_normal_color</item>
+    </style>
+    <style name="Widget.Nubia.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/TextViewColorNormal</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Widget.Nubia.TextView.AllInOne" parent="@style/Widget.Nubia.TextView">
+        <item name="android:textAppearance">?textAppearanceExtraSmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/nubia_action_bar_menu_item_layout_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/nubia_action_bar_menu_item_layout_width</item>
+        <item name="android:layout_height">@dimen/nubia_action_bar_menu_default_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Nubia.TextView.ListSeparator" parent="@style/Widget.Nubia.TextView">
+        <item name="android:textSize">@dimen/nubia_text_size_small</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">8.0dip</item>
+    </style>
+    <style name="Widget.Nubia.TextView.MenuItemBottom" parent="@style/Widget.Nubia.TextView">
+        <item name="android:textSize">@dimen/nubia_text_size_extrasmall</item>
+        <item name="android:textColor">@color/nubia_action_menu_item_text_material_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/nubia_menu_item_background</item>
+        <item name="android:paddingTop">@dimen/nubia_action_bar_menu_item_layout_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">@dimen/nubia_action_bar_menu_item_layout_width</item>
+        <item name="android:layout_height">@dimen/nubia_action_bar_menu_default_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Nubia.actionBarSplit" parent="@style/Widget.Nubia.ActionBar.Solid">
+        <item name="android:height">@dimen/nubia_action_bar_menu_default_height</item>
+    </style>
+    <style name="Widget.v7.ActionBar.BlurEffect" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Nubia.ActionBar.Title.BlurEffect</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="backgroundSplit">@drawable/nubia_ab_bottom_transparent_light_holo</item>
+    </style>
+    <style name="Widget.v7.ActionBar.Solid" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Nubia.ActionBarTittle</item>
+        <item name="background">@drawable/nubia_ab_solid_light_material</item>
+        <item name="backgroundStacked">@color/nubia_white</item>
+        <item name="backgroundSplit">@drawable/nubia_ab_solid_light_material_bottom</item>
+        <item name="homeLayout">@layout/nubia_action_bar_home</item>
+        <item name="progressBarStyle">@style/Widget.Nubia.ProgressBar.Horizontal</item>
+        <item name="elevation">0.0dip</item>
+        <item name="actionModeTextButtonBackground">@drawable/nubia_ab_text_button_background</item>
+    </style>
+    <style name="Widget.v7.ActionBar.Solid.Dark" parent="@style/Widget.v7.ActionBar.Solid">
+        <item name="titleTextStyle">@style/TextAppearance.Nubia.ActionBarTittle.Dark</item>
+        <item name="background">@drawable/nubia_ab_solid_light_material_dark</item>
+        <item name="backgroundSplit">@drawable/nubia_ab_solid_light_material_dark</item>
+        <item name="actionModeCloseTextColor">@color/nubia_primary_text_default_material_dark</item>
+        <item name="actionModeTextButtonBackground">@drawable/nubia_ab_text_button_background</item>
+    </style>
+    <style name="Widget.v7.ActionBar.Tab" parent="@style/Widget.v7.ActionBar.Solid">
+        <item name="background">@drawable/nubia_actionbar_tab_bg</item>
+    </style>
+    <style name="Widget.v7.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="height">?actionBarSize</item>
+        <item name="background">@drawable/nubia_ab_solid_light_material</item>
+        <item name="backgroundSplit">@drawable/nubia_ab_solid_light_material_bottom</item>
+        <item name="closeItemLayout">@layout/nubia_action_mode_close_item</item>
+        <item name="nubiaBottomCloseItem">@layout/nubia_bottom_action_mode_close_item</item>
+        <item name="nubiaBottomSelectItem">@layout/nubia_bottom_action_mode_select_item</item>
+    </style>
+    <style name="Widget.v7.ActionMode.Dark" parent="@style/Widget.v7.ActionMode">
+        <item name="titleTextStyle">@style/TextAppearance.Nubia.ActionBarTittle.Dark</item>
+        <item name="background">@drawable/nubia_ab_solid_light_material_dark</item>
+        <item name="backgroundSplit">@drawable/nubia_ab_solid_light_material_bottom_dark</item>
+        <item name="actionModeCloseTextColor">@color/nubia_primary_text_default_material_dark</item>
+    </style>
+    <style name="Widget.v7.actionBarSplit" parent="@style/Widget.v7.ActionBar.Solid">
+        <item name="height">@dimen/nubia_action_bar_split_height</item>
+    </style>
+    <style name="Widget.v7.actionBarSplit.Dark" parent="@style/Widget.v7.ActionBar.Solid.Dark">
+        <item name="height">@dimen/nubia_action_bar_split_height</item>
+    </style>
+    <style name="WidgetDateStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WidgetDayOfWeekStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WindowTitle" />
+    <style name="WindowTitle.Nubia" parent="@style/WindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Nubia.WindowTitle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+    </style>
+    <style name="Z7medium_bold">
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    <style name="Z7medium_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="z7_body">
+        <item name="android:textColor">@color/nubia_res_black</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="z7_btn_bar_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/btn_margin_left</item>
+        <item name="android:paddingRight">@dimen/btn_margin_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/btn_bar_height</item>
+    </style>
+    <style name="z7_btn_style1">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/drawerItemSize" android:layout_height="@dimen/drawerItemSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.RotateImageView android:id="@id/icon" android:layout_width="@dimen/drawerImageSize" android:layout_height="@dimen/drawerImageSize" android:layout_centerInParent="true" />
+    <com.android.common.ui.RotateLayout android:id="@id/effect_text_layout" android:layout_width="@dimen/drawerItemSize" android:layout_height="@dimen/drawerItemSize">
+        <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="bottom|center" android:id="@id/title" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentBottom="true" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" />
+    </com.android.common.ui.RotateLayout>
+    <com.android.common.ui.RotateImageView android:gravity="center" android:id="@id/cover" android:background="@drawable/selected_mask_normal" android:visibility="gone" android:layout_width="@dimen/drawerSelectedCoverSize" android:layout_height="@dimen/drawerSelectedCoverSize" android:layout_centerInParent="true" />
+</RelativeLayout>

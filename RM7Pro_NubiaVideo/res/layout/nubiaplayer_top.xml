@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/player_top" android:background="@color/sixty_black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/trim_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height">
+        <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/fifty_four_white" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/trim_cancel" android:background="@drawable/text_button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/player_confirm" android:ellipsize="marquee" android:gravity="end|center" android:id="@id/trim_confirm" android:background="@drawable/text_button_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/confirm" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/play_top" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height">
+        <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/ninety_white" android:gravity="start|center" android:id="@id/back" android:layout_width="250.0dip" android:layout_height="fill_parent" android:singleLine="true" android:drawableStart="@drawable/player_back_up" android:paddingStart="8.0dip" />
+        <ImageButton android:id="@id/more" android:background="@drawable/button_background" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/title_more" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/seekbar_top_padding" android:layout_marginBottom="@dimen/seekbar_bottom_padding">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/player_text" android:layout_gravity="center" android:id="@id/seekbar_text" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="wrap_content" android:textAlignment="center" />
+        <cn.nubia.video.player.nubiaplayer.SeekBarView android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/seekbar_whole_height" android:paddingStart="@dimen/custombar_left_padding" android:paddingEnd="@dimen/custombar_right_padding" />
+        <cn.nubia.video.player.nubiaplayer.SliderBar android:id="@id/slider_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" android:paddingStart="@dimen/custombar_left_padding" android:paddingEnd="@dimen/custombar_right_padding" />
+    </LinearLayout>
+</LinearLayout>

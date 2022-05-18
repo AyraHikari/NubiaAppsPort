@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:id="@id/switch_night_scene_hint_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/switch_mode_background" android:paddingLeft="@dimen/dimens_8" android:paddingRight="@dimen/dimens_8" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_30">
+        <ImageView android:id="@id/switch_night_scene_icon" android:paddingRight="@dimen/dimens_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switch_night_scene" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/white" android:id="@id/switch_night_scene_text_view" android:paddingRight="@dimen/dimens_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switch_night_scene_mode" android:layout_toRightOf="@id/switch_night_scene_icon" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/switch_night_scene_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switch_mode_cancel" android:layout_toRightOf="@id/switch_night_scene_text_view" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

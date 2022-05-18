@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/empty_history_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0" />
+    <ImageView android:layout_gravity="center" android:background="@drawable/ic_history" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/mfvc_secondary_font_size" android:textColor="@color/empty_history_text_color" android:layout_gravity="center" android:paddingTop="@dimen/mfvc_ic_txt_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_history" />
+</LinearLayout>

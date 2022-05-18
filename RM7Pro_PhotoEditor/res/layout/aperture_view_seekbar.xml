@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/lucency" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.gallery3d.filtershow.aperture.VerticalSeekBar android:id="@id/aperture_seekbar" android:layout_width="@dimen/aperturn_seekbar_width" android:layout_height="@dimen/aperturn_seekbar_height" android:layout_marginLeft="@dimen/aperturn_margin_between_view_and_seekbar" />
+</LinearLayout>

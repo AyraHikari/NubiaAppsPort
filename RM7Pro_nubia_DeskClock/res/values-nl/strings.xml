@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_alarm">Alarm toevoegen</string>
+    <string name="add_alarm_button">Alarm toevoegen</string>
+    <string name="alarm_alert_alert_silenced">Alarm gaat uit na %d minuten.</string>
+    <string name="alarm_alert_dismiss_text">Negeren</string>
+    <string name="alarm_alert_snooze_set">Snooze is ingesteld op %d minuten.</string>
+    <string name="alarm_alert_snooze_text">Snooze</string>
+    <string name="alarm_alert_snooze_until">Snoozen tot %s</string>
+    <string name="alarm_klaxon_service_desc">Service geluidsweergave voor alarmen ingesteld in Klok.</string>
+    <string name="alarm_repeat">Herhalen</string>
+    <string name="alarm_vibrate">Trillen</string>
+    <string name="alert">Beltoon voor alarm</string>
+    <string name="app_label">Klok</string>
+    <string name="cities_activity_title">Plaatsen</string>
+    <string name="day">1 dag</string>
+    <string name="day_concat">", "</string>
+    <string name="days">%s dagen</string>
+    <string name="delete_alarm">Alarm verwijderen</string>
+    <string name="edit_alarm">Alarm bewerken</string>
+    <string name="enable_alarm">Alarm inschakelen</string>
+    <string name="every_day">Elke dag</string>
+    <string name="hour">1 uur</string>
+    <string name="hours">%s uur</string>
+    <string name="hours_label">u</string>
+    <string name="loading_ringtone">Beltoon laden…</string>
+    <string name="minute">1 minuut</string>
+    <string name="minutes">%s minuten</string>
+    <string name="minutes_label">m</string>
+    <string name="never">Nooit</string>
+    <string name="seconds_label">s</string>
+    <string name="silent_alarm_summary">Stil</string>
+    <string name="sw_start_button">Starten</string>
+    <string name="timer_cancel">Annuleren</string>
+    <string name="timer_delete">Verwijderen</string>
+    <string name="timer_stop">Stoppen</string>
+    <string name="hours_label_description">uren</string>
+    <string name="minutes_label_description">minuten</string>
+    <string name="seconds_label_description">seconden</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+</resources>

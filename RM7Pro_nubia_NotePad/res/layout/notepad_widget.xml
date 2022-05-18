@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/widget_background_color" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/notepad_widget_head_layout" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/notepad_list_item_title_margin_left" android:paddingEnd="@dimen/notepad_list_item_title_margin_left">
+        <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_widget_head_height">
+            <TextView android:textSize="@dimen/notepad_widget_head_text_size" android:textColor="@color/widget_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/notepad_widget_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notepad_app_name" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/notepad_widget_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_new" android:scaleType="fitCenter" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@color/notepad_widget_text_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/notepad_widget_list" android:background="@color/widget_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/notepad_widget_text_line_color" android:dividerHeight="0.33000004dip" />
+    <LinearLayout android:background="@color/notepad_widget_text_line_color" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+</LinearLayout>

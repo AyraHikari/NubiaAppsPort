@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Ausgewählte Elemente löschen?</item>
+        <item quantity="one">Ausgewähltes Element löschen?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d Tage</item>
+        <item quantity="zero">%d Tag</item>
+        <item quantity="one">%d Tag</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Alben werden offline bereitgestellt.</item>
+        <item quantity="one">Album wird offline bereitgestellt.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="zero">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="zero">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">%1$d kopieren</item>
+        <item quantity="zero">%1$d kopieren</item>
+        <item quantity="one">%1$d kopieren</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">%1$d schneiden</item>
+        <item quantity="zero">%1$d schneiden</item>
+        <item quantity="one">%1$d schneiden</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="zero">%1$d ausgewählt</item>
+        <item quantity="one">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Ausgewählte Objekte wiederherstellen?</item>
+        <item quantity="one">Ausgewähltes Objekt wiederherstellen?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">%1$d Objekte ausgewählt</item>
+        <item quantity="zero">%1$d Objekt ausgewählt</item>
+        <item quantity="one">%1$d Objekt ausgewählt</item>
+    </plurals>
+</resources>

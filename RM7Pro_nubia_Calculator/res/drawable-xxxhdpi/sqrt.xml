@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0sp" android:width="30.0sp" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/pad_button_advanced_text_color" android:pathData="M46.8,24.2 L46.8,24.2 L46.8,24.2 L29.7,65.5 L24.9,50.4 L24.7,50.4 L16.7,50.4 L16.7,53.9 L22.3,53.9 L28,71.8 L31.3,70.7 L49.2,27.7 L79.3,27.7 L79.3,24.2 Z" android:strokeWidth="1.0" android:strokeAlpha="0.87" android:fillAlpha="0.87" />
+</vector>

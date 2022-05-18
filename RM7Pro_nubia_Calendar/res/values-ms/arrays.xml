@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Sibuk</item>
+        <item>Ada</item>
+        <item>Tentatif</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Hari</item>
+        <item>Minggu</item>
+        <item>Bulan</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Acara ini sahaja</item>
+        <item>Semua acara dalam siri</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Acara ini sahaja</item>
+        <item>Acara ini dan acara masa depan</item>
+        <item>Semua acara</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Acara ini &amp; masa depan</item>
+        <item>Semua acara</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>pertama</item>
+        <item>saat</item>
+        <item>ketiga</item>
+        <item>keempat</item>
+        <item>terakhir</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Sentiasa</item>
+        <item>Apabila senyap sahaja</item>
+        <item>Jangan sekali-kali</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Tiada</item>
+        <item>0 minit</item>
+        <item>1 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>15 minit</item>
+        <item>20 minit</item>
+        <item>25 minit</item>
+        <item>30 minit</item>
+        <item>45 minit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Lalai tempat peristiwa</item>
+        <item>Sabtu</item>
+        <item>Ahad</item>
+        <item>Isnin</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Terlewat beberapa minit sahaja.</item>
+        <item>Ada di sana dalam kira-kira 10 minit.</item>
+        <item>Teruskan dan mulakan tanpa saya.</item>
+        <item>Maaf, saya tidak dapat datang. Kita perlu menjadualkannya semula.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Pemberitahuan</item>
+        <item>E-mel</item>
+        <item>SMS</item>
+        <item>Penggera</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minit</item>
+        <item>1 minit</item>
+        <item>5 minit</item>
+        <item>10 minit</item>
+        <item>15 minit</item>
+        <item>20 minit</item>
+        <item>25 minit</item>
+        <item>30 minit</item>
+        <item>45 minit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>12 jam</item>
+        <item>24 jam</item>
+        <item>2 hari</item>
+        <item>1 minggu</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Tiada jawapan</item>
+        <item>Ya</item>
+        <item>Mungkin</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Kepulauan Marshall</item>
+        <item>Pulau Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Waktu Pasifik</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Waktu Pergunungan</item>
+        <item>Amerika Tengah</item>
+        <item>Waktu Pusat</item>
+        <item>Bandar Mexico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Waktu Timur</item>
+        <item>Venezuela</item>
+        <item>Waktu Atlantik (Barbados)</item>
+        <item>Waktu Atlantik (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Greenland</item>
+        <item>Montevideo</item>
+        <item>Atlantik Tengah</item>
+        <item>Azores</item>
+        <item>Kepulauan Cape Verde</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrade</item>
+        <item>Brussels</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Waktu Afrika Barat</item>
+        <item>Amman, Jordan</item>
+        <item>Athens, Istanbul</item>
+        <item>Beirut, Lubnan</item>
+        <item>Kaherah</item>
+        <item>Helsinki</item>
+        <item>Baitulmuqaddis</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Moscow</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Tehran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Lalai</item>
+        <item>Peribadi</item>
+        <item>Awam</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Lalai</item>
+        <item>Bisu</item>
+        <item>Bergetar</item>
+        <item>Dering</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Peta</item>
+        <item>Cuaca</item>
+        <item>Makanan</item>
+        <item>Penerbangan</item>
+        <item>Hotel</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Tangkap gambar</item>
+        <item>Gambar</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Sentiasa</item>
+        <item>Tidak sekali-kali</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>E-mel</item>
+        <item>Bluetooth</item>
+        <item>Mesej</item>
+    </string-array>
+</resources>

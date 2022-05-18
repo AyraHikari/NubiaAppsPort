@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Vipengee vilivyoteuliwa vifutwe?</item>
+        <item quantity="one">Kipengee kilichoteuliwa kifutwe?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Albamu zinafanywa zipatikane nje ya mtandao</item>
+        <item quantity="one">Albamu inafanywa ipatikane nje ya mtandao</item>
+    </plurals>
+</resources>

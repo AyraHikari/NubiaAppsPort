@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/REaRARA" android:background="#ffff00ff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout1" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <ImageView android:id="@id/view_pager_button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout2" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <ImageView android:id="@id/view_pager_button11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button55" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button77" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout3" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <ImageView android:id="@id/view_pager_button111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout4" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <ImageView android:id="@id/view_pager_button1111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button2222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button3333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button4444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button5555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button6666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button7777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_pager_linear_layout5" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <ImageView android:id="@id/view_pager_button11111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button22222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button33333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button44444" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button55555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button66666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+        <ImageView android:id="@id/view_pager_button77777" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/body" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

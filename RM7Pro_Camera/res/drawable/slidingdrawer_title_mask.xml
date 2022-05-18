@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sldingdraw_icon_title_mask" />
+    <corners android:bottomLeftRadius="3.669983dip" android:bottomRightRadius="3.669983dip" />
+</shape>

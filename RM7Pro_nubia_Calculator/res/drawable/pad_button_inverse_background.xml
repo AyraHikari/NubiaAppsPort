@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/pad_button_advanced_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="4.0dip" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item>
+        <selector android:enterFadeDuration="@android:integer/config_longAnimTime" android:exitFadeDuration="@android:integer/config_longAnimTime">
+            <item android:state_selected="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4.0dip" />
+                    <solid android:color="@color/pad_button_advanced_ripple_color" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

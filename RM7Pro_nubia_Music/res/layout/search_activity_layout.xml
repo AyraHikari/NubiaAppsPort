@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/search_title" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_132">
+        <cn.nubia.commonui.widget.NubiaSearchView android:id="@id/search_view" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/dimen_90" android:layout_marginLeft="@dimen/dimen_36" android:layout_marginRight="@dimen/dimen_30" android:layout_toLeftOf="@id/search_cancel" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/cf25252" android:id="@id/search_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_54" android:text="@string/cancel" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <View android:background="@color/color_black_transparent_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/search_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_title">
+        <cn.nubia.music.ui.MiniMusicPlayBar android:id="@id/music_player_layout" android:background="@color/nubia_mini_play_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="@dimen/dimen_15" />
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/music_player_layout">
+            <FrameLayout android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

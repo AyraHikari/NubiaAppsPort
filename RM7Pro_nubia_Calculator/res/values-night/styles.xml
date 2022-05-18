@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DisplayLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="DisplayTextStyle">
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">end|bottom|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+    <style name="DisplayTextStyle.Formula" parent="@style/DisplayTextStyle">
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/formula_padding_top</item>
+        <item name="android:paddingBottom">@dimen/formula_padding_bottom</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="android:textCursorDrawable">@drawable/edit_cursor_pc</item>
+        <item name="android:paddingStart">@dimen/formula_padding_start</item>
+        <item name="android:paddingEnd">@dimen/formula_padding_end</item>
+        <item name="maxTextSize">@dimen/formula_max_textsize</item>
+        <item name="minTextSize">@dimen/formula_min_textsize</item>
+        <item name="stepTextSize">@dimen/formula_step_textsize</item>
+    </style>
+    <style name="DisplayTextStyle.FormulaZoom" parent="@style/DisplayTextStyle">
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/formula_padding_top</item>
+        <item name="android:paddingBottom">@dimen/formula_padding_bottom</item>
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle</item>
+        <item name="android:textCursorDrawable">@drawable/edit_cursor_port</item>
+        <item name="android:paddingStart">@dimen/formula_padding_start</item>
+        <item name="android:paddingEnd">@dimen/formula_padding_end</item>
+        <item name="maxTextSize">@dimen/formula_max_textsize</item>
+        <item name="minTextSize">@dimen/formula_min_textsize</item>
+        <item name="stepTextSize">@dimen/formula_step_textsize</item>
+    </style>
+    <style name="DisplayTextStyle.Result" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/result_textsize</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/result_padding_top</item>
+        <item name="android:paddingBottom">@dimen/result_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+    </style>
+    <style name="DisplayTextStyle.ResultZoom" parent="@style/DisplayTextStyle">
+        <item name="android:textSize">@dimen/result_textsize</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">@dimen/result_padding_top</item>
+        <item name="android:paddingBottom">@dimen/result_padding_bottom</item>
+        <item name="android:paddingStart">@dimen/result_padding_start</item>
+        <item name="android:paddingEnd">@dimen/result_padding_end</item>
+    </style>
+    <style name="PadButtonStyle.Advanced" parent="@style/PadButtonStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle.Advanced.Text" parent="@style/PadButtonStyle.Advanced">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle.ImageButton" parent="@style/PadButtonStyle">
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+    </style>
+    <style name="PadButtonStyle.Numeric" parent="@style/PadButtonStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/simple_numeric_text_color</item>
+        <item name="android:background">@drawable/pad_button_background_numeric</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Equals" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:textColor">@color/equal_text_background_color</item>
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="PadButtonStyle.Operator" parent="@style/PadButtonStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Add" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_add_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Del" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/portrait_blackspace_icon</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Div" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_divide_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Eq" parent="@style/PadButtonStyle.Operator">
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:src">@drawable/ic_equal_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Mul" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_mul_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Sub" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_sub_port</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Text" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle_split.Advanced" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle_split.Advanced.Text" parent="@style/PadButtonStyle_split.Advanced">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle_split.Clr" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@drawable/corner_left</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">Roboto-Regular</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Add" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_add_port</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Del" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/portrait_blackspace_icon</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Div" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:background">@drawable/corner_right</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Eq" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:src">@drawable/eq_split_dark</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Mul" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_mul_port</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Sub" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_sub_port</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Text" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split_one_third.Operator.Eq" parent="@style/PadButtonStyle_split_one_third.Operator">
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split_one_third</item>
+        <item name="android:src">@drawable/eq_dark_float</item>
+    </style>
+    <style name="PadLayoutStyle.Advanced" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+    </style>
+    <style name="PadLayoutStyle.Numeric" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">7.0</item>
+    </style>
+    <style name="Theme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/mfvc_black_elements_color</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:colorPrimary">@color/calculator_primary_color</item>
+        <item name="android:colorAccent">@color/calculator_accent_color</item>
+        <item name="android:statusBarColor">@color/calculator_statusbar_color</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Calculator" parent="@style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/activityStyle</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:popupMenuStyle">@style/Widget.ZTE.Light.PopupMenu</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:navigationBarColor">@color/mfvc_black_elements_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog" />
+    <style name="activityStyle" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+    </style>
+</resources>

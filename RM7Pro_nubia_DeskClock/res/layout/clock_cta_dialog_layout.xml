@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarThumbVertical="@drawable/nubia_scroll_view_thumb_vertical" android:layout_gravity="center_horizontal" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0px" android:layout_weight="1.0" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <TextView android:textSize="@dimen/cta_layout_secondary_title_size" android:textColor="@color/cta_layout_text_color" android:id="@id/cta_layout_secondary_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cta_layout_secondary_title" />
+            <TextView android:textSize="@dimen/cta_layout_content_size" android:textColor="@color/cta_layout_text_color" android:id="@id/cta_layout_content_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cta_layout_content_text1" />
+            <TextView android:textSize="@dimen/cta_layout_content_size" android:textColor="@color/cta_layout_text_color" android:id="@id/cta_layout_content_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/cta_layout_content_text2" />
+            <TextView android:textSize="@dimen/cta_layout_secondary_title_size" android:textColor="@color/cta_layout_text_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cta_layout_third_text" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/cta_layout_secondary_title_size" android:textColor="@color/cta_layout_text_color" android:id="@id/cta_layout_bottom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cta_layout_bottom_text" android:layout_marginStart="@dimen/cta_layout_padding_left_margin" android:layout_marginEnd="@dimen/cta_layout_padding_right_margin" />
+</LinearLayout>

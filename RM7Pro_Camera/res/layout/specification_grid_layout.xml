@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_46"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_39">
+            <ImageButton android:layout_gravity="start" android:id="@id/focus_button" android:background="@drawable/focus_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_focus" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/light_button" android:background="@drawable/light_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_light" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimens_39" android:layout_alignParentEnd="true">
+            <ImageButton android:layout_gravity="end" android:id="@id/wb_button" android:background="@drawable/wb_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_wb" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_31">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_39">
+            <ImageButton android:layout_gravity="start" android:id="@id/shutter_button" android:background="@drawable/shutter_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_shutter" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/iso_button" android:background="@drawable/iso_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_iso" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimens_39" android:layout_alignParentEnd="true">
+            <ImageButton android:layout_gravity="end" android:id="@id/tripod_button" android:background="@drawable/tripod_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_14" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_8" android:text="@string/grid_tripod" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

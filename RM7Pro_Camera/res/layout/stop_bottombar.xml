@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:RotateTextImageView="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/stopBottombarLayout" android:background="@color/bar_background" android:visibility="gone" style="@style/InnerBottomBarSize">
+        <RelativeLayout android:id="@id/btn_cancel" android:focusable="false" android:clickable="true" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:layout_centerVertical="true" android:soundEffectsEnabled="false" android:layout_marginStart="@dimen/dimens_18" android:layout_alignParentStart="true">
+            <com.android.common.ui.RotateTextImageView android:gravity="center" android:id="@id/btn_cancel_icon" android:background="@drawable/nubia_small_button" android:focusable="false" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@string/nubia_cancel_button_bg" android:layout_centerInParent="true" android:soundEffectsEnabled="false" RotateTextImageView:rotatTextColor="@color/highlight_color" RotateTextImageView:rotatTextSize="@dimen/dimens_14" RotateTextImageView:text="@string/bottom_cancel" />
+        </RelativeLayout>
+        <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/snapshot_button" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@drawable/shutter_camera" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:soundEffectsEnabled="false" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" />
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/stopShutterButton" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.NubiaProgressWheel android:id="@id/shutter_button_progress_wheel" android:background="@drawable/intervalometer_progress" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dimens_64" android:layout_height="@dimen/dimens_64" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_shutter_button" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+        <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/stopButtonView" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dimens_64" android:layout_height="@dimen/dimens_64" android:src="@drawable/camera_shutter" android:layout_centerInParent="true" camera:button_color="white" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</merge>

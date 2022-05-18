@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>إغلاق</item>
+        <item>15 دقائق</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>60 دقيقة</item>
+        <item>90 دقيقة</item>
+    </string-array>
+</resources>

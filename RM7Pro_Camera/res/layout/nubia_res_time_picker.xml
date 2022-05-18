@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/setting_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_6" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/dimens_36" android:layout_alignParentEnd="true" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/setting_switch" android:layoutDirection="ltr" android:layout_marginStart="@dimen/dimens_18_5" android:layout_marginEnd="@dimen/dimens_36">
+        <com.android.common.ui.nubiaWheelView android:id="@id/nubia_res_hour_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dimens_16" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nubia_res_time_hour" />
+        <com.android.common.ui.nubiaWheelView android:id="@id/nubia_res_minute_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dimens_16" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nubia_res_time_minute" />
+        <com.android.common.ui.nubiaWheelView android:id="@id/nubia_res_second_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/dimens_16" android:textColor="#ffffffff" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nubia_res_time_second" />
+    </LinearLayout>
+</RelativeLayout>

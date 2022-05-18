@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/improve_slideshow_set_itemview_layout" android:background="@drawable/nubia_list_item_background_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/slideshow_setting_textclolor" android:id="@id/improve_slideshow_set_itemview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/slideshow_setting_text_detail_clolor" android:ellipsize="end" android:id="@id/improve_slideshow_set_itemview_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:maxEms="10" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="40.0dip" android:layout_alignParentEnd="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nubia_right_arrow" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

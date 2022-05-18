@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_183" android:minHeight="@dimen/dimen_183"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.music.ui.RoundImageView android:layout_gravity="center_vertical" android:id="@id/artist_image" android:layout_width="@dimen/dimen_108" android:layout_height="@dimen/dimen_108" android:layout_marginLeft="@dimen/dimen_72" android:layout_marginRight="@dimen/dimen_30" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dimen_48">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/artist_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/black_50" android:gravity="center_vertical" android:id="@id/artist_songs_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12" />
+        </LinearLayout>
+        <View android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

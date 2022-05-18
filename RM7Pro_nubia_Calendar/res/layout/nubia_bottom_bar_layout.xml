@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/nubia_bottom_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/nubia_text_size_medium_no_change" android:ellipsize="end" android:id="@id/nubia_bottom_bar_mid_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/nubia_bottom_bar_button_max_width" android:minWidth="@dimen/nubia_bottom_bar_button_min_width" android:maxLines="1" android:layout_centerInParent="true" style="@style/Widget.Nubia.Button.Color1" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/nubia_bottom_bar_left_layout" android:clickable="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/nubia_bottom_bar_padding_start" android:layout_toStartOf="@id/nubia_bottom_bar_mid_btn">
+        <ImageView android:id="@id/nubia_bottom_bar_left_image" android:layout_width="@dimen/nubia_bottom_bar_image_size" android:layout_height="@dimen/nubia_bottom_bar_image_size" android:scaleType="center" android:layout_marginStart="@dimen/nubia_bottom_bar_padding_start" android:layout_marginEnd="@dimen/nubia_bottom_bar_padding_end" />
+        <ImageView android:id="@id/nubia_bottom_bar_left_divider" android:background="@drawable/nubia_bottom_bar_divider" android:visibility="gone" android:layout_width="2.0px" android:layout_height="24.0dip" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/nubia_bottom_bar_right_layout" android:clickable="true" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginStart="@dimen/nubia_bottom_bar_padding_start" android:layout_toEndOf="@id/nubia_bottom_bar_mid_btn">
+        <ImageView android:id="@id/nubia_bottom_bar_right_divider" android:background="@drawable/nubia_bottom_bar_divider" android:visibility="gone" android:layout_width="2.0px" android:layout_height="24.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/nubia_bottom_bar_right_image" android:layout_width="@dimen/nubia_bottom_bar_image_size" android:layout_height="@dimen/nubia_bottom_bar_image_size" android:scaleType="center" android:layout_marginStart="@dimen/nubia_bottom_bar_padding_end" android:layout_marginEnd="@dimen/nubia_bottom_bar_padding_start" />
+    </LinearLayout>
+</RelativeLayout>

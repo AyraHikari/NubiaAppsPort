@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/controlArea" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/word_category_panel_height" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

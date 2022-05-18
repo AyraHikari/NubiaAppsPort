@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ana ekrana git</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="activity_wiredlessand_wired_setting_show1">\"Küçük pencere\" \"Büyük ekran\"ı yansıtır, cep telefonu aynı anda birden fazla görevi yürütür</string>
+    <string name="activity_wiredlessand_wired_setting_show2">Cep telefonu oyun oynamak için \"Kumanda\" görevi görür ve büyük ekrandan izlenir</string>
+    <string name="agree">Kabul ediyorum</string>
+    <string name="app_name">Projeksiyon Ekranı</string>
+    <string name="bandwidth_high">Kuvvetli</string>
+    <string name="bandwidth_mid">Orta</string>
+    <string name="bandwidth_poor">Güçsüz</string>
+    <string name="browsedevice_link_status_ing">"Lütfen her iki uçtaki cihazların aynı LAN'a bağlı olduğundan emin olun %1$s anahtar ağları denenebilir"</string>
+    <string name="cannot_connect">Bağlanılamadı. Lütfen cihazı onaylayın</string>
+    <string name="change_wifi">Projeksiyon ekranı istemleri</string>
+    <string name="change_wifi_continue">Devam et</string>
+    <string name="change_wifi_tips">"Projeksiyon ekranı kalitesini sağlamak için 5G Wi-Fi'ye geçmeniz önerilir"</string>
+    <string name="change_wifi_to_settings">Wi-Fi Ayarları</string>
+    <string name="choose_device">Lütfen projeksiyon ekranı için cihazı seçin</string>
+    <string name="choose_device_computer">"PC'ye proje ekranı"</string>
+    <string name="choose_device_computer_linked">durdur</string>
+    <string name="choose_device_tv">"Ekranı TV'ye yansıtın"</string>
+    <string name="choose_device_tv_linked">durdur</string>
+    <string name="choose_sound">Ses çıkışı</string>
+    <string name="choose_sound_output_message">Cep telefonu mikrofonunu açtığımızda veya kulaklığı taktığımızda, ekran yansıtma terminali her zaman ses çıkarır mı çıkarmaz mı?</string>
+    <string name="connect_blacklist">Bağlantı kara listesi</string>
+    <string name="connect_fail">Bağlantı başarısız</string>
+    <string name="connect_reject">Bağlantı reddedildi</string>
+    <string name="connect_timeout">Bağlantı zaman aşımı</string>
+    <string name="cta_message_1">“Projeksiyon ekranı”, cep telefonu ekranını diğer terminal cihazlarına yansıtmanıza olanak sağlar. Bu işlevi gerçekleştirmek için, yazılım, kullanım sırasında aşağıdaki cep telefonu izinlerinizi veya işlevlerinizi iptal edecektir:</string>
+    <string name="cta_message_2">"• Kayıt: sesi diğer terminallere yansıtmak için izin gerekir. 
+• Kamera: bağlantı oluştururken, kodu taramak için izin gerekir. 
+• Ağ oluşturma ve cihaz kimliği: yazılım hizmet sonunda güvenlik doğrulaması yaparken izne erişilmesi gerekir."</string>
+    <string name="cta_message_3">"“Projeksiyon ekranı” tarafından istenen ayar izinleri ve işlevleri yukarıdakileri içerir. İlgili cep telefonu izinlerini/işlevlerini çağırmamızı kabul etmezseniz, yazılım arızalanır. Kabul ettikten sonra, yukarıda belirtilen izni otomatik olarak etkinleştireceksiniz ve ayarlardan ilgili izne erişimi istediğiniz zaman devre dışı bırakabilirsiniz. 
+
+ “Kabul ediyorum”u tıklarsanız, yukarıdaki içeriği okuduğunuz ve kabul ettiğiniz anlamına gelir."</string>
+    <string name="cta_title">“Projeksiyon ekran hizmeti şartları”</string>
+    <string name="device_list">Cihaz seçin</string>
+    <string name="device_searching">Çevredeki cihazları arama</string>
+    <string name="disconnect">Bağlı değil</string>
+    <string name="floating_permission">Kayan pencere iznini etkinleştirmeniz gerekir</string>
+    <string name="floating_permission_negative">İptal et</string>
+    <string name="floating_permission_positive">Ayarlara git</string>
+    <string name="floating_permission_tips">Projeksiyon ekranını kullanırken, diğer uygulamaların üst katmanında görüntülenmesine olanak sağlayan izin düğmesini etkinleştirmeniz gerekir</string>
+    <string name="hdmi_list_empty_tip">Kablolu ekran yansıtma için lütfen DP/HDMI kablosunu takın</string>
+    <string name="help_content_1">"1. Adım: Bilgisayarın ucundan Lebo projeksiyon ekranı istemcisini indirin. 
+ 2.Adım: Cep telefonu ucunun ve hedef cihazın aynı LAN'a bağlı olduğundan emin olun. 
+ 3. Adım: Lebo projeksiyon ekranı istemcisinin QR kodunu bilgisayar ucundan açın ve cep telefonu ucuna bağlanmak için QR kodunu tarayın."</string>
+    <string name="help_content_2">"1. Adım: Cep telefonu ucunun ve hedef cihazın aynı LAN'a bağlı olduğundan emin olun. 
+ 2. Adım: Cep telefonu ucundan “projeyi TV'ye yansıt” ı seçin ve arama sonuçları ile proje ekranı arasındaki büyük ekranlı cihazlar listesinden projeksiyon ekranı için cihazı seçin."</string>
+    <string name="help_content_3">"Bazı büyük ekranlı cihazlar aranamıyor. Ekranı tamamlamak için TV'deki Lebo projeksiyon ekranı istemcisini indirip açmayı deneyebilirsiniz"</string>
+    <string name="help_content_4">"İyi ağ koşulları altında, aşağıdaki faktörler ekran projeksiyon kalitesini etkileyebilir: 
+1. Her iki cihaz da 5G Wi-Fi etkin noktasına bağlı değilse; 
+2. Her iki cihaz tarafından bağlanan yerel alan ağında parazit olduğunda, aynı yerel alan ağına duvarlar gibi engellerle birden fazla cihaz bağlanırsa."</string>
+    <string name="help_content_5">Canlı yayın durumundayken, ses iletmek için cep telefonunu ve bilgisayarına bağlamak için 3,5 mm ses kablosu kullanılması önerilir. Aynı zamanda, sesin cep telefonu ekranıyla senkronize olduğundan emin olmak için \"Ekran projeksiyon ses kaynağı\" için \"Hiçbiri \" öğesini seçin.</string>
+    <string name="help_title_1">"PC'ye proje ekranı"</string>
+    <string name="help_title_2">"Ekranı TV'ye yansıtın"</string>
+    <string name="help_title_3">Ekran projeksiyonu donuyor, gecikiyor mu?</string>
+    <string name="home_activity_mirrot_playing">Bağlandı</string>
+    <string name="home_activity_mirrotpc">"Mobil oyunlar PC'de yayınlıyor, canlı yayın daha keyifli"</string>
+    <string name="home_activity_mirrottv">"Mobil oyunlar TV'de yayınlıyor, büyük ekran daha kusursuzdur"</string>
+    <string name="home_auto_quality_tips">Ekran tanımını ağ kalitesine göre otomatik olarak ayarlayın</string>
+    <string name="home_auto_quality_title">Otomatik ayar</string>
+    <string name="home_back">Projeksiyon Ekranı</string>
+    <string name="home_cancel">İptal et</string>
+    <string name="home_floating_window_tips">Kablosuz ekran yansıtma esnasında, geçerli LAN bağlantı durumu gerçek zamanlı olarak görüntülenecektir.</string>
+    <string name="home_floating_window_title">Ekran projeksiyon durumu göstergesi</string>
+    <string name="home_help">Yardım</string>
+    <string name="home_private_mode_tips">Kablosuz ekran yansıtma, manşet bildirimleri, gelen aramalar ve diğer bilgiler hedef cihaz ekranında görüntülenmez.</string>
+    <string name="home_private_mode_tips_wired">Kablolu ekran yansıtma, manşet ekran bildirimleri, gelen aramalar ve diğer bilgiler hedef cihaz ekranında görüntülenmez.</string>
+    <string name="home_private_mode_title">Gizlilik Modu</string>
+    <string name="home_quality">Kaliteli</string>
+    <string name="home_sound_source">Ses Kaynakları</string>
+    <string name="initsdk_failed">Başlatma başarısız, lütfen wifi bağlantısını kontrol edin</string>
+    <string name="jump_to_settings">Etkinleştir</string>
+    <string name="mirror_link_status_ing">Bağlanılıyor...</string>
+    <string name="mirror_link_status_lastlinkdevice">Son bağlantı</string>
+    <string name="no">Hayır</string>
+    <string name="no_device_found">Kullanılabilir cihaz yok</string>
+    <string name="no_device_found_tip">"Lebo projeksiyon ekranı istemcisini TV'ye indirip açmayı deneyebilirsiniz."</string>
+    <string name="no_wanted_device_tip">"Hedef cihaz yoksa, TV'ye indirmeyi ve Lebo projeksiyon ekranı istemcisini açmayı deneyebilirsiniz"</string>
+    <string name="not_change_while_mirroring">Lütfen onu lütfen ekrandan önce kullanın</string>
+    <string name="nubia_capital_off">Kapalı</string>
+    <string name="nubia_capital_on">Açık</string>
+    <string name="pin_disconnect">Pin kodunun bağlantısı kesildi</string>
+    <string name="privacy_comfirm">Etkinleştirmeyi onayla</string>
+    <string name="privacy_message">Projeksiyon ekranı bağlandı. Gizlilik modunu etkinleştirmek istiyor musunuz?</string>
+    <string name="privacy_title">Gizlilik Modu</string>
+    <string name="quality_high">Yüksek görünüm</string>
+    <string name="quality_low">Akıcı</string>
+    <string name="quality_suggestion_confirm">Kullanmayı onayla</string>
+    <string name="quality_suggestion_tips">Geçerli ağ durumu zayıf. Ekran projeksiyonunun etkisini sağlamak için ekran projeksiyon kalitesi için uyarlanabilir modun kullanılması önerilir.</string>
+    <string name="quality_suggestion_title">Ekran projeksiyon önerisi</string>
+    <string name="req_permission_fail">Yetkilendirme başarısız oldu</string>
+    <string name="request_permission">İzin iste</string>
+    <string name="request_permission_tips">Ayar arayüzüne gidin ve uygulama için gereken izni verin</string>
+    <string name="research">Tekrar arayın</string>
+    <string name="result_mirror_fail">Başarısız oldu.</string>
+    <string name="result_mirror_stop">Durduruldu</string>
+    <string name="result_mirror_succss">Bağlı</string>
+    <string name="scan_back">Tarama kodu ve proje ekranı</string>
+    <string name="scan_notes_1">1. Lebo projeksiyon ekranı istemcisini indirin</string>
+    <string name="scan_notes_2">"2. Aynı LAN'a bağlanın"</string>
+    <string name="scan_notes_3">"3. Lebo ekran proje istemcisinin QR kodunu açın, kodu 
+tarayın ve bağlanın"</string>
+    <string name="scan_success">Taranan kod:</string>
+    <string name="screen_orientation_dialog_title">Geçerli ekran durumunu seçin</string>
+    <string name="screen_orientation_landscape">Yatay ekran görüntüsü</string>
+    <string name="screen_orientation_portrait">Dikey ekran görüntüsü</string>
+    <string name="screen_projection_quality_auto">OTOMTK</string>
+    <string name="screen_projection_quality_high">HD</string>
+    <string name="screen_projection_quality_host">Ana bilgisayar modu</string>
+    <string name="screen_projection_quality_low">LD</string>
+    <string name="screen_projection_quality_normal">SD</string>
+    <string name="settings_back">Ayarlar</string>
+    <string name="sound_local">Yerel</string>
+    <string name="sound_local_tips">(Kulaklık takılı veya mikrofon etkinken)</string>
+    <string name="sound_remote">Her zaman ekran projeksiyonu</string>
+    <string name="sound_remote_tips">(Sesi başkalarıyla paylaşın)</string>
+    <string name="sound_source_mike">mikrofon</string>
+    <string name="sound_source_none">Yok</string>
+    <string name="sound_source_none_tips">(Canlı yayında 3,5 mm ses kablosu önerilir)</string>
+    <string name="sound_source_system">Sistem Sesi</string>
+    <string name="sound_source_system_mike">Sistem Sesi ve Mikrofon</string>
+    <string name="tell2download_lebopc_btn">Onu aldım</string>
+    <string name="tell2download_lebopc_content">"Ekranı PC'ye yansıtın, Bilgisayarın ucundan Lebo projeksiyonu 
+ ekran istemcisi indirin"</string>
+    <string name="tell2download_lebopc_title">Lebo projeksiyon ekranını indir</string>
+    <string name="tips_fisrt_show">Ekran projeksiyon durumu gerçek zamanlı olarak görüntülenir, kapalı olabilir.</string>
+    <string name="tips_status_change">Ekran yansıtma durumu stabil değil</string>
+    <string name="toast_mirrordevice_info">Projeksiyon ekranında ayarlanamaz</string>
+    <string name="waiting_comfirm">Onay için bekleyin</string>
+    <string name="wifi_connect">Lütfen ağa bağlanın...</string>
+    <string name="wifi_connect_tips">Ekran projeksiyonundaki her iki cihaz da daha iyi kalite için 5G bantlı Wi-Fi ağı kullanır.</string>
+    <string name="wifi_open">"WiFi'ı etkinleştir"</string>
+    <string name="wifi_open_text">Hemen etkinleştirin</string>
+    <string name="wifi_open_tips">Ekran projeksiyonundaki her iki cihaz da daha iyi kalite için 5G bantlı Wi-Fi ağı kullanır.</string>
+    <string name="wired_choose_hdmi_mode">Çıkış çerçeve hızı modunu seçin</string>
+    <string name="wired_hdmi_mode_tips">Farklı çıktı kare hızı modları seçebilir.</string>
+    <string name="wired_hdmi_mode_title">Kablolu ekran yansıtma görüntüleme modu</string>
+    <string name="wired_help_content_1">1. Adım: Bir ucu C Tipi bir kablo, diğer ucu ise HDMI, VGA, DVI veya DP adaptör kablosu olabilir. (Geniş ekran cihaz tarafından desteklenen arayüze bağlı olarak)</string>
+    <string name="wired_help_content_2">"2. Adım: Cep telefonunu Tip-C'ye bağlamak için adaptör kablosunu kullanın ve büyük ekranlı cihazları HDMI, VGA veya DVI'ya bağlayın."</string>
+    <string name="wired_help_content_3">"3. Adım: Büyük ekran giriş sinyali kaynağını HDMI, VGA, DVI veya DP'ye karşılık gelen adaptör kablosu girişine geçirin."</string>
+    <string name="wired_screen_orientation_title">Yatay ve dikey ekran değiştirme</string>
+    <string name="wired_screen_projection">Kablolu Projeksiyon</string>
+    <string name="wired_show_fps_tips">Ekran yansıtma terminali geçerli resim karesi hızını görüntüleyebilir.</string>
+    <string name="wired_show_fps_title">Ekran yansıtma resim karesi hızı görüntüleri</string>
+    <string name="wired_sound_output_never_ask">Bana tekrar hatırlatma</string>
+    <string name="wired_sound_output_tips">Cep telefonu mikrofonunu açtığımızda veya kulaklığı taktığımızda, ekran yansıtma terminali her zaman ses çıkarır.</string>
+    <string name="wired_sound_output_title">Ekran yansıtma terminali ses çıkışı verir.</string>
+    <string name="wired_tips">"DP/HDMI yüksek tanımlı sıfır gecikmeli ekran yansıtma
+ Ekran yansıtma terminali ile 165 Hz'e kadar"</string>
+    <string name="wired_tips_144">"DP/HDMI yüksek tanımlı sıfır gecikmeli ekran yansıtma
+ Ekran yansıtma terminali ile 144 Hz'e kadar"</string>
+    <string name="wireless_screen_projection">Kablosuz Ekran</string>
+    <string name="wireless_tips">Daha iyi projeksiyon ekranı deneyimi sağlamak için, Wi-Fi veya kod tarama yoluyla Lebo projeksiyon ekranı istemcisini hedef cihaza kurmanız ve açmanız önerilir.</string>
+    <string name="yes">Evet</string>
+</resources>

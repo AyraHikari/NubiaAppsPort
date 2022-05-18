@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Vai dzēst atlasītos vienumus?</item>
+        <item quantity="one">Vai dzēst atlasīto vienumu?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Albumi tiek padarīti pieejami bezsaistē.</item>
+        <item quantity="one">Albums tiek padarīts pieejams bezsaistē.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīta %1$d vienumu</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīta %1$d vienumu</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Atlasīti %1$d vienumi</item>
+        <item quantity="zero">Atlasīta %1$d vienumu</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+    </plurals>
+</resources>

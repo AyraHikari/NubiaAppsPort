@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nubia_preference_category_height">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/nubia_primary_text_default_material_light" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="nubiafont-bold" android:layout_marginStart="@dimen/nubia_preference_item_padding_side" android:layout_alignParentStart="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/nubia_preference_category_right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/nubia_preference_item_padding_side" android:layout_alignParentEnd="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_month_day_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" android:layout_marginEnd="0.0dip" />
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_hour_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" android:layout_toEndOf="@id/nubia_month_day_spinner" />
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_minute_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" android:layout_toEndOf="@id/nubia_hour_spinner" />
+        <TextView android:id="@id/nubia_time_hour_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignEnd="@id/nubia_month_day_spinner" />
+        <TextView android:textSize="12.0dip" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nubia_time_hour" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="-30.0dip" android:layout_toEndOf="@id/nubia_hour_spinner" />
+        <TextView android:textSize="12.0dip" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nubia_time_minute" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="-30.0dip" android:layout_toEndOf="@id/nubia_minute_spinner" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/mosaic_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.gallery3d.filtershow.editors.SwapButton android:textSize="16.0sp" android:textColor="@color/default_text_color" android:gravity="center|right" android:id="@id/brushMosaic" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/mosaic_brush" android:layout_weight="1.0" android:textAllCaps="true" />
+    <com.android.gallery3d.filtershow.editors.SwapButton android:textSize="16.0sp" android:textColor="@color/default_text_color" android:gravity="center|left" android:id="@id/eraseMosaic" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/mosaic_erase" android:layout_weight="1.0" android:textAllCaps="true" />
+</LinearLayout>

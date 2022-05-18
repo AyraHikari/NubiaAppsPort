@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zte.camera.ui.common.RotateViewGroup android:id="@id/vlog_textureview_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/vlog_review_textureview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.zte.camera.ui.common.RotateViewGroup>
+    <ImageView android:id="@id/vlog_review_pause" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vlog_video_play" android:layout_centerInParent="true" android:rotation="90.0" />
+    <include layout="@layout/c_vlog_progress_bar" />
+    <include layout="@layout/c_vlog_view_bottom" />
+</RelativeLayout>

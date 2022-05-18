@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="common_items">
+        <item>@string/cloud_ablum_setting</item>
+    </string-array>
+    <string-array name="improve_slideshow_setting_sample">
+        <item>improve_slideshow_setting_sample_1</item>
+        <item>improve_slideshow_setting_sample_2</item>
+        <item>improve_slideshow_setting_sample_3</item>
+        <item>improve_slideshow_setting_sample_4</item>
+        <item>improve_slideshow_setting_sample_5</item>
+        <item>improve_slideshow_setting_sample_6</item>
+        <item>improve_slideshow_setting_sample_7</item>
+        <item>improve_slideshow_setting_sample_8</item>
+        <item>improve_slideshow_setting_sample_9</item>
+    </string-array>
+    <string-array name="more_video_top_items">
+        <item>@string/encrypt</item>
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="more_video_top_items_noprivate">
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="move_items">
+        <item>@string/cut_item</item>
+        <item>@string/copy_item</item>
+    </string-array>
+    <string-array name="popup_more_album">
+        <item>@string/slideshow</item>
+        <item>@string/copy_item</item>
+        <item>@string/cut_item</item>
+        <item>@string/makegif</item>
+        <item>@string/jigsaw_new</item>
+    </string-array>
+    <string-array name="popup_more_photopage">
+        <item>@string/slideshow</item>
+        <item>@string/set_image</item>
+        <item>@string/encrypt</item>
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="popup_more_photopage_noposter">
+        <item>@string/slideshow</item>
+        <item>@string/set_image</item>
+        <item>@string/encrypt</item>
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="popup_more_photopage_noposter_noprivate">
+        <item>@string/slideshow</item>
+        <item>@string/set_image</item>
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="popup_more_photopage_noprivate">
+        <item>@string/slideshow</item>
+        <item>@string/set_image</item>
+        <item>@string/rename</item>
+        <item>@string/details</item>
+    </string-array>
+    <string-array name="slideshow_photopage">
+        <item>@string/slideshow_effect</item>
+        <item>@string/slideshow_playmusic</item>
+    </string-array>
+    <string-array name="trim_items">
+        <item>@string/overwrite</item>
+        <item>@string/save_as_new</item>
+    </string-array>
+    <string-array name="ztouch_photo_select_warning">
+        <item>@string/ztouch_photo_select_warning_one</item>
+        <item>@string/ztouch_photo_select_warning_two</item>
+        <item>@string/ztouch_photo_select_warning_three</item>
+        <item>@string/ztouch_photo_select_warning_four</item>
+    </string-array>
+</resources>

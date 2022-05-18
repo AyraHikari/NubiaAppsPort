@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Удалить выбранные файлы?</item>
+        <item quantity="one">Удалить выбранный файл?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d дней</item>
+        <item quantity="zero">%d день</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Загрузка альбомов для офлайн-доступа.</item>
+        <item quantity="one">Загрузка альбома для офлайн-доступа</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Выбрано %1$d</item>
+        <item quantity="zero">Выбрано %1$d</item>
+        <item quantity="one">Выбрано %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Выбрано %1$d</item>
+        <item quantity="zero">Выбрано %1$d</item>
+        <item quantity="one">Выбрано %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Копировать (%1$d)</item>
+        <item quantity="zero">Копировать (%1$d)</item>
+        <item quantity="one">Копировать (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Вырезать (%1$d)</item>
+        <item quantity="zero">Вырезать (%1$d)</item>
+        <item quantity="one">Вырезать (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Выбрано %1$d</item>
+        <item quantity="zero">Выбрано %1$d</item>
+        <item quantity="one">Выбрано %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Восстановить выбранные элементы?</item>
+        <item quantity="one">Восстановить выбранный элемент?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="zero">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+    </plurals>
+</resources>

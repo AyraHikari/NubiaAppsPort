@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/gallery_toolbar" />
+    <HorizontalScrollView android:gravity="center_horizontal" android:id="@id/improve_slideshow_setting_effect_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="208.0dip" android:fillViewport="true" android:layout_alignParentBottom="true" />
+    <cn.nubia.gallery3d.ui.GLRootView android:id="@id/gl_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="97.0dip" android:layout_above="@id/improve_slideshow_setting_effect_scroll" />
+</RelativeLayout>

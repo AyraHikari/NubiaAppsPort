@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Закрыть</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>45 минут</item>
+        <item>60 минут</item>
+        <item>90 минут</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Лучшие треки Сиами</item>
+        <item>Классическая музыка</item>
+        <item>Новейший</item>
+        <item>Англоязычные треки</item>
+        <item>Ритмичная музыка</item>
+        <item>Китайская поп-музыка</item>
+        <item>Умиротворяющая музыка</item>
+        <item>Кантонские старые песни</item>
+        <item>Спокойная музыка</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Трек-лист музыки Сиами</item>
+        <item>Новый трек-лист Сиами</item>
+        <item>Исходный трек-лист Сиами</item>
+        <item>Орикон трек-лист</item>
+        <item>Трек-лист Гонконга</item>
+        <item>Список Музыки из Рекламы</item>
+        <item>Список Китайских Песен HITO</item>
+        <item>Еженедельный список M-net</item>
+        <item>Трек-лист Великобритании</item>
+    </string-array>
+</resources>

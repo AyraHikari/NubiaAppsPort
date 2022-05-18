@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>مشغول</item>
+        <item>متواجد</item>
+        <item>مبدئي</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>يوم</item>
+        <item>أسبوع</item>
+        <item>شهر</item>
+        <item>أجندة</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>هذا الحدث فقط</item>
+        <item>جميع الأحداث في سلسلة الأحداث</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>هذا الحدث فقط</item>
+        <item>هذا الحدث والأحداث المستقبلية</item>
+        <item>جميع الأحداث</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>هذا الحدث والأحداث المستقبلية</item>
+        <item>جميع الأحداث</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>أول</item>
+        <item>ثانية</item>
+        <item>الثالث</item>
+        <item>الرابع</item>
+        <item>الأخير</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>دومًا</item>
+        <item>فقط عندما يكون صامتًا</item>
+        <item>مطلقًا</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>لا شيء</item>
+        <item>0 دقائق</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>اللغة الافتراضية</item>
+        <item>السبت</item>
+        <item>الأحد</item>
+        <item>الاثنين</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>تتم إقامته بعد تأخير لمدة دقيقتين.</item>
+        <item>كن هناك خلال حوالي 10 دقائق.</item>
+        <item>انطلق وابدأ بدوني.</item>
+        <item>عذرًا، لا يمكنني الحضور. علينا إعادة الجدولة.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>إشعار</item>
+        <item>بريد إلكتروني</item>
+        <item>رسائل SMS</item>
+        <item>المنبه</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 دقائق</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>لا استجابة</item>
+        <item>نعم</item>
+        <item>ربما</item>
+        <item>لا</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزر مارشال</item>
+        <item>جزيرة ميدواي</item>
+        <item>هاواي</item>
+        <item>ألاسكا</item>
+        <item>توقيت المحيط الهادي</item>
+        <item>تيخوانا</item>
+        <item>أريزونا</item>
+        <item>تشي هواوا</item>
+        <item>توقيت جبلي</item>
+        <item>أمريكا الوسطى</item>
+        <item>توقيت مرکزي</item>
+        <item>مكسيكو سيتي</item>
+        <item>ساسكاتشوان</item>
+        <item>بوغوتا</item>
+        <item>توقيت شرقي</item>
+        <item>فنزويلا</item>
+        <item>توقيت المحيط الأطلسي (باربادوس)</item>
+        <item>توقيت المحيط الأطلسي (كندا)</item>
+        <item>مانائوس</item>
+        <item>سانتیغو</item>
+        <item>نیوفاوندلاند</item>
+        <item>برازيليا</item>
+        <item>بوینس آیرس</item>
+        <item>غرينلاند‬</item>
+        <item>مونته فیدو</item>
+        <item>الوسط الشرقي</item>
+        <item>آزورست</item>
+        <item>جزر الرأس الأخضر</item>
+        <item>الدار البيضاء</item>
+        <item>لندن، دبلن</item>
+        <item>أمستردام، برلين</item>
+        <item>بيلجراد</item>
+        <item>بروکسل</item>
+        <item>سراييفو</item>
+        <item>ویندهوك</item>
+        <item>توقيت غرب أفريقيا</item>
+        <item>عمان، الأردن</item>
+        <item>أثينا، اسطنبول</item>
+        <item>بيروت، لبنان</item>
+        <item>القاهرة</item>
+        <item>هلسینكي</item>
+        <item>القدس</item>
+        <item>مینسك</item>
+        <item>هراري</item>
+        <item>بغداد</item>
+        <item>موسکو</item>
+        <item>الكويت</item>
+        <item>نیروبي</item>
+        <item>طهران</item>
+        <item>باکو</item>
+        <item>تبليسي</item>
+        <item>ایروان</item>
+        <item>دبي</item>
+        <item>كابول</item>
+        <item>إسلام أباد، كراتشي</item>
+        <item>أورالسك</item>
+        <item>يكاترينبورغ</item>
+        <item>كالكتا</item>
+        <item>سريلانكا</item>
+        <item>كاثماندو</item>
+        <item>أستانا</item>
+        <item>يانغون</item>
+        <item>كراسنويارسك</item>
+        <item>بانكوك</item>
+        <item>بكين</item>
+        <item>هونغ كونغ</item>
+        <item>إركوتسك</item>
+        <item>کوالالامبور</item>
+        <item>بيرث</item>
+        <item>تایبي</item>
+        <item>سول</item>
+        <item>طوكيو، أوساكا</item>
+        <item>ياكوتسك</item>
+        <item>أديليد</item>
+        <item>داروين</item>
+        <item>بريزبين</item>
+        <item>هوبارت</item>
+        <item>سيدني، كانبيرا</item>
+        <item>فلاديفوستوك</item>
+        <item>غوام</item>
+        <item>ماغادان</item>
+        <item>آکلاند</item>
+        <item>فيجي</item>
+        <item>تونغا</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>افتراضي</item>
+        <item>خاص</item>
+        <item>عام</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>أبيدجان</item>
+        <item>أكرا</item>
+        <item>أديس أبابا</item>
+        <item>الجزائر</item>
+        <item>برازافيل</item>
+        <item>القاهرة</item>
+        <item>القاهرة</item>
+        <item>الدار البيضاء</item>
+        <item>كوناكري</item>
+        <item>داكار</item>
+        <item>دار السلام</item>
+        <item>جيبوتي</item>
+        <item>فريتاون</item>
+        <item>غابورون</item>
+        <item>هراري</item>
+        <item>جوهانسبرغ</item>
+        <item>كامبالا</item>
+        <item>الخرطوم</item>
+        <item>كيغالي</item>
+        <item>كينشاسا</item>
+        <item>لاغوس</item>
+        <item>ماسيرو</item>
+        <item>مقديشو</item>
+        <item>نيروبي</item>
+        <item>ساو تومي</item>
+        <item>تمبكتو</item>
+        <item>طرابلس</item>
+        <item>تونس</item>
+        <item>أنكوريج</item>
+        <item>مندوزا</item>
+        <item>أروبا</item>
+        <item>أسونسيون</item>
+        <item>باربادوس</item>
+        <item>بليز</item>
+        <item>بوغوتا</item>
+        <item>بوينس آيرس</item>
+        <item>كانكون</item>
+        <item>كاراكاس</item>
+        <item>جزر كايمان</item>
+        <item>شيكاغو</item>
+        <item>كوستاريكا</item>
+        <item>كوراساو</item>
+        <item>داوسون كريك</item>
+        <item>دنفر</item>
+        <item>ديترويت</item>
+        <item>الدومينيكا</item>
+        <item>ادمنتون</item>
+        <item>السلفادور</item>
+        <item>فورتاليزا</item>
+        <item>غراند ترك</item>
+        <item>غرينادا</item>
+        <item>مدينة غواتيمالا</item>
+        <item>غيانا</item>
+        <item>هاليفاكس</item>
+        <item>هافانا</item>
+        <item>إنديانابوليس</item>
+        <item>نوكس</item>
+        <item>مارينغو</item>
+        <item>بطرسبورغ</item>
+        <item>تل سيتي</item>
+        <item>فيفاي</item>
+        <item>فينسينز</item>
+        <item>ويناماك</item>
+        <item>كينغستون</item>
+        <item>نوسترا سينورا دي لاباز</item>
+        <item>ليما</item>
+        <item>لوس أنجلوس</item>
+        <item>لويفيل</item>
+        <item>ماناغوا</item>
+        <item>مارتينيك</item>
+        <item>مندوزا</item>
+        <item>ميتلاكاتلا</item>
+        <item>مكسيكو سيتي</item>
+        <item>مونتيري</item>
+        <item>مونتيفيديو</item>
+        <item>مونتريال</item>
+        <item>ناساو</item>
+        <item>نيويورك</item>
+        <item>بيولا</item>
+        <item>سنتر</item>
+        <item>نيو سالم</item>
+        <item>بنما</item>
+        <item>فينيكس</item>
+        <item>بورت أوف سبين</item>
+        <item>بورت أو برنس</item>
+        <item>بورتوريكو</item>
+        <item>سانتو دومينغو</item>
+        <item>او باولو</item>
+        <item>سانت جونز</item>
+        <item>سانت كيتس</item>
+        <item>سانت لوسيا</item>
+        <item>سانت توماس</item>
+        <item>تيخوانا</item>
+        <item>تورونتو</item>
+        <item>فانكوفر</item>
+        <item>وينيبيغ</item>
+        <item>القطب الجنوبي</item>
+        <item>لونغياربين</item>
+        <item>ألماتي</item>
+        <item>عمّان</item>
+        <item>أنادير</item>
+        <item>أكاتو</item>
+        <item>بغداد</item>
+        <item>البحرين</item>
+        <item>باكو</item>
+        <item>بانكوك</item>
+        <item>بيروت</item>
+        <item>كلكتا</item>
+        <item>دمشق</item>
+        <item>دكا</item>
+        <item>دبي</item>
+        <item>غزة</item>
+        <item>الخليل</item>
+        <item>هو تشي منه</item>
+        <item>هونغ كونغ</item>
+        <item>اسطنبول</item>
+        <item>جاكرتا</item>
+        <item>القدس</item>
+        <item>كابول</item>
+        <item>كراتشي</item>
+        <item>كاتماندو</item>
+        <item>والا لمبور</item>
+        <item>الكويت</item>
+        <item>ماكاو</item>
+        <item>مانيلا</item>
+        <item>مسقط</item>
+        <item>بنوم بنه</item>
+        <item>بيونغ يانغ</item>
+        <item>دولةقطر</item>
+        <item>رانغون</item>
+        <item>الرياض</item>
+        <item>سايغون</item>
+        <item>سيول</item>
+        <item>سنغافورة</item>
+        <item>تايبيه</item>
+        <item>طهران</item>
+        <item>تل أبيب</item>
+        <item>طوكيو</item>
+        <item>أولان باتور</item>
+        <item>برمودا</item>
+        <item>الكناري</item>
+        <item>لرأس الأخضر</item>
+        <item>ريكيافيك</item>
+        <item>ستانلي</item>
+        <item>أديليد</item>
+        <item>بريسبان</item>
+        <item>كانبرا</item>
+        <item>داروين</item>
+        <item>ملبورن</item>
+        <item>نيو ساوث ويلز</item>
+        <item>بيرث</item>
+        <item>كوينزلاند</item>
+        <item>سيدني</item>
+        <item>فيكتوريا</item>
+        <item>نيوفاوندلاند</item>
+        <item>ساسكاتشوان</item>
+        <item>جزيرة الفصح</item>
+        <item>أمستردام</item>
+        <item>أندورا</item>
+        <item>أثينا</item>
+        <item>بلفاست</item>
+        <item>بلغراد</item>
+        <item>برلين</item>
+        <item>براتيسلافا</item>
+        <item>بروكسل</item>
+        <item>بوخارست</item>
+        <item>بودابست</item>
+        <item>كيشيناو</item>
+        <item>كوبنهاغن</item>
+        <item>دبلن</item>
+        <item>جبل طارق</item>
+        <item>هلسنكي</item>
+        <item>جزيرة مان</item>
+        <item>إسطنبول</item>
+        <item>كييف</item>
+        <item>لشبونة</item>
+        <item>لندن</item>
+        <item>لوكسمبورغ</item>
+        <item>مدريد</item>
+        <item>مالطا</item>
+        <item>مينسك</item>
+        <item>موناكو</item>
+        <item>موسكو</item>
+        <item>أوسلو</item>
+        <item>باريس</item>
+        <item>براغ</item>
+        <item>ريغا</item>
+        <item>روما</item>
+        <item>سان مارينو</item>
+        <item>سراييفو</item>
+        <item>سيمفيروبول</item>
+        <item>سكوبيه</item>
+        <item>صوفيا</item>
+        <item>ستوكهولم</item>
+        <item>تالين</item>
+        <item>الفاتيكان</item>
+        <item>فيينا</item>
+        <item>فيلنيوس</item>
+        <item>وارسو</item>
+        <item>زغرب</item>
+        <item>زيورخ</item>
+        <item>أنتاناناريفو</item>
+        <item>جزر المالديف</item>
+        <item>موريشيوس</item>
+        <item>أوكلاند</item>
+        <item>فيجي</item>
+        <item>غوام</item>
+        <item>هونولولو</item>
+        <item>جزيرةعيدالميلاد</item>
+        <item>نوميا</item>
+        <item>ساموا</item>
+        <item>تاهيتي</item>
+        <item>أنتيغوا</item>
+        <item>أوستين</item>
+        <item>بوسطن</item>
+        <item>كالغاري</item>
+        <item>كولومبوس</item>
+        <item>دالاس</item>
+        <item>نوكسفيل</item>
+        <item>ممفيس</item>
+        <item>ميامي</item>
+        <item>مينيابوليس</item>
+        <item>أوتاوا</item>
+        <item>فيلادلفيا</item>
+        <item>بورتلاند</item>
+        <item>ساندييغو</item>
+        <item>سان فرانسيسكو</item>
+        <item>سولت ليك سيتي</item>
+        <item>سان خوسيه</item>
+        <item>سان سلفادور</item>
+        <item>سياتل</item>
+        <item>سانت لويس</item>
+        <item>واشنطن العاصمة</item>
+        <item>هيوستن</item>
+        <item>سان أنطونيو</item>
+        <item>جاكسونفيل</item>
+        <item>بالتيمور</item>
+        <item>ناشفيل</item>
+        <item>ميلووكي</item>
+        <item>أوكلاهوما سيتي</item>
+        <item>لاس فيغاس</item>
+        <item>البوكيرك</item>
+        <item>توسون</item>
+        <item>ساكرامنتو</item>
+        <item>أتلانتا</item>
+        <item>كليفلاند</item>
+        <item>نيو أورليانز</item>
+        <item>تامبا</item>
+        <item>بيتسبرغ</item>
+        <item>سينسيناتي</item>
+        <item>ماونتنفيو</item>
+        <item>رينو</item>
+        <item>بلاك روك سيتي</item>
+        <item>الدوحة</item>
+        <item>بكين</item>
+        <item>مومباي</item>
+        <item>دلهي</item>
+        <item>أوساكا</item>
+        <item>لاهور</item>
+        <item>صنعاء</item>
+        <item>برشلونة</item>
+        <item>ميونخ</item>
+        <item>ميلان</item>
+        <item>فرانكفورت</item>
+        <item>هانوي</item>
+        <item>أنقرة</item>
+        <item>بنغالور</item>
+        <item>برازيليا</item>
+        <item>كيب تاون</item>
+        <item>اسلام آباد</item>
+        <item>ريو دي جانيرو</item>
+        <item>آن أربور</item>
+        <item>بولدر</item>
+        <item>كامبريدج</item>
+        <item>كيركلاند</item>
+        <item>ماديسون</item>
+        <item>حيدر آباد</item>
+        <item>ريستون</item>
+        <item>شيواوا</item>
+        <item>ريجينا</item>
+        <item>ماناوس</item>
+        <item>سان دييغو</item>
+        <item>جوثاب</item>
+        <item>جورجياالجنوبية</item>
+        <item>جزرالأزور</item>
+        <item>ويندهوك</item>
+        <item>تبليسي</item>
+        <item>يريفان</item>
+        <item>الأورال</item>
+        <item>كولومبو</item>
+        <item>يكاترينبورغ</item>
+        <item>كراسنويارسك</item>
+        <item>ايركوتسك</item>
+        <item>ياكوتسك</item>
+        <item>هوبارت</item>
+        <item>فلاديفوستوك</item>
+        <item>ماجورو</item>
+        <item>ماجادان</item>
+        <item>تونغاتابو</item>
+        <item>جزيرةميدواي</item>
+    </string-array>
+    <string-array name="countries_names">
+        <item>كوتديفوار</item>
+        <item>غانا</item>
+        <item>أثيوبيا</item>
+        <item>الجزائر</item>
+        <item>ملاوي</item>
+        <item>الكونغو</item>
+        <item>القاهرة</item>
+        <item>المغرب</item>
+        <item>غينيا</item>
+        <item>السنغال</item>
+        <item>تنزانيا</item>
+        <item>جيبوتي</item>
+        <item>سيراليون</item>
+        <item>بوتسوانا</item>
+        <item>زمبابوي</item>
+        <item>جنوبأفريقيا</item>
+        <item>أوغندا</item>
+        <item>السودان</item>
+        <item>رواندا</item>
+        <item>الكونغو</item>
+        <item>نيجيريا</item>
+        <item>ليسوتو</item>
+        <item>الصومال</item>
+        <item>كينيا</item>
+        <item>ساوتوميوبرينسيبي</item>
+        <item>تمبكتو</item>
+        <item>ليبيا</item>
+        <item>تونس</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الأرجنتين</item>
+        <item>أروبا</item>
+        <item>باراغواي</item>
+        <item>بربادوس</item>
+        <item>بليز</item>
+        <item>كولومبيا</item>
+        <item>الأرجنتين</item>
+        <item>المكسيك</item>
+        <item>فنزويلا</item>
+        <item>جزركايمان</item>
+        <item>الولاياتالمتحدة</item>
+        <item>كوستاريكا</item>
+        <item>كوراكاو</item>
+        <item>كندا</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>دومينيكا</item>
+        <item>كندا</item>
+        <item>سلفادور</item>
+        <item>البرازيل</item>
+        <item>الأتراكالكبار</item>
+        <item>غرينادا</item>
+        <item>غواتيمالا</item>
+        <item>غيانا</item>
+        <item>كندا</item>
+        <item>كوبا</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>مارينغو</item>
+        <item>الولاياتالمتحدة</item>
+        <item>تلسيتي</item>
+        <item>ويوي</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>جامايكا</item>
+        <item>بوليفيا</item>
+        <item>بيرو</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>نيكاراغوا</item>
+        <item>فرنسا</item>
+        <item>الأرجنتين</item>
+        <item>الولاياتالمتحدة</item>
+        <item>المكسيك</item>
+        <item>الولاياتالمتحدة</item>
+        <item>أوروغواي</item>
+        <item>كندا</item>
+        <item>جزرالبهاما</item>
+        <item>الولاياتالمتحدة</item>
+        <item>أستراليا</item>
+        <item>مركز</item>
+        <item>سالمجديد</item>
+        <item>بنما</item>
+        <item>الولاياتالمتحدة</item>
+        <item>تريندادوتوباغو</item>
+        <item>هايتي</item>
+        <item>بورتوريكو</item>
+        <item>دومينيكا</item>
+        <item>البرازيل</item>
+        <item>كندا</item>
+        <item>سانتكيتس</item>
+        <item>الأرجنتين</item>
+        <item>كندا</item>
+        <item>المكسيك</item>
+        <item>كندا</item>
+        <item>كندا</item>
+        <item>كندا</item>
+        <item>أنتاركتيكا</item>
+        <item>النرويج</item>
+        <item>كازاخستان</item>
+        <item>الأردن</item>
+        <item>روسيا</item>
+        <item>كازاخستان</item>
+        <item>العراق</item>
+        <item>البحرين</item>
+        <item>أذربيجان</item>
+        <item>تايلاند</item>
+        <item>لبنان</item>
+        <item>الهند</item>
+        <item>سوريا</item>
+        <item>البنغال</item>
+        <item>الإماراتالعربيةالمتحدة</item>
+        <item>فلسطين</item>
+        <item>فلسطين</item>
+        <item>فيتنام</item>
+        <item>الصين</item>
+        <item>ديكرومي</item>
+        <item>إندونيسيا</item>
+        <item>بيتالمقدس</item>
+        <item>أفغانستان</item>
+        <item>باكستان</item>
+        <item>نيبال</item>
+        <item>ماليزيا</item>
+        <item>الكويت</item>
+        <item>الصين</item>
+        <item>الفلبين</item>
+        <item>سلطنةعمان</item>
+        <item>كمبوديا</item>
+        <item>كوريا</item>
+        <item>دولةقطر</item>
+        <item>ميانمار</item>
+        <item>المملكةالعربيةالسعودية</item>
+        <item>فيتنام</item>
+        <item>كوريا</item>
+        <item>سنغافورة</item>
+        <item>تايوان，الصين</item>
+        <item>إيران</item>
+        <item>سرائيل</item>
+        <item>اليابان</item>
+        <item>منغوليا</item>
+        <item>برمودا</item>
+        <item>جزرالكناري</item>
+        <item>الرأسالأخضر</item>
+        <item>أيسلندا</item>
+        <item>ستانلي</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>أستراليا</item>
+        <item>كندا</item>
+        <item>كندا</item>
+        <item>كندا</item>
+        <item>جزيرةالفصح</item>
+        <item>هولندا</item>
+        <item>أندورا</item>
+        <item>اليونان</item>
+        <item>اليرلنداالشمالية</item>
+        <item>صربيا</item>
+        <item>ألمانيا</item>
+        <item>سلوفاكيا</item>
+        <item>بلجيكا</item>
+        <item>رومانيا</item>
+        <item>هنغاريا</item>
+        <item>مولدوفا</item>
+        <item>الدنمارك</item>
+        <item>دبلن</item>
+        <item>جبلطارق</item>
+        <item>فنلندا</item>
+        <item>جزيرةآيلأوفمان</item>
+        <item>ديكرومي</item>
+        <item>أوكرانيا</item>
+        <item>البرتغال</item>
+        <item>المملكةالمتحدة</item>
+        <item>لوكسمبورغ</item>
+        <item>إسبانيا</item>
+        <item>مالطا</item>
+        <item>بيلاروسيا</item>
+        <item>موناكو</item>
+        <item>روسيا</item>
+        <item>النرويج</item>
+        <item>فرنسا</item>
+        <item>جمهوريةالتشيك</item>
+        <item>لاتفيا</item>
+        <item>يطاليا</item>
+        <item>سانمارينو</item>
+        <item>الهرسك</item>
+        <item>روسيا</item>
+        <item>مقدونيا</item>
+        <item>بلغاريا</item>
+        <item>السويد</item>
+        <item>إستونيا</item>
+        <item>الفاتيكان</item>
+        <item>النمسا</item>
+        <item>ليتوانيا</item>
+        <item>بولندا</item>
+        <item>كرواتيا</item>
+        <item>سويسرا</item>
+        <item>أنتاناناريفو</item>
+        <item>جزرالمالديف</item>
+        <item>موريشيوس</item>
+        <item>أوكلاند</item>
+        <item>فيجي</item>
+        <item>غوام</item>
+        <item>الولاياتالمتحدة</item>
+        <item>جزيرةعيدالميلاد</item>
+        <item>كاليدونياالجديدة</item>
+        <item>ساموا</item>
+        <item>تاهيتي</item>
+        <item>أنتيغوا</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>كندا</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>كندا</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>كوستاريكا</item>
+        <item>سانسلفادور</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>مدينةبلاكروك</item>
+        <item>دولةقطر</item>
+        <item>الصين</item>
+        <item>الهند</item>
+        <item>الهند</item>
+        <item>اليابان</item>
+        <item>باكستان</item>
+        <item>صنعاء</item>
+        <item>إسبانيا</item>
+        <item>ألمانيا</item>
+        <item>يطاليا</item>
+        <item>ألمانيا</item>
+        <item>فيتنام</item>
+        <item>ديكرومي</item>
+        <item>الهند</item>
+        <item>البرازيل</item>
+        <item>جنوبأفريقيا</item>
+        <item>باكستان</item>
+        <item>البرازيل</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>المملكةالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>الولاياتالمتحدة</item>
+        <item>أندرابراديش，الهند</item>
+        <item>راحةعلى</item>
+        <item>شيواوا</item>
+        <item>ريجينا</item>
+        <item>ماناوس</item>
+        <item>تشيلي</item>
+        <item>جوثاب</item>
+        <item>جورجياالجنوبية</item>
+        <item>جزرالأزور</item>
+        <item>ويندهوك</item>
+        <item>تبليسي</item>
+        <item>يريفان</item>
+        <item>الأورال</item>
+        <item>كولومبو</item>
+        <item>يكاترينبورغ</item>
+        <item>كراسنويارسك</item>
+        <item>ايركوتسك</item>
+        <item>ياكوتسك</item>
+        <item>هوبارت</item>
+        <item>فلاديفوستوك</item>
+        <item>ماجورو</item>
+        <item>ماجادان</item>
+        <item>تونغاتابو</item>
+        <item>جزيرةميدواي</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>افتراضي</item>
+        <item>تجاهل</item>
+        <item>اهتزاز</item>
+        <item>رنين</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>خريطة</item>
+        <item>الجو</item>
+        <item>طعام</item>
+        <item>الطيران</item>
+        <item>الفندق</item>
+    </string-array>
+    <string-array name="month_top_display">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>التبديل إلى التاريخ</item>
+        <item>قائمة جدول الأعمال</item>
+        <item>الإعدادات</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>يوم الجمعة</item>
+        <item>يوم السبت</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>الأحد</item>
+        <item>الإثنين</item>
+        <item>الثلاثاء</item>
+        <item>الأربعاء</item>
+        <item>الخميس</item>
+        <item>يوم الجمعة</item>
+        <item>يوم السبت</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>التقاط صورة</item>
+        <item>الصور</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>دائمًا</item>
+        <item>أبداً</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>ﺎﻠﻳﻮﻣ 9:00</item>
+        <item>ﻢﻧﺫ ﻱﻮﻣ ﻭﺎﺣﺩ 9:00</item>
+        <item>ﻢﻧ ﻱﻮﻤﻴﻧ 9:00</item>
+        <item>9:00 ﻢﻧﺫ ﺄﺴﺑﻮﻋ</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day_of_birthday">
+        <item>ﻻ ﺶﻳﺀ</item>
+        <item>ﺎﻠﻳﻮﻣ 9:00</item>
+        <item>ﻢﻧﺫ ﻱﻮﻣ ﻭﺎﺣﺩ 9:00</item>
+        <item>ﻢﻧ ﻱﻮﻤﻴﻧ 9:00</item>
+        <item>9:00 ﻢﻧﺫ ﺄﺴﺑﻮﻋ</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>بريد إلكتروني</item>
+        <item>بلوتوث</item>
+        <item>رسالة</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+</resources>

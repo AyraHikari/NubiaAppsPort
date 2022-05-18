@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formula_max_textsize">46.0dip</dimen>
+    <dimen name="formula_min_textsize">34.0dip</dimen>
+    <item type="dimen" name="formula_padding_end">@dimen/mfvc_large_padding</item>
+    <item type="dimen" name="formula_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="formula_padding_top">14.0dip</dimen>
+    <dimen name="formula_step_textsize">4.0dip</dimen>
+    <dimen name="more_action_margin_bottom">17.0dip</dimen>
+    <item type="dimen" name="result_padding_end">@dimen/mfvc_large_padding</item>
+    <item type="dimen" name="result_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="result_padding_top">15.0dip</dimen>
+    <dimen name="result_textsize">34.0dip</dimen>
+</resources>

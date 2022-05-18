@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/currentZoom" android:background="@drawable/zoom_shortcut_background" android:layout_width="@dimen/zoomShotcutSize" android:layout_height="@dimen/zoomShotcutSize" android:text="1X" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/zoomMenu" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+    <cn.nubia.camera.zoom.arc.ArcZoomView android:id="@id/zoomView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <cn.nubia.camera.zoom.arc.ArcZoomMargin android:id="@id/arcMargin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="250.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list>
+            <item android:drawable="@drawable/nubiaui_camera_shutter" />
+            <item android:drawable="@drawable/nubiaui_shutter_background" />
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list>
+            <item android:drawable="@drawable/nubiaui_camera_shutter_gray" />
+            <item android:drawable="@drawable/nubiaui_shutter_background_gray" />
+        </layer-list>
+    </item>
+</selector>

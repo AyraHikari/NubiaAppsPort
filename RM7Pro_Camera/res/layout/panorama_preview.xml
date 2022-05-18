@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <cn.nubia.camera.panorama.PanoPreviewView android:id="@id/pano_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/pano_stop_layout" android:background="@color/bar_background" android:visibility="gone" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/pano_stop" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/pano_stop_icon" android:layout_width="@dimen/dimens_64" android:layout_height="@dimen/dimens_64" android:src="@drawable/btn_shutter_background" android:layout_centerInParent="true" camera:button_color="white" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+    </RelativeLayout>
+</RelativeLayout>

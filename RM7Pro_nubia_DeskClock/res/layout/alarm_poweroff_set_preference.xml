@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/alarm_setting_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/alarm_settings_default_text_size" android:textColor="@color/alarm_settings_item_title_color" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/poweroff_alarm" android:singleLine="true" android:layout_centerVertical="true" />
+    <cn.nubia.commonui.widget.NubiaSwitch android:layout_gravity="center" android:id="@id/alarm_poweroff_switch" android:clickable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+</RelativeLayout>

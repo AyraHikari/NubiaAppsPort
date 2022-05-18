@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="true">
+        <bitmap android:src="@drawable/nubia_select_none_icon" android:alpha="0.3" />
+    </item>
+    <item android:state_checked="false" android:drawable="@drawable/nubia_select_none_icon" />
+    <item android:state_checked="true" android:state_pressed="true">
+        <bitmap android:src="@drawable/nubia_select_all_icon" android:alpha="0.3" />
+    </item>
+    <item android:state_checked="true" android:drawable="@drawable/nubia_select_all_icon" />
+</selector>

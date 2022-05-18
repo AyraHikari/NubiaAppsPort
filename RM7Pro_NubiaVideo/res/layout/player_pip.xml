@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/layout_pip" android:background="@drawable/player_pip_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/btn_pause" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play" />
+    <RelativeLayout android:layout_gravity="top" android:id="@id/layout_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/btn_close" android:background="@drawable/player_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exit" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/layout_ctrl" android:background="#99000000" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/fullscreen" android:background="@drawable/player_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_fullscreen" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/close" android:background="@drawable/player_icon_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_cancel" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/layout_seekbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/player_SeekBar" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/layout_timeline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/player_text" android:id="@id/current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/player_text" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

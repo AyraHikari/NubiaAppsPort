@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_lowBatteryWarningLevel_five">5</integer>
+    <integer name="config_lowBatteryWarningLevel_ten">10</integer>
+    <integer name="config_lowBatteryWarningLevel_two">2</integer>
+    <integer name="config_maxResolverActivityColumns">3</integer>
+    <integer name="config_switch_height_extend">0</integer>
+    <integer name="config_switch_width_factor">4</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="mfvc_activity_close_duration">200</integer>
+    <integer name="mfvc_activity_close_enter_duration">160</integer>
+    <integer name="mfvc_activity_close_exit_duration">220</integer>
+    <integer name="mfvc_activity_open_duration">180</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
+    <integer name="preference_screen_header_scrollbarStyle">0x02000000</integer>
+    <integer name="preferences_left_pane_weight">4</integer>
+    <integer name="preferences_right_pane_weight">6</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="switch_thumb_disable_alpha">0x00000080</integer>
+    <integer name="switch_track_disable_alpha">0x00000042</integer>
+</resources>

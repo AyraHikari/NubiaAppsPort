@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_height">70.0dip</dimen>
+    <dimen name="port_lunar_offset">105.0px</dimen>
+    <dimen name="port_num_offset">36.0px</dimen>
+    <dimen name="monthview_today_solar_date_margin_top">10.0dip</dimen>
+</resources>

@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_left_time">
+        <item>不到 1 分鐘響鈴</item>
+        <item>%1$s響鈴</item>
+        <item>%2$s響鈴</item>
+        <item>%1$s%2$s響鈴</item>
+        <item>%3$s響鈴</item>
+        <item>%1$s%3$s響鈴</item>
+        <item>%2$s%3$s響鈴</item>
+        <item>%1$s%2$s%3$s響鈴</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_label">
+        <item>只響一次</item>
+        <item>週一到週五</item>
+        <item>法定工作日</item>
+        <item>每天</item>
+        <item>自定義</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>已將鬧鐘設定在 1 分鐘內啟動。</item>
+        <item>已將鬧鐘設定在 %1$s後啟動。</item>
+        <item>已將鬧鐘設定在 %2$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s又 %2$s後啟動。</item>
+        <item>已將鬧鐘設定在 %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s又 %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %2$s又 %3$s後啟動。</item>
+        <item>已將鬧鐘設定在 %1$s%2$s又 %3$s後啟動。</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>a bi shang=阿必尚</item>
+        <item>a ke la =阿克拉</item>
+        <item>a di si a bei ba=阿迪斯阿貝巴</item>
+        <item>a er ji er=阿爾及爾</item>
+        <item>bu lan tai er=布蘭泰爾</item>
+        <item>bu la sa wei er=布拉薩維爾</item>
+        <item>kai luo=開羅</item>
+        <item>ka sa bu lan jia=卡薩布蘭加</item>
+        <item>ke na ke li=柯那克里</item>
+        <item>da ka er=達喀爾</item>
+        <item>da lai sa lan=達萊撒蘭</item>
+        <item>ji bu di=吉布地</item>
+        <item>zi you cheng=自由城</item>
+        <item>jia bo long li=嘉柏隆里</item>
+        <item>ha la lei=哈拉雷</item>
+        <item>yue han ni si bao=約翰尼斯堡</item>
+        <item>kan pa la=坎帕拉</item>
+        <item>ka tu mu=喀土穆</item>
+        <item>ji jia li=基加利</item>
+        <item>jin xia sha=金夏沙</item>
+        <item>la ge si=拉哥斯</item>
+        <item>ma sai lu=馬塞魯</item>
+        <item>mo jia di xiu=摩加迪休</item>
+        <item>nai luo bi=奈洛比</item>
+        <item>sheng duo mei=聖多美</item>
+        <item>tong bu tu=通布圖</item>
+        <item>di li bo li=的黎波里</item>
+        <item>tu ni si=突尼斯</item>
+        <item>an ke la zhi=安克拉治</item>
+        <item>men duo sa=門多薩</item>
+        <item>a lu ba=阿魯巴</item>
+        <item>ya song sen=亞松森</item>
+        <item>ba bei duo=巴貝多</item>
+        <item>bei li si=貝里斯</item>
+        <item>bo ge da=波哥大</item>
+        <item>bu yi nuo si ai li si=布宜諾斯艾利斯</item>
+        <item>kan kun=坎昆</item>
+        <item>ka si ka si=卡拉卡斯</item>
+        <item>kai man=開曼</item>
+        <item>zhi jia ge=芝加哥</item>
+        <item>ge si da li jia=哥斯大黎加</item>
+        <item>ku la suo=庫拉索</item>
+        <item>dao sen ke li ke=道森克里克</item>
+        <item>dao fo=丹佛</item>
+        <item>di te lv=底特律</item>
+        <item>duo ming ni jia=多明尼加</item>
+        <item>ai de meng dun=愛德蒙頓</item>
+        <item>sa er wa duo=薩爾瓦多</item>
+        <item>fu ta li sha=福塔力沙</item>
+        <item>da te ke=大特克</item>
+        <item>ge rui na da=格瑞那達</item>
+        <item>gua di ma la=瓜地馬拉</item>
+        <item>gai na ya=蓋亞那</item>
+        <item>ha li fa ke si=哈利法克斯</item>
+        <item>ha wa na=哈瓦那</item>
+        <item>yin di an na bo li si=印地安納波利斯</item>
+        <item>nuo ke si=諾克斯</item>
+        <item>ma lun ge=馬倫哥</item>
+        <item>bi de si bao=彼得斯堡</item>
+        <item>tai er shi=泰爾市</item>
+        <item>fei wei=斐威</item>
+        <item>wan sai na si=萬塞訥斯</item>
+        <item>wei na ma ke=威納馬克</item>
+        <item>jin si dun=金斯頓</item>
+        <item>la ba si=拉巴斯</item>
+        <item>li ma=利瑪</item>
+        <item>luo shan ji=洛杉磯</item>
+        <item>lu yi si wei er=路易斯維爾</item>
+        <item>ma na gua=馬拿瓜</item>
+        <item>ma ding ni ke=馬丁尼克</item>
+        <item>men duo sa=門多薩</item>
+        <item>mei te la ka te la=梅特拉卡特拉</item>
+        <item>mo xi ge cheng=墨西哥城</item>
+        <item>meng te lei=蒙特雷</item>
+        <item>meng te wei duo=蒙特維多</item>
+        <item>meng te lou=蒙特婁</item>
+        <item>na suo=拿索</item>
+        <item>niu yue=紐約</item>
+        <item>bi you lai=比尤萊</item>
+        <item>zhong yang shi=中央市</item>
+        <item>xin sai le mu=新塞勒姆</item>
+        <item>ba na ma=巴拿馬</item>
+        <item>feng huang cheng=鳳凰城</item>
+        <item>xi ban ya gang=西班牙港</item>
+        <item>tai zi gang=太子港</item>
+        <item>bo duo li ge=波多黎各</item>
+        <item>sheng duo ming ge=聖多明哥</item>
+        <item>sheng bao luo=聖保羅</item>
+        <item>sheng yue han=聖約翰</item>
+        <item>sheng ke li si duo fu=聖克里斯多福</item>
+        <item>sheng lu xi ya=聖露西亞</item>
+        <item>sheng tang ma si=聖湯瑪斯</item>
+        <item>di hua na=蒂華納</item>
+        <item>duo lun duo=多倫多</item>
+        <item>wen ge hua=溫哥華</item>
+        <item>wen ni bo=溫尼伯</item>
+        <item>nan ji=南極</item>
+        <item>lang yi er cheng=朗伊爾城</item>
+        <item>a er ma ti=阿爾馬提</item>
+        <item>an man=安曼</item>
+        <item>a na de er=阿納德爾</item>
+        <item>a ke tao=阿克淘</item>
+        <item>ba ge da=巴格達</item>
+        <item>ba lin=巴林</item>
+        <item>ba ku=巴庫</item>
+        <item>man gu=曼谷</item>
+        <item>bei lu te=貝魯特</item>
+        <item>jia er ge da=加爾各答</item>
+        <item>da ma shi ge=大馬士革</item>
+        <item>da ka=達卡</item>
+        <item>du bai=杜拜</item>
+        <item>jia sa=加薩</item>
+        <item>xi bo lun=希伯倫</item>
+        <item>hu zhi ming shi=胡志明市</item>
+        <item>xiang gang=香港</item>
+        <item>yi si tan bao=伊斯坦堡</item>
+        <item>ya jia da=雅加達</item>
+        <item>ye lu sa leng=耶路撒冷</item>
+        <item>ka bu er=喀布爾</item>
+        <item>ka la chi=喀拉嗤</item>
+        <item>jia de man du=加德滿都</item>
+        <item>ji long po=吉隆坡</item>
+        <item>ke wei te=科威特</item>
+        <item>ao men=澳門</item>
+        <item>ma ni la=馬尼拉</item>
+        <item>ma si ka te=馬斯喀特</item>
+        <item>jin bian=金邊</item>
+        <item>ping rang=平壤</item>
+        <item>ka da=卡達</item>
+        <item>yang guang=仰光</item>
+        <item>li ya de=利雅德</item>
+        <item>xi gong=西貢</item>
+        <item>shou er=首爾</item>
+        <item>xin jia po=新加坡</item>
+        <item>tai bei=台北</item>
+        <item>de hei lan=德黑蘭</item>
+        <item>te la wei fu=特拉維夫</item>
+        <item>dong jing=東京</item>
+        <item>wu lan ba tuo=烏蘭巴托</item>
+        <item>ba mu da=百慕達</item>
+        <item>jia na li=加那利</item>
+        <item>wei de jiao=維德角</item>
+        <item>lei ke ya wei ke=雷克雅維克</item>
+        <item>shi tan lai=史坦萊</item>
+        <item>a de lai de=阿德萊德</item>
+        <item>bu li si ben=布里斯本</item>
+        <item>kan pei la=坎培拉</item>
+        <item>da er weng=達爾文</item>
+        <item>mo er ben=墨爾本</item>
+        <item>xin nan wei er si=新南威爾斯</item>
+        <item>bo si=伯斯</item>
+        <item>kun shi lun=昆士蘭</item>
+        <item>xue li=雪梨</item>
+        <item>wei duo li ya=維多利亞</item>
+        <item>niu fen lan=紐芬蘭</item>
+        <item>sa ke si qi er=薩克斯其萬</item>
+        <item>fu huo jie dao=復活節島</item>
+        <item>a mu si te dan=阿姆斯特丹</item>
+        <item>an dao er=安道爾</item>
+        <item>ya dian=雅典</item>
+        <item>bei er fa si te=貝爾法斯特</item>
+        <item>bei er ge le=貝爾格勒</item>
+        <item>bo lin=柏林</item>
+        <item>bu la ti si la wa=布拉提斯拉瓦</item>
+        <item>bu lu sai er=布魯塞爾</item>
+        <item>bu jia le si te=布加勒斯特</item>
+        <item>bu da pei si=布達佩斯</item>
+        <item>ji xi na wu=基希訥烏</item>
+        <item>ge ben ha gen=哥本哈根</item>
+        <item>du bo lin=都柏林</item>
+        <item>zhi bo luo tuo=直布羅陀</item>
+        <item>he er xin ji=赫爾辛基</item>
+        <item>man en dao=曼恩島</item>
+        <item>yi si tan bao=伊斯坦堡</item>
+        <item>ji fu=基輔</item>
+        <item>li si ben=里斯本</item>
+        <item>lun dun=倫敦</item>
+        <item>lu sen bao=盧森堡</item>
+        <item>ma de li=馬德里</item>
+        <item>ma er ta=馬爾他</item>
+        <item>ming si ke=明斯克</item>
+        <item>mo na ge=摩納哥</item>
+        <item>mo si ke=莫斯科</item>
+        <item>so si lu=奧斯陸</item>
+        <item>ba li=巴黎</item>
+        <item>bu la ge=布拉格</item>
+        <item>li jia=里加</item>
+        <item>luo ma=羅馬</item>
+        <item>sheng ma li nuo=聖馬利諾</item>
+        <item>sai la ye fo=塞拉耶佛</item>
+        <item>xin fei luo bo er=辛菲羅波爾</item>
+        <item>shi gao bo ye=史高比耶</item>
+        <item>suo fei ya=索非亞</item>
+        <item>si de ge er mo=斯德哥爾摩</item>
+        <item>ta lin=塔林</item>
+        <item>fan di gang=梵帝崗</item>
+        <item>wei ye na=維也納</item>
+        <item>wei er niu si=維爾紐斯</item>
+        <item>hua sha=華沙</item>
+        <item>sa la ge bu=薩格勒布</item>
+        <item>su li shi=蘇黎世</item>
+        <item>an ta na na li fo=安塔那那利佛</item>
+        <item>ma er di fu=馬爾地夫</item>
+        <item>mo li xi si=模里西斯</item>
+        <item>ao ke lan=奧克蘭</item>
+        <item>fei ji=斐濟</item>
+        <item>guan dao=關島</item>
+        <item>tan xiang shan=檀香山</item>
+        <item>ke li ti ma ti=刻里提馬提</item>
+        <item>nuo mi ya=諾米亞</item>
+        <item>sa mo ya=薩摩亞</item>
+        <item>da xi di=大溪地</item>
+        <item>an ti gua=安提瓜</item>
+        <item>ao si ting=奧斯汀</item>
+        <item>bo shi dun=波士頓</item>
+        <item>ka jia li=卡加立</item>
+        <item>ge lun bu=哥倫布</item>
+        <item>da la si=達拉斯</item>
+        <item>nuo ke si wei er=諾克斯維爾</item>
+        <item>man fei si=曼非斯</item>
+        <item>mai a mi=邁阿密</item>
+        <item>ming ni a bo li si=明尼阿波利斯</item>
+        <item>wo tai hua=渥太華</item>
+        <item>fei cheng=費城</item>
+        <item>bo te lan=波特蘭</item>
+        <item>sheng die ge=聖迭戈</item>
+        <item>jiu jin shan=舊金山</item>
+        <item>yan hu chen=g鹽湖城</item>
+        <item>sheng he xi=聖荷西</item>
+        <item>sheng sa er wa duo=聖薩爾瓦多</item>
+        <item>xi ta tu=西雅圖</item>
+        <item>sheng lu yi=聖路易</item>
+        <item>hua sheng dun te qu=華盛頓特區</item>
+        <item>xiu shi dun=休士頓</item>
+        <item>sheng an dong ni ao=聖安東尼奧</item>
+        <item>jie ke xun wei er=傑克遜維爾</item>
+        <item>ba er di mo=巴爾的摩</item>
+        <item>na shi wei er=納什維爾</item>
+        <item>mi we wa ji=密爾瓦基</item>
+        <item>ao ke la he ma shi=奧克拉荷馬市</item>
+        <item>la si wei jia si=拉斯維加斯</item>
+        <item>a bu kui ji=阿布奎基</item>
+        <item>tu sang=土桑</item>
+        <item>sha jia mian du=沙加缅度</item>
+        <item>ya te lan da=亞特蘭大</item>
+        <item>ke li fu lan=克里夫蘭</item>
+        <item>niu ao liang=紐奧良</item>
+        <item>tan pa=坦帕</item>
+        <item>pi zi bao=匹茲堡</item>
+        <item>xin xin na ti=辛辛那提</item>
+        <item>shan jing cheng=山景城</item>
+        <item>lei nuo=雷諾</item>
+        <item>hei yan shi=黑岩市</item>
+        <item>duo ha=多哈</item>
+        <item>bei jing=北京</item>
+        <item>meng mai=孟買</item>
+        <item>de li=德里</item>
+        <item>da ban=大阪</item>
+        <item>la he er=拉合爾</item>
+        <item>sha na=沙那</item>
+        <item>ba sa long na=巴塞隆納</item>
+        <item>mu ni hei=慕尼黑</item>
+        <item>mi lan=米蘭</item>
+        <item>fa lan ke fu=法蘭克福</item>
+        <item>he nei=河內</item>
+        <item>an ka la=安卡拉</item>
+        <item>ban jia luo er=班加羅爾</item>
+        <item>ba xi li ya=巴西利亞</item>
+        <item>kai pu dun=開普敦</item>
+        <item>yi si lan ma ba de=伊斯蘭瑪巴德</item>
+        <item>li yue re nei lu=里約熱內盧</item>
+        <item>an na bao=安娜堡</item>
+        <item>bo er de=博爾德</item>
+        <item>jian qiao=劍橋</item>
+        <item>ke ke lan=科克蘭</item>
+        <item>mai di xun=麥迪遜</item>
+        <item>hai de la ba=海得拉巴</item>
+        <item>lei si dun=雷斯頓</item>
+        <item>qi hua hua=奇華華</item>
+        <item>zhong bu shi jian=中部時間 (里賈納)</item>
+        <item>ya ma xun shi jian=亞馬遜時間 (瑪瑙斯)</item>
+        <item>sheng di ya ge=聖地牙哥</item>
+        <item>gao te ha shi=高特哈市</item>
+        <item>nan qiao zhi ya=南喬治亞與南三明治島</item>
+        <item>ya su er qun dao=亞速爾群島</item>
+        <item>wen he ke=溫荷克</item>
+        <item>qiao zhi ya=喬治亞</item>
+        <item>ya mei ni ya=亞美尼亞</item>
+        <item>wu la er=烏拉爾</item>
+        <item>ke lun po=可倫坡</item>
+        <item>ye ka jie lun bao=葉卡捷林堡</item>
+        <item>ke la si nuo=克拉斯諾雅斯克</item>
+        <item>yi er ku ci ke=伊爾庫次克</item>
+        <item>ya ku ci ke=雅庫次克</item>
+        <item>he ba te=荷巴特</item>
+        <item>hai sheng wei=海參崴</item>
+        <item>ma zhu nuo=馬朱諾</item>
+        <item>ma jia dan=馬加丹</item>
+        <item>dong jia=東加</item>
+        <item>zhong tu dao=中途島</item>
+        <item>ji duo=基多</item>
+        <item>sheng bi de bao=聖彼得堡</item>
+    </string-array>
+    <string-array name="countries_names">
+        <item>jtdw=科特迪瓦</item>
+        <item>jn=加納</item>
+        <item>aseby=埃塞俄比亞</item>
+        <item>aejly=阿爾及利亞</item>
+        <item>mlw=馬拉維</item>
+        <item>gg=剛果</item>
+        <item>kl=開羅</item>
+        <item>mlg=摩洛哥</item>
+        <item>jny=幾內亞</item>
+        <item>snje=塞內加爾</item>
+        <item>tsny=坦桑尼亞</item>
+        <item>jbd=吉布地</item>
+        <item>slla=塞拉利昂</item>
+        <item>bcwn=博次瓦納</item>
+        <item>jbbw=津巴布韋</item>
+        <item>nf=南非</item>
+        <item>wgd=烏干達</item>
+        <item>sd=蘇丹</item>
+        <item>wwd=盧旺達</item>
+        <item>gg=剛果</item>
+        <item>nrly=尼日利亞</item>
+        <item>lst=萊索托</item>
+        <item>smly=索馬利亞</item>
+        <item>knykny=肯尼亞肯尼亞</item>
+        <item>sdmhplxb=聖多美和普林西比</item>
+        <item>ybkt=延巴克圖</item>
+        <item>lby=利比亞</item>
+        <item>tns=突尼斯</item>
+        <item>mg=美國</item>
+        <item>agt=阿根廷</item>
+        <item>alb=阿魯巴</item>
+        <item>blg=巴拉圭</item>
+        <item>bbds=巴巴多斯</item>
+        <item>bls=貝里斯</item>
+        <item>glby=哥倫比亞</item>
+        <item>agt=阿根廷</item>
+        <item>mxg=墨西哥</item>
+        <item>wnrl=委内瑞拉</item>
+        <item>kmqd=開曼群島</item>
+        <item>mg=美國</item>
+        <item>gsllj=哥斯大黎加</item>
+        <item>kls=庫拉索</item>
+        <item>jnd=加拿大</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>dmnj=多米尼加</item>
+        <item>jnd=加拿大</item>
+        <item>sewd=薩爾瓦多</item>
+        <item>bx=巴西</item>
+        <item>ftksd=大特克斯島</item>
+        <item>grnd=格瑞那達</item>
+        <item>gdml=瓜地馬拉</item>
+        <item>zyn=蓋亞那</item>
+        <item>jnd=加拿大</item>
+        <item>gb=古巴</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mlg=馬倫哥</item>
+        <item>mg=美國</item>
+        <item>tes=泰爾市</item>
+        <item>jj=韋韋</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>ymj=牙買加</item>
+        <item>blwy=玻利維亞</item>
+        <item>ml=秘魯</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>njlg=尼加拉瓜</item>
+        <item>fg=法國</item>
+        <item>agt=阿根廷</item>
+        <item>mg=美國</item>
+        <item>mxg=墨西哥</item>
+        <item>mg=美國</item>
+        <item>wlg=烏拉圭</item>
+        <item>jnd=加拿大</item>
+        <item>bhm=巴哈馬</item>
+        <item>mg=美國</item>
+        <item>adly=澳大利亞</item>
+        <item>st=森特</item>
+        <item>xslm=新塞勒姆</item>
+        <item>bnm=巴拿馬</item>
+        <item>mg=美國</item>
+        <item>tlndhdbg=特立尼達和多巴哥</item>
+        <item>hd=海地</item>
+        <item>bdlg=波多黎各</item>
+        <item>dmnj=多米尼加</item>
+        <item>bx=巴西</item>
+        <item>jnd=加拿大</item>
+        <item>sjc=聖基次</item>
+        <item>agt=阿根廷</item>
+        <item>jnd=加拿大</item>
+        <item>mxg=墨西哥</item>
+        <item>jnd=加拿大</item>
+        <item>jnd=加拿大</item>
+        <item>jnd=加拿大</item>
+        <item>nj=南極</item>
+        <item>nj=挪威</item>
+        <item>askst=哈薩克斯坦</item>
+        <item>yt=約旦</item>
+        <item>els=俄羅斯</item>
+        <item>hskst=哈薩克斯坦</item>
+        <item>ylk=伊拉克</item>
+        <item>bl=巴林</item>
+        <item>asbj=阿塞拜疆</item>
+        <item>tg=泰國</item>
+        <item>lbn=黎巴嫩</item>
+        <item>yd=印度</item>
+        <item>xly=叙利亞</item>
+        <item>mjl=孟加拉</item>
+        <item>alj=阿聯酋</item>
+        <item>blst=巴勒斯坦</item>
+        <item>blst=巴勒斯坦</item>
+        <item>yn=越南</item>
+        <item>zg=中國</item>
+        <item>teq=土耳其</item>
+        <item>ydnxy=印度尼西亞</item>
+        <item>ylsl=耶路撒冷</item>
+        <item>afh=阿富汗</item>
+        <item>bjst=巴基斯坦</item>
+        <item>nbe=尼泊爾</item>
+        <item>mlxy=马来西亞</item>
+        <item>kwt=科威特</item>
+        <item>zg=中國</item>
+        <item>flb=菲律賓</item>
+        <item>am=阿曼</item>
+        <item>jpz=柬埔寨</item>
+        <item>cx=朝鮮</item>
+        <item>kte=卡塔爾</item>
+        <item>md=緬甸</item>
+        <item>stalb=沙特阿拉伯</item>
+        <item>yn=越南</item>
+        <item>hg=韓國</item>
+        <item>xjp=新加坡</item>
+        <item>zgtw=中國台灣</item>
+        <item>yl=伊朗</item>
+        <item>ysl=以色列</item>
+        <item>rb=日本</item>
+        <item>mgg=蒙古國</item>
+        <item>bmd=百慕逹</item>
+        <item>jnlqd=加那利群島</item>
+        <item>wdj=維德角</item>
+        <item>bd=冰島</item>
+        <item>stl=史坦萊</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>adly=澳大利亞</item>
+        <item>jnd=加拿大</item>
+        <item>jnd=加拿大</item>
+        <item>jnd=加拿大</item>
+        <item>fhjd=復活節島</item>
+        <item>hl=荷蘭</item>
+        <item>wde=安道爾</item>
+        <item>xl=希臘</item>
+        <item>bael=北愛爾蘭</item>
+        <item>sewy=塞尔维亞</item>
+        <item>dg=德國</item>
+        <item>jlfk=斯洛伐克</item>
+        <item>bls=比利时</item>
+        <item>lmny=罗马尼亞</item>
+        <item>xyl=匈牙利</item>
+        <item>medw=摩爾多瓦</item>
+        <item>dm=丹麥</item>
+        <item>dbl=都柏林</item>
+        <item>zbmt=直布羅陀</item>
+        <item>fl=芬蘭</item>
+        <item>mnd=曼恩島</item>
+        <item>teq=土耳其</item>
+        <item>wkl=烏克蘭</item>
+        <item>pty=葡萄牙</item>
+        <item>yg=英國</item>
+        <item>lsb=盧森堡</item>
+        <item>xby=西班牙</item>
+        <item>met=馬爾他</item>
+        <item>bels=白俄羅斯</item>
+        <item>mng=摩納哥</item>
+        <item>els=俄羅斯</item>
+        <item>nw=挪威</item>
+        <item>fg=法國</item>
+        <item>jk=捷克</item>
+        <item>ltwy=拉脫維亞</item>
+        <item>ydl=意大利</item>
+        <item>smln=聖馬力諾</item>
+        <item>hsgwn=黑塞哥維那</item>
+        <item>els=俄羅斯</item>
+        <item>mqd=馬其頓</item>
+        <item>bjlu=保加利亞</item>
+        <item>rd=瑞典</item>
+        <item>asny=愛沙尼亞</item>
+        <item>fdg=梵蒂岡</item>
+        <item>adl=奥地利</item>
+        <item>ltw=立陶宛</item>
+        <item>bl=波蘭</item>
+        <item>kldy=克羅地亞</item>
+        <item>rs=瑞士</item>
+        <item>wtnlf=安塔那利佛</item>
+        <item>medf=馬爾地夫</item>
+        <item>mlxs=模里西斯</item>
+        <item>akl=奧克蘭</item>
+        <item>fj=斐濟</item>
+        <item>gd=關島</item>
+        <item>mg=美國</item>
+        <item>sdd=聖诞岛</item>
+        <item>xhldny=新赫里多尼亞</item>
+        <item>smy=薩摩亞</item>
+        <item>txtd=塔希提島</item>
+        <item>wtg=安提瓜</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>jnd=加拿大</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>jnd=加拿大</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>gsdlj=歌斯達黎加</item>
+        <item>ssewd=聖薩爾瓦多</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>hyc=黑岩城</item>
+        <item>kte=卡塔爾</item>
+        <item>zg=中國</item>
+        <item>yd=印度</item>
+        <item>yd=印度</item>
+        <item>rb=日本</item>
+        <item>bjst=巴基斯坦</item>
+        <item>sn=沙那</item>
+        <item>xby=西班牙</item>
+        <item>dg=德國</item>
+        <item>ydl=意大利</item>
+        <item>dg=德國</item>
+        <item>yn=越南</item>
+        <item>teq=土耳其</item>
+        <item>yd=印度</item>
+        <item>bx=巴西</item>
+        <item>nf=南非</item>
+        <item>bjst=巴基斯坦</item>
+        <item>bx=巴西</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>yg=英國</item>
+        <item>mg=美國</item>
+        <item>mg=美國</item>
+        <item>ydwdlb=印度安得拉邦</item>
+        <item>lsd=雷斯顿</item>
+        <item>qhh=奇華華</item>
+        <item>lmn=里賈納</item>
+        <item>mns=瑪瑙斯</item>
+        <item>zl=智利</item>
+        <item>gthb=戈特霍布</item>
+        <item>nqzc=南喬治亞</item>
+        <item>yseqd=亞速爾群島</item>
+        <item>whk=溫荷克</item>
+        <item>dbls=第比利斯</item>
+        <item>slw=葉里溫</item>
+        <item>wle=烏拉爾</item>
+        <item>klp=可倫坡</item>
+        <item>skjlb=葉卡捷林堡</item>
+        <item>klsnysk=克拉斯諾雅斯克</item>
+        <item>yekck=伊爾庫次克</item>
+        <item>ykck=雅庫次克</item>
+        <item>hbt=荷巴特</item>
+        <item>fldwstk=符拉迪沃斯托克</item>
+        <item>mzn=馬朱諾</item>
+        <item>mjd=馬加丹</item>
+        <item>djtb=東加塔布</item>
+        <item>ztd=中途島</item>
+        <item>egde=厄瓜多爾</item>
+        <item>els=俄羅斯</item>
+    </string-array>
+    <string-array name="internal_alarm_repeat_type_label">
+        <item>只響一次</item>
+        <item>週一到週五</item>
+        <item>每天</item>
+        <item>自定義</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="repick_name_label">
+        <item>鬧鐘</item>
+        <item>工作</item>
+        <item>學習</item>
+        <item>自定義</item>
+    </string-array>
+    <string-array name="repick_week_entries">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </string-array>
+    <string-array name="snooze_interval_view">
+        <item>1 分鐘</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>30 分鐘</item>
+    </string-array>
+    <string-array name="snooze_times_view">
+        <item>0 次</item>
+        <item>1 次</item>
+        <item>3 次</item>
+        <item>5 次</item>
+        <item>不限次</item>
+    </string-array>
+    <string-array name="sw_lap_number_set">
+        <item>計次 %d</item>
+        <item>計次 %02d</item>
+    </string-array>
+    <string-array name="cities_names_pinyin">
+        <item>a bi shang</item>
+        <item>"a ke la "</item>
+        <item>"a di si a bei ba "</item>
+        <item>"a er ji er "</item>
+        <item>"bu lan tai er "</item>
+        <item>"bu la sa wei er "</item>
+        <item>kai luo</item>
+        <item>ka sa bu lan jia</item>
+        <item>ke na ke li</item>
+        <item>da ka er</item>
+        <item>da lai sa lan</item>
+        <item>ji bu di</item>
+        <item>zi you cheng</item>
+        <item>jia bo long li</item>
+        <item>ha la lei</item>
+        <item>yue han ni si bao</item>
+        <item>kan pa la</item>
+        <item>"ka tu mu "</item>
+        <item>ji jia li</item>
+        <item>jin xia sha</item>
+        <item>la ge si</item>
+        <item>ma sai lu</item>
+        <item>mo jia di xiu</item>
+        <item>nai luo bi</item>
+        <item>sheng duo mei</item>
+        <item>tong bu tu</item>
+        <item>di li bo li</item>
+        <item>tu ni si</item>
+        <item>an ke la zhi</item>
+        <item>men duo sa</item>
+        <item>a lu ba</item>
+        <item>ya song sen</item>
+        <item>ba bei duo</item>
+        <item>bei li si</item>
+        <item>bo ge da</item>
+        <item>bu yi nuo si ai li si</item>
+        <item>kan kun</item>
+        <item>ka si ka si</item>
+        <item>kai man</item>
+        <item>zhi jia ge</item>
+        <item>ge si da li jia</item>
+        <item>ku la suo</item>
+        <item>dao sen ke li ke</item>
+        <item>dao fo</item>
+        <item>di te lv</item>
+        <item>duo ming ni jia</item>
+        <item>ai de meng dun</item>
+        <item>sa er wa duo</item>
+        <item>fu ta li sha</item>
+        <item>da te ke</item>
+        <item>ge rui na da</item>
+        <item>gua di ma la</item>
+        <item>gai na ya</item>
+        <item>ha li fa ke si</item>
+        <item>ha wa na</item>
+        <item>yin di an na bo li si</item>
+        <item>nuo ke si</item>
+        <item>ma lun ge</item>
+        <item>bi de si bao</item>
+        <item>tai er shi</item>
+        <item>fei wei</item>
+        <item>wan sai na si</item>
+        <item>wei na ma ke</item>
+        <item>jin si dun</item>
+        <item>la ba si</item>
+        <item>li ma</item>
+        <item>luo shan ji</item>
+        <item>lu yi si wei er</item>
+        <item>ma na gua</item>
+        <item>ma ding ni ke</item>
+        <item>men duo sa</item>
+        <item>mei te la ka te la</item>
+        <item>mo xi ge cheng</item>
+        <item>meng te lei</item>
+        <item>meng te wei duo</item>
+        <item>meng te lou</item>
+        <item>na suo</item>
+        <item>niu yue</item>
+        <item>bi you lai</item>
+        <item>zhong yang shi</item>
+        <item>xin sai le mu</item>
+        <item>ba na ma</item>
+        <item>feng huang gang</item>
+        <item>xi ban ya gang</item>
+        <item>"tai zi gang "</item>
+        <item>bo duo li ge</item>
+        <item>sheng duo ming ge</item>
+        <item>"sheng bao luo "</item>
+        <item>sheng yue han</item>
+        <item>sheng ke li si duo fu</item>
+        <item>sheng lu xi ya</item>
+        <item>sheng tang ma si</item>
+        <item>di hua na</item>
+        <item>duo lun duo</item>
+        <item>wen ge hua</item>
+        <item>wen ni bo</item>
+        <item>nan ji</item>
+        <item>lang yi er cheng</item>
+        <item>a er ma ti</item>
+        <item>an man</item>
+        <item>a na de er</item>
+        <item>a ke tao</item>
+        <item>ba ge da</item>
+        <item>ba lin</item>
+        <item>ba ku</item>
+        <item>man gu</item>
+        <item>bei lu te</item>
+        <item>jia er ge da</item>
+        <item>da ma shi ge</item>
+        <item>da ka</item>
+        <item>du bai</item>
+        <item>jia sa</item>
+        <item>xi bo lun</item>
+        <item>hu zhi ming shi</item>
+        <item>xiang gang</item>
+        <item>yi si tan bao</item>
+        <item>ya jia da</item>
+        <item>ye lu sa leng</item>
+        <item>ka bu er</item>
+        <item>ka la chi</item>
+        <item>jia de man du</item>
+        <item>ji long po</item>
+        <item>ke wei te</item>
+        <item>ao men</item>
+        <item>ma ni la</item>
+        <item>ma si ka ke</item>
+        <item>jin bian</item>
+        <item>ping rang</item>
+        <item>ka da</item>
+        <item>yang guang</item>
+        <item>li ya de</item>
+        <item>xi gong</item>
+        <item>shou er</item>
+        <item>xin jia po</item>
+        <item>tai bei</item>
+        <item>de hei lan</item>
+        <item>te la wei fu</item>
+        <item>dong jing</item>
+        <item>wu lan ba tuo</item>
+        <item>bai mu da</item>
+        <item>jia na li</item>
+        <item>wei de jiao</item>
+        <item>lei ke ya wei ke</item>
+        <item>shi tan lai</item>
+        <item>a de lai de</item>
+        <item>bu li si ben</item>
+        <item>kan pei la</item>
+        <item>da er wen</item>
+        <item>mo er ben</item>
+        <item>xin nan wei er si</item>
+        <item>po si</item>
+        <item>kun shi lan</item>
+        <item>xue li</item>
+        <item>wei duo li ya</item>
+        <item>niu fen lan</item>
+        <item>sa ke si qi wan</item>
+        <item>fu huo jie dao</item>
+        <item>a mu si te dan</item>
+        <item>"an dao er "</item>
+        <item>ya dian</item>
+        <item>bei er fa si te</item>
+        <item>bei er ge lei</item>
+        <item>bo lin</item>
+        <item>bu la ti si la wa</item>
+        <item>bu lu sai er</item>
+        <item>bu jia le si te</item>
+        <item>bu da pei si</item>
+        <item>ji xi na wu</item>
+        <item>ge ben ha gen</item>
+        <item>du bo lin</item>
+        <item>zhi bu luo tuo</item>
+        <item>he er xin ji</item>
+        <item>man en dao</item>
+        <item>yi si tan bao</item>
+        <item>ji fu</item>
+        <item>li si ben</item>
+        <item>lun dun</item>
+        <item>lu sen bao</item>
+        <item>ma de li</item>
+        <item>ma er ta</item>
+        <item>ming si ke</item>
+        <item>mo na ge</item>
+        <item>mo si ke</item>
+        <item>ao si lu</item>
+        <item>ba li</item>
+        <item>bu la ge</item>
+        <item>li jia</item>
+        <item>luo ma</item>
+        <item>sheng ma li nuo</item>
+        <item>sai la ye fo</item>
+        <item>xin fei luo bi er</item>
+        <item>shi gao bi ye</item>
+        <item>suo fei ya</item>
+        <item>si de ge er mo</item>
+        <item>ta lin</item>
+        <item>fan di gang</item>
+        <item>wei ye na</item>
+        <item>wei er niu si</item>
+        <item>hua sha</item>
+        <item>sa ge le bu</item>
+        <item>su li shi</item>
+        <item>an ta na na li fo</item>
+        <item>ma er di fu</item>
+        <item>mo li xi si</item>
+        <item>ao ke lan</item>
+        <item>fei ji</item>
+        <item>guan dao</item>
+        <item>tan xiang shan</item>
+        <item>ke li ta ma ti</item>
+        <item>muo mi ya</item>
+        <item>sa mo ya</item>
+        <item>da xi di</item>
+        <item>an ti gua</item>
+        <item>ao si ding</item>
+        <item>bo shi dun</item>
+        <item>ka jia li</item>
+        <item>ge lun bu</item>
+        <item>da jia si</item>
+        <item>nuo ke si wei er</item>
+        <item>man fei si</item>
+        <item>mai er mi</item>
+        <item>ming ni a bo li si</item>
+        <item>wo tai hua</item>
+        <item>fei cheng</item>
+        <item>bo te lan</item>
+        <item>sheng die ge</item>
+        <item>jiu jin shan</item>
+        <item>yan hu cheng</item>
+        <item>sheng he xi</item>
+        <item>sheng sa er wa duo</item>
+        <item>xi ya tu</item>
+        <item>sheng lu yi</item>
+        <item>hua sheng dun te qu</item>
+        <item>xiu shi dun</item>
+        <item>sheng an dong ni ao</item>
+        <item>jie ke xun wei er</item>
+        <item>ba er di mo</item>
+        <item>"yue shi wei er "</item>
+        <item>mi er wa ji</item>
+        <item>ao ke la he ma shi</item>
+        <item>la si wei jia si</item>
+        <item>a bu kui ji</item>
+        <item>tu sang</item>
+        <item>sha jia mian du</item>
+        <item>ya te lan da</item>
+        <item>ke li fu lan</item>
+        <item>niu ao liang</item>
+        <item>tan pa</item>
+        <item>pi ci bao</item>
+        <item>xin xin na ti</item>
+        <item>shan jing cheng</item>
+        <item>lei nuo</item>
+        <item>hei yan shi</item>
+        <item>duo ha</item>
+        <item>bei jing</item>
+        <item>meng mai</item>
+        <item>de li</item>
+        <item>da ban</item>
+        <item>la he er</item>
+        <item>sha na</item>
+        <item>ba sai long na</item>
+        <item>mu ni hei</item>
+        <item>mi lan</item>
+        <item>fa lan ke fu</item>
+        <item>he nei</item>
+        <item>an ka la</item>
+        <item>ban jia luo er</item>
+        <item>ba xi li ya</item>
+        <item>kai pu dun</item>
+        <item>yi si lan ma ba de</item>
+        <item>li yue re nan lu</item>
+        <item>an na bao</item>
+        <item>bo er de</item>
+        <item>jian qiao</item>
+        <item>ke ke lan</item>
+        <item>mai di xun</item>
+        <item>hai de la ba</item>
+        <item>lei si dun</item>
+        <item>qi hua hua</item>
+        <item>zhong bu shi jian (li jia na)</item>
+        <item>ya ma xun shi jian (ma nao si)</item>
+        <item>sheng di ya ge</item>
+        <item>gao te ha shi</item>
+        <item>nan qiao zhi ya yu nan san ming zhi dao</item>
+        <item>ya su er qun dao</item>
+        <item>wen he ke</item>
+        <item>qiao zhi ya</item>
+        <item>ya mei ni ya</item>
+        <item>wu la er</item>
+        <item>ke lun po</item>
+        <item>ye ka jie lin bao</item>
+        <item>ke la si nuo ya si ke</item>
+        <item>yi er ku ci ke</item>
+        <item>ya ku ci ke</item>
+        <item>he ba te</item>
+        <item>hai shen wei</item>
+        <item>ma zhu nuo</item>
+        <item>ma jia dan</item>
+        <item>dong jia</item>
+        <item>zhong tu dao</item>
+        <item>ji duo</item>
+        <item>sheng bi de bao</item>
+    </string-array>
+    <string-array name="countries_names_pinyin">
+        <item>ktdw</item>
+        <item>jn</item>
+        <item>aseby</item>
+        <item>aejly</item>
+        <item>mlw</item>
+        <item>gg</item>
+        <item>kl</item>
+        <item>mlg</item>
+        <item>jny</item>
+        <item>snje</item>
+        <item>tsny</item>
+        <item>jbt</item>
+        <item>slla</item>
+        <item>bzwn</item>
+        <item>jbbw</item>
+        <item>nf</item>
+        <item>wgd</item>
+        <item>sd</item>
+        <item>lwd</item>
+        <item>gg</item>
+        <item>nrly</item>
+        <item>lst</item>
+        <item>smly</item>
+        <item>kny</item>
+        <item>sdmhplxb</item>
+        <item>tbkt</item>
+        <item>lby</item>
+        <item>tns</item>
+        <item>mg</item>
+        <item>agt</item>
+        <item>alb</item>
+        <item>blg</item>
+        <item>bbds</item>
+        <item>blz</item>
+        <item>glby</item>
+        <item>agt</item>
+        <item>mxg</item>
+        <item>wnrl</item>
+        <item>kmqd</item>
+        <item>mg</item>
+        <item>gsdlj</item>
+        <item>kls</item>
+        <item>jnd</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>dmnj</item>
+        <item>jnd</item>
+        <item>sewd</item>
+        <item>bx</item>
+        <item>dtksd</item>
+        <item>glnd</item>
+        <item>wdml</item>
+        <item>gyn</item>
+        <item>jnd</item>
+        <item>gb</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mlg</item>
+        <item>mg</item>
+        <item>tec</item>
+        <item>ww</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>ymj</item>
+        <item>blwy</item>
+        <item>bl</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>njlg</item>
+        <item>fg</item>
+        <item>agt</item>
+        <item>mg</item>
+        <item>mxg</item>
+        <item>mg</item>
+        <item>wlg</item>
+        <item>jnd</item>
+        <item>bhm</item>
+        <item>mg</item>
+        <item>adly</item>
+        <item>st</item>
+        <item>xslm</item>
+        <item>bnm</item>
+        <item>mg</item>
+        <item>tlndhdbg</item>
+        <item>hd</item>
+        <item>bdlg</item>
+        <item>dmnj</item>
+        <item>bx</item>
+        <item>jnd</item>
+        <item>sjc</item>
+        <item>agt</item>
+        <item>jnd</item>
+        <item>mxg</item>
+        <item>jnd</item>
+        <item>jnd</item>
+        <item>jnd</item>
+        <item>nj</item>
+        <item>nw</item>
+        <item>hskst</item>
+        <item>yd</item>
+        <item>els</item>
+        <item>hskst</item>
+        <item>ylk</item>
+        <item>bl</item>
+        <item>asbj</item>
+        <item>tg</item>
+        <item>lbn</item>
+        <item>yd</item>
+        <item>sly</item>
+        <item>mjl</item>
+        <item>alq</item>
+        <item>blst</item>
+        <item>blst</item>
+        <item>yn</item>
+        <item>zg</item>
+        <item>teq</item>
+        <item>ydnxy</item>
+        <item>ylsl</item>
+        <item>afh</item>
+        <item>bjst</item>
+        <item>nbe</item>
+        <item>mlxy</item>
+        <item>kwt</item>
+        <item>zg</item>
+        <item>flb</item>
+        <item>am</item>
+        <item>jpz</item>
+        <item>cx</item>
+        <item>kte</item>
+        <item>md</item>
+        <item>stalb</item>
+        <item>yn</item>
+        <item>hg</item>
+        <item>xjp</item>
+        <item>zg</item>
+        <item>yl</item>
+        <item>ysl</item>
+        <item>rb</item>
+        <item>mgg</item>
+        <item>bmd</item>
+        <item>jnlnd</item>
+        <item>fdj</item>
+        <item>bd</item>
+        <item>sdl</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>adly</item>
+        <item>jnd</item>
+        <item>jnd</item>
+        <item>jnd</item>
+        <item>fhjd</item>
+        <item>hl</item>
+        <item>ade</item>
+        <item>xl</item>
+        <item>bael</item>
+        <item>sewy</item>
+        <item>dg</item>
+        <item>slfk</item>
+        <item>bls</item>
+        <item>lmny</item>
+        <item>xyl</item>
+        <item>medw</item>
+        <item>dm</item>
+        <item>dbl</item>
+        <item>zblt</item>
+        <item>fl</item>
+        <item>med</item>
+        <item>teq</item>
+        <item>wkl</item>
+        <item>pty</item>
+        <item>yg</item>
+        <item>lsb</item>
+        <item>xby</item>
+        <item>met</item>
+        <item>bels</item>
+        <item>mng</item>
+        <item>els</item>
+        <item>nw</item>
+        <item>fg</item>
+        <item>jk</item>
+        <item>ltwy</item>
+        <item>ydl</item>
+        <item>smln</item>
+        <item>hsgwn</item>
+        <item>els</item>
+        <item>mqd</item>
+        <item>bjly</item>
+        <item>rd</item>
+        <item>asny</item>
+        <item>fdg</item>
+        <item>adl</item>
+        <item>ltw</item>
+        <item>bl</item>
+        <item>kldy</item>
+        <item>rs</item>
+        <item>atnlf</item>
+        <item>medf</item>
+        <item>mlqs</item>
+        <item>akl</item>
+        <item>fj</item>
+        <item>gd</item>
+        <item>mg</item>
+        <item>sdd</item>
+        <item>xkldny</item>
+        <item>smy</item>
+        <item>txtd</item>
+        <item>atg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>jnd</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>jnd</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>gsdlj</item>
+        <item>ssewd</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>hyc</item>
+        <item>kte</item>
+        <item>zg</item>
+        <item>yd</item>
+        <item>yd</item>
+        <item>rb</item>
+        <item>bjst</item>
+        <item>sn</item>
+        <item>xby</item>
+        <item>dg</item>
+        <item>ydl</item>
+        <item>dg</item>
+        <item>yn</item>
+        <item>teq</item>
+        <item>yd</item>
+        <item>bx</item>
+        <item>nf</item>
+        <item>bjst</item>
+        <item>bx</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>yg</item>
+        <item>mg</item>
+        <item>mg</item>
+        <item>ydadlb</item>
+        <item>lsd</item>
+        <item>qww</item>
+        <item>ljn</item>
+        <item>mns</item>
+        <item>zl</item>
+        <item>gthb</item>
+        <item>nqzy</item>
+        <item>yseqd</item>
+        <item>wdhk</item>
+        <item>dbsl</item>
+        <item>alw</item>
+        <item>wle</item>
+        <item>klp</item>
+        <item>ykjlb</item>
+        <item>klsnyesk</item>
+        <item>yekck</item>
+        <item>ykck</item>
+        <item>hbt</item>
+        <item>fldwstk</item>
+        <item>mzl</item>
+        <item>mjd</item>
+        <item>djtb</item>
+        <item>ztd</item>
+        <item>egde</item>
+        <item>els</item>
+    </string-array>
+    <string-array name="lunar">
+        <item>年</item>
+        <item>月</item>
+        <item>日</item>
+        <item>農歷</item>
+        <item>周</item>
+        <item>閏</item>
+        <item>初</item>
+        <item>廿</item>
+        <item>正</item>
+        <item>冬</item>
+        <item>臘</item>
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </string-array>
+</resources>

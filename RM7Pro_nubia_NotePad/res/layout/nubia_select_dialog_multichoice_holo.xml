@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textAppearance="@style/TextAppearance.Nubia.AlertDialog.CheckedTextView" android:ellipsize="marquee" android:gravity="center" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/nubia_btn_check_material_anim" android:minHeight="@dimen/nubia_alert_dialog_list_item_min_height" android:singleLine="false" android:textAlignment="center" android:paddingStart="@dimen/nubia_alert_dialog_context_padding_left" android:paddingEnd="@dimen/nubia_alert_dialog_context_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

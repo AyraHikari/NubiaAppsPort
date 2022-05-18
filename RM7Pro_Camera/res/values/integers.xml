@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="color_switch_duration">150</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="expand_anim_duration">300</integer>
+    <integer name="rebound_duration">100</integer>
+    <integer name="rect_circle_anim_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="view_port_size">62</integer>
+</resources>

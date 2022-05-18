@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_songs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_icon" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_black_transparent_54" android:gravity="center_horizontal" android:id="@id/scan_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/scan_no_audio_tip" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Animation.Dialog" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_black_transparent_57" android:id="@id/empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress_bar" android:layout_centerInParent="true" />
+    <Button android:id="@id/scan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ark_pickercommon_button_height" android:layout_marginLeft="@dimen/ark_bottom_button_margin_right" android:layout_marginRight="@dimen/ark_bottom_button_margin_right" android:layout_marginBottom="@dimen/ark_bottom_button_margin_bottom" android:text="@string/local_scan_music" android:layout_alignParentBottom="true" style="@style/ArkBlackBigTextStyle" />
+</RelativeLayout>

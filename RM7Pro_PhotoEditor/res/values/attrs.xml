@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="background_color" format="color" />
+    <attr name="blade_color" format="color" />
+    <attr name="blade_space" format="dimension" />
+    <attr name="elemEndSize" format="dimension" />
+    <attr name="elemSize" format="dimension" />
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="font" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontWeight" format="integer" />
+    <attr name="iconSize" format="dimension" />
+    <attr name="layoutManager" format="string" />
+    <attr name="maxHeightRatio" format="reference|float" />
+    <attr name="max_width" format="dimension" />
+    <attr name="nubiaSwitchStylenew" format="reference" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="showTextnew" format="boolean" />
+    <attr name="spanCount" format="integer" />
+    <attr name="splitTracknew" format="boolean" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="switchMinHightnew" format="dimension" />
+    <attr name="switchMinWidthnew" format="dimension" />
+    <attr name="switchPaddingnew" format="dimension" />
+    <attr name="switchTextAppearancenew" format="reference" />
+    <attr name="textOffnew" format="string" />
+    <attr name="textOnnew" format="string" />
+    <attr name="thumbTextPaddingnew" format="dimension" />
+    <attr name="thumbnew" format="reference" />
+    <attr name="tracknew" format="reference" />
+</resources>

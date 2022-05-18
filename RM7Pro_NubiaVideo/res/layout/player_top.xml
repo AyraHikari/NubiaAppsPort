@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/player_top" android:background="@color/sixty_black" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/ninety_white" android:gravity="start|center" android:id="@id/back" android:layout_width="250.0dip" android:layout_height="@dimen/activity_title_height" android:singleLine="true" android:drawableStart="@drawable/player_back_up" android:paddingStart="8.0dip" />
+    <ImageButton android:id="@id/more" android:background="@drawable/button_background" android:layout_width="@dimen/activity_title_height" android:layout_height="@dimen/activity_title_height" android:src="@drawable/title_more" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

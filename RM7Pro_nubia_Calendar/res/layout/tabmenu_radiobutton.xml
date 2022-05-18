@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textAppearance="?android:textAppearanceMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:drawableRight="?android:listChoiceIndicatorSingle" style="@style/ScreenTimeoutRadioItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

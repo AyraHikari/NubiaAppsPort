@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_text_color">#d9ffffff</color>
+    <color name="center_dialog_background_color">#ff14161f</color>
+    <color name="center_dialog_text_color">#80ffffff</color>
+    <color name="dialog_background_color">#ff14161f</color>
+    <color name="dialog_text_background_color">#ff252733</color>
+    <color name="expanding_corner_background_color">#ff272727</color>
+    <color name="list_dialog_title_text_color">#80ffffff</color>
+    <color name="mobile_download_btn_textcolor">#ffcccccc</color>
+    <color name="mobile_download_titlecolor">#ffffffff</color>
+    <color name="navi_background_color">#00000000</color>
+    <color name="primapage_background_color">#ff000000</color>
+    <color name="prisma_download_baseline_color">#ff656590</color>
+    <color name="prisma_download_content_color">#ff656580</color>
+    <color name="prisma_manager_cancel_textcolor">#ffcccccc</color>
+    <color name="prisma_subTitle_text_color">#ffcccccc</color>
+    <color name="prisma_title_text">#ffcccccc</color>
+    <color name="settings_background_color">#ff000000</color>
+    <color name="settings_list_splitting_line_color">@color/alpha15_white</color>
+    <color name="settings_list_text_color">#d9ffffff</color>
+    <color name="settings_main_text_color">@color/alpha90_white</color>
+    <color name="settings_splitting_area_color">#ff1e1e1e</color>
+    <color name="settings_splitting_line_color">#ff1d1e26</color>
+    <color name="settings_sub_text_color">@color/alpha50_white</color>
+    <color name="settings_sub_title_color">#ff656580</color>
+    <color name="settings_title_color">#ffffffff</color>
+    <color name="text_hint_color">#4dffffff</color>
+    <color name="text_input_dialog_title_text_color">#80ffffff</color>
+    <color name="text_input_length_hint_color">@color/alpha50_white</color>
+    <color name="alpha15_white">#26ffffff</color>
+    <color name="alpha90_white">#e5ffffff</color>
+</resources>

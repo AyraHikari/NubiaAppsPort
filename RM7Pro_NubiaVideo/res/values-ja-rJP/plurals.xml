@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">選択したアイテムをすべて削除しますか？</item>
+        <item quantity="one">選択したアイテムをすべて削除しますか？</item>
+    </plurals>
+    <plurals name="number_of_items_hide_selected">
+        <item quantity="other">非表示された %1$d</item>
+        <item quantity="zero">非表示された %1$d</item>
+        <item quantity="one">非表示された %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">選択された%1$d</item>
+        <item quantity="zero">選択された%1$d</item>
+        <item quantity="one">選択された%1$d</item>
+    </plurals>
+</resources>

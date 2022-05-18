@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/tardis" android:key="preferences_tardis_category" style="@style/Preference.Nubia.FirstCategory">
+        <Preference android:title="@string/copy_db" android:key="preferences_copy_db" />
+        <CheckBoxPreference android:title="@string/do_not_check" android:key="preferences_tardis_1" />
+    </PreferenceCategory>
+</PreferenceScreen>

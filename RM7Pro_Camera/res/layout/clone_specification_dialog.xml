@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/clone_dialog_bg" android:layout_width="@dimen/dimens_303" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:layout_gravity="center" android:id="@id/clone_video" android:layout_width="@dimen/dimens_248" android:layout_height="@dimen/dimens_120" android:layout_marginTop="@dimen/dimens_20" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_9">
+        <TextView android:textSize="@dimen/dimens_14" android:textColor="#89000000" android:gravity="center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clone_draw" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/dimens_14" android:gravity="center" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clone_clean" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dimens_14" android:textColor="#dd000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_90" android:text="@string/clone_specification_tip" android:layout_marginStart="@dimen/dimens_17" android:layout_marginEnd="@dimen/dimens_17" />
+    <TextView android:background="@color/alpha20_black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="@dimen/dimens_16" android:textColor="@color/expand_list_green" android:gravity="center" android:layout_gravity="center" android:id="@id/clone_dialog_button" android:layout_width="@dimen/dimens_200" android:layout_height="@dimen/dimens_60" android:text="@string/specification_sure" />
+</LinearLayout>

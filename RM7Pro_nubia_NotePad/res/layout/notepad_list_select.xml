@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/title_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/notepad_title_large_text_size" android:textColor="@color/notepad_title_text_color" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/select_mun" android:layout_width="wrap_content" android:layout_height="@dimen/title_height" android:layout_marginTop="32.0dip" android:layout_marginBottom="@dimen/list_item_margin" android:maxLines="1" android:layout_marginStart="@dimen/list_item_margin" style="@style/NubiaFontMedium" />
+    <TextView android:textSize="16.0sp" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/all_choose" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="fill_parent" android:text="@string/select_all" android:singleLine="true" />
+</LinearLayout>

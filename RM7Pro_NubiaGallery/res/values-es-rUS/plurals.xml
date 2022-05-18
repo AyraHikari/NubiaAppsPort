@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">¿Eliminar elementos?</item>
+        <item quantity="one">¿Eliminar elemento?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d días</item>
+        <item quantity="zero">%d día</item>
+        <item quantity="one">%d día</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Permitiendo que los álbumes estén disponibles sin conexión</item>
+        <item quantity="one">Permitiendo que el álbum esté disponible sin conexión</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d seleccionado(s)</item>
+        <item quantity="zero">%1$d seleccionado(s)</item>
+        <item quantity="one">%1$d seleccionado(s)</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d seleccionado(s)</item>
+        <item quantity="zero">%1$d seleccionado(s)</item>
+        <item quantity="one">%1$d seleccionado(s)</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Copiar %1$d</item>
+        <item quantity="zero">Copiar %1$d</item>
+        <item quantity="one">Copiar %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Cortar %1$d</item>
+        <item quantity="zero">Cortar %1$d</item>
+        <item quantity="one">Cortar %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">Aceptar (%1$d)</item>
+        <item quantity="zero">Aceptar (%1$d)</item>
+        <item quantity="one">Aceptar (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d seleccionado(s)</item>
+        <item quantity="zero">%1$d seleccionado(s)</item>
+        <item quantity="one">%1$d seleccionado(s)</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Recuperar los elementos seleccionados?</item>
+        <item quantity="one">Recuperar el elemento seleccionado?</item>
+    </plurals>
+</resources>

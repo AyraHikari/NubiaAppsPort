@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gif_edit_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/gifmaker_header_bar" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/gifmaker_main_fragment" android:layout_width="fill_parent" android:layout_height="1500.0px">
+        <ImageView android:layout_gravity="center" android:id="@id/gifmaker_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="73.0px" android:layout_marginTop="73.0px" android:layout_marginRight="73.0px" android:layout_marginBottom="73.0px" />
+        <cn.nubia.video.mediaeditorview.gifmaker.cropview.CropImageView android:layout_gravity="center" android:id="@id/gifCropView" android:padding="@dimen/gif_crop_spacing_xlarge" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:scv_background_color="@color/gif_edit_background" custom:scv_crop_mode="free" custom:scv_frame_stroke_weight="1.0dip" custom:scv_guide_show_mode="not_show" custom:scv_guide_stroke_weight="1.0dip" custom:scv_handle_show_mode="show_always" custom:scv_handle_size="10.0dip" custom:scv_min_frame_size="50.0dip" custom:scv_overlay_color="@color/gif_edit_background" custom:scv_touch_padding="8.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/gifmaker_preview" android:visibility="invisible" android:layout_width="108.0px" android:layout_height="108.0px" android:src="@drawable/gif_preview" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/gifmaker_progress_bar" android:background="@null" android:visibility="invisible" android:layout_width="108.0px" android:layout_height="108.0px" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/nubia_gif_loading_dialog_icon" style="@style/LoadingProgressBarLarge" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/gif_time_indicator" android:id="@id/gifmaker_length_start" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0" android:layout_marginStart="15.0dip" />
+            <TextView android:textColor="@color/gif_time_indicator" android:id="@id/gifmaker_length_end" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.0" android:layout_alignParentTop="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <cn.nubia.video.mediaeditorview.gifmaker.GifTimeLineView android:id="@id/gif_cut_timeline" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="37.329987dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

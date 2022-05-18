@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:padding="@dimen/material_detail_popup_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/detail_imageview" android:background="@color/material_grid_background_color" android:padding="@dimen/material_detail_imageview_padding" android:layout_width="@dimen/material_detail_imageview_width" android:layout_height="@dimen/material_detail_imageview_height" android:layout_alignParentTop="true" />
+        <FrameLayout android:background="@color/material_online_text_color" android:layout_width="@dimen/material_detail_imageview_width" android:layout_height="@dimen/material_detail_operation_height" android:layout_alignParentBottom="true">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/detail_operation" android:paddingLeft="45.0dip" android:paddingTop="10.0dip" android:paddingRight="45.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download" android:singleLine="true" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/detail_operation_temp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_check_on_pressed_holo_light" />
+                <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloaded_to_local" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/detail_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageButton android:layout_gravity="center|left|top" android:id="@id/detail_cancel" android:background="@drawable/nubia_menu_item_background_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cancel" />
+</FrameLayout>

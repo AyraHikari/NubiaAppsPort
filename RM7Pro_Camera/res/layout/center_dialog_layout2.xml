@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/center_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.internal.widget.DialogTitle android:textSize="17.0sp" android:textColor="@color/button_text_color" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_40" android:layout_marginBottom="@dimen/dimens_5" android:singleLine="false" android:includeFontPadding="false" android:lineSpacingMultiplier="1.5" android:fontFamily="nubiafont-medium" android:layout_marginStart="@dimen/dimens_27" android:layout_marginEnd="@dimen/dimens_27" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/center_dialog_text_color" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="@dimen/dimens_5" android:lineSpacingMultiplier="1.2" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_70" android:layout_marginTop="@dimen/dimens_20" android:layout_marginBottom="@dimen/dimens_8" android:layout_marginStart="@dimen/dimens_10" android:layout_marginEnd="@dimen/dimens_10">
+            <Button android:textSize="15.0sp" android:textColor="@color/button_text_color" android:id="@id/negativeButton" android:background="@drawable/center_dialog_button_background" android:layout_width="@dimen/dimens_150" android:layout_height="@dimen/dimens_40" android:includeFontPadding="false" android:fontFamily="nubiafont-medium" android:layout_marginStart="@dimen/dimens_10" android:layout_marginEnd="@dimen/dimens_10" />
+            <Button android:textSize="15.0sp" android:textColor="@color/button_text_color" android:id="@id/positiveButton" android:background="@drawable/center_dialog_button_background" android:layout_width="@dimen/dimens_150" android:layout_height="@dimen/dimens_40" android:includeFontPadding="false" android:fontFamily="nubiafont-medium" android:layout_marginStart="@dimen/dimens_10" android:layout_marginEnd="@dimen/dimens_10" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

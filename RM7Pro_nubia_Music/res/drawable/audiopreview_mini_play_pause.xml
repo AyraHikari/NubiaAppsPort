@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <path android:fillColor="@color/audioPreivew_color_black" android:pathData="M14,11h2v14h-2V11Z" />
+        <path android:fillColor="@color/audioPreivew_color_black" android:pathData="M20,11h2v14h-2V11Z" />
+    </group>
+</vector>

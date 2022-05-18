@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sd_error" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/play_all" android:background="@drawable/ark_color_playall_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ark_playall_height">
+        <TextView android:textSize="@dimen/ark_textsize_big" android:textColor="@color/ark_color_black_text" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/play_all_text" android:paddingLeft="@dimen/ark_listitem_paddingleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_all" android:drawableRight="@drawable/btn_shuffe_all" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contentarea" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_alignRight="@id/letterlistview" android:layout_alignParentLeft="true" style="@style/musicLstviewStyle" />
+        <cn.nubia.music.ui.MusicNonehintView android:gravity="center" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/add_music_toplaylist" android:background="@drawable/draw_ark_color_minibar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/ark_100_px" android:layout_height="@dimen/ark_100_px" android:src="@drawable/add" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/ark_textsize_mini" android:textColor="@color/ark_color_black" android:gravity="center" android:id="@id/add_music" android:padding="@dimen/ark_20_px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_music" style="@style/ArkBlackMediumTextStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/draw_paint_layout" android:background="@color/default_background" android:layout_width="50.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/eraseBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/eraser_selected" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RadioGroup android:gravity="center" android:orientation="vertical" android:id="@id/brush_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0" android:layout_centerInParent="true">
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/fourSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:drawableLeft="@drawable/mosaic_brush_four_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/threeSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:drawableLeft="@drawable/mosaic_brush_three_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/twoSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:drawableLeft="@drawable/mosaic_brush_two_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_horizontal" android:id="@id/oneSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mosaic_brush_one_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+    </RadioGroup>
+    <ImageView android:id="@id/draw_paint_undo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/icon_undo_selector" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/draw_paint_redo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/icon_redo_selector" android:layout_above="@id/draw_paint_undo" android:layout_centerHorizontal="true" />
+</RelativeLayout>

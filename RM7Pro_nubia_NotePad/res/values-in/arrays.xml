@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>Lanjut</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>bagikan teks</item>
+        <item>Bagikan gambar lewat</item>
+    </string-array>
+</resources>

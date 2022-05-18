@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@android:id/content" android:background="@color/nubia_status_bar_color" android:layout_width="fill_parent" android:layout_height="24.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/widget_row" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/agenda_item_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text_color_white_e5" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="4.0dip" style="?android:attr/textAppearanceMediumInverse" />
+</FrameLayout>

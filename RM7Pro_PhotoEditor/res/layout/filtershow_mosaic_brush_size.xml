@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/draw_paint_layout" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/draw_paint_undo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_undo_selector" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/draw_paint_redo" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_redo_selector" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/draw_paint_undo" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/brush_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:weightSum="4.0" android:layout_centerInParent="true">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/oneSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableStart="@drawable/mosaic_brush_one_selected" android:paddingEnd="16.5dip" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/twoSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableStart="@drawable/mosaic_brush_two_selected" android:paddingStart="16.5dip" android:paddingEnd="15.0dip" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/threeSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableStart="@drawable/mosaic_brush_three_selected" android:paddingStart="15.0dip" android:paddingEnd="12.5dip" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/fourSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:drawableStart="@drawable/mosaic_brush_four_selected" android:paddingStart="12.5dip" style="@style/bottom_btn_item" />
+    </RadioGroup>
+    <ImageView android:id="@id/eraseBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/eraser_selected" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

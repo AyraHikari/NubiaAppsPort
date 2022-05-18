@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/display_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/display_prev_float_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <include layout="@layout/clone_display_draw_layout" />
+    <ImageView android:id="@id/display_composite_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/dimens_14" android:textColor="#e5000000" android:id="@id/display_tip_textview" android:background="@drawable/nubia_real_white_dialog_bg" android:padding="@dimen/dimens_9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_80" android:text="@string/clone_specification_tip" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dimens_27" android:layout_marginEnd="@dimen/dimens_27" />
+    <TextView android:id="@id/display_tips_text" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/clone_tip_1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dimens_20" android:layout_marginEnd="@dimen/dimens_20" style="@style/permanent_hint" />
+</RelativeLayout>

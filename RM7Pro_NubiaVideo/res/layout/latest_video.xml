@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/latestVideoLayout" android:background="@drawable/thumbnail" android:layout_width="fill_parent" android:layout_height="@dimen/latest_video_height">
+        <cn.nubia.video.list.ui.ThumbnailImageView android:id="@id/latestImageView" android:layout_width="fill_parent" android:layout_height="@dimen/latest_video_height" android:scaleType="fitXY" />
+        <RelativeLayout android:background="@color/sixty_black" android:layout_width="fill_parent" android:layout_height="@dimen/latest_video_background_height" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+            <ImageButton android:id="@id/latestPlayImageView" android:background="@drawable/button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/latest_play" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/latest_video_play_button_right_padding" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/latest_video_text_left_padding" android:layout_alignStart="@id/latestPlayImageView" android:layout_alignParentStart="true">
+                <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/ninety_white" android:ellipsize="end" android:id="@id/latestTitleTextView" android:paddingBottom="@dimen/text_with_text_padding" android:layout_width="@dimen/latest_video_max_width" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/fifty_four_white" android:id="@id/latestTimeTextView" android:layout_width="@dimen/latest_video_max_width" android:layout_height="wrap_content" android:layout_below="@id/latestTitleTextView" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

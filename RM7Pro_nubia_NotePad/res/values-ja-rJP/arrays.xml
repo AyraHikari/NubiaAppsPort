@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nubia_months_full">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>1月</item>
+        <item>2月</item>
+        <item>マール</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>八月</item>
+        <item>セパレート</item>
+        <item>十月</item>
+        <item>ノーブ</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>「日曜日」</item>
+        <item>「月曜日」</item>
+        <item>「火曜日」</item>
+        <item>「水曜日」</item>
+        <item>「木曜日」</item>
+        <item>「金曜日」</item>
+        <item>「土曜日」</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>日曜</item>
+        <item>月曜</item>
+        <item>火曜</item>
+        <item>水曜</item>
+        <item>木曜</item>
+        <item>金曜</item>
+        <item>土曜</item>
+    </string-array>
+</resources>

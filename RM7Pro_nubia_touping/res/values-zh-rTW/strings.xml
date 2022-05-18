@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="activity_wiredlessand_wired_setting_show1">小窗投大屏，手機同時處理多工</string>
+    <string name="activity_wiredlessand_wired_setting_show2">手機變手柄，看著大屏玩遊戲</string>
+    <string name="agree">同意</string>
+    <string name="app_name">投屏</string>
+    <string name="bandwidth_high">好</string>
+    <string name="bandwidth_mid">中</string>
+    <string name="bandwidth_poor">差</string>
+    <string name="browsedevice_link_status_ing">"請確保兩端設備接至同一局域網內
+可嘗試%1$s切換網路"</string>
+    <string name="cannot_connect">不能連接，請確定設備</string>
+    <string name="change_wifi">投屏提示</string>
+    <string name="change_wifi_continue">繼續使用</string>
+    <string name="change_wifi_tips">為確保投屏品質，建議切換5G的Wi-Fi網路</string>
+    <string name="change_wifi_to_settings">WLAN設定</string>
+    <string name="choose_device">請選擇需要投屏的設備</string>
+    <string name="choose_device_computer">投電腦</string>
+    <string name="choose_device_computer_linked">結束投屏</string>
+    <string name="choose_device_tv">投電視</string>
+    <string name="choose_device_tv_linked">結束投屏</string>
+    <string name="choose_sound">選擇音訊輸入端</string>
+    <string name="choose_sound_output_message">手機開啟麥克風或戴上耳機時，投屏端是否總是輸出聲音</string>
+    <string name="connect_blacklist">連接黑名單</string>
+    <string name="connect_fail">連接失敗</string>
+    <string name="connect_reject">連接拒絕</string>
+    <string name="connect_timeout">連接逾時</string>
+    <string name="cta_message_1">“投屏”為您提供將手機螢幕投到其它終端設備的服務，為實現該功能，本軟體在使用程式呼叫您的以下手機許可權或功能：</string>
+    <string name="cta_message_2">"• 錄音：將聲音投到其他終端需要獲取該許可權。
+• 相機：新建連結時掃碼需要獲取該許可權。
+• 聯網、設備標識：軟體在服務端進行安全校驗時需要獲取該許可權"</string>
+    <string name="cta_message_3">"“投屏”所需的設定許可權及功能包含以上所述，如果您不同意我們調用相關手機許可權/功能，將導致本軟體無法正常運行。同意之後，將自動打開以上聲明許可權，您也可以隨時前往設定進行關閉相關許可權的獲取。
+
+點擊“同意”，即表示您閱讀並同意上述內容。"</string>
+    <string name="cta_title">投屏服務條款</string>
+    <string name="device_list">選擇設備</string>
+    <string name="device_searching">正在搜索周圍設備</string>
+    <string name="disconnect">連接斷開</string>
+    <string name="floating_permission">需開啟懸浮窗許可權</string>
+    <string name="floating_permission_negative">取消</string>
+    <string name="floating_permission_positive">前往設置</string>
+    <string name="floating_permission_tips">使用投屏時，需開啟允許顯示在其他應用上層的許可權按鈕</string>
+    <string name="hdmi_list_empty_tip">請插入DP/HDMI連接有線投屏</string>
+    <string name="help_content_1">"第一步：電腦端需下載安裝樂播投屏用戶端。
+第二步：確保手機端與電腦端接至同一局域網環境中。
+第三步：打開電腦端樂播投屏的二維碼，手機端進行掃碼連接。"</string>
+    <string name="help_content_2">"第一步：確保手機端與電視端接至同一局域網環境中。
+第二步：手機端選擇“投電視”，在搜索到的設備清單中，選擇您需要投屏的設備，進行投屏。"</string>
+    <string name="help_content_3">部分大屏設備無法被搜索到，可嘗試電視端下載並打開樂播投屏用戶端，完成投屏。</string>
+    <string name="help_content_4">"在網路條件良好的情況下，影響投屏品質的可能有以下因素：
+1.雙方設備沒有都連接至5G頻段的Wi-Fi熱點；
+2.雙方設備連接的局域網有干擾時，如多設備連接同一局域網、有牆面等障礙物。"</string>
+    <string name="help_content_5">直播時，推薦使用3.5mm音訊線連接手機端和電腦端傳輸聲音，同時“投屏聲音來源”選擇“無”，以保證聲音與手機畫面同步。</string>
+    <string name="help_title_1">投屏到電腦</string>
+    <string name="help_title_2">投屏到電視</string>
+    <string name="help_title_3">投屏卡頓、延遲？</string>
+    <string name="home_activity_mirrot_playing">已連接至</string>
+    <string name="home_activity_mirrotpc">手遊投電腦，直播更盡興</string>
+    <string name="home_activity_mirrottv">手遊投電視，大屏更暢快</string>
+    <string name="home_auto_quality_tips">根據網路狀態自動調節投屏清晰度</string>
+    <string name="home_auto_quality_title">自動調節</string>
+    <string name="home_back">投屏</string>
+    <string name="home_cancel">取消</string>
+    <string name="home_floating_window_tips">無線投屏時，即時顯示當前局域網的連接狀態</string>
+    <string name="home_floating_window_title">投屏狀態顯示</string>
+    <string name="home_help">投屏幫助</string>
+    <string name="home_private_mode_tips">無線投屏時，目標設備螢幕上不顯示橫幅通知，來電等資訊</string>
+    <string name="home_private_mode_tips_wired">有線投屏時，目標設備螢幕上不顯示橫幅通知，來電等資訊</string>
+    <string name="home_private_mode_title">隱私模式</string>
+    <string name="home_quality">投屏品質</string>
+    <string name="home_sound_source">投屏聲音來源</string>
+    <string name="initsdk_failed">初始化失敗，請檢查wifi連接情況</string>
+    <string name="jump_to_settings">去設定</string>
+    <string name="mirror_link_status_ing">連接中…</string>
+    <string name="mirror_link_status_lastlinkdevice">上次連接</string>
+    <string name="no">否</string>
+    <string name="no_device_found">無可用設備</string>
+    <string name="no_device_found_tip">可嘗試電視端下載並打開樂播投屏用戶端</string>
+    <string name="no_wanted_device_tip">若無目標設備，可嘗試電視端下載並打開樂播投屏用戶端</string>
+    <string name="not_change_while_mirroring">請在投屏前使用</string>
+    <string name="nubia_capital_off">OFF</string>
+    <string name="nubia_capital_on">ON</string>
+    <string name="pin_disconnect">pin碼連接斷開</string>
+    <string name="privacy_comfirm">確定開啟</string>
+    <string name="privacy_message">投屏已連接，是否開啟隱私模式？</string>
+    <string name="privacy_title">隱私模式</string>
+    <string name="quality_high">高清</string>
+    <string name="quality_low">流暢</string>
+    <string name="quality_suggestion_confirm">確定使用</string>
+    <string name="quality_suggestion_tips">當前網路狀態較差，為保證投屏效果，建議投屏品質使用自我調整模式</string>
+    <string name="quality_suggestion_title">投屏建議</string>
+    <string name="req_permission_fail">授權失敗</string>
+    <string name="request_permission">請求許可權</string>
+    <string name="request_permission_tips">請到設定介面給與應用所需的許可權</string>
+    <string name="research">重新搜索</string>
+    <string name="result_mirror_fail">投屏連接失敗</string>
+    <string name="result_mirror_stop">投屏已停止</string>
+    <string name="result_mirror_succss">投屏已連接</string>
+    <string name="scan_back">掃碼投屏</string>
+    <string name="scan_notes_1">1.電腦端下載樂播投屏用戶端</string>
+    <string name="scan_notes_2">2.兩端設備連接至同一局域網中</string>
+    <string name="scan_notes_3">3.打開樂播投屏用戶端的二維碼，掃碼並連接</string>
+    <string name="scan_success">掃碼成功：</string>
+    <string name="screen_orientation_dialog_title">選擇當前顯示器狀態</string>
+    <string name="screen_orientation_landscape">橫屏顯示器</string>
+    <string name="screen_orientation_portrait">豎屏顯示器</string>
+    <string name="screen_projection_quality_auto">自適應</string>
+    <string name="screen_projection_quality_high">超高清</string>
+    <string name="screen_projection_quality_host">主播模式</string>
+    <string name="screen_projection_quality_low">流暢</string>
+    <string name="screen_projection_quality_normal">標清</string>
+    <string name="settings_back">投屏設置</string>
+    <string name="sound_local">手機端</string>
+    <string name="sound_local_tips">（戴耳機或開麥克風時，從手機出聲）</string>
+    <string name="sound_remote">總是投屏端</string>
+    <string name="sound_remote_tips">（與他人共用音訊）</string>
+    <string name="sound_source_mike">麥克風</string>
+    <string name="sound_source_none">無</string>
+    <string name="sound_source_none_tips">（直播時，推薦3.5mm音訊線傳輸聲音）</string>
+    <string name="sound_source_system">系統聲音</string>
+    <string name="sound_source_system_mike">系統聲音和麥克風</string>
+    <string name="tell2download_lebopc_btn">我知道了</string>
+    <string name="tell2download_lebopc_content">"投電腦時，需在電腦端下載並打開樂 
+播投屏客戶端"</string>
+    <string name="tell2download_lebopc_title">下載樂播投屏客戶端</string>
+    <string name="tips_fisrt_show">即時顯示投屏狀態，可關閉</string>
+    <string name="tips_status_change">投屏狀態較不穩定</string>
+    <string name="toast_mirrordevice_info">投屏中不可調節</string>
+    <string name="waiting_comfirm">等待確定</string>
+    <string name="wifi_connect">請連接網路</string>
+    <string name="wifi_connect_tips">投屏雙方設備均使用5G頻段Wi-Fi網路，品質更佳</string>
+    <string name="wifi_open">請開啟Wi-Fi</string>
+    <string name="wifi_open_text">立即開啟</string>
+    <string name="wifi_open_tips">投屏雙方設備均使用5G頻段Wi-Fi網路，品質更佳</string>
+    <string name="wired_choose_hdmi_mode">選擇輸出幀率模式</string>
+    <string name="wired_hdmi_mode_tips">可選擇不同的輸出幀率模式</string>
+    <string name="wired_hdmi_mode_title">有線投屏(HDMI/DP)顯示模式</string>
+    <string name="wired_help_content_1">第一步：一端是Type-C連接線，另一端可能是HDMI、VGA、DVI或DP的轉接線。(視大屏設備支援的介面而定)</string>
+    <string name="wired_help_content_2">第二步：使用轉接線將手機端連接Type-C，大屏設備連接HDMI、VGA或DVI等接線。</string>
+    <string name="wired_help_content_3">第三步：將大屏輸入信號源切換至轉接線對應HDMI、VGA、DVI或DP的入口。</string>
+    <string name="wired_screen_orientation_title">橫豎屏切換</string>
+    <string name="wired_screen_projection">有線投屏(HDMI/DP)</string>
+    <string name="wired_show_fps_tips">投屏端可顯示當前投屏幀率</string>
+    <string name="wired_show_fps_title">投屏幀率顯示</string>
+    <string name="wired_sound_output_never_ask">不再提醒</string>
+    <string name="wired_sound_output_tips">手機開啟麥克風或戴上耳機時，投屏端總是輸出聲音</string>
+    <string name="wired_sound_output_title">投屏端輸出聲音</string>
+    <string name="wired_tips">"DP/HDMI高清零延時投屏
+配合投屏端最高可達165hz"</string>
+    <string name="wired_tips_144">"DP/HDMI高清零延時投屏
+配合投屏端最高可達144hz"</string>
+    <string name="wireless_screen_projection">無線投屏</string>
+    <string name="wireless_tips">為保證更好的投屏體驗，建議目標設備安裝並打開樂播投屏用戶端, 通過Wi-Fi或掃碼投屏</string>
+    <string name="yes">是</string>
+    <string name="home_private_mode_tips_usb">USB投屏時，目標設備螢幕上不顯示橫幅通知，來電等資訊</string>
+</resources>

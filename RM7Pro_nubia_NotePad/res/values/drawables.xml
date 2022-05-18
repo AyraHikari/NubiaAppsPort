@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="actionbar_bg_drawable">#ffffffff</item>
+    <item type="drawable" name="notepad_list_search_background">#ffe5e8eb</item>
+</resources>

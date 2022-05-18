@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/prisma_type_cubic_bjsuo" />
+    <item android:left="0.0dip" android:top="42.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sldingdraw_icon_title_mask" />
+            <corners android:bottomLeftRadius="3.669983dip" android:bottomRightRadius="3.669983dip" />
+        </shape>
+    </item>
+</layer-list>

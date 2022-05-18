@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.opengl.GLSurfaceView android:id="@id/glSurfaceView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="1.0px" />
+    <View android:id="@id/divider" android:background="@color/night_sunny_background" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <cn.nubia.weather.ui.view.BounceBackViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="51.0dip" />
+    <ImageView android:id="@id/glSurfaceMask" android:background="@color/splash_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/actionbar_main" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/actionbar" />
+</RelativeLayout>

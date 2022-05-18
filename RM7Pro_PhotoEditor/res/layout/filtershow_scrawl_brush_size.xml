@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/brush_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:weightSum="4.0" android:layout_centerInParent="true">
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/oneSizeScrawl" android:paddingRight="16.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mosaic_brush_one_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/twoSizeScrawl" android:paddingLeft="16.5dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mosaic_brush_two_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/threeSizeScrawl" android:paddingLeft="15.0dip" android:paddingRight="12.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mosaic_brush_three_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/fourSizeScrawl" android:paddingLeft="12.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/mosaic_brush_four_selected" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+    </RadioGroup>
+    <ImageView android:id="@id/eraser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/eraser_selected" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">移除所選內容?</item>
+        <item quantity="one">移除所選內容?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d天</item>
+        <item quantity="zero">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">允許離線查看圖片庫</item>
+        <item quantity="one">允許離線查看圖片庫</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">選中了 %1$d 本圖片庫</item>
+        <item quantity="zero">選中了 %1$d 本圖片庫</item>
+        <item quantity="one">選中了 %1$d 本圖片庫</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">選中了 %1$d 組</item>
+        <item quantity="zero">選中了 %1$d 組</item>
+        <item quantity="one">選中了 %1$d 組</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">複製 (%1$d)</item>
+        <item quantity="zero">複製 (%1$d)</item>
+        <item quantity="one">複製 (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">剪切 (%1$d)</item>
+        <item quantity="zero">剪切 (%1$d)</item>
+        <item quantity="one">剪切 (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">確定 (%1$d)</item>
+        <item quantity="zero">確定 (%1$d)</item>
+        <item quantity="one">確定 (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">已選取 %1$d</item>
+        <item quantity="zero">已選取 %1$d</item>
+        <item quantity="one">已選取 %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">确认恢复所选内容?</item>
+        <item quantity="one">确认恢复所选内容?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">已選擇%1$d項</item>
+        <item quantity="zero">已選擇%1$d項</item>
+        <item quantity="one">已選擇%1$d項</item>
+    </plurals>
+</resources>

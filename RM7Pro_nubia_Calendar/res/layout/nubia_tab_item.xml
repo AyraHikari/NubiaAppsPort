@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/nubia_tab_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nubia_tab_image" android:layout_width="@dimen/nubia_tab_image_size" android:layout_height="@dimen/nubia_tab_image_size" android:layout_marginTop="@dimen/nubia_tab_image_margin_top" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0dip" android:ellipsize="marquee" android:id="@id/nubia_tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_tab_padding" android:singleLine="true" android:layout_below="@id/nubia_tab_image" android:layout_centerHorizontal="true" android:paddingStart="@dimen/nubia_tab_padding" android:paddingEnd="@dimen/nubia_tab_padding" style="@style/NubiaFontMedium" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/nubia_tab_label" android:background="@drawable/nubia_tab_label_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_tab_label_margin_top" android:paddingStart="@dimen/nubia_tab_padding" android:paddingEnd="@dimen/nubia_tab_padding" android:layout_marginStart="@dimen/nubia_tab_label_margin_start" />
+</RelativeLayout>

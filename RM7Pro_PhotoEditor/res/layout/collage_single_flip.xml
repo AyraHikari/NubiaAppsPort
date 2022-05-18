@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/panelImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/flip_panel" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/panelImageView" android:layout_alignBottom="@id/panelImageView" android:layout_alignParentLeft="@id/panelImageView" android:layout_alignParentRight="@id/panelImageView">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/flipRecyclerView" android:paddingLeft="@dimen/single_flip_left_padding" android:paddingRight="@dimen/single_flip_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

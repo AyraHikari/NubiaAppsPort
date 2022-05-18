@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Ocupat</item>
+        <item>Disponible</item>
+        <item>Provisional</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dia</item>
+        <item>Setmana</item>
+        <item>Mes</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Només aquest esdeveniment</item>
+        <item>Tots els esdeveniments de la sèrie</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Només aquest esdeveniment</item>
+        <item>Aquest esdeveniment i esdeveniments futurs</item>
+        <item>Tots els esdeveniments</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Aquest i els esdeveniments futurs</item>
+        <item>Tots els esdeveniments</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>primer</item>
+        <item>segon</item>
+        <item>tercer</item>
+        <item>quart</item>
+        <item>darrer</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Sempre</item>
+        <item>Només quan està en silenci</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Cap</item>
+        <item>0 minuts</item>
+        <item>1 minut</item>
+        <item>5 minuts</item>
+        <item>10 minuts</item>
+        <item>15 minuts</item>
+        <item>20 minuts</item>
+        <item>25 minuts</item>
+        <item>30 minuts</item>
+        <item>45 minuts</item>
+        <item>1 hora</item>
+        <item>2 hores</item>
+        <item>3 hores</item>
+        <item>12 hores</item>
+        <item>24 hores</item>
+        <item>2 dies</item>
+        <item>1 setmana</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Config. reg. predet.</item>
+        <item>Dissabte</item>
+        <item>Diumenge</item>
+        <item>Dilluns</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Arribaré uns minuts tard.</item>
+        <item>"Arribaré d'aquí a 10 minuts."</item>
+        <item>Comenceu sense mi.</item>
+        <item>Em sap greu, no hi puc assistir. Ho haurem de tornar a planificar.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notificac.</item>
+        <item>Correu electrònic</item>
+        <item>SMS</item>
+        <item>Alarma</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minuts</item>
+        <item>1 minut</item>
+        <item>5 minuts</item>
+        <item>10 minuts</item>
+        <item>15 minuts</item>
+        <item>20 minuts</item>
+        <item>25 minuts</item>
+        <item>30 minuts</item>
+        <item>45 minuts</item>
+        <item>1 hora</item>
+        <item>2 hores</item>
+        <item>3 hores</item>
+        <item>12 hores</item>
+        <item>24 hores</item>
+        <item>2 dies</item>
+        <item>1 setmana</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Cap resposta</item>
+        <item>Sí</item>
+        <item>Potser</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Illes Marshall</item>
+        <item>Illa de Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Hora del Pacífic</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Hora muntanyes</item>
+        <item>Amèrica Central</item>
+        <item>Hora central</item>
+        <item>Ciutat de Mèxic</item>
+        <item>Saskatchewan</item>
+        <item>Bogotà</item>
+        <item>Hora oriental</item>
+        <item>Veneçuela</item>
+        <item>Hora Atl. (Barbados)</item>
+        <item>Hora Atlàn. (Canadà)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terranova</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Grenlàndia</item>
+        <item>Montevideo</item>
+        <item>Mig-Atlàntic</item>
+        <item>Açores</item>
+        <item>Illes de Cap Verd</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublín</item>
+        <item>Amsterdam, Berlín</item>
+        <item>Belgrad</item>
+        <item>Brussel·les</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>"Hora d'Àfrica Occid."</item>
+        <item>Ammān, Jordània</item>
+        <item>Atenes, Istanbul</item>
+        <item>Beirut, Líban</item>
+        <item>El Caire</item>
+        <item>Hèlsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscou</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Bakú</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islāmābād, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinburg</item>
+        <item>Calcuta</item>
+        <item>Sri Lanka</item>
+        <item>Kàtmandu</item>
+        <item>Astana</item>
+        <item>Yangôn</item>
+        <item>Krasnoiarsk</item>
+        <item>Bangkok</item>
+        <item>Pequín</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seül</item>
+        <item>Tòquio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Predeterminada</item>
+        <item>Privada</item>
+        <item>Pública</item>
+    </string-array>
+</resources>

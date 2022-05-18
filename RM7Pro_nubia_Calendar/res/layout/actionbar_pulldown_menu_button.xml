@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/agenda_day_bar_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/drop_down_height">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start" android:id="@id/button_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/actionbar_padding" />
+        <TextView android:textAppearance="?textAppearanceExtraSmall" android:gravity="end" android:id="@id/button_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/actionbar_padding" />
+    </LinearLayout>
+    <TextView android:background="@color/calendar_grid_line_inner_horizontal_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

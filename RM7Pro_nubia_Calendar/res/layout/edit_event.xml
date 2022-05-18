@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edit_event" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/loading_message" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" android:layout_weight="1.0" style="?android:attr/textAppearanceLarge" />
+    <ScrollView android:id="@id/scroll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" android:animateLayoutChanges="false">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/two_pane" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/edit_event_1" />
+                <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_textview_highlight_color" android:gravity="center" android:id="@id/more_option" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_min_height" android:text="@string/accessibility_more_options" />
+                <include android:id="@id/attendees_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/edit_event_2" />
+            </LinearLayout>
+            <View android:layout_gravity="start|center|top" android:id="@id/color_chip" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="0.0dip" android:layout_marginStart="0.0dip" />
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

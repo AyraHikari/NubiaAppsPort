@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/slide_pause" android:enabled="true" android:id="@id/pause" android:visible="true" android:title="@string/pause" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/slide_play" android:enabled="true" android:id="@id/play" android:visible="false" android:title="@string/play" app:showAsAction="always|withText" />
+</menu>

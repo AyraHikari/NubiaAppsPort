@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/textColorPrimary" android:gravity="center_vertical" android:id="@id/help_back" android:layout_width="wrap_content" android:layout_height="64.0dip" android:text="@string/wired_screen_projection_pccontrolphone" android:drawablePadding="2.0dip" android:drawableStart="@drawable/scan_back" android:fontFamily="nubiafont-medium" android:layout_marginStart="14.0dip" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+            <TextView android:textSize="@dimen/text_size_help_title" android:textColor="@color/help_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/usb_touping_pccontrol_desc_title1" android:fontFamily="nubiafont-medium" />
+            <TextView android:textSize="@dimen/text_size_help_content" android:textColor="@color/help_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/usb_touping_pccontrol_desc1" />
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/usb_touping_pccontrolphont1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" />
+            <TextView android:textSize="@dimen/text_size_help_title" android:textColor="@color/help_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/usb_touping_pccontrol_desc_title2" android:fontFamily="nubiafont-medium" />
+            <TextView android:textSize="@dimen/text_size_help_content" android:textColor="@color/help_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/usb_touping_pccontrol_desc2" />
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/usb_touping_pccontrolphont2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

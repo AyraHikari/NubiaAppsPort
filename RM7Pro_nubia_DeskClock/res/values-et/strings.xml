@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_alarm">Lisa äratus</string>
+    <string name="alarm_alert_alert_silenced">Äratuse vaigistamiseni on jäänud %d.</string>
+    <string name="alarm_alert_dismiss_text">Loobu</string>
+    <string name="alarm_alert_snooze_set">Edasi lükatud %d minutit.</string>
+    <string name="alarm_alert_snooze_text">Lükka edasi</string>
+    <string name="alarm_alert_snooze_until">Äratuse edasilükkamine kuni %s</string>
+    <string name="alarm_klaxon_service_desc">Kellas äratuste jaoks määratud heli taasesitamise teenus.</string>
+    <string name="alarm_repeat">Kordus</string>
+    <string name="alarm_vibrate">Värin</string>
+    <string name="alert">Äratuse helin</string>
+    <string name="app_label">Kell</string>
+    <string name="cities_activity_title">Linnad</string>
+    <string name="day">1 päev</string>
+    <string name="day_concat">", "</string>
+    <string name="days">%s päeva</string>
+    <string name="delete_alarm">Kustuta äratus</string>
+    <string name="enable_alarm">Lülita äratus sisse</string>
+    <string name="every_day">Iga päev</string>
+    <string name="hour">1 tund</string>
+    <string name="hours">%s tundi</string>
+    <string name="hours_label">h</string>
+    <string name="loading_ringtone">Helina laadimine ...</string>
+    <string name="minute">1 minut</string>
+    <string name="minutes">%s minutit</string>
+    <string name="minutes_label">m</string>
+    <string name="never">Mitte kunagi</string>
+    <string name="seconds_label">s</string>
+    <string name="silent_alarm_summary">Hääletu</string>
+    <string name="sw_start_button">Alusta</string>
+    <string name="timer_cancel">Tühista</string>
+    <string name="timer_delete">Kustuta</string>
+    <string name="timer_stop">Peata</string>
+    <string name="hours_label_description">tundi</string>
+    <string name="minutes_label_description">minutit</string>
+    <string name="seconds_label_description">sekundit</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+</resources>

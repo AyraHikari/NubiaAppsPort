@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pretty_high_settings_layout" style="@style/FragmentCenterSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/pretty_high_settings" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_105" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:translationY="@dimen/dimens_67">
+        <cn.nubia.camera.elefnovideo.WaterDropSeekbar android:id="@id/pretty_seekbar" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/handler" android:background="@drawable/nubia_white_dialog_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_3" android:layout_above="@id/pretty_seekbar" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:gravity="center" android:id="@id/pretty_handler_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/elefno_video_image_number" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/handler_arrow" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_arrow_up" android:layout_marginStart="@dimen/dimens_6" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/movie_share" android:visible="true" android:title="@string/video_share" />
+    <item android:id="@id/movie_timer" android:visible="true" android:title="@string/video_timer" />
+    <item android:id="@id/movie_encrypt" android:visible="true" android:title="@string/video_encrypt" />
+    <item android:id="@id/movie_dolby" android:visible="true" android:title="@string/video_dolby" />
+    <item android:id="@id/movie_help" android:visible="true" android:title="@string/video_help" />
+    <item android:id="@id/movie_detail" android:visible="true" android:title="@string/video_details" />
+</menu>

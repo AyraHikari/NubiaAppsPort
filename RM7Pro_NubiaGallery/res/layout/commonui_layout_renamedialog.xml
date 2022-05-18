@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/dialog_bgview" android:background="@android:color/transparent" android:paddingBottom="9.299988dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/dialog_animaview" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" style="@style/common_ui_linelayout_rename">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="79.29999dip">
+            <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="6.669983dip" android:layout_alignParentBottom="true" />
+            <EditText android:textSize="@dimen/common_dialog_title_tvsize" android:textColor="@color/black_93" android:gravity="center|left" android:id="@id/dialog_tv_edit" android:background="@drawable/nubia_dialog_total_btn_default_normal" android:paddingLeft="@dimen/common_dialog_magin_16" android:layout_width="fill_parent" android:layout_height="72.599976dip" android:textCursorDrawable="@drawable/cursor_color" />
+        </RelativeLayout>
+        <include android:layout_width="fill_parent" android:layout_height="53.0dip" layout="@layout/commonui_layout_comform" />
+    </LinearLayout>
+</RelativeLayout>

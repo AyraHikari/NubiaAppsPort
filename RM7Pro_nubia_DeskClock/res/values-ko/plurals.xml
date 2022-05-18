@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">1시간</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d분</item>
+        <item quantity="one">1분</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d초</item>
+        <item quantity="one">1초</item>
+    </plurals>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="other">선택한 알람을 삭제하시겠습니까?</item>
+        <item quantity="one">선택한 알람을 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="timers_num">
+        <item quantity="other">%d개의 타이머</item>
+        <item quantity="one">1분</item>
+    </plurals>
+</resources>

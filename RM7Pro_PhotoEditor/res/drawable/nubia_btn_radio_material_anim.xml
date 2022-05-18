@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/nubia_btn_radio_mtrl_checked_disabled" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/nubia_btn_radio_mtrl_disabled" />
+    </item>
+    <item android:state_checked="true" android:id="@id/nubia_on">
+        <bitmap android:src="@drawable/nubia_btn_radio_mtrl_017" />
+    </item>
+    <item android:id="@id/nubia_off">
+        <bitmap android:src="@drawable/nubia_btn_radio_mtrl_000" />
+    </item>
+    <transition android:toId="@id/nubia_on" android:fromId="@id/nubia_off">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_000" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_001" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_002" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_003" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_004" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_005" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_006" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_007" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_009" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_010" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_011" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_012" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_013" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_014" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_015" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_016" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_017" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/nubia_off" android:fromId="@id/nubia_on">
+        <animation-list>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_017" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_016" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_015" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_014" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_013" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_012" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_011" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_010" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_008" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_007" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_006" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_005" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_004" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_003" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_002" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_001" />
+            </item>
+            <item android:duration="15">
+                <bitmap android:src="@drawable/nubia_btn_radio_mtrl_000" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

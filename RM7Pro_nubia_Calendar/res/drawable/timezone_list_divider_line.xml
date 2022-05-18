@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@color/calendar_tiemzone_list_divider_line_color" android:insetLeft="20.0dip" android:insetRight="33.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dimen_60" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black_transparent_90" android:gravity="center_horizontal" android:id="@id/recent_playing" android:paddingTop="@dimen/dimen_150" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/recent_playing" android:drawableTop="@drawable/recent_playing_history_selector" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+        <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black_transparent_90" android:gravity="center_horizontal" android:id="@id/my_collections" android:paddingTop="@dimen/dimen_150" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/local_favorite" android:drawableTop="@drawable/my_collections_selector" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+        <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black_transparent_90" android:gravity="center_horizontal" android:id="@id/addplaylist" android:paddingTop="@dimen/dimen_150" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/local_add_playlist" android:drawableTop="@drawable/add_to_playinglist_selector" android:drawablePadding="10.0dip" android:layout_weight="1.0" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    </LinearLayout>
+    <View android:background="@color/group_background" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dimen_150" />
+</LinearLayout>

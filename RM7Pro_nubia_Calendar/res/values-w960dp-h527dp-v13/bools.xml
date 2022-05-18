@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="agenda_show_event_info_full_screen">false</bool>
+    <bool name="multiple_pane_config">true</bool>
+    <bool name="show_agenda_with_month">false</bool>
+    <bool name="show_calendar_controls">true</bool>
+    <bool name="show_details_in_month">true</bool>
+    <bool name="show_event_details_with_agenda">true</bool>
+    <bool name="show_event_info_full_screen">false</bool>
+    <bool name="tablet_config">true</bool>
+</resources>

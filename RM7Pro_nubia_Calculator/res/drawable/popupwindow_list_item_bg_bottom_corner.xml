@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:tint="#0f000000" android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/mfvc_radius" android:bottomRightRadius="@dimen/mfvc_radius" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:tint="#0f000000" android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/mfvc_radius" android:bottomRightRadius="@dimen/mfvc_radius" />
+        </shape>
+    </item>
+</selector>

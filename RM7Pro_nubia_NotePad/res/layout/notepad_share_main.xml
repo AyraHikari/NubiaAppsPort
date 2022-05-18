@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/title_bar_text_size" android:textColor="@color/notepad_list_item_title_color" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="@dimen/action_bar_size" android:text="@string/notepad_share_title" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/notepad_editor_data_loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/notepad_editor_progress_title_text_size" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notepad_editor_data_loading_title" android:layout_below="@id/progressbar" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/notepad_share_body_margin_top" android:layout_marginBottom="@dimen/notepad_share_body_margin_bottom" android:layout_above="@id/share_preview_bottom_menu" android:layout_below="@id/title" android:layout_marginStart="@dimen/notepad_action_bar_margin_start" android:layout_marginEnd="@dimen/notepad_action_bar_margin_end">
+        <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <RelativeLayout android:gravity="center_horizontal" android:background="@drawable/notepad_share_bolder_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/notepad_share_body_background" android:background="@drawable/notepad_share_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/notepad_separator_line_height_1_px" android:layout_marginTop="@dimen/notepad_separator_line_height_1_px" android:layout_marginRight="@dimen/notepad_separator_line_height_1_px" android:layout_marginBottom="@dimen/notepad_separator_line_height_1_px" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/bottom_bar_text_size" android:textColor="@color/share_editor_text_color" android:id="@id/note_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notepad_share_margin_right" android:layout_marginStart="@dimen/notepad_share_margin_right" android:layout_marginEnd="@dimen/notepad_share_margin_right" />
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/notepad_share_body_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notepad_share_margin_right" android:layout_marginBottom="@dimen/notepad_share_content_margin_bottom" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/notepad_list_item_summary_size" android:textColor="@color/notepad_share_nubia_tag" android:gravity="center" android:id="@id/notepad_share_nubia_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notepad_share_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/share_preview_bottom_menu" android:background="@color/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <Button android:ellipsize="marquee" android:id="@id/nubia_dialog_activity_cancel" android:layout_width="131.0dip" android:layout_height="36.0dip" android:text="@android:string/cancel" android:maxLines="1" android:onClick="OnNegativeButtonClick" style="@style/Widget.Nubia.Button.Color1" />
+        <Button android:ellipsize="marquee" android:id="@id/nubia_dialog_activity_ok" android:layout_width="131.0dip" android:layout_height="36.0dip" android:text="@string/notepad_share" android:maxLines="1" android:onClick="OnPositiveButtonClick" android:layout_marginStart="18.0dip" style="@style/Widget.Nubia.Button.Color1" />
+    </LinearLayout>
+</RelativeLayout>

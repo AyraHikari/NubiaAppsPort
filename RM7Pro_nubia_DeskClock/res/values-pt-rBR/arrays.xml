@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_left_time">
+        <item>Tocar em menos de um minuto</item>
+        <item>Toque %1$s</item>
+        <item>Toque %2$s</item>
+        <item>Toque %1$s%2$s</item>
+        <item>Toque %3$s</item>
+        <item>Toque %1$s%3$s</item>
+        <item>Toque %2$s%3$s</item>
+        <item>Toque %1$s%2$s e %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Alarme definido para menos de um minuto a partir de agora.</item>
+        <item>Alarme definido para %1$s a partir de agora.</item>
+        <item>Alarme definido para %2$s a partir de agora.</item>
+        <item>Alarme definido para %1$s e %2$s a partir de agora.</item>
+        <item>Alarme definido para %3$s a partir de agora.</item>
+        <item>Alarme definido para %1$s e %3$s a partir de agora.</item>
+        <item>Alarme definido para %2$s e %3$s a partir de agora.</item>
+        <item>Alarme definido para %1$s, %2$s e %3$s a partir de agora.</item>
+    </string-array>
+</resources>

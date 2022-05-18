@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/wk_label" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/d0_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d1_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d2_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d3_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d4_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d5_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+    <TextView android:gravity="center" android:id="@id/d6_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.MonthView_MiniDayLabel" />
+</LinearLayout>

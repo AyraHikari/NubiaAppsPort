@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_bar_up_description">Nach oben</string>
+    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+    <string name="abc_action_mode_done">Fertig</string>
+    <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+    <string name="abc_activitychooserview_choose_application">App auswählen</string>
+    <string name="abc_capital_off">Aus</string>
+    <string name="abc_capital_on">An</string>
+    <string name="abc_search_hint">Suchen…</string>
+    <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+    <string name="abc_searchview_description_query">Suchanfrage</string>
+    <string name="abc_searchview_description_search">Suchen</string>
+    <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+    <string name="abc_searchview_description_voice">Sprachsuche</string>
+    <string name="abc_shareactionprovider_share_with">Freigeben für</string>
+    <string name="abc_shareactionprovider_share_with_application">Mit %s teilen</string>
+    <string name="abc_toolbar_collapse_description">Minimieren</string>
+    <string name="search_menu_title">Suchen</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="activity_wiredlessand_wired_setting_show1">"Kleines Fenster' projiziert 'Großer Bildschirm', Mobiltelefon erledigt gleichzeitig mehrere Aufgaben"</string>
+    <string name="activity_wiredlessand_wired_setting_show2">"Das Handy wird zum 'Griff' und schaut auf den großen Bildschirm, um Spiele zu spielen"</string>
+    <string name="agree">OK</string>
+    <string name="app_name">Übertragungsbildschirm</string>
+    <string name="bandwidth_high">Hoch</string>
+    <string name="bandwidth_mid">Mittel</string>
+    <string name="bandwidth_poor">Niedrig</string>
+    <string name="browsedevice_link_status_ing">Bitte stellen Sie sicher, dass die Geräte an beiden Enden an dasselbe LAN angeschlossen sind Mai versuchen %1$s Switch-Netzwerke</string>
+    <string name="cannot_connect">Verbindungsaufbau nicht möglich. Bitte Gerät bestätigen</string>
+    <string name="change_wifi">Anzeigemittel für einen Projektionsschirm</string>
+    <string name="change_wifi_continue">Weiter zu verwenden</string>
+    <string name="change_wifi_tips">Zur Gewährleistung der Qualität des Projektionsschirms empfiehlt der Umstieg auf Wi-Fi von 5G</string>
+    <string name="change_wifi_to_settings">W-LAN-Einstellungen</string>
+    <string name="choose_device">Bitte wählen Sie das Gerät für den Projektionsschirm</string>
+    <string name="choose_device_computer">Bildschirm auf PC übertragen</string>
+    <string name="choose_device_computer_linked">Stopp</string>
+    <string name="choose_device_tv">Bildschirm auf Fernseher übertragen</string>
+    <string name="choose_device_tv_linked">Stopp</string>
+    <string name="choose_sound">Audioausgabe</string>
+    <string name="choose_sound_output_message">Wenn das Mobiltelefon das Mikrofon einschaltet oder wir das Headset aufsetzen, ob das Bildschirmspiegelungsterminal immer Ton ausgibt oder nicht?</string>
+    <string name="connect_blacklist">Verbindungs-Blacklist</string>
+    <string name="connect_fail">Verbindung fehlgeschlagen</string>
+    <string name="connect_reject">Verbindung abgelehnt</string>
+    <string name="connect_timeout">Verbindungs-Timeout</string>
+    <string name="cta_message_1">Projektionsschirm ermöglicht es Ihnen, Mobiltelefonbildschirm auf andere Endgeräte zu projizieren. Um diese Funktion zu erreichen, wird die Software Ihre folgenden Handy-Berechtigungen oder -Funktionen während der Nutzung widerrufen:</string>
+    <string name="cta_message_2">"• Aufnahme: Die Erlaubnis ist erforderlich, um Ton auf andere Terminals zu projizieren. 
+• Kamera: Beim Erstellen von Links ist die Erlaubnis zum Scannen von Code erforderlich. 
+• Vernetzung und Geräteidentifikation: Wenn die Software betriebsseitig eine Sicherheitsprüfung durchführt, muss auf die Berechtigung zugegriffen werden."</string>
+    <string name="cta_message_3">"Die von Projektionsschirm geforderten Einstellmöglichkeiten und Funktionen beinhalten die obigen. Wenn Sie mit dem Aufruf relevanter Handy-Berechtigungen/-Funktionen nicht einverstanden sind, wird die Software ausfallen. Nachdem Sie damit einverstanden sind, aktivieren Sie automatisch die oben genannte Berechtigung und können den Zugriff auf relevante Berechtigungen in den Einstellungen jederzeit deaktivieren.n 
+ Wenn Sie auf Zustimmen klicken, bedeutet dies, dass Sie mit den oben genannten Inhalten gelesen und einverstanden sind."</string>
+    <string name="cta_title">Servicebegriffe für Projektionswand</string>
+    <string name="device_list">Geräte auswählen</string>
+    <string name="device_searching">Suche nach Geräten in der Nähe</string>
+    <string name="disconnect">Nicht verbunden</string>
+    <string name="floating_permission">Sie müssen die Erlaubnis für das schwebende Fenster aktivieren</string>
+    <string name="floating_permission_negative">Abbrechen</string>
+    <string name="floating_permission_positive">Gehe zu Einstellungen</string>
+    <string name="floating_permission_tips">Wenn Sie den Projektionsschirm verwenden, müssen Sie die Genehmigungstaste aktivieren, mit der er auf der oberen Ebene anderer Anwendungen angezeigt werden kann.</string>
+    <string name="hdmi_list_empty_tip">Bitte legen Sie DP/HDMI-Kabel zur Verbindung für Spiegelung mit drahtgebundenem Bildschirm ein</string>
+    <string name="help_content_1">"Schritt 1: Laden Sie den Lebo Projektionsbildschirm-Client vom Computer herunter. 
+Step 2: Stellen Sie sicher, dass das Mobiltelefon und das Zielgerät an dasselbe LAN angeschlossen sind. 
+Step 3: Öffnen Sie den QR-Code des Lebo-Projektionsscreen-Clients vom Computer aus und scannen Sie den QR-Code, um sich mit dem Mobiltelefon zu verbinden."</string>
+    <string name="help_content_2">"Schritt 1: Stellen Sie sicher, dass das Mobiltelefon und das Zielgerät an dasselbe LAN angeschlossen sind. 
+Schritt 2: Wählen Sie Projektbildschirm zum Fernsehen vom Handy aus und wählen Sie das Gerät für Projektionsschirm aus der Liste der Großbildschirmgeräte zwischen Suchergebnissen und Projektbildschirm."</string>
+    <string name="help_content_3">Einige Großbildschirmgeräte können nicht durchsucht werden. Sie können versuchen, den Lebo-Projektionsbildschirm-Client auf dem Fernseher herunterzuladen und zu öffnen, um die Bildschirmprojektionsklasse=/></string>
+    <string name="help_content_4">"Unter guten Netzbedingungen können sich folgende Faktoren auf die Qualität der Bildschirmprojektion auswirken: 
+1. Beide Geräte sind nicht an den 5G Wi-Fi Hotspot; 
+2 angeschlossen. Wenn das von beiden Geräten angeschlossene lokale Netz Störungen aufweist, wenn mehrere Geräte an dasselbe lokale Netz angeschlossen sind, mit Hindernissen wie Wänden."</string>
+    <string name="help_content_5">"Im Live-Betrieb empfiehlt es sich, ein 3,5 mm großes Audiokabel zu verwenden, um das Mobiltelefon und den Computer miteinander zu verbinden, um Geräusche zu übertragen. Wählen Sie gleichzeitig one für \"Screen-Projektions-Soundquelle  aus, um sicherzustellen, dass der Ton mit dem Mobiltelefon-Bildschirm synchronisiert wird."</string>
+    <string name="help_title_1">Bildschirm auf PC übertragen</string>
+    <string name="help_title_2">Bildschirm auf Fernseher übertragen</string>
+    <string name="help_title_3">Bildschirmübertragung eingefroren. Verzögern?</string>
+    <string name="home_activity_mirrot_playing">Verbunden mit</string>
+    <string name="home_activity_mirrotpc">Mobile Spiele PC, Live-Übertragung angenehmer</string>
+    <string name="home_activity_mirrottv">Mobile Spiele TV, großer Bildschirm ist glatter</string>
+    <string name="home_auto_quality_tips">Automatische Anpassung der Bildschirmdefinition an die Netzwerkqualität</string>
+    <string name="home_auto_quality_title">Automatische Anpassung</string>
+    <string name="home_back">Übertragungsbildschirm</string>
+    <string name="home_cancel">Abbrechen</string>
+    <string name="home_floating_window_tips">Wenn ein drahtloser Bildschirm gespiegelt wird, wird der aktuelle LAN-Verbindungsstatus in Echtzeit angezeigt.</string>
+    <string name="home_floating_window_title">Schutzstatus bei ausgeschaltetem Bildschirm anzeigen</string>
+    <string name="home_help">Hilfe</string>
+    <string name="home_private_mode_tips">Wenn drahtlose Bildschirme gespiegelt werden, werden Banner-Benachrichtigungen, eingehende Anrufe und andere Informationen nicht auf dem Bildschirm des Zielgerätes angezeigt.</string>
+    <string name="home_private_mode_tips_wired">Beim Spiegeln von drahtgebundenen Bildschirmen werden Banner-Bildschirm-Benachrichtigungen, eingehende Anrufe und andere Informationen nicht auf dem Bildschirm des Zielgerätes angezeigt.</string>
+    <string name="home_private_mode_title">Privater Modus</string>
+    <string name="home_quality">Qualität</string>
+    <string name="home_sound_source">Sound-Quellen</string>
+    <string name="initsdk_failed">Initialisierung fehlgeschlagen, prüfen Sie bitte WLAN-Verbindung</string>
+    <string name="jump_to_settings">Zu den Einstellungen</string>
+    <string name="mirror_link_status_ing">Verbindung wird hergestellt…</string>
+    <string name="mirror_link_status_lastlinkdevice">Letzte Verbindung</string>
+    <string name="no">Nein</string>
+    <string name="no_device_found">Keine verfügbaren Geräte</string>
+    <string name="no_device_found_tip">Sie können versuchen, den Lebo Projektor-Client auf dem Fernseher herunterzuladen und zu öffnen.</string>
+    <string name="no_wanted_device_tip">Falls kein Zielgerät vorhanden ist, können Sie versuchen, den Lebo-Projektor-Client im Fernsehen herunterzuladen</string>
+    <string name="not_change_while_mirroring">Bitte vor dem Bildschirm</string>
+    <string name="nubia_capital_off">Aus</string>
+    <string name="nubia_capital_on">Ein</string>
+    <string name="pin_disconnect">PIN-Code unterbrochen</string>
+    <string name="privacy_comfirm">Zum Aktivieren bestätigen</string>
+    <string name="privacy_message">Projektionsschirm wurde angeschlossen. Möchten Sie den Datenschutz-Modus aktivieren?</string>
+    <string name="privacy_title">Privater Modus</string>
+    <string name="quality_high">HD</string>
+    <string name="quality_low">SD 480P</string>
+    <string name="quality_suggestion_confirm">Nutzung bestätigen</string>
+    <string name="quality_suggestion_tips">Der aktuelle Netzwerkstatus ist schlecht. Um den Effekt der Bildschirmprojektion sicherzustellen, wird empfohlen, den adaptiven Modus für die Bildschirmprojektionsqualität zu verwenden.</string>
+    <string name="quality_suggestion_title">Bildschirmübertragungs-Vorschlag</string>
+    <string name="req_permission_fail">Autorisierung fehlgeschlagen</string>
+    <string name="request_permission">Berechtigung anfragen</string>
+    <string name="request_permission_tips">Zur Einstellung der Schnittstelle und zur Erteilung der Genehmigung gehen</string>
+    <string name="research">Erneut suchen</string>
+    <string name="result_mirror_fail">Fehlgeschlagen</string>
+    <string name="result_mirror_stop">Gestoppt</string>
+    <string name="result_mirror_succss">Verbunden</string>
+    <string name="scan_back">Scan-Code und Projektionsschirm</string>
+    <string name="scan_notes_1">1. Lebo Projektor Client herunterladen</string>
+    <string name="scan_notes_2">2. Verbindung zum gleichen LAN herstellen</string>
+    <string name="scan_notes_3">"3. Öffnen Sie den QR-Code des Lebo Projekt-Clients, 
+scan den Code und Verbindung"</string>
+    <string name="scan_success">Code gescannt:</string>
+    <string name="screen_orientation_dialog_title">Wählen Sie den aktuellen Anzeigestatus</string>
+    <string name="screen_orientation_landscape">Anzeigevorrichtung mit horizontalem Bildschirm</string>
+    <string name="screen_orientation_portrait">Anzeigevorrichtung mit vertikalem Bildschirm</string>
+    <string name="screen_projection_quality_auto">Automatisch</string>
+    <string name="screen_projection_quality_high">HD</string>
+    <string name="screen_projection_quality_host">Host-Modus</string>
+    <string name="screen_projection_quality_low">SD 480P</string>
+    <string name="screen_projection_quality_normal">SD 540P</string>
+    <string name="settings_back">Einstellungen</string>
+    <string name="sound_local">Telefon</string>
+    <string name="sound_local_tips">(mit Kopfhörer oder Mikrofon eingeschaltet)</string>
+    <string name="sound_remote">Immer Leinwand Projektion</string>
+    <string name="sound_remote_tips">(Audio mit anderen teilen)</string>
+    <string name="sound_source_mike">Mikrofon</string>
+    <string name="sound_source_none">Ohne</string>
+    <string name="sound_source_none_tips">(Im Live-Betrieb wird ein Audiokabel von 3,5 mm empfohlen)</string>
+    <string name="sound_source_system">System-Sound</string>
+    <string name="sound_source_system_mike">System-Sound und Mikrofon</string>
+    <string name="tell2download_lebopc_btn">Ich habe sie.</string>
+    <string name="tell2download_lebopc_content">"Projektbildschirm zum PC Lebo Projektions 
+-Bildschirm-Client vom Computerende herunterladen"</string>
+    <string name="tell2download_lebopc_title">Lebo-Schutzbildschirm herunterladen</string>
+    <string name="tips_fisrt_show">Der Bildschirmprojektionsstatus wird in Echtzeit angezeigt und kann ausgeschaltet werden.</string>
+    <string name="tips_status_change">Bildschirmschutzstatus ist instabil</string>
+    <string name="toast_mirrordevice_info">Auf dem Übertragungsbildschirm nicht anpassbar</string>
+    <string name="waiting_comfirm">Auf Bestätigung warten</string>
+    <string name="wifi_connect">Bitte stellen Sie eine Netzwerkverbindung her.</string>
+    <string name="wifi_connect_tips">Beide Geräte auf dem Bildschirm Projektion nutzen 5G-Band Wi-Fi-Netzwerk für bessere Qualität.</string>
+    <string name="wifi_open">W-LAN aktivieren</string>
+    <string name="wifi_open_text">Sofort deaktivieren</string>
+    <string name="wifi_open_tips">Beide Geräte auf dem Bildschirm Projektion nutzen 5G-Band Wi-Fi-Netzwerk für bessere Qualität.</string>
+    <string name="wired_choose_hdmi_mode">Output-Bildratenmodus auswählen</string>
+    <string name="wired_hdmi_mode_tips">Kann verschiedene Einzelbildratenmodi auswählen.</string>
+    <string name="wired_hdmi_mode_title">Kabelgebundener Bildschirm-Spiegelungs-Anzeigemodus</string>
+    <string name="wired_help_content_1">Schritt 1: Das eine Ende ist ein Typ-C-Kabel und das andere Ende kann ein HDMI-, VGA-, DVI- oder DP-Adapterkabel sein. (Abhängig von der Schnittstelle, die vom Großbildschirmgerät unterstützt wird)</string>
+    <string name="wired_help_content_2">Schritt 2: Verwenden Sie das Adapterkabel, um das Mobiltelefon an Type-C anzuschließen und Großbildschirmgeräte an HDMI, VGA oder DVI anzuschließen.</string>
+    <string name="wired_help_content_3">Schritt 3: Schalten Sie die Großbild-Eingangssignalquelle auf den Eingang des Adapterkabels entsprechend HDMI, VGA, DVI oder DP.</string>
+    <string name="wired_screen_orientation_title">Horizontaler und vertikaler Bildschirmwechsel</string>
+    <string name="wired_screen_projection">Kabelgebundener Schutz</string>
+    <string name="wired_show_fps_tips">Das Bildschirmspiegelungsterminal kann die aktuelle Bildrate anzeigen.</string>
+    <string name="wired_show_fps_title">Bildschirmspiegelung-Bildraten-Anzeige</string>
+    <string name="wired_sound_output_never_ask">Nicht nochmal erinnern</string>
+    <string name="wired_sound_output_tips">Wenn das Mobiltelefon das Mikrofon einschaltet oder wir das Headset einschalten, gibt das Bildschirmspiegelungsterminal immer Ton aus.</string>
+    <string name="wired_sound_output_title">Bildschirmspiegelungsanschluß zur Ausgabe von Ton.</string>
+    <string name="wired_tips">"DP/HDMI-Hochauflösungs-Nulllatenzbildschirm mit Spiegelung von 
+Up bis 165hz mit dem Bildschirmspiegelungsterminal"</string>
+    <string name="wired_tips_144">"DP/HDMI-Hochauflösungs-Nulllatenzbildschirm mit Spiegelung von 
+Up bis 144hz mit dem Bildschirmspiegelungsterminal"</string>
+    <string name="wireless_screen_projection">W-LAN-Schutz</string>
+    <string name="wireless_tips">Um eine bessere Bildschirmerfahrung zu gewährleisten, wird vorgeschlagen, den Lebo-Projektionsbildschirm-Client über Wi-Fi oder Code-Scanning auf dem Zielgerät zu installieren und zu öffnen.</string>
+    <string name="yes">Ja</string>
+</resources>

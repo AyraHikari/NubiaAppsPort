@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/forcetouch_widget" android:layout_width="222.0dip" android:layout_height="93.32999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/corners_top_bg" android:layout_width="fill_parent" android:layout_height="27.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/forcetouch_widget" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/widget_title_color" android:layout_gravity="center_vertical" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next_alarm_forcetouch" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:background="@color/widget_driver_color" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="66.0dip" android:alpha="247.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <nubia.widget.NubiaTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="33.0dip" android:textColor="@color/widget_alarm_time_color" android:layout_gravity="center" android:id="@id/widget_alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="10.0dip" android:textColor="@color/ampm_color" android:layout_gravity="end" android:id="@id/ampm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginEnd="60.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="10.0dip" android:textColor="@color/widget_alert_once_color" android:layout_gravity="center_horizontal" android:id="@id/widget_alert_once" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

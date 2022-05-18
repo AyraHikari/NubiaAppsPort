@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ark_42_px" android:textColor="@color/musiclist_plaall_bar" android:gravity="center" android:id="@id/scanpercenet_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_45" android:text="@string/now_scanning" />
+    <ProgressBar android:id="@id/scanmusic_progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30" android:layout_marginTop="@dimen/dimen_60" android:layout_marginRight="@dimen/dimen_30" android:layout_marginBottom="@dimen/dimen_72" android:max="100" android:progress="0" android:indeterminate="true" android:minHeight="@dimen/ark_6_px" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

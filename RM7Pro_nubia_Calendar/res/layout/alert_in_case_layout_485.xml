@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#fff9feff" android:layout_width="465.0dip" android:layout_height="360.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="260.0dip">
+        <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="260.0dip" android:minWidth="80.0dip" android:layout_weight="2.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="80.0sp" android:gravity="center" android:id="@id/reminder_time" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/z7_body" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff8e8b8d" android:gravity="center" android:id="@id/reminder_what" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/z7_body" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/reminder_close" android:background="@drawable/btn_red_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:text="@string/event_close" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+</LinearLayout>

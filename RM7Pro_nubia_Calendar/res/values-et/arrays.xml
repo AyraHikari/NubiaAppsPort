@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Hõivatud</item>
+        <item>Saadaval</item>
+        <item>Katseline</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Päev</item>
+        <item>Nädal</item>
+        <item>Kuu</item>
+        <item>Ajakava</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Ainult see sündmus</item>
+        <item>Kõik seerias olevad sündmused</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Ainult see sündmus</item>
+        <item>See sündmus ja tulevased sündmused</item>
+        <item>Kõik sündmused</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>See ja tulevased sündmused</item>
+        <item>Kõik sündmused</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>esimene</item>
+        <item>sekund</item>
+        <item>kolmas</item>
+        <item>neljas</item>
+        <item>viimane</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Alati</item>
+        <item>Ainult hääletus režiimis</item>
+        <item>Mitte kunagi</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Puudub</item>
+        <item>0 minutit</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>15 minutit</item>
+        <item>30 minutit</item>
+        <item>1 tund</item>
+        <item>1 päeva</item>
+        <item>1 nädal</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Lokaadi vaikeseade</item>
+        <item>Laupäev</item>
+        <item>Pühapäev</item>
+        <item>Esmaspäev</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Jääb paar minutit hiljaks.</item>
+        <item>Olge umbes 10 minuti pärast valmis.</item>
+        <item>Alusta ilma minuta.</item>
+        <item>Kahjuks ma ei jõua. Peame ajakava üle vaatama.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Teatis</item>
+        <item>E-post</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Puudub</item>
+        <item>0 minutit</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>15 minutit</item>
+        <item>30 minutit</item>
+        <item>1 tund</item>
+        <item>1 päeva</item>
+        <item>1 nädal</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Vastust pole</item>
+        <item>Jah</item>
+        <item>Võib-olla</item>
+        <item>Ei</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalli saared</item>
+        <item>Midway saared</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Vaikse ookeani aeg</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Kaljumäestiku aeg</item>
+        <item>Kesk-Ameerika</item>
+        <item>Kesk-Ameerika aeg</item>
+        <item>Mexico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Ida-Ameerika aeg</item>
+        <item>Venezuela</item>
+        <item>Atlandi aeg (Barb.)</item>
+        <item>Atlandi aeg (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasiilia</item>
+        <item>Buenos Aires</item>
+        <item>Gröönimaa</item>
+        <item>Montevideo</item>
+        <item>Kesk-Atlandi</item>
+        <item>Assoorid</item>
+        <item>Roheneemesaared</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berliin</item>
+        <item>Belgrad</item>
+        <item>Brüssel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Lääne-Aafrika aeg</item>
+        <item>Amman, Jordaania</item>
+        <item>Ateena, Istanbul</item>
+        <item>Beirut, Liibanon</item>
+        <item>Kairo</item>
+        <item>Helsingi</item>
+        <item>Jeruusalemm</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuveit</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Bakuu</item>
+        <item>Thbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Söul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Vaikeseade</item>
+        <item>Privaatne</item>
+        <item>Avalik</item>
+    </string-array>
+</resources>

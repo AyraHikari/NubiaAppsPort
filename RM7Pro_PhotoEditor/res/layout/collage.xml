@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootLayout" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/collage_view_left_padding" android:paddingRight="@dimen/collage_view_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.nubia.collage.ui.CollageView android:id="@id/collageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/panelImageView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/template_panel" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/categoryFrameLayout" android:background="@drawable/template_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/panelImageView" android:layout_alignBottom="@id/panelImageView" android:layout_alignParentLeft="@id/panelImageView" android:layout_alignParentRight="@id/panelImageView">
+        <RelativeLayout android:id="@id/categorySelectRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/categoryGridViewRelativeLayout" android:layout_width="fill_parent" android:layout_height="@dimen/collage_category_panel_height">
+                <FrameLayout android:id="@id/categoryPanelContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/categoryGridViewRelativeLayout">
+                <RelativeLayout android:id="@id/gridTextViewRelativeLayout" android:paddingTop="@dimen/select_text_top_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" android:paddingStart="@dimen/select_text_padding" android:paddingEnd="@dimen/select_text_padding">
+                    <TextView android:textSize="@dimen/select_text_size" android:textColor="@color/fifty_four_white" android:id="@id/gridTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grid" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/posterTextViewRelativeLayout" android:paddingTop="@dimen/select_text_top_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/select_text_padding" android:paddingEnd="@dimen/select_text_padding" android:layout_marginEnd="@dimen/select_text_between_padding" android:layout_toStartOf="@id/gridTextViewRelativeLayout">
+                    <TextView android:textSize="@dimen/select_text_size" android:textColor="@color/selected_text" android:id="@id/posterTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/poster" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/joinTextViewRelativeLayout" android:paddingTop="@dimen/select_text_top_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/select_text_padding" android:paddingEnd="@dimen/select_text_padding" android:layout_marginStart="@dimen/select_text_between_padding" android:layout_toEndOf="@id/gridTextViewRelativeLayout">
+                    <TextView android:textSize="@dimen/select_text_size" android:textColor="@color/fifty_four_white" android:id="@id/joinTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/join" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/editTextFrameLayout" android:background="@color/fifty_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <EditText android:textSize="@dimen/edit_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/editText" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_text_top_padding" android:textCursorDrawable="@drawable/cursor" />
+    </FrameLayout>
+    <ImageView android:id="@id/sortTimeUpImageView" android:paddingBottom="@dimen/sort_time_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sort_time" android:layout_above="@id/categoryFrameLayout" android:paddingStart="@dimen/sort_time_left_padding" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/sortTimeDownImageView" android:paddingBottom="@dimen/sort_time_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sort_time" android:layout_alignParentBottom="true" android:paddingStart="@dimen/sort_time_left_padding" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/showArrowImageView" android:paddingBottom="@dimen/show_hide_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/show_arrow" android:layout_above="@id/categoryFrameLayout" android:paddingEnd="@dimen/show_hide_right_padding" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/hideArrowImageView" android:paddingBottom="@dimen/show_hide_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hide_arrow" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/show_hide_right_padding" android:layout_alignParentEnd="true" />
+</RelativeLayout>

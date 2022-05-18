@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_bar" android:background="@color/force_touch_background_color" android:layout_width="fill_parent" android:layout_height="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/improve_slideshow_shortcuts" android:layout_marginStart="8.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/force_touch_text_color" android:id="@id/title_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recent_picture" android:singleLine="true" android:layout_marginStart="8.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear_letter_up" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="37.0dip">
+        <TextView android:textSize="@dimen/new_city_name_font_size" android:textColor="@color/city_letter_up_text_color" android:gravity="center" android:id="@id/city_letter_up" android:background="@drawable/navigation_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/cities_list_item_height">
+        <TextView android:textSize="@dimen/new_city_name_font_size" android:textColor="@color/city_name_text_color" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.9" />
+        <TextView android:textSize="@dimen/worldtime_country_font_size" android:textColor="@color/country_name_text_color" android:id="@id/country_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.57" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear_letter_down" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="37.0dip">
+        <TextView android:textSize="@dimen/new_city_name_font_size" android:textColor="#ff000000" android:id="@id/city_letter_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.57" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/dialog_bgview" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/share_item_tv" android:gravity="center" android:id="@id/dialog_tv1" android:layout_width="fill_parent" android:layout_height="50.19998dip" android:fontFamily="nubiafont-regular" android:elegantTextHeight="true" />
+</RelativeLayout>

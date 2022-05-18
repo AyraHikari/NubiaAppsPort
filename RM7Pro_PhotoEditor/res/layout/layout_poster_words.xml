@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.nubia.poster">
+    <LinearLayout android:gravity="fill_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/nubia_dialog_message_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/add_words" />
+        <View android:background="@color/nubia_button_text_color_primary" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="18.0dip" android:alpha="0.1" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="15.0dip" android:textColor="@color/txt_main_color" android:gravity="center_vertical" android:id="@id/words_edit" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:scrollHorizontally="true" android:singleLine="true" android:selectAllOnFocus="true" android:textCursorDrawable="@drawable/cursor_color" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/txt_main_color" android:layout_gravity="right" android:id="@id/words_remainder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" />
+    </LinearLayout>
+    <com.android.gallery3d.filtershow.words.TextColorPickerView android:gravity="fill_horizontal" android:id="@id/text_color_picker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/middle_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/btn_bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dip" android:minHeight="10.0dip" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/bold" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip">
+            <Button android:id="@id/btn_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dip" android:minHeight="10.0dip" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/shadow" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

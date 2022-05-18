@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/force_touch_divider" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_force_touch_title" android:background="@drawable/force_touch_title_background" android:clickable="true" android:layout_width="@dimen/force_touch_width" android:layout_height="@dimen/force_touch_title_height">
+        <ImageView android:layout_width="@dimen/force_touch_title_icon_size" android:layout_height="@dimen/force_touch_title_icon_size" android:layout_marginLeft="@dimen/force_touch_icon_margin" android:layout_marginRight="@dimen/force_touch_icon_margin" android:src="@drawable/force_touch_icon" />
+        <TextView android:textSize="@dimen/force_touch_title_text_size" android:textStyle="bold" android:textColor="@color/force_touch_title_text_color" android:ellipsize="end" android:id="@id/tv_force_touch_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/force_touch_title_margin_right" android:text="@string/app_name" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/force_touch_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btn_force_touch_prev" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/force_touch_prev_selector" />
+        <ImageView android:id="@id/btn_force_touch_play" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/force_touch_btn_hmargin" android:layout_marginTop="@dimen/force_touch_btn_vmargin" android:layout_marginRight="@dimen/force_touch_btn_hmargin" android:layout_marginBottom="@dimen/force_touch_btn_vmargin" android:src="@drawable/force_touch_play_selector" />
+        <ImageView android:id="@id/btn_force_touch_next" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/force_touch_next_selector" />
+    </LinearLayout>
+</LinearLayout>

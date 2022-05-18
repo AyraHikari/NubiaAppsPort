@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/user_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_93" android:gravity="center" android:id="@id/message_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    </ScrollView>
+    <View android:id="@id/separate1" android:background="@color/user_dialog_button_seperate" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/cloudButtonLayout" android:layout_width="fill_parent" android:layout_height="@dimen/cloud_album_dialog_button_height">
+        <TextView android:textSize="@dimen/cloud_album_mid_dialog_title_text_size" android:textColor="@color/user_dialog_button" android:gravity="center" android:id="@id/cancel_button" android:background="@drawable/user_dialog_left_btn" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+        <View android:id="@id/separate2" android:background="@color/user_dialog_button_seperate" android:layout_width="0.33000004dip" android:layout_height="@dimen/dialog_button_height" />
+        <TextView android:textSize="@dimen/cloud_album_mid_dialog_title_text_size" android:textColor="@color/user_dialog_button" android:gravity="center" android:id="@id/ok_button" android:background="@drawable/user_dialog_right_btn" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/confirm" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

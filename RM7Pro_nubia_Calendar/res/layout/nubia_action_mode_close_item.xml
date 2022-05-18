@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/nubia_action_mode_bottom_close_material" android:clickable="true" android:layout_width="@dimen/nubia_action_mode_close_button_default_width" android:layout_height="@dimen/nubia_action_bar_default_height" android:minWidth="@dimen/nubia_action_mode_close_button_default_width" android:minHeight="@dimen/nubia_action_bar_default_height" android:paddingStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/nubia_text_size_medium_no_change" android:ellipsize="marquee" android:gravity="center" android:id="@id/action_mode_close_button" android:background="@drawable/nubia_action_mode_close_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

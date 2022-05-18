@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="activity_wiredlessand_wired_setting_show1">小窗投大屏，手机同时处理多任务</string>
+    <string name="activity_wiredlessand_wired_setting_show2">手机变手柄，看着大屏玩游戏</string>
+    <string name="agree">同意</string>
+    <string name="app_name">投屏</string>
+    <string name="bandwidth_high">好</string>
+    <string name="bandwidth_mid">中</string>
+    <string name="bandwidth_poor">差</string>
+    <string name="browsedevice_link_status_ing">"请确保两端设备接至同一局域网内
+可尝试%1$s切换网络"</string>
+    <string name="cannot_connect">不能连接，请确定设备</string>
+    <string name="change_wifi">投屏提示</string>
+    <string name="change_wifi_continue">继续使用</string>
+    <string name="change_wifi_tips">为确保投屏质量，建议切换5G的Wi-Fi网络</string>
+    <string name="change_wifi_to_settings">WLAN设置</string>
+    <string name="choose_device">请选择需要投屏的设备</string>
+    <string name="choose_device_computer">投电脑</string>
+    <string name="choose_device_computer_linked">结束投屏</string>
+    <string name="choose_device_tv">投电视</string>
+    <string name="choose_device_tv_linked">结束投屏</string>
+    <string name="choose_sound">选择声音输出端</string>
+    <string name="choose_sound_output_message">手机开启麦克风或戴上耳机时，投屏端是否总是输出声音</string>
+    <string name="connect_blacklist">连接黑名单</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="connect_reject">连接拒绝</string>
+    <string name="connect_timeout">连接超时</string>
+    <string name="cta_message_1">欢迎使用投屏，为了向你提供更好的服务，在使用过程中，需要以下权限：</string>
+    <string name="cta_message_2">"• 录音：将声音投到其他终端需要获取该权限。
+• 相机：创建链接时扫码需要获取该权限。
+• 联网、设备标识：软件在服务端进行安全校验时需要获取该权限。"</string>
+    <string name="cta_message_3">点击\"同意\"，即视为同意上述内容及<a href="https://account.nubia.com/res/html/screenprojection_privacy.html">投屏隐私政策</a>。</string>
+    <string name="cta_title">服务说明</string>
+    <string name="device_list">选择设备</string>
+    <string name="device_searching">正在搜索周围设备</string>
+    <string name="disconnect">连接断开</string>
+    <string name="floating_permission">需开启悬浮窗权限</string>
+    <string name="floating_permission_negative">取消</string>
+    <string name="floating_permission_positive">前往设置</string>
+    <string name="floating_permission_tips">使用投屏时，需开启允许显示在其他应用上层的权限按钮</string>
+    <string name="hdmi_list_empty_tip">请插入DP/HDMI连接有线投屏</string>
+    <string name="help_content_1">"第一步：电脑端需下载安装红魔投屏客户端：http://www.nubia.com/active/redmagicstudio。
+第二步：确保手机端与电脑端接至同一局域网环境中。
+第三步：打开电脑端红魔投屏的二维码，手机端进行扫码连接。
+ 温馨提示：兼容乐播投屏电脑端"</string>
+    <string name="help_content_2">"第一步：确保手机端与电视端接至同一局域网环境中。
+第二步：手机端选择“投电视”，在搜索到的设备列表中，选择您需要投屏的设备，进行投屏。"</string>
+    <string name="help_content_3">部分大屏设备无法被搜索到，可尝试电视端下载并打开乐播投屏客户端，完成投屏。</string>
+    <string name="help_content_4">"在网络条件良好的情况下，影响投屏质量的可能有以下因素：
+1.双方设备没有都连接至5G频段的Wi-Fi热点；
+2.双方设备连接的局域网有干扰时，如多设备连接同一局域网、有墙面等障碍物。"</string>
+    <string name="help_content_5">直播时，推荐使用3.5mm音频线连接手机端和电脑端传输声音，同时“投屏声音来源”选择“无”，以保证声音与手机画面同步。</string>
+    <string name="help_title_1">投屏到电脑</string>
+    <string name="help_title_2">投屏到电视</string>
+    <string name="help_title_3">投屏卡顿、延迟？</string>
+    <string name="home_activity_mirrot_playing">已连接至</string>
+    <string name="home_activity_mirrotpc">手游投电脑，直播更尽兴</string>
+    <string name="home_activity_mirrottv">手游投电视，大屏更畅快</string>
+    <string name="home_auto_quality_tips">根据网络状态自动调节投屏清晰度</string>
+    <string name="home_auto_quality_title">自动调节</string>
+    <string name="home_back">投屏</string>
+    <string name="home_cancel">取消</string>
+    <string name="home_floating_window_tips">无线投屏时，实时显示当前局域网的连接状态</string>
+    <string name="home_floating_window_title">投屏状态显示</string>
+    <string name="home_help">投屏帮助</string>
+    <string name="home_private_mode_tips">无线投屏时，目标设备屏幕上不显示横幅通知，来电等信息</string>
+    <string name="home_private_mode_tips_wired">有线投屏时，目标设备屏幕上不显示横幅通知，来电等信息</string>
+    <string name="home_private_mode_title">隐私模式</string>
+    <string name="home_quality">投屏质量</string>
+    <string name="home_sound_source">投屏声音来源</string>
+    <string name="initsdk_failed">初始化失败，请检查wifi连接情况</string>
+    <string name="jump_to_settings">去设置</string>
+    <string name="mirror_link_status_ing">连接中…</string>
+    <string name="mirror_link_status_lastlinkdevice">上次连接</string>
+    <string name="no">否</string>
+    <string name="no_device_found">无可用设备</string>
+    <string name="no_device_found_tip">可尝试电视端下载并打开乐播投屏客户端</string>
+    <string name="no_wanted_device_tip">若无目标设备，可尝试电视端下载并打开乐播投屏客户端</string>
+    <string name="not_change_while_mirroring">请在投屏前使用</string>
+    <string name="nubia_capital_off">OFF</string>
+    <string name="nubia_capital_on">ON</string>
+    <string name="pin_disconnect">pin码连接断开</string>
+    <string name="privacy_comfirm">确定开启</string>
+    <string name="privacy_message">投屏已连接，是否开启隐私模式？</string>
+    <string name="privacy_title">隐私模式</string>
+    <string name="quality_high">高清</string>
+    <string name="quality_low">流畅</string>
+    <string name="quality_suggestion_confirm">确定使用</string>
+    <string name="quality_suggestion_tips">当前网络状态较差，为保证投屏效果，建议投屏质量使用自适应模式</string>
+    <string name="quality_suggestion_title">投屏建议</string>
+    <string name="req_permission_fail">授权失败</string>
+    <string name="request_permission">请求权限</string>
+    <string name="request_permission_tips">请到设置界面给与应用所需的权限</string>
+    <string name="research">重新搜索</string>
+    <string name="result_mirror_fail">投屏连接失败</string>
+    <string name="result_mirror_stop">投屏已停止</string>
+    <string name="result_mirror_succss">投屏已连接</string>
+    <string name="scan_back">扫码投屏</string>
+    <string name="scan_notes_1">1.电脑端下载乐播投屏客户端</string>
+    <string name="scan_notes_2">2.两端设备连接至同一局域网中</string>
+    <string name="scan_notes_3">3.打开乐播投屏客户端的二维码，扫码并连接</string>
+    <string name="scan_success">扫码成功：</string>
+    <string name="screen_orientation_dialog_title">选择当前显示器状态</string>
+    <string name="screen_orientation_landscape">横屏显示器</string>
+    <string name="screen_orientation_portrait">竖屏显示器</string>
+    <string name="screen_projection_quality_auto">极清</string>
+    <string name="screen_projection_quality_high">高清</string>
+    <string name="screen_projection_quality_host">超高清</string>
+    <string name="screen_projection_quality_low">流畅</string>
+    <string name="screen_projection_quality_normal">标清</string>
+    <string name="settings_back">投屏设置</string>
+    <string name="sound_local">手机端</string>
+    <string name="sound_local_tips">（戴耳机或开麦克风时，从手机出声）</string>
+    <string name="sound_remote">总是投屏端</string>
+    <string name="sound_remote_tips">（与他人共享音频）</string>
+    <string name="sound_source_mike">麦克风</string>
+    <string name="sound_source_none">无</string>
+    <string name="sound_source_none_tips">（直播时，推荐3.5mm音频线传输声音）</string>
+    <string name="sound_source_system">系统声音</string>
+    <string name="sound_source_system_mike">系统声音和麦克风</string>
+    <string name="tell2download_lebopc_btn">我知道了</string>
+    <string name="tell2download_lebopc_content">"投电脑时，需在电脑端下载并打开乐 
+播投屏客户端"</string>
+    <string name="tell2download_lebopc_title">下载乐播投屏客户端</string>
+    <string name="tips_fisrt_show">实时显示投屏状态，可关闭</string>
+    <string name="tips_status_change">投屏状态较不稳定</string>
+    <string name="toast_mirrordevice_info">投屏中不可调节</string>
+    <string name="waiting_comfirm">等待确认</string>
+    <string name="wifi_connect">请连接网络</string>
+    <string name="wifi_connect_tips">投屏双方设备均使用5G频段Wi-Fi网络，质量更佳</string>
+    <string name="wifi_open">请开启Wi-Fi</string>
+    <string name="wifi_open_text">立即开启</string>
+    <string name="wifi_open_tips">投屏双方设备均使用5G频段Wi-Fi网络，质量更佳</string>
+    <string name="wired_choose_hdmi_mode">选择输出帧率模式</string>
+    <string name="wired_hdmi_mode_tips">可选择不同的输出帧率模式</string>
+    <string name="wired_hdmi_mode_title">有线投屏（HDMI/DP）显示模式</string>
+    <string name="wired_help_content_1">第一步：一端是Type-C连接线，另一端可能是HDMI、VGA、DVI或DP的转接线。(视大屏设备支持的接口而定)</string>
+    <string name="wired_help_content_2">第二步：使用转接线将手机端连接Type-C，大屏设备连接HDMI、VGA或DVI等接线。</string>
+    <string name="wired_help_content_3">第三步：将大屏输入信号源切换至转接线对应HDMI、VGA、DVI或DP的入口。</string>
+    <string name="wired_screen_orientation_title">横竖屏切换</string>
+    <string name="wired_screen_projection">有线投屏（HDMI/DP）</string>
+    <string name="wired_show_fps_tips">投屏端可显示当前投屏帧率</string>
+    <string name="wired_show_fps_title">投屏帧率显示</string>
+    <string name="wired_sound_output_never_ask">不再提醒</string>
+    <string name="wired_sound_output_tips">手机开启麦克风或戴上耳机时，投屏端总是输出声音</string>
+    <string name="wired_sound_output_title">投屏端输出声音</string>
+    <string name="wired_tips">"DP/HDMI高清零延时投屏
+配合投屏端最高可达165hz"</string>
+    <string name="wired_tips_144">"DP/HDMI高清零延时投屏
+配合投屏端最高可达144hz"</string>
+    <string name="wireless_screen_projection">无线投屏</string>
+    <string name="wireless_tips">为保证更好的投屏体验，建议目标设备安装并打开乐播投屏客户端, 通过Wi-Fi或扫码投屏</string>
+    <string name="yes">是</string>
+    <string name="action_stop">断开连接</string>
+    <string name="action_stopsearch">取消搜索</string>
+    <string name="activity_wiredlessand_wired_setting_show3">手机投电脑，电脑玩手机游戏</string>
+    <string name="home_dts">投屏音效</string>
+    <string name="home_private_mode_tips_usb">USB投屏时，目标设备屏幕上不显示横幅通知，来电等信息</string>
+    <string name="linked_failed_reset">连接失败，请重试</string>
+    <string name="notification_search_device">正在搜索设备中</string>
+    <string name="notification_waiting">投屏已连接</string>
+    <string name="scan_failed_reset">扫码失败，请重试</string>
+    <string name="scan_notes_nubia_1">1.电脑端下载红魔投屏客户端</string>
+    <string name="scan_notes_nubia_2">2.两端设备连接至同一局域网中</string>
+    <string name="scan_notes_nubia_3">3.打开红魔投屏客户端的二维码，扫码并连接</string>
+    <string name="scan_notes_nubia_4">温馨提示：同样支持乐播投屏客户端</string>
+    <string name="scan_notes_nubia_scandetail">帮助详情</string>
+    <string name="scan_success_nubiatouping">扫码成功</string>
+    <string name="sound_dts_defualt">外放音效</string>
+    <string name="sound_dts_earphone">耳机音效</string>
+    <string name="sound_dts_step_up">射击增强</string>
+    <string name="tell2download_nubiapc_content">"投电脑时，需在电脑端下载并打开红 
+魔投屏客户端"</string>
+    <string name="tell2download_nubiapc_title">下载红魔投屏客户端</string>
+    <string name="tell2openalertpermission">请先打开悬浮框权限</string>
+    <string name="usb_screen_projection">USB投屏</string>
+    <string name="usb_screen_projection_settings">USB投屏</string>
+    <string name="usb_touping_desc">"1. 在红魔社区下载红魔投屏客户端，下载链接为：http://www.nubia.com/active/redmagicstudio。
+2. 使用USB连接电脑与手机。
+3. 手机上USB连接用途选择USB投屏选项。 
+4. 电脑端识别到手机后开始投屏。"</string>
+    <string name="usb_touping_pccontrol_desc1">"1. 电脑操控手机需要配合红魔投屏客户端使用。
+2. 在红魔社区下载红魔投屏客户端，下载链接为：http://www.nubia.com/active/redmagicstudio。 
+3. 安装打开后客户端，使用手机投屏APP无线扫码连接或者USB连接电脑进行投屏。"</string>
+    <string name="usb_touping_pccontrol_desc2">"1. 投屏成功后可以使用鼠标点击电脑投屏中的屏幕来操作手机。
+2. 进入游戏后开启键盘映射功能，可以使用键盘鼠标控制游戏。 
+3. 软件内部已经为部分游戏内置了默认的键盘方案，您也可以根据自己的游戏习惯对键位布局进行调整。"</string>
+    <string name="usb_touping_pccontrol_desc_title1">红魔投屏客户端</string>
+    <string name="usb_touping_pccontrol_desc_title2">电脑操控手机</string>
+    <string name="wired_screen_projection_pccontrolphone">电脑控制手机</string>
+    <string name="wired_screen_projection_usbhelp">USB投屏</string>
+</resources>

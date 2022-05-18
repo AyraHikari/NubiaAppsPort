@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">アイテムを削除しますか？</item>
+        <item quantity="one">アイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d日</item>
+        <item quantity="zero">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">アルバムをオフラインで利用できるようにしています。</item>
+        <item quantity="one">アルバムをオフラインで利用できるようにしています。</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d選択された</item>
+        <item quantity="zero">%1$d選択された</item>
+        <item quantity="one">%1$d選択された</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d選択された</item>
+        <item quantity="zero">%1$d選択された</item>
+        <item quantity="one">%1$d選択された</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">コピー (%1$d)</item>
+        <item quantity="zero">コピー (%1$d)</item>
+        <item quantity="one">コピー (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">トリミング (%1$d)</item>
+        <item quantity="zero">トリミング (%1$d)</item>
+        <item quantity="one">トリミング (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d選択された</item>
+        <item quantity="zero">%1$d選択された</item>
+        <item quantity="one">%1$d選択された</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">選択したアイテムを復元しますか?</item>
+        <item quantity="one">選択したアイテムを復元しますか?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">%1$d個のアイテムを選択しました</item>
+        <item quantity="zero">%1$d個のアイテムを選択しました</item>
+        <item quantity="one">%1$d個のアイテムを選択しました</item>
+    </plurals>
+</resources>

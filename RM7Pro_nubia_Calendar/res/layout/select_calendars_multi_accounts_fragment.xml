@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/calendars" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:id="@android:id/list" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/divider" android:background="@color/calendar_grid_line_inner_horizontal_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottom_bar" style="@style/z7_btn_bar_style">
+        <Button android:id="@id/btn_discard" android:focusable="true" android:text="@android:string/cancel" style="@style/z7_btn_style" />
+        <View android:layout_width="@dimen/bottom_button_gap" android:layout_height="fill_parent" />
+        <Button android:id="@id/btn_done" android:focusable="true" android:text="@android:string/ok" style="@style/z7_btn_style" />
+    </LinearLayout>
+</LinearLayout>

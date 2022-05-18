@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>Продовжити</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>Січень</item>
+        <item>Лютий</item>
+        <item>Березень</item>
+        <item>Квітень</item>
+        <item>Травень</item>
+        <item>И>Червень</item>
+        <item>И>Липень</item>
+        <item>Серпень</item>
+        <item>Вересень</item>
+        <item>Жовтень</item>
+        <item>Листопад</item>
+        <item>Грудень</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Кві</item>
+        <item>Тра</item>
+        <item>Чер</item>
+        <item>Лип</item>
+        <item>Серп</item>
+        <item>Вер</item>
+        <item>Жов</item>
+        <item>Лист</item>
+        <item>Гру</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П’ятниця</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Нд</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="restore_dialog_title">
+        <item>Відновити до блокнота</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>поділитися текстом</item>
+        <item>поділитися картинкою</item>
+    </string-array>
+</resources>

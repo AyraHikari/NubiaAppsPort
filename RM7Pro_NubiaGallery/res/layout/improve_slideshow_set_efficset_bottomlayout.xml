@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+        <TextView android:id="@id/slideshowset_efficset_item_tv_zoom" android:text="@string/slideshow_effect_fadeout" android:drawableTop="@drawable/slideeffic_set_fad" android:layout_weight="1.0" style="@style/slideshowset_efficset_item_tv" />
+        <TextView android:id="@id/slideshowset_efficset_item_tv_flow" android:text="@string/slideshow_effect_flow" android:drawableTop="@drawable/slideeffic_set_flow" android:layout_weight="1.0" style="@style/slideshowset_efficset_item_tv" />
+        <TextView android:id="@id/slideshowset_efficset_item_tv_rect" android:text="@string/slideshow_effect_cube" android:drawableTop="@drawable/slideeffic_set_cube" android:layout_weight="1.0" style="@style/slideshowset_efficset_item_tv" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:id="@id/slideshowset_efficset_item_tv_disapper" android:text="@string/slideshow_effect_stack" android:drawableTop="@drawable/slideeffic_set_stack" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" style="@style/slideshowset_efficset_item_tv" />
+        <TextView android:id="@id/slideshowset_efficset_item_tv_turn" android:text="@string/slideshow_effect_turn" android:drawableTop="@drawable/slideeffic_set_turn" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" style="@style/slideshowset_efficset_item_tv" />
+    </LinearLayout>
+</LinearLayout>

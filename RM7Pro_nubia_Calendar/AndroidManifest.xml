@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserLabel="@string/app_label" package="cn.nubia.calendar.preset" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="nubia.permission.cloud"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <application android:allowBackup="false" android:backupAgent="cn.nubia.calendar.CalendarBackupAgent" android:hardwareAccelerated="true" android:icon="@drawable/calendar" android:label="@string/app_label" android:largeHeap="true" android:name="cn.nubia.calendar.CalendarApplication" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/CalendarTheme.WithActionBar" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIM256oVOGnuSel5QKDpL8je_T65ZI8rFnDinssA"/>
+        <meta-data android:name="unique_key" android:value="100089"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="cn.nubia.calendar.AllInOneActivity" android:screenOrientation="portrait" android:theme="@style/Calendar.ActionBar" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_CALENDAR"/>
+            </intent-filter>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/create_event"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_CALENDAR"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="cn.nubia.calendar.HomeActivity" android:screenOrientation="portrait" android:theme="@style/Calendar.ActionBar" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="cn.nubia.launcher.forcetouch"/>
+                <category android:name="android.intent.category.APP_CALENDAR"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="time/epoch"/>
+                <data android:host="com.android.calendar"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.intent.action.AGENDA_PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.otherApp.VIEW_DATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/create_event"/>
+        </activity>
+        <provider android:authorities="cn.nubia.calendar.provider.eventdata" android:exported="true" android:name="cn.nubia.calendar.db.CustomCalendarProvider"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.calendar.EventInfoActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/event"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="cn.nubia.calendar.submodule_agenda.activity.EditEventActivity" android:screenOrientation="portrait" android:theme="@style/CalendarTheme.WithActionBarForEditEventActivity">
+            <intent-filter>
+                <action android:name="cn.nubia.intent.action.CreateEvent"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="cn.nubia.calendar.EditEventActivity" android:screenOrientation="portrait" android:targetActivity="cn.nubia.calendar.submodule_agenda.activity.EditEventActivity" android:theme="@style/CalendarTheme.WithActionBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/event"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/event"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.otherApp.CREATE_EVENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/app_label" android:name="cn.nubia.calendar.GoogleCalendarUriIntentFilter" android:screenOrientation="portrait" android:theme="@style/GoogleCalendarNodispaly">
+            <intent-filter android:priority="50">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.google.com" android:pathPrefix="/calendar/event" android:scheme="http"/>
+                <data android:host="www.google.com" android:pathPrefix="/calendar/event" android:scheme="https"/>
+                <data android:host="www.google.com" android:pathPattern="/calendar/hosted/.*/event" android:scheme="http"/>
+                <data android:host="www.google.com" android:pathPattern="/calendar/hosted/.*/event" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/select_visible_calendars_title" android:name="cn.nubia.calendar.selectcalendars.SelectVisibleCalendarsActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar"/>
+        <activity android:label="@string/select_synced_calendars_title" android:name="cn.nubia.calendar.selectcalendars.SelectSyncedCalendarsMultiAccountActivity" android:screenOrientation="portrait" android:theme="@style/Activity.WithActionBar"/>
+        <activity android:label="@string/preferences_title" android:name="cn.nubia.calendar.CalendarSettingsActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar"/>
+        <activity android:label="@string/default_reminder_type" android:name="cn.nubia.calendar.settings.ReminderTypeSettingsActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar"/>
+        <activity android:label="@string/timezone_label" android:name="cn.nubia.calendar.settings.TimeZoneSettingsActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar"/>
+        <meta-data android:name="android.app.default_searchable" android:value="cn.nubia.calendar.SearchActivity"/>
+        <activity android:exported="true" android:label="@string/search_title" android:launchMode="singleTop" android:name="cn.nubia.calendar.SearchActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <provider android:authorities="cn.nubia.calendar.CalendarRecentSuggestionsProvider" android:exported="true" android:name="cn.nubia.calendar.CalendarRecentSuggestionsProvider"/>
+        <activity android:exported="true" android:label="@string/global_search_label" android:launchMode="singleTop" android:name="cn.nubia.calendar.submodule_agenda.activity.GlobalAgendaSearchActivity" android:screenOrientation="portrait" android:theme="@style/Activity.WithActionBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/global_searchable"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="cn.nubia.calendar.submodule_agenda.activity.AgendaListActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="cn.nubia.calendar.suggestionsprovider" android:exported="true" android:name="cn.nubia.calendar.db.SuggestionsProvider"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="cn.nubia.calendar.submodule_alerts.AlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:theme="@style/Theme.Nubia.Dialog.Alert2"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="cn.nubia.calendar.submodule_alerts.AlertInCaseActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:label="@string/quick_response_dialog_title" android:launchMode="singleInstance" android:name="cn.nubia.calendar.submodule_alerts.QuickResponseActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Nubia.Dialog"/>
+        <receiver android:name="cn.nubia.calendar.submodule_alerts.AlertReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.EVENT_REMINDER"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <data android:scheme="content"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.launcher.fancyicon.remind.time"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.calendar.submodule_alerts.SMSSendStatusReceiver">
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.alerts.SEND_INTENT_STATUS"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="cn.nubia.calendar.submodule_alerts.AlertService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="cn.nubia.calendar.submodule_alerts.DismissAlarmsService"/>
+        <service android:name="cn.nubia.calendar.submodule_alerts.SnoozeAlarmsService"/>
+        <service android:name="cn.nubia.databackup.newsolution.aidl.DataBackupService">
+            <intent-filter>
+                <action android:name="cn.nubia.backup.action.Engine"/>
+            </intent-filter>
+        </service>
+        <service android:name="cn.nubia.SportsGameEvents.SportsDefView.ShowNotificationService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:label="@string/gadget_title" android:name="cn.nubia.calendar.ui_component.widget.CalendarAppWidgetProvider">
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.dataupdate"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="cn.nubia.calendar.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_info"/>
+        </receiver>
+        <receiver android:label="@string/gadget_title" android:name="cn.nubia.calendar.ui_component.widget.CalendarPressWidgetProvider">
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.dataupdate"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="cn.nubia.calendar.APPWIDGET_UPDATE"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/presswidget_info"/>
+        </receiver>
+        <receiver android:name="cn.nubia.calendar.ui_component.widget.CalendarAppWidgetService$CalendarFactory">
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.dataupdate"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.calendar.APPWIDGET_SCHEDULED_UPDATE"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
+                <data android:mimeType="vnd.android.data/update"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:name="cn.nubia.SportsGameEvents.SportsDefView.RemindReceive">
+            <intent-filter>
+                <action android:name="cn.nubia.SportsGameEvents.SportsDefView.RemindReceiveAction"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="cn.nubia.calendar.ui_component.widget.CalendarAppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:name="cn.nubia.calendar.AsyncQueryServiceHelper"/>
+        <activity android:name="cn.nubia.calendar.submodule_agenda.activity.PictureBrowserActivity" android:screenOrientation="portrait" android:theme="@style/PictureBrowserStyle"/>
+        <service android:name="cn.nubia.calendar.submodule_agenda.ContactsBirthdayGenerateService">
+            <intent-filter>
+                <action android:name="com.ztemt.service.ADD_BIRTHDAY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="cn.nubia.upgrade.service.UpgradeService" android:process="cn.nubia.upgradeService"/>
+        <service android:exported="true" android:name="cn.nubia.upgrade.service.UpgradeJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process="cn.nubia.upgradeService"/>
+        <service android:exported="true" android:icon="@drawable/calendar" android:label="@string/app_label" android:name="cn.nubia.calendar.cloud.CalendarSyncService" android:permission="nubia.permission.cloud">
+            <intent-filter>
+                <action android:name="nubia.cloud.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="nubia.cloud.module.RecyclebinAction" android:value="nubia.cloud.SyncRecyclebinAdapter"/>
+            <meta-data android:name="nubia.cloud.module.Token" android:value="com.android.calendar"/>
+            <meta-data android:name="nubia.cloud.module.Type" android:value="3"/>
+            <meta-data android:name="nubia.cloud.module.GroupType" android:value="sync"/>
+            <meta-data android:name="nubia.cloud.module.ResPkgName" android:value="cn.nubia.calendar.preset"/>
+        </service>
+        <activity android:label="@string/preferences_home_tz_title" android:name="cn.nubia.calendar.settings.NewCitiesActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/default_reminder_time" android:name="cn.nubia.calendar.settings.ReminderDefaultTimeActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/reminder_time" android:name="cn.nubia.calendar.submodule_agenda.activity.EventViewReminderTimeActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/accessibility_repeats" android:name="cn.nubia.calendar.submodule_agenda.activity.EventViewReminderMethodActivity" android:screenOrientation="portrait" android:theme="@style/Calendarsetting.ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.nubia.calendar.provider.customholidaymapprovider" android:exported="true" android:name="cn.nubia.calendar.db.CustomHolidayMapProvider"/>
+        <provider android:authorities="cn.nubia.calendar.provider.customweekendworkprovider" android:exported="true" android:name="cn.nubia.calendar.db.CustomWeekendWorkProvider"/>
+        <provider android:authorities="cn.nubia.calendar.provider.CustomFestivalProvider" android:exported="true" android:name="cn.nubia.calendar.db.CustomFestivalProvider"/>
+        <activity android:exported="true" android:label="@string/app_calendar_recyclebin" android:name="cn.nubia.calendar.cloud.recyclebin.CalendarRecyclebinActivity" android:theme="@style/Calendarsetting.ActionBar">
+            <intent-filter>
+                <action android:name="nubia.cloud.SyncRecyclebinAdapter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.nubia.calendar.preset.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <provider android:authorities="cn.nubia.calendar.preset.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.huanju.ssp.base.core.SspFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/ssp_file_paths"/>
+        </provider>
+    </application>
+</manifest>

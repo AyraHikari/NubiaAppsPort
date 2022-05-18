@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/top_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/notepad_recycle_sum_text_size" android:textColor="@color/notepad_recycle_sum_color" android:gravity="center_vertical" android:id="@id/group_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip" android:layout_marginStart="@dimen/notepad_list_item_margin_right" android:layout_marginEnd="@dimen/notepad_list_item_margin_right" />
+    <View android:background="@color/notepad_list_item_speartor" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_item_speartor_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

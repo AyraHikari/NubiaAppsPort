@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.demo3.MyLinearLayout android:orientation="vertical" android:id="@id/ly1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.demo3.MonthWeekView android:gravity="center" android:id="@id/view1" android:layout_width="fill_parent" android:layout_height="51.0dip" />
+    <cn.nubia.demo3.MonthWeekView android:gravity="center" android:id="@id/view2" android:layout_width="fill_parent" android:layout_height="51.0dip" />
+    <cn.nubia.demo3.MonthWeekView android:gravity="center" android:id="@id/view3" android:layout_width="fill_parent" android:layout_height="51.0dip" />
+    <cn.nubia.demo3.MonthWeekView android:gravity="center" android:id="@id/view4" android:layout_width="fill_parent" android:layout_height="51.0dip" />
+    <cn.nubia.demo3.MonthWeekView android:gravity="center" android:id="@id/view5" android:layout_width="fill_parent" android:layout_height="51.0dip" />
+</cn.nubia.demo3.MyLinearLayout>

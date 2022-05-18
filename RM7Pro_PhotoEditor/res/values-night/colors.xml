@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#ff0f0f0f</color>
+    <color name="load_progress_color">#ffbd2020</color>
+    <color name="nubia_activated_button">#ffbd2020</color>
+    <color name="nubia_activated_button_press">#4dbd2020</color>
+    <color name="nubia_button_text_color_primary">#ffffffff</color>
+    <color name="nubia_common_activated_green">#ffffffff</color>
+    <color name="nubia_dialog_choice_title_text_color">#80ffffff</color>
+    <color name="nubia_dialog_message_text_color">#80ffffff</color>
+    <color name="nubia_settext_color">#e6ffffff</color>
+    <color name="pression_content_content_text_color">#96ffffff</color>
+    <color name="pression_tips_title_text_color">#e5ffffff</color>
+    <color name="title_color">#91ffffff</color>
+    <color name="txt_main_color">#ffffffff</color>
+    <color name="nubia_center_alert_dialog_title_color">#ffffffff</color>
+</resources>

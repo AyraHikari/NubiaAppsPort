@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="vertical" android:id="@id/reminder_default_time_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radiobutton1" android:text="@string/preferences_default_reminder_radiobutton1" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton2" android:text="@string/preferences_default_reminder_radiobutton2" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton3" android:text="@string/preferences_default_reminder_radiobutton3" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton4" android:text="@string/preferences_default_reminder_radiobutton4" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton5" android:text="@string/preferences_default_reminder_radiobutton5" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton6" android:text="@string/preferences_default_reminder_radiobutton6" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton7" android:text="@string/preferences_default_reminder_radiobutton7" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton8" android:text="@string/preferences_default_reminder_radiobutton8" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton9" android:text="@string/preferences_default_reminder_radiobutton9" style="@style/ScreenTimeoutRadioItem" />
+</RadioGroup>

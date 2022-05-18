@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/title_bar_text_size" android:textColor="@color/notepad_list_item_title_color" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="@dimen/action_bar_size" android:layout_centerHorizontal="true" />
+    <cn.nubia.notepad.view.NotePadGridView android:gravity="center" android:id="@id/gv_img" android:paddingTop="@dimen/notepad_image_floder_list_padding_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="@dimen/notepad_image_list_horizontal_spacing" android:verticalSpacing="@dimen/notepad_image_list_vertical_spacing" android:stretchMode="columnWidth" android:numColumns="4" android:layout_above="@id/bottom_menu" android:layout_below="@id/title" android:paddingStart="@dimen/notepad_image_floder_list_padding_left" android:paddingEnd="@dimen/notepad_image_floder_list_padding_right" />
+    <include android:id="@id/notepad_image_list_loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/notepad_loading_layout" />
+    <LinearLayout android:gravity="center" android:id="@id/bottom_menu" android:background="@color/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+        <Button android:ellipsize="marquee" android:id="@id/nubia_dialog_activity_cancel" android:layout_width="131.0dip" android:layout_height="36.0dip" android:text="@android:string/cancel" android:maxLines="1" android:onClick="OnNegativeButtonClick" style="@style/Widget.Nubia.Button.Color1" />
+        <Button android:ellipsize="marquee" android:id="@id/nubia_dialog_activity_ok" android:layout_width="131.0dip" android:layout_height="36.0dip" android:text="@android:string/ok" android:maxLines="1" android:onClick="OnPositiveButtonClick" android:layout_marginStart="18.0dip" style="@style/Widget.Nubia.Button.Color1" />
+    </LinearLayout>
+</RelativeLayout>

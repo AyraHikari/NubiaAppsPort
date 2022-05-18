@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/base_detail_head" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen_600">
+        <ImageView android:id="@id/gaussian_blur" android:background="#ffb2b2b2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/music_album_above" android:background="#ccffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/album_head" android:layout="@layout/album_detail_head" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_300" android:layout_marginBottom="@dimen/dimen_66" />
+    </FrameLayout>
+    <LinearLayout android:paddingTop="@dimen/dimen_48" android:paddingBottom="@dimen/dimen_24" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/playAll" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_54" android:layout_weight="1.0">
+            <ImageView android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:src="@drawable/mini_play_selector" />
+            <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_48" android:textColor="@color/black" android:ellipsize="marquee" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30" android:text="@string/play_all" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/addFavorite" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_54" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/add_favorite_list" android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:src="@drawable/nofav_circle_icon" />
+            <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_48" android:textColor="@color/black" android:ellipsize="marquee" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30" android:text="@string/store_music" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#28000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

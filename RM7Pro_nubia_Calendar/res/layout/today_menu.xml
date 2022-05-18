@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/menu_today" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/today_menu_paddingleft" android:paddingEnd="@dimen/today_menu_paddingright"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/nubia_action_menu_text_size" android:textColor="@color/nubia_res_dim_foreground_holo_light" android:gravity="center" android:id="@id/today_date" android:background="?menuItemBackground" android:layout_width="@dimen/nubia_action_bar_menu_size" android:layout_height="@dimen/nubia_action_bar_menu_size" />
+    <TextView android:textSize="@dimen/nubia_action_bottom_menu_text_size" android:textColor="@color/nubia_res_dim_foreground_holo_light" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/goto_today" />
+</LinearLayout>

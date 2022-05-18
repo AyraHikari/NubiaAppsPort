@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_weight="1.0" android:layout_marginEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/color" android:layout_width="30.0dip" android:layout_height="30.0dip" android:cropToPadding="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="8.0dip" />
+    <TextView android:ellipsize="marquee" android:id="@id/calendar" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_marginStart="44.0dip" style="@style/TextAppearance.SelectCalendar_Name" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/status" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/calendar" android:layout_alignStart="@id/calendar" />
+    <CheckBox android:id="@id/visible_check_box" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

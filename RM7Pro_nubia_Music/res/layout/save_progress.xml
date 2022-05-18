@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/scanmusic_progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/scan_progress_padding_horizontal" android:layout_marginTop="@dimen/scan_progress_padding_left_px" android:layout_marginRight="@dimen/scan_progress_padding_horizontal" android:max="100" android:progress="0" android:indeterminate="true" android:minHeight="@dimen/ark_6_px" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="@dimen/ark_42_px" android:textColor="@color/musiclist_plaall_bar" android:gravity="center" android:layout_gravity="center" android:id="@id/scanpercenet_textview" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/scan_progress_padding_horizontal" android:layout_marginTop="@dimen/scan_progress_textview_margintop" android:layout_marginRight="@dimen/scan_progress_padding_horizontal" android:text="@string/saving" />
+</LinearLayout>

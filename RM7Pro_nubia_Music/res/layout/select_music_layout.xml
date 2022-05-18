@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/select_music_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_title_layout" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <TextView android:textSize="@dimen/ark_textsize_huge" android:textColor="#ff000000" android:id="@id/select_item_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_none_item" android:layout_centerInParent="true" />
+        <View android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bottom_confirm_layout" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/confirm_textview" android:background="@drawable/button_selector" android:layout_width="@dimen/dimen_469" android:layout_height="@dimen/dimen_108" android:text="@string/confirm" android:layout_centerInParent="true" />
+        <View android:id="@id/left_divider" android:background="@color/black_15" android:layout_width="2.0px" android:layout_height="@dimen/dimen_72" android:layout_marginLeft="@dimen/dimen_12" android:layout_marginRight="@dimen/dimen_48" android:layout_toLeftOf="@id/confirm_textview" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cancel_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/action_mode_close_menu" android:text="@string/cancel" android:layout_toLeftOf="@id/left_divider" android:layout_centerVertical="true" style="@style/ArkWhiteTransparent87HugeTextStyle" />
+        <View android:id="@id/right_divider" android:background="@color/black_15" android:layout_width="2.0px" android:layout_height="@dimen/dimen_72" android:layout_marginLeft="@dimen/dimen_48" android:layout_marginRight="@dimen/dimen_12" android:layout_toRightOf="@id/confirm_textview" android:layout_centerVertical="true" />
+        <ImageView android:textSize="@dimen/ark_textsize_big" android:layout_gravity="center_vertical" android:id="@id/select_all_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/select_none_icon" android:layout_toRightOf="@id/right_divider" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_confirm_layout" android:layout_below="@id/top_title_layout">
+        <ListView android:id="@id/list_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+        <View android:background="#28000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_black_transparent_54" android:id="@id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scan_no_audio_tip" android:drawableTop="@drawable/empty_icon" android:drawablePadding="15.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

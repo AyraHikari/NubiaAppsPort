@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Ocupat</item>
+        <item>Disponibil</item>
+        <item>Tentativă</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Zi</item>
+        <item>Săptămână</item>
+        <item>Lună</item>
+        <item>Agendă</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Doar acest eveniment</item>
+        <item>Toate evenimentele din serie</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Doar acest eveniment</item>
+        <item>Acest eveniment şi cele viitoare</item>
+        <item>Toate evenimentele</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Acesta şi evenimentele viitoare</item>
+        <item>Toate evenimentele</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>primul</item>
+        <item>al doilea</item>
+        <item>al treilea</item>
+        <item>al patrulea</item>
+        <item>ultimul</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Întotdeauna</item>
+        <item>Numai când profilul este Silenţios</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Niciunul</item>
+        <item>0 minute</item>
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 de minute</item>
+        <item>25 de minute</item>
+        <item>30 de minute</item>
+        <item>45 de minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>12 ore</item>
+        <item>24 de ore</item>
+        <item>2 zile</item>
+        <item>1 săptămână</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Codul local prestabilit</item>
+        <item>Sâmbătă</item>
+        <item>Duminică</item>
+        <item>Luni</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Întârzii numai câteva minute.</item>
+        <item>Ajung în aproximativ 10 minute.</item>
+        <item>Începeţi fără mine.</item>
+        <item>Îmi pare rău, nu pot să ajung. Va trebui să ne vedem altădată.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notificare</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Alarmă</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minute</item>
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 de minute</item>
+        <item>25 de minute</item>
+        <item>30 de minute</item>
+        <item>45 de minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>12 ore</item>
+        <item>24 de ore</item>
+        <item>2 zile</item>
+        <item>1 săptămână</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Niciun răspuns</item>
+        <item>Da</item>
+        <item>Poate</item>
+        <item>Nu</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Insulele Marshall</item>
+        <item>Insula Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Ora coastei Pacificului</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Ora regiunii muntoase</item>
+        <item>America Centrală</item>
+        <item>Ora Regiunii centrale</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Ora regiunii estice</item>
+        <item>Venezuela</item>
+        <item>Oră Atlantic (Barbados)</item>
+        <item>Oră Atlantic (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenlanda</item>
+        <item>Montevideo</item>
+        <item>Atlanticul de Mijloc</item>
+        <item>Insulele Azore</item>
+        <item>Ins. Capului Verde</item>
+        <item>Casablanca</item>
+        <item>Londra, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Ora Africii de Vest</item>
+        <item>Amman, Iordania</item>
+        <item>Atena, Istanbul</item>
+        <item>Beirut, Liban</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Ierusalim</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moscova</item>
+        <item>Kuweit</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Prestabilit</item>
+        <item>Privat</item>
+        <item>Public</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Prestabilit</item>
+        <item>Dezactivaţi sunetul</item>
+        <item>Vibrare</item>
+        <item>apel</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Hartă</item>
+        <item>Vreme</item>
+        <item>Alimente</item>
+        <item>Zbor</item>
+        <item>Hotel</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Capturare imagine</item>
+        <item>Fotografii</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Întotdeauna</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>E-mail</item>
+        <item>Bluetooth</item>
+        <item>Mesaj</item>
+    </string-array>
+</resources>

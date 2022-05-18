@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/corner_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="@color/textColor2nd" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="15.0dip" android:text="@string/home_dts" />
+    <cn.nubia.touping.View.SingleChoiceItem android:id="@id/sound_dts_wiredless_default" android:layout_width="fill_parent" android:layout_height="56.0dip" app:item_text="@string/sound_dts_defualt" />
+    <cn.nubia.touping.View.SingleChoiceItem android:id="@id/sound_dts_wiredless_step_up" android:layout_width="fill_parent" android:layout_height="56.0dip" app:item_text="@string/sound_dts_step_up" />
+    <cn.nubia.touping.View.SingleChoiceItem android:id="@id/sound_dts_wiredless_earphone" android:layout_width="fill_parent" android:layout_height="56.0dip" app:item_text="@string/sound_dts_earphone" />
+    <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:layout_gravity="center" android:id="@id/sound_dts_cancel" android:background="@drawable/nubia_btn_default_material" android:layout_width="216.0dip" android:layout_height="40.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="30.0dip" android:text="@string/home_cancel" />
+</LinearLayout>

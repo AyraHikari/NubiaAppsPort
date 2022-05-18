@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/nubia_bottom_bar_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_divide_line_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nubia_bottom_bar_left_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/nubia_bottom_bar_left_image" android:background="@drawable/weather_action_mode_bottom_close_material" android:layout_width="@dimen/nubia_bottom_bar_image_size" android:layout_height="@dimen/nubia_bottom_bar_image_size" android:layout_marginStart="@dimen/nubia_bottom_bar_padding_start" android:layout_marginEnd="@dimen/nubia_bottom_bar_padding_end" />
+        <View android:id="@id/nubia_bottom_bar_left_divider" android:background="@color/city_list_bottom_divider_color" android:visibility="visible" android:layout_width="@dimen/weather_citylist_bottom_divider_width" android:layout_height="@dimen/weather_citylist_bottom_divider_height" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nubia_bottom_bar_right_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+        <View android:id="@id/nubia_bottom_bar_right_divider" android:background="@color/city_list_bottom_divider_color" android:visibility="visible" android:layout_width="@dimen/weather_citylist_bottom_divider_width" android:layout_height="@dimen/weather_citylist_bottom_divider_height" />
+        <CheckedTextView android:id="@id/nubia_bottom_bar_right_image" android:background="@drawable/nubia_action_mode_bottom_select_icon_state" android:layout_width="@dimen/nubia_bottom_bar_image_size" android:layout_height="@dimen/nubia_bottom_bar_image_size" android:layout_marginStart="@dimen/nubia_bottom_bar_padding_end" android:layout_marginEnd="@dimen/nubia_bottom_bar_padding_start" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/nubia_text_size_medium_no_change" android:textColor="@drawable/add_city_text_selector" android:ellipsize="end" android:id="@id/nubia_bottom_bar_mid_btn" android:background="@drawable/add_city_img_back_selector" android:layout_width="216.0dip" android:layout_height="36.0dip" android:maxLines="1" android:layout_centerInParent="true" style="@style/NubiaFontMedium" />
+</RelativeLayout>

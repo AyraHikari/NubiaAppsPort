@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.NubiaScrollView android:id="@id/specification_scroll" android:background="@color/specification_bg_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/specification_introduction_layout" android:background="@drawable/specification_triaxial_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dimens_33" android:textColor="@color/specification_title_text_color" android:gravity="center" android:paddingTop="@dimen/dimens_66" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/triaxial_specification_title" />
+                <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_title_text_color" android:gravity="center" android:paddingTop="@dimen/dimens_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/triaxial_specification_introduction_tip" />
+                <com.android.common.ui.InnerScrollView style="@style/InnerScrollViewStyle">
+                    <TextView android:text="@string/triaxial_specification_introduction_content" style="@style/SpecificationIntroductionText" />
+                </com.android.common.ui.InnerScrollView>
+            </LinearLayout>
+            <include layout="@layout/specification_ready_layout2" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16">
+                <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_method_title" />
+                <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/triaxial_specification_method1" />
+                <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/triaxial_specification_method2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16">
+                <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_where_title" />
+                <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/triaxial_specification_where" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16">
+                <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_photo_title" />
+                <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/triaxial_specification_photo1" android:lineSpacingExtra="@dimen/dimens_line_spacing_extra" />
+                <cn.nubia.nubiaimage3d.Image3dView android:id="@id/specification_image3dView1" android:background="@drawable/image3d_40" android:layout_width="328.0dip" android:layout_height="185.0dip" android:layout_marginTop="@dimen/dimens_16" />
+                <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_24" android:text="@string/triaxial_specification_photo2" android:lineSpacingExtra="@dimen/dimens_line_spacing_extra" />
+                <cn.nubia.nubiaimage3d.Image3dView android:id="@id/specification_image3dView2" android:background="@drawable/specification_triaxial_photo40" android:layout_width="328.0dip" android:layout_height="185.0dip" android:layout_marginTop="@dimen/dimens_16" />
+            </LinearLayout>
+            <include layout="@layout/specification_logo_layout" />
+        </LinearLayout>
+    </com.android.common.ui.NubiaScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimens_48">
+        <ImageView android:id="@id/specification_title_bar_bg" android:background="@drawable/specification_title_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_48" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/specification_title_bar" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_48" android:paddingStart="@dimen/dimens_8">
+            <ImageButton android:id="@id/specification_back_button" android:background="@drawable/specification_back_normal" android:layout_width="@dimen/dimens_24" android:layout_height="@dimen/dimens_36" />
+            <TextView android:textSize="@dimen/dimens_16" android:textColor="@color/specification_title2_text_color" android:id="@id/specification_title" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/triaxial_specification_tobbar_title" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/actionBarLayout" android:layout_width="fill_parent" android:layout_height="@dimen/collage_activity_actionbar_height">
+        <ImageView android:id="@id/backImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back_white" android:layout_centerVertical="true" android:paddingStart="@dimen/collage_activity_actionbar_left_padding" />
+        <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/backTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/backImageView" />
+    </RelativeLayout>
+    <View android:background="@color/ten_white" android:layout_width="fill_parent" android:layout_height="0.70000005dip" />
+    <GridView android:gravity="center" android:id="@id/myGrid" android:paddingTop="@dimen/material_grid_vertical_padding" android:paddingBottom="@dimen/material_grid_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="@dimen/material_grid_vertical_padding" android:stretchMode="columnWidth" android:columnWidth="@dimen/material_Item_width" android:numColumns="3" />
+</LinearLayout>

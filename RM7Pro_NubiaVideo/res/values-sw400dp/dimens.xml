@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gallery_item_height">402.0dip</dimen>
+    <dimen name="gallery_item_image_height">333.0dip</dimen>
+    <dimen name="gallery_item_image_width">250.0dip</dimen>
+    <dimen name="gallery_item_text_height">69.0dip</dimen>
+</resources>

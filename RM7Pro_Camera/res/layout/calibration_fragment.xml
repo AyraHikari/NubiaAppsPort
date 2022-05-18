@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="60.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/highlight_color" android:gravity="center" android:id="@id/test_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sale_cali_count" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/highlight_color" android:gravity="center" android:id="@id/camera_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/sale_cali_bokeh_main" android:layout_below="@id/test_count" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

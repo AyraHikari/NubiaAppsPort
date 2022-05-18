@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@color/city_add_search_city_list_divide_color" android:insetLeft="@dimen/weather_cityadd_query_city_text_padding_left" android:insetRight="@dimen/weather_cityadd_query_city_text_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

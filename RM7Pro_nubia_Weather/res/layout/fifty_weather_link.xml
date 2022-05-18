@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fifty_weather_link" android:layout_width="360.0dip" android:layout_height="30.0dip" android:layout_marginTop="0.0dip" android:layout_below="@id/daily_list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/weather_main_air_alarm_text" android:textColor="#fffefefe" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/fifty_link" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="121.32999dip" android:layout_height="30.0dip" android:layout_marginLeft="119.32999dip" android:layout_marginRight="119.32999dip" android:text="@string/fifity_trend_forecast" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

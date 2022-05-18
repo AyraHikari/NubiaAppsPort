@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/snapshot" android:visible="true" android:title="@string/snapshot" />
+    <item android:id="@id/share" android:visible="true" android:title="@string/share" />
+    <item android:id="@id/details" android:visible="true" android:title="@string/details" />
+</menu>

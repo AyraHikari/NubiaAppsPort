@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/prisma_slidingdrawer" />
+    <RelativeLayout android:id="@id/prisma_anim" android:background="@color/bar_background" android:visibility="gone" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/prisma_anim_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/prisma_anim_icon" android:focusable="false" android:layout_width="@dimen/dimens_64" android:layout_height="@dimen/dimens_64" android:src="@drawable/camera_shutter" android:layout_centerInParent="true" camera:button_color="white" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+    </RelativeLayout>
+    <include layout="@layout/prisma_preview_layout" />
+</RelativeLayout>

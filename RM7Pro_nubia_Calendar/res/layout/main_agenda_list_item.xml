@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/color_square" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" android:layout_marginEnd="30.0dip" />
+            <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/title_text_color" android:ellipsize="end" android:id="@id/event_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:fontFamily="nubiafont-medium" android:layout_marginEnd="16.0dip" android:elegantTextHeight="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="68.0dip">
+            <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:ellipsize="end" android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <ImageView android:id="@id/repeat_icon" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_repeat_dark" android:layout_marginStart="5.0dip" />
+            <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:ellipsize="end" android:id="@id/where" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_marginEnd="16.0dip" style="@style/EditEventItemTimeStyle" />
+</LinearLayout>

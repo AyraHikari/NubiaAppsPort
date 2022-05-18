@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/notepad_editor_record_layout" android:background="@color/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:paddingStart="@dimen/edit_note_margin" android:paddingEnd="@dimen/edit_note_margin">
+        <ImageView android:id="@id/record_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/list_item_image_margin" />
+        <ImageView android:id="@id/record_right_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/list_item_image_margin" />
+        <cn.nubia.notepad.view.VisualizerView android:id="@id/record_visualizer_view" android:layout_width="0.0dip" android:layout_height="@dimen/notepad_record_visualizer_view_height" android:layout_weight="1.0" android:layout_marginEnd="@dimen/list_item_image_margin" />
+        <cn.nubia.notepad.view.WaveView android:id="@id/waveLineView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/notepad_record_visualizer_view_height" android:layout_weight="1.0" android:layout_marginEnd="@dimen/list_item_image_margin" app:waveColor="@color/recording_color_0" app:baselineColor="@color/recording_color_0" app:waveStokeWidth="1.0dip" />
+        <TextView android:textSize="@dimen/notepad_record_time_text_size" android:textColor="@color/notepad_title_text_color" android:id="@id/record_tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/list_item_image_margin" />
+    </LinearLayout>
+</LinearLayout>

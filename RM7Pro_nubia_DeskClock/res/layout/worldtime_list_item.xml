@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/world_time_item_height" android:minHeight="@dimen/world_time_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dc="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/vertical_list_view_margin" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/worldtime_cityname_textsize" android:textColor="@color/world_time_city_name" android:ellipsize="end" android:id="@id/worldtime_cityname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/worldtime_cityname_max_width" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceExtraSmall" android:textSize="@dimen/worldtime_ealy_late_time_textsize" android:textColor="@color/world_time_city_date" android:id="@id/ealy_late_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <cn.nubia.deskclock.ui.DigitalTime android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/worldtime_digital_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/vertical_list_view_margin" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/worldtime_am_pm_textsize" android:textColor="@color/world_time_city_am_pm" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.669983dip" android:layout_marginBottom="19.0dip" android:singleLine="true" />
+        <TextView android:ellipsize="none" android:id="@id/timeDisplay" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6.0dip" style="@style/Z7worldtime_digital" />
+    </cn.nubia.deskclock.ui.DigitalTime>
+    <CheckBox android:id="@id/worldtime_checked" android:focusable="false" android:visibility="gone" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/vertical_list_view_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/nubia_pulldown_top_weekday_textsize" android:gravity="start" android:id="@id/top_button_weekday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="22.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/black_text_color" android:id="@id/top_button_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/actionbar_top_date_padding_left" />
+</LinearLayout>

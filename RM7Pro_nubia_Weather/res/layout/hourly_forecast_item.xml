@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_search" android:layout_width="60.0dip" android:layout_height="127.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/weather_realtime_time_text" android:textColor="@color/weather_main_text_dark" android:layout_gravity="center" android:id="@id/hourly_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+    <ImageView android:layout_gravity="center" android:id="@id/hourly_type_img" android:padding="3.0dip" android:layout_width="@dimen/weather_main_forecast_icon" android:layout_height="@dimen/weather_main_forecast_icon" android:layout_marginTop="@dimen/weather_realtime_type_padding" />
+    <TextView android:textSize="@dimen/weather_realtime_time_text" android:textColor="@color/weather_main_text_dark" android:layout_gravity="center" android:id="@id/hourly_temp_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_realtime_type_padding" android:fontFamily="sans-serif" />
+</LinearLayout>

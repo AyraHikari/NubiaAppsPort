@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.commonui.actionbar.internal.widget.ActionBarTitleTextView android:ellipsize="marquee" android:id="@id/action_bar_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:ellipsize="end" android:id="@id/action_bar_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abc_action_bar_subtitle_top_margin_material" android:singleLine="true" />
+</LinearLayout>

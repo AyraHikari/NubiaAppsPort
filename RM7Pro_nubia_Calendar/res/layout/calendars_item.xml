@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="end" android:id="@id/calendar_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <ImageView android:background="@drawable/spinner_show_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/calendar_name" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/edit_event_picture_remove_margin_right" android:layout_alignParentEnd="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@id/account_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/calendar_name" android:layout_alignStart="@id/calendar_name" style="?android:attr/spinnerItemStyle" />
+</RelativeLayout>

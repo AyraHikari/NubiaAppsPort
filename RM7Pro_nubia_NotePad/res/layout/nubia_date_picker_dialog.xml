@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.nubia.commonui.widget.DatePickerView android:layout_gravity="center_horizontal" android:id="@id/nubia_date_picker_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" />
+        <View android:id="@id/nubia_date_picker_dialog_divider" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/nubia_lunar_date_layout" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nubia_list_preferred_item_height_small">
+            <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/nubia_lunar_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="?android:listPreferredItemPaddingLeft" android:layout_alignParentStart="true" />
+            <cn.nubia.commonui.widget.NubiaSwitch android:id="@id/nubia_switch_button" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="?android:listPreferredItemPaddingLeft" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/corner_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="15.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/textColor2nd" android:id="@id/broseDialogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_searching" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/textColor2nd" android:id="@id/dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/broseDialogTitle" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/device_list_layout" android:layout_width="fill_parent" android:layout_height="150.0dip">
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/textColor2nd" android:gravity="center_vertical" android:id="@id/no_wanted_device_found_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/no_wanted_device_tip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <ListView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/background_color_00000000" android:divider="@color/divider_color" android:dividerHeight="1.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/textColor4th" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/broseDeviceDoing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="150.0dip" android:text="@string/browsedevice_link_status_ing" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" android:lineHeight="20.0sp" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/textColor4th" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/no_device_found_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="150.0dip" android:text="@string/no_device_found_tip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="30.0dip">
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:id="@id/cancle" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/home_cancel" />
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:id="@id/research" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/research" android:layout_marginStart="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

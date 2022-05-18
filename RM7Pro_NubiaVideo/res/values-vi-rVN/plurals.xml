@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Bạn có chắc chắn muốn xóa tất cả các mục đã chọn không?</item>
+        <item quantity="one">Bạn có chắc chắn muốn xóa tất cả các mục đã chọn không?</item>
+    </plurals>
+    <plurals name="number_of_items_hide_selected">
+        <item quantity="other">ẩn %1$d</item>
+        <item quantity="zero">ẩn %1$d</item>
+        <item quantity="one">ẩn %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+        <item quantity="zero">Đã chọn %1$d</item>
+        <item quantity="one">Đã chọn %1$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut id="alarmclock_shortcut" icon="forcetouch_alarmclock" label="alarmclock_text" rank="3">
+        <intent android:name="cn.nubia.deskclock.ADDALARM" android:targetPackage="cn.nubia.deskclock.preset" android:targetClass="cn.nubia.deskclock.activity.AddAlarmActivity" />
+    </shortcut>
+    <shortcut id="countdown_shortcut" icon="forcetouch_countdown" label="countdown_text" rank="2">
+        <intent android:targetPackage="cn.nubia.deskclock.preset" android:action="cn.nubia.deskclock.NEW_COUNTDOWN" android:targetClass="cn.nubia.deskclock.DeskClock" />
+    </shortcut>
+    <shortcut id="stopwatch_shortcut" icon="forcetouch_stopwatch" label="stopwatch_text" rank="1">
+        <intent android:targetPackage="cn.nubia.deskclock.preset" android:action="cn.nubia.deskclock.NEW_STOPWATCH" android:targetClass="cn.nubia.deskclock.DeskClock" />
+    </shortcut>
+</shortcuts>

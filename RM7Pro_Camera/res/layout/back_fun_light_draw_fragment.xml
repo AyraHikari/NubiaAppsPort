@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/back_fun_light_draw_preview" />
+    <RelativeLayout android:id="@id/light_draw_bottom_layout" style="@style/InnerBottomBarSize">
+        <include layout="@layout/lightpainting_bottom_layout" />
+    </RelativeLayout>
+    <include layout="@layout/stop_bottombar" />
+</RelativeLayout>

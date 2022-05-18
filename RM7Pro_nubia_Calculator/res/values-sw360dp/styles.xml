@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PadButtonStyle_split.Advanced" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle_split.Advanced.Text" parent="@style/PadButtonStyle_split.Advanced">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle_split.Clr" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/corner_left</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">Roboto-Regular</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Add" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_add_port</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Del" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/portrait_blackspace_icon</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Div" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:background">@drawable/corner_right</item>
+        <item name="android:src">@drawable/ic_divide_port</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Eq" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/eq_split</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Mul" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_mul_port</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Sub" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/ic_sub_port</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Text" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:fontFamily">@font/zdigit_medium</item>
+    </style>
+</resources>

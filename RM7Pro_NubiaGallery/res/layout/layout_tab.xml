@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.gallery3d.ui.GalleryTabLayout android:id="@id/gallery_tab" android:background="@color/tab_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/tab_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/tab_txt_unselect_color" android:id="@id/tab_camera" android:text="@string/tab_camera" android:drawableTop="@drawable/ic_tab_camera" style="@style/TabItemStyle" />
+        <TextView android:textColor="@color/tab_txt_select_color" android:id="@id/tab_album" android:text="@string/tab_albumset" android:drawableTop="@drawable/ic_tab_album_checked" style="@style/TabItemStyle" />
+        <TextView android:textColor="@color/tab_txt_unselect_color" android:id="@id/tab_cloud" android:visibility="visible" android:text="@string/tab_cloud" android:drawableTop="@drawable/ic_tab_cloud" style="@style/TabItemStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/tab_more" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/tab_more_normal" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+</cn.nubia.gallery3d.ui.GalleryTabLayout>

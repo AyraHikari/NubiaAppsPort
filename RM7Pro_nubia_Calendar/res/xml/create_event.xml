@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut id="calendar_presswidget" icon="create_calendarevent" label="event_create">
+        <intent android:targetPackage="cn.nubia.calendar.preset" android:action="cn.nubia.intent.action.CreateEvent" android:targetClass="cn.nubia.calendar.submodule_agenda.activity.EditEventActivity" />
+    </shortcut>
+</shortcuts>

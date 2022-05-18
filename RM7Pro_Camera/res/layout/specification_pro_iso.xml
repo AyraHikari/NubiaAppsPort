@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pro_iso_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/highlight_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_iso_title_context" />
+        <RelativeLayout android:background="@drawable/pro_icon_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_139" android:layout_marginTop="@dimen/dimens_16">
+            <ImageView android:background="@drawable/pro_iso1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context1" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_iso_title_context2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context3" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22">
+            <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context4_1" />
+            <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context4_2" android:layout_marginStart="@dimen/dimens_22" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/pro_iso2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22">
+            <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context5_1" />
+            <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_iso_title_context5_2" android:layout_marginStart="@dimen/dimens_22" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/pro_iso3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+    </LinearLayout>
+</LinearLayout>

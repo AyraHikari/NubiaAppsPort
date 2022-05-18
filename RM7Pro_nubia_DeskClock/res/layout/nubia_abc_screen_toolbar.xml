@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/nubia_fake_status_bar" android:background="?fakeStatusBarBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_status_bar_height" />
+    <cn.nubia.commonui.actionbar.internal.widget.ActionBarOverlayLayout android:id="@id/decor_content_parent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/abc_screen_content_include" />
+        <cn.nubia.commonui.actionbar.internal.widget.ActionBarContainer android:gravity="top" android:id="@id/action_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:touchscreenBlocksFocus="true" style="?attr/actionBarStyle">
+            <cn.nubia.commonui.actionbar.internal.widget.ActionBarView android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/actionBarStyle" />
+            <cn.nubia.commonui.actionbar.internal.widget.ActionBarContextView android:id="@id/action_context_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/actionModeStyle" />
+        </cn.nubia.commonui.actionbar.internal.widget.ActionBarContainer>
+        <cn.nubia.commonui.actionbar.internal.widget.ActionBarContainer android:gravity="center" android:id="@id/split_action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="true" style="?attr/actionBarSplitStyle" />
+    </cn.nubia.commonui.actionbar.internal.widget.ActionBarOverlayLayout>
+</LinearLayout>

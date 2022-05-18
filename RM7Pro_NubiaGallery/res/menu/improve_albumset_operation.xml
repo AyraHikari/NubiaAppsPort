@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/improve_unselect_all" android:id="@id/select_all" android:visible="false" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_delete_operation" android:id="@id/action_delete_albumset" android:visible="true" android:title="@string/delete" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_cloud_download_operation" android:id="@id/action_shift_in" android:visible="false" android:title="@string/menu_shift_in" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_cloud_download_operation" android:id="@id/action_shift_out" android:visible="false" android:title="@string/menu_shift_out" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_ignore_operation" android:id="@id/action_ignore" android:visible="false" android:title="@string/menu_ignore" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_hide_operation" android:id="@id/action_hide" android:visible="false" android:title="@string/menu_hide" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_hide_cancel_operation" android:id="@id/action_hide_cancel" android:visible="false" android:title="@string/menu_hide_cancel" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_merge_operation" android:id="@id/action_merge" android:visible="false" android:title="@string/menu_merge" app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Sicuri di voler cancellare tutti gli item selezionati?</item>
+        <item quantity="one">Sicuri di voler cancellare tutti gli item selezionati?</item>
+    </plurals>
+    <plurals name="number_of_items_hide_selected">
+        <item quantity="other">Скрыть: %1$d</item>
+        <item quantity="zero">Скрыть: %1$d</item>
+        <item quantity="one">Скрыть: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Выбрано: %1$d</item>
+        <item quantity="zero">Выбрано: %1$d</item>
+        <item quantity="one">Выбрано: %1$d</item>
+    </plurals>
+</resources>

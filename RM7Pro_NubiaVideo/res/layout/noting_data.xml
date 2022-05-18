@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titleLayout" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height" android:layout_marginTop="@dimen/activity_statusbar_height" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <include layout="@layout/vertical_actionbar" />
+    </RelativeLayout>
+    <View android:id="@id/dividerView" android:background="@color/ten_white" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_below="@id/titleLayout" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dividerView" android:layout_alignParentStart="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_content" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/nocontent_color" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/no_content" android:layout_below="@id/imageView" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

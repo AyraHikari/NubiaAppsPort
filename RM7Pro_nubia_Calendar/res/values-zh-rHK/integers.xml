@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MONTH_NUMBER_INITY_MARGIN">5</integer>
+    <integer name="MONTH_NUMBER_INIT_MARGINX">39</integer>
+    <integer name="MONTH_NUMBER_INIT_STARTNINE2ELE">25</integer>
+    <integer name="MONTH_NUMBER_INIT_STARTSIX2EIG">19</integer>
+    <integer name="MONTH_NUMBER_INIT_STARTTHREE2TFIV">13</integer>
+    <integer name="MONTH_NUMBER_INIT_STARTY">136</integer>
+    <integer name="MONTH_NUMBER_INIT_STARTZERO2TWO">4</integer>
+    <integer name="MONTH_NUMBER_PATIN_ALPHA">255</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN10X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN11X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN12X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN1X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN2X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN3X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN5X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN6X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN8X">0</integer>
+    <integer name="MONTH_TITLE_INIT_ENGSTARTMARGIN9X">0</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN10X">3</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN11X">4</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN12X">30</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN2X">27</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN3X">53</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN8X">26</integer>
+    <integer name="MONTH_TITLE_INIT_MARGIN9X">52</integer>
+    <integer name="MONTH_TITLE_INIT_MARGINY">6</integer>
+    <integer name="MONTH_TITLE_INIT_MARGINYFOUR2SIX">9</integer>
+    <integer name="MONTH_TITLE_INIT_MARGINYSEV2NINE">15</integer>
+    <integer name="MONTH_TITLE_INIT_MARGINYTEN2TEl">21</integer>
+    <integer name="MONTH_TITLE_INIT_STARTY">93</integer>
+</resources>

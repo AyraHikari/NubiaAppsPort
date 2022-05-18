@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>ทำต่อ</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>วันที่ 1 มกราคม</item>
+        <item>2 กุมภาพันธ์</item>
+        <item>3 มีนาคม</item>
+        <item>4 เมษายน</item>
+        <item>5 พ.ค.</item>
+        <item>6 มิถุนายน</item>
+        <item>7 กรกฎาคม</item>
+        <item>8 สิงหาคม</item>
+        <item>9 กันยายน</item>
+        <item>10 ตุลาคม</item>
+        <item>11 พฤศจิกายน</item>
+        <item>12 ธันวาคม</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>1 ม.ค.</item>
+        <item>2 ก.พ.</item>
+        <item>3 มี.ค.</item>
+        <item>4 เม.ย.</item>
+        <item>5 พ.ค.</item>
+        <item>6 มิ.ย.</item>
+        <item>7 ก.ค.</item>
+        <item>8 ส.ค.</item>
+        <item>9 ก.ย.</item>
+        <item>10 ต.ค.</item>
+        <item>11 พ.ย.</item>
+        <item>12 ธ.ค.</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>พฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>เสาร์</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>อา</item>
+        <item>จ</item>
+        <item>อ</item>
+        <item>พ</item>
+        <item>พฤ</item>
+        <item>ศ</item>
+        <item>ส</item>
+    </string-array>
+    <string-array name="restore_dialog_title">
+        <item>กู้คืนสมุดโน้ต</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>แชร์เป็นตัวอักษร</item>
+        <item>แชร์เป็นรูปภาพ</item>
+    </string-array>
+</resources>

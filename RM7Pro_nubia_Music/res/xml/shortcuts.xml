@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut icon="shortcut_play_local" id="shortcut_play_local" label="shortcut_play_local" rank="2">
+        <intent android:targetPackage="cn.nubia.music.preset" android:action="cn.nubia.music.preset.forcetouch_play" android:targetClass="cn.nubia.music.activity.ForceTouchActivity" />
+    </shortcut>
+    <shortcut icon="shortcut_search" id="shortcut_search" label="shortcut_search">
+        <intent android:targetPackage="cn.nubia.music.preset" android:action="cn.nubia.music.preset.forcetouch_search" android:targetClass="cn.nubia.music.activity.ForceTouchActivity" />
+    </shortcut>
+</shortcuts>

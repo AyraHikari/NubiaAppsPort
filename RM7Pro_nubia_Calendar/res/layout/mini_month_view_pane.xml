@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.calendar.submodule_month.view.MyLinearLayout android:orientation="vertical" android:id="@id/mini_ly1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.calendar.submodule_month.view.MonthWeekView android:gravity="center" android:id="@id/mini_view1" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+</cn.nubia.calendar.submodule_month.view.MyLinearLayout>

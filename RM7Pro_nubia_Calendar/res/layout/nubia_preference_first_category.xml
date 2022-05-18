@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/nubia_preference_category_text_size" android:textColor="@color/nubia_primary_text_default_material_light" android:ellipsize="end" android:id="@android:id/title" android:paddingTop="@dimen/nubia_preference_item_padding_inner" android:minHeight="@dimen/nubia_preference_category_height" android:maxLines="1" android:fontFamily="nubiafont-bold" android:textAlignment="viewStart" android:paddingStart="@dimen/nubia_preference_item_padding_side" android:elegantTextHeight="true" style="?android:attr/listSeparatorTextViewStyle" />
+</LinearLayout>

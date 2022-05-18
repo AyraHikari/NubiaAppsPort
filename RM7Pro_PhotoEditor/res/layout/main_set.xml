@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mainSetBack" android:layout_height="@dimen/collage_activity_actionbar_height" style="@style/MainSetRelativeLayout">
+        <ImageView android:id="@id/backImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/collage_activity_actionbar_left_padding" android:src="@drawable/back_white" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/eighty_seven_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_set_set" android:layout_toRightOf="@id/backImage" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:layout_marginLeft="0.0dip" style="@style/SegmentLine" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/main_set_item_space" />
+    <RelativeLayout android:id="@id/mainSetQuality" style="@style/MainSetRelativeLayout">
+        <TextView android:text="@string/main_set_quality" style="@style/MainSetOptionText" />
+        <ImageView style="@style/MainSetRightArrow" />
+    </RelativeLayout>
+    <View style="@style/SegmentLine" />
+    <RelativeLayout android:id="@id/mainSetClearcache" style="@style/MainSetRelativeLayout">
+        <TextView android:text="@string/main_set_clearCache" style="@style/MainSetOptionText" />
+        <ImageView style="@style/MainSetRightArrow" />
+    </RelativeLayout>
+    <View android:background="@color/five_white" android:layout_width="fill_parent" android:layout_height="@dimen/main_set_item_space" />
+    <RelativeLayout android:id="@id/mainSetFeedback" style="@style/MainSetRelativeLayout">
+        <TextView android:text="@string/main_set_feedback" style="@style/MainSetOptionText" />
+        <ImageView style="@style/MainSetRightArrow" />
+    </RelativeLayout>
+    <View style="@style/SegmentLine" />
+    <RelativeLayout android:id="@id/mainSetUpdate" style="@style/MainSetRelativeLayout">
+        <TextView android:text="@string/main_set_checkupdate" style="@style/MainSetOptionText" />
+        <ImageView style="@style/MainSetRightArrow" />
+    </RelativeLayout>
+    <View style="@style/SegmentLine" />
+    <RelativeLayout android:id="@id/mainSetAbout" style="@style/MainSetRelativeLayout">
+        <TextView android:text="@string/main_set_about" style="@style/MainSetOptionText" />
+        <ImageView style="@style/MainSetRightArrow" />
+    </RelativeLayout>
+    <View style="@style/SegmentLine" />
+</LinearLayout>

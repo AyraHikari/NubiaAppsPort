@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d canciones eliminadas</item>
+        <item quantity="one">1 canción eliminada</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">Canciones añadidas a la lista</item>
+        <item quantity="one">Canción añadida a la lista</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">Total %d álbumes</item>
+        <item quantity="one">1 álbum</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">Canciones %d</item>
+    </plurals>
+</resources>

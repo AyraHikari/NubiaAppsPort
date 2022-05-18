@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/dialog_title_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_title_margin_top_size" android:layout_marginBottom="@dimen/dialog_title_margin_bottom_size" android:minHeight="@dimen/dialog_title_min_height" android:text="@string/alarm_repeat" android:layout_centerHorizontal="true" />
+    <View android:background="@color/driver_line_background" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_title_driver_height_size" android:layout_marginTop="@dimen/dialog_title_driver_margin_top_size" />
+    <ListView android:id="@id/lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

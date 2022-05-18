@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">แน่ใจจะลบวีดีโอทั้งหมดไหม</item>
+        <item quantity="one">แน่ใจจะลบวีดีโอทั้งหมดไหม</item>
+    </plurals>
+    <plurals name="number_of_items_hide_selected">
+        <item quantity="other">ซ่อน%1$d</item>
+        <item quantity="zero">ซ่อน%1$d</item>
+        <item quantity="one">ซ่อน%1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">เลือก%1$dแล้ว</item>
+        <item quantity="zero">เลือก%1$dแล้ว</item>
+        <item quantity="one">เลือก%1$dแล้ว</item>
+    </plurals>
+</resources>

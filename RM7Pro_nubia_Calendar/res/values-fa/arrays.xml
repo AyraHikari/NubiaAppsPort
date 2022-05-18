@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>مشغول</item>
+        <item>در دسترس</item>
+        <item>احتمالی</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>امروز</item>
+        <item>روز</item>
+        <item>هفته</item>
+        <item>ماه</item>
+        <item>دستور جلسه</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>فقط این رویداد</item>
+        <item>همه رویدادهای تکراری</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>فقط این رویداد</item>
+        <item>این رویداد و رویدادهای آینده</item>
+        <item>همه رویدادها</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>این رویداد و رویدادهای آینده</item>
+        <item>همه رویدادها</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ابتدا</item>
+        <item>ثانیه</item>
+        <item>سومین</item>
+        <item>چهارمین</item>
+        <item>آخرین</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>همیشه</item>
+        <item>فقط هنگام ساکت بودن</item>
+        <item>هرگز</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>هیچکدام</item>
+        <item>0 دقیقه</item>
+        <item>۱ دقیقه</item>
+        <item>۵ دقیقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۱۵ دقیقه</item>
+        <item>۲۰ دقیقه</item>
+        <item>۲۵ دقیقه</item>
+        <item>۳۰ دقیقه</item>
+        <item>۴۵ دقیقه</item>
+        <item>۱ ساعت</item>
+        <item>۲ ساعت</item>
+        <item>۳ ساعت</item>
+        <item>۱۲ ساعت</item>
+        <item>۲۴ ساعت</item>
+        <item>۲ روز</item>
+        <item>۱ هفته</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>تنظیمات پیش‌فرض زبان</item>
+        <item>شنبه</item>
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>چند دقیقه دیر خواهم رسید.</item>
+        <item>حدود ۱۰ دقیقه دیگر آنجا خواهم بود.</item>
+        <item>دست به کار شوید و بدون من شروع کنید.</item>
+        <item>با عرض پوزش، نمی‌توانم این را ایجاد کنم. باید دوباره برنامه‌ریزی کنیم.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>اعلان</item>
+        <item>ایمیل</item>
+        <item>پیامک</item>
+        <item>زنگ هشدار</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 دقیقه</item>
+        <item>۱ دقیقه</item>
+        <item>۵ دقیقه</item>
+        <item>۱۰ دقیقه</item>
+        <item>۱۵ دقیقه</item>
+        <item>۲۰ دقیقه</item>
+        <item>۲۵ دقیقه</item>
+        <item>۳۰ دقیقه</item>
+        <item>۴۵ دقیقه</item>
+        <item>۱ ساعت</item>
+        <item>۲ ساعت</item>
+        <item>۳ ساعت</item>
+        <item>۱۲ ساعت</item>
+        <item>۲۴ ساعت</item>
+        <item>۲ روز</item>
+        <item>۱ هفته</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>بدون پاسخ</item>
+        <item>بله</item>
+        <item>شاید</item>
+        <item>خیر</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزایر مارشال</item>
+        <item>جزایر میدوی</item>
+        <item>هاوایی</item>
+        <item>آلاسکا</item>
+        <item>زمان اقیانوس آرام</item>
+        <item>تیخوانا</item>
+        <item>آریزونا</item>
+        <item>چی‌هواهوا</item>
+        <item>زمان کوهستان</item>
+        <item>آمریکای مرکزی</item>
+        <item>زمان مرکزی</item>
+        <item>مکزیکوسیتی</item>
+        <item>ساسکاچوان</item>
+        <item>بوگوتا</item>
+        <item>زمان شرقی</item>
+        <item>ونزوئلا</item>
+        <item>زمان اقیانوس اطلس (باربادوس)</item>
+        <item>زمان اقیانوس اطلس (کانادا)</item>
+        <item>مانائوس</item>
+        <item>سانتیاگو</item>
+        <item>نیوفونلند</item>
+        <item>برازیلیا</item>
+        <item>بوئنوس آیرس</item>
+        <item>گرینلند</item>
+        <item>مونته ویدیو</item>
+        <item>اطلس میانی</item>
+        <item>آزورس</item>
+        <item>جزایر کیپ ورد</item>
+        <item>کازابلانکا</item>
+        <item>لندن، دوبلین</item>
+        <item>آمستردام، برلین</item>
+        <item>بلگراد</item>
+        <item>بروکسل</item>
+        <item>سارایه‌وو</item>
+        <item>ویندهوک</item>
+        <item>زمان غرب آفریقا</item>
+        <item>امان، اردن</item>
+        <item>آتن، استانبول</item>
+        <item>بیروت، لبنان</item>
+        <item>قاهره</item>
+        <item>هلسینکی</item>
+        <item>اورشلیم</item>
+        <item>مینسک</item>
+        <item>هراره</item>
+        <item>بغداد</item>
+        <item>مسکو</item>
+        <item>کویت</item>
+        <item>نایروبی</item>
+        <item>تهران</item>
+        <item>باکو</item>
+        <item>تفلیس</item>
+        <item>ایروان</item>
+        <item>دوبی</item>
+        <item>کابل</item>
+        <item>اسلام‌آباد، کراچی</item>
+        <item>اورالسک</item>
+        <item>یکاترینبورگ</item>
+        <item>کلکته</item>
+        <item>سری‌لانکا</item>
+        <item>کاتماندو</item>
+        <item>آستانه</item>
+        <item>یانگون</item>
+        <item>کراسنویارسک</item>
+        <item>بانگوک</item>
+        <item>پکن</item>
+        <item>هنگ کنگ</item>
+        <item>ایرکوتسک</item>
+        <item>کوالالامپور</item>
+        <item>پرث</item>
+        <item>تایپه</item>
+        <item>سئول</item>
+        <item>توکیو، اوزاکا</item>
+        <item>یاکوتسک</item>
+        <item>آدلاید</item>
+        <item>داروین</item>
+        <item>بریزبین</item>
+        <item>هوبارت</item>
+        <item>سیدنی، کانبرا</item>
+        <item>ولادی وستک</item>
+        <item>گوام</item>
+        <item>ماگادان</item>
+        <item>اوکلند</item>
+        <item>فیجی</item>
+        <item>تونگا</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>پیش‌فرض</item>
+        <item>خصوصی</item>
+        <item>عمومی</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>default</item>
+        <item>بی‌صدا</item>
+        <item>لرزش</item>
+        <item>زنگ</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Map</item>
+        <item>وضعيت آب‌وهوايي</item>
+        <item>غذا</item>
+        <item>پرواز</item>
+        <item>هتل</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>تاریخ تنظیم</item>
+        <item>تازه کردن</item>
+        <item>جستجو</item>
+        <item>تقویم‌ها برای نمایش</item>
+        <item>تنظیمات</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>عکسبرداری</item>
+        <item>تصاویر</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>ایمیل</item>
+        <item>بلوتوث</item>
+        <item>پیام</item>
+    </string-array>
+    <integer-array name="delete_repeating_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="weather_table">
+        <item>آفتابی</item>
+        <item>ابری</item>
+        <item>ابری</item>
+        <item>بارش</item>
+        <item>بارش شدید</item>
+        <item>بارش شدید با تگرگ</item>
+        <item>بوران</item>
+        <item>باران ملایم</item>
+        <item>باران متوسط</item>
+        <item>باران سنگین</item>
+        <item>باران سیل‌آسا</item>
+        <item>باران سیل‌آسای شدید</item>
+        <item>باران سیل‌آسای خیلی شدید</item>
+        <item>بارش ملایم برف</item>
+        <item>برف سبک</item>
+        <item>برف متوسط</item>
+        <item>برف سنگین</item>
+        <item>کولاک</item>
+        <item>مه</item>
+        <item>تگرگ</item>
+        <item>توفان شن</item>
+        <item>باران سبک تا متوسط</item>
+        <item>باران متوسط تا سنگین</item>
+        <item>باران سنگین تا سیل‌آسا</item>
+        <item>باران سیل‌آسا تا سیل‌آسای شدید</item>
+        <item>باران سیل‌آسای شدید تا سیل‌آسای خیلی شدید</item>
+        <item>برف سبک تا متوسط</item>
+        <item>برف متوسط تا سنگین</item>
+        <item>برف سنگین تا کولاک</item>
+        <item>غبار پراکنده</item>
+        <item>وزش شن</item>
+        <item>طوفان شن شدید</item>
+        <item>بوران</item>
+        <item>گردباد</item>
+        <item>وزش برف سبک</item>
+        <item>غبارآلود</item>
+    </string-array>
+</resources>

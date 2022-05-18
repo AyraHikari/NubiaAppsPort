@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DisplayLayoutStyle">
+        <item name="android:layout_weight">60.0</item>
+    </style>
+    <style name="PadButtonStyle.Advanced" parent="@style/PadButtonStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@drawable/pad_button_advanced_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Advanced.Text" parent="@style/PadButtonStyle.Advanced">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle.Numeric" parent="@style/PadButtonStyle">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textColor">@color/simple_numeric_text_color</item>
+        <item name="android:background">@drawable/pad_button_background_numeric</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Equals" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:textColor">@color/equal_text_background_color</item>
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="PadButtonStyle.Operator" parent="@style/PadButtonStyle">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/simple_operator_text_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Add" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_add_land</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Del" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/land_blackspace_icon</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Div" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_divide_land</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Eq" parent="@style/PadButtonStyle.Operator">
+        <item name="android:background">@drawable/pad_button_background_equal</item>
+        <item name="android:src">@drawable/ic_equal_land</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Mul" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_mul_land</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Sub" parent="@style/PadButtonStyle.Operator">
+        <item name="android:src">@drawable/ic_sub_land</item>
+    </style>
+    <style name="PadButtonStyle.Operator.Text" parent="@style/PadButtonStyle.Operator">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadLayoutStyle.Advanced" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">33.0</item>
+    </style>
+    <style name="PadLayoutStyle.Numeric" parent="@style/PadLayoutStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_weight">47.0</item>
+    </style>
+    <style name="PadButtonStyle.Numeric.Zero" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:paddingRight">87.5dip</item>
+    </style>
+    <style name="PadButtonStyle.Clr" parent="@style/PadButtonStyle">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/numeric_port_ac_color</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

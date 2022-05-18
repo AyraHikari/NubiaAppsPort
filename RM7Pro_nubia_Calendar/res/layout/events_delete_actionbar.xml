@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/actionbar_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back_bg" android:layout_centerVertical="true" android:layout_marginStart="@dimen/actionbar_padding" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/actionbar_text_size" android:textColor="@color/nubia_res_black" android:id="@id/selected_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/events_selected" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <cn.nubia.commonui.widget.NubiaSelectAll android:id="@id/selected_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_marginEnd="@dimen/all_check_margin" />
+</LinearLayout>

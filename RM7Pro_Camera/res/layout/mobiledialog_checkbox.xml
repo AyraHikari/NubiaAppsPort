@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/selected" android:layout_width="20.0dip" android:layout_height="20.0dip" style="@style/MyCheckBox" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/mobile_download_checkbox_textcolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_remind" android:layout_marginStart="12.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/lucency" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/aperture_color" android:layout_gravity="center" android:id="@id/aperturn_text" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/aperturn_view_text_height" />
+    <com.android.gallery3d.filtershow.aperture.ApertureBladeView android:layout_gravity="center_vertical" android:id="@id/aperture_view" android:padding="@dimen/aperturn_view_padding" android:layout_width="@dimen/aperturn_view" android:layout_height="@dimen/aperturn_view" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="93.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/la_gallery_force_touch_titlebar" />
+    <ImageView android:id="@id/divider" android:background="#26000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_bar" />
+    <RelativeLayout android:background="@color/force_touch_background_color" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_below="@id/divider">
+        <ImageView android:id="@id/recent_pic_or_video_first" style="@style/widget_img" />
+        <ImageView android:id="@id/call_play_click_img1" style="@style/widget_img_click" />
+        <ImageView android:id="@id/call_play_img1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_play" android:layout_centerVertical="true" android:layout_alignStart="@id/recent_pic_or_video_first" android:layout_alignEnd="@id/recent_pic_or_video_first" />
+        <ImageView android:id="@id/recent_pic_or_video_second" android:layout_toEndOf="@id/recent_pic_or_video_first" style="@style/widget_img" />
+        <ImageView android:id="@id/call_play_click_img2" android:layout_toEndOf="@id/call_play_click_img1" style="@style/widget_img_click" />
+        <ImageView android:id="@id/call_play_img2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_play" android:layout_centerVertical="true" android:layout_alignStart="@id/recent_pic_or_video_second" android:layout_alignEnd="@id/recent_pic_or_video_second" />
+        <ImageView android:id="@id/recent_pic_or_video_third" android:layout_toEndOf="@id/recent_pic_or_video_second" style="@style/widget_img" />
+        <ImageView android:id="@id/call_play_click_img3" android:layout_toEndOf="@id/call_play_click_img2" style="@style/widget_img_click" />
+        <ImageView android:id="@id/call_play_img3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_play" android:layout_centerVertical="true" android:layout_alignStart="@id/recent_pic_or_video_third" android:layout_alignEnd="@id/recent_pic_or_video_third" />
+        <ImageView android:id="@id/wiget_more" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_more" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

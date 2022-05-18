@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_alert_dialog_list_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/color" android:layout_width="@dimen/calendar_sync_item_color_width" android:layout_height="@dimen/calendar_sync_item_color_width" android:layout_centerVertical="true" android:layout_marginStart="@dimen/Padding_Event" />
+    <TextView android:textAppearance="@style/TextAppearance.Nubia.AlertDialog.CheckedTextView" android:ellipsize="marquee" android:id="@id/calendar_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/calendar_owner_text_color" android:ellipsize="marquee" android:id="@id/account_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/calendar_name" android:layout_alignStart="@id/calendar_name" />
+    <ImageView android:id="@id/checked_on" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:button="@null" android:src="@drawable/nubia_btn_radio_mtrl_on" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/Padding_Event" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/checked_off" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/Padding_Event" android:layout_alignParentEnd="true" />
+</RelativeLayout>

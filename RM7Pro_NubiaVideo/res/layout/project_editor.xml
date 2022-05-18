@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/layout_projectitem" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="500.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/white" android:gravity="center" android:id="@id/project_item_editor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project_item_editor" android:layout_weight="1.0" />
+    <Button android:textColor="@color/white" android:gravity="center" android:id="@id/project_item_export" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project_item_export" android:layout_weight="1.0" />
+    <Button android:textColor="@color/white" android:gravity="center" android:id="@id/project_item_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project_item_delete" android:layout_weight="1.0" />
+</LinearLayout>

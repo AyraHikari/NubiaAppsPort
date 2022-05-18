@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:background="@drawable/nubia_dialog_background_bottom" android:layout_width="360.0dip" android:layout_height="330.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/pression_tips_title_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="8.0dip" android:text="@string/permission_request" android:fontFamily="nubiafont-medium" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginTop="4.0dip" android:layout_marginStart="@dimen/cta_padding_dp" android:layout_marginEnd="@dimen/cta_padding_dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/nubia_subprime_text_default_material_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gallery_permission" style="?android:textAppearanceMedium" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/nubia_subprime_text_default_material_light" android:textColorLink="@color/nubia_background_red" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/agree_tips" style="?android:textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_dialog_activity_button_layout_height">
+        <Button android:ellipsize="marquee" android:id="@id/btn_no" android:layout_width="@dimen/nubia_dialog_activity_button_width" android:layout_height="@dimen/nubia_dialog_activity_button_height" android:text="@string/exit" android:singleLine="true" style="@style/Widget.Nubia.Button.Color1" />
+        <Button android:ellipsize="marquee" android:id="@id/btn_yes" android:layout_width="@dimen/nubia_dialog_activity_button_width" android:layout_height="@dimen/nubia_dialog_activity_button_height" android:text="@string/agree" android:singleLine="true" android:layout_marginStart="@dimen/nubia_dialog_activity_button_margin" style="@style/Widget.Nubia.Button.Color1" />
+    </LinearLayout>
+</LinearLayout>

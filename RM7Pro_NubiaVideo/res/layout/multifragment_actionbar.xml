@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/text_btn_green" android:ellipsize="marquee" android:gravity="end|center" android:id="@id/selectAllTextView" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/select_all" android:maxLines="1" android:layout_marginEnd="@dimen/multi_actionbar_left_right_padding" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/selectAllTextView" android:layout_toEndOf="@id/cancelTextView">
+        <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/actionbar_title_color" android:gravity="center" android:id="@id/selectCountText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_16dp" android:textColor="@color/text_btn_black" android:ellipsize="marquee" android:gravity="start|center" android:id="@id/cancelTextView" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:maxLines="1" android:layout_marginStart="@dimen/multi_actionbar_left_right_padding" android:layout_alignParentStart="true" />
+</RelativeLayout>

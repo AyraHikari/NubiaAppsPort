@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/appbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/improve_share_toolbar" android:background="@color/topbar_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_height">
+        <ImageView android:gravity="center" android:id="@id/topbar_navigation" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back_normal_new" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/nubia_common_activated_green" android:gravity="center" android:id="@id/topbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:layout_toEndOf="@id/topbar_navigation" android:elegantTextHeight="true" />
+    </RelativeLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/scrollbar_style" android:id="@id/improve_share_more_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/nubia_share_more_list_item_color" android:cacheColorHint="@color/nubia_share_more_list_item_color" android:divider="@color/translate" android:layout_below="@id/improve_share_toolbar" />
+</RelativeLayout>

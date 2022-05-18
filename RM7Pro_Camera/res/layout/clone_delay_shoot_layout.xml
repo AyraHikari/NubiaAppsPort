@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/delay_shoot_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/FragmentCenterSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.RotateLayout android:id="@id/clone_delay_shoot_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_46" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/dimens_100" android:textColor="@color/white" android:gravity="center" android:id="@id/clone_delay_shoot_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="5.0" />
+    </com.android.common.ui.RotateLayout>
+</RelativeLayout>

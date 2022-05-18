@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.common.ui.RotateLayout android:id="@id/night_capture_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimens_10" android:layout_marginRight="@dimen/dimens_10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimens_10" android:layout_marginRight="@dimen/dimens_10">
+        <TextView android:id="@id/night_capture_view" android:background="@drawable/normal_ai_layout_background" android:layout_marginBottom="@dimen/dimens_14" android:text="@string/show_night_capture_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/toast_hint" />
+    </RelativeLayout>
+</com.android.common.ui.RotateLayout>

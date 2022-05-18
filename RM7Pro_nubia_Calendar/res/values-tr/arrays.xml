@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Meşgul</item>
+        <item>Uygun</item>
+        <item>Kararsız</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Gün</item>
+        <item>Hafta</item>
+        <item>Ay</item>
+        <item>Ajanda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Yalnızca bu etkinlik</item>
+        <item>Serideki tüm etkinlikler</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Yalnızca bu etkinlik</item>
+        <item>Bu ve gelecekteki etkinlikler</item>
+        <item>Tüm etkinlikler</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Bu ve gelecekteki etkinlikler</item>
+        <item>Tüm etkinlikler</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ilk</item>
+        <item>ikinci</item>
+        <item>üçüncü</item>
+        <item>dördüncü</item>
+        <item>son</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Her zaman resim yükle</item>
+        <item>Sadece sessizken</item>
+        <item>Asla</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>hatırlatmak değil</item>
+        <item>0 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>24 saat</item>
+        <item>1 hafta</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Varsayılan yerel ayar</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Zor yükleniyor, lütfen bekleyin ...</item>
+        <item>Zor yükleniyor, lütfen bekleyin ...</item>
+        <item>Zor yükleniyor, lütfen bekleyin ...</item>
+        <item>Zor yükleniyor, lütfen bekleyin ...</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Bildirim</item>
+        <item>E-posta</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>hatırlatmak değil</item>
+        <item>0 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>24 saat</item>
+        <item>1 hafta</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Yanıt yok</item>
+        <item>Evet</item>
+        <item>Belki</item>
+        <item>Hayır</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall Adaları</item>
+        <item>Midway Adası</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pasifik Saati</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Dağlık Saati</item>
+        <item>Orta Amerika</item>
+        <item>Merkezi Saat</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Doğu Saati</item>
+        <item>Venezuela</item>
+        <item>Atlantik Saati (Barbados)</item>
+        <item>Atlantik Saati (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grönland</item>
+        <item>Montevideo</item>
+        <item>Orta Atlantik</item>
+        <item>Azor Adaları</item>
+        <item>Cape Verde Adaları</item>
+        <item>Kazablanka</item>
+        <item>Londra, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrad</item>
+        <item>Brüksel</item>
+        <item>Saraybosna</item>
+        <item>Windhoek</item>
+        <item>B. Afrika Saati</item>
+        <item>Amman, Ürdün</item>
+        <item>Atina, İstanbul</item>
+        <item>Beyrut, Lübnan</item>
+        <item>Kahire</item>
+        <item>Helsinki</item>
+        <item>Kudüs</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bağdat</item>
+        <item>Moskova</item>
+        <item>Kuveyt</item>
+        <item>Nairobi</item>
+        <item>Tahran</item>
+        <item>Bakü</item>
+        <item>Tiflis</item>
+        <item>Erivan</item>
+        <item>Dubai</item>
+        <item>Kabil</item>
+        <item>İslamabat, Karaçi</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Pekin</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Varsayılan</item>
+        <item>Gizli</item>
+        <item>Halka Açık</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>Abidjan</item>
+        <item>Accra</item>
+        <item>Addis Ababa</item>
+        <item>Cezayir</item>
+        <item>Blantyre</item>
+        <item>Brazzaville</item>
+        <item>Kahire</item>
+        <item>Kazablanka</item>
+        <item>Conakry</item>
+        <item>Dakar</item>
+        <item>Dar es Salaam</item>
+        <item>Cibuti</item>
+        <item>Freetown</item>
+        <item>Gaborone</item>
+        <item>Harare</item>
+        <item>Johannesburg</item>
+        <item>Kampala</item>
+        <item>Hartum</item>
+        <item>Kigali</item>
+        <item>Kinşasa</item>
+        <item>Lagos</item>
+        <item>Maseru</item>
+        <item>Mogadishu</item>
+        <item>Nairobi</item>
+        <item>São Tomé</item>
+        <item>Timbuktu</item>
+        <item>Tripoli</item>
+        <item>Tunus</item>
+        <item>Anchorage</item>
+        <item>Mendoza</item>
+        <item>Aruba</item>
+        <item>Asuncion</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Bogotá</item>
+        <item>Buenos Aires</item>
+        <item>Cancun</item>
+        <item>Karakas</item>
+        <item>Cayman</item>
+        <item>Chicago</item>
+        <item>Kosta Rika</item>
+        <item>Curaçao</item>
+        <item>Dawson Creek</item>
+        <item>Denver</item>
+        <item>Detroit</item>
+        <item>Dominika</item>
+        <item>Edmonton</item>
+        <item>El Salvador</item>
+        <item>Fortaleza</item>
+        <item>Grand Turk</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>Halifax</item>
+        <item>Havana</item>
+        <item>Indianapolis</item>
+        <item>Knox</item>
+        <item>Marengo</item>
+        <item>Petersburg</item>
+        <item>Tell City</item>
+        <item>Vevay</item>
+        <item>Vincennes</item>
+        <item>Winamac</item>
+        <item>Kingston</item>
+        <item>Nuestra Señora de La Paz</item>
+        <item>Lima</item>
+        <item>Los Angeles</item>
+        <item>Louisville</item>
+        <item>Managua</item>
+        <item>Martinique</item>
+        <item>Mendoza</item>
+        <item>Metlakatla</item>
+        <item>Mexico City</item>
+        <item>Monterrey</item>
+        <item>Montevideo</item>
+        <item>Montreal</item>
+        <item>Nassau</item>
+        <item>New York</item>
+        <item>Beulah</item>
+        <item>Merkez</item>
+        <item>New Salem</item>
+        <item>Panama</item>
+        <item>Phoenix</item>
+        <item>Port of Spain</item>
+        <item>Port-au-Prince</item>
+        <item>Porto Riko</item>
+        <item>Santo Domingo</item>
+        <item>São Paulo</item>
+        <item>St. Johns</item>
+        <item>St. Kitts</item>
+        <item>St. Lucia</item>
+        <item>St. Thomas</item>
+        <item>Tijuana</item>
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Winnipeg</item>
+        <item>Güney Kutbu</item>
+        <item>Longyearbyen</item>
+        <item>Almaata</item>
+        <item>Amman</item>
+        <item>Anadyr</item>
+        <item>Aktav</item>
+        <item>Bağdat</item>
+        <item>Bahreyn</item>
+        <item>Bakü</item>
+        <item>Bangkok</item>
+        <item>Beyrut</item>
+        <item>Kalküta</item>
+        <item>Şam</item>
+        <item>Dakka</item>
+        <item>Dubai</item>
+        <item>Gaza</item>
+        <item>Hebron</item>
+        <item>Ho Chi Minh</item>
+        <item>Hong Kong</item>
+        <item>İstanbul</item>
+        <item>Jakarta</item>
+        <item>Kudüs</item>
+        <item>Kabul</item>
+        <item>Karaçi</item>
+        <item>Katmandu</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuveyt</item>
+        <item>Makao</item>
+        <item>Manila</item>
+        <item>Muscat</item>
+        <item>Phnom Penh</item>
+        <item>Pyongyang</item>
+        <item>Katar</item>
+        <item>Yangon</item>
+        <item>Riyad</item>
+        <item>Saigon</item>
+        <item>Seul</item>
+        <item>Singapur</item>
+        <item>Taipei</item>
+        <item>Tahran</item>
+        <item>Tel Aviv</item>
+        <item>Tokyo</item>
+        <item>Ulan Batur</item>
+        <item>Bermuda</item>
+        <item>Kanarya</item>
+        <item>Cape Verde (Yeşil Burun)</item>
+        <item>Reykjavik</item>
+        <item>Stanley</item>
+        <item>Adelaide</item>
+        <item>Brisbane</item>
+        <item>Canberra</item>
+        <item>Darwin</item>
+        <item>Melbourne</item>
+        <item>New South Wales (Yeni Güney Galler)</item>
+        <item>Perth</item>
+        <item>Queensland</item>
+        <item>Sydney</item>
+        <item>Victoria</item>
+        <item>Newfoundland</item>
+        <item>Saskatchewan</item>
+        <item>Paskalya Adası</item>
+        <item>Amsterdam</item>
+        <item>Andorra</item>
+        <item>Atina</item>
+        <item>Belfast</item>
+        <item>Belgrad</item>
+        <item>Berlin</item>
+        <item>Bratislava</item>
+        <item>Brüksel</item>
+        <item>Bükreş</item>
+        <item>Budapeşte</item>
+        <item>Chisinau</item>
+        <item>Kopenhag</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Helsinki</item>
+        <item>Man Adası</item>
+        <item>İstanbul</item>
+        <item>Kiev</item>
+        <item>Lizbon</item>
+        <item>Londra</item>
+        <item>Lüksemburg</item>
+        <item>Madrid</item>
+        <item>Malta</item>
+        <item>Minsk</item>
+        <item>Monako</item>
+        <item>Moskova</item>
+        <item>Oslo</item>
+        <item>Paris</item>
+        <item>Prag</item>
+        <item>Riga</item>
+        <item>Rome</item>
+        <item>San Marino</item>
+        <item>Saraybosna</item>
+        <item>Simferopol</item>
+        <item>Üsküp</item>
+        <item>Sofya</item>
+        <item>Stockholm</item>
+        <item>Tallinn</item>
+        <item>Vatikan</item>
+        <item>Viyana</item>
+        <item>Vilnius</item>
+        <item>Varşova</item>
+        <item>Zagreb</item>
+        <item>Zürih</item>
+        <item>Antananarivo</item>
+        <item>Maldivler</item>
+        <item>Mauritius</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Honolulu</item>
+        <item>Kiritimati</item>
+        <item>Noumea</item>
+        <item>Samoa</item>
+        <item>Tahiti</item>
+        <item>Antigua</item>
+        <item>Austin</item>
+        <item>Boston</item>
+        <item>Calgary</item>
+        <item>Columbus</item>
+        <item>Dallas</item>
+        <item>Knoxville</item>
+        <item>Memphis</item>
+        <item>Miami</item>
+        <item>Minneapolis</item>
+        <item>Ottawa</item>
+        <item>Philadelphia</item>
+        <item>Portland</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>Salt Lake City</item>
+        <item>San Jose</item>
+        <item>San Salvador</item>
+        <item>Seattle</item>
+        <item>St. Louis</item>
+        <item>Washington D.C.</item>
+        <item>Houston</item>
+        <item>San Antonio</item>
+        <item>Jacksonville</item>
+        <item>Baltimore</item>
+        <item>Nashville</item>
+        <item>Milwaukee</item>
+        <item>Oklahoma City</item>
+        <item>Las Vegas</item>
+        <item>Albuquerque</item>
+        <item>Tucson</item>
+        <item>Sacramento</item>
+        <item>Atlanta</item>
+        <item>Cleveland</item>
+        <item>New Orleans</item>
+        <item>Tampa</item>
+        <item>Pittsburgh</item>
+        <item>Cincinnati</item>
+        <item>Mountain View</item>
+        <item>Reno</item>
+        <item>Black Rock City</item>
+        <item>Doha</item>
+        <item>Pekin</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Osaka</item>
+        <item>Lahor</item>
+        <item>"Sana'a"</item>
+        <item>Barselona</item>
+        <item>Münih</item>
+        <item>Milano</item>
+        <item>Frankfurt</item>
+        <item>Hanoi</item>
+        <item>Ankara</item>
+        <item>Bangalor</item>
+        <item>Brasília</item>
+        <item>Cape Town</item>
+        <item>İslamabad</item>
+        <item>Rio de Janeiro</item>
+        <item>Ann Arbor</item>
+        <item>Boulder</item>
+        <item>Cambridge</item>
+        <item>Kirkland</item>
+        <item>Madison</item>
+        <item>Haydarabad</item>
+        <item>Reston</item>
+        <item>Chihuahua</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Grönland</item>
+        <item>Atlantik Ortası</item>
+        <item>Azor Adaları</item>
+        <item>Windhoek</item>
+        <item>Tiflis</item>
+        <item>Erivan</item>
+        <item>Oral</item>
+        <item>Sri Lanka</item>
+        <item>Yekaterinburg</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Marshall Adaları</item>
+        <item>Magadan</item>
+        <item>Tonga</item>
+        <item>Midway Adası</item>
+    </string-array>
+    <string-array name="countries_names">
+        <item>Fildişi Sahili</item>
+        <item>Gana</item>
+        <item>Etiyopya</item>
+        <item>Cezayir</item>
+        <item>Malavi</item>
+        <item>Kongo</item>
+        <item>Mısır</item>
+        <item>Fas</item>
+        <item>Gine</item>
+        <item>Senegal</item>
+        <item>Tanzanya</item>
+        <item>Cibuti</item>
+        <item>Sierra Leone</item>
+        <item>Botsvana</item>
+        <item>Zimbabve</item>
+        <item>Güney Afrika</item>
+        <item>Uganda</item>
+        <item>Sudan</item>
+        <item>Ruanda</item>
+        <item>Kongo</item>
+        <item>Nijerya</item>
+        <item>Lesoto</item>
+        <item>Somali</item>
+        <item>Kenya</item>
+        <item>Sao Tome ve Principe</item>
+        <item>Timbuktu</item>
+        <item>Libya</item>
+        <item>Tunus</item>
+        <item>Amerika</item>
+        <item>Arjantin</item>
+        <item>Aruba</item>
+        <item>Paraguay</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Kolombiya</item>
+        <item>Arjantin</item>
+        <item>Meksika</item>
+        <item>Venezuella</item>
+        <item>Cayman Adaları</item>
+        <item>Amerika</item>
+        <item>Kosta Rika</item>
+        <item>Kurasao</item>
+        <item>Kanada</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Dominik</item>
+        <item>Kanada</item>
+        <item>Salvador</item>
+        <item>Brezilya</item>
+        <item>Grand Turk</item>
+        <item>Grenade</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>Kanada</item>
+        <item>Küba</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Marengo</item>
+        <item>Amerika</item>
+        <item>Crystal City</item>
+        <item>Huehuetenango</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Jamaika</item>
+        <item>Bolivya</item>
+        <item>Peru</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Nikaragua</item>
+        <item>Fransa</item>
+        <item>Arjantin</item>
+        <item>Amerika</item>
+        <item>Meksika</item>
+        <item>Amerika</item>
+        <item>Uruguay</item>
+        <item>Kanada</item>
+        <item>Bahamalar</item>
+        <item>Amerika</item>
+        <item>Avustralya</item>
+        <item>Merkez</item>
+        <item>New Salem</item>
+        <item>Panama</item>
+        <item>Amerika</item>
+        <item>Trinidad ve Tobago</item>
+        <item>Haiti</item>
+        <item>Porto Riko</item>
+        <item>Dominika</item>
+        <item>Brezilya</item>
+        <item>Kanada</item>
+        <item>Saint Kitts</item>
+        <item>Arjantin</item>
+        <item>Kanada</item>
+        <item>Meksika</item>
+        <item>Kanada</item>
+        <item>Kanada</item>
+        <item>Kanada</item>
+        <item>Güney Kutbu</item>
+        <item>Norveç</item>
+        <item>Kazakistan</item>
+        <item>Ürdün</item>
+        <item>Rusya</item>
+        <item>Kazakistan</item>
+        <item>Irak</item>
+        <item>Bahreyn</item>
+        <item>Azerbaycan</item>
+        <item>Tayland</item>
+        <item>Lübnan</item>
+        <item>Hindistan</item>
+        <item>Suriye</item>
+        <item>Bangladeş</item>
+        <item>Birleşik Arap Emirlikleri</item>
+        <item>Filistin</item>
+        <item>Filistin</item>
+        <item>Vietnam</item>
+        <item>Çin</item>
+        <item>Türkiye</item>
+        <item>Endonezya</item>
+        <item>İsrail</item>
+        <item>Afghanistanlı</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Malezya</item>
+        <item>Kuveyt</item>
+        <item>Çin</item>
+        <item>Filipinler</item>
+        <item>Umman</item>
+        <item>Kamboçya</item>
+        <item>Kuzey Kore</item>
+        <item>Katar</item>
+        <item>Burma</item>
+        <item>Suudi Arabistan</item>
+        <item>Vietna</item>
+        <item>Kore</item>
+        <item>Singapur</item>
+        <item>Tayvan</item>
+        <item>İran</item>
+        <item>İsrail</item>
+        <item>Japonya</item>
+        <item>Moğolistan</item>
+        <item>Bermuda</item>
+        <item>Kanarya Adaları</item>
+        <item>Cape Verde (Yeşil Burun)</item>
+        <item>İzlanda</item>
+        <item>Stanley</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Avustralya</item>
+        <item>Kanada</item>
+        <item>Kanada</item>
+        <item>Kanada</item>
+        <item>Paskalya Adası</item>
+        <item>Hollanda</item>
+        <item>Andorra</item>
+        <item>Yunanistan</item>
+        <item>Kuzey İrlanda</item>
+        <item>Sırbistan</item>
+        <item>Almanya</item>
+        <item>Slovakya</item>
+        <item>Belçika</item>
+        <item>Romanya</item>
+        <item>Macaristan</item>
+        <item>Moldova</item>
+        <item>Danimarka</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Finlandiya</item>
+        <item>Man Adası</item>
+        <item>Türkiye</item>
+        <item>Ukrayna</item>
+        <item>Portekiz</item>
+        <item>Britanya</item>
+        <item>Lüksemburg</item>
+        <item>İspanya</item>
+        <item>Malta</item>
+        <item>Belarus</item>
+        <item>Monako</item>
+        <item>Rusya</item>
+        <item>Norveç</item>
+        <item>Fransa</item>
+        <item>Çek</item>
+        <item>Letonya</item>
+        <item>İtalya</item>
+        <item>San Marino</item>
+        <item>Hersek</item>
+        <item>Rusya</item>
+        <item>Makedonya</item>
+        <item>Bulgaristan</item>
+        <item>İsveç</item>
+        <item>Estonya</item>
+        <item>Vatikan</item>
+        <item>Avusturya</item>
+        <item>Litvanya Cumhuriyeti</item>
+        <item>Polonya</item>
+        <item>Hırvatistan</item>
+        <item>İsviçre</item>
+        <item>Antananarivo</item>
+        <item>Maldivler</item>
+        <item>Morityus</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Amerika</item>
+        <item>Christmas Adası</item>
+        <item>Yeni Kaledonya</item>
+        <item>Samoa</item>
+        <item>Tahiti</item>
+        <item>Antigua</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Kanada</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Kanada</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Kosta Rika</item>
+        <item>San Salvador</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>BLACK ROCK CITY</item>
+        <item>Katar</item>
+        <item>Çin</item>
+        <item>Hindistan</item>
+        <item>Hindistan</item>
+        <item>Japonya</item>
+        <item>Pakistan</item>
+        <item>Sana</item>
+        <item>İspanya</item>
+        <item>Almanya</item>
+        <item>İtalya</item>
+        <item>Almanya</item>
+        <item>Vietnam</item>
+        <item>Türkiye</item>
+        <item>Hindistan</item>
+        <item>Brezilya</item>
+        <item>Güney Afrika</item>
+        <item>Pakistan</item>
+        <item>Brezilya</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Britanya</item>
+        <item>Amerika</item>
+        <item>Amerika</item>
+        <item>Andra Pradeş</item>
+        <item>Reston</item>
+        <item>Chihuahua</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>San Diego</item>
+        <item>Godthab</item>
+        <item>Güney Georgia</item>
+        <item>Azor Adaları</item>
+        <item>Windhoek</item>
+        <item>Tiflis</item>
+        <item>Erivan</item>
+        <item>Ural</item>
+        <item>Kolomba</item>
+        <item>Yekaterinburg</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Majuro</item>
+        <item>Magadan</item>
+        <item>Tongatapu</item>
+        <item>Midway Adası</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Varsayılan</item>
+        <item>Sessiz</item>
+        <item>titreşim</item>
+        <item>zil sesi</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Harita</item>
+        <item>Hava</item>
+        <item>Yiyecek</item>
+        <item>Uçuş</item>
+        <item>Otel</item>
+    </string-array>
+    <string-array name="month_top_display">
+        <item>Oca</item>
+        <item>Şub</item>
+        <item>Mar</item>
+        <item>Nis</item>
+        <item>May</item>
+        <item>Haz</item>
+        <item>Tem</item>
+        <item>Ağu</item>
+        <item>Eyl</item>
+        <item>Eki</item>
+        <item>Kas</item>
+        <item>Ara</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>Bugünün tarihine geçiş yap</item>
+        <item>Gündem listesi</item>
+        <item>Ayarlar</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Paz</item>
+        <item>Pzt</item>
+        <item>Sal</item>
+        <item>Çar</item>
+        <item>Per</item>
+        <item>Cum</item>
+        <item>Cut</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Resmi yakala</item>
+        <item>Resimler</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Her zaman resim yükle</item>
+        <item>Asla</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>Bugün 9:00</item>
+        <item>Bir gün önce 9:00</item>
+        <item>İki gün önce 9:00</item>
+        <item>Bir hafta önce 9:00</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day_of_birthday">
+        <item>Yok</item>
+        <item>Bugün 9:00</item>
+        <item>Bir gün önce 9:00</item>
+        <item>İki gün önce 9:00</item>
+        <item>Bir hafta önce 9:00</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Işın</item>
+        <item>Eposta gönder</item>
+        <item>Bluetooth</item>
+        <item>Mesaj</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </string-array>
+</resources>

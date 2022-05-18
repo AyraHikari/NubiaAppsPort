@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/editor_panel_mosaic_container" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="@dimen/crop_panel_height" android:layout_height="fill_parent" android:baselineAligned="false">
+        <ImageButton android:gravity="center" android:layout_gravity="center|left" android:id="@id/selectMosaic" android:background="@drawable/nubia_menu_item_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/btn_img_mosaic" android:layout_weight="1.0" />
+        <include layout="@layout/filtershow_mosaic_brush_size" />
+    </LinearLayout>
+    <View android:background="@color/toolbar_separation_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <RelativeLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:baselineAligned="false">
+        <ImageButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/applyFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="@dimen/top_bar_height" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/done" android:layout_alignParentTop="true" />
+        <ImageButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cancelFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="@dimen/top_bar_height" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/cancel" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

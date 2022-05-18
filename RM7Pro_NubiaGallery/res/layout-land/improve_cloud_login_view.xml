@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cloud_view_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.3299866dip" android:src="@drawable/cloud_login_cover" android:layout_centerHorizontal="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textColor="@color/page_hint_color" android:id="@id/cloud_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/click_to_login" android:layout_below="@id/cloud_view_logo" android:layout_centerHorizontal="true" />
+    <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/cloud_login_button" android:background="@drawable/nubia_btn_login_bg" android:layout_width="224.0dip" android:layout_height="36.0dip" android:layout_marginTop="22.0dip" android:tint="?android:colorControlActivated" android:text="@string/login" android:layout_below="@id/cloud_view_text" android:layout_centerHorizontal="true" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" style="?android:borderlessButtonStyle" />
+</merge>

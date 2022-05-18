@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Заняты</item>
+        <item>Даступны</item>
+        <item>Часова</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Дзень</item>
+        <item>Тыдзень</item>
+        <item>Месяц</item>
+        <item>Парадак дня</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Толькі гэта мерапрыемства</item>
+        <item>Усе падзеі ў серыі</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Толькі гэта падзея</item>
+        <item>Гэта і будучыя мерапрыемствы</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Гэтыя i будучыя падзеі</item>
+        <item>Усе падзеі</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>першы</item>
+        <item>другі</item>
+        <item>трэці</item>
+        <item>чацвёрты</item>
+        <item>апошні</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Заўсёды</item>
+        <item>Толькі ў рэжыме без гуку</item>
+        <item>Ніколі</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Няма</item>
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Рэгiянальная налада па змаўчанні</item>
+        <item>Субота</item>
+        <item>Нядзеля</item>
+        <item>Панядзелак</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Запуск ўсяго за пару хвілін пазней.</item>
+        <item>Будзь там прыкладна праз 10 хвілін.</item>
+        <item>Працягваць і пачаць без мяне.</item>
+        <item>На жаль, я не паспяваю. Нам прыйдзецца перанесці мерапрыемства.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Апавяшч-е</item>
+        <item>Электр. пошта</item>
+        <item>SMS</item>
+        <item>Будзільнік</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 хвілін</item>
+        <item>1 хвіліна</item>
+        <item>5 хвілін</item>
+        <item>10 хвілін</item>
+        <item>15 хвілін</item>
+        <item>20 хвілін</item>
+        <item>25 хвілін</item>
+        <item>30 хвілін</item>
+        <item>45 хвілін</item>
+        <item>1 гадзіна</item>
+        <item>2 гадзіны</item>
+        <item>3 гадзіны</item>
+        <item>12 гадзін</item>
+        <item>24 гадзіны</item>
+        <item>2 дні</item>
+        <item>1 тыдзень</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Няма адказу</item>
+        <item>Так</item>
+        <item>Магчыма</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалавы астравы</item>
+        <item>Востраў Мідуэй</item>
+        <item>Гаваі</item>
+        <item>Аляска</item>
+        <item>Ціхаакіянскі час</item>
+        <item>Ціхуана</item>
+        <item>Арызона</item>
+        <item>Чыхуахуа</item>
+        <item>Горны час</item>
+        <item>Цэнтральная Амерыка</item>
+        <item>Цэнтр. паясны час</item>
+        <item>Мехіка</item>
+        <item>Саскачэван</item>
+        <item>Багата</item>
+        <item>Усходні паясны час</item>
+        <item>Венесуэла</item>
+        <item>Атлантычны паясны час (Барбадос)</item>
+        <item>Атлантычны паясны час (Канада)</item>
+        <item>Манаўс</item>
+        <item>"Сант'яга"</item>
+        <item>Ньюфаўндленд</item>
+        <item>Бразілія</item>
+        <item>Буэнас-Айрэс</item>
+        <item>Грэнландыя</item>
+        <item>Мантэвідэо</item>
+        <item>Сярэднеатлантыч. час</item>
+        <item>Азорскія астравы</item>
+        <item>Каба-Вердэ</item>
+        <item>Касабланка</item>
+        <item>Лондан, Дублін</item>
+        <item>Амстэрдам, Берлін</item>
+        <item>Бялград</item>
+        <item>Брусель</item>
+        <item>Сараева</item>
+        <item>Вiндхук</item>
+        <item>Усходнеафрыканскі час</item>
+        <item>Аман, Іарданія</item>
+        <item>Афіны, Стамбул</item>
+        <item>Бейрут, Ліван</item>
+        <item>Каір</item>
+        <item>Хельсінкі</item>
+        <item>Ерусалім</item>
+        <item>Мінск</item>
+        <item>Харарэ</item>
+        <item>Багдад</item>
+        <item>Масква</item>
+        <item>Кувейт</item>
+        <item>Найробі</item>
+        <item>Тэгеран</item>
+        <item>Баку</item>
+        <item>Тбілісі</item>
+        <item>Емен</item>
+        <item>Дубаі</item>
+        <item>Кабул</item>
+        <item>Ісламабад, Карачы</item>
+        <item>Уральск</item>
+        <item>Екацерынбург</item>
+        <item>Калькута</item>
+        <item>Шры-Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Янгон</item>
+        <item>Краснаярск</item>
+        <item>Бангкок</item>
+        <item>Пекін</item>
+        <item>Ганконг</item>
+        <item>Іркуцк</item>
+        <item>Куала-Лумпур</item>
+        <item>Перт</item>
+        <item>Тайбэй</item>
+        <item>Сеул</item>
+        <item>Токіо, Осака</item>
+        <item>Якуцк</item>
+        <item>Адэлаіда</item>
+        <item>Дарвін</item>
+        <item>Брысбэн</item>
+        <item>Хобарт</item>
+        <item>Сіднэй, Канбера</item>
+        <item>Уладзівасток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окленд</item>
+        <item>Фіджы</item>
+        <item>Тонга</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Па змаўчанні</item>
+        <item>Прыватны</item>
+        <item>Агульнадаступнае</item>
+    </string-array>
+</resources>

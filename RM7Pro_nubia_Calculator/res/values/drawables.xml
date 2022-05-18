@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="acb_bg">@color/mfvc_appbar_bg_color</item>
+    <item type="drawable" name="bg">@color/mfvc_bg_color</item>
+    <item type="drawable" name="bottombar_bg">@color/mfvc_bottom_bg_color</item>
+    <item type="drawable" name="bottombar_tab_bg">@color/mfvc_bottom_tab_bg_color</item>
+    <item type="drawable" name="ic_arrow_down_24dp">@drawable/expand_more</item>
+    <item type="drawable" name="list_divider_empty">#ff00ff00</item>
+    <item type="drawable" name="mfv_button_bg_light">@drawable/btn_default_light_mfv50</item>
+    <item type="drawable" name="mfv_common_acb_sink_bg">@drawable/acb_bg</item>
+    <item type="drawable" name="notification_bg_low_normal_mifavor">#ff2f2f2f</item>
+    <item type="drawable" name="notification_bg_normal_mifavor">#ff2f2f2f</item>
+    <item type="drawable" name="notification_bg_normal_pressed_mifavor">#ff68ab0a</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="progressbar_slider_dark">@drawable/progressbar_slider</item>
+    <item type="drawable" name="progressbar_slider_disabled_dark">@drawable/progressbar_slider_disabled</item>
+    <item type="drawable" name="progressbar_slider_disabled_light">@drawable/progressbar_slider_disabled</item>
+    <item type="drawable" name="progressbar_slider_light">@drawable/progressbar_slider</item>
+    <item type="drawable" name="progressbar_slider_pressed_dark">@drawable/progressbar_slider_pressed</item>
+    <item type="drawable" name="progressbar_slider_pressed_light">@drawable/progressbar_slider_pressed</item>
+    <item type="drawable" name="statusbar_bg">@color/mfvc_appbar_bg_color</item>
+    <item type="drawable" name="subtab_bg">@color/mfvc_appbar_bg_color</item>
+</resources>

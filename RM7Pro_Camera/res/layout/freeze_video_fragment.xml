@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/nubia_timing_layout" />
+    <TextView android:id="@id/display_tip_text" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/freeze_video_tip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dimens_20" android:layout_marginEnd="@dimen/dimens_20" style="@style/permanent_hint" />
+    <RelativeLayout android:id="@id/bottom_recording_layout" android:background="@color/bar_background" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/freeze_button" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@drawable/shutter_camera" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:soundEffectsEnabled="false" android:layout_marginStart="84.0dip" android:layout_alignParentStart="true" />
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/video_stop" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/video_stop_icon" camera:button_color="red" style="@style/ShutterOrSwitchToButtonIcon" xmlns:camera="http://schemas.android.com/apk/res-auto" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+    </RelativeLayout>
+</RelativeLayout>

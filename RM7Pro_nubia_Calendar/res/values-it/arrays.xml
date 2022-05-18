@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Occupato</item>
+        <item>Disponibile</item>
+        <item>Tentativo</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Giorno</item>
+        <item>Settimana</item>
+        <item>Mese</item>
+        <item>Ordine del giorno</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Solo questo evento</item>
+        <item>Tutti gli eventi nella serie</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Solo questo evento</item>
+        <item>Questo e gli eventi futuri</item>
+        <item>Tutti gli eventi</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Questo e gli eventi futuri</item>
+        <item>Tutti gli eventi</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>primo</item>
+        <item>secondo</item>
+        <item>terzo</item>
+        <item>quarto</item>
+        <item>ultimo</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Sempre</item>
+        <item>Solo in modalità silenziosa</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Nessuno</item>
+        <item>0 minuti</item>
+        <item>5 minuto</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>1 giorni</item>
+        <item>1 settimana</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Impostazioni internazionali predefinite</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+        <item>Lunedì</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Esecuzione con un paio di minuti di ritardo.</item>
+        <item>Disponibile tra circa 10 minuti.</item>
+        <item>Continua e inizia senza di me.</item>
+        <item>"Spiacenti, impossibile portare a termine l'operazione. È necessario stabilire una nuova pianificazione."</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notifica</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Allarme</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Nessuno</item>
+        <item>0 minuto</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>1 giorni</item>
+        <item>1 settimana</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Nessuna risposta</item>
+        <item>Sì</item>
+        <item>Forse</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Isole Marshall</item>
+        <item>Isola di Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>America centrale</item>
+        <item>Central Time</item>
+        <item>Città del Messico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terranova</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenlandia</item>
+        <item>Montevideo</item>
+        <item>Atlantico centrale</item>
+        <item>Azzorre</item>
+        <item>Isole di Capo Verde</item>
+        <item>Casablanca</item>
+        <item>Londra, Dublino</item>
+        <item>Amsterdam, Berlino</item>
+        <item>Belgrado</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>W. Africa Time</item>
+        <item>Amman, Giordania</item>
+        <item>Atene, Istanbul</item>
+        <item>Beirut, Libano</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Gerusalemme</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Mosca</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Ekaterinburg</item>
+        <item>Calcutta</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Pechino</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Figi</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Predefinito</item>
+        <item>Privato</item>
+        <item>Pubblico</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Predefinita</item>
+        <item>No audio</item>
+        <item>Vibrazione</item>
+        <item>Suoneria</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Mappa</item>
+        <item>Tempo</item>
+        <item>Cibo</item>
+        <item>Volo</item>
+        <item>Albergo</item>
+    </string-array>
+    <string-array name="month_top_display">
+        <item>Gen</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mag</item>
+        <item>Giu</item>
+        <item>Lug</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Ott</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>Imposta data</item>
+        <item>Elenco delle attività</item>
+        <item>Impostazioni</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Gen</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Mag</item>
+        <item>Giu</item>
+        <item>Lug</item>
+        <item>Ago</item>
+        <item>Set</item>
+        <item>Ott</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>Domenica</item>
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Dom</item>
+        <item>Lun</item>
+        <item>Mar</item>
+        <item>Mer</item>
+        <item>Gio</item>
+        <item>Ven</item>
+        <item>Sab</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Acquisizione fotografia</item>
+        <item>Immagini</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Sempre</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>Oggi 9:00</item>
+        <item>Un giorno fa 9:00</item>
+        <item>Due giorni fa 9:00</item>
+        <item>Una settimana fa 9:00</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day_of_birthday">
+        <item>Nessuno</item>
+        <item>Oggi 9:00</item>
+        <item>Un giorno fa 9:00</item>
+        <item>Due giorni fa 9:00</item>
+        <item>Una settimana fa 9:00</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>Email</item>
+        <item>Bluetooth</item>
+        <item>Messaggio</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>Gennaio</item>
+        <item>Febbraio</item>
+        <item>Marzo</item>
+        <item>Aprile</item>
+        <item>Maggio</item>
+        <item>Giugno</item>
+        <item>Luglio</item>
+        <item>Agosto</item>
+        <item>Settembre</item>
+        <item>Ottobre</item>
+        <item>Novembre</item>
+        <item>Dicembre</item>
+    </string-array>
+    <string-array name="prefEntries_reminder_type_item">
+        <item>nessun avviso</item>
+        <item>avviso di notifica</item>
+        <item>Avviso di finestra popup</item>
+        <item>Avviso sveglia</item>
+    </string-array>
+</resources>

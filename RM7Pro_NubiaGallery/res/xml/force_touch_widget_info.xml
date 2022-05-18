@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="240.0dip" android:minHeight="94.0dip" android:initialLayout="@layout/la_gallery_force_touch_widget" android:previewImage="@mipmap/ic_launcher_recent_pic" android:widgetCategory=""
+  xmlns:android="http://schemas.android.com/apk/res/android" />

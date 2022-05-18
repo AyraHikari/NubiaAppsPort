@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Batalkan Pengatur Waktu</item>
+        <item>15 menit</item>
+        <item>30 menit</item>
+        <item>45 menit</item>
+        <item>60 menit</item>
+        <item>90 menit</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Lagu baru Xiami</item>
+        <item>Klasik</item>
+        <item>Terkini</item>
+        <item>Lagu berbahasa Inggris</item>
+        <item>Musik tempo</item>
+        <item>Musik POP Cina</item>
+        <item>Musik pengantar tidur</item>
+        <item>Lagu lama Kanton</item>
+        <item>Musik lembut</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Daftar Xiami Music</item>
+        <item>Daftar Lagu Baru Xiami</item>
+        <item>Daftar Lagu Asli Xiami</item>
+        <item>Daftar Lagu Oricon</item>
+        <item>Daftar Lagu Hongkong</item>
+        <item>Daftar Lagu Billboard</item>
+        <item>HITO Daftar Lagu Cina</item>
+        <item>Daftar M-net Mingguan</item>
+        <item>Daftar lagu Inggris</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/artist_album" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ark_playpage_default_album_container_width" android:scaleType="fitXY" android:contentDescription="@null" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/empty_text" android:layout_centerInParent="true" style="@android:style/Animation.Dialog" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/artist_album" android:layout_centerInParent="true">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/local_scan_music_icon" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/textsize_42" android:textColor="@color/color_black_transparent_54" android:id="@id/empty_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:scaleType="centerCrop" android:text="@string/http_exception" android:layout_below="@id/icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/textsize_48" android:textColor="@color/cf25252" android:gravity="center" android:id="@id/empty_txt" android:background="@drawable/gray_btn_background" android:layout_width="@dimen/dimen_469" android:layout_height="@dimen/dimen_108" android:layout_marginTop="15.0dip" android:text="@string/scan_music" android:layout_below="@id/empty_tip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/addsong_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/image" android:layout_width="@dimen/dimen_108" android:layout_height="@dimen/dimen_108" android:layout_marginLeft="@dimen/ark_nowplaying_cancelicon_size" android:src="@drawable/ark_default_album_image" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/textsize_48" android:textColor="#fff25252" android:gravity="center_vertical" android:id="@id/choose_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_music" android:singleLine="true" android:layout_toRightOf="@id/image" android:layout_centerVertical="true" android:textIsSelectable="false" />
+        <View android:background="#28000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

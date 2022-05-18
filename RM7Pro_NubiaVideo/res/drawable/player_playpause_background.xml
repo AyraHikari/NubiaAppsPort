@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/nubia_ripple_material_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_pressed="true" android:drawable="@drawable/player_playpause_bg_pressed" />
+            <item>
+                <nine-patch android:src="@drawable/nubia_menu_item_background_normal" android:alpha="?android:disabledAlpha" />
+            </item>
+        </selector>
+    </item>
+</ripple>

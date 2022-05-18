@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zte.camera.ui.common.RotateViewGroup android:id="@id/vlog_rotate_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:startMargin="@dimen/vlog_progressbar_left_margin" app:topMargin="@dimen/vlog_progressbar_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/vlog_progress_bar_delete_button" android:visibility="gone" android:layout_width="@dimen/vlog_progressbar_delete_button_size" android:layout_height="@dimen/vlog_progressbar_delete_button_size" android:layout_marginBottom="@dimen/vlog_progressbar_delete_button_margin" android:src="@drawable/ic_vlog_delete_select" />
+        <com.zte.camera.ui.common.VlogProgressBar android:id="@id/vlog_progress_bar" android:layout_width="440.0dip" android:layout_height="@dimen/vlog_progressbar_height" app:insidePadding="@dimen/vlog_progressbar_inside_padding" app:recordColor="@color/camera_blue_color" app:selectHeight="@dimen/vlog_progressbar_select_height" app:topBottomPadding="@dimen/vlog_progressbar_top_bottom_padding" app:unrecordColor="@color/vlog_progressbar_unrecord_color" app:unselectHeight="@dimen/vlog_progressbar_unselect_height" />
+    </LinearLayout>
+</com.zte.camera.ui.common.RotateViewGroup>

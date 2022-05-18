@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/text_state_pressed_true_color" />
+    <item android:color="@color/calendar_bottom_today_text" />
+</selector>

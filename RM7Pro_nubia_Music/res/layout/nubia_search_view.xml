@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/nubia_search_button" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@android:string/search_go" style="?android:attr/actionButtonStyle" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/nubia_search_edit_frame" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_search_view_edittext_height" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/nubia_search_mag_icon" android:visibility="visible" android:layout_width="@dimen/nubia_dropdownitem_icon_width" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_marginStart="@dimen/nubia_dropdownitem_text_padding_left" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/nubia_search_plate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <EditText android:textSize="14.0dip" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="bottom" android:id="@id/nubia_search_src_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="@dimen/nubia_search_view_text_min_width" android:singleLine="true" android:layout_weight="1.0" android:inputType="textAutoComplete|textNoSuggestions" android:dropDownAnchor="@id/nubia_search_edit_frame" android:imeOptions="actionSearch" android:dropDownHeight="wrap_content" android:dropDownHorizontalOffset="0.0dip" android:dropDownVerticalOffset="0.0dip" android:paddingEnd="@dimen/nubia_dropdownitem_text_padding_right" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_gravity="center" android:id="@id/nubia_total" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="4.0dip" android:paddingEnd="7.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/nubia_search_close_btn" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/nubia_searchview_description_clear" android:paddingEnd="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/nubia_submit_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/nubia_search_go_btn" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/nubia_searchview_description_submit" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

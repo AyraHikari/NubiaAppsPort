@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">۱ ساعت</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">۱ دقیقه</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">۱ ثانیه</item>
+    </plurals>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="other">هشدارهای انتخابی حذف شوند؟</item>
+        <item quantity="one">هشدار انتخابی حذف شود؟</item>
+    </plurals>
+    <plurals name="timers_num">
+        <item quantity="other">%d تایمر‌</item>
+        <item quantity="one">۱ دقیقه</item>
+    </plurals>
+</resources>

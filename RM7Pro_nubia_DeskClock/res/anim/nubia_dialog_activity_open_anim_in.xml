@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:interpolator="@interpolator/nubia_ease_out_cubic" android:duration="100" android:fromYDelta="10.000002%p" android:toYDelta="0.0%p" />
+    <alpha android:duration="100" android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

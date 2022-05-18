@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_wiredlessand_wired_setting_show1">\"Small window\" projects \"Big screen\", mobile phone handles multi-tasks at the same time</string>
+    <string name="activity_wiredlessand_wired_setting_show2">Mobile phone becomes \"Handle\", watching the big screen to play games</string>
+    <string name="agree">Agree</string>
+    <string name="app_name">Projection Screen</string>
+    <string name="bandwidth_high">Strong</string>
+    <string name="bandwidth_mid">Medium</string>
+    <string name="bandwidth_poor">Weak</string>
+    <string name="browsedevice_link_status_ing">Please make sure that the devices at both ends are connected to the same LAN May try %1$s switch networks</string>
+    <string name="cannot_connect">Unable to connect. Please confirm device</string>
+    <string name="change_wifi">Projection screen prompts</string>
+    <string name="change_wifi_continue">Continue to use</string>
+    <string name="change_wifi_tips">To ensure projection screen quality, it’s suggestion to switch to Wi-Fi of 5G</string>
+    <string name="change_wifi_to_settings">WLAN Setting</string>
+    <string name="choose_device">Select the device for projection screen</string>
+    <string name="choose_device_computer">Project screen to PC</string>
+    <string name="choose_device_computer_linked">Stop</string>
+    <string name="choose_device_tv">Project screen to TV</string>
+    <string name="choose_device_tv_linked">Stop</string>
+    <string name="choose_sound">Audio output</string>
+    <string name="choose_sound_output_message">When the mobile phone turns on the microphone or we puts on the headset, whether the screen mirroring terminal will always output sound or not?</string>
+    <string name="connect_blacklist">Connection blacklist</string>
+    <string name="connect_fail">Connection failed</string>
+    <string name="connect_reject">Connection refused</string>
+    <string name="connect_timeout">Connection timeout</string>
+    <string name="cta_message_1">“Projection screen” will allow you to project mobile phone screen to other terminal devices. To achieve this function, the software will revoke your following mobile phone permissions or functions during usage:</string>
+    <string name="cta_message_2">"• Recording: the permission is required to project sound to other terminals. 
+• Camera: when creating links, the permission is required to scan code. 
+• Networking and device identification: when the software is running safety verification at service end, the permission needs to be accessed."</string>
+    <string name="cta_message_3">"The setting permissions and functions required by “Projection screen” include the above. If you disagree with our invoking of relevant mobile phone permissions/functions, the software will malfunction. After you agree with it, you will automatically enable the abovementioned permission and you can disable the access to relevant permission in the settings at any time. 
+
+ If you click on “Agree”, it means that you have read and agreed with above contents."</string>
+    <string name="cta_title">“Projection screen service terms”</string>
+    <string name="device_list">Select devices</string>
+    <string name="device_searching">Searching surrounding devices</string>
+    <string name="disconnect">Disconnected</string>
+    <string name="floating_permission">Need to activate the floating window permission</string>
+    <string name="floating_permission_negative">Cancel</string>
+    <string name="floating_permission_positive">Go to settings</string>
+    <string name="floating_permission_tips">When using the projection screen, need to activate the permission button that allows it to be displayed on the upper layer of other apps</string>
+    <string name="hdmi_list_empty_tip">Please insert DP/HDMI cable to connect for wired screen mirroring</string>
+    <string name="help_content_1">"Step 1: Download Lebo projection screen client from computer end. 
+Step 2: make sure that the mobile phone end and the target device are connected to the same LAN. 
+Step 3: open the QR code of Lebo projection screen client from computer end and scan the QR code to connect with mobile phone end."</string>
+    <string name="help_content_2">"Step 1: Make sure that the mobile phone end and the target device are connected to the same LAN. 
+Step 2: Select “project screen to TV” from mobile phone end and select the device for projection screen in the list of large-screen devices among search results and project screen."</string>
+    <string name="help_content_3">Some large-screen devices cannot be searched. You can try to download and open the Lebo projection screen client on the TV to complete the screen</string>
+    <string name="help_content_4">"Under the condition of good network conditions, the following factors may affect the quality of the screen projection: 
+1. Both devices are not connected to the 5G Wi-Fi hotspot; 
+2. When the local area network connected by both devices has interference, if multiple devices are connected to the same local area network, with obstacles such as walls."</string>
+    <string name="help_content_5">When on live, it is recommended to use a 3.5mm audio cable to connect the mobile phone and the computer to transmit sound. At the same time, select \"None\" for \"Screen projection sound source\" to ensure that the sound is synchronized with the mobile phone screen.</string>
+    <string name="help_title_1">Project screen to PC</string>
+    <string name="help_title_2">Project screen to TV</string>
+    <string name="help_title_3">Screen projection freezes, delays?</string>
+    <string name="home_activity_mirrot_playing">Connected to</string>
+    <string name="home_activity_mirrotpc">Mobile games cast PC, live broadcast more enjoyable</string>
+    <string name="home_activity_mirrottv">Mobile games cast TV, big screen is smoother</string>
+    <string name="home_auto_quality_tips">Automatically adjust the screen definition according to the network quality</string>
+    <string name="home_auto_quality_title">Automatic adjustment</string>
+    <string name="home_back">Projection Screen</string>
+    <string name="home_cancel">Cancel</string>
+    <string name="home_floating_window_tips">When wireless screen mirroring, current LAN connection status will be real-time displayed.</string>
+    <string name="home_floating_window_title">Display of screen projection status</string>
+    <string name="home_help">Help</string>
+    <string name="home_private_mode_tips">When wireless screen mirroring, banner notifications, incoming calls and other information will not be displayed on the target device screen.</string>
+    <string name="home_private_mode_tips_wired">When wired screen mirroring, banner screen notifications, incoming calls and other information will not be displayed on the target device screen.</string>
+    <string name="home_private_mode_title">Privacy Mode</string>
+    <string name="home_quality">Quality</string>
+    <string name="home_sound_source">Sound Sources</string>
+    <string name="initsdk_failed">Initialization failed, please check wifi connection</string>
+    <string name="jump_to_settings">Go to setting</string>
+    <string name="mirror_link_status_ing">Connecting...</string>
+    <string name="mirror_link_status_lastlinkdevice">Last connection</string>
+    <string name="no">No</string>
+    <string name="no_device_found">No available devices</string>
+    <string name="no_device_found_tip">You can try to download and open the Lebo projection screen client on the TV.</string>
+    <string name="no_wanted_device_tip">If there is no target device, you can try to download on TV and open the Lebo projection screen client</string>
+    <string name="not_change_while_mirroring">Please use it before the screen</string>
+    <string name="nubia_capital_off">OFF</string>
+    <string name="nubia_capital_on">ON</string>
+    <string name="pin_disconnect">Pin code disconnected</string>
+    <string name="privacy_comfirm">Confirm to enable</string>
+    <string name="privacy_message">Projection screen has been connected. Do you want to enable privacy mode?</string>
+    <string name="privacy_title">Privacy Mode</string>
+    <string name="quality_high">HD</string>
+    <string name="quality_low">Fluent</string>
+    <string name="quality_suggestion_confirm">Confirm to use</string>
+    <string name="quality_suggestion_tips">Current network status is poor. To ensure the effect of screen projection, it is recommended to use adaptive mode for the screen projection quality.</string>
+    <string name="quality_suggestion_title">Screen projection suggestion</string>
+    <string name="req_permission_fail">Authorization failed</string>
+    <string name="request_permission">Request permission</string>
+    <string name="request_permission_tips">Go to setting interface and grant permission required by application</string>
+    <string name="research">Search again</string>
+    <string name="result_mirror_fail">Failed.</string>
+    <string name="result_mirror_stop">Stopped</string>
+    <string name="result_mirror_succss">Connected</string>
+    <string name="scan_back">Scan code and project screen</string>
+    <string name="scan_notes_1">1. Download Lebo projection screen client</string>
+    <string name="scan_notes_2">2. Connect to the same LAN</string>
+    <string name="scan_notes_3">"3. Open QR code of Lebo screen project client,
+scan the code and connect"</string>
+    <string name="scan_success">Code scanned:</string>
+    <string name="screen_orientation_dialog_title">Select the current display status</string>
+    <string name="screen_orientation_landscape">Horizontal screen display</string>
+    <string name="screen_orientation_portrait">Vertical screen display</string>
+    <string name="screen_projection_quality_auto">Auto</string>
+    <string name="screen_projection_quality_high">HD</string>
+    <string name="screen_projection_quality_host">Host mode</string>
+    <string name="screen_projection_quality_low">LD</string>
+    <string name="screen_projection_quality_normal">SD</string>
+    <string name="settings_back">Settings</string>
+    <string name="sound_local">Phone</string>
+    <string name="sound_local_tips">(With headphone attached or microphone enabled)</string>
+    <string name="sound_remote">Always screen projection</string>
+    <string name="sound_remote_tips">(Share audio with others)</string>
+    <string name="sound_source_mike">Microphone</string>
+    <string name="sound_source_none">None</string>
+    <string name="sound_source_none_tips">(When on live, 3.5mm audio cable is recommended)</string>
+    <string name="sound_source_system">System Sound</string>
+    <string name="sound_source_system_mike">System Sound and Microphone</string>
+    <string name="tell2download_lebopc_btn">I got it</string>
+    <string name="tell2download_lebopc_content">"Project screen to PC，Download Lebo projection 
+ screen client from computer end"</string>
+    <string name="tell2download_lebopc_title">Download Lebo projection screen</string>
+    <string name="tips_fisrt_show">Screen projection status is real-time displayed, can be off.</string>
+    <string name="tips_status_change">Screen projection status is unstable.</string>
+    <string name="toast_mirrordevice_info">Not adjustable in projection screen</string>
+    <string name="waiting_comfirm">Wait for confirmation</string>
+    <string name="wifi_connect">Please connect to the net...</string>
+    <string name="wifi_connect_tips">Both devices on the screen projection use 5G band Wi-Fi network for better quality.</string>
+    <string name="wifi_open">Enable Wi-Fi</string>
+    <string name="wifi_open_text">Enable immediately</string>
+    <string name="wifi_open_tips">Both devices on the screen projection use 5G band Wi-Fi network for better quality.</string>
+    <string name="wired_choose_hdmi_mode">Select output frame rate mode</string>
+    <string name="wired_hdmi_mode_tips">May select different output frame rate modes.</string>
+    <string name="wired_hdmi_mode_title">Wired screen mirroring display mode</string>
+    <string name="wired_help_content_1">Step 1: One end is a Type-C cable, and the other end may be an HDMI, VGA, DVI or DP adapter cable. (Depending on the interface supported by the large screen device)</string>
+    <string name="wired_help_content_2">Step 2: Use the adapter cable to connect the mobile phone to Type-C, and connect large-screen devices to HDMI, VGA, or DVI.</string>
+    <string name="wired_help_content_3">Step 3: Switch the large-screen input signal source to the input of the adapter cable corresponding to HDMI, VGA, DVI, or DP.</string>
+    <string name="wired_screen_orientation_title">Horizontal and vertical screen switching</string>
+    <string name="wired_screen_projection">Wired Projection</string>
+    <string name="wired_show_fps_tips">Screen mirroring terminal can display current frame rate.</string>
+    <string name="wired_show_fps_title">Screen mirroring frame rate displays</string>
+    <string name="wired_sound_output_never_ask">No more reminders</string>
+    <string name="wired_sound_output_tips">When the mobile phone turns on the microphone or we puts on the headset, the screen mirroring terminal will always output sound.</string>
+    <string name="wired_sound_output_title">Screen mirroring terminal outputs sound.</string>
+    <string name="wired_tips">"DP/HDMI high-definition zero-latency screen mirroring
+Up to 165hz with the screen mirroring terminal"</string>
+    <string name="wired_tips_144">"DP/HDMI high-definition zero-latency screen mirroring
+Up to 144hz with the screen mirroring terminal"</string>
+    <string name="wireless_screen_projection">Wireless Projection</string>
+    <string name="wireless_tips">To ensure better projection screen experience, it’s suggested to install and open Lebo projection screen client on target device through Wi-Fi or code scanning.</string>
+    <string name="yes">Yes</string>
+</resources>

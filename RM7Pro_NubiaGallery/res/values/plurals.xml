@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Delete selected items?</item>
+        <item quantity="one">Delete selected item?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d days</item>
+        <item quantity="zero">%d day</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Making albums available offline.</item>
+        <item quantity="one">Making album available offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="zero">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Copy %1$d</item>
+        <item quantity="zero">Copy %1$d</item>
+        <item quantity="one">Copy %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Cut %1$d</item>
+        <item quantity="zero">Cut %1$d</item>
+        <item quantity="one">Cut %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d Selected</item>
+        <item quantity="zero">%1$d Selected</item>
+        <item quantity="one">%1$d Selected</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Recover selected items?</item>
+        <item quantity="one">Recover selected item?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">%1$d items selected</item>
+        <item quantity="zero">%1$d item selected</item>
+        <item quantity="one">%1$d item selected</item>
+    </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_8">false</item>
+</resources>

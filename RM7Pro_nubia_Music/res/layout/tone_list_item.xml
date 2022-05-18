@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_183" android:minHeight="@dimen/dimen_183"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/tone_lin1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_54" android:layout_marginRight="@dimen/dimen_48" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:gravity="center" android:id="@id/listindex" android:layout_width="@dimen/dimen_108" android:layout_height="@dimen/dimen_108" android:singleLine="true" android:textIsSelectable="false" style="@style/ArkWhiteListviewIndexTextStyle" />
+        <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="@dimen/dimen_108" android:layout_height="@dimen/dimen_108" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/tone_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/tone_item_click_layout" android:layout_toEndOf="@id/tone_lin1">
+        <TextView android:id="@id/tone_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false" style="@style/ArkWhiteListviewTitleTextStyle" />
+        <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/listview_index_color" android:id="@id/tone_subtitle" android:paddingTop="@dimen/dimen_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/tone_name" android:textIsSelectable="false" />
+    </RelativeLayout>
+    <View android:id="@id/tone_listview_divider" android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/dimen_210" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tone_item_click_layout" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_padding_button" android:layout_marginRight="@dimen/ark_musicindicator_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <cn.nubia.music.ui.MusicPlayingIndicator android:id="@id/play_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ark_musicindicator_marginright" />
+        <CheckBox android:gravity="center_vertical" android:id="@id/selectcheckoutbox" android:focusable="false" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+    </LinearLayout>
+</RelativeLayout>

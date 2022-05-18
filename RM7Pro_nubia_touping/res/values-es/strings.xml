@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Contraer</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="activity_wiredlessand_wired_setting_show1">\"Ventana pequeña\" proyecta \"Pantalla grande\", el teléfono móvil gestiona múltiples tareas al mismo tiempo</string>
+    <string name="activity_wiredlessand_wired_setting_show2">El teléfono móvil se convierte en \"Controlador\", viendo la pantalla grande para jugar.</string>
+    <string name="agree">Aceptar</string>
+    <string name="app_name">Pantalla de proyección</string>
+    <string name="bandwidth_high">Bien</string>
+    <string name="bandwidth_mid">Medio</string>
+    <string name="bandwidth_poor">Flojo</string>
+    <string name="browsedevice_link_status_ing">"Asegúrese de que los dispositivos en ambos extremos estén conectados a la misma LAN 
+ Puede probar %1$s cambiar de red"</string>
+    <string name="cannot_connect">No puede conectarse. Por favor confirme el dispositivo</string>
+    <string name="change_wifi">Indicaciones de la pantalla de proyección</string>
+    <string name="change_wifi_continue">Continuar</string>
+    <string name="change_wifi_tips">Para garantizar la calidad de proyección de la pantalla se sugiere cambiar a WiFi de 5G</string>
+    <string name="change_wifi_to_settings">Configuración de WLAN</string>
+    <string name="choose_device">Seleccione el dispositivo para la pantalla de proyección.</string>
+    <string name="choose_device_computer">Proyectar pantalla a la computadora</string>
+    <string name="choose_device_computer_linked">Detener</string>
+    <string name="choose_device_tv">Proyectar pantalla al televisor</string>
+    <string name="choose_device_tv_linked">Detener</string>
+    <string name="choose_sound">Elija entrada de audio</string>
+    <string name="choose_sound_output_message">Si la pantalla siempre emite sonido cuando el móvil enciende el micrófono o se pone los auriculares.</string>
+    <string name="connect_blacklist">Lista negra de conexiones</string>
+    <string name="connect_fail">La conexión falló</string>
+    <string name="connect_reject">conexión denegada</string>
+    <string name="connect_timeout">Sistema ocupado, inténtelo más tarde.</string>
+    <string name="cta_message_1">La pantalla de proyección le permitirá proyectar la pantalla del teléfono móvil a otros dispositivos terminales. Para lograr esta función, el software revocará los siguientes permisos o funciones de su teléfono móvil durante el uso:</string>
+    <string name="cta_message_2">"• Grabación: se requiere el permiso para proyectar sonido a otros terminales. 
+ • Cámara: al crear enlaces, se requiere el permiso para escanear el código. 
+ • Redes e identificación del dispositivo: cuando el software ejecuta la verificación de seguridad al finalizar el servicio, es necesario acceder al permiso."</string>
+    <string name="cta_message_3">"Los permisos de configuración y las funciones requeridas por Pantalla de proyección incluyen lo anterior. Si no está de acuerdo con nuestra invocación a los permisos/funciones relevantes para teléfonos móviles, el software no funcionará correctamente. Después de aceptarlo, habilitará automáticamente el permiso mencionado anteriormente y usted podrá deshabilitar el acceso a los permisos relevantes en las configuraciones en cualquier momento. 
+
+ Si hace clic en Aceptar, significa que ha leído y está de acuerdo con el contenido anterior."</string>
+    <string name="cta_title">Términos del servicio de pantalla de proyección</string>
+    <string name="device_list">Seleccionar dispositivos</string>
+    <string name="device_searching">Buscar dispositivos circundantes</string>
+    <string name="disconnect">Desconectado</string>
+    <string name="floating_permission">Necesita activar el permiso de ventana flotante</string>
+    <string name="floating_permission_negative">Cancelar</string>
+    <string name="floating_permission_positive">Ir a la configuración</string>
+    <string name="floating_permission_tips">Al usar la pantalla de proyección, debe activar el botón de permiso que permite que se muestre en la capa superior de otras aplicaciones</string>
+    <string name="hdmi_list_empty_tip">Inserte el cable DP/HDMI para conectar para la duplicación de pantalla con cable</string>
+    <string name="help_content_1">"Paso 1: Descargue la pantalla de proyección de cliente Lebo desde el extremo de la computadora. 
+Paso 2: asegúrese de que el extremo del teléfono móvil y el dispositivo de destino estén conectados a la misma LAN. 
+Paso 3: abra el código QR de la pantalla de proyección de cliente Lebo desde el extremo de la computadora y escanee el código QR para conectarse con el extremo del teléfono móvil."</string>
+    <string name="help_content_2">"Paso 1: Asegúrese de que el extremo del teléfono móvil y el dispositivo de destino estén conectados a la misma LAN. 
+Paso 2: Seleccione proyectar pantalla a TV desde el extremo del teléfono móvil y seleccione el dispositivo para la pantalla de proyección en la lista de dispositivos de pantalla grande de los resultados de la búsqueda y proyecte la pantalla."</string>
+    <string name="help_content_3">Algunos dispositivos de pantalla grande no se pueden buscar. Puede intentar descargar y abrir la proyección de pantalla del cliente Lebo en el televisor para completar la pantalla</string>
+    <string name="help_content_4">"Si las condiciones de la red son buenas, los siguientes factores pueden afectar la calidad de la proyección de la pantalla: 
+1. Ambos dispositivos no están conectados al punto de acceso Wi-Fi de 5G; 
+2. Cuando la red de área local conectada por ambos dispositivos tiene interferencias, si se conectan varios dispositivos a la misma red de área local, con obstáculos como paredes."</string>
+    <string name="help_content_5">Durante la transmisión en vivo, se recomienda utilizar un cable de audio de 3.5 mm para conectar el teléfono móvil y la computadora para transmitir el sonido. Al mismo tiempo, seleccione \"Ninguno\" para \"Fuente de sonido del proyector\" para asegurarse de que el sonido esté sincronizado con la pantalla del teléfono móvil.</string>
+    <string name="help_title_1">Proyectar pantalla a la computadora</string>
+    <string name="help_title_2">Proyectar pantalla al televisor</string>
+    <string name="help_title_3">Congelación y retardo de la proyección inalámbrica</string>
+    <string name="home_activity_mirrot_playing">Conectado a</string>
+    <string name="home_activity_mirrotpc">Los juegos móviles emiten computadora, la transmisión en vivo es más agradable</string>
+    <string name="home_activity_mirrottv">Los juegos móviles emiten TV, la pantalla grande es más fluida</string>
+    <string name="home_auto_quality_tips">Ajusta automáticamente la definición de pantalla según el estado de la red</string>
+    <string name="home_auto_quality_title">Ajuste automático</string>
+    <string name="home_back">Pantalla de proyección</string>
+    <string name="home_cancel">Cancelar</string>
+    <string name="home_floating_window_tips">Cuando se proyecta la pantalla inalámbrica, se muestra el estado actual de la conexión LAN en tiempo real.</string>
+    <string name="home_floating_window_title">La visualización de la proyección inalámbrica de retardo</string>
+    <string name="home_help">Ayuda</string>
+    <string name="home_private_mode_tips">Cuando se proyecta la pantalla inalámbrica, las notificaciones de estandarte, las llamadas entrantes y otra información no se muestran en la pantalla del dispositivo de destino.</string>
+    <string name="home_private_mode_tips_wired">Cuando la pantalla está cableada, las notificaciones de estandarte, las llamadas entrantes y otra información no se muestran en la pantalla del dispositivo de destino.</string>
+    <string name="home_private_mode_title">Modo privado</string>
+    <string name="home_quality">Calidad de la pantalla de proyección</string>
+    <string name="home_sound_source">Fuente de sonido</string>
+    <string name="initsdk_failed">Fallo en la inicialización,por favor verifique su conexión WiFi</string>
+    <string name="jump_to_settings">Ir a configuración</string>
+    <string name="mirror_link_status_ing">Conectando...</string>
+    <string name="mirror_link_status_lastlinkdevice">Última conexión</string>
+    <string name="no">No</string>
+    <string name="no_device_found">No hay dispositivos disponibles.</string>
+    <string name="no_device_found_tip">Puede intentar descargar y abrir la proyección de pantalla del cliente Lebo en el televisor.</string>
+    <string name="no_wanted_device_tip">Si no hay un dispositivo de destino, puede intentar descargarlo en la TV y abrir el cliente de pantalla de proyección Lebo</string>
+    <string name="not_change_while_mirroring">Por favor, use antes de transmitir la pantalla</string>
+    <string name="nubia_capital_off">Desactivado</string>
+    <string name="nubia_capital_on">ACTIVADO</string>
+    <string name="pin_disconnect">Código PIN desconectado</string>
+    <string name="privacy_comfirm">Confirmar para habilitar</string>
+    <string name="privacy_message">La pantalla de proyección ha sido conectada. ¿Quieres habilitar el modo privado?</string>
+    <string name="privacy_title">Modo privado</string>
+    <string name="quality_high">HD</string>
+    <string name="quality_low">Fluente</string>
+    <string name="quality_suggestion_confirm">Determinar el uso</string>
+    <string name="quality_suggestion_tips">El estado actual de la red es deficiente. Para garantizar el efecto de la proyección de la pantalla, se recomienda utilizar el modo adaptativo para la calidad de la pantalla</string>
+    <string name="quality_suggestion_title">Sugerencia de proyectar la pantalla</string>
+    <string name="req_permission_fail">Autorización fallida</string>
+    <string name="request_permission">Solicitar permiso</string>
+    <string name="request_permission_tips">Vaya a la interfaz de configuración y otorgue el permiso requerido por la aplicación</string>
+    <string name="research">Buscar de nuevo</string>
+    <string name="result_mirror_fail">Ha fallado.</string>
+    <string name="result_mirror_stop">Detenido</string>
+    <string name="result_mirror_succss">Conectado</string>
+    <string name="scan_back">Código de escaneo y pantalla de proyección</string>
+    <string name="scan_notes_1">1. Descargue el cliente de pantalla de proyección Lebo</string>
+    <string name="scan_notes_2">2. Conéctese a la misma LAN</string>
+    <string name="scan_notes_3">"3. Abra el código QR del cliente de proyecto de pantalla de Lebo, 
+ escanee el código y conéctese"</string>
+    <string name="scan_success">Código escaneado:</string>
+    <string name="screen_orientation_dialog_title">"Seleccione el estado del monitor actual "</string>
+    <string name="screen_orientation_landscape">Pantalla horizontal</string>
+    <string name="screen_orientation_portrait">Pantalla vertical</string>
+    <string name="screen_projection_quality_auto">AUTO</string>
+    <string name="screen_projection_quality_high">HD</string>
+    <string name="screen_projection_quality_host">Modo host</string>
+    <string name="screen_projection_quality_low">LD</string>
+    <string name="screen_projection_quality_normal">SD</string>
+    <string name="settings_back">Ajustes</string>
+    <string name="sound_local">Terminal de telefonía móvil</string>
+    <string name="sound_local_tips">(Proteja privacidad personal)</string>
+    <string name="sound_remote">Terminal de espejo de pantalla</string>
+    <string name="sound_remote_tips">(Comparta audio con otros)</string>
+    <string name="sound_source_mike">Micrófono</string>
+    <string name="sound_source_none">Ninguno</string>
+    <string name="sound_source_none_tips">(Se recomienda un cable de audio de 3.5 mm para la transmisión en vivo)</string>
+    <string name="sound_source_system">Sonido del sistema</string>
+    <string name="sound_source_system_mike">Sistema de sonido y micrófono</string>
+    <string name="tell2download_lebopc_btn">Lo tengo</string>
+    <string name="tell2download_lebopc_content">Proyecte la pantalla a la PC, Descargue la de pantalla de proyección Lebo \\n desde el terminal de la computadora del cliente</string>
+    <string name="tell2download_lebopc_title">Descargar la pantalla de proyección Lebo</string>
+    <string name="tips_fisrt_show">Se muestra en tiempo real el estado de la pantalla; se puede apagar</string>
+    <string name="tips_status_change">El estado de la proyección inalámbrica es inestable</string>
+    <string name="toast_mirrordevice_info">No ajustable en la pantalla de proyección.</string>
+    <string name="waiting_comfirm">Espere la confirmación</string>
+    <string name="wifi_connect">Por favor, conéctese a la red...</string>
+    <string name="wifi_connect_tips">Se requiere una conexión WiFi, se recomienda una red WiFi 5G para mejor calidad.</string>
+    <string name="wifi_open">Habilitar Wi-Fi</string>
+    <string name="wifi_open_text">Habilitar inmediatamente</string>
+    <string name="wifi_open_tips">Se requiere WiFi Se recomienda una red WiFi 5G para mejor calidad.</string>
+    <string name="wired_choose_hdmi_mode">Seleccione el modo de velocidad de fotogramas de salida</string>
+    <string name="wired_hdmi_mode_tips">Se puede elegir diferentes modos de velocidad de fotogramas de salida</string>
+    <string name="wired_hdmi_mode_title">Modo de la pantalla está cableada</string>
+    <string name="wired_help_content_1">Paso 1: Un extremo es un cable tipo C y el otro extremo puede ser un cable adaptador HDMI, VGA, DVI o DP. (Dependiendo de la interfaz compatible con el dispositivo de pantalla grande)</string>
+    <string name="wired_help_content_2">Paso 2: Use el cable adaptador para conectar el teléfono móvil a Tipo-C y conecte dispositivos de pantalla grande a HDMI, VGA o DVI.</string>
+    <string name="wired_help_content_3">Paso 3: Cambie la fuente de señal de entrada de pantalla grande a la entrada del cable adaptador correspondiente a HDMI, VGA, DVI o DP.</string>
+    <string name="wired_screen_orientation_title">Cambio de pantalla horizontal y vertical</string>
+    <string name="wired_screen_projection">Protección de conexión física</string>
+    <string name="wired_show_fps_tips">La pantalla de proyección puede mostrar la velocidad de fotogramas actual.</string>
+    <string name="wired_show_fps_title">Visualización de velocidad de fotogramas de proyección</string>
+    <string name="wired_sound_output_never_ask">No recuerde más</string>
+    <string name="wired_sound_output_tips">Cuando el móvil enciende el micrófono o se pone el auricular, la pantalla de proyección siempre emite sonido.</string>
+    <string name="wired_sound_output_title">El sonido se emite desde la pantalla de proyección.</string>
+    <string name="wired_tips">"DP/HDMI se proyecta la pantalla de alta definición y latencia cero 
+ Hasta 165hz cuando se usa con la pantalla de proyección"</string>
+    <string name="wired_tips_144">"DP/HDMI se proyecta la pantalla de alta definición y latencia cero 
+ Hasta 144hz cuando se usa con la pantalla de proyección"</string>
+    <string name="wireless_screen_projection">Protección inalámbrica</string>
+    <string name="wireless_tips">Para garantizar una mejor experiencia en la proyección de la pantalla, se sugiere instalar y abrir la pantalla de proyección al cliente Lebo en el dispositivo de destino a través del WiFi o escaneo de código.</string>
+    <string name="yes">Sí</string>
+</resources>

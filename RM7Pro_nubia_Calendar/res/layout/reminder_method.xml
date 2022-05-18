@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="vertical" android:id="@id/reminder_default_time_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radiobutton1" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton2" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton3" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton4" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton5" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton6" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton7" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton8" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton9" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+    <RadioButton android:id="@id/radiobutton10" android:visibility="gone" style="@style/ScreenTimeoutRadioItem" />
+</RadioGroup>

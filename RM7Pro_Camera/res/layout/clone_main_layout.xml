@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/clone_display_layout" />
+    <ImageView android:id="@id/display_shader_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dimens_92" android:layout_alignParentBottom="true">
+        <include layout="@layout/clone_edit_layout" />
+    </RelativeLayout>
+    <include layout="@layout/clone_bottom_layout" />
+    <include layout="@layout/clone_delay_shoot_layout" />
+</RelativeLayout>

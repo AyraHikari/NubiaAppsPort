@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:topLeftRadius="@dimen/mfvc_radius_dialog" android:topRightRadius="@dimen/mfvc_radius_dialog" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="0.0dip" />
+        <solid android:color="@color/mfv_common_pop_bg" />
+        <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
+    </shape>
+</inset>

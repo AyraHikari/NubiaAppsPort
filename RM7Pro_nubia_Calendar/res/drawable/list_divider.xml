@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/sports_list_marginstart" android:insetRight="@dimen/sports_list_marginend"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/sports_list_devider_line" />
+    </shape>
+</inset>

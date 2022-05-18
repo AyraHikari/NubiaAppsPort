@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">حذف العناصر المختارة؟</item>
+        <item quantity="one">حذف العنصر المختار؟</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d يوم</item>
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">%d يوم</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">جعل الألبوم متاحا دون اتصال بالإنترنت</item>
+        <item quantity="one">جعل الألبوم متاحا دون اتصال بالإنترنت</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">تم إختيار %1$d</item>
+        <item quantity="zero">تم إختيار %1$d</item>
+        <item quantity="one">تم إختيار %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">تم إختيار %1$d</item>
+        <item quantity="zero">تم إختيار %1$d</item>
+        <item quantity="one">تم إختيار %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">تم نقل %1$d</item>
+        <item quantity="zero">تم نقل %1$d</item>
+        <item quantity="one">تم نقل %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">تم نقل %1$d</item>
+        <item quantity="zero">تم نقل %1$d</item>
+        <item quantity="one">تم نقل %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">موافق (%1$d)</item>
+        <item quantity="zero">موافق (%1$d)</item>
+        <item quantity="one">موافق (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">تم إختيار %1$d</item>
+        <item quantity="zero">تم إختيار %1$d</item>
+        <item quantity="one">تم إختيار %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">استعادة العناصر المحددة؟</item>
+        <item quantity="one">استعادة العنصر المحدد؟</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">تم اختيار %1$d عناصر</item>
+        <item quantity="zero">تم اختيار %1$d عنصر</item>
+        <item quantity="one">تم اختيار %1$d عنصر</item>
+    </plurals>
+</resources>

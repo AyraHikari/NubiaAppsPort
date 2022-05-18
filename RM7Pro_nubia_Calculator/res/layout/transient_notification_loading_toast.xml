@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/mfvc_loading_toast_y_offset" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/toast_background_zte" android:layout_width="wrap_content" android:layout_height="0.0dip" android:minWidth="140.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.zte.mifavor.widget.ProgressBarZTE android:layout_gravity="center_vertical" android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progress_indeterminate_drawable_zte" android:indeterminateTint="#ffffffff" style="?android:progressBarStyleSmall" />
+        <View android:id="@id/space" android:layout_width="10.0dip" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="@style/TextAppearance.ZTE.Light" android:textSize="14.0sp" android:textColor="@color/bright_foreground_dark" android:gravity="start" android:layout_gravity="center_vertical" android:id="@android:id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

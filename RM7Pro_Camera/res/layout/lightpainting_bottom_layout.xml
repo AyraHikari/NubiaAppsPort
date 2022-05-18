@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/capture_view_layout" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_shutter_button" android:layout_marginStart="@dimen/dimens_18" android:layout_alignParentStart="true">
+        <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/capture_view_icon" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@drawable/shutter_camera" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_shutter_button" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/torch_layout" android:visibility="gone" android:layout_width="@dimen/dimens_80" android:layout_height="@dimen/dimens_80" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimens_64" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/torch_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nubia_small_button" android:layout_centerInParent="true" />
+        <com.android.common.ui.RotateImageView android:id="@id/torch_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_flash_on" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/dimens_11" android:textColor="@color/alpha87_white" android:id="@id/torch_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_25" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dimens_43_6" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/dimens_80" android:layout_height="@dimen/dimens_80" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimens_64" android:layout_alignParentEnd="true">
+        <com.android.common.ui.RotateImageView android:id="@id/draw_one_frame_button" android:background="@drawable/nubia_small_button" android:visibility="gone" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@drawable/light_painting_draw_one_frame" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimens_18" android:layout_alignParentEnd="true">
+        <com.android.common.ui.RotateImageView android:id="@id/pause_button" android:background="@drawable/nubia_small_button" android:visibility="gone" android:layout_width="@dimen/dimens_48" android:layout_height="@dimen/dimens_48" android:src="@drawable/video_resume" />
+    </RelativeLayout>
+</merge>

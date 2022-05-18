@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.demo3.MyLinearLayout android:orientation="vertical" android:id="@id/ly3" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/view13" android:background="#ffcaaccc" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="View13" />
+    <TextView android:gravity="center" android:id="@id/view14" android:background="#ffcbbdc7" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="View14" />
+    <TextView android:gravity="center" android:id="@id/view15" android:background="#ffceeddd" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="View15" />
+    <TextView android:gravity="center" android:id="@id/view16" android:background="#ffdaaddd" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="View16" />
+    <TextView android:gravity="center" android:id="@id/view17" android:background="#ffeccddd" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="View17" />
+</cn.nubia.demo3.MyLinearLayout>

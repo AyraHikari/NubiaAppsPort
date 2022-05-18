@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Hapus item yang dipilih?</item>
+        <item quantity="one">Hapus item yang dipilih?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d hari</item>
+        <item quantity="zero">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Menjadikan album tersedia secara offline.</item>
+        <item quantity="one">Menjadikan album tersedia secara offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Menyalin %1$d</item>
+        <item quantity="zero">Menyalin %1$d</item>
+        <item quantity="one">Menyalin %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Memotong %1$d</item>
+        <item quantity="zero">Memotong %1$d</item>
+        <item quantity="one">Memotong %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">Oke (%1$d)</item>
+        <item quantity="zero">Oke (%1$d)</item>
+        <item quantity="one">Oke (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Pulihkan item item terpilih?</item>
+        <item quantity="one">Pulihkan item terpilih?</item>
+    </plurals>
+</resources>

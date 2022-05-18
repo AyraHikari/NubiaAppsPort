@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/weather_cityadd_hot_city_grid_item_width" android:layout_height="@dimen/weather_cityadd_hot_city_grid_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hotcity_checkbox" android:visibility="gone" android:layout_width="@dimen/weather_addcity_checkbox_size" android:layout_height="@dimen/weather_addcity_checkbox_size" android:layout_marginRight="@dimen/weather_addcity_checkbox_margin" android:src="@drawable/city_selected" android:layout_toLeftOf="@id/hotcity_name" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="@dimen/weather_addcity_text" android:textColor="@color/weather_forecast_day_text" android:id="@id/hotcity_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

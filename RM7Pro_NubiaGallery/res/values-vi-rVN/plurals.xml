@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Xóa các mục đã chọn?</item>
+        <item quantity="one">Xóa mục đã chọn?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d ngày</item>
+        <item quantity="zero">%d ngày</item>
+        <item quantity="one">%d ngày</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Đặt anbom khả dụng ngoại tuyến.</item>
+        <item quantity="one">Đặt anbom khả dụng ngoại tuyến.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+        <item quantity="zero">Đã chọn %1$d</item>
+        <item quantity="one">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+        <item quantity="zero">Đã chọn %1$d</item>
+        <item quantity="one">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Cắt %1$d</item>
+        <item quantity="zero">Cắt %1$d</item>
+        <item quantity="one">Cắt %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">Được (%1$d)</item>
+        <item quantity="zero">Được (%1$d)</item>
+        <item quantity="one">Được (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Đã chọn %1$d</item>
+        <item quantity="zero">Đã chọn %1$d</item>
+        <item quantity="one">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Khôi phục các mục đã chọn?</item>
+        <item quantity="one">Khôi phục mục đã chọn?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">Đã chọn %1$d mục</item>
+        <item quantity="zero">Đã chọn %1$d mục</item>
+        <item quantity="one">Đã chọn %1$d mục</item>
+    </plurals>
+</resources>

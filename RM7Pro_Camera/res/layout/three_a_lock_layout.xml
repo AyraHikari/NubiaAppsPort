@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.common.ui.RotateImageView android:id="@id/af_lock_button" android:layout_width="@dimen/dimens_39" android:layout_height="@dimen/dimens_39" android:src="@drawable/af_lock_button" android:layout_alignParentStart="true" />
+        <com.android.common.ui.RotateImageView android:id="@id/ae_lock_button" android:layout_width="@dimen/dimens_39" android:layout_height="@dimen/dimens_39" android:layout_marginTop="@dimen/dimens_10" android:src="@drawable/ae_lock_button" android:layout_below="@id/af_lock_button" android:layout_alignParentStart="true" />
+        <com.android.common.ui.RotateImageView android:id="@id/awb_lock_button" android:layout_width="@dimen/dimens_39" android:layout_height="@dimen/dimens_39" android:layout_marginTop="@dimen/dimens_10" android:src="@drawable/awb_lock_button" android:layout_below="@id/ae_lock_button" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</merge>

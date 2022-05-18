@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Radera markerade objekt?</item>
+        <item quantity="one">Ta bort markerat objekt?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Gör album tillgängliga offline.</item>
+        <item quantity="one">Gör album tillgängligt offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d har markerats</item>
+        <item quantity="zero">%1$d har markerats</item>
+        <item quantity="one">%1$d har markerats</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d har markerats</item>
+        <item quantity="zero">%1$d har markerats</item>
+        <item quantity="one">%1$d har markerats</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d har markerats</item>
+        <item quantity="zero">%1$d har markerats</item>
+        <item quantity="one">%1$d har markerats</item>
+    </plurals>
+</resources>

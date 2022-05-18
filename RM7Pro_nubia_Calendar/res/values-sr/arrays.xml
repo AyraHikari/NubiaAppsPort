@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Заузет/а</item>
+        <item>Доступан/а</item>
+        <item>Проба</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Дан</item>
+        <item>Недеља</item>
+        <item>Месец</item>
+        <item>Распоред</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Само овај догађај</item>
+        <item>Сви догађаји у овом низу</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Само овај догађај</item>
+        <item>Овај и будући догађаји</item>
+        <item>Сви догађаји</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Овај и будући догађаји</item>
+        <item>Сви догађаји</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>први</item>
+        <item>други</item>
+        <item>трећи</item>
+        <item>четврти</item>
+        <item>последњи</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Увек</item>
+        <item>Само у нечујном режиму</item>
+        <item>Никад</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ништа</item>
+        <item>0 минута</item>
+        <item>1 минут</item>
+        <item>5 минута</item>
+        <item>10 минута</item>
+        <item>15 минута</item>
+        <item>20 минута</item>
+        <item>25 минута</item>
+        <item>30 минута</item>
+        <item>45 минута</item>
+        <item>1 сат</item>
+        <item>2 сата</item>
+        <item>3 сата</item>
+        <item>12 сати</item>
+        <item>24 сата</item>
+        <item>2 дана</item>
+        <item>1 недеља</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Подразумевано за локалитет</item>
+        <item>субота</item>
+        <item>недеља</item>
+        <item>понедељак</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Касним пар минута.</item>
+        <item>Стижем за 10 минута.</item>
+        <item>Почните без мене.</item>
+        <item>Жао ми је, не могу да стигнем. Мораћемо да одложимо.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Обавештење</item>
+        <item>Е-пошта</item>
+        <item>SMS</item>
+        <item>Аларм</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 минута</item>
+        <item>1 минут</item>
+        <item>5 минута</item>
+        <item>10 минута</item>
+        <item>15 минута</item>
+        <item>20 минута</item>
+        <item>25 минута</item>
+        <item>30 минута</item>
+        <item>45 минута</item>
+        <item>1 сат</item>
+        <item>2 сата</item>
+        <item>3 сата</item>
+        <item>12 сати</item>
+        <item>24 сата</item>
+        <item>2 дана</item>
+        <item>1 недеља</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Без одговора</item>
+        <item>Да</item>
+        <item>Можда</item>
+        <item>Не</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Маршалска острва</item>
+        <item>Острво Мидвеј</item>
+        <item>Хаваји</item>
+        <item>Аљаска</item>
+        <item>Пацифичко време</item>
+        <item>Тихуана</item>
+        <item>Аризона</item>
+        <item>Чиуауа</item>
+        <item>Планинско време</item>
+        <item>Централна Америка</item>
+        <item>Централно време</item>
+        <item>Мексико сити</item>
+        <item>Саскачеван</item>
+        <item>Богота</item>
+        <item>Источно време</item>
+        <item>Венецуела</item>
+        <item>Атлант. време (Барбадос)</item>
+        <item>Атлант. време (Канада)</item>
+        <item>Манаус</item>
+        <item>Сантјаго</item>
+        <item>Њуфаундленд</item>
+        <item>Бразилија</item>
+        <item>Буенос Ајрес</item>
+        <item>Гренланд</item>
+        <item>Монтевидео</item>
+        <item>Средњи Атлантик</item>
+        <item>Азори</item>
+        <item>Зеленортска Острва</item>
+        <item>Казабланка</item>
+        <item>Лондон, Даблин</item>
+        <item>Амстердам, Берлин</item>
+        <item>Београд</item>
+        <item>Брисел</item>
+        <item>Сарајево</item>
+        <item>Виндхук</item>
+        <item>Западноафричко време</item>
+        <item>Аман, Јордан</item>
+        <item>Атина, Истанбул</item>
+        <item>Бејрут, Либан</item>
+        <item>Каиро</item>
+        <item>Хелсинки</item>
+        <item>Јерусалим</item>
+        <item>Минск</item>
+        <item>Хараре</item>
+        <item>Багдад</item>
+        <item>Москва</item>
+        <item>Кувајт</item>
+        <item>Најроби</item>
+        <item>Техеран</item>
+        <item>Баку</item>
+        <item>Тбилиси</item>
+        <item>Јереван</item>
+        <item>Дубаи</item>
+        <item>Кабул</item>
+        <item>Исламабад, Карачи</item>
+        <item>Уралск</item>
+        <item>Јекатеринбург</item>
+        <item>Колката</item>
+        <item>Шри Ланка</item>
+        <item>Катманду</item>
+        <item>Астана</item>
+        <item>Јангон</item>
+        <item>Краснојарск</item>
+        <item>Бангкок</item>
+        <item>Пекинг</item>
+        <item>Хонгконг</item>
+        <item>Иркутск</item>
+        <item>Куала Лумпур</item>
+        <item>Перт</item>
+        <item>Тајпеј</item>
+        <item>Сеул</item>
+        <item>Токио, Осака</item>
+        <item>Јакутск</item>
+        <item>Аделејд</item>
+        <item>Дарвин</item>
+        <item>Бризбејн</item>
+        <item>Хобарт</item>
+        <item>Сиднеј, Канбера</item>
+        <item>Владиводсток</item>
+        <item>Гуам</item>
+        <item>Магадан</item>
+        <item>Окланд</item>
+        <item>Фиџи</item>
+        <item>Тонга</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Подразумевано</item>
+        <item>Приватно</item>
+        <item>Јавно</item>
+    </string-array>
+</resources>

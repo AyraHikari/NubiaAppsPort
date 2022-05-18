@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rootLayout" android:background="@color/default_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/filtershow_actionbar_main_panel" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loading" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/nubia_loading_dialog_icon" style="@style/LoadingProgressBarLarge" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="center" android:id="@id/central_panel_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <FrameLayout android:id="@id/editorContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.android.gallery3d.filtershow.imageshow.ImageShow android:id="@id/imageShow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/font_size_small" android:textColor="@color/hilit_color" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/contrast" android:background="@drawable/contrast_button_background" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/btn_contrast" android:singleLine="true" android:drawableLeft="@drawable/contrast_button_selector" android:drawablePadding="8.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/hilit_color" android:gravity="center" android:layout_gravity="center|top" android:id="@id/editor_value" android:background="@drawable/editor_value_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.android.gallery3d.filtershow.CenteredLinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/mainPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:max_width="650.0dip"
+          xmlns:custom="http://schemas.android.com/apk/res/cn.nubia.photoeditor">
+            <FrameLayout android:layout_gravity="center" android:id="@id/main_panel_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </com.android.gallery3d.filtershow.CenteredLinearLayout>
+    </LinearLayout>
+    <com.android.gallery3d.filtershow.category.CategorySelected android:id="@id/categorySelectedIndicator" android:visibility="invisible" android:layout_width="@dimen/category_panel_icon_size" android:layout_height="@dimen/category_panel_icon_size" />
+</FrameLayout>

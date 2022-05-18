@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/index_layout" android:paddingTop="8.0dip" android:paddingBottom="@dimen/weather_main_forecast_grid_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/seperature3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ray_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/ray" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/ray_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" />
+        <ImageView android:id="@id/ray_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/realfeel_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:layout_toRightOf="@id/ray_layout">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/realfeel" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/realfeel_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" />
+        <ImageView android:id="@id/realfeel_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/humidity_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:layout_toRightOf="@id/realfeel_layout">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/humidity" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/humidity_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" android:fontFamily="sans-serif" />
+        <ImageView android:id="@id/humidity_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/visibility_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:layout_below="@id/ray_layout">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/visibility" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/visibility_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" />
+        <ImageView android:id="@id/visibility_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wind_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:layout_toRightOf="@id/visibility_layout" android:layout_below="@id/realfeel_layout">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/wind" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/wind_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" />
+        <ImageView android:id="@id/wind_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sport_layout" android:layout_width="120.0dip" android:layout_height="@dimen/weather_main_index_grid_height" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:layout_toRightOf="@id/realfeel_layout" android:layout_below="@id/humidity_layout">
+        <ImageView android:layout_width="@dimen/weather_main_index_icon_size" android:layout_height="@dimen/weather_main_index_icon_size" android:src="@drawable/sport" android:scaleType="center" />
+        <TextView android:textSize="@dimen/weather_main_index_content_text" android:textColor="@color/weather_main_text_dark" android:gravity="center" android:id="@id/sport_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_2dp" />
+        <ImageView android:id="@id/sport_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:src="@drawable/no_data" />
+    </LinearLayout>
+</RelativeLayout>

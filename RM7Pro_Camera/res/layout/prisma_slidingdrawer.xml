@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.nubia.camera.prisma.PrismaSlidingDrawer android:id="@id/prisma_drawer" android:layout_width="fill_parent" android:layout_height="@dimen/slidingDrawerHeight" android:layout_alignParentBottom="true" app:handleImage="@drawable/btn_sidemenu_prisma" app:positon="right" />
+    <cn.nubia.camera.extendedUI.IntervalSlidingDrawer android:id="@id/interval_drawer" android:layout_width="fill_parent" android:layout_height="97.0dip" android:layout_alignParentBottom="true" app:handleImage="@drawable/btn_sidemenu_delay" app:positon="left" app:slideHeight="97.0dip" />
+</merge>

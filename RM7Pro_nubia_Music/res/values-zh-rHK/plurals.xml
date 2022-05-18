@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d 首歌曲被移除</item>
+        <item quantity="one">一首歌曲被移除</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">歌曲新增到播放清單</item>
+        <item quantity="one">歌曲新增到播放清單</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="other">共 %d張專輯</item>
+        <item quantity="one">1 張專輯</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d 首歌曲</item>
+    </plurals>
+</resources>

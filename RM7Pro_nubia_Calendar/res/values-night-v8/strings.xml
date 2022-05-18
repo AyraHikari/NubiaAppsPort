@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cta_text_color">javascript:document.body.style.setProperty(\"color\", \"rgba(255, 255, 255, 0.50)\");</string>
+</resources>

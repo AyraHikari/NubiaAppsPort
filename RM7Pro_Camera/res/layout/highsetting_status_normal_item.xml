@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/dimens_60" android:maxWidth="@dimen/dimens_70"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/highsetting_normal_item" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_60" android:maxWidth="@dimen/dimens_70">
+        <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/white" android:id="@id/highsetting_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimens_70" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/highsetting_item_changed" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/high_setting_changed" android:layout_toRightOf="@id/highsetting_item_title" />
+        <TextView android:textSize="@dimen/dimens_10" android:textColor="@color/alpha70_white" android:id="@id/highsetting_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimens_70" android:layout_below="@id/highsetting_item_title" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

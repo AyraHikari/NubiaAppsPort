@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ampm_text_size">12.0sp</dimen>
+    <dimen name="day_label_text_size">14.0sp</dimen>
+    <dimen name="hours_text_size">16.0sp</dimen>
+    <dimen name="day_header_height">24.0sp</dimen>
+    <dimen name="hours_left_margin">28.0dip</dimen>
+    <dimen name="hours_right_margin">4.0dip</dimen>
+    <dimen name="all_day_bottom_margin">10.0dip</dimen>
+    <dimen name="allday_text_size">14.0sp</dimen>
+    <dimen name="date_header_text_size">18.0sp</dimen>
+    <dimen name="day_header_bottom_margin">6.0dip</dimen>
+    <dimen name="day_view_event_text_size">14.0sp</dimen>
+    <dimen name="edit_reminder_min_size">48.0dip</dimen>
+    <dimen name="event_min_height">30.0dip</dimen>
+    <dimen name="event_text_horizontal_margin">6.0dip</dimen>
+    <dimen name="event_text_vertical_margin">4.0dip</dimen>
+    <dimen name="min_hours_width">32.0dip</dimen>
+    <dimen name="new_event_hint_text_size">14.0sp</dimen>
+    <dimen name="one_day_header_height">0.0dip</dimen>
+    <dimen name="week_view_event_text_size">12.0sp</dimen>
+    <dimen name="widget_day_num_size">42.0sp</dimen>
+    <dimen name="widget_day_num_top_padding">-8.0dip</dimen>
+    <dimen name="event_info_dialog_height">470.0dip</dimen>
+    <dimen name="event_info_dialog_width">550.0dip</dimen>
+</resources>

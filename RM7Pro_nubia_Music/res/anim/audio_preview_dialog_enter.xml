@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate android:interpolator="@interpolator/audio_preview_dialog_enter_interpolator" android:duration="200" android:zAdjustment="top" android:fromYDelta="20.000004%p" android:toYDelta="0.0%p"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>続行</item>
+    </string-array>
+    <string-array name="restore_dialog_title">
+        <item>メモ帳に復元する</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>テキスト共有</item>
+        <item>写真の形で共有</item>
+    </string-array>
+</resources>

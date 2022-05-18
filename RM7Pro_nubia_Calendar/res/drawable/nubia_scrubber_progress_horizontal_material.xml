@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <nine-patch android:src="@drawable/nubia_scrubber_progress_mtrl_background" />
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false">
+                    <nine-patch android:src="@drawable/nubia_scrubber_progress_mtrl_disabled" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/nubia_scrubber_progress_mtrl_secondaryprogress" />
+                </item>
+            </selector>
+        </scale>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="false">
+                    <nine-patch android:src="@drawable/nubia_scrubber_progress_mtrl_disabled" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/nubia_scrubber_progress_mtrl_progress" />
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>

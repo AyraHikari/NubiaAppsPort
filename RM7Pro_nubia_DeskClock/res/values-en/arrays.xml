@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_left_time">
+        <item>Ring in less than 1 minute</item>
+        <item>Ring after %1$s</item>
+        <item>Ring after %2$s</item>
+        <item>Ring after %1$s %2$s</item>
+        <item>Ring after %3$s</item>
+        <item>Ring after %1$s %3$s</item>
+        <item>Ring after %2$s %3$s</item>
+        <item>Ring after %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_label">
+        <item>Only once</item>
+        <item>From Monday to Friday</item>
+        <item>Legal working day</item>
+        <item>Every day</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Alarm set for less than 1 minute from now.</item>
+        <item>Alarm set for %1$s from now.</item>
+        <item>Alarm set for %2$s from now.</item>
+        <item>Alarm set for %1$s and %2$s from now.</item>
+        <item>Alarm set for %3$s from now.</item>
+        <item>Alarm set for %1$s and %3$s from now.</item>
+        <item>Alarm set for %2$s and %3$s from now.</item>
+        <item>Alarm set for %1$s, %2$s, and %3$s from now.</item>
+    </string-array>
+    <string-array name="internal_alarm_repeat_type_label">
+        <item>Only once</item>
+        <item>From Monday to Friday</item>
+        <item>Every day</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="repick_name_label">
+        <item>Alarm</item>
+        <item>Work</item>
+        <item>Learning</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="repick_week_entries">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="snooze_interval_view">
+        <item>1 Minute</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+    </string-array>
+    <string-array name="snooze_times_view">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="sw_lap_number_set">
+        <item>\# %d</item>
+        <item>\# %02d</item>
+    </string-array>
+</resources>

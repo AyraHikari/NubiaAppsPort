@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.AlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/parentPanel" android:paddingBottom="@dimen/mfvc_large_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mfvc_medium_padding" android:layout_marginBottom="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/alert_dialog_title_material_mfv" />
+    <FrameLayout android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Space android:id="@id/textSpacerNoTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_medium_padding" />
+                <TextView android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/mfvc_primary_font02_lineSpacingExtra" android:paddingStart="@dimen/mfvc_xlarge_padding" android:paddingEnd="@dimen/mfvc_xlarge_padding" style="@style/mfvc_primary_font02" />
+                <Space android:id="@id/textSpacerNoButtons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_medium_padding" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:id="@android:id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/alert_dialog_button_bar_material_mfv" />
+</com.android.internal.widget.AlertDialogLayout>

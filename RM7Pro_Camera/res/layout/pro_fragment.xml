@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_view" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <RelativeLayout android:gravity="start" android:id="@id/three_a_lock_layout" android:visibility="gone" android:layout_width="@dimen/dimens_39" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_183" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/dimens_16" android:layout_alignParentEnd="true">
+            <include layout="@layout/three_a_lock_layout" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/multi_shoot_view" />
+    <com.android.common.ui.ZtemtFunEffectSlider android:id="@id/fun_effect_page" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include layout="@layout/camera_picker_layout" />
+    <include layout="@layout/stop_bottombar" style="@style/InnerBottomBarSize" />
+    <LinearLayout android:orientation="vertical" android:id="@id/histogram_bars" android:visibility="gone" android:layout_width="@dimen/histogram_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/histogram_default_top_margin" android:layout_marginEnd="@dimen/histogram_right_margin" android:layout_alignParentEnd="true">
+        <cn.nubia.camera.extendedUI.HistogramView android:id="@id/firstBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/histogram_height" />
+        <cn.nubia.camera.extendedUI.HistogramView android:id="@id/secondBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/histogram_height" android:layout_marginTop="@dimen/histogram_gap" />
+        <cn.nubia.camera.extendedUI.HistogramView android:id="@id/thirdBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/histogram_height" android:layout_marginTop="@dimen/histogram_gap" />
+    </LinearLayout>
+    <TextView android:id="@id/preview_tip_48M" android:visibility="gone" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/hint_48M" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/permanent_hint" />
+</RelativeLayout>

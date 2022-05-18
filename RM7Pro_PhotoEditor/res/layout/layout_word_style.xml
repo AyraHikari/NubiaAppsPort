@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_panel_word" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="@dimen/word_category_panel_height" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/photoeditor_text_size" android:textColor="@color/fifty_four_black" android:id="@id/word_bold" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/bold" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+    <TextView android:textSize="@dimen/photoeditor_text_size" android:textColor="@color/fifty_four_black" android:id="@id/word_shadow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/shadow" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+    <TextView android:textSize="@dimen/photoeditor_text_size" android:textColor="@color/fifty_four_black" android:id="@id/word_restore" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/restore" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+</LinearLayout>

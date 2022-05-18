@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/musiclist_headerview" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/scroll_view_head" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_120" android:layout_marginTop="@dimen/dimen_24">
+            <ImageView android:id="@id/play_music_button" android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:layout_marginLeft="@dimen/dimen_54" android:src="@drawable/mini_play_selector" android:layout_centerVertical="true" />
+            <TextView android:id="@id/playall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_30" android:text="@string/play_all" android:layout_toRightOf="@id/play_music_button" android:layout_centerVertical="true" style="@style/ArkWhiteMediumTextStyle" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/scroll_view_head2" android:background="@android:color/white" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.0dip">
+            <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/add_favorite_list" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/musiclist_favorite_margin_left" android:src="@drawable/nofav_circle_icon" android:layout_alignParentLeft="true" />
+            <ImageView android:id="@id/play_music_button2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/musiclist_favorite_margin_left" android:src="@drawable/play_circle_selector" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="#28000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</RelativeLayout>

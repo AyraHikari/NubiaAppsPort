@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.CameraSelectButton android:layout_gravity="bottom" android:id="@id/camera_select_button" android:layout_width="fill_parent" android:layout_height="@dimen/switcher_bar_height" android:layout_marginBottom="@dimen/switcher_bar_bottomMargin" />
+</merge>

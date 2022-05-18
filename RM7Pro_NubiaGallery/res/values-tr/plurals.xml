@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Seçilen öğeler silinsin mi?</item>
+        <item quantity="one">Seçilen öğe silinsin mi?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%d günler</item>
+        <item quantity="zero">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Albümler çevrimdışı kullanıma hazırlanıyor.</item>
+        <item quantity="one">Albüm çevrimdışı kullanıma hazırlanıyor.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d albüm seçildi</item>
+        <item quantity="zero">%1$d albüm seçildi</item>
+        <item quantity="one">%1$d albüm seçildi</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d grup seçildi</item>
+        <item quantity="zero">%1$d grup seçildi</item>
+        <item quantity="one">%1$d grup seçildi</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Kopyala %1$d</item>
+        <item quantity="zero">Kopyala %1$d</item>
+        <item quantity="one">Kopyala %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Kes %1$d</item>
+        <item quantity="zero">Kes %1$d</item>
+        <item quantity="one">Kes %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">Tamam (%1$d)</item>
+        <item quantity="zero">Tamam (%1$d)</item>
+        <item quantity="one">Tamam (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d öğe seçildi</item>
+        <item quantity="zero">%1$d öğe seçildi</item>
+        <item quantity="one">%1$d öğe seçildi</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Seçili öğeler geri alınsın mı?</item>
+        <item quantity="one">Seçili öğe geri alınsın mı?</item>
+    </plurals>
+</resources>

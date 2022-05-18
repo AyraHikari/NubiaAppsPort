@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_height">30.0dip</dimen>
+    <dimen name="nubia_action_menu_text_size">28.0px</dimen>
+    <dimen name="nubia_action_bar_menu_size">30.0dip</dimen>
+    <dimen name="nubia_res_action_bar_menu_default_height">45.0dip</dimen>
+    <dimen name="btn_bar_height">45.0dip</dimen>
+    <dimen name="monthview_lunar_date_margin_bottom">5.0dip</dimen>
+</resources>

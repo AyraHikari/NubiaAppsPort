@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_height">85.0px</dimen>
+    <dimen name="port_lunar_offset">65.0px</dimen>
+    <dimen name="port_num_offset">20.0px</dimen>
+</resources>

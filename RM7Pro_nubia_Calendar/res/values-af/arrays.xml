@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Besig</item>
+        <item>Beskikbaar</item>
+        <item>Voorlopig</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dag</item>
+        <item>Week</item>
+        <item>Maand</item>
+        <item>Agenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Slegs hierdie gebeurtenis</item>
+        <item>Alle gebeurtenisse in die reeks</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Slegs hierdie gebeurtenis</item>
+        <item>Hierdie en toekomstige gebeure</item>
+        <item>Alle gebeurtenisse</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Hierdie en toekomstige gebeurtenisse</item>
+        <item>Alle gebeurtenisse</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>eerste</item>
+        <item>sekonde</item>
+        <item>derde</item>
+        <item>vierde</item>
+        <item>laaste</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Altyd</item>
+        <item>Net wanneer stil</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Geen</item>
+        <item>0 minute</item>
+        <item>1 minuut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+        <item>45 minute</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>12 uur</item>
+        <item>24 uur</item>
+        <item>2 dae</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Locale-verstek</item>
+        <item>Saterdag</item>
+        <item>Sondag</item>
+        <item>Maandag</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>"Is net 'n paar minute laat."</item>
+        <item>Ek is oor ongeveer 10 minute daar.</item>
+        <item>Begin solank sonder my.</item>
+        <item>Jammer, ek kan nie meer kom nie. Ons sal moet herskeduleer.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Kennisgewing</item>
+        <item>E-pos</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minute</item>
+        <item>1 minuut</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>25 minute</item>
+        <item>30 minute</item>
+        <item>45 minute</item>
+        <item>1 uur</item>
+        <item>2 uur</item>
+        <item>3 uur</item>
+        <item>12 uur</item>
+        <item>24 uur</item>
+        <item>2 dae</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Geen reaksie nie</item>
+        <item>Ja</item>
+        <item>Miskien</item>
+        <item>Nee</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshall-eilande</item>
+        <item>Midway-eiland</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pasifiese tyd</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Bergtyd</item>
+        <item>Sentraal-Amerika</item>
+        <item>Sentrale tyd</item>
+        <item>Meksiko</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Oostelike tyd</item>
+        <item>Venezuela</item>
+        <item>Atlantiese tyd (Barbados)</item>
+        <item>Atlantiese tyd (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Groenland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlanties</item>
+        <item>Asore</item>
+        <item>Kaap-Verdiese Eilande</item>
+        <item>Casablanca</item>
+        <item>Londen, Dublin</item>
+        <item>Amsterdam, Berlyn</item>
+        <item>Belgrado</item>
+        <item>Brussel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Wes-Afrika-tyd</item>
+        <item>Amman, Jordanië</item>
+        <item>Athene, Istanboel</item>
+        <item>Beiroet, Libanon</item>
+        <item>Kaïro</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskou</item>
+        <item>Koeweit</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Doebai</item>
+        <item>Kaboel</item>
+        <item>Islamabad, Karatsji</item>
+        <item>Oeralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandoe</item>
+        <item>Astana</item>
+        <item>Jangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hongkong</item>
+        <item>Irkoetsk</item>
+        <item>Koeala Loempoer</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoel</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakoetsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Verstek</item>
+        <item>Privaat</item>
+        <item>Publiek</item>
+    </string-array>
+</resources>

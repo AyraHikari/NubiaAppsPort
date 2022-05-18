@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/export_dialog" android:background="@color/alpha60_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/more_setting_expanding_corner" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_52" android:layout_marginLeft="@dimen/dimens_10" android:layout_marginRight="@dimen/dimens_10" android:layout_marginBottom="@dimen/dimens_10" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/dimens_16" android:textColor="@color/expand_list_green" android:gravity="center" android:id="@id/export_dialog_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_centerInParent="true" android:fontFamily="nubiafont-medium" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/more_setting_expanding_corner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimens_10" android:layout_marginRight="@dimen/dimens_10" android:layout_marginBottom="@dimen/dimens_70" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/divideline1" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_8" />
+        <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/alpha57_black" android:gravity="center" android:id="@id/export_progress_text" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_40" android:text="@string/video_maker_export" android:layout_below="@id/divideline1" />
+        <TextView android:id="@id/divideline" android:background="@color/alpha10_black" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/export_progress_text" />
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_52" android:layout_below="@id/divideline">
+            <ProgressBar android:id="@id/export_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_5" android:progressDrawable="@drawable/process_progress_for_videomaker_export" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16" style="@android:style/Widget.ProgressBar.Horizontal" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

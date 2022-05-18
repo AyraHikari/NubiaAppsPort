@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notepad_sync_choice">
+        <item>TIẾP TỤC</item>
+    </string-array>
+    <string-array name="restore_dialog_title">
+        <item>Khôi phục về NotePad</item>
+    </string-array>
+    <string-array name="share_item">
+        <item>Chia sẻ văn bản</item>
+        <item>Chia sẻ hình ảnh</item>
+    </string-array>
+</resources>

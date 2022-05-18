@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">使用%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="add_project">添加项目</string>
+    <string name="add_text">添加文本</string>
+    <string name="agree">同意</string>
+    <string name="agree_tips">点击“同意”，即视为同意上述内容及<a href="https://account.nubia.com/res/html/video_privacy.html">视频隐私政策</a>。</string>
+    <string name="app_name">mediaeditorview</string>
+    <string name="audio">音乐</string>
+    <string name="audio_btn">音频</string>
+    <string name="begaining">转场</string>
+    <string name="cancel">取消</string>
+    <string name="chose_pick_video">选择影片</string>
+    <string name="click_to_add">点击添加文字</string>
+    <string name="close">关闭</string>
+    <string name="confirm">保存</string>
+    <string name="copy">复制</string>
+    <string name="cut">剪辑</string>
+    <string name="decode_mode_hw">优先使用硬解码器</string>
+    <string name="decode_mode_sw">使用软解码器</string>
+    <string name="decode_select">选择解码器</string>
+    <string name="decoder_mode">解码方式</string>
+    <string name="delete">删除</string>
+    <string name="delete_select">删除所选内容</string>
+    <string name="details">详情</string>
+    <string name="details_hms">%1$02d:%2$02d:%3$02d</string>
+    <string name="draw_overlays_permissoin_needed">在其他应用上层显示权限未开启,请先打开该权限</string>
+    <string name="duration">时长</string>
+    <string name="editing">正在保存</string>
+    <string name="editor">编辑</string>
+    <string name="editor_player_duration_title">总时长</string>
+    <string name="encrypt">加密</string>
+    <string name="exceed_filename_size_limitation">已达到文件名大小限制，自动截取前80个字</string>
+    <string name="exit">退出</string>
+    <string name="file_size">文件大小</string>
+    <string name="file_sizeLimit">编辑生成的视频不能少于2秒</string>
+    <string name="file_upperLimit">编辑生成的文件最大不能超过4G</string>
+    <string name="fileisexist">该命名已存在</string>
+    <string name="filename_invalid">重命名失败，名称包含非法字符</string>
+    <string name="filenameisnull">空文件名，请重新输入文件名</string>
+    <string name="folder_download">下载</string>
+    <string name="gallery_permission">"欢迎使用视频,为了向您提供更好的服务，在使用过程中，需要以下权限:
+1.网络：需要联网服务，具体流量费用请咨询当地的运营商； 
+2.短信/彩信：查看短信中的视频需要获取该权限；
+3.文件存储：访问设备上的媒体内容和文件需要获取该权限；"</string>
+    <string name="gif_editor_title">Gif编辑</string>
+    <string name="gif_file_not_exists">Gif文件不存在！</string>
+    <string name="gif_maker_exception">Gif编辑异常！</string>
+    <string name="gif_too_short">Gif时长过短！</string>
+    <string name="grid">宫格视图</string>
+    <string name="hide">隐藏</string>
+    <string name="hide_video">隐藏视频</string>
+    <string name="indicator_time">00:00</string>
+    <string name="internal_storage">手机存储</string>
+    <string name="invalid_trim">无效参数配置，不能剪切视频</string>
+    <string name="io_error">文件操作异常</string>
+    <string name="list">列表视图</string>
+    <string name="local_btn">本地</string>
+    <string name="missing_file">不支持的文件格式</string>
+    <string name="missing_required_permission">缺少所需要的权限</string>
+    <string name="missing_size">不支持的视频分辨率</string>
+    <string name="more">更多</string>
+    <string name="music_0">无</string>
+    <string name="music_1">兴奋</string>
+    <string name="music_2">激昂</string>
+    <string name="music_3">动感</string>
+    <string name="music_4">节奏</string>
+    <string name="music_5">低沉</string>
+    <string name="music_own">原声</string>
+    <string name="music_song">配乐</string>
+    <string name="music_sound">音量</string>
+    <string name="no_audio">没有检测到音频文件</string>
+    <string name="no_content">没有视频</string>
+    <string name="not_show_again">不再提示</string>
+    <string name="ok">确定</string>
+    <string name="overwrite">覆盖原视频</string>
+    <string name="path">路径</string>
+    <string name="path_invalid">设置失败，名称包含非法字符</string>
+    <string name="permission_allow">允许</string>
+    <string name="permission_forbid">取消</string>
+    <string name="permission_not_grantted">应用权限未获取！</string>
+    <string name="permission_request">服务说明</string>
+    <string name="play_btn">播放</string>
+    <string name="player_audio_error">音频编辑错误</string>
+    <string name="player_editor_error">无法编辑的视频</string>
+    <string name="player_play_error">无法播放视频</string>
+    <string name="player_press_again">再次按下该键退出</string>
+    <string name="player_replay">从***开始播放</string>
+    <string name="player_screen_locked">触摸屏已锁定</string>
+    <string name="player_send_not_available">没有可用的应用程序</string>
+    <string name="player_unknown_title">未知标题</string>
+    <string name="player_video_error">视频编码错误</string>
+    <string name="please_wait">请稍候</string>
+    <string name="pression_contnet_email">邮件</string>
+    <string name="pression_contnet_msg">短信</string>
+    <string name="pression_contnet_sms">电话</string>
+    <string name="pression_contnet_storage">存储空间</string>
+    <string name="pression_dots">·</string>
+    <string name="pression_tips_dialog_goset">去设置</string>
+    <string name="pression_tips_title">使用该功能需要开启如下权限，是否现在设置?</string>
+    <string name="privacy">视频隐私政策</string>
+    <string name="privacy_title">努比亚视频隐私政策</string>
+    <string name="project_16_9_viewsize">16:9</string>
+    <string name="project_1_1_viewsize">1:1</string>
+    <string name="project_9_16_viewsize">9:16</string>
+    <string name="project_choose_viewsize">选择视频比例</string>
+    <string name="project_item_delete">删除</string>
+    <string name="project_item_editor">编辑</string>
+    <string name="project_item_export">导出</string>
+    <string name="remove_btn">删除</string>
+    <string name="rename">重命名</string>
+    <string name="rename_success">重命名成功</string>
+    <string name="res_add">添加项目</string>
+    <string name="res_audio">音频</string>
+    <string name="res_image">图片</string>
+    <string name="res_video">视频</string>
+    <string name="resolution">分辨率</string>
+    <string name="reverse">倒放</string>
+    <string name="reverse_maxLimit">倒序视频不能超过15秒</string>
+    <string name="reverse_resolution_toast">倒放视频分辨率不能超过1080P</string>
+    <string name="reverse_trim_toast">倒放视频不能超过30秒</string>
+    <string name="rotate_gesture">可选择任意角度</string>
+    <string name="save_as_new">另存为新视频</string>
+    <string name="save_into">正在将视频保存到“%1$s”…</string>
+    <string name="scale_gesture">可改变视频大小</string>
+    <string name="screen_filter_1">二屏</string>
+    <string name="screen_filter_2">三屏</string>
+    <string name="screen_filter_3">四屏</string>
+    <string name="screen_filter_4">六屏</string>
+    <string name="screen_filter_5">九屏</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="select_all">全选</string>
+    <string name="select_audiotrack">选择音轨</string>
+    <string name="separate">分离</string>
+    <string name="share">分享</string>
+    <string name="show_hide_video">显示隐藏视频</string>
+    <string name="snapshot">提取图片</string>
+    <string name="sound_effects">声音效果</string>
+    <string name="sound_equipment_toast">使用扬声器时，音效自动开启</string>
+    <string name="spaceIsLow_tip">存储空间不足</string>
+    <string name="special">特效</string>
+    <string name="special_filter_1">炫彩</string>
+    <string name="special_filter_2">缩放</string>
+    <string name="special_filter_3">闪烁</string>
+    <string name="special_filter_4">抖动</string>
+    <string name="special_filter_5">电影</string>
+    <string name="special_filter_6">黑白</string>
+    <string name="special_filter_7">穆夏</string>
+    <string name="special_toast1">选择位置后，长按特效使用效果</string>
+    <string name="special_toast2">选择位置后，点击特效使用效果</string>
+    <string name="speed_0.25_time">0.25倍</string>
+    <string name="speed_0.5_time">0.5倍</string>
+    <string name="speed_1.5_time">1.5倍</string>
+    <string name="speed_1_time">1倍</string>
+    <string name="speed_2_time">2倍</string>
+    <string name="split">拆分</string>
+    <string name="split_btn">拆分</string>
+    <string name="split_screen">分屏</string>
+    <string name="start_edit">编辑视频</string>
+    <string name="start_filter_1">模糊变清</string>
+    <string name="start_filter_2">开场</string>
+    <string name="start_filter_3">倒计时</string>
+    <string name="start_filter_4">旋转</string>
+    <string name="start_filter_5">水平滚动</string>
+    <string name="start_filter_6">垂直滚动</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text">文本</string>
+    <string name="text_effect">效果</string>
+    <string name="text_string">文字</string>
+    <string name="textfilter_text_font">nubia</string>
+    <string name="time">时间</string>
+    <string name="time_filter_1">倒放</string>
+    <string name="timing">时间</string>
+    <string name="title">标题</string>
+    <string name="trim">裁剪</string>
+    <string name="trim_copy">_副本</string>
+    <string name="trimming">正在剪切</string>
+    <string name="unselect_all">全不选</string>
+    <string name="video">视频</string>
+    <string name="video_cannot_get_details">无法获取详情</string>
+    <string name="video_dolby">杜比音效</string>
+    <string name="video_dolby_atmos">杜比全景声</string>
+    <string name="video_dts">DTS音效</string>
+    <string name="video_dtshpx">DTS-HPX音效</string>
+    <string name="video_edit_limit">该视频不能被编辑</string>
+    <string name="video_editor_discard_confirm_title">放弃编辑</string>
+    <string name="video_filter">滤镜</string>
+    <string name="video_fps_fastlimited">当前视频不支持快速播放！</string>
+    <string name="video_fps_slowlimited">当前视频不支持慢速播放！</string>
+    <string name="video_nosuport_edit">当前视频不支持编辑！</string>
+    <string name="video_not_support_snapshot">此视频不支持截图</string>
+    <string name="video_notsupport_pip">此视频不支持画中画播放</string>
+    <string name="video_privacy_content">"“视频”是由努比亚技术有限公司 (以下称“我们”或“努比亚”) 运营的，为您提供视频播放服务的应用 (或产品、服务)。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。我们承诺，将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。
+ 请在使用我们的应用 (或服务) 前，仔细阅读并了解本《努比亚视频隐私政策》。
+
+ 您承诺在您开始使用本应用 (或服务) 时是成年人。如您是未成年人，则需要您的监护人同意您使用本应用并同意相关应用服务条款。
+
+ 如您对本政策或其他相关事宜有疑问，您可以填写相关资料，将您的问题发送至 "<a href="mailto:complianceaudit@nubia.com">complianceaudit@nubia.com </a>" 与我们联系或寄到如下地址：
+ 深圳市南山区留仙大道3370号南山智园崇文园区2号楼16层运营管理部合规总监
+ 电话："<a href="tel:400-700-6600">400-700-6600 </a>"
+ 邮编：518000
+ 如果您对我们的回复不满意，特别是当我们的个人信息处理行为损害了您的合法权益，您还可以通过向有管辖权的人民法院提起诉讼、向行业自律协会或政府相关管理机构投诉等外部途径进行解决。
+
+ "<b>一、我们如何收集和使用您的个人信息</b>"
+
+ “个人信息”是指与已识别或者可识别的自然人相关的任何信息，可识别的自然人是指比如通过姓名、身份证号、定位数据、网络标识符号以及经济、文化、社会身份等识别符能够被直接或间接识别到身份的自然人。
+
+ 个人敏感信息是指包括身份证号码、个人生物识别信息、银行账号、财产信息、行踪轨迹、交易信息、14岁以下（含）儿童的个人信息等。
+
+ 我们仅会出于本声明所述的以下目的，收集和使用您的个人信息：
+ 为您提供以下核心功能服务
+
+ 业务功能：数据迁移。
+ “视频”为您提供视频播放、视频编辑、视频分享等服务，在使用过程中，我们会收集以下信息：
+ 设备信息、包括设备终端标识、终端型号、系统版本号、设备软件版本号；存储权限等。
+
+ 收集以上数据的目的是用于创建增强功能、提供服务改善、客户支持以及其它与运行视频有关的必要或所需服务。
+ 若您不提供这类信息，将导致本应用部分功能无法正常运行。
+
+ "<b>二、数据存储地点及期限</b>"
+
+ 我们在本服务项下收集和产生的个人信息，将存储在中华人民共和国境内
+
+ 我们仅在实现数据收集的目的所必须时间内保留您的个人信息，并在超出下述保留时间后删除或匿名化处理您的个人信息，但法律另有要求的除外。
+ 在“视频”业务中，您的个人数据保留时间如下：自用户最后一次与努比亚交流之日起，六个月未发生任何业务往来，数据将被删除。此外当我们的产品或服务发生停止运营情形时，我们将以官方论坛公告等形式通知您，并在合理期限内删除您的个人信息或进行匿名化处理。
+
+ "<b>三、本声明如何更新</b>"
+
+ 努比亚保留适时更新本声明的权利，当声明发生变更时，我们会通过弹窗方式向您展示变更后的声明，只有在获取您的同意后，我们才会按照更新后的声明收集、使用和存储您的个人信息。
+
+ 本声明自更新之日起生效。
+
+ 最近更新日期：2020年09月01日
+
+ 重要提示：本隐私声明是关于视频应用在隐私方面的陈述与承诺，如您希望了解更多关于数据主体权利、信息安全措施等详细信息，"<b>请阅读努比亚隐私政策</b>(<b><u><a href="https://www.nubia.com/active/privacy.html ">https://www.nubia.com/active/privacy.html </a></u></b>")。 "</string>
+    <string name="video_resolution_limited">视频分辨率超过限制！</string>
+    <string name="video_save_short">请先编辑视频！</string>
+    <string name="video_send_not_available">没有可用的应用程序</string>
+    <string name="video_snapshot_failed">视频截图失败</string>
+    <string name="video_snapshot_saving">正在进行上次截图保存，本次截图失败</string>
+    <string name="video_snapshot_success">已成功提取图片</string>
+    <string name="video_too_short">视频少于两秒，不支持编辑！</string>
+    <string name="videoeditor_project">视频项目</string>
+    <string name="volume">音量</string>
+    <string name="widget_nopression">未获取权限</string>
+    <string name="widget_novideo">没有视频</string>
+    <string name="widget_open_app">进入应用</string>
+    <string name="widget_open_camera">打开录像</string>
+    <string name="widget_tips_latestvideo">最近视频</string>
+</resources>

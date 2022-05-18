@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="other">%d آهنگ حذف شد.</item>
+        <item quantity="one">1 آهنگ حذف شد.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="other">%d آهنگ به لیست پخش افزوده شد.</item>
+        <item quantity="one">1 آهنگ به لیست پخش اضافه شد.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one">1 آلبوم</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="other">%d آهنگ</item>
+    </plurals>
+</resources>

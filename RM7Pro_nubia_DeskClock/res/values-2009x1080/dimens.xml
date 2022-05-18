@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="verticalListView_height">385.0dip</dimen>
+</resources>

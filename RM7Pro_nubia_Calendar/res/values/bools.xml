@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <bool name="nubia_statusbar_text_color">true</bool>
+    <bool name="screen_orientation_only_portrait">true</bool>
+    <bool name="agenda_show_event_info_full_screen">true</bool>
+    <bool name="multiple_pane_config">false</bool>
+    <bool name="show_agenda_with_month">false</bool>
+    <bool name="show_calendar_controls">false</bool>
+    <bool name="show_details_in_month">false</bool>
+    <bool name="show_event_details_with_agenda">false</bool>
+    <bool name="show_event_info_full_screen">true</bool>
+    <bool name="tablet_config">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="nubia_config_closeDialogWhenTouchOutside">true</bool>
+</resources>

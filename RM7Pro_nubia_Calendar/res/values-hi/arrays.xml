@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>व्यस्त</item>
+        <item>उपलब्ध</item>
+        <item>अस्‍थायी</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>दिन</item>
+        <item>सप्ताह</item>
+        <item>माह</item>
+        <item>कार्यसूची</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>केवल यह ईवेंट</item>
+        <item>श्रृंखला में सभी ईवेंट</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>केवल यह ईवेंट</item>
+        <item>यह और आगामी ईवेंट</item>
+        <item>सभी ईवेंट</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>यह और भविष्य के ईवेंट</item>
+        <item>सभी ईवेंट</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>पहला</item>
+        <item>सेकंड</item>
+        <item>तीसरा</item>
+        <item>चौथा</item>
+        <item>अंतिम</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>हमेशा</item>
+        <item>केवल मौन होने पर</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>कोई नहीं</item>
+        <item>0 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनटट</item>
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>1 घंटा</item>
+        <item>1 दिन</item>
+        <item>1 सप्ताह</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>स्थान डिफ़ॉल्ट</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+        <item>सोमवार</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>केवल कुछ मिनटों के विलंब से चल रहा है.</item>
+        <item>लगभग 10 मिनट में वहां पहुंचें.</item>
+        <item>आगे बढ़ें और मेरे बिना प्रारंभ करें.</item>
+        <item>क्षमा करें, मुझसे यह कार्य नहीं हो पा रहा है. हमें पुन: शेड्यूल करना होगा.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>सूचना</item>
+        <item>ईमेल</item>
+        <item>SMS</item>
+        <item>अलार्म</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>कोई नहीं</item>
+        <item>0 मिनट</item>
+        <item>5 मिनट</item>
+        <item>10 मिनट</item>
+        <item>15 मिनट</item>
+        <item>30 मिनट</item>
+        <item>1 घंटा</item>
+        <item>1 दिन</item>
+        <item>1 सप्ताह</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>कोई प्रतिसाद नहीं</item>
+        <item>हां</item>
+        <item>" शायद"</item>
+        <item>नहीं</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>मार्शल द्वीप समूह</item>
+        <item>मिडवे आइलैंड</item>
+        <item>हवाई</item>
+        <item>अलास्का</item>
+        <item>प्रशांत समय</item>
+        <item>टीयुवाना</item>
+        <item>एरिजोना</item>
+        <item>चिहुआहुआ</item>
+        <item>पर्वतीय समय</item>
+        <item>मध्य अमेरिका</item>
+        <item>केंद्रीय समय</item>
+        <item>मैक्सिको शहर</item>
+        <item>सस्काचेवॉन</item>
+        <item>बोगोटा</item>
+        <item>पूर्वी समय</item>
+        <item>वेनेज़ुएला</item>
+        <item>अटलांटिक समय (बारबाडोस)</item>
+        <item>अटलांटिक समय (कनाडा)</item>
+        <item>मानौस</item>
+        <item>सैंटियागो</item>
+        <item>न्यूफ़ाउंडलैंड</item>
+        <item>ब्राज़ीलिया</item>
+        <item>ब्यूनस आयर्स</item>
+        <item>ग्रीनलैंड</item>
+        <item>मोंटेवीडियो</item>
+        <item>मध्य-अटलांटिक</item>
+        <item>अज़ॉर्ज़</item>
+        <item>केप वर्डे द्वीप समूह</item>
+        <item>कासाब्लांका</item>
+        <item>लंदन, डबलिन</item>
+        <item>एम्सटर्डम, बर्लिन</item>
+        <item>बेलग्रेड</item>
+        <item>ब्रुसेल्स</item>
+        <item>सारायेवो</item>
+        <item>विंटहूक</item>
+        <item>प. अफ्री़का समय</item>
+        <item>अम्मान, जॉर्डन</item>
+        <item>एथेंस, इस्तांबुल</item>
+        <item>बेरूत, लेबनॉन</item>
+        <item>काहिरा</item>
+        <item>हेलसिंकी</item>
+        <item>यरूशलम</item>
+        <item>मिन्स्क</item>
+        <item>हरारे</item>
+        <item>बग़दाद</item>
+        <item>मॉस्को</item>
+        <item>कुवैत</item>
+        <item>नैरोबी</item>
+        <item>तेहरान</item>
+        <item>बाकु</item>
+        <item>टिबलिसी</item>
+        <item>येरेवान</item>
+        <item>दुबई</item>
+        <item>काबुल</item>
+        <item>इस्लामाबाद, कराची</item>
+        <item>युराल्स्क</item>
+        <item>येकेतेरिनबर्ग</item>
+        <item>कोलकाता</item>
+        <item>श्रीलंका</item>
+        <item>काठमांडू</item>
+        <item>एस्टाना</item>
+        <item>यंगून</item>
+        <item>क्रास्नोयार्स्क</item>
+        <item>बैंकॉक</item>
+        <item>बीजिंग</item>
+        <item>हांग कांग</item>
+        <item>इर्कुत्स्क</item>
+        <item>कुआलालंपुर</item>
+        <item>पर्थ</item>
+        <item>ताईपेई</item>
+        <item>सिओल</item>
+        <item>टोक्यो, ओसाका</item>
+        <item>याकूत्स्क</item>
+        <item>एडीलेड</item>
+        <item>डार्विन</item>
+        <item>ब्रिस्बेन</item>
+        <item>होबर्ट</item>
+        <item>सिडनी, कैनबरा</item>
+        <item>व्लादीवोस्तोक</item>
+        <item>गुआम</item>
+        <item>मगादन</item>
+        <item>ऑकलैंड</item>
+        <item>फ़िजी</item>
+        <item>टोंगा</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>डिफ़ॉल्ट</item>
+        <item>निजी</item>
+        <item>सार्वजनिक</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>डिफॉल्ट</item>
+        <item>मूक</item>
+        <item>कंपन</item>
+        <item>रिंग</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>नक्शा</item>
+        <item>मौसम</item>
+        <item>भोजन</item>
+        <item>उड़ान</item>
+        <item>होटल</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>तस्वीर कैप्चर करें</item>
+        <item>तस्वीरें</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>हमेशा</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>ईमेल</item>
+        <item>ब्लूटुथ</item>
+        <item>संदेश</item>
+    </string-array>
+</resources>

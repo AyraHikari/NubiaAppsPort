@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="activity_calculator">@layout/activity_calculator_land</item>
+    <item type="layout" name="activity_calculator_zoom">@layout/activity_calculator_zoom_land</item>
+    <item type="layout" name="pad_numeric">@layout/pad_numeric_land</item>
+    <item type="layout" name="toolbar">@layout/toolbar_land</item>
+</resources>

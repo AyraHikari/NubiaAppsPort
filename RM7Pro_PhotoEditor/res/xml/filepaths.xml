@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="external_path1" path="NubiaBrowser/upgrade/" />
+    <external-path name="external_path2" path="." />
+    <external-files-path name="external_files_path" path="." />
+</paths>

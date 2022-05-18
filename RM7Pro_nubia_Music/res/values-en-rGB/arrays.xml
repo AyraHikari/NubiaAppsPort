@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Cancel Timer</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>60 Minutes</item>
+        <item>90 Minutes</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Xiami Hot songs</item>
+        <item>Classics</item>
+        <item>Latest</item>
+        <item>English songs</item>
+        <item>Tempo music</item>
+        <item>Chinese POP music</item>
+        <item>Sleep music</item>
+        <item>Cantonese old songs</item>
+        <item>Soft music</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Xiami Music List</item>
+        <item>Xiami New Songs List</item>
+        <item>Xiami Original Songs List</item>
+        <item>Oricon Songs List</item>
+        <item>Hong Kong Songs List</item>
+        <item>Billboard Songs List</item>
+        <item>HITO Chinese Songs List</item>
+        <item>M-net Week List</item>
+        <item>UK songs list</item>
+    </string-array>
+</resources>

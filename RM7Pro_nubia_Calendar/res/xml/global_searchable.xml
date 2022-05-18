@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/global_search_label" android:icon="@drawable/calendar" android:hint="@string/global_search_hint" android:searchSuggestAuthority="cn.nubia.calendar.suggestionsprovider" android:searchSuggestIntentAction="android.intent.action.VIEW" android:imeOptions="actionSearch" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/global_search_description"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

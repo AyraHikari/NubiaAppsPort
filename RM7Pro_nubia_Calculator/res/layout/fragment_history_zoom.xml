@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Toolbar android:id="@id/history_toolbar" android:background="@color/fragment_history_statusbar_color" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_appbar_height" android:elevation="@dimen/actionbar_elevation">
+        <ImageView android:layout_gravity="start" android:id="@id/history_navigation_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigation_arrow" android:contentDescription="@string/desc_navigate_up" />
+        <TextView android:textSize="@dimen/mfvc_primary_font_size" android:textColor="@color/history_toolbar_title_color" android:id="@id/history_toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_history" android:textAllCaps="true" android:paddingStart="@dimen/mfvc_large_padding" />
+        <ImageView android:layout_gravity="end" android:id="@id/history_more_act" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:contentDescription="@string/desc_more_act" android:layout_marginEnd="@dimen/mfvc_large_padding" />
+    </Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/history_recycler_view" android:background="@color/display_background_color" android:paddingBottom="@dimen/history_divider_padding" android:visibility="invisible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" app:reverseLayout="true" />
+</LinearLayout>

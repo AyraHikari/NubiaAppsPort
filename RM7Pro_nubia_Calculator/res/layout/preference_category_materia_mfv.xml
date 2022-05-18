@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/group_divider_mfv" />
+    <com.zte.mifavor.widget.TextViewZTE android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mfvc_subheader_height" android:numStars="1" android:paddingStart="@dimen/mfvc_xlarge_padding" android:paddingEnd="@dimen/mfvc_xlarge_padding" style="@style/mfvc_subheader_font" />
+    <View android:id="@id/title_bottom_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginStart="@dimen/mfvc_xlarge_padding" android:layout_marginEnd="@dimen/mfvc_xlarge_padding" style="@style/mfvc_divider_line" />
+</LinearLayout>

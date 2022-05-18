@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/corner_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/textColor2nd" android:gravity="center" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/wired_choose_hdmi_mode" />
+    <View android:background="@color/hdmi_title_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@id/hdmi_nodes_list" android:layout_width="fill_parent" android:layout_height="254.0dip" android:listSelector="@drawable/nubia_item_background_material" android:divider="@null" />
+    <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:layout_gravity="center" android:id="@id/hdmi_nodes_cancel" android:background="@drawable/nubia_btn_default_material" android:layout_width="216.0dip" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/home_cancel" />
+</LinearLayout>

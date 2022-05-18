@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">他%d件の予定</item>
+        <item quantity="one">他1件の予定</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%d日</item>
+        <item quantity="one">1日</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">予定%d件</item>
+        <item quantity="one">予定1件</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">第%d週</item>
+    </plurals>
+</resources>

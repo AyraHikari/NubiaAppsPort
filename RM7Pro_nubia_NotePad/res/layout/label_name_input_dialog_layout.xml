@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/notepad_label_new" />
+    <EditText android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notepad_label_name_input_margin_top" android:layout_marginBottom="@dimen/notepad_label_name_input_margin_bottom" android:selectAllOnFocus="true" android:maxLength="80" android:inputType="textCapSentences" android:layout_marginStart="@dimen/notepad_label_name_input_margin_start" android:layout_marginEnd="@dimen/notepad_label_name_input_margin_end" />
+</LinearLayout>

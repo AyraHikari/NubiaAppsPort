@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_bottom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notepad_bottom_search_img" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/notepad_bottom_search" />
+    <RelativeLayout android:id="@id/notepad_label" android:layout_width="160.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/bottom_bar_text_size" android:textColor="@color/notepad_bottom_text_color" android:gravity="center" android:id="@id/notepad_bottom_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/notepad_label_all" android:maxLines="1" android:layout_centerInParent="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/notepad_ic_menu_label_image" android:layout_toRightOf="@id/notepad_bottom_label" />
+    </RelativeLayout>
+    <ImageView android:id="@id/notepad_bottom_new_img" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/notepad_bottom_new" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:animateLayoutChanges="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/crop_panel_height">
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:weightSum="10.0">
+            <RadioButton android:textSize="@dimen/font_size_small" android:textColor="@color/fifty_four_black" android:id="@id/mosaicColorButton" android:background="@drawable/filtershow_button_selected" android:layout_width="@dimen/tab_width_vertical" android:layout_height="wrap_content" android:text="@string/exposure" android:drawableTop="@drawable/btn_adjust_exposure" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+            <RadioButton android:textSize="@dimen/font_size_small" android:textColor="@color/fifty_four_black" android:id="@id/mosaicBlurButton" android:background="@drawable/filtershow_button_selected" android:layout_width="@dimen/tab_width_vertical" android:layout_height="wrap_content" android:text="@string/contrast" android:drawableTop="@drawable/btn_adjust_contrast" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+            <RadioButton android:textSize="@dimen/font_size_small" android:textColor="@color/fifty_four_black" android:id="@id/mosaicGridButton" android:background="@drawable/filtershow_button_selected" android:layout_width="@dimen/tab_width_vertical" android:layout_height="wrap_content" android:text="@string/saturation" android:drawableTop="@drawable/btn_adjust_chansat" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+            <RadioButton android:textSize="@dimen/font_size_small" android:textColor="@color/fifty_four_black" android:id="@id/mosaicPrintButton" android:background="@drawable/filtershow_button_selected" android:layout_width="@dimen/tab_width_vertical" android:layout_height="wrap_content" android:text="@string/color_temperature" android:drawableTop="@drawable/btn_adjust_color_temp" android:layout_weight="1.0" style="@style/bottom_btn_item" />
+        </RadioGroup>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+# appID,bannerID,insertID,splashID,NativeID
+IDS=6,823,817,818,19,819
+# 纯图片，图文
+BANNER_IDS=815,816
+# 原生补充
+NATIVE_ID=836
+SEARCH_ID=161

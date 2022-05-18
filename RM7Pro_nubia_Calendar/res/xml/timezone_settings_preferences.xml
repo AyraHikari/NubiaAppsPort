@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:orientation="horizontal" android:background="@color/panel_text_foreground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.preference.nubia.SwitchPreference android:title="@string/preferences_use_home_tz_title" android:key="preferences_home_tz_enabled_1" android:summary="@string/preferences_use_home_tz_descrip" android:defaultValue="false" />
+    <PreferenceScreen android:enabled="false" android:title="@string/preferences_home_tz_title" android:key="preferences_home_tz" android:defaultValue="@string/preferences_home_tz_default">
+        <intent android:targetPackage="cn.nubia.calendar.preset" android:action="android.intent.action.VIEW" android:targetClass="cn.nubia.calendar.settings.NewCitiesActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

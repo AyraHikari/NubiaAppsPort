@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="12.0sp" android:textColor="@color/deep_gray" android:gravity="center" android:layout_gravity="center" android:background="@drawable/nubia_bottom_alert_dialog_btn_default_material" android:clickable="false" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/project_choose_viewsize" />
+    <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/viewsize_9_16" android:background="@drawable/nubia_bottom_alert_dialog_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/project_9_16_viewsize" />
+    <View android:background="@color/gray" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/viewsize_16_9" android:background="@drawable/nubia_bottom_alert_dialog_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/project_16_9_viewsize" />
+    <View android:background="@color/indicator_text_color" android:layout_width="fill_parent" android:layout_height="0.00999999dip" />
+    <Button android:textSize="14.0sp" android:textColor="@color/nubia_dialog_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/viewsize_1_1" android:background="@drawable/nubia_bottom_alert_dialog_btn_default_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/project_1_1_viewsize" />
+</LinearLayout>

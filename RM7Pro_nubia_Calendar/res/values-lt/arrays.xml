@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Užimtas</item>
+        <item>Pasiekiama</item>
+        <item>Bandomasis</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Diena</item>
+        <item>Savaitė</item>
+        <item>Mėnuo</item>
+        <item>Darbotvarkė</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Tik šis įvykis</item>
+        <item>Visi sekos įvykiai</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Tik šis įvykis</item>
+        <item>Šis ir būsimi įvykiai</item>
+        <item>Visi įvykiai</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Šis ir būsimi įvykiai</item>
+        <item>Visi įvykiai</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>pirmas</item>
+        <item>antras</item>
+        <item>trečias</item>
+        <item>ketvirtas</item>
+        <item>paskutinis</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Visada</item>
+        <item>Tik kai veikia tyliai</item>
+        <item>Niekada</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Nėra</item>
+        <item>0 min.</item>
+        <item>1 min.</item>
+        <item>5 min.</item>
+        <item>10 min.</item>
+        <item>15 min.</item>
+        <item>20 min.</item>
+        <item>25 min.</item>
+        <item>30 min.</item>
+        <item>45 min.</item>
+        <item>1 val.</item>
+        <item>2 val.</item>
+        <item>3 val.</item>
+        <item>12 val.</item>
+        <item>24 val.</item>
+        <item>2 d.</item>
+        <item>1 sav.</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Numatytoji lokalė</item>
+        <item>Šeštadienis</item>
+        <item>Sekmadienis</item>
+        <item>Pirmadienis</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Vėluojama tik kelias minutes.</item>
+        <item>Būkite ten po maždaug 10 min.</item>
+        <item>Pirmyn, pradėkite be manęs.</item>
+        <item>Deja, nespėsiu. Turėsime suplanuoti iš naujo.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Pranešimas</item>
+        <item>El. paštas</item>
+        <item>SMS</item>
+        <item>Signalas</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 min.</item>
+        <item>1 min.</item>
+        <item>5 min.</item>
+        <item>10 min.</item>
+        <item>15 min.</item>
+        <item>20 min.</item>
+        <item>25 min.</item>
+        <item>30 min.</item>
+        <item>45 min.</item>
+        <item>1 val.</item>
+        <item>2 val.</item>
+        <item>3 val.</item>
+        <item>12 val.</item>
+        <item>24 val.</item>
+        <item>2 d.</item>
+        <item>1 sav.</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Nėra atsako</item>
+        <item>Taip</item>
+        <item>Galbūt</item>
+        <item>Ne</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Maršalo Salos</item>
+        <item>Midvėjaus Sala</item>
+        <item>Havajai</item>
+        <item>Aliaska</item>
+        <item>Ramiojo vandenyno laikas</item>
+        <item>Tichuana</item>
+        <item>Arizona</item>
+        <item>Čihuahua</item>
+        <item>Kalnų laikas</item>
+        <item>Centrinė Amerika</item>
+        <item>Centrinis laikas</item>
+        <item>Meksikas</item>
+        <item>Saskačevanas</item>
+        <item>Bogota</item>
+        <item>Rytų laikas</item>
+        <item>Venesuela</item>
+        <item>Atl. v. l. (Barbad.)</item>
+        <item>Atl. v. l. (Kanada)</item>
+        <item>Manausas</item>
+        <item>Santjagas</item>
+        <item>Niufaundlandas</item>
+        <item>Brazilija</item>
+        <item>Buenos Airės</item>
+        <item>Grenlandija</item>
+        <item>Montevidėjas</item>
+        <item>Vidurio Atlanto reg.</item>
+        <item>Azorų Salos</item>
+        <item>Žaliojo Kyšulio Sal.</item>
+        <item>Kasablanka</item>
+        <item>Londonas, Dublinas</item>
+        <item>Amsterdamas, Berlyn.</item>
+        <item>Belgradas</item>
+        <item>Briuselis</item>
+        <item>Sarajevas</item>
+        <item>Vindhukas</item>
+        <item>Vakarų Afrikos laik.</item>
+        <item>Amanas, Jordanija</item>
+        <item>Atėnai, Stambulas</item>
+        <item>Beirutas, Libanas</item>
+        <item>Kairas</item>
+        <item>Helsinkis</item>
+        <item>Jeruzalė</item>
+        <item>Minskas</item>
+        <item>Hararė</item>
+        <item>Bagdadas</item>
+        <item>Maskva</item>
+        <item>Kuveitas</item>
+        <item>Nairobis</item>
+        <item>Teheranas</item>
+        <item>Baku</item>
+        <item>Tbilisis</item>
+        <item>Jerevanas</item>
+        <item>Dubajus</item>
+        <item>Kabulas</item>
+        <item>Islamabadas, Karačis</item>
+        <item>Uralskis</item>
+        <item>Jekaterinburgas</item>
+        <item>Kolkata</item>
+        <item>Šri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Jangongas</item>
+        <item>Krasnojarskas</item>
+        <item>Bankokas</item>
+        <item>Pekinas</item>
+        <item>Honkongas</item>
+        <item>Irkutskas</item>
+        <item>Kvala Lumpūras</item>
+        <item>Pertas</item>
+        <item>Taipėjus</item>
+        <item>Seulas</item>
+        <item>Tokijas, Osaka</item>
+        <item>Jakutskas</item>
+        <item>Adelaidė</item>
+        <item>Darvinas</item>
+        <item>Brisbanas</item>
+        <item>Hobartas</item>
+        <item>Sidnėjus, Kanbera</item>
+        <item>Vladivostokas</item>
+        <item>Guamas</item>
+        <item>Magadanas</item>
+        <item>Oklandas</item>
+        <item>Fidžis</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Numatytasis</item>
+        <item>Privatus</item>
+        <item>Viešas</item>
+    </string-array>
+</resources>

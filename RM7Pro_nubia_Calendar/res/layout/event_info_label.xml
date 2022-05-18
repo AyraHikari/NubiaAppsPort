@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/new_view_item_where_text_size" android:textColor="@color/view_today_red" android:gravity="center_vertical" android:paddingTop="@dimen/event_info_label_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/new_view_item_when_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

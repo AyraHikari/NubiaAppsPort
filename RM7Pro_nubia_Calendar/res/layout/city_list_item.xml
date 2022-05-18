@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/linear_letter" android:layout_width="fill_parent" android:layout_height="43.0dip">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/nubia_tab_normal_color" android:gravity="center" android:id="@id/city_letter" android:background="@drawable/bg_round" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/Padding_Event" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_min_height">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/title_text_color" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/Padding_Event" />
+        <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:id="@id/country_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+        <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:id="@id/city_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/city_onoff" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

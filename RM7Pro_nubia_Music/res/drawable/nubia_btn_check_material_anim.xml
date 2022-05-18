@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true">
+        <bitmap android:src="@drawable/nubia_btn_check_mtrl_checked_disabled" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/nubia_btn_check_mtrl_disabled" />
+    </item>
+    <item android:state_checked="true" android:id="@id/nubia_on">
+        <bitmap android:src="@drawable/nubia_btn_check_mtrl_on" />
+    </item>
+    <item android:id="@id/nubia_off">
+        <bitmap android:src="@drawable/nubia_btn_check_mtrl_off" />
+    </item>
+</selector>

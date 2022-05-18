@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="advanced_pad_pi_size">22.0sp</dimen>
+    <dimen name="formula_max_textsize">34.0dip</dimen>
+    <dimen name="formula_max_textsize_split">30.0sp</dimen>
+    <dimen name="formula_min_textsize">28.0dip</dimen>
+    <dimen name="formula_min_textsize_split">30.0sp</dimen>
+    <dimen name="formula_padding_bottom">2.0dip</dimen>
+    <dimen name="formula_padding_end">20.0dip</dimen>
+    <item type="dimen" name="formula_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="formula_padding_top">2.0dip</dimen>
+    <dimen name="formula_step_textsize">4.0dip</dimen>
+    <dimen name="history_result_padding_Top">7.0dip</dimen>
+    <dimen name="history_result_padding_bottom">18.0dip</dimen>
+    <dimen name="more_action_margin_bottom">0.0dip</dimen>
+    <item type="dimen" name="numeric_column_weight">1.35</item>
+    <dimen name="numeric_text_size_split">30.0sp</dimen>
+    <dimen name="padding_endgrid_toppadding">0.0dip</dimen>
+    <dimen name="result_padding_bottom">2.0dip</dimen>
+    <dimen name="result_padding_end">20.0dip</dimen>
+    <item type="dimen" name="result_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="result_padding_top">2.0dip</dimen>
+    <dimen name="result_textsize">28.0dip</dimen>
+    <dimen name="result_textsize_split">22.0sp</dimen>
+    <dimen name="ripple_background_radius">20.0dip</dimen>
+    <dimen name="toolbar_height">45.0dip</dimen>
+</resources>

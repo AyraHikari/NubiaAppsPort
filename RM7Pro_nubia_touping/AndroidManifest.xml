@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.nubia.touping" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CONFIGURE_WIFI_DISPLAY"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CONFIGURE_DISPLAY_COLOR_MODE"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
+    <protected-broadcast android:name="android.server.display.wfd.DISCONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application android:allowBackup="false" android:icon="@drawable/wifi_display" android:label="@string/app_name" android:name="cn.nubia.touping.TouPingApplication" android:resizeableActivity="false" android:roundIcon="@drawable/wifi_display" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.HomeActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.MainActivity" android:theme="@style/AppThemeOtherAppEnter"/>
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.SettingActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.google.zxing.activity.CaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.WirelessHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.WiredHelpActivity" android:screenOrientation="portrait"/>
+        <provider android:authorities="cn.nubia.touping.TouPingProvider" android:exported="true" android:name="cn.nubia.touping.Utils.TouPingProvider"/>
+        <provider android:authorities="cn.nubia.touping.RunningStatusProvider" android:exported="true" android:name="cn.nubia.touping.Utils.RunningStatusProvider"/>
+        <provider android:authorities="cn.nubia.touping.TouPingLeboProcessProvider" android:exported="true" android:name="cn.nubia.touping.Utils.TouPingLeboProcessProvider" android:process=":lelinkps"/>
+        <activity android:name="cn.nubia.touping.PCMirrorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="cn.nubia.touping.PrivateModeActivity" android:theme="@style/dialog"/>
+        <activity android:name="cn.nubia.touping.AdjustQualityActivity" android:theme="@style/dialog"/>
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.HelpActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.USBHelpTouPingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.USBMirrorSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.USBpcControlPhoneActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleInstance" android:name="cn.nubia.touping.WiredSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.WiredSystemSoundActivity" android:theme="@style/dialog"/>
+        <service android:name="cn.nubia.touping.LelinkProcessService" android:process=":lelinkps">
+            <intent-filter>
+                <action android:name="com.hpplay.sdk.source.LelinkSdkService.ACTION"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="0x00000020" android:name="cn.nubia.touping.NubiaPCMirror.NubiaTouPingUtils.RecordService"/>
+        <receiver android:name="cn.nubia.touping.HDMIReceiver">
+            <intent-filter>
+                <action android:name="cn.nubia.action.HDMI_PLUGGED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.touping.DataCollectionReceiver">
+            <intent-filter>
+                <action android:name="cn.nubia.owlsystem.firstbootdayaction"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.WiredlessAndWiredSettingActivity" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="0x00000020" android:name="cn.nubia.touping.NubiaPCMirror.NubiaWirelessTouPingService"/>
+        <service android:enabled="true" android:exported="true" android:foregroundServiceType="0x00000020" android:name="cn.nubia.touping.MiracastTouPing.MiracastTouPingService"/>
+        <activity android:enabled="true" android:exported="true" android:launchMode="singleInstance" android:name="cn.nubia.touping.WiredTouPingMainActivity" android:theme="@style/TransparentThemeForWiredMainActivity"/>
+        <service android:name="com.hpplay.sdk.source.process.LelinkSdkService" android:process=":lelinkps">
+            <intent-filter>
+                <action android:name="com.hpplay.sdk.source.LelinkSdkService.ACTION"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:name="com.hpplay.sdk.source.permission.PermissionBridgeActivity" android:process=":lelinkps" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <service android:exported="false" android:foregroundServiceType="0x00000020" android:name="com.hpplay.sdk.source.mirror.ScreenCastService" android:process=":lelinkps">
+            <intent-filter android:priority="1000">
+                <action android:name="com.hpplay.sdk.source.mirrorcast.ScreenCastService.ACTION"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

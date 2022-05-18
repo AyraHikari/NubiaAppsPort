@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/notepad_editor_imageView_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notepad_editor_imageView_layout_imageView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <EditText android:gravity="bottom" android:id="@id/notepad_editor_imageView_layout_cursor" android:focusable="false" android:layout_width="@dimen/notepad_editor_record_file_cursor_width" android:layout_height="fill_parent" android:paddingStart="@dimen/notepad_editor_record_file_cursor_paddingStart" />
+</LinearLayout>

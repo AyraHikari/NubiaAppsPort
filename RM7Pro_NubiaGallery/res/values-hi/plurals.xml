@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">चयनित आइटम हटाएं?</item>
+        <item quantity="one">चयनित आइटम हटाएं?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">एल्‍बम ऑफ़लाइन उपलब्‍ध कराना.</item>
+        <item quantity="one">एल्‍बम ऑफ़लाइन उपलब्‍ध कराना.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d चयनित</item>
+        <item quantity="zero">%1$d चयनित</item>
+        <item quantity="one">%1$d चयनित</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d चयनित</item>
+        <item quantity="zero">%1$d चयनित</item>
+        <item quantity="one">%1$d चयनित</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d चयनित</item>
+        <item quantity="zero">%1$d चयनित</item>
+        <item quantity="one">%1$d चयनित</item>
+    </plurals>
+</resources>

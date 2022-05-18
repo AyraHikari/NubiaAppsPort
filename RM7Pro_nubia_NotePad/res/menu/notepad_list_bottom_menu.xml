@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/notepad_delete_selector" android:id="@id/menu_notepad_item_delete" android:title="@string/notepad_delete" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/notepad_top_selector" android:id="@id/menu_notepad_item_top" android:title="@string/notepad_top" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/notepad_label_move_selector" android:id="@id/menu_notepad_item_move" android:title="@string/notepad_label_move" app:showAsAction="always|withText" />
+</menu>

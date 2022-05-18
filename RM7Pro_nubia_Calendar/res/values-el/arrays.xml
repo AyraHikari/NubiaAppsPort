@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Απασχολημένος/η</item>
+        <item>Διαθέσιμος/η</item>
+        <item>Αβέβαιη παρουσία</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Ημέρα</item>
+        <item>Εβδομάδα</item>
+        <item>Μήνας</item>
+        <item>Ατζέντα</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Μόνο αυτό το συμβάν</item>
+        <item>Όλα τα συμβάντα στη σειρά</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Μόνο αυτό το συμβάν</item>
+        <item>Αυτό και τα μελλοντικά συμβάντα</item>
+        <item>Όλα τα συμβάντα</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Αυτά &amp; τα μελλοντικά συμβάντα</item>
+        <item>Όλα τα συμβάντα</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>πρώτο</item>
+        <item>δεύτερο</item>
+        <item>τρίτο</item>
+        <item>τέταρτο</item>
+        <item>τελευταία</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Πάντα</item>
+        <item>Μόνο στο αθόρυβο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Κανένα</item>
+        <item>0 λεπτά</item>
+        <item>1 λεπτό</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>45 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+        <item>12 ώρες</item>
+        <item>24 ώρες</item>
+        <item>2 ημέρες</item>
+        <item>1 εβδομάδα</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Προεπιλογή τοπικών ρυθμίσεων</item>
+        <item>Σάββατο</item>
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Άφιξη με μια μικρή καθυστέρηση.</item>
+        <item>Θα είμαι εκεί σε 10 λεπτά.</item>
+        <item>Προχωρήστε και συνεχίστε χωρίς εμένα.</item>
+        <item>Λυπάμαι, δεν θα καταφέρω να παρευρεθώ. Θα πρέπει να επαναπρογραμματίσουμε τη συνάντηση.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Ειδοπ.</item>
+        <item>Ηλ. ταχυδρομείο</item>
+        <item>SMS</item>
+        <item>Ξυπνητήρι</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 λεπτά</item>
+        <item>1 λεπτό</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>25 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>45 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+        <item>12 ώρες</item>
+        <item>24 ώρες</item>
+        <item>2 ημέρες</item>
+        <item>1 εβδομάδα</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Καμία απάντηση</item>
+        <item>Ναι</item>
+        <item>Ίσως</item>
+        <item>Όχι</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Νήσοι Μάρσαλ</item>
+        <item>Νήσος Μιντγουέι</item>
+        <item>Χαβάη</item>
+        <item>Αλάσκα</item>
+        <item>Ώρα Ειρηνικού</item>
+        <item>Τιχουάνα</item>
+        <item>Αριζόνα</item>
+        <item>Τσιουάουα</item>
+        <item>Ορεινή ώρα</item>
+        <item>Κεντρική Αμερική</item>
+        <item>Κεντρική ώρα</item>
+        <item>Πόλη του Μεξικού</item>
+        <item>Σασκάτσιουαν</item>
+        <item>Μπογκοτά</item>
+        <item>Ανατολική ώρα</item>
+        <item>Βενεζουέλα</item>
+        <item>Ώρ. Ατλ. (Μπαρμπάντ)</item>
+        <item>Ώρ. Ατλ. (Καναδάς)</item>
+        <item>Μανάους</item>
+        <item>Σαντιάγο</item>
+        <item>Νέα Γη</item>
+        <item>Μπραζίλια</item>
+        <item>Μπουένος Άιρες</item>
+        <item>Γροιλανδία</item>
+        <item>Μοντεβιδέο</item>
+        <item>Μεσο-Ατλαντικός</item>
+        <item>Αζόρες</item>
+        <item>Νήσοι Πράσινου Ακρωτηρίου</item>
+        <item>Καζαμπλάνκα</item>
+        <item>Λονδίνο, Δουβλίνο</item>
+        <item>Άμστερνταμ, Βερολίνο</item>
+        <item>Βελιγράδι</item>
+        <item>Βρυξέλλες</item>
+        <item>Σεράγεβο</item>
+        <item>Βίντχουκ</item>
+        <item>Ώρα Δ. Αφρικής</item>
+        <item>Αμμάν, Ιορδανία</item>
+        <item>Αθήνα, Κωνσταντ.</item>
+        <item>Βηρυτός, Λίβανος</item>
+        <item>Κάιρο</item>
+        <item>Ελσίνκι</item>
+        <item>Ιερουσαλήμ</item>
+        <item>Μινσκ</item>
+        <item>Χαράρε</item>
+        <item>Βαγδάτη</item>
+        <item>Μόσχα</item>
+        <item>Κουβέιτ</item>
+        <item>Ναϊρόμπι</item>
+        <item>Τεχεράνη</item>
+        <item>Μπακού</item>
+        <item>Τιφλίδα</item>
+        <item>Γερεβάν</item>
+        <item>Ντουμπάι</item>
+        <item>Καμπούλ</item>
+        <item>Ισλ., Καράτσι</item>
+        <item>Ουράλσκ</item>
+        <item>Εκατερίνμπουργκ</item>
+        <item>Καλκούτα</item>
+        <item>Σρι Λάνκα</item>
+        <item>Κατμαντού</item>
+        <item>Αστάνα</item>
+        <item>Γιανγκόν</item>
+        <item>Κρασνογιάρσκ</item>
+        <item>Μπανγκόκ</item>
+        <item>Πεκίνο</item>
+        <item>Χονγκ Κονγκ</item>
+        <item>Ιρκούτσκ</item>
+        <item>Κουάλα Λουμπούρ</item>
+        <item>Περθ</item>
+        <item>Ταϊπέι</item>
+        <item>Σεούλ</item>
+        <item>Τόκιο, Οσάκα</item>
+        <item>Γιακούτσκ</item>
+        <item>Αδελαΐδα</item>
+        <item>Ντάργουιν</item>
+        <item>Μπρισμπέιν</item>
+        <item>Χόμπαρτ</item>
+        <item>Σύδνεϋ, Καμπέρα</item>
+        <item>Βλαδιβοστόκ</item>
+        <item>Γκουάμ</item>
+        <item>Μάγκανταν</item>
+        <item>Όκλαντ</item>
+        <item>Φίτζι</item>
+        <item>Τόνγκα</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Προεπιλογή</item>
+        <item>Ιδιωτικό</item>
+        <item>Δημόσιο</item>
+    </string-array>
+</resources>

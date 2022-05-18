@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:background="@drawable/camera_dialog_background_material" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="360.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mfvc_1line_list_with_avatar_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/mfvc_large_padding" android:layout_marginEnd="@dimen/mfvc_large_padding">
+            <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+            <TextView android:textAppearance="@style/mfvc_pop_title_font" android:ellipsize="end" android:id="@id/alertTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="3" android:maxLines="1" />
+        </LinearLayout>
+        <View android:id="@id/titleDivider" android:background="@color/mfv_common_divl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mfvc_divider_line_height01" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ScrollView android:id="@id/scrollView" android:paddingTop="@dimen/mfvc_medium_padding" android:paddingBottom="@dimen/mfvc_medium_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/mfvc_large_padding" android:paddingEnd="@dimen/mfvc_large_padding">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/mfvc_primary_font02" android:gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:numStars="4" />
+                <Space android:id="@id/textSpacerNoButtons" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/alert_dialog_padding_top_material" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center" android:id="@id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mfvc_bottom_height" android:layoutDirection="locale">
+        <Space android:id="@id/leftpadding" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.91" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="94.18">
+            <Button android:textAppearance="@style/mfvc_light_btn_font" android:ellipsize="end" android:layout_gravity="start|center" android:id="@id/button2" android:background="@drawable/mfvc_dialog_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:numStars="2" android:maxLines="1" android:layout_weight="1.0" />
+            <Button android:textAppearance="@style/mfvc_light_btn_font" android:ellipsize="end" android:layout_gravity="end|center" android:id="@id/button1" android:background="@drawable/mfvc_dialog_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:numStars="2" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+        <Space android:id="@id/rightpadding" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.91" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/mfvc_secondary_font_size" android:textColor="@color/mfv_common_cb_on" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/button_info" android:paddingTop="4.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:fontFamily="medium" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/calendars" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/account_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="?android:attr/textAppearanceMedium" />
+    <Button android:layout_gravity="center" android:id="@id/sync_settings" android:layout_height="wrap_content" android:minWidth="210.0dip" android:text="@android:string/ok" android:layout_marginStart="@dimen/btn_margin_left" android:layout_marginEnd="@dimen/btn_margin_right" style="@style/z7_btn_style1" />
+    <include android:id="@id/calendar_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@android:layout/list_content" />
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_alignParentTop="true" style="@style/z7_btn_bar_style">
+            <Button android:id="@id/add_account" android:focusable="true" android:layout_height="wrap_content" android:minWidth="210.0dip" android:text="@string/add_account" style="@style/z7_btn_style1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

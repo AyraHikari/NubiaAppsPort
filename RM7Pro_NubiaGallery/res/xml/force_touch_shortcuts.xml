@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut icon="widget_like" id="force_touch_gallery_mark_shortcut" label="force_touch_mark_label">
+        <intent android:targetPackage="cn.nubia.gallery3d" android:action="android.nubia.intent.action.MARK" android:targetClass="cn.nubia.gallery3d.app.Gallery" />
+    </shortcut>
+</shortcuts>

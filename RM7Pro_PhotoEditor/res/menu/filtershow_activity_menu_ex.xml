@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/resetHistoryButton" android:orderInCategory="100" android:title="@string/btn_reset" android:showAsAction="always|withText" />
+    <item android:id="@id/saveButton" android:orderInCategory="100" android:title="@string/save" android:showAsAction="always|withText" />
+    <item android:id="@id/undoButton" android:orderInCategory="100" android:title="@string/btn_undo" android:showAsAction="always|withText" />
+    <item android:id="@id/redoButton" android:orderInCategory="100" android:title="@string/btn_redo" android:showAsAction="always|withText" />
+</menu>

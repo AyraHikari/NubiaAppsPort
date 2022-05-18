@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/nubia_ripple_material_light"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/menu_item_bottom_background_pressed_dark" />
+    <item>
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_enabled="false">
+                <nine-patch android:src="@drawable/menu_item_bottom_background_disabled_dark" />
+            </item>
+            <item>
+                <nine-patch android:src="@drawable/menu_item_bottom_background_normal_dark" />
+            </item>
+        </selector>
+    </item>
+</ripple>

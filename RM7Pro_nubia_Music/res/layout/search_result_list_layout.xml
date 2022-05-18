@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen_183"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.music.ui.RoundImageView android:id="@id/item_image" android:layout_width="@dimen/dimen_108" android:layout_height="@dimen/dimen_108" android:layout_marginLeft="@dimen/dimen_72" android:layout_marginRight="@dimen/dimen_30" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dimen_48" android:layout_toRightOf="@id/item_image">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/black_50" android:gravity="center_vertical" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12" android:singleLine="true" />
+        </LinearLayout>
+        <View android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

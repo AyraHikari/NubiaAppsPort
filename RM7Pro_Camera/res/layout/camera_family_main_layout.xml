@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/family_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/camera_family_select_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/inner_bottombar_height" android:layout_marginBottom="@dimen/bottombar_bottomMargin" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/camera_family_select" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/familySelectButton_Right" android:layout_alignParentEnd="true">
+            <com.android.common.ui.RotateImageView android:id="@id/select_icon_bottom" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.common.ui.RotateImageView android:id="@id/select_icon_top" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

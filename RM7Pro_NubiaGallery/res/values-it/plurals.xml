@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="label_day">
+        <item quantity="other">%d giorni</item>
+        <item quantity="zero">%d giorno</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Attivazione album offline.</item>
+        <item quantity="one">Attivazione album offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="zero">%1$d selezionati</item>
+        <item quantity="one">%1$d selezionato</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="zero">%1$d selezionati</item>
+        <item quantity="one">%1$d selezionato</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">copia (%1$d)</item>
+        <item quantity="zero">copia (%1$d)</item>
+        <item quantity="one">copia (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">taglia (%1$d)</item>
+        <item quantity="zero">taglia (%1$d)</item>
+        <item quantity="one">taglia (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="zero">%1$d selezionati</item>
+        <item quantity="one">%1$d selezionato</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">Vuoi recuperare il contenuto selezionato?</item>
+        <item quantity="one">Vuoi recuperare il contenuto selezionato?</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">%1$d elementi selezionati</item>
+        <item quantity="zero">%1$d elemento selezionato</item>
+        <item quantity="one">%1$d elemento selezionato</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/imaged_layout_top_title" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/image3d_layout_actionbarparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/imaged_layout_top_actionbar" android:background="@color/slideshow_setting_background" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <ImageView android:id="@id/back_img" android:background="@drawable/actionbar_back_normal_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="20.0dip" android:textColor="@color/nubia_common_activated_green" android:id="@id/back_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_back" android:layout_toRightOf="@id/back_img" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

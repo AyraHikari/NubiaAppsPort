@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/nubia_preference_item_padding_side" android:paddingEnd="@dimen/nubia_preference_item_padding_side"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="@dimen/nubia_preference_item_icon_size" android:layout_height="@dimen/nubia_preference_item_icon_size" android:scaleType="centerInside" android:minWidth="@dimen/nubia_preference_item_icon_size" android:layout_marginEnd="20.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/nubia_list_preferred_item_pandding" android:paddingBottom="@dimen/nubia_list_preferred_item_pandding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/nubia_subprime_text_material_light" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_list_preferred_item_space" android:maxLines="10" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="?android:listPreferredItemPaddingStart" />
+</LinearLayout>

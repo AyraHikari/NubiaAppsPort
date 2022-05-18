@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66" android:layout_marginStart="@dimen/dimens_16" android:layout_marginEnd="@dimen/dimens_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pro_light_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/highlight_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title" />
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title_1" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title_context" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title1" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title1_context" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title2" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title2_context" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title2_context1" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22" android:text="@string/specification_pro_light_title2_context2" />
+        <ImageView android:background="@drawable/pro_light1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22" android:text="@string/specification_pro_light_title2_context3" />
+        <ImageView android:background="@drawable/pro_light2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title3" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title3_context" />
+        <RelativeLayout android:background="@drawable/pro_icon_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_139" android:layout_marginTop="@dimen/dimens_16">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_83" android:layout_marginBottom="@dimen/dimens_13" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title3_context3" android:drawablePadding="@dimen/dimens_4" android:drawableEnd="@drawable/pro_focus1_j" />
+            </LinearLayout>
+            <ImageView android:id="@id/pro_light1_icon" android:background="@drawable/pro_light3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_5" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="@dimen/dimens_275" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/pro_light1_icon" android:layout_centerHorizontal="true">
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_67" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title3_context1" />
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_67" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title3_context2" android:layout_marginEnd="@dimen/dimens_13" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title3_context4" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title3_context5" android:lineSpacingExtra="@dimen/dimens_line_spacing_extra" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title4_context" />
+        <RelativeLayout android:background="@drawable/pro_icon_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_139" android:layout_marginTop="@dimen/dimens_16">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_83" android:layout_marginBottom="@dimen/dimens_40" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_60" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context2" android:drawablePadding="@dimen/dimens_4" android:drawableEnd="@drawable/pro_focus1_j" />
+            </LinearLayout>
+            <ImageView android:id="@id/pro_light2_icon" android:background="@drawable/pro_light4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="@dimen/dimens_275" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/pro_light2_icon" android:layout_centerHorizontal="true">
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_67" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context1" />
+                <com.android.common.ui.MarqueeTextView android:textSize="@dimen/dimens_12" android:textColor="@color/specification_grid_text_color" android:gravity="center" android:layout_width="@dimen/dimens_67" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context1" android:layout_marginEnd="@dimen/dimens_13" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context3" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title4_context4" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context5" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22" android:text="@string/specification_pro_light_title4_context6" />
+        <ImageView android:background="@drawable/pro_light5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_22" android:text="@string/specification_pro_light_title4_context7" />
+        <ImageView android:background="@drawable/pro_light6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_66">
+        <TextView android:textSize="@dimen/dimens_title2_text" android:textColor="@color/specification_title2_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/specification_pro_light_title4_context8" />
+        <TextView android:textSize="@dimen/dimens_context_text" android:textColor="@color/specification_context_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:text="@string/specification_pro_light_title4_context9" android:lineSpacingExtra="@dimen/dimens_line_spacing_extra" />
+    </LinearLayout>
+</LinearLayout>

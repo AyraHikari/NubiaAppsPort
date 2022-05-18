@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/improve_slideshow_set_toolbar" android:background="@color/topbar_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_height">
+        <ImageView android:gravity="center" android:id="@id/topbar_navigation" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back_normal_new" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/toolbar_title_normal_size" android:textColor="@color/slideshow_setting_textclolor" android:gravity="center" android:id="@id/topbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slideshow_setting" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:layout_toEndOf="@id/topbar_navigation" android:elegantTextHeight="true" />
+    </RelativeLayout>
+    <include android:id="@id/improve_slideshow_set_itemview_effect" android:background="@color/slideshow_setting_background" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/improve_slideshow_set_toolbar" layout="@layout/improve_slideshow_set_itemview" />
+    <include android:id="@id/improve_slideshow_set_itemview_playmusic" android:background="@color/theme_background_color" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/improve_slideshow_set_itemview_effect" layout="@layout/improve_slideshow_set_itemview" />
+    <RelativeLayout android:id="@id/improve_slideshow_set_itemview_prepeat" android:background="@drawable/nubia_list_item_background_material" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_below="@id/improve_slideshow_set_itemview_playmusic">
+        <TextView android:textSize="16.0sp" android:textColor="@color/slideshow_setting_textclolor" android:id="@id/improve_slideshow_set_itemview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slideshow_repeatplay" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    </RelativeLayout>
+    <View android:background="@color/theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/improve_slideshow_set_itemview_prepeat" />
+</RelativeLayout>

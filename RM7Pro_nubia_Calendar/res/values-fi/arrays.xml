@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Varattu</item>
+        <item>Tavoitettavissa</item>
+        <item>Alustava</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Päivä</item>
+        <item>Viikko</item>
+        <item>Kuukausi</item>
+        <item>Tapahtumat</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Vain tämä tapahtuma</item>
+        <item>Kaikki toistokerrat</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Vain tämä tapahtuma</item>
+        <item>Tämä ja tulevat tapahtumat</item>
+        <item>Kaikki tapahtumat</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Tämä ja tulevat tapahtumat</item>
+        <item>Kaikki tapahtumat</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ensimmäinen</item>
+        <item>sekunti</item>
+        <item>kolmas</item>
+        <item>neljäs</item>
+        <item>viimeinen</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Aina</item>
+        <item>Vain äänettömässä tilassa</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ei mitään</item>
+        <item>0 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>15 minuuttia</item>
+        <item>30 minuuttia</item>
+        <item>1 tunti</item>
+        <item>1 päivää</item>
+        <item>1 viikko</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Oletussijainti</item>
+        <item>lauantai</item>
+        <item>sunnuntai</item>
+        <item>maanantai</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Myöhästyn muutaman minuutin.</item>
+        <item>Olen paikalla noin 10 minuutin kuluttua.</item>
+        <item>Voitte aloittaa ilman minua.</item>
+        <item>En pääse paikalle. Sovitaanko uusi aika?</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Ilmoitus</item>
+        <item>Sähköposti</item>
+        <item>Tekstiviesti</item>
+        <item>Hälytys</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Ei mitään</item>
+        <item>0 minuutti</item>
+        <item>5 minuuttia</item>
+        <item>10 minuuttia</item>
+        <item>15 minuuttia</item>
+        <item>30 minuuttia</item>
+        <item>1 tuntia</item>
+        <item>1 päivää</item>
+        <item>1 viikko</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Ei vastausta</item>
+        <item>Kyllä</item>
+        <item>Ehkä</item>
+        <item>Ei</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallinsaaret</item>
+        <item>Midwaysaari</item>
+        <item>Havaiji</item>
+        <item>Alaska</item>
+        <item>Tyynenmeren aika</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Vuoristoseudun aika</item>
+        <item>Keski-Amerikka</item>
+        <item>Keskilännen aika</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Itäinen normaaliaika</item>
+        <item>Venezuela</item>
+        <item>Atlantin aika (Barbados)</item>
+        <item>Atlantin aika (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Grönlanti</item>
+        <item>Montevideo</item>
+        <item>Keski-Atlantti</item>
+        <item>Azorit</item>
+        <item>Kap Verden saaret</item>
+        <item>Casablanca</item>
+        <item>Lontoo, Dublin</item>
+        <item>Amsterdam, Berliini</item>
+        <item>Belgrad</item>
+        <item>Bryssel</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Länsi-Afikan aika</item>
+        <item>Amman, Jordan</item>
+        <item>Ateena, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Moskova</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Soul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Oletus</item>
+        <item>Yksityinen</item>
+        <item>Julkinen</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>oletus</item>
+        <item>Mykistä</item>
+        <item>Tärinä</item>
+        <item>Soittoääni</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Kartta</item>
+        <item>Sää</item>
+        <item>Elintarvikkeet</item>
+        <item>Lento</item>
+        <item>Hotelli</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Ota kuva</item>
+        <item>Kuvat</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>Sähköposti</item>
+        <item>Bluetooth</item>
+        <item>Viesti</item>
+    </string-array>
+</resources>

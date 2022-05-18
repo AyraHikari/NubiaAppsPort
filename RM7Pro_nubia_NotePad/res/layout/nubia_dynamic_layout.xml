@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/nubia_progressBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="1000" android:progress="0" android:progressDrawable="@drawable/nubia_progress_selector" style="?android:attr/progressBarStyleHorizontal" />
+    <cn.nubia.commonui.widget.NubiaMarqueeButton android:textColor="@android:color/white" android:ellipsize="marquee" android:id="@id/download_button" android:background="@drawable/nubia_dynamic_default_material" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/nubia_download" android:scrollHorizontally="true" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+</RelativeLayout>

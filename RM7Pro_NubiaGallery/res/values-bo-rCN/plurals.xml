@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">བདམས་ཟིན་པའི་དོན་ཚན་སུབ་རྒྱུ་ཡིན་ནམ།</item>
+        <item quantity="one">འདེམས་པའི་ནང་དོན་སུབ་བམ།</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">ཉིན་%d</item>
+        <item quantity="zero">ཉིན་%d</item>
+        <item quantity="one">ཉིན་%d</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">སྐུད་བྲལ་དུ་པར་དེབ་ལས་ལྟ་རུ་འཇུག</item>
+        <item quantity="one">སྐུད་བྲལ་དུ་པར་དེབ་ལས་ལྟ་རུ་འཇུག</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$dབདམས་ཟིན།</item>
+        <item quantity="zero">%1$dབདམས་ཟིན།</item>
+        <item quantity="one">%1$dབདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$dབདམས་ཟིན།</item>
+        <item quantity="zero">%1$dབདམས་ཟིན།</item>
+        <item quantity="one">%1$dབདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">བསྐྱར་བཤུས་བྱེད། (%1$d)</item>
+        <item quantity="zero">བསྐྱར་བཤུས་བྱེད། (%1$d)</item>
+        <item quantity="one">བསྐྱར་བཤུས་བྱེད། (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">དྲས་གཏུབ། (%1$d)</item>
+        <item quantity="zero">དྲས་གཏུབ། (%1$d)</item>
+        <item quantity="one">དྲས་གཏུབ། (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">ལགས་སོ།(%1$d)</item>
+        <item quantity="zero">ལགས་སོ།(%1$d)</item>
+        <item quantity="one">ལགས་སོ།(%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$dབདམས་ཟིན།</item>
+        <item quantity="zero">%1$dབདམས་ཟིན།</item>
+        <item quantity="one">%1$dབདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">བདམས་པའི་ནང་དོན་སོར་ཆུད་བྱེད་རྒྱུ་ཡིན་ནམ།</item>
+        <item quantity="one">བདམས་པའི་ནང་དོན་སོར་ཆུད་བྱེད་རྒྱུ་ཡིན་ནམ།</item>
+    </plurals>
+</resources>

@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Bận</item>
+        <item>Sẵn có</item>
+        <item>Thử nghiệm</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Ngày</item>
+        <item>Tuần</item>
+        <item>Tháng</item>
+        <item>Lịch biểu</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Chỉ sự kiện này</item>
+        <item>Tất cả sự kiện trong hàng loạt sự kiện</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Chỉ sự kiện này</item>
+        <item>Sự kiện này và các sự kiện trong tương lai</item>
+        <item>Tất cả sự kiện</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Sự kiện này &amp; các sự kiện trong tương lai</item>
+        <item>Tất cả sự kiện</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>đầu tiên</item>
+        <item>thứ hai</item>
+        <item>thứ ba</item>
+        <item>thứ tư</item>
+        <item>cuối cùng</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Luôn luôn</item>
+        <item>Chỉ khi ở chế độ im lặng</item>
+        <item>Chưa bao giờ</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Không</item>
+        <item>0 phút</item>
+        <item>1 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>15 phút</item>
+        <item>20 phút</item>
+        <item>25 phút</item>
+        <item>30 phút</item>
+        <item>45 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+        <item>12 giờ</item>
+        <item>24 giờ</item>
+        <item>2 ngày</item>
+        <item>1 tuần</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Ngôn ngữ mặc định</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ nhật</item>
+        <item>Thứ Hai</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Đang chạy chỉ muộn vài phút.</item>
+        <item>Sẽ ở đó sau khoảng 10 phút.</item>
+        <item>Hãy tiến hành và bắt đầu mà không có tôi.</item>
+        <item>Rất tiếc, tôi không thu xếp được. Chúng ta phải lên lịch lại.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Thông báo</item>
+        <item>Email</item>
+        <item>SMS</item>
+        <item>Báo thức</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 phút</item>
+        <item>1 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>15 phút</item>
+        <item>20 phút</item>
+        <item>25 phút</item>
+        <item>30 phút</item>
+        <item>45 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+        <item>12 giờ</item>
+        <item>24 giờ</item>
+        <item>2 ngày</item>
+        <item>1 tuần</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Không có phản hồi</item>
+        <item>Có</item>
+        <item>Có thể</item>
+        <item>Không</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Quần đảo Marshall</item>
+        <item>Đảo Midway</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Giờ Thái Bình Dương</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Giờ Mountain</item>
+        <item>Trung Mỹ</item>
+        <item>Giờ Trung Tâm</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Giờ Miền Tây</item>
+        <item>Venezuela</item>
+        <item>Giờ Đại Tây Dương (Barbados)</item>
+        <item>Giờ Đại Tây Dương (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Greenland</item>
+        <item>Montevideo</item>
+        <item>Trung Đại Tây Dương</item>
+        <item>Azores</item>
+        <item>Quần đảo Cape Verde</item>
+        <item>Casablanca</item>
+        <item>Luân Đôn, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Belgrade</item>
+        <item>Brussels</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Giờ Tây Phi</item>
+        <item>Amman, Jordan</item>
+        <item>Athens, Istanbul</item>
+        <item>Beirut, Lebanon</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Baghdad</item>
+        <item>Moscow</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Tehran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Kathmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Bắc Kinh</item>
+        <item>Hồng Kông</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Đài Bắc</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Mặc định</item>
+        <item>Riêng tư</item>
+        <item>Công khai</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>Abidjan</item>
+        <item>Accra</item>
+        <item>Addis Ababa</item>
+        <item>Algiers</item>
+        <item>Blantyre</item>
+        <item>Brazzaville</item>
+        <item>Cairo</item>
+        <item>Casablanca</item>
+        <item>Conakry</item>
+        <item>Dakar</item>
+        <item>Dar es Salaam</item>
+        <item>Djibouti</item>
+        <item>Freetown</item>
+        <item>Gaborone</item>
+        <item>Harare</item>
+        <item>Johannesburg</item>
+        <item>Kampala</item>
+        <item>Khartoum</item>
+        <item>Kigali</item>
+        <item>Kinshasa</item>
+        <item>Lagos</item>
+        <item>Maseru</item>
+        <item>Mogadishu</item>
+        <item>Nairobi</item>
+        <item>São Tomé</item>
+        <item>Timbuktu</item>
+        <item>Tripoli</item>
+        <item>Tunis</item>
+        <item>Anchorage</item>
+        <item>Mendoza</item>
+        <item>Aruba</item>
+        <item>Asunción</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Bogotá</item>
+        <item>Buenos Aires</item>
+        <item>Cancun</item>
+        <item>Caracas</item>
+        <item>Cayman</item>
+        <item>Chicago</item>
+        <item>Costa Rica</item>
+        <item>Curacao</item>
+        <item>Dawson Creek</item>
+        <item>Denver</item>
+        <item>Detroit</item>
+        <item>Dominica</item>
+        <item>Edmonton</item>
+        <item>El Salvador</item>
+        <item>Fortaleza</item>
+        <item>Grand Turk</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>Halifax</item>
+        <item>Havana</item>
+        <item>Indianapolis</item>
+        <item>Knox</item>
+        <item>Marengo</item>
+        <item>Petersburg</item>
+        <item>Thành phố Tell</item>
+        <item>Vevay</item>
+        <item>Vincennes</item>
+        <item>Winamac</item>
+        <item>Kingston</item>
+        <item>Nuestra Señora de La Paz</item>
+        <item>Lima</item>
+        <item>Los Angeles</item>
+        <item>Louisville</item>
+        <item>Managua</item>
+        <item>Martinique</item>
+        <item>Mendoza</item>
+        <item>Metlakatla</item>
+        <item>Thành phố Mexico</item>
+        <item>Monterrey</item>
+        <item>Montevideo</item>
+        <item>Montreal</item>
+        <item>Nassau</item>
+        <item>New York</item>
+        <item>Beulah</item>
+        <item>Center</item>
+        <item>New Salem</item>
+        <item>Panama</item>
+        <item>Phoenix</item>
+        <item>Port of Spain</item>
+        <item>Port-au-Prince</item>
+        <item>Puerto Rico</item>
+        <item>Santo Domingo</item>
+        <item>São Paulo</item>
+        <item>St. Johns</item>
+        <item>St. Kitts</item>
+        <item>St. Lucia</item>
+        <item>St. Thomas</item>
+        <item>Tijuana</item>
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Winnipeg</item>
+        <item>Nam cực</item>
+        <item>Longyearbyen</item>
+        <item>Almaty</item>
+        <item>Amman</item>
+        <item>Anadyr</item>
+        <item>Aqtau</item>
+        <item>Baghdad</item>
+        <item>Bahrain</item>
+        <item>Baku</item>
+        <item>Bangkok</item>
+        <item>Beirut</item>
+        <item>Kolkata</item>
+        <item>Damascus</item>
+        <item>Dhaka</item>
+        <item>Dubai</item>
+        <item>Gaza</item>
+        <item>Hebron</item>
+        <item>Tp. Hồ Chí Minh</item>
+        <item>Hồng Kông</item>
+        <item>Istanbul</item>
+        <item>Jakarta</item>
+        <item>Jerusalem</item>
+        <item>Kabul</item>
+        <item>Karachi</item>
+        <item>Kathmandu</item>
+        <item>Kuala Lumpur</item>
+        <item>Kuwait</item>
+        <item>Ma Cao</item>
+        <item>Manila</item>
+        <item>Muscat</item>
+        <item>Phnom Penh</item>
+        <item>Bình Nhưỡng</item>
+        <item>Qatar</item>
+        <item>Rangoon</item>
+        <item>Riyadh</item>
+        <item>Sài Gòn</item>
+        <item>Seoul</item>
+        <item>Singapore</item>
+        <item>Đài Bắc</item>
+        <item>Tehran</item>
+        <item>Tel Aviv</item>
+        <item>Tokyo</item>
+        <item>Ulaanbaatar</item>
+        <item>Bermuda</item>
+        <item>Canary</item>
+        <item>Cape Verde</item>
+        <item>Reykjavik</item>
+        <item>Stanley</item>
+        <item>Adelaide</item>
+        <item>Brisbane</item>
+        <item>Canberra</item>
+        <item>Darwin</item>
+        <item>Melbourne</item>
+        <item>New South Wales</item>
+        <item>Perth</item>
+        <item>Queensland</item>
+        <item>Sydney</item>
+        <item>Victoria</item>
+        <item>Newfoundland</item>
+        <item>Saskatchewan</item>
+        <item>Easter Island</item>
+        <item>Amsterdam</item>
+        <item>Andorra</item>
+        <item>Athens</item>
+        <item>Belfast</item>
+        <item>Belgrade</item>
+        <item>Berlin</item>
+        <item>Bratislava</item>
+        <item>Brussels</item>
+        <item>Bucharest</item>
+        <item>Budapest</item>
+        <item>Chisinau</item>
+        <item>Copenhagen</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Helsinki</item>
+        <item>Đảo Man</item>
+        <item>Istanbul</item>
+        <item>Kiev</item>
+        <item>Lisbon</item>
+        <item>Luân Đôn</item>
+        <item>Luxembourg</item>
+        <item>Madrid</item>
+        <item>Malta</item>
+        <item>Minsk</item>
+        <item>Monaco</item>
+        <item>Moscow</item>
+        <item>Oslo</item>
+        <item>Paris</item>
+        <item>Prague</item>
+        <item>Riga</item>
+        <item>Rome</item>
+        <item>San Marino</item>
+        <item>Sarajevo</item>
+        <item>Simferopol</item>
+        <item>Skopje</item>
+        <item>Sofia</item>
+        <item>Stockholm</item>
+        <item>Tallinn</item>
+        <item>Vatican</item>
+        <item>Vienna</item>
+        <item>Vilnius</item>
+        <item>Warsaw</item>
+        <item>Zagreb</item>
+        <item>Zurich</item>
+        <item>Antananarivo</item>
+        <item>Maldives</item>
+        <item>Mauritius</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Honolulu</item>
+        <item>Kiritimati</item>
+        <item>Noumea</item>
+        <item>Samoa</item>
+        <item>Tahiti</item>
+        <item>Antigua</item>
+        <item>Austin</item>
+        <item>Boston</item>
+        <item>Calgary</item>
+        <item>Columbus</item>
+        <item>Dallas</item>
+        <item>Knoxville</item>
+        <item>Memphis</item>
+        <item>Miami</item>
+        <item>Minneapolis</item>
+        <item>Ottawa</item>
+        <item>Philadelphia</item>
+        <item>Portland</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>Thành phố Salt Lake</item>
+        <item>San Jose</item>
+        <item>San Salvador</item>
+        <item>Seattle</item>
+        <item>St. Louis</item>
+        <item>Washington D.C.</item>
+        <item>Houston</item>
+        <item>San Antonio</item>
+        <item>Jacksonville</item>
+        <item>Baltimore</item>
+        <item>Nashville</item>
+        <item>Milwaukee</item>
+        <item>Thành phố Oklahoma</item>
+        <item>Las Vegas</item>
+        <item>Albuquerque</item>
+        <item>Tucson</item>
+        <item>Sacramento</item>
+        <item>Atlanta</item>
+        <item>Cleveland</item>
+        <item>New Orleans</item>
+        <item>Tampa</item>
+        <item>Pittsburgh</item>
+        <item>Cincinnati</item>
+        <item>Mountain View</item>
+        <item>Reno</item>
+        <item>Thành phố Black Rock</item>
+        <item>Doha</item>
+        <item>Bắc Kinh</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Osaka</item>
+        <item>Lahore</item>
+        <item>"Sana'a"</item>
+        <item>Barcelona</item>
+        <item>Munich</item>
+        <item>Milan</item>
+        <item>Frankfurt</item>
+        <item>Hà Nội</item>
+        <item>Ankara</item>
+        <item>Bangalore</item>
+        <item>Brasília</item>
+        <item>Cape Town</item>
+        <item>Islamabad</item>
+        <item>Rio de Janeiro</item>
+        <item>Ann Arbor</item>
+        <item>Boulder</item>
+        <item>Cambridge</item>
+        <item>Kirkland</item>
+        <item>Madison</item>
+        <item>Hyderabad</item>
+        <item>Reston</item>
+        <item>Chihuahua</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Đảo Greenland</item>
+        <item>Trung Đại Tây Dương</item>
+        <item>Azores</item>
+        <item>Windhoek</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Oral</item>
+        <item>Colombo</item>
+        <item>Yekaterinburg</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Đảo Marshall</item>
+        <item>Magadan</item>
+        <item>tonga</item>
+        <item>Đảo Midway</item>
+    </string-array>
+    <string-array name="countries_names">
+        <item>"Coate d'Ivoire"</item>
+        <item>Ghana</item>
+        <item>Ethiopia</item>
+        <item>Algeria</item>
+        <item>Malawi</item>
+        <item>Congo</item>
+        <item>Ai cập</item>
+        <item>Maroc</item>
+        <item>Guinea</item>
+        <item>Senegal</item>
+        <item>Tanzania</item>
+        <item>Djibouti</item>
+        <item>Sierra Leone</item>
+        <item>Botswana</item>
+        <item>Zimbabwe</item>
+        <item>Nam Phi</item>
+        <item>Uganda</item>
+        <item>Sudan</item>
+        <item>Rwanda</item>
+        <item>Congo</item>
+        <item>Nigeria</item>
+        <item>Lesotho</item>
+        <item>Somalia</item>
+        <item>Kenya</item>
+        <item>Sao Tome và Principe</item>
+        <item>Timbuktu</item>
+        <item>Libya</item>
+        <item>Tunisia</item>
+        <item>Mỹ</item>
+        <item>Argentina</item>
+        <item>Aruba</item>
+        <item>Paraguay</item>
+        <item>Barbados</item>
+        <item>Belize</item>
+        <item>Colombia</item>
+        <item>Argentina</item>
+        <item>Mexico</item>
+        <item>Venezuela</item>
+        <item>Quần đảo Cayman</item>
+        <item>Mỹ</item>
+        <item>Costa Rica</item>
+        <item>rượu cam bì</item>
+        <item>Canada</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Dominica</item>
+        <item>Canada</item>
+        <item>Salvador</item>
+        <item>Brazil</item>
+        <item>Grand Turk</item>
+        <item>Lựu đạn</item>
+        <item>Guatemala</item>
+        <item>Guyana</item>
+        <item>Canada</item>
+        <item>Cuba</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Marengo</item>
+        <item>Mỹ</item>
+        <item>Crystal City</item>
+        <item>Huehuetenango</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Jamaica</item>
+        <item>Bolivia</item>
+        <item>Peru</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Nicaragua</item>
+        <item>Nước pháp</item>
+        <item>Argentina</item>
+        <item>Nước Mỹ</item>
+        <item>Mexico</item>
+        <item>Mỹ</item>
+        <item>Uruguay</item>
+        <item>Canada</item>
+        <item>Bahamas</item>
+        <item>Mỹ</item>
+        <item>Úc</item>
+        <item>Trung tâm</item>
+        <item>Salem mới</item>
+        <item>Panama</item>
+        <item>Mỹ</item>
+        <item>Trinidad và Tobago</item>
+        <item>Haiti</item>
+        <item>Puerto Rico</item>
+        <item>Dominica</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Saint Kitts</item>
+        <item>Argentina</item>
+        <item>Canada</item>
+        <item>Mexico</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Cực Nam</item>
+        <item>Na Uy</item>
+        <item>Kazakhstan</item>
+        <item>Jordan</item>
+        <item>Nga</item>
+        <item>Kazakhstan</item>
+        <item>I-rắc</item>
+        <item>Bahrain</item>
+        <item>Azerbaijan</item>
+        <item>nước Thái Lan</item>
+        <item>Lebanon</item>
+        <item>Ấn Độ</item>
+        <item>Syria</item>
+        <item>Bangladesh</item>
+        <item>các Tiểu Vương Quốc Ả Rập Thống Nhất</item>
+        <item>Palestine</item>
+        <item>Palestine</item>
+        <item>Việt Nam</item>
+        <item>Trung Quốc</item>
+        <item>gà tây</item>
+        <item>Indonesia</item>
+        <item>Người israel</item>
+        <item>Người Afghanistan</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Malaysia</item>
+        <item>Kuwait</item>
+        <item>Trung Quốc</item>
+        <item>Phi-líp-pin</item>
+        <item>Oman</item>
+        <item>Campuchia</item>
+        <item>Bắc Triều Tiên</item>
+        <item>Katar</item>
+        <item>Miến Điện</item>
+        <item>Ả Rập Saudi</item>
+        <item>Việt Nam</item>
+        <item>Hàn Quốc</item>
+        <item>Singapore</item>
+        <item>Đài Loan, Trung Quốc</item>
+        <item>Iran</item>
+        <item>Người israel</item>
+        <item>Nhật Bản</item>
+        <item>Mông Cổ</item>
+        <item>Bermuda</item>
+        <item>đảo Canary</item>
+        <item>Cape Verde</item>
+        <item>Nước Iceland</item>
+        <item>Stanley</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Úc</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Canada</item>
+        <item>Đảo Phục Sinh</item>
+        <item>nước Hà Lan</item>
+        <item>Andorra</item>
+        <item>Hy Lạp</item>
+        <item>Bắc Ireland</item>
+        <item>Xéc-bi-a</item>
+        <item>nước Đức</item>
+        <item>Xlô-va-ki-a</item>
+        <item>nước Bỉ</item>
+        <item>Romania</item>
+        <item>Hungary</item>
+        <item>Moldova</item>
+        <item>Đan mạch</item>
+        <item>Dublin</item>
+        <item>Gibraltar</item>
+        <item>Phần Lan</item>
+        <item>Đảo Man</item>
+        <item>gà tây</item>
+        <item>Ukraine</item>
+        <item>Bồ Đào Nha</item>
+        <item>Nước Anh</item>
+        <item>Luxembourg</item>
+        <item>Tây ban nha</item>
+        <item>Malta</item>
+        <item>Belarus</item>
+        <item>Monaco</item>
+        <item>Nga</item>
+        <item>Na Uy</item>
+        <item>Nước pháp</item>
+        <item>Tiếng Séc</item>
+        <item>Latvia</item>
+        <item>Nước Ý</item>
+        <item>San Marino</item>
+        <item>Herzegovina</item>
+        <item>Nga</item>
+        <item>Macedonia</item>
+        <item>Bungari</item>
+        <item>Thụy Điển</item>
+        <item>Estonia</item>
+        <item>Vatican</item>
+        <item>Áo</item>
+        <item>Cộng hòa Litva</item>
+        <item>Ba lan</item>
+        <item>Croatia</item>
+        <item>Thụy sĩ</item>
+        <item>Antananarivo</item>
+        <item>Maldives</item>
+        <item>Mauritius</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Guam</item>
+        <item>Mỹ</item>
+        <item>Đảo giáng sinh</item>
+        <item>New Caledonia</item>
+        <item>Samoa</item>
+        <item>Tahiti</item>
+        <item>Antigua</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Canada</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Canada</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Costa Rica</item>
+        <item>San Salvador</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>THÀNH PHỐ ĐEN ROCK</item>
+        <item>Katar</item>
+        <item>Trung Quốc</item>
+        <item>Ấn Độ</item>
+        <item>Ấn Độ</item>
+        <item>Nhật Bản</item>
+        <item>Pakistan</item>
+        <item>Sana</item>
+        <item>Tây ban nha</item>
+        <item>nước Đức</item>
+        <item>Nước Ý</item>
+        <item>nước Đức</item>
+        <item>Việt Nam</item>
+        <item>gà tây</item>
+        <item>Ấn Độ</item>
+        <item>Brazil</item>
+        <item>Nam Phi</item>
+        <item>Pakistan</item>
+        <item>Brazil</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Nước Anh</item>
+        <item>Mỹ</item>
+        <item>Mỹ</item>
+        <item>Andhra Pradesh</item>
+        <item>Reston</item>
+        <item>Chihuahua</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>thành phố San Diego</item>
+        <item>Godthab</item>
+        <item>Nam Georgia</item>
+        <item>Azores</item>
+        <item>Windhoek</item>
+        <item>Tbilisi</item>
+        <item>Erivan</item>
+        <item>Ural</item>
+        <item>Colombo</item>
+        <item>Yekaterinburg</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Majuro</item>
+        <item>Magadan</item>
+        <item>Tongatapu</item>
+        <item>Quần đảo Midway</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>Mặc định</item>
+        <item>Tắt tiếng</item>
+        <item>Rung</item>
+        <item>Nhạc chuông</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Bản đồ</item>
+        <item>Thời tiết</item>
+        <item>Món ăn</item>
+        <item>Chuyến bay</item>
+        <item>khách sạn</item>
+    </string-array>
+    <string-array name="month_top_display">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+    <string-array name="more_menu_item">
+        <item>Chuyển sang Ngày</item>
+        <item>Danh sách chương trình làm việc</item>
+        <item>Cài đặt</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>Tháng Một</item>
+        <item>Tháng Hai</item>
+        <item>Tháng Ba</item>
+        <item>Tháng Tư</item>
+        <item>Tháng Năm</item>
+        <item>Tháng Sáu</item>
+        <item>Tháng Bảy</item>
+        <item>Tháng Tám</item>
+        <item>Tháng Chín</item>
+        <item>Tháng Mười</item>
+        <item>Tháng Mười Một</item>
+        <item>Tháng Mười Hai</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>chủ nhật</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>>Thứ sáu</item>
+        <item>ngày thứ bảy</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>chủ nhật</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Chụp ảnh</item>
+        <item>Ảnh</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhenModify">
+        <item>Luôn luôn</item>
+        <item>Không bao giờ</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day">
+        <item>Hôm nay 9:00</item>
+        <item>Một ngày trước 9:00</item>
+        <item>Hai ngày trước 9:00</item>
+        <item>Một tuần trước 9:00</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_all_day_of_birthday">
+        <item>Trống</item>
+        <item>Hôm nay 9:00</item>
+        <item>Một ngày trước 9:00</item>
+        <item>Hai ngày trước 9:00</item>
+        <item>Một tuần trước 9:00</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>Email</item>
+        <item>Bluetooth</item>
+        <item>Tin nhắn</item>
+    </string-array>
+    <string-array name="yearview_months_item">
+        <item>Tháng Một</item>
+        <item>Tháng Hai</item>
+        <item>Tháng Ba</item>
+        <item>Tháng Tư</item>
+        <item>Tháng Năm</item>
+        <item>Tháng Sáu</item>
+        <item>Tháng Bảy</item>
+        <item>Tháng Tám</item>
+        <item>Tháng Chín</item>
+        <item>Tháng Mười</item>
+        <item>Tháng Mười Một</item>
+        <item>Tháng Mười Hai</item>
+    </string-array>
+</resources>

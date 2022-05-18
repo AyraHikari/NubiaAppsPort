@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/nubia_timing_layout" android:background="@color/bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_height" android:layout_marginTop="@dimen/dimens_70"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/nubia_timing_textsize" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recording_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/recording_icon" android:background="@drawable/nubia_timing_play" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="6.0dip" android:layout_toStartOf="@id/recording_time" />
+    <LinearLayout android:id="@id/recording_max_time_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_toEndOf="@id/recording_time">
+        <TextView android:textSize="@dimen/nubia_timing_textsize" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recording_tick" />
+        <TextView android:textSize="@dimen/nubia_timing_textsize" android:textColor="#ffffffff" android:id="@id/recording_max_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recording_max" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

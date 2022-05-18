@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rootLayout" android:background="@drawable/single_edit_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:weightSum="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/replaceRelativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/replaceImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/replace" />
+        <TextView android:textColor="@android:color/black" android:id="@id/replaceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replace" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rotateRelativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/rotateImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rotate" />
+        <TextView android:textColor="@android:color/black" android:id="@id/rotateTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rotate" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mirrorRelativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/mirrorImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mirror" />
+        <TextView android:textColor="@android:color/black" android:id="@id/mirrorTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mirror" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/flipRelativeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/flipImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/flip" />
+        <TextView android:textColor="@android:color/black" android:id="@id/flipTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flip" />
+    </LinearLayout>
+</LinearLayout>

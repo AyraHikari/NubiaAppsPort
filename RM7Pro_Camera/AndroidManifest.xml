@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="com.android.camera" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="zte.com.cn.filer.permission.START_ACTIVITY"/>
+    <queries>
+        <package android:name="cn.nubia.photoeditor"/>
+    </queries>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/ic_launcher_camera" android:label="@string/app_name" android:largeHeap="true" android:logo="@mipmap/ic_launcher_camera" android:name="cn.nubia.camera.CameraApplication" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="eada67d0f5d2190687f87c055aaf3d6f"/>
+        <meta-data android:name="android.max_aspect" android:value="3"/>
+        <meta-data android:name="unique_key" android:value="100102"/>
+        <service android:name="cn.nubia.camera.videomaker.service.MakerService"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|orientation|screenSize|uiMode" android:icon="@mipmap/ic_launcher_camera" android:launchMode="singleTask" android:name="cn.nubia.camera.CameraActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:theme="@style/AppTheme" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="CAMERA_AUTO_TEST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.FORCE_TOUCH_ACTION_SELFIE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity>
+        <activity-alias android:icon="@mipmap/ic_launcher_camera" android:name="com.android.camera.CameraLauncher" android:targetActivity="cn.nubia.camera.CameraActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/force_touch_shortcuts"/>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher_camera" android:label="@string/video_record_title" android:name="com.android.camera.video" android:targetActivity="cn.nubia.camera.CameraActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.FORCE_TOUCH_ACTION_VIDEO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@mipmap/ic_launcher_camera" android:name="com.android.camera.Camera" android:targetActivity="cn.nubia.camera.CameraActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.DualCalibrationForSale"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.keyguard.layout" android:resource="@layout/keyguard_widget"/>
+        </activity-alias>
+        <activity android:name="cn.nubia.camera.specification.SpecificationActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/ThemeCamera">
+            <intent-filter>
+                <action android:name="com.android.camera.specification"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="nubia.camera.family" android:exported="true" android:name="cn.nubia.camera.camerafamily.CameraFamilyContentProvider"/>
+        <provider android:authorities="com.android.camera.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <service android:exported="true" android:foregroundServiceType="0x00000040" android:name="cn.nubia.camera.dualcameracalibration.DualCalibrationService" android:process=":remote">
+            <intent-filter>
+                <action android:name="nubia.camera.DualCameraCalibrationService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="cn.nubia.camera.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.camera.trackclinet.FirstDayBootReceiver">
+            <intent-filter>
+                <action android:name="cn.nubia.owlsystem.firstbootdayaction"/>
+            </intent-filter>
+        </receiver>
+        <service android:foregroundServiceType="0x00000048" android:name="com.android.captureCamera.CaptureCameraService" android:process=":capture"/>
+        <service android:name="com.amap.api.location.APSService"/>
+    </application>
+</manifest>

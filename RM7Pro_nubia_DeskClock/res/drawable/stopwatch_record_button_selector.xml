@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <bitmap android:src="@drawable/stopwatch_record_normal" />
+    </item>
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/stopwatch_record_pressed" android:alpha="0.3" />
+    </item>
+</selector>

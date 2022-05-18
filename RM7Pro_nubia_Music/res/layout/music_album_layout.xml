@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/ark_playpage_default_album_container_width">
+        <cn.nubia.music.ui.CircleMusicView android:layout_gravity="center" android:id="@id/surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.nubia.music.ui.GestureLayout android:gravity="center" android:layout_gravity="center" android:id="@id/album_relativelayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.nubia.music.ui.RoundImageView android:id="@id/albumframe" android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/ark_playpage_defualt_album" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </cn.nubia.music.ui.GestureLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen_144">
+        <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/black_50" android:gravity="center" android:layout_gravity="center" android:id="@id/nolyric_search" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/search_lyric" android:drawablePadding="3.0dip" android:drawableStart="@drawable/playpage_search" />
+    </FrameLayout>
+</LinearLayout>

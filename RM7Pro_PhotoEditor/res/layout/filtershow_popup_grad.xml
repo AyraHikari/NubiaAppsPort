@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/popupwindow_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/editor_panel_text_size" android:textColor="@color/hilit_color" android:gravity="center|left" android:id="@id/grad_item_brightness" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/popup_window_item_height" android:layout_marginLeft="16.0dip" android:text="@string/editor_grad_brightness" android:singleLine="true" android:textAllCaps="true" />
+    <Button android:textSize="@dimen/editor_panel_text_size" android:textColor="@color/hilit_color" android:gravity="center|left" android:id="@id/grad_item_saturation" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/popup_window_item_height" android:layout_marginLeft="16.0dip" android:text="@string/editor_grad_saturation" android:singleLine="true" android:textAllCaps="true" />
+    <Button android:textSize="@dimen/editor_panel_text_size" android:textColor="@color/hilit_color" android:gravity="center|left" android:id="@id/grad_item_contrast" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/popup_window_item_height" android:layout_marginLeft="16.0dip" android:text="@string/editor_grad_contrast" android:singleLine="true" android:textAllCaps="true" />
+</LinearLayout>

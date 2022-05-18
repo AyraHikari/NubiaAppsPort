@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/multiexposurePreviewRelativePage" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/back_fun_multi_exposure_view1" />
+    </RelativeLayout>
+    <include layout="@layout/image_slidingdrawer" />
+    <include layout="@layout/back_fun_multi_exposure_preview_frame" />
+    <include layout="@layout/back_fun_multi_exposure_bottom_bar" />
+</RelativeLayout>

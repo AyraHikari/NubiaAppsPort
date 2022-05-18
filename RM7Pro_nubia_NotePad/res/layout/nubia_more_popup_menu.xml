@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.nubia.notepad.view.RoundCornerLinearLayout android:orientation="vertical" android:id="@id/listview_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_item_image_margin" android:layout_marginStart="@dimen/list_item_image_margin" android:layout_marginEnd="@dimen/list_item_image_margin" app:cornerRadius="14.0dip" app:bgColor="@color/notepad_popupwindow_unpress">
+        <cn.nubia.notepad.view.NotepadListMoveDialogListView android:scrollbarSize="@dimen/notepad_label_popup_layout_listview_scrollbarSize" android:scrollbarThumbVertical="@drawable/popup_label_listview_scroollbar_shape" android:id="@id/label_listView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0px" android:fadeScrollbars="false" />
+        <View android:id="@id/last_horizontal_line" android:background="@color/line" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <LinearLayout android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="@dimen/popwindow_item_height">
+            <TextView android:id="@id/tv_left_title" android:background="@drawable/left_bottom_button" android:visibility="gone" android:text="@string/new_label" style="@style/NotepadLabelTextStyle" />
+            <View android:background="@color/line" android:layout_width="2.0px" android:layout_height="fill_parent" />
+            <TextView android:id="@id/tv_middle_title" android:background="@drawable/bottom_button" android:visibility="gone" android:text="@string/new_label" style="@style/NotepadLabelTextStyle" />
+            <TextView android:id="@id/tv_right_title" android:background="@drawable/right_bottom_button" android:visibility="gone" android:text="@string/edit_label" style="@style/NotepadLabelTextStyle" />
+        </LinearLayout>
+    </cn.nubia.notepad.view.RoundCornerLinearLayout>
+</LinearLayout>

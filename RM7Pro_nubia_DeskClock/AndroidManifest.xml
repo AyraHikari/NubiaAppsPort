@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cn.nubia.deskclock.preset" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DISABLE_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="org.codeaurora.permission.POWER_OFF_ALARM"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application android:allowBackup="false" android:icon="@mipmap/ic_launcher_alarmclock" android:label="@string/app_label" android:name="cn.nubia.deskclock.DeskClockApplication" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.DeskClock">
+        <meta-data android:name="UMENG_APPKEY" android:value="578894dfe0f55a1bcd000014"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="nubia_deskclock"/>
+        <meta-data android:name="android.max_aspect" android:value="3.0"/>
+        <provider android:authorities="cn.nubia.deskclock.preset.RunningStatusProvider" android:exported="false" android:name="cn.nubia.deskclock.RunningStatusProvider"/>
+        <provider android:authorities="cn.nubia.deskclock" android:directBootAware="true" android:exported="true" android:name="cn.nubia.deskclock.database.AlarmProvider"/>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="orientation|screenSize" android:directBootAware="true" android:label="@string/app_label" android:launchMode="singleTask" android:name="cn.nubia.deskclock.DeskClock" android:screenOrientation="portrait" android:theme="@style/DeskClockTheme">
+            <meta-data android:name="android.support.UI_OPTIONS" android:value="splitActionBarWhenNarrow"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="cn.nubia.intent.action.NUBIA.TIMEMANAGER"/>
+                <action android:name="cn.nubia.launcher.forcetouch"/>
+                <action android:name="cn.nubia.assistant.NEW_STOPWATCH"/>
+                <action android:name="cn.nubia.assistant.NEW_COUNTDOWN"/>
+                <action android:name="cn.nubia.assistant.NEW_WORLDTIME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="cn.nubia.deskclock.NEW_COUNTDOWN"/>
+                <category android:name="cn.nubia.deskclock.PAUSE_COUNTDOWN"/>
+                <category android:name="cn.nubia.deskclock.RESUME_COUNTDOWN"/>
+                <category android:name="cn.nubia.deskclock.NEW_STOPWATCH"/>
+                <category android:name="cn.nubia.deskclock.PAUSE_STOPWATCH"/>
+                <category android:name="cn.nubia.deskclock.RESUME_STOPWATCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="cn.nubia.deskclock.activity.CountdownAlertActivity" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/AlarmAlertFullScreenTheme"/>
+        <receiver android:exported="false" android:name="cn.nubia.deskclock.CountdownBroadCastReceiver">
+            <intent-filter>
+                <action android:name="com.nubia.deskclock.countdown.action.COUNTDOWN_CLOSE_ACTION_NOT_SHOW_NOTIFICATION"/>
+                <action android:name="com.nubia.deskclock.countdown.action.COUNTDOWN_ACTION"/>
+                <action android:name="com.nubia.deskclock.countdown.action.COUNTDOWN_CLOSE_ACTION"/>
+                <action android:name="com.nubia.deskclock.countdown.action.COUNTDOWN_RESET_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="cn.nubia.deskclock.CountDownRingService">
+            <intent-filter>
+                <action android:name="com.android.deskclock.TIMER_ALERT"/>
+            </intent-filter>
+        </service>
+        <activity android:excludeFromRecents="true" android:label="@string/cities_activity_title" android:name="cn.nubia.deskclock.activity.NewCitiesActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/NewCitiesActivity.Theme" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="add_city_form_widget"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="@string/alarm_repeat" android:name="cn.nubia.deskclock.ui.WeekSelectActivity" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/WeekSelectActivity.Theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/alarm_clock_settings" android:name="cn.nubia.deskclock.activity.AlarmSettings" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/AlarmSettings.Theme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:directBootAware="true" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="cn.nubia.deskclock.activity.AlarmAlertFullScreen" android:screenOrientation="portrait" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@style/AlarmAlertFullScreenTheme"/>
+        <receiver android:directBootAware="true" android:exported="false" android:name="cn.nubia.deskclock.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.nubia.deskclock.ALARM_ALERT"/>
+                <action android:name="cancel_snooze"/>
+                <action android:name="test_restart"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="cn.nubia.deskclock.AlarmIntentService"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="cn.nubia.deskclock.activity.HandleSetAlarm" android:permission="com.android.alarm.permission.SET_ALARM" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM"/>
+                <action android:name="android.intent.action.SET_TIMER"/>
+                <action android:name="android.intent.action.SNOOZE_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_TIMERS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DISMISS_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+        </activity>
+        <service android:description="@string/alarm_klaxon_service_desc" android:directBootAware="true" android:exported="false" android:name="cn.nubia.deskclock.AlarmKlaxon"/>
+        <receiver android:directBootAware="true" android:name="cn.nubia.deskclock.AlarmInitReceiver">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="cn.nubia.deskclock.activity.AddAlarmActivity" android:screenOrientation="portrait" android:theme="@style/AddAlarmActivity.Theme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="cn.nubia.deskclock.ADDALARM"/>
+            </intent-filter>
+        </activity>
+        <service android:description="@string/action_bar_timer" android:exported="false" android:name="cn.nubia.deskclock.CountDownService"/>
+        <service android:name="cn.nubia.databackup.newsolution.aidl.DataBackupService">
+            <intent-filter>
+                <action android:name="cn.nubia.backup.action.Engine"/>
+            </intent-filter>
+        </service>
+        <receiver android:label="@string/forcetouch_widget" android:name="cn.nubia.deskclock.ForceTouchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"/>
+                <action android:name="cn.nubia.deskclock.preset.metachanged"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/forcetouch_widget"/>
+        </receiver>
+        <receiver android:name="cn.nubia.deskclock.ClockBackupReceiver">
+            <intent-filter>
+                <action android:name="com.nubia.deskclock.REFRESH_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="cn.nubia.deskclock.preset.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:exported="true" android:name="cn.nubia.deskclock.controldatabase.aidl.ManagerAlarmDatabaseService">
+            <action android:name="cn.nubia.deskclock.action.Engine"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="cn.nubia.deskclock.AlarmJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+    </application>
+</manifest>

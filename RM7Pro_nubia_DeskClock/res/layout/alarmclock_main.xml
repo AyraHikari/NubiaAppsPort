@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/clock_background_x" android:layout_height="@dimen/clock_background_y"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/alarm_title" android:text="@string/action_bar_alarm" style="@style/main_title_style" />
+    <TextView android:id="@id/clock_date" style="@style/clock_date_style" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/setting_image" android:background="@drawable/setting_selector" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clock_main_setting_image_margin_top" android:layout_marginEnd="@dimen/vertical_list_view_margin" />
+    <cn.nubia.deskclock.ui.AlphaFrameLayoutView android:id="@id/alarm_rl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.nubia.deskclock.ui.AlarmClockView android:id="@id/alarm_clock_view" android:layout_width="@dimen/main_dial_bitmap_width_height" android:layout_height="@dimen/main_dial_bitmap_width_height" android:layout_marginTop="@dimen/clock_deviation_y" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/clock_deviation_x" />
+    </cn.nubia.deskclock.ui.AlphaFrameLayoutView>
+    <cn.nubia.deskclock.ui.NubiaDigitalClock android:gravity="start" android:orientation="vertical" android:id="@id/clockFrame" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/digital_time_margin_top" android:layout_marginStart="@dimen/vertical_list_view_margin">
+        <TextView android:ellipsize="none" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/z7_digital_time_view" />
+    </cn.nubia.deskclock.ui.NubiaDigitalClock>
+</FrameLayout>

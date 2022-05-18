@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formula_max_textsize_split">26.0sp</dimen>
+    <dimen name="formula_min_textsize_split">26.0sp</dimen>
+    <dimen name="formula_padding_end">16.0dip</dimen>
+    <dimen name="formula_padding_top">0.0dip</dimen>
+    <item type="dimen" name="numeric_column_weight">1.35</item>
+    <dimen name="numeric_text_size_split">26.0sp</dimen>
+    <dimen name="result_padding_end">16.0dip</dimen>
+    <dimen name="result_textsize_split">21.0sp</dimen>
+    <dimen name="ripple_background_radius">18.0dip</dimen>
+</resources>

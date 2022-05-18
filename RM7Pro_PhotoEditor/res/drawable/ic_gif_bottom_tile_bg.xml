@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="left" android:src="@drawable/ic_git_bottom_bg" android:antialias="true" android:filter="false" android:dither="false" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

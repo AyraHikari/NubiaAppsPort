@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/album_remove" android:title="" />
+    <item android:id="@id/album_playslide" android:title="" />
+    <item android:id="@id/album_animationbuild" android:title="" />
+    <item android:id="@id/album_bulkediting" android:title="" />
+    <item android:id="@id/album_addto" android:title="" />
+</menu>

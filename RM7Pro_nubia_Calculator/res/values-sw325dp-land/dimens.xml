@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="advanced_pad_pi_size">20.0dip</dimen>
+    <dimen name="formula_padding_end">17.5dip</dimen>
+    <item type="dimen" name="numeric_column_weight">0.0</item>
+    <dimen name="result_padding_end">17.5dip</dimen>
+</resources>

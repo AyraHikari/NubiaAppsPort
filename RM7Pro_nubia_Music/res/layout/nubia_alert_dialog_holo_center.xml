@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.commonui.widget.DialogCenterLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/nubia_parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="46.0dip" android:layout_marginRight="46.0dip" app:maxHeightRatio="0.475"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/nubia_animPanel" android:background="@drawable/nubia_dialog_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/nubia_pcenterPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nubia_center_dialog_vertical_margin" android:layout_marginBottom="4.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:paddingEnd="0.0dip" />
+                        <com.android.internal.widget.DialogTitle android:textSize="@dimen/nubia_text_size_medium_no_change" android:textColor="#ee000000" android:gravity="center" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:layout_marginStart="@dimen/nubia_center_dialog_horizontal_margin" android:layout_marginEnd="@dimen/nubia_center_dialog_horizontal_margin" style="@style/NubiaFontMedium" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:id="@id/nubia_center_title_content_divider" android:background="?throughDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ScrollView android:id="@id/scrollView" android:paddingTop="0.0dip" android:paddingBottom="@dimen/nubia_center_dialog_vertical_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/nubia_dialog_title_text_size" android:textColor="@color/nubia_dialog_title_text_color" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/nubia_center_dialog_horizontal_margin" android:layout_marginEnd="@dimen/nubia_center_dialog_horizontal_margin" />
+                    </ScrollView>
+                </LinearLayout>
+                <FrameLayout android:id="@id/customPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+                    <FrameLayout android:id="@id/custom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:background="?throughDivider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_alert_dialog_button_layout_height">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureWithLargestChild="true">
+                    <Button android:layout_gravity="start" android:id="@id/button2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Nubia.Button.AlertDialogBorderlessButton.Center" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/button3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Nubia.Button.AlertDialogBorderlessButton.Center" />
+                    <Button android:layout_gravity="end" android:id="@id/button1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Nubia.Button.AlertDialogBorderlessButton.Center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</cn.nubia.commonui.widget.DialogCenterLinearLayout>

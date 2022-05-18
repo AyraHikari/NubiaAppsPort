@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/back_fun_light_draw_preview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tripod_tip_layout" />
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <include layout="@layout/delayshot" />
+    </RelativeLayout>
+    <ImageView android:id="@id/light_draw_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffff0000" android:gravity="center" android:id="@id/num_stored" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/topbar_height" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffff0000" android:gravity="center" android:id="@id/num_wanted" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/topbar_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffff0000" android:gravity="center" android:id="@id/text_iso" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/topbar_height" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    <SeekBar android:id="@id/siso_seekbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_20" android:layout_marginBottom="@dimen/bottombar_height" android:max="99" android:progress="5" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <SeekBar android:id="@id/want_taken_seekbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_20" android:max="200" android:progress="0" android:layout_above="@id/siso_seekbar" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/light_step_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottombar_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/light_step_title" android:background="@drawable/nubia_white_dialog_bg" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_30" android:layout_marginBottom="@dimen/dimens_8" android:layout_centerHorizontal="true" android:paddingStart="@dimen/dimens_14" android:paddingEnd="@dimen/dimens_14">
+            <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pref_camera_light_draw_title" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_arrow_down" android:layout_marginStart="@dimen/dimens_6" android:layout_alignParentStart="true" />
+        </LinearLayout>
+        <cn.nubia.camera.lightpainting.LightStepSeekBar android:id="@id/light_step_seekbar" android:background="@color/bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_66" />
+    </LinearLayout>
+</RelativeLayout>

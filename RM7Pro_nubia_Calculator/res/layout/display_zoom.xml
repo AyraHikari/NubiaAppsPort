@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/backgroundcolor" android:paddingTop="20.0dip" android:layout_width="fill_parent" style="@style/DisplayLayoutStyleZoom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calculator2.CalculatorDisplay android:orientation="vertical" android:id="@id/display" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar" />
+        <com.android.calculator2.CalculatorScrollView android:id="@id/formula_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <com.android.calculator2.CalculatorFormula android:textColor="@color/display_formula_text_color_zoom" android:ellipsize="none" android:id="@id/formula" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:inputType="textNoSuggestions" android:textIsSelectable="true" style="@style/DisplayTextStyle.FormulaZoom" />
+        </com.android.calculator2.CalculatorScrollView>
+        <com.android.calculator2.CalculatorResult android:textColor="@color/display_result_text_color" android:id="@id/result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:singleLine="true" style="@style/DisplayTextStyle.ResultZoom" />
+    </com.android.calculator2.CalculatorDisplay>
+    <View android:background="@color/pad_numeric_background_color" android:layout_width="fill_parent" android:layout_height="0.25dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

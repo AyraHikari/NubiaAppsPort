@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/editor_curves_panel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/adjust_curve_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.android.gallery3d.filtershow.editors.CurvesTextColorPickerView android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/text_color_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

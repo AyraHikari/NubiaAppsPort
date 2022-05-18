@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?alertDialogTitleTextAppearance" android:ellipsize="end" android:gravity="center" android:id="@id/custom_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:actionBarSize" android:singleLine="true" style="?android:attr/windowTitleStyle" />
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="35.0dip">
+                <cn.nubia.calendar.ui_component.view.WheelView android:id="@id/month_day_spinner" android:layout_width="110.0dip" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.nubia.calendar.ui_component.view.WheelView android:id="@id/hour_spinner" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calendar_time_hour" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="35.0dip">
+                <cn.nubia.calendar.ui_component.view.WheelView android:id="@id/minute_spinner" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+                <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calendar_time_minute" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@color/text_color_white_19" android:paddingTop="@dimen/nubia_wheel_textview_padding_top" android:layout_width="fill_parent" android:layout_height="41.0dip" />
+    </FrameLayout>
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/lunarTime_layout" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="?android:textColorPrimary" android:id="@id/lunar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="53.0px" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <cn.nubia.calendar.ui_component.view.NubiaSwitch android:id="@id/nubia_switchWidget" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0px" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</LinearLayout>

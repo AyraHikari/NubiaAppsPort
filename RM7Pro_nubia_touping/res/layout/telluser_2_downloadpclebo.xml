@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_bg" android:background="@drawable/dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/textColorPrimary" android:gravity="center" android:id="@id/nubia_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/tell2download_nubiapc_title" android:lineSpacingExtra="2.0dip" />
+    <cn.nubia.touping.View.CtaScrollView android:scrollbarThumbVertical="@drawable/nubia_scroll_view_thumb_vertical" android:id="@id/cta_text_content" android:paddingTop="0.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/textColor2nd" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tell2download_nubiapc_content" android:lineHeight="19.0sp" />
+        </LinearLayout>
+    </cn.nubia.touping.View.CtaScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <Button android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:layout_gravity="center" android:id="@id/nubia_positive_bn" android:background="@drawable/nubia_btn_default_material" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/tell2download_lebopc_btn" />
+    </LinearLayout>
+</LinearLayout>

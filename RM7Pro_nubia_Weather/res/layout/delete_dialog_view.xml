@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0sp" android:textColor="@color/red_delete_button" android:gravity="center" android:id="@id/confirm_delete" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/city_list_delete_item_alert_message" android:fontFamily="sans-serif" style="@style/Widget.Nubia.Button.AlertDialogBorderlessButton" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.calendar.settings.CalendarReminderTypePreference android:layout="?android:preferenceLayoutChild" android:title="@string/NO_REMINDER" android:key="preference_no_reminder" android:widgetLayout="@layout/remindertype_preference_view" />
+    <cn.nubia.calendar.settings.CalendarReminderTypePreference android:layout="?android:preferenceLayoutChild" android:title="@string/NOTIFICATION_REMINDER" android:key="preference_notification_reminder" android:widgetLayout="@layout/remindertype_preference_view" />
+    <ListPreference android:entries="@array/prefEntries_alerts_vibrateWhen" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_vibrateWhen_title" android:key="preferences_alerts_vibrateWhen" android:defaultValue="@string/prefDefault_alerts_vibrateWhen" android:dialogTitle="@string/prefDialogTitle_vibrateWhen" android:entryValues="@array/prefValues_alerts_vibrateWhen" />
+    <cn.nubia.calendar.settings.CalendarReminderTypePreference android:layout="?android:preferenceLayoutChild" android:title="@string/POPUP_REMINDER" android:key="preferences_pop_reminder" android:widgetLayout="@layout/remindertype_preference_view" />
+    <cn.nubia.calendar.settings.CalendarReminderTypePreference android:layout="?android:preferenceLayoutChild" android:title="@string/ALARM_REMINDER" android:key="preferences_alarm_reminder" android:widgetLayout="@layout/remindertype_preference_view" />
+    <cn.nubia.calendar.CalendarRingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+</PreferenceScreen>

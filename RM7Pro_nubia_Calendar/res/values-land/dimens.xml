@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_date_text_size">18.0sp</dimen>
+    <dimen name="min_height">126.0px</dimen>
+    <dimen name="nubia_action_menu_text_size">28.0px</dimen>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="nubia_action_bar_menu_size">36.0dip</dimen>
+    <dimen name="nubia_res_action_bar_menu_default_height">45.0dip</dimen>
+    <dimen name="nubia_tab_margin">16.0dip</dimen>
+    <dimen name="scroll_bottom">230.0dip</dimen>
+    <dimen name="scroll_up">150.0dip</dimen>
+</resources>

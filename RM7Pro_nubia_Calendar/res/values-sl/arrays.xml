@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Zasedeno</item>
+        <item>Na voljo</item>
+        <item>Začasno</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dan</item>
+        <item>Teden</item>
+        <item>Mesec</item>
+        <item>Dnevni red</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Samo ta dogodek</item>
+        <item>Vsi dogodki v nizu</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Samo ta dogodek</item>
+        <item>Ta in prihodnji dogodki</item>
+        <item>Vsi dogodki</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Ti in prihodnji dogodki</item>
+        <item>Vsi dogodki</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>prvi</item>
+        <item>sekunda</item>
+        <item>tretji</item>
+        <item>četrti</item>
+        <item>zadnji</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Vedno</item>
+        <item>Samo v tihem načinu</item>
+        <item>Nikoli</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Brez</item>
+        <item>0 minut</item>
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 ura</item>
+        <item>2 uri</item>
+        <item>3 ure</item>
+        <item>12 ur</item>
+        <item>24 ur</item>
+        <item>2 dneva</item>
+        <item>1 teden</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Privzete obm. nast.</item>
+        <item>Sobota</item>
+        <item>Nedelja</item>
+        <item>Ponedeljek</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Zamujam za nekaj minut.</item>
+        <item>Se vidimo čez 10 minut.</item>
+        <item>Odpravite se in začnite brez mene.</item>
+        <item>Oprostite, ne utegnem. Dogovor velja za drugič.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Obvestilo</item>
+        <item>E-pošta</item>
+        <item>SMS</item>
+        <item>Alarm</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minut</item>
+        <item>1 minuta</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>25 minut</item>
+        <item>30 minut</item>
+        <item>45 minut</item>
+        <item>1 ura</item>
+        <item>2 uri</item>
+        <item>3 ure</item>
+        <item>12 ur</item>
+        <item>24 ur</item>
+        <item>2 dni</item>
+        <item>1 teden</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Ni odgovora</item>
+        <item>Da</item>
+        <item>Morda</item>
+        <item>Ne</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshallovi otoki</item>
+        <item>Otok Midway</item>
+        <item>Havaji</item>
+        <item>Aljaska</item>
+        <item>Tihooceanski čas</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Gorski čas</item>
+        <item>Srednja Amerika</item>
+        <item>Osrednji čas</item>
+        <item>Ciudad Mexico</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Vzhodni čas</item>
+        <item>Venezuela</item>
+        <item>Atlantski čas (Barbados)</item>
+        <item>Atlantski čas (Kanada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Nova Fundlandija</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grenlandija</item>
+        <item>Montevideo</item>
+        <item>Srednjeatlantski</item>
+        <item>Azori</item>
+        <item>Zelenortski otoki</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Bruselj</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Zahodnoafriški čas</item>
+        <item>Aman, Jordanija</item>
+        <item>Atene, Istanbul</item>
+        <item>Bejrut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jeruzalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuvajt</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Erevan</item>
+        <item>Dubaj</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karači</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Šrilanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Jangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Tajpej</item>
+        <item>Seul</item>
+        <item>Tokio, Osaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Privzeto</item>
+        <item>Zasebno</item>
+        <item>Javno</item>
+    </string-array>
+</resources>

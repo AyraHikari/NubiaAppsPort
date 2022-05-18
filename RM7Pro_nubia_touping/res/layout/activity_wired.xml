@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/textColorPrimary" android:gravity="center_vertical" android:id="@id/wired_back" android:layout_width="wrap_content" android:layout_height="64.0dip" android:text="@string/wired_screen_projection" android:drawablePadding="2.0dip" android:drawableStart="@drawable/scan_back" android:layout_marginStart="14.0dip" />
+    <ImageView android:id="@id/imageViewShowHZ" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wired_pic" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/textColorPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/testViewShowHZ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="27.0dip" android:text="@string/wired_tips" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/wired_private_mode" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <cn.nubia.touping.View.NubiaSwitch android:id="@id/wired_private_mode_switcher" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/NubiaSwitch" />
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/wired_private_mode_switcher">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_title" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/textColor2nd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_private_mode_tips_wired" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/limitFPS60_mode" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <cn.nubia.touping.View.NubiaSwitch android:id="@id/limiteFPS60" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/NubiaSwitch" />
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/limiteFPS60">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:gravity="center|left" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="帧率限制60HZ" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/wired_show_fps" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <cn.nubia.touping.View.NubiaSwitch android:id="@id/wired_show_fps_switcher" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/NubiaSwitch" />
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/wired_show_fps_switcher">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_show_fps_title" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/textColor2nd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/wired_show_fps_tips" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/wired_sound_output" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <cn.nubia.touping.View.NubiaSwitch android:id="@id/wired_sound_output_switcher" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/NubiaSwitch" />
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/wired_sound_output_switcher">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/setting_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_sound_output_title" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/setting_text_sub_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/wired_sound_output_tips" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/wired_screen_orientation" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/setting_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_screen_orientation_title" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/setting_text_sub_color" android:gravity="center" android:id="@id/wired_screen_orientation_jump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:drawableEnd="@drawable/jump" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/wired_hdmi_mode" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+                <ImageView android:id="@id/wired_hdmi_mode_jump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jump" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_toStartOf="@id/wired_hdmi_mode_jump">
+                    <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/setting_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wired_hdmi_mode_title" />
+                    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/setting_text_sub_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/wired_hdmi_mode_tips" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

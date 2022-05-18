@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/appupdate_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/appupdate_update_notification" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#b3000000" android:id="@id/version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/appupdate_update_version" style="?android:textAppearanceMedium" />
+            <TextView android:textSize="14.0sp" android:textColor="#b3000000" android:id="@id/size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/appupdate_update_size" style="?android:textAppearanceMedium" />
+            <TextView android:textSize="14.0sp" android:textColor="#b3000000" android:id="@id/msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="28.0dip" android:text="@string/appupdate_update_msg" style="?android:textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="#32000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip" android:measureWithLargestChild="true">
+        <Button android:textSize="16.0dip" android:layout_gravity="center_horizontal" android:id="@id/btn_no" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/appupdate_later" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Nubia.Button.Color1" />
+        <View android:background="#32000000" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="16.0dip" android:layout_gravity="start" android:id="@id/btn_yes" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/appupdate_update" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Nubia.Button.Color1" />
+    </LinearLayout>
+</LinearLayout>

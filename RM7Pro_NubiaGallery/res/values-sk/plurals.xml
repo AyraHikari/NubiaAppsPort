@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Odstrániť vybraté položky?</item>
+        <item quantity="one">Odstrániť vybratú položku?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Sprístupňovanie albumov v režime offline.</item>
+        <item quantity="one">Sprístupňovanie albumu v režime offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Počet vybratých albumov: %1$d</item>
+        <item quantity="zero">Počet vybratých albumov: %1$d</item>
+        <item quantity="one">Počet vybratých albumov: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Počet vybratých skupín: %1$d</item>
+        <item quantity="zero">Počet vybratých skupín: %1$d</item>
+        <item quantity="one">Počet vybratých skupín: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Počet vybratých položiek: %1$d</item>
+        <item quantity="zero">Počet vybratých položiek: %1$d</item>
+        <item quantity="one">Počet vybratých položiek: %1$d</item>
+    </plurals>
+</resources>

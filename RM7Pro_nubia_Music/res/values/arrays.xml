@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Turn off Countdown Timer</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>60 Minutes</item>
+        <item>90 Minutes</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Xiami Hot songs</item>
+        <item>Classics</item>
+        <item>Latest</item>
+        <item>English songs</item>
+        <item>Tempo music</item>
+        <item>Chinese POP music</item>
+        <item>Sleep music</item>
+        <item>Cantonese old songs</item>
+        <item>Soft music</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Xiami Music List</item>
+        <item>Xiami New Songs List</item>
+        <item>Xiami Original Songs List</item>
+        <item>Oricon Songs List</item>
+        <item>Hong Kong Songs List</item>
+        <item>Billboard Songs List</item>
+        <item>HITO Chinese Songs List</item>
+        <item>M-net Week List</item>
+        <item>UK songs list</item>
+    </string-array>
+    <string-array name="content_str_select_quality_normal">
+        <item>Standard Quality</item>
+        <item>High Quality</item>
+    </string-array>
+    <string-array name="content_str_select_quility">
+        <item>Standard Quality</item>
+        <item>High Quality</item>
+        <item>Lossless Quality</item>
+    </string-array>
+    <string-array name="nubia_months_full">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="nubia_months_short">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nove</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="nubia_weeks_full">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="nubia_weeks_short">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <string-array name="ark_playpage_more">
+        <item>@string/ark_playpage_more_endtime_close</item>
+        <item>@string/add_to_playlist</item>
+        <item>@string/ark_playpage_more_set_tone</item>
+        <item>@string/ark_playpage_more_music_info</item>
+        <item>@string/play_manager</item>
+        <item>@string/ark_playpage_more_delete</item>
+    </string-array>
+    <string-array name="ark_playpage_more_inter">
+        <item>@string/ark_playpage_more_endtime_close</item>
+        <item>@string/add_to_playlist</item>
+        <item>@string/ark_playpage_more_set_tone</item>
+        <item>@string/ark_playpage_more_music_info</item>
+        <item>@string/play_manager</item>
+        <item>@string/ark_playpage_more_delete</item>
+    </string-array>
+    <string-array name="ark_playpage_more_online">
+        <item>@string/ark_playpage_more_endtime_close</item>
+        <item>@string/add_to_playlist</item>
+        <item>@string/ark_playpage_more_set_tone</item>
+        <item>@string/ark_playpage_more_soundeffect</item>
+        <item>@string/ark_playpage_more_download</item>
+        <item>@string/ark_playpage_more_music_info</item>
+        <item>@string/play_manager</item>
+    </string-array>
+    <string-array name="ark_playpage_more_radio">
+        <item>@string/ark_playpage_more_endtime_close</item>
+        <item>@string/add_to_playlist</item>
+        <item>@string/ark_playpage_more_set_tone</item>
+        <item>@string/ark_playpage_more_soundeffect</item>
+        <item>@string/ark_playpage_more_download</item>
+        <item>@string/ark_playpage_more_music_info</item>
+    </string-array>
+    <string-array name="color_array">
+        <item>\#ff191507</item>
+        <item>\#ff071406</item>
+        <item>\#ff001319</item>
+        <item>\#ff0c0519</item>
+        <item>\#ff190808</item>
+    </string-array>
+    <string-array name="local_menu_artist_list">
+        <item>@string/scan_local_songs</item>
+        <item>@string/action_settings</item>
+    </string-array>
+    <string-array name="local_menu_music_list">
+        <item>@string/sort_music_letter</item>
+        <item>@string/scan_local_songs</item>
+        <item>@string/action_settings</item>
+    </string-array>
+    <string-array name="menu_add_playlist">
+        <item>@string/more_addtoplaylist</item>
+    </string-array>
+    <string-array name="menu_add_playlist_img">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/more_changealbum</item>
+    </string-array>
+    <string-array name="menu_album_detail">
+        <item>@string/more_addtoplaylist</item>
+    </string-array>
+    <string-array name="menu_artist_detail">
+        <item>@string/more_addtoplaylist</item>
+    </string-array>
+    <string-array name="menu_delete_bottommore">
+        <item>@string/delete_item</item>
+    </string-array>
+    <string-array name="menu_local_nodata_playlist">
+        <item>@string/add_music</item>
+        <item>@string/rename_playlist_menu</item>
+        <item>@string/delete_item</item>
+    </string-array>
+    <string-array name="menu_local_playlist">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/add_music</item>
+        <item>@string/rename_playlist_menu</item>
+        <item>@string/delete_item</item>
+    </string-array>
+    <string-array name="menu_local_playlist_img">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/add_music</item>
+        <item>@string/rename_playlist_menu</item>
+        <item>@string/more_changealbum</item>
+        <item>@string/delete_item</item>
+    </string-array>
+    <string-array name="menu_localmusic_bottommore">
+        <item>@string/delete_item</item>
+        <item>@string/ark_playpage_more_set_tone</item>
+    </string-array>
+    <string-array name="menu_localmusic_bottommore_hasdownload">
+        <item>@string/download_whole_song</item>
+        <item>@string/add_to_playlist</item>
+    </string-array>
+    <string-array name="menu_music_list">
+        <item>@string/sort_music_letter</item>
+        <item>@string/scan_local_songs</item>
+    </string-array>
+    <string-array name="menu_online_album">
+        <item>@string/ark_playpage_more_share</item>
+    </string-array>
+    <string-array name="menu_online_playlist">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/ark_playpage_more_share</item>
+        <item>@string/download_playlist</item>
+    </string-array>
+    <string-array name="menu_online_playlist_img">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/ark_playpage_more_share</item>
+        <item>@string/download_playlist</item>
+        <item>@string/more_changealbum</item>
+    </string-array>
+    <string-array name="menu_online_playlist_noshare">
+        <item>@string/more_addtoplaylist</item>
+        <item>@string/download_playlist</item>
+    </string-array>
+    <string-array name="menu_onlinemusic_bottommore">
+        <item>@string/download_whole_song</item>
+        <item>@string/share</item>
+    </string-array>
+    <string-array name="more_activity">
+        <item>@string/scan_music</item>
+        <item>@string/scan_setting</item>
+        <item>@string/about_app</item>
+        <item>@string/check_version</item>
+        <item>@string/quit</item>
+    </string-array>
+    <string-array name="selece_song_quality_size_description">
+        <item>@string/down_load_content_normal</item>
+        <item>@string/down_load_content_high</item>
+        <item>@string/down_load_content_s</item>
+    </string-array>
+    <string-array name="selece_song_quality_vip_size_description">
+        <item>@string/down_load_content_normal</item>
+        <item>@string/down_load_content_high</item>
+        <item>@string/down_load_content_s</item>
+    </string-array>
+</resources>

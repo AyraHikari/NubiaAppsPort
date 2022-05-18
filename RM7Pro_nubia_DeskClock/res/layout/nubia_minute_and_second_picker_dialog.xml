@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/nubia_parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="14.0dip" android:textColor="@color/new_countdown_title_color" android:ellipsize="end" android:gravity="center" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/new_countdown_text" android:singleLine="true" />
+    <View android:background="@color/new_countdown_dialog_driver_color" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <cn.nubia.deskclock.ui.MinuteAndSecondPickerView android:layout_gravity="center_horizontal" android:id="@id/nubia_minuteAndSecondPickerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+</LinearLayout>

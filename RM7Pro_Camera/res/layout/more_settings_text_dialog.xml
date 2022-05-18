@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/text_dialog_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/expand_dialog_layout" android:background="@drawable/top_corner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/title_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dimens_14" android:textColor="@color/text_input_dialog_title_text_color" android:gravity="center" android:id="@id/title_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_18" android:layout_marginBottom="@dimen/dimens_15" android:layout_marginStart="@dimen/dimens_32" android:layout_marginEnd="@dimen/dimens_32" />
+                <View android:background="@color/settings_splitting_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+            <RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_56" android:layout_marginStart="@dimen/dimens_20" android:layout_marginEnd="@dimen/dimens_20">
+                <EditText android:textSize="@dimen/dimen_sp_15" android:textColor="@color/settings_main_text_color" android:textColorHint="@color/text_hint_color" android:id="@id/editor_id" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerVertical="true" android:inputType="textVisiblePassword" android:textSelectHandleLeft="@drawable/nubia_text_select_handle_left" android:textSelectHandleRight="@drawable/nubia_text_select_handle_right" android:textSelectHandle="@drawable/nubia_text_select_handle_middle" android:textCursorDrawable="@drawable/nubia_text_cursor" android:textDirection="locale" android:textAlignment="viewStart" />
+                <ImageView android:id="@id/clear_all_btn" android:background="@drawable/clear_all_btn_bg" android:layout_width="@dimen/dimens_24" android:layout_height="@dimen/dimens_24" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_70" android:layout_marginBottom="@dimen/dimens_8">
+            <TextView android:textSize="@dimen/dimen_sp_15" android:textColor="@color/settings_list_text_color" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/text_white_bg" android:layout_width="@dimen/dimens_150" android:layout_height="@dimen/dimens_40" android:text="@string/cancel" android:includeFontPadding="false" android:fontFamily="nubiafont-medium" android:layout_marginStart="@dimen/dimens_10" android:layout_marginEnd="@dimen/dimens_10" />
+            <TextView android:textSize="@dimen/dimen_sp_15" android:textColor="@color/settings_list_text_color" android:gravity="center" android:id="@id/confirm_btn" android:background="@drawable/text_white_bg" android:layout_width="@dimen/dimens_150" android:layout_height="@dimen/dimens_40" android:text="@string/confirm" android:includeFontPadding="false" android:fontFamily="nubiafont-medium" android:layout_marginStart="@dimen/dimens_10" android:layout_marginEnd="@dimen/dimens_10" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

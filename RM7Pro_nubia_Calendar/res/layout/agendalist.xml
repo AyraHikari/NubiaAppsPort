@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@color/bottom_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_button_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/Atoday_menu_land" android:layout_width="@dimen/bottom_button_parent_width" android:layout_height="fill_parent" android:onClick="onClick">
+            <TextView android:textSize="17.0dip" android:textColor="@color/nubia_action_menu_item_text_material_light" android:id="@id/today_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/nubia_text_size_extrasmall" android:textColor="@color/nubia_action_menu_item_text_material_light" android:id="@id/today_menu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_bar_drawable_padding" android:text="@string/menu_today" android:maxLines="1" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="@dimen/bottom_button_parent_width" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/nubia_text_size_extrasmall" android:textColor="@color/nubia_action_menu_item_text_material_light" android:gravity="center" android:id="@id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" android:maxLines="1" android:drawableTop="@drawable/menu_search" android:drawablePadding="@dimen/bottom_bar_drawable_padding" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_layout" android:background="@color/nubia_status_bar_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_search_view_layout_height" android:layout_alignParentBottom="true">
+        <cn.nubia.commonui.widget.NubiaSearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textFilter" android:iconifiedByDefault="false" />
+    </LinearLayout>
+    <include android:id="@id/agenda_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_bar" android:layout_alignParentTop="true" layout="@layout/agenda_fragment" />
+</RelativeLayout>

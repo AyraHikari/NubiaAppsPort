@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Fermer</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+        <item>90 minutes</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Chansons populaires Xiami</item>
+        <item>Classiques</item>
+        <item>Dernières</item>
+        <item>Chansons en anglais</item>
+        <item>Musique à tempo</item>
+        <item>Musique pop chinoise</item>
+        <item>Musique du sommeil</item>
+        <item>Chansons anciennes en cantonnais</item>
+        <item>Musique douce</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Liste de musique Xiami</item>
+        <item>Liste de nouvelle chansons Xiami</item>
+        <item>Liste de chansons originales Xiami</item>
+        <item>Liste de chansons Oricon</item>
+        <item>Liste de chansons Hong Kong</item>
+        <item>Liste de chansons Billboard</item>
+        <item>Liste de chansons chinoises HITO</item>
+        <item>Liste de la Semaine M-net</item>
+        <item>Liste des chansons UK</item>
+    </string-array>
+</resources>

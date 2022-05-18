@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d Stunden</item>
+        <item quantity="one">1 Stunde</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d Minuten</item>
+        <item quantity="one">1 Minute</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="one">1 Sekunde</item>
+    </plurals>
+    <plurals name="alarm_delete_confirmation">
+        <item quantity="other">Ausgewählte Weckzeiten löschen?</item>
+        <item quantity="one">Ausgewählte Weckzeit löschen?</item>
+    </plurals>
+    <plurals name="timers_num">
+        <item quantity="other">%d Timer</item>
+        <item quantity="one">1 Minute</item>
+    </plurals>
+</resources>

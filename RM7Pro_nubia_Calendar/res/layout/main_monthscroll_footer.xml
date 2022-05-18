@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/countDown" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.nubia.SportsGameEvents.SportsDefView.ExtendListView android:id="@id/footsListView" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/sports_list_selected_line" android:cacheColorHint="@color/sports_list_selected_line" android:divider="@drawable/list_divider" android:dividerHeight="0.0dip" />
+</LinearLayout>

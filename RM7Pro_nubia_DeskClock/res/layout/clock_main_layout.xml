@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_layout" android:background="@color/main_layout_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.deskclock.ui.ClockBottomLayout android:layout_gravity="top" android:id="@id/clocks_bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clock_button_margin_top_wide">
+        <FrameLayout android:id="@id/worldclock_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_status_bar_distance">
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/add_new_city" android:background="@drawable/newcity_alarm_button_selector" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/alarmclock_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_status_bar_distance">
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/addNewAlarm" android:background="@drawable/newcity_alarm_button_selector" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/stopwatch_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_status_bar_distance">
+            <TextView android:layout_gravity="start|bottom|center" android:id="@id/stopwatch_left_button" android:focusable="true" android:visibility="invisible" android:layout_marginStart="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/stopwatch_start_button" android:background="@drawable/sw_start_button_selector" android:focusable="true" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/stopwatch_right_button" android:focusable="true" android:visibility="invisible" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/count_down_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/title_status_bar_distance">
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/btn_start" android:background="@drawable/newcity_alarm_button_selector" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+            <TextView android:layout_gravity="start|bottom|center" android:id="@id/btn_reset" android:visibility="gone" android:layout_marginStart="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+            <TextView android:layout_gravity="end|bottom|center" android:id="@id/btn_stop" android:background="@drawable/clock_pause_button_selector" android:visibility="gone" android:layout_marginEnd="@dimen/clock_button_margin_sides" style="@style/deskclock_btn_style" />
+        </FrameLayout>
+    </cn.nubia.deskclock.ui.ClockBottomLayout>
+    <cn.nubia.deskclock.ui.ClockContainer android:id="@id/main_clock_container" android:layout_width="fill_parent" android:layout_height="@dimen/clock_background_y" android:layout_marginTop="@dimen/title_status_bar_distance">
+        <View android:id="@id/clock_background" android:layout_width="@dimen/clock_background_x" android:layout_height="@dimen/clock_background_y" />
+        <ViewStub android:id="@id/worldclock_id" android:layout="@layout/worldclock_main" android:inflatedId="@id/worldclock_inflate_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/alarmclock_id" android:layout="@layout/alarmclock_main" android:inflatedId="@id/alarmclock_inflate_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/stopwatch_id" android:layout="@layout/stopwatch_main" android:inflatedId="@id/stopwatch_inflate_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/countdown_id" android:layout="@layout/countdown_main" android:inflatedId="@id/countdown_inflate_id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.nubia.deskclock.ui.ClockContainer>
+    <cn.nubia.deskclock.ui.VerticalMotionFrameLayout android:orientation="vertical" android:id="@id/main_motion_container" android:background="@color/main_motion_container_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.nubia.deskclock.ui.DeskClockViewPager android:id="@id/view_pager_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    </cn.nubia.deskclock.ui.VerticalMotionFrameLayout>
+    <cn.nubia.deskclock.ui.ActionBarLayout android:layout_gravity="bottom" android:id="@id/actionbar_layout" android:background="@color/action_bar_layout_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_layout_height" android:elevation="4.0dip">
+        <cn.nubia.commonui.widget.tab.NubiaPagerTab android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/lists_pager_header" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/actionbar_delete_mode" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.nubia.deskclock.ui.ActionBarLayout>
+</FrameLayout>

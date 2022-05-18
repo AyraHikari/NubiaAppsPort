@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@android:id/content" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="68.0dip" android:rowCount="2" android:columnCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start|center|top" android:orientation="horizontal" android:id="@id/agenda_item_date_group" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_column="0" android:layout_row="1" android:layout_rowSpan="1" android:layout_marginStart="33.0dip">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/title_text_color" android:id="@id/agenda_item_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/title_text_color" android:id="@id/agenda_item_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_column="1" android:layout_row="1" android:layout_rowSpan="1" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <View android:layout_gravity="center_horizontal" android:id="@id/top_line" android:background="@color/line_color" android:layout_width="1.0px" android:layout_height="19.0dip" />
+        <ImageView android:id="@id/agenda_item_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/bootom_line" android:background="@color/line_color" android:layout_width="1.0px" android:layout_height="47.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="fill_horizontal|center|top" android:orientation="vertical" android:id="@id/agenda_item_text_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_column="2" android:layout_row="1" android:layout_rowSpan="1">
+        <TextView android:textSize="@dimen/nubia_text_size_medium" android:textColor="@color/title_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:ellipsize="end" android:id="@id/when" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/nubia_text_size_small" android:textColor="@color/summary_text_color" android:ellipsize="end" android:id="@id/where" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/selected_item_checked" android:focusable="false" android:visibility="gone" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/all_check_margin" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/selected_marker" android:background="@drawable/list_multi_left_activated_holo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_column="2" android:contentDescription="@string/acessibility_selected_marker_description" android:layout_row="1" android:layout_rowSpan="1" />
+</GridLayout>

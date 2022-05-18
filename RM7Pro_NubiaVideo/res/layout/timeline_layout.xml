@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_timeline" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_layout_height" android:layout_marginTop="@dimen/editor_top_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="10.0dip">
+        <Button android:id="@id/add" android:background="@drawable/editor_add" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" />
+        <Button android:id="@id/play" android:background="@drawable/play" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="27.0dip" />
+        <Button android:id="@id/pre" android:background="@drawable/editor_pre_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="130.0dip" />
+        <Button android:id="@id/next" android:background="@drawable/editor_next_selector" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="27.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="11.0dip" android:textColor="@color/indicator_text_color" android:layout_gravity="center_horizontal" android:id="@id/timeline_positiontime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/indicator_time" />
+    <cn.nubia.video.mediaeditorview.TimeLineView android:id="@id/timeline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" />
+</LinearLayout>

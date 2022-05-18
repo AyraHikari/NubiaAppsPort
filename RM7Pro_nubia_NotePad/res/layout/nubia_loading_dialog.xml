@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/nubia_loading_dialog_background" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginTop="540.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/loading_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="false" android:indeterminateDrawable="@drawable/nubia_loading_dialog_icon" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/loading_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.669983dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/topImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/statusbar_actionbar_panel" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:id="@id/titleLayout" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height" android:layout_marginTop="@dimen/activity_statusbar_height" android:layout_alignStart="@id/topImageView" android:layout_alignEnd="@id/topImageView">
+        <include layout="@layout/multifragment_actionbar" />
+    </RelativeLayout>
+    <ImageView android:id="@id/menuImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/menu_panel" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/bottomMenuLayout" android:layout_width="fill_parent" android:layout_height="@dimen/activity_menu_height" android:layout_alignBottom="@id/menuImageView" android:layout_alignStart="@id/menuImageView" android:layout_alignEnd="@id/menuImageView">
+        <include layout="@layout/multifragment_menu" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/app_bg" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottomMenuLayout" android:layout_below="@id/titleLayout">
+        <ListView android:scrollbarSize="3.0dip" android:scrollbarThumbVertical="@drawable/scrobar_bg" android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:paddingStart="@dimen/list_view_left_padding" android:layout_alignParentStart="true" />
+        <android.support.v7.widget.RecyclerView android:scrollbarSize="3.0dip" android:scrollbarThumbVertical="@drawable/scrobar_bg" android:layout_gravity="center" android:id="@id/gridRecyclerView" android:paddingTop="4.0dip" android:visibility="gone" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/grid_recycler_view_left_padding" />
+    </RelativeLayout>
+</RelativeLayout>

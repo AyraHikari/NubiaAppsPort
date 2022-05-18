@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ztouch_photo_select_warning">
+        <item>¡Sólo puede seleccionarse una foto!</item>
+        <item>¡Se han seleccionado 2 fotos!</item>
+        <item>¡Se han seleccionado 3 fotos!</item>
+        <item>¡Se han seleccionado 4 fotos!s</item>
+    </string-array>
+</resources>

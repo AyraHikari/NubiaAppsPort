@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/body" android:background="@drawable/nubia_progress_dialog_background" android:layout_width="wrap_content" android:layout_height="@dimen/nubia_progress_dialog_body_height" android:layout_marginBottom="@dimen/nubia_progress_dialog_body_margin_bottom" android:baselineAligned="false">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" android:layout_marginEnd="@dimen/nubia_progress_dialog_progress_margin_end" style="?android:attr/progressBarStyle" />
+        <TextView android:textSize="@dimen/nubia_progress_dialog_text_size" android:textColor="@color/nubia_progress_dialog_text_color" android:layout_gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

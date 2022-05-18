@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@string/notepad_app_name" android:hint="@string/notepad_app_name" android:searchMode="queryRewriteFromText" android:searchSuggestAuthority="cn.nubia.notepad.GlobalSearchProvider" android:searchSuggestIntentAction="cn.nubia.notepad.search" android:searchSuggestThreshold="1" android:includeInGlobalSearch="true" android:queryAfterZeroResults="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Ocupado(a)</item>
+        <item>Disponível</item>
+        <item>Tentativa</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dia</item>
+        <item>Semana</item>
+        <item>Mês</item>
+        <item>Compromissos</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Somente este evento</item>
+        <item>Todos os eventos da série</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Somente este evento</item>
+        <item>Este evento e eventos futuros</item>
+        <item>Todos os eventos</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Este evento e eventos futuros</item>
+        <item>Todos os eventos</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>primeiro</item>
+        <item>segundo</item>
+        <item>terceiro</item>
+        <item>quarto</item>
+        <item>último</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Sempre</item>
+        <item>Apenas quando estiver no silencioso</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>não lembrar</item>
+        <item>0 minutos</item>
+        <item>Cinco minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>Uma hora</item>
+        <item>24 horas</item>
+        <item>Uma semana</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Localidade padrão</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Com alguns minutos de atraso.</item>
+        <item>Compareça em cerca de 10 minutos.</item>
+        <item>Vá em frente e comece sem mim.</item>
+        <item>Sinto muito, não posso comparecer. Precisaremos remarcar.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Notif.</item>
+        <item>E-mail</item>
+        <item>SMS</item>
+        <item>Alarme</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>não lembrar</item>
+        <item>0 minutos</item>
+        <item>Cinco minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>Uma hora</item>
+        <item>24 horas</item>
+        <item>Uma semana</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Sem resposta</item>
+        <item>Sim</item>
+        <item>Talvez</item>
+        <item>Não</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Ilhas Marshall</item>
+        <item>Midway</item>
+        <item>Havaí</item>
+        <item>Alasca</item>
+        <item>Horár. Pacífico</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Horár. Montanhas</item>
+        <item>América Central</item>
+        <item>Horário Central</item>
+        <item>Cidade do México</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Horário Oriental</item>
+        <item>Venezuela</item>
+        <item>Hora do Atl. (Barb.)</item>
+        <item>Hora do Atl. (Can.)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Terra Nova</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Groenlândia</item>
+        <item>Montevidéu</item>
+        <item>Atlântico Central</item>
+        <item>Açores</item>
+        <item>Ilhas Cabo Verde</item>
+        <item>Casablanca</item>
+        <item>Londres, Dublin</item>
+        <item>Amsterdã, Berlim</item>
+        <item>Belgrado</item>
+        <item>Bruxelas</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Horário da África Ocidental</item>
+        <item>Amã, Jordânia</item>
+        <item>Atenas, Istambul</item>
+        <item>Beirute, Líbano</item>
+        <item>Cairo</item>
+        <item>Helsinque</item>
+        <item>Jerusalém</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdá</item>
+        <item>Moscou</item>
+        <item>Kuwait</item>
+        <item>Nairóbi</item>
+        <item>Teerã</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Ierevan</item>
+        <item>Dubai</item>
+        <item>Cabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Uralsk</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Rangum</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangcoc</item>
+        <item>Pequim</item>
+        <item>Hong Kong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipé</item>
+        <item>Seul</item>
+        <item>Tóquio, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Camberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Padrão</item>
+        <item>Privado</item>
+        <item>Público</item>
+    </string-array>
+</resources>

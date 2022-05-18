@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formula_max_textsize">46.0dip</dimen>
+    <dimen name="formula_min_textsize">34.0dip</dimen>
+    <dimen name="formula_padding_bottom">2.0dip</dimen>
+    <dimen name="formula_padding_end">30.0dip</dimen>
+    <dimen name="formula_padding_end_zoom">32.0dip</dimen>
+    <item type="dimen" name="formula_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="formula_padding_top">2.0dip</dimen>
+    <dimen name="formula_step_textsize">4.0dip</dimen>
+    <dimen name="formula_textsize_zoom">34.0dip</dimen>
+    <dimen name="history_result_padding_Top">7.0dip</dimen>
+    <dimen name="history_result_padding_bottom">18.0dip</dimen>
+    <dimen name="maintoolbar_moreact_margin_right">13.0dip</dimen>
+    <dimen name="mainzoomtoolbar_formula_margin_right">0.0dip</dimen>
+    <dimen name="result_padding_bottom">2.0dip</dimen>
+    <dimen name="result_padding_end">30.0dip</dimen>
+    <dimen name="result_padding_end_zoom">30.0dip</dimen>
+    <item type="dimen" name="result_padding_start">@dimen/mfvc_large_padding</item>
+    <dimen name="result_padding_top">2.0dip</dimen>
+    <dimen name="result_textsize">28.0dip</dimen>
+    <dimen name="result_textsize_zoom">34.0dip</dimen>
+    <dimen name="toolbar_height">45.0dip</dimen>
+</resources>

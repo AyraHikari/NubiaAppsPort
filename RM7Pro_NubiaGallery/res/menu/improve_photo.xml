@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_topbar_aper" android:enabled="true" android:id="@id/action_aper" android:visible="false" android:title="@string/hint_aperture_text" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_share_operation" android:enabled="true" android:id="@id/action_share_new" android:visible="true" android:title="@string/share" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_unmark_operation" android:enabled="true" android:id="@id/action_setmark_new" android:visible="true" android:title="@string/setmark" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_edit_operation" android:enabled="true" android:id="@id/action_edit" android:visible="true" android:title="@string/improve_edit" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_delete_operation" android:enabled="true" android:id="@id/action_recycle" android:visible="true" android:title="@string/delete" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_more_normal" android:id="@id/action_more_new" android:visible="true" android:title="@string/more" app:showAsAction="always" />
+</menu>

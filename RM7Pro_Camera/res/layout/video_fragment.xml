@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.ZtemtFunEffectSlider android:id="@id/fun_effect_page" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <include layout="@layout/camera_picker_layout" />
+    <include layout="@layout/nubia_timing_layout" />
+    <include layout="@layout/recording_controller" />
+    <TextView android:id="@id/preview_quality_tip" android:visibility="gone" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/super_slomo_is_on_tip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/permanent_hint" />
+    <ImageView android:id="@id/motion_detection_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/motion_detection_rectangle" />
+    <TextView android:id="@id/motion_detection_tip" android:visibility="gone" android:layout_marginBottom="@dimen/dimens_169" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    <RelativeLayout android:id="@id/pretty_setting_layout_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/recording_thirdreview_controller" android:layout="@layout/recording_thirdreview_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <RelativeLayout android:gravity="start" android:id="@id/three_a_lock_layout" android:visibility="gone" android:layout_width="@dimen/dimens_39" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_183" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/dimens_16" android:layout_alignParentEnd="true">
+            <include layout="@layout/three_a_lock_layout" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

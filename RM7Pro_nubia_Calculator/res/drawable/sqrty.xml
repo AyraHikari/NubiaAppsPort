@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0sp" android:width="28.0sp" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="XMLID_17_" android:fillColor="@color/pad_button_advanced_text_color" android:pathData="M27.5,41.5 C26.8,43.7,25.7,44.4,23.6,44.4 C23.5,44.4,22.9,44.4,22.8,44.3 L22.8,46.8 C23.1,46.9,24,47.1,24.5,47.1 C27.8,47.1,29.2,44.4,29.8,42.6 L37,21.9 L33.7,21.9 L29.5,35.4 L25,21.9 L21.6,21.9 L28,39.7 L27.5,41.5 Z" android:strokeWidth="1.0" android:strokeAlpha="0.87" android:fillAlpha="0.87" />
+    <path android:name="XMLID_21_" android:fillColor="@color/pad_button_advanced_text_color" android:pathData="M73.6,44.2 L69.1,44.2 L62.3,55.1 L55.5,44.2 L51.1,44.2 L60.1,58.3 L50.9,72.6 L55.3,72.6 L62.3,61.5 L69.3,72.6 L73.8,72.6 L64.6,58.3 Z" android:strokeWidth="1.0" android:strokeAlpha="0.87" android:fillAlpha="0.87" />
+    <path android:name="XMLID_22_" android:fillColor="@color/pad_button_advanced_text_color" android:pathData="M46.6,27.1 L46.6,27.1 L46.6,27.1 L29.5,68.3 L24.7,53.2 L24.5,53.3 L24.5,53.2 L16.5,53.2 L16.5,56.7 L22.1,56.7 L27.8,74.6 L31.1,73.5 L49,30.6 L79.1,30.6 L79.1,27.1 Z" android:strokeWidth="1.0" android:strokeAlpha="0.87" android:fillAlpha="0.87" />
+</vector>

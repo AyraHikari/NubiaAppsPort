@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line" android:background="@drawable/draw_ark_color_gray_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ark_online_line_hight" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/head_contentLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/headview_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@id/head_arrowImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/z_arrow_up" android:contentDescription="@string/app_name" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/head_progressBar" android:visibility="gone" android:layout_width="@dimen/ark_100_px" android:layout_height="@dimen/ark_100_px" style="@anim/loading_progressbar" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/ark_listitem_hugu_height" android:layout_toRightOf="@id/headview_layout" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/head_tipsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pull_to_refresh" style="@style/ArkWhiteMediumTextStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

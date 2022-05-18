@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Usunąć wybrane elementy?</item>
+        <item quantity="one">Usunąć wybrany element?</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%dzień D</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Udostępnianie albumów w trybie offline</item>
+        <item quantity="one">Udostępnianie albumu w trybie offline</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Skopiuj%1$d</item>
+        <item quantity="zero">Skopiuj%1$d</item>
+        <item quantity="one">Skopiuj%1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Wytnij%1$d</item>
+        <item quantity="one">Wytnij%1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="zero">„Odzyskać wybrany element?”</item>
+        <item quantity="one">„Odzyskać wybrane elementy?”</item>
+    </plurals>
+</resources>

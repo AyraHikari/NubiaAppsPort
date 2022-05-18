@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/calendar_nubia_preferencecategory" android:title="@string/calendar_settings_accounts_title" android:key="calendar_settings_accounts">
+        <PreferenceScreen android:layout="?android:preferenceLayoutChild" android:title="@string/select_visible_calendars_title" android:key="preferences_calendar_visible_settings">
+            <intent android:targetPackage="cn.nubia.calendar.preset" android:action="android.intent.action.ACTION_VIEW" android:targetClass="cn.nubia.calendar.selectcalendars.SelectVisibleCalendarsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <cn.nubia.commonui.widget.NubiaPreferenceCategory android:title="@string/calendar_settings_general_setup_title" android:key="calendar_settings_general_setup">
+        <android.preference.nubia.SwitchPreference android:title="@string/preferences_default_pop_window_title" android:key="preferences_pop_window" android:defaultValue="false" />
+        <android.preference.nubia.SwitchPreference android:title="@string/preferences_alerts_vibrate_title" android:key="preferences_alerts_vibrate" android:defaultValue="true" />
+        <cn.nubia.calendar.CalendarRingtonePreference android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="alarm" />
+        <PreferenceScreen android:layout="@layout/nubia_right_summary_preference" android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_music_ringtone" android:summary="@string/preferences_alerts_ringtone_title" />
+        <PreferenceScreen android:layout="@layout/nubia_right_summary_preference" android:title="@string/preferences_default_reminder_title" android:key="preferences_default_reminder" android:summary="@string/preferences_default_reminder_radiobutton5">
+            <intent android:targetPackage="cn.nubia.calendar.preset" android:action="android.intent.action.ACTION_VIEW" android:targetClass="cn.nubia.calendar.settings.ReminderDefaultTimeActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:layout="?android:preferenceLayoutChild" android:title="@string/time_zone_settings" android:key="preferences_timezone_settings">
+            <intent android:targetPackage="cn.nubia.calendar.preset" android:action="android.intent.action.ACTION_VIEW" android:targetClass="cn.nubia.calendar.settings.TimeZoneSettingsActivity" />
+        </PreferenceScreen>
+        <ListPreference android:entries="@array/preferences_week_start_day_labels" android:layout="?android:preferenceLayoutChild" android:title="@string/preferences_week_start_day_title" android:key="preferences_week_start_day" android:dialogTitle="@string/preferences_week_start_day_dialog" android:entryValues="@array/preferences_week_start_day_values" />
+        <android.preference.nubia.SwitchPreference android:title="@string/preferences_weather_pop_window_title" android:key="preferences_pop_window_weather" android:defaultValue="true" />
+        <android.preference.nubia.SwitchPreference android:title="@string/preferences_sportsevents_pop_window_title" android:key="preferences_pop_window_sportsevents" android:defaultValue="true" />
+    </cn.nubia.commonui.widget.NubiaPreferenceCategory>
+</PreferenceScreen>

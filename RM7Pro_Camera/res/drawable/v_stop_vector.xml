@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/default_size" android:width="@dimen/default_size" android:viewportWidth="@integer/view_port_size" android:viewportHeight="@integer/view_port_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="inner_group">
+        <path android:name="inner_path" android:fillColor="#ffe60012" android:pathData="@string/rect_data" />
+    </group>
+    <group android:name="outside_group">
+        <path android:name="outside_path" android:fillColor="#ffffffff" android:pathData="@string/stroke_data" />
+    </group>
+</vector>

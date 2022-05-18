@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="78.0" android:viewportHeight="78.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/btn_sidemenu_drawable_bg_color" android:pathData="M39,39m-39,0a39,39 0,1 1,78 0a39,39 0,1 1,-78 0" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M27.94,26.08m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M39.32,18.05a2.5,2.5 0,1 0,2.5 2.5A2.5,2.5 0,0 0,39.32 18.05Z" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M50.7,26.08m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M56.45,33.88a2.5,2.5 0,1 0,2.5 2.5A2.5,2.5 0,0 0,56.45 33.88Z" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M52.31,48.84m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <path android:fillColor="@color/btn_sidemenu_drawable_icon_color" android:pathData="M39,13h0A26,26 0,0 0,15.25 49.61c0.4,0.89 1.27,0.68 2.48,0.4 2.14,-0.51 6.58,-1.56 9.73,1.14 2.41,3.69 1.27,7.54 0.72,9.41 -0.27,0.91 -0.55,1.85 0.38,2.25A26,26 0,1 0,39 13ZM39,63a23.83,23.83 0,0 1,-8.94 -1.73c0,-0.05 0,-0.1 0,-0.15 0.59,-2 2,-6.7 -1.06,-11.19l-0.16,-0.19c-3.92,-3.5 -9.12,-2.27 -11.61,-1.68l-0.46,0.11A24,24 0,1 1,39 63Z" />
+</vector>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/press_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/press_title_bar" android:layout_width="fill_parent" android:layout_height="27.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/weather_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_title_color" android:layout_gravity="center_vertical" android:id="@id/press_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weather_forecast" android:singleLine="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/press_widget_driver_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/forecast_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="66.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/hour_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="5.0dip">
+                <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/rt_tv_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/rt_tv_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/rt_tv_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/rt_tv_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/rt_tv_5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/icon_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/widget_icon1" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_centerInParent="true" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/press_widget_widget_icon_driver_color" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/widget_icon2" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_centerInParent="true" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/press_widget_widget_icon_driver_color" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/widget_icon3" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_centerInParent="true" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/press_widget_widget_icon_driver_color" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/widget_icon4" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_centerInParent="true" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/press_widget_widget_icon_driver_color" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/widget_icon5" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_centerInParent="true" />
+                    <LinearLayout android:orientation="vertical" android:background="@color/press_widget_widget_icon_driver_color" android:visibility="invisible" android:layout_width="1.0px" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/temp_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="2.0dip">
+                <TextView android:textSize="9.0dip" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/widget_temp1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/widget_temp2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/widget_temp3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/widget_temp4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/press_widget_widget_temp_color" android:gravity="center" android:id="@id/widget_temp5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/press_widget_no_info_color" android:layout_gravity="center" android:id="@id/no_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_city" />
+    </FrameLayout>
+</LinearLayout>

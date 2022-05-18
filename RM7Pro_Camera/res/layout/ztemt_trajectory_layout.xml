@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ztemt_trajectory_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ztemt_trajectory_show_picture" />
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <include layout="@layout/ztemt_trajectory_selector" />
+        <include layout="@layout/ztemt_trajectory_seekbar" />
+        <include layout="@layout/ztemt_trajectory_capture_num" />
+    </RelativeLayout>
+    <include layout="@layout/ztemt_trajectory_show_tip" />
+    <TextView android:id="@id/tips_text" android:layout_marginTop="@dimen/preview_tip_margin" android:text="@string/hold_steadily_tips" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/permanent_hint" />
+    <RelativeLayout android:id="@id/trajectory_bottom_layout" android:background="@color/bar_background" android:visibility="gone" style="@style/InnerBottomBarSize">
+        <include layout="@layout/bottom_cancel_done_view" />
+        <include layout="@layout/wait_imageview" />
+    </RelativeLayout>
+</RelativeLayout>

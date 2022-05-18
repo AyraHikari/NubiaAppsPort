@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="1.0px" android:layout_height="1.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.touping.Utils.RefreshRateControl.MSurface android:id="@id/surface" android:layout_width="1.0px" android:layout_height="1.0px" />
+</LinearLayout>

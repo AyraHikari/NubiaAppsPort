@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="acb_bg">@color/mfvc_appbar_bg_color_dark</item>
+    <item type="drawable" name="bg">@color/mfvc_bg_color_dark</item>
+    <item type="drawable" name="bottombar_bg">@color/mfvc_bottom_bg_color_dark</item>
+    <item type="drawable" name="bottombar_tab_bg">@color/mfvc_bottom_tab_bg_color_dark</item>
+    <item type="drawable" name="progressbar_slider_disabled_light">@drawable/progressbar_slider_disabled_dark</item>
+    <item type="drawable" name="progressbar_slider_light">@drawable/progressbar_slider_dark</item>
+    <item type="drawable" name="progressbar_slider_pressed_light">@drawable/progressbar_slider_pressed_dark</item>
+    <item type="drawable" name="statusbar_bg">@color/mfvc_appbar_bg_color_dark</item>
+    <item type="drawable" name="subtab_bg">@color/mfvc_appbar_bg_color_dark</item>
+</resources>

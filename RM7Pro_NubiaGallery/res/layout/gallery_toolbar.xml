@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@id/main_toolbar" android:background="@color/topbar_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/toolbar_blank" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_blanket_height" />
+        <include layout="@layout/layout_topbar" />
+        <View android:id="@id/toolbar_blank2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_blanket_height2" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

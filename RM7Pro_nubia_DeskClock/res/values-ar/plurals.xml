@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Nhours_description">
+        <item quantity="other">%d ساعة</item>
+        <item quantity="one">ساعة واحدة</item>
+    </plurals>
+    <plurals name="Nminutes_description">
+        <item quantity="other">%d دقيقة</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="Nseconds_description">
+        <item quantity="other">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+    </plurals>
+</resources>

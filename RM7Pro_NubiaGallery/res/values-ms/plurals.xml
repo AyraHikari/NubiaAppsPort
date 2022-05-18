@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Padam item yang dipilih?</item>
+        <item quantity="one">Padam item yang dipilih?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Menjadikan album tersedia di luar talian.</item>
+        <item quantity="one">Menjadikan album tersedia di luar talian.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">Salin%1$d</item>
+        <item quantity="zero">Salin%1$d</item>
+        <item quantity="one">Salin%1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">Potong%1$d</item>
+        <item quantity="zero">Potong%1$d</item>
+        <item quantity="one">Potong%1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">OK (%1$d)</item>
+        <item quantity="zero">OK (%1$d)</item>
+        <item quantity="one">OK (%1$d)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="zero">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+</resources>

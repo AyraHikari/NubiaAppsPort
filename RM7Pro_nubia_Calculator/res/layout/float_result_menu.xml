@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/float_result_menu_text_color" android:gravity="center" android:id="@id/copy_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/copy" android:textAllCaps="true" android:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

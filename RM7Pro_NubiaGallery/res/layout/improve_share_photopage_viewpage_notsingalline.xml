@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/share_item_view_layout_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/share_item_view_tv1" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv2" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv3" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv4" style="@style/share_item_tv" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/share_item_view_layout_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/share_item_view_tv5" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv6" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv7" style="@style/share_item_tv" />
+        <TextView android:id="@id/share_item_view_tv8" style="@style/share_item_tv" />
+    </LinearLayout>
+</LinearLayout>

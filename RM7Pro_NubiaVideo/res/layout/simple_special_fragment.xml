@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:SimpleTimeLineView="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/filter_linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/special_button_selector" android:ellipsize="marquee" android:gravity="center" android:id="@id/special_filter_button" android:background="@null" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/video_filter" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/special_button_selector" android:ellipsize="marquee" android:gravity="center" android:id="@id/special_split_button" android:background="@null" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/split_screen" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        <TextView android:textSize="15.0dip" android:textColor="@drawable/special_button_selector" android:ellipsize="marquee" android:gravity="center" android:id="@id/special_change_button" android:background="@null" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/begaining" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+    </LinearLayout>
+    <cn.nubia.video.mediaeditorview.simpleeditor.SimpleTimeLineView android:id="@id/special_timeline" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginTop="49.0dip" SimpleTimeLineView:timeline_flag="3" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:id="@id/special_instructor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="97.0dip" android:alpha="0.5" />
+    <HorizontalScrollView android:id="@id/special_filter_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="16.329987dip" android:layout_alignParentBottom="true">
+        <cn.nubia.video.mediaeditorview.simpleeditor.SimpleSpecialPickerView android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/simple_filter_picker_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </HorizontalScrollView>
+</RelativeLayout>

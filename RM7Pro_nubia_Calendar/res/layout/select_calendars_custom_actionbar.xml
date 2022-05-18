@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="30.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back_bg" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/text_city_list_item_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/event_create" android:paddingStart="15.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end|center" android:id="@id/bottom_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentEnd="true" style="@style/z7_btn_bar_style">
+        <Button android:id="@id/btn_discard" android:background="@drawable/btn_blue_bg_land" android:focusable="true" android:layout_height="wrap_content" android:minWidth="210.0dip" android:text="@android:string/cancel" style="@style/z7_btn_style" />
+        <View android:layout_width="@dimen/bottom_button_gap" android:layout_height="fill_parent" />
+        <Button android:id="@id/btn_done" android:background="@drawable/btn_blue_bg_land" android:focusable="true" android:layout_height="wrap_content" android:minWidth="210.0dip" android:text="@android:string/ok" style="@style/z7_btn_style" />
+    </LinearLayout>
+</RelativeLayout>

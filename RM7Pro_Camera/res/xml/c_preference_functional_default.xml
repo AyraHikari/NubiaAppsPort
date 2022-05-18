@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceGroup xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <IconListPreference camera:defaultValue="Art" camera:entries="@array/pref_vlog_module_entries" camera:entryValues="@array/pref_vlog_module_entryvalues" camera:icons="@array/pref_camera_vlog_module_icons" camera:key="pref_camera_vlog_module_key" camera:largeIcons="@array/pref_camera_vlog_module_large_icons" camera:title="@string/pref_camera_vlog_module_title" />
+</PreferenceGroup>

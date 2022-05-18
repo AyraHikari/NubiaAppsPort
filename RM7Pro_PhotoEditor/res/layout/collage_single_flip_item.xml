@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootLayout" android:paddingTop="@dimen/single_flip_image_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/flipImageLayout" android:layout_width="@dimen/single_flip_image_item_layout_width" android:layout_height="@dimen/single_flip_image_item_layout_width">
+            <ImageView android:id="@id/contentImageView" android:layout_width="@dimen/single_flip_image_item_width" android:layout_height="@dimen/single_flip_image_item_width" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center|top" android:id="@id/flipTextLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/flipImageLayout" android:layout_alignLeft="@id/flipImageLayout" android:layout_alignRight="@id/flipImageLayout">
+            <TextView android:textSize="@dimen/single_flip_text_size" android:textColor="@color/fifty_six_black" android:gravity="center|top" android:id="@id/flipTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flip_none" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

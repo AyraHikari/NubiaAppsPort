@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.common.ui.RotateLayout android:id="@id/show_capture_number_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/show_capture_number" style="@style/TrajectoryInfoText" />
+    </RelativeLayout>
+</com.android.common.ui.RotateLayout>

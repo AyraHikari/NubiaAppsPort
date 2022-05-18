@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroundImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/loading_background" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/backgroundImageView" android:layout_alignTop="@id/backgroundImageView" android:layout_alignRight="@id/backgroundImageView" android:layout_alignBottom="@id/backgroundImageView" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/nubia_loading_dialog_icon" android:layout_centerHorizontal="true" style="@style/LoadingProgressBarLarge" />
+            <TextView android:textSize="@dimen/loading_text_size" android:textColor="@color/fifty_four_white" android:id="@id/loadingTextView" android:paddingTop="@dimen/loading_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_below="@id/progressBar" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

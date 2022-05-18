@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mtrl_picker_header" android:layout_width="fill_parent" android:layout_height="@dimen/mtrl_calendar_header_height" style="?materialCalendarHeaderLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/mtrl_picker_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="28.0dip" style="?materialCalendarHeaderTitle" />
+    <TextView android:layout_gravity="bottom" android:id="@id/mtrl_picker_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:lastBaselineToBottomHeight="20.0dip" style="?materialCalendarHeaderSelection" />
+</FrameLayout>

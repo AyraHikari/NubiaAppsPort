@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/notepad_recycle_sum" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/top_panel_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/notepad_recycle_sum_text_size" android:textColor="@color/notepad_recycle_sum_color" android:gravity="center_vertical" android:id="@id/notepad_recycle_text_sum" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/notepad_list_item_margin_right" android:layout_marginEnd="@dimen/notepad_list_item_margin_right" />
+        <View android:background="@color/notepad_list_item_speartor" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_item_speartor_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/bottom_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_panel_height" android:layout_alignParentBottom="true">
+        <Button android:id="@id/clear_history_button" android:layout_width="@dimen/clear_history_button_width" android:layout_height="@dimen/clear_history_button_height" android:text="@string/clear_history" />
+    </LinearLayout>
+    <cn.nubia.notepad.view.RecycleExpandableListView android:id="@id/notepad_expandable_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_above="@id/bottom_panel" android:layout_below="@id/notepad_recycle_sum" />
+</RelativeLayout>

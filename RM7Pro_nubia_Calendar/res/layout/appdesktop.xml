@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/press_header" android:background="@color/shortcut_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/press_widget_icon" android:layout_width="@dimen/calendar_press_heightorwidth" android:layout_height="@dimen/calendar_press_heightorwidth" android:layout_marginTop="6.659973dip" android:layout_marginStart="7.659973dip">
+            <ImageView android:id="@id/calendar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.33000004dip" android:layout_marginBottom="0.33000004dip" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_marginStart="0.33000004dip" android:layout_marginEnd="0.33000004dip" />
+        </LinearLayout>
+        <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/text_color_white_dd" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/next_time_event_reminder" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <FrameLayout android:orientation="horizontal" android:id="@id/widget_row" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="5.0dip">
+            <TextView android:background="@color/text_color_white_26" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/calendar_press_magintop">
+            <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/text_city_list_item_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/press_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/calendar_press_starttime" android:layout_marginBottom="15.0dip">
+            <TextView android:textSize="10.0sp" android:textColor="@color/text_color_white_b2" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/press_starttime" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

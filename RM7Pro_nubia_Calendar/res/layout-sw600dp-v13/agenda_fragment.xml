@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/agenda_general_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/agenda_sticky_header_list" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginStart="0.0dip" class="cn.nubia.calendar.ui_component.view.StickyHeaderListView">
+        <view android:id="@id/agenda_events_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" class="cn.nubia.calendar.submodule_agenda.view.AgendaListView" />
+    </view>
+    <FrameLayout android:id="@id/agenda_event_info" android:background="@color/agenda_general_background_color" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" />
+</LinearLayout>

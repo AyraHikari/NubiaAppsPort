@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@id/timezone_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="10.0dip" style="?android:attr/textAppearanceMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

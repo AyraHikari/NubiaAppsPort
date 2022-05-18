@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formula_max_textsize">74.0dip</dimen>
+    <dimen name="formula_min_textsize">42.0dip</dimen>
+    <dimen name="formula_padding_bottom">28.0dip</dimen>
+    <dimen name="formula_padding_end">16.0dip</dimen>
+    <dimen name="formula_padding_start">16.0dip</dimen>
+    <dimen name="formula_padding_top">16.0dip</dimen>
+    <dimen name="formula_step_textsize">8.0dip</dimen>
+    <dimen name="formula_textsize_zoom">46.0dip</dimen>
+    <dimen name="result_padding_bottom">42.0dip</dimen>
+    <dimen name="result_padding_end">16.0dip</dimen>
+    <dimen name="result_padding_start">16.0dip</dimen>
+    <dimen name="result_padding_top">16.0dip</dimen>
+    <dimen name="result_textsize">42.0dip</dimen>
+    <dimen name="result_textsize_zoom">34.0dip</dimen>
+</resources>

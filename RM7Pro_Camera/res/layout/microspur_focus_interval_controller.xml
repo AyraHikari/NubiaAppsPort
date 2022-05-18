@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/microspur_layout_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/microspur_layout_innner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <cn.nubia.camera.extendedUI.MicroSpurAndDngSeekBar android:id="@id/microspur_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_67" android:layout_below="@id/microspur_layout_tag" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/microspur_layout_tag" android:background="@drawable/nubia_white_dialog_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_30" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_microspur_manul_foucs" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/st_microspur_manaul_focus" android:layout_marginEnd="@dimen/dimens_6" />
+            <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:gravity="center" android:id="@id/id_microspur_interval_controller" android:background="@drawable/microspur_layout_container_middle_unselect" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dimens_72" android:layout_height="fill_parent" android:text="@string/st_microspur_interval_controller" />
+            <ImageView android:layout_gravity="center" android:id="@id/id_microspur_arrow_tip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_arrow_down" android:scaleType="center" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:weather="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/navi_bar" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="51.0dip">
+            <View android:id="@id/line1" android:background="@color/weather_main_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <cn.nubia.weather.ui.viewpagerIndicator.IconPageIndicator android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/go_page_img" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip" android:src="@drawable/go_page_icon" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/location_city_img" android:background="@drawable/nubia_menu_item_background" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="50.0dip" android:src="@drawable/go_city" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/navi_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>ยกเลิกเวลานับถอยหลัง</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>45นาที</item>
+        <item>60นาที</item>
+        <item>90นาที</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Xiamiเพลงยอดนิยม</item>
+        <item>เพลงคลาสสิก</item>
+        <item>เพลงใหม่</item>
+        <item>เพลงภาษาอังกฤษ</item>
+        <item>เทมโป ดนตรี</item>
+        <item>เพลงป๊อปภาษาจีน</item>
+        <item>ดนตรีนอน</item>
+        <item>เพลงเก่าภาษาจีนกวางตุ้ง</item>
+        <item>ดนตรีเบาๆ</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>รายการดนตรีXiami</item>
+        <item>รายการเพลงใหม่Xiami</item>
+        <item>รายการเพลงต้นฉบับXiami</item>
+        <item>รายการเพลงOricon</item>
+        <item>รายการเพลงฮ่องกง</item>
+        <item>รายการเพลงBillboard</item>
+        <item>รายการเพลงภาษาจีนhito</item>
+        <item>รายการสัปดาห์M-net</item>
+        <item>รายการเพลงของสหราชอาณาจักร</item>
+    </string-array>
+</resources>

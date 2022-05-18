@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">Яшчэ мерапрыемствы: +%d</item>
+        <item quantity="one">+1 мерапрыемства</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">Дзён: %d</item>
+        <item quantity="one">1 дзень</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">Мерапрыемствы: %d</item>
+        <item quantity="one">1 мерапрыемства</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d гадзін</item>
+        <item quantity="one">1 гадзіна</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">Хвілін %d</item>
+        <item quantity="one">1 хв.</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d хвілін</item>
+        <item quantity="one">1 хвіліна</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">ТЫДЗЕНЬ %d</item>
+    </plurals>
+</resources>

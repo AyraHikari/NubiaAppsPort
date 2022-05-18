@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Διαγραφή επιλεγμέν. στοιχείων;</item>
+        <item quantity="one">Διαγραφή επιλεγμέν. στοιχείου;</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Διάθεση λευκωμάτων εκτός σύνδεσης.</item>
+        <item quantity="one">Διάθεση λευκώματος εκτός σύνδεσης.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Επιλέχθηκαν %1$d</item>
+        <item quantity="zero">Επιλέχθηκαν %1$d</item>
+        <item quantity="one">Επιλέχθηκαν %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Επιλέχθηκαν %1$d</item>
+        <item quantity="zero">Επιλέχθηκαν %1$d</item>
+        <item quantity="one">Επιλέχθηκαν %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Επιλέχθηκαν %1$d</item>
+        <item quantity="zero">Επιλέχθηκαν %1$d</item>
+        <item quantity="one">Επιλέχθηκαν %1$d</item>
+    </plurals>
+</resources>

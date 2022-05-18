@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/drawer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:orientation="vertical" android:id="@id/container" android:background="@color/slide_drawer_background" android:focusable="false" android:scrollbars="none" android:layout_width="@dimen/phone_width" android:layout_height="@dimen/dimens_76" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center" android:background="@color/bar_background" android:focusable="false" android:layout_width="@dimen/phone_width" android:layout_height="@dimen/dimens_76" android:layoutDirection="ltr">
+            <com.android.common.ui.OneRowGridView android:id="@id/drawer_lists" android:focusable="false" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_64" android:listSelector="#00000000" android:horizontalSpacing="@dimen/dimens_7" android:stretchMode="none" android:layoutDirection="locale" android:paddingStart="@dimen/dimens_8" android:paddingEnd="@dimen/dimens_8" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/handle" android:background="@drawable/nubia_white_dialog_bg" android:focusable="false" android:layout_width="wrap_content" android:layout_height="@dimen/dimens_30" android:layout_marginBottom="@dimen/dimens_8" android:layout_above="@id/container" android:layout_centerHorizontal="true" android:paddingStart="@dimen/dimens_14" android:paddingEnd="@dimen/dimens_14">
+        <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:gravity="center" android:id="@id/handle_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/handle_image" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_arrow_down" android:layout_marginStart="@dimen/dimens_6" />
+    </LinearLayout>
+</RelativeLayout>

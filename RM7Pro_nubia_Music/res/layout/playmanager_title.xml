@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/back_btn" android:paddingLeft="@dimen/dimen_30" android:paddingRight="@dimen/dimen_12" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/textsize_48" android:textColor="@color/cf25252" android:id="@id/title_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/back_btn" android:layout_centerVertical="true" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    <ImageView android:id="@id/playmanager_clear_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_45" android:src="@drawable/playmanager_acrionbar" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

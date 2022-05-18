@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/allinone_actionbar" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/date_time" android:layout_width="147.0dip" android:layout_height="fill_parent" android:layout_marginStart="19.0dip" android:layout_marginEnd="6.0dip">
+        <TextView android:textSize="40.0dip" android:textStyle="bold" android:textColor="@color/actionbar_top_month_view_color" android:id="@id/month_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" android:fontFamily="sans-serif-light" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="12.0dip" android:textColor="@color/actionbar_color_white" android:id="@id/year_week_view" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="0.8" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/round_bg" android:padding="2.0dip" android:layout_width="175.0dip" android:layout_height="32.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/year_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/year_view" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/month_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/month_view" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/week_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/week_view" android:maxLines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/day_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/day_view" android:maxLines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

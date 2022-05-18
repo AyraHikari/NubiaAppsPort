@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/notepad_editor_player_layout" android:background="@color/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:paddingStart="@dimen/edit_note_margin" android:paddingEnd="@dimen/edit_note_margin">
+        <SeekBar android:id="@id/sb_player" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progressDrawable="@drawable/bg_seek_bar" android:minHeight="2.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/notepad_record_time_text_size" android:textColor="@color/notepad_title_text_color" android:id="@id/tv_player_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notepad_player_tv_now_play_time_init" />
+        <TextView android:textSize="@dimen/notepad_record_time_text_size" android:textColor="@color/notepad_title_text_color" android:id="@id/tv_player_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/list_item_image_margin" />
+        <ImageView android:id="@id/player_left_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/list_item_image_margin" />
+        <ImageView android:id="@id/player_right_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

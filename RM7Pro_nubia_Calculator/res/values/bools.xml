@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="MF_config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_ascii_7bit_support_for_long_message">false</bool>
+    <bool name="config_setup_mms_data">false</bool>
+    <bool name="config_sms_ringtone_incall">false</bool>
+    <bool name="enable_mipop_zte">true</bool>
+    <bool name="enable_theme_zte">true</bool>
+    <bool name="isLightStatusBar">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+</resources>

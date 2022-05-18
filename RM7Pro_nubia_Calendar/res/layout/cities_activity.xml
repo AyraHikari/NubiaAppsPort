@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/listview_dimmed_background" android:background="@color/nubia_status_bar_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/bottom_button_height">
+        <cn.nubia.calendar.util.PinnedHeaderListView android:id="@id/cities_list" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <cn.nubia.commonui.widget.NubiaCharacterListView android:id="@id/rightCharacterListView" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="364.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@color/bottom_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_button_height" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/nubia_text_size_extrasmall" android:textColor="@color/nubia_action_menu_item_text_material_light" android:gravity="center" android:id="@id/actionbar_search_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" android:maxLines="1" android:drawableTop="@drawable/menu_search" android:drawablePadding="@dimen/bottom_bar_drawable_padding" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_layout" android:background="@color/nubia_status_bar_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_search_view_layout_height" android:layout_alignParentBottom="true">
+        <cn.nubia.commonui.widget.NubiaSearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textFilter" android:iconifiedByDefault="false" />
+    </LinearLayout>
+</RelativeLayout>

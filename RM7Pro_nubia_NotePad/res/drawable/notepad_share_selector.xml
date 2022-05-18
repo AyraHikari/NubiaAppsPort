@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap android:src="@drawable/notepad_tool_share" android:alpha="0.3" />
+    </item>
+    <item android:state_enabled="false">
+        <bitmap android:src="@drawable/notepad_tool_share" android:alpha="0.3" />
+    </item>
+    <item android:state_enabled="true" android:drawable="@drawable/notepad_tool_share" />
+    <item android:drawable="@drawable/notepad_tool_share" />
+</selector>

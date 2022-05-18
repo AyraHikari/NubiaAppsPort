@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/notepad_sync_head_footer" android:background="@color/notepad_list_top" android:layout_width="fill_parent" android:layout_height="@dimen/sys_item_height" android:paddingStart="@dimen/list_item_margin" android:paddingEnd="@dimen/list_item_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/synchronization_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/synchronization_arrow_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notebook_synchronization_arrow" />
+        <ImageView android:id="@id/synchronization_loading_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notebook_synchronization_loading" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/summary_text_size" android:textColor="@color/notepad_list_item_content_color" android:id="@id/synchronization_show_drag_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ds_listview_header_hint_normal" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/synchronization_img" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/synchronization_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/summary_text_size" android:textColor="@color/notepad_list_item_content_color" android:id="@id/synchronization_hint_number_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ds_listview_header_number" />
+            <TextView android:textSize="@dimen/note_text_size" android:textColor="@color/notice_text_color" android:id="@id/synchronization_state_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ds_listview_header_synchronized_no_start" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nubia_right_arrow" />
+    </LinearLayout>
+</RelativeLayout>

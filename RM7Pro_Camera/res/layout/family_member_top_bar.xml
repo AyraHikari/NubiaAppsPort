@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/topbar" style="@style/ExpandTopBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/topbarContent" android:background="@drawable/bg_topbar_alpha" style="@style/TopBarSize" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/topbarMoreLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/topbar_height" android:layout_below="@id/topbarContent">
+        <View android:id="@id/topbarMoreBg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/topbarMoreContent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

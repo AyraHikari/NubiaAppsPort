@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/third_record_review_layout" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:RotateTextImageView="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/videoPreviewRelativePage" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.common.ui.RotateLayout android:layout_gravity="center" android:id="@id/review_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/review_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.android.common.ui.RotateLayout>
+        <com.android.common.ui.RotateImageView android:id="@id/btn_play" android:src="@drawable/ic_gallery_play_big" style="@style/VideoReviewPlayIcon" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/video_btn_layout" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.RotateTextImageView android:gravity="center" android:id="@id/exitVideo" android:background="@drawable/nubia_small_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@string/nubia_cancel_button_bg" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimens_18" android:layout_alignParentStart="true" RotateTextImageView:rotatTextColor="@color/highlight_color" RotateTextImageView:rotatTextSize="@dimen/dimens_14" RotateTextImageView:text="@string/bottom_cancel" />
+        <RelativeLayout android:id="@id/thirdparty_recording_layout" android:background="@color/bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/bottom_cancel_done_view" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

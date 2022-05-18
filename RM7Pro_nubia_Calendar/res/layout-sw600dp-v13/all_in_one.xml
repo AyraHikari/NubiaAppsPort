@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/date_group" android:background="@color/calendar_future_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingStart="20.0dip">
+        <TextView android:textSize="24.0sp" android:gravity="center_vertical" android:id="@id/date_bar" android:layout_width="wrap_content" android:layout_height="42.0dip" />
+        <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/week_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:paddingStart="8.0dip" />
+        <TextView android:textSize="18.0sp" android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/home_time" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_weight="1.0" android:paddingStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/main_pane" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <FrameLayout android:id="@id/secondary_pane" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/calendar_grid_line_inner_vertical_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mini_month_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/calendar_controls_height">
+        <FrameLayout android:id="@id/mini_month" android:layout_width="0.0dip" android:layout_height="@dimen/calendar_controls_height" />
+        <FrameLayout android:id="@id/calendar_list" android:layout_width="0.0dip" android:layout_height="@dimen/calendar_controls_height" android:layout_marginTop="16.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

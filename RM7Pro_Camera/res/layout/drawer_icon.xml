@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/dimens_64" android:layout_height="@dimen/dimens_64"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.RotateImageView android:id="@id/icon" android:layout_width="@dimen/dimens_60" android:layout_height="@dimen/dimens_60" android:layout_marginTop="@dimen/dimens_2" android:layout_marginStart="@dimen/dimens_2" />
+    <com.android.common.ui.RotateLayout android:id="@id/effect_text_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/dimens_10" android:textColor="#ffffffff" android:gravity="bottom|center" android:id="@id/title" android:paddingBottom="@dimen/dimens_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentBottom="true" android:paddingStart="@dimen/dimens_3" android:paddingEnd="@dimen/dimens_3" />
+    </com.android.common.ui.RotateLayout>
+    <com.android.common.ui.RotateImageView android:gravity="center" android:id="@id/cover" android:background="@drawable/selected_mask_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

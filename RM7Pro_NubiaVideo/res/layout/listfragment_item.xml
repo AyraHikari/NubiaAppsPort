@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/topView" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_image_top_padding" />
+    <cn.nubia.video.list.ui.ThumbnailImageView android:id="@id/itemImageView" android:layout_width="@dimen/list_item_image_width" android:layout_height="@dimen/list_item_image_height" android:src="@drawable/thumbnail" android:scaleType="fitXY" android:layout_below="@id/topView" android:layout_centerHorizontal="true" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/itemImageView" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/item_tv_title_color" android:ellipsize="end" android:id="@id/itemTitleTextView" android:paddingBottom="@dimen/list_item_text_between_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/list_item_text_left_padding" android:paddingEnd="@dimen/list_item_text_left_padding" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/item_tv_time_color" android:id="@id/itemTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/itemTitleTextView" android:paddingStart="@dimen/list_item_text_left_padding" android:paddingEnd="@dimen/list_item_text_left_padding" />
+    </LinearLayout>
+    <View android:background="@color/divier_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/list_item_text_left_padding" android:layout_toEndOf="@id/itemImageView" android:layout_alignParentEnd="true" />
+</RelativeLayout>

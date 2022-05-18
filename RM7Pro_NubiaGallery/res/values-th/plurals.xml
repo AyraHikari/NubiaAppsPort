@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">ลบรายการที่เลือกหรือไม่</item>
+        <item quantity="one">ลบรายการที่เลือกหรือไม่</item>
+    </plurals>
+    <plurals name="label_day">
+        <item quantity="other">%dวัน</item>
+        <item quantity="zero">%dวัน</item>
+        <item quantity="one">%dวัน</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้</item>
+        <item quantity="one">กำลังทำให้ใช้งานอัลบั้มแบบออฟไลน์ได้</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">เลือกไว้ %1$d</item>
+        <item quantity="zero">เลือกไว้ %1$d</item>
+        <item quantity="one">เลือกไว้ %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">เลือกไว้ %1$d</item>
+        <item quantity="zero">เลือกไว้ %1$d</item>
+        <item quantity="one">เลือกไว้ %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_copyed">
+        <item quantity="other">คัดลอก %1$d</item>
+        <item quantity="zero">คัดลอก %1$d</item>
+        <item quantity="one">คัดลอก %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_cuted">
+        <item quantity="other">ตัด %1$d</item>
+        <item quantity="zero">ตัด %1$d</item>
+        <item quantity="one">ตัด %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_gifed">
+        <item quantity="other">ตกลง %1$d</item>
+        <item quantity="zero">ตกลง %1$d</item>
+        <item quantity="one">ตกลง %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">เลือกไว้ %1$d</item>
+        <item quantity="zero">เลือกไว้ %1$d</item>
+        <item quantity="one">เลือกไว้ %1$d</item>
+    </plurals>
+    <plurals name="recover_selection">
+        <item quantity="other">แน่ใจจะฟื้นฟูรายการที่เลือกไหม</item>
+        <item quantity="one">แน่ใจจะฟื้นฟูรายการที่เลือกไหม</item>
+    </plurals>
+    <plurals name="selection_hint">
+        <item quantity="other">เลือก%1$d รายการ</item>
+        <item quantity="zero">เลือก%1$d รายการ</item>
+        <item quantity="one">เลือก%1$d รายการ</item>
+    </plurals>
+</resources>

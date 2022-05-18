@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_bg" android:background="@drawable/corner_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:textColor="@color/textColorPrimary" android:gravity="center" android:id="@id/nubia_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/wired_sound_output_title" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/textColor2nd" android:gravity="center" android:id="@id/nubia_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_sound_output_message" android:layout_marginStart="33.0dip" android:layout_marginEnd="33.0dip" />
+    <CheckBox android:textSize="15.0dip" android:textColor="@color/textColor4th" android:gravity="center" android:id="@id/never_ask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:button="@drawable/nubia_btn_check_material_anim" android:text="@string/wired_sound_output_never_ask" android:layout_marginStart="26.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="30.0dip">
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/nubia_negative_bn" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/no" />
+        <TextView android:textSize="@dimen/text_size_normal" android:textColor="@color/nubia_button_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/nubia_positive_bn" android:background="@drawable/nubia_btn_default_material" android:layout_width="150.0dip" android:layout_height="40.0dip" android:text="@string/yes" android:layout_marginStart="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

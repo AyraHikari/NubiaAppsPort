@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Бришете изабране ставке?</item>
+        <item quantity="one">Бришете изабрану ставку?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Омогућавање доступности албума ван мреже.</item>
+        <item quantity="one">Омогућавање доступности албума ван мреже</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Изабранo je %1$d</item>
+        <item quantity="zero">Изабранo je %1$d</item>
+        <item quantity="one">Изабранo je %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Изабранo je %1$d</item>
+        <item quantity="zero">Изабранo je %1$d</item>
+        <item quantity="one">Изабранo je %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Изабранo je %1$d</item>
+        <item quantity="zero">Изабранo je %1$d</item>
+        <item quantity="one">Изабранo je %1$d</item>
+    </plurals>
+</resources>

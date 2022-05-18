@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/today_icon" android:id="@id/action_today" android:title="@string/goto_today" android:alphabeticShortcut="t" android:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_menu_add_event_holo_light" android:id="@id/action_create_event" android:title="@string/event_create" android:alphabeticShortcut="n" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_refresh_holo_light" android:id="@id/action_refresh" android:title="@string/calendar_refresh" android:alphabeticShortcut="r" />
+    <item android:icon="@drawable/ic_menu_search_holo_light" android:id="@id/action_search" android:title="@string/search" android:alphabeticShortcut="f" android:imeOptions="actionSearch" android:showAsAction="collapseActionView" android:actionViewClass="cn.nubia.commonui.widget.NubiaSearchView" />
+    <item android:id="@id/action_hide_controls" android:title="@string/hide_controls" android:alphabeticShortcut="h" />
+    <item android:icon="@drawable/ic_menu_settings_holo_light" android:id="@id/action_settings" android:title="@string/menu_preferences" android:alphabeticShortcut="s" />
+</menu>

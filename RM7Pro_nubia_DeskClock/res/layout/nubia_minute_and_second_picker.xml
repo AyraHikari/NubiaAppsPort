@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_hour_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_minute_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+        <cn.nubia.commonui.widget.WheelView android:id="@id/nubia_second_spinner" android:layout_width="@dimen/nubia_wheel_width" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearanceExtraSmall" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingTop="@dimen/nubia_wheel_textview_padding_top" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/nubia_time_hour" android:layout_marginStart="105.0dip" />
+        <TextView android:textAppearance="?textAppearanceExtraSmall" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingTop="@dimen/nubia_wheel_textview_padding_top" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/nubia_time_minute" android:layout_marginStart="38.0dip" />
+        <TextView android:textAppearance="?textAppearanceExtraSmall" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingTop="@dimen/nubia_wheel_textview_padding_top" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/nubia_time_second" android:layout_marginStart="38.0dip" />
+    </LinearLayout>
+</FrameLayout>

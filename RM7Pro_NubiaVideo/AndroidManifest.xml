@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="cn.nubia.video" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <original-package android:name="cn.nubia.video"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="zte.permission.BIND_DATA_COLLECTION"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <uses-configuration android:reqTouchScreen="finger"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="true"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="true"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@drawable/video_app_icon" android:label="@string/video" android:name="cn.nubia.video.list.app.VideoAppImpl" android:resizeableActivity="false" android:supportsRtl="true" android:usesCleartextTraffic="true">
+        <uses-library android:name="com.google.android.media.effects" android:required="false"/>
+        <provider android:authorities="cn.nubia.video.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="cn.nubia.video.list.app.VideoListActivity" android:theme="@style/Theme.NoTitle" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FORCE_TOUCH_ACTION_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/force_touch_shortcuts"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.video.player.PlayerActivity" android:showWhenLocked="true" android:theme="@style/Theme.FullScreenPlayer">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="rtsp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/x-msvideo"/>
+                <data android:mimeType="video/divx"/>
+                <data android:mimeType="video/mp2ts"/>
+                <data android:mimeType="video/x-ms-asf"/>
+                <data android:mimeType="video/x-ms-wmv"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="video/rmvb"/>
+                <data android:mimeType="video/mp2p"/>
+                <data android:mimeType="video/x-flv"/>
+                <data android:mimeType="video/flv"/>
+                <data android:mimeType="video/x-pn-realvideo"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter> !-- HTTP live support --&gt; <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="audio/mpegurl"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/x-mpegurl"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="cn.nubia.video.player.PIPPlayer">
+            <intent-filter>
+                <action android:name="cn.nubia.intent.action.PIPService"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="cn.nubia.video.player.RunningStatusProvider" android:exported="false" android:name="cn.nubia.video.player.RunningStatusProvider"/>
+        <receiver android:name="cn.nubia.commonui.widget.VideoForceTouchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="ACTION_CLICK_IMG1"/>
+                <action android:name="ACTION_CLICK_IMG2"/>
+                <action android:name="ACTION_CLICK_IMG3"/>
+                <action android:name="ACTION_CLICK_OPEN_APP"/>
+                <action android:name="ACTION_CLICK_OPEN_CAMERA"/>
+                <action android:name="ACTION_CLICK_MORE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/force_touch_widget_info"/>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.video.mediaeditorview.simpleeditor.SimpleVideoEditorActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullEditorPlayer">
+            <intent-filter>
+                <action android:name="nubia.intent.videoeditor"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="nubia.intent.videoeditor"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="nubia.intent.videoeditor"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="video/avc"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.nubia.video.mediaeditorview.gifmaker.SimpleGifMakerActivity" android:theme="@style/Theme.NoTitle">
+            <intent-filter>
+                <action android:name="nubia.intent.gifmaker"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/gif"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/video_app_icon" android:name="cn.nubia.video.permission.RequestPermissionsActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/video_app_icon" android:name="cn.nubia.video.permission.PremissionSetingActivity" android:theme="@style/Theme.NoTitle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/privacy_title" android:name="cn.nubia.video.privacy.PrivacyActivity" android:theme="@style/GallerySlideEffect"/>
+    </application>
+</manifest>

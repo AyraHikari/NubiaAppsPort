@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_item_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/city_list_icon_weather" android:layout_width="@dimen/weather_citylist_city_weather_width" android:layout_height="@dimen/weather_citylist_city_weather_height" android:layout_marginLeft="@dimen/weather_citylist_item_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/weather_citylist_location_city_name_margin_left" android:layout_toRightOf="@id/city_list_icon_weather" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/weather_citylist_location_city_name_text_size" android:textColor="@color/city_list_city_name_text_color" android:id="@id/city_list_text_city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_citylist_location_city_temperature_text_margin_top">
+            <TextView android:textSize="@dimen/weather_citylist_location_city_temperature_text_size" android:textColor="@color/city_list_temp_color" android:id="@id/city_list_text_city_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/city_list_drag_image" android:layout_width="@dimen/weather_citylist_item_view_height" android:layout_height="@dimen/weather_citylist_item_view_height" android:src="@drawable/ic_drag_image" android:scaleType="center" android:layout_alignParentRight="true" />
+    <CheckBox android:id="@id/weather_checkbox" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/weather_citylist_item_checkbox_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/drag_city_list_divide_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_divide_line_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

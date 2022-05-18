@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hint_view_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="155.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/page_hint_color" android:gravity="center" android:id="@id/hint_view_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/hint_view_logo" android:layout_centerHorizontal="true" />
+    <Button android:textSize="15.0sp" android:textColor="@color/page_hint_opencamera_color" android:gravity="center" android:id="@id/hint_view_button" android:background="@drawable/hint_button_bg" android:layout_width="156.0dip" android:layout_height="36.0dip" android:layout_marginBottom="32.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" style="?android:borderlessButtonStyle" />
+</merge>

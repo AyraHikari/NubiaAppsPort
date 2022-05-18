@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/musiclist_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.music.ui.MiniMusicPlayBar android:id="@id/music_player_layout" android:background="@color/nubia_mini_play_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="@dimen/dimen_15" />
+    <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/music_player_layout" android:layout_alignParentTop="true">
+        <cn.nubia.music.ui.ScrollRefreshListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    </RelativeLayout>
+    <cn.nubia.music.ui.MusicListDetailEmptyViewLayout android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/music_player_layout" style="@android:style/TextAppearance.Large" />
+</RelativeLayout>

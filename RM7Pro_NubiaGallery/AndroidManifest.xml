@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="cn.nubia.gallery3d" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <original-package android:name="cn.nubia.gallery3d"/>
+    <permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="nubia.permission.nbaccountservice"/>
+    <uses-permission android:name="nubia.permission.cloud"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="cn.nubia.permission.QUICK_PERMISSION_REQUEST"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="com.zte.heartyservice.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="zte.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-feature android:name="android.software.live_wallpaper"/>
+    <uses-permission android:name="cn.nubia.leagueshare.permission.BIND_NBSHARE_SERVICE"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@drawable/improve_slideshow_shortcuts" android:label="@string/app_name" android:largeHeap="true" android:logo="@drawable/improve_slideshow_shortcuts" android:name="cn.nubia.gallery3d.app.GalleryAppImpl" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/GalleryAppTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="android.max_aspect" android:value="2.4"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="cbe59fc7a726cdcea693672ef3e80cde"/>
+        <uses-library android:name="com.google.android.media.effects" android:required="false"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="unique_key" android:value="100105"/>
+        <service android:enabled="true" android:name="cn.nubia.gallery3d.dynamicwallpaper.service.VideoWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/my_wallpaper"/>
+        </service>
+        <service android:enabled="true" android:name="cn.nubia.gallery3d.dynamicwallpaper.service.OtherVideoWallpaperService" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/my_wallpaper"/>
+        </service>
+        <service android:exported="false" android:name="cn.nubia.upgrade.service.UpgradeService" android:process="cn.nubia.upgradeService"/>
+        <provider android:authorities="cn.nubia.gallery3d.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:finishOnTaskLaunch="true" android:label="@string/app_name" android:name="cn.nubia.gallery3d.app.Gallery" android:showWhenLocked="true" android:taskAffinity="com.android.gallery" android:theme="@style/GalleryAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_GALLERY"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <action android:name="cn.nubia.gallery.action.force.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme=""/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/bmp"/>
+                <data android:mimeType="image/jpeg"/>
+                <data android:mimeType="image/gif"/>
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/heic"/>
+                <data android:mimeType="image/webp"/>
+                <data android:mimeType="image/x-ms-bmp"/>
+                <data android:mimeType="image/vnd.wap.wbmp"/>
+                <data android:mimeType="image/x-adobe-dng"/>
+                <data android:mimeType="image/x-canon-cr2"/>
+                <data android:mimeType="image/x-nikon-nef"/>
+                <data android:mimeType="image/x-sony-arw"/>
+                <data android:mimeType="image/x-panasonic-rw2"/>
+                <data android:mimeType="image/x-olympus-orf"/>
+                <data android:mimeType="image/x-fuji-raf"/>
+                <data android:mimeType="image/x-pentax-pef"/>
+                <data android:mimeType="image/x-nikon-nrw"/>
+                <data android:mimeType="image/x-samsung-srw"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="gallery3d.action.FOLDER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <action android:name="cn.nubia.gallery.action.force.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/*"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nubia.intent.action.MARK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="gallery.action.forcetouch"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.nubia.launcher.action.ForceTouchSupport"/>
+            </intent-filter>
+            <meta-data android:name="ForceTouchActivityIntent" android:value="action=gallery.action.forcetouch;category=android.intent.category.DEFAULT"/>
+            <meta-data android:name="ForceTouchExtraValue_0" android:value="DataType;1"/>
+            <meta-data android:name="ForceTouchExtraDesc_0" android:value="@string/folder_camera"/>
+            <meta-data android:name="ForceTouchExtraValue_1" android:value="DataType;2"/>
+            <meta-data android:name="ForceTouchExtraDesc_1" android:value="@string/folder_mark"/>
+            <meta-data android:name="ForceTouchExtraValue_2" android:value="DataType;3"/>
+            <meta-data android:name="ForceTouchExtraDesc_2" android:value="@string/folder_screenshot"/>
+            <meta-data android:name="cn.nubia.launcher.forcetouch.shortcuts" android:resource="@xml/force_touch_shortcuts"/>
+        </activity>
+        <activity-alias android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.cooliris.media.Gallery" android:targetActivity="cn.nubia.gallery3d.app.Gallery">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:finishOnCloseSystemDialogs="true" android:label="@string/crop_wallpaper" android:name="cn.nubia.gallery3d.app.WallpaperCropActivity" android:theme="@style/Theme.WallpaperCropper">
+            <intent-filter>
+                <action android:name="com.android.camera.action.CROP"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:launchMode="singleInstance" android:name="cn.nubia.gallery3d.app.UsbDeviceActivity" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.app.Wallpaper" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter android:label="@string/camera_setas_wallpaper">
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview" android:resource="@xml/wallpaper_picker_preview"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/crop_label" android:name="cn.nubia.gallery3d.app.CropImage" android:theme="@style/GalleryCrop">
+            <intent-filter android:label="@string/crop_label">
+                <action android:name="com.android.camera.action.CROP"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:scheme=""/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="cn.nubia.gallery3d.app.SmartTagReceiver">
+            <intent-filter>
+                <action android:name="com.ztemt.nfctag.SET_WALLPAPER"/>
+                <action android:name="com.ztemt.nfctag.DELETE_WALLPAPER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.gallery3d.app.NubiaSecurityPrivacyReceiver">
+            <intent-filter>
+                <action android:name="cn.nubia.security.privacy.ACTION_ENCRYPT_SYNTASKS_ALL_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.gallery3d.app.GalleryForceTouchWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/force_touch_widget_info"/>
+        </receiver>
+        <uses-library android:name="com.google.android.media.effects" android:required="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.app.DialogPicker"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.app.AlbumPicker"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.gadget.WidgetTypeChooser" android:theme="@android:style/Theme.Holo.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/cloud_share_icon" android:label="@string/module_gallery" android:name="cn.nubia.cloud.ui.CloudAlbumSettingActivity" android:theme="@style/GallerySlideEffect">
+            <intent-filter>
+                <action android:name="nubia.cloud.SurfaceAdapter"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="nubia.cloud.module.Name" android:value="@string/module_gallery"/>
+            <meta-data android:name="nubia.cloud.module.Description" android:value="@string/module_gallery_description"/>
+            <meta-data android:name="nubia.cloud.module.GroupType" android:value="sync"/>
+        </activity>
+        <service android:exported="true" android:icon="@drawable/cloud_share_icon" android:label="@string/module_gallery" android:name="cn.nubia.cloud.sync.CloudGallerySyncService" android:permission="nubia.permission.cloud">
+            <intent-filter>
+                <action android:name="nubia.cloud.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="nubia.cloud.module.Token" android:value="GallerySync"/>
+            <meta-data android:name="nubia.cloud.module.Name" android:value="@string/module_gallery"/>
+            <meta-data android:name="nubia.cloud.module.Type" android:value="5"/>
+            <meta-data android:name="nubia.cloud.module.Description" android:value="@string/module_gallery_description"/>
+            <meta-data android:name="nubia.cloud.module.Visible" android:value="false"/>
+        </service>
+        <activity android:name="cn.nubia.improve.slideshow.SlideShowEffectActivity" android:screenOrientation="portrait" android:theme="@style/GallerySlideEffect"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.improve.slideshow.SlideShowSetAcitivity" android:theme="@style/GallerySlideEffect"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.improve.share.ShareMoreActivity" android:theme="@style/GallerySlideEffect"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="false" android:name="cn.nubia.gallery3d.app.GifView"/>
+        <activity android:configChanges="orientation|screenSize" android:name="cn.nubia.image3d.Image3dPlayerActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <receiver android:name="cn.nubia.cloud.backup.BatteryBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:name="cn.nubia.improve.nubiacloud.share.NubiaCloudShareActivity" android:screenOrientation="portrait" android:theme="@style/GalleryshareTheme">
+            <intent-filter android:icon="@drawable/cloud_share_icon" android:label="@string/title_cloud">
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:name="cn.nubia.cloud.ui.CloudAlbumBackupSetting" android:screenOrientation="portrait" android:theme="@style/GallerySlideEffect">
+            <intent-filter>
+                <action android:name="cn.nubia.cloud.ui.CloudAblumBackupSetting"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.video.player.PlayerActivity" android:theme="@style/Theme.FullScreenPlayer"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:name="cn.nubia.gallery3d.app.AlbumInfoPicker"/>
+        <service android:exported="false" android:name="cn.nubia.improve.xcloud.NubiaCloudTaskService"/>
+        <service android:name="cn.nubia.gallery3d.data.CommonService">
+            <intent-filter>
+                <action android:name="cn.nubia.gallery3d.commonservice"/>
+            </intent-filter>
+        </service>
+        <service android:name="cn.nubia.gallery3d.app.GetPictureService">
+            <intent-filter>
+                <action android:name="cn.nubia.gallery3d.app.getpicture"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="cn.nubia.gallery3d.app.AutoDeleteService"/>
+        <service android:exported="false" android:name="cn.nubia.improve.category.CategoryService"/>
+        <receiver android:name="cn.nubia.gallery3d.app.TimeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="cn.nubia.gallery3d.util.MountBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/privacy_title" android:name="cn.nubia.privacy.PrivacyActivity" android:theme="@style/GallerySlideEffect"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.permission.RequestPermissionsActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.permission.PremissionSetingActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.gallery3d.permission.RequestPermissionsActivityBase"/>
+        <receiver android:name="cn.nubia.gallery3d.dynamicwallpaper.manager.WallpaperChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

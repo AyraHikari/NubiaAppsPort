@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Poistetaanko valitut kohteet?</item>
+        <item quantity="one">Poistetaanko valittu kohde?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Asetetaan albumeja offline-käyttöön.</item>
+        <item quantity="one">Asetetaan albumeja offline-käyttöön.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="zero">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="zero">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="zero">%1$d valittu</item>
+        <item quantity="one">%1$d valittu</item>
+    </plurals>
+</resources>

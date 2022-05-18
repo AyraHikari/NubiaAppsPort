@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/portrait_pretty_setting" style="@style/FragmentCenterSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pretty_high_settings_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_120" android:layout_alignParentBottom="true">
+        <cn.nubia.camera.pretty.LargeMultipleTouchableRelativeLayout android:id="@id/pretty_high_settings" android:layout_width="fill_parent" android:layout_height="fill_parent" android:translationY="@dimen/dimens_67">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/handler" android:background="@drawable/nubia_white_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_15" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/pretty_handler_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/pretty_setting_title" android:singleLine="true" android:layout_marginEnd="@dimen/dimens_6" />
+                <TextView android:textSize="@dimen/dimens_12" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/bokeh_handle_text" android:background="@drawable/microspur_layout_container_middle_unselect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/portrait_setting_bokeh_title" android:singleLine="true" />
+                <ImageView android:id="@id/handler_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_arrow_up" android:scaleType="center" android:foregroundGravity="center" />
+            </LinearLayout>
+            <cn.nubia.camera.pretty.WaterDropSeekbar android:id="@id/pretty_seekbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <cn.nubia.camera.pretty.WaterDropSeekbar android:id="@id/bokeh_seekbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </cn.nubia.camera.pretty.LargeMultipleTouchableRelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dimens_14" android:textColor="@color/alpha87_white" android:gravity="center" android:id="@id/pretty_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_120" android:text="@string/pretty_iso_tip" android:shadowColor="#ff000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="25.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/bigaperture_tip" android:visibility="gone" android:layout_marginTop="@dimen/dimens_15" android:text="@string/bigaperture_tip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/permanent_hint" />
+</RelativeLayout>

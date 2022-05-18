@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="color_chip_all_day_height">64</integer>
+    <integer name="color_chip_height">32</integer>
+    <integer name="month_day_number_margin">8</integer>
+    <integer name="text_size_event_title">12</integer>
+    <integer name="text_size_month_number">24</integer>
+</resources>

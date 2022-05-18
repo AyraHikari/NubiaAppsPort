@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/main_layout_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/city_add_back_layout" android:background="#00ffffff" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip">
+                <FrameLayout android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/city_add_back_img" android:background="@drawable/nubia_ic_ab_back_material_new" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <TextView android:textSize="17.0dip" android:textColor="@drawable/back_selector" android:id="@id/tv_cityadd_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/cities_activity_title" style="@style/NubiaFontMedium" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/search_city" android:background="@drawable/action_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="20.669983dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/listview_background_color" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:id="@id/listview_dimmed_background" android:background="@color/listview_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.nubia.deskclock.util.PinnedHeaderListView android:id="@id/cities_list" android:background="@color/listview_background_color" android:visibility="invisible" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transcriptMode="alwaysScroll" android:divider="@null" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="30.0dip" android:layout_alignParentStart="true" />
+        <cn.nubia.commonui.widget.NubiaCharacterListView android:id="@id/rightCharacterListView" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:layout_marginBottom="190.0dip" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/newcity_list_empty" android:background="@color/listview_background_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="150.0dip">
+        <TextView android:id="@id/newcity_list_empty_text" android:background="@color/listview_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newcity_list_empty" style="@style/Widget.Nubia.NubiaEmptyView" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/search_editview_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/layout_header_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_search_view_layout_height">
+            <cn.nubia.commonui.widget.NubiaSearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nubia_search_view_margin" android:layout_weight="1.0" android:inputType="textFilter" android:iconifiedByDefault="false" android:layout_marginEnd="@dimen/nubia_search_view_margin" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

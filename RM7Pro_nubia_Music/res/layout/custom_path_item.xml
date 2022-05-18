@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/listview_item_padding" android:paddingRight="@dimen/listview_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ark_216_px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/folder_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:id="@id/folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ArkWhiteTransparent87BigTextStyle" />
+        <TextView android:id="@id/folder_Description" android:layout_width="@dimen/ark_320_px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ark_15_px" android:singleLine="true" android:layout_toRightOf="@id/folder_name" style="@style/ArkWhiteTransparent87BigTextStyle" />
+        <TextView android:id="@id/folder_song_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ark_3_px" android:singleLine="true" android:layout_below="@id/folder_name" style="@style/ArkGreySmallTextStyle" />
+        <TextView android:id="@id/folder_song_path" android:layout_width="@dimen/ark_750_px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ark_10_px" android:layout_marginTop="@dimen/ark_3_px" android:singleLine="true" android:layout_toRightOf="@id/folder_song_count" android:layout_below="@id/folder_name" style="@style/ArkGreySmallTextStyle" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/chk_lay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ark_musicindicator_marginright" android:layout_marginRight="@dimen/ark_musicindicator_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/folder_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

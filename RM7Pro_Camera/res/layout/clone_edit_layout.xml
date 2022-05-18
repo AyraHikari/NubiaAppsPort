@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/edit_thum_layout" android:background="@color/bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_72" android:layoutDirection="ltr">
+        <RelativeLayout android:gravity="center" android:id="@id/edit_thum1_layout" android:background="@drawable/clone_thum_click" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/edit_thum1" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" android:scaleType="fitXY" />
+            <ImageView android:id="@id/edit_thum1_bg" android:background="@color/clone_thum_bg" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/edit_thum2_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_8">
+            <ImageView android:id="@id/edit_thum2" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" android:scaleType="fitXY" />
+            <ImageView android:id="@id/edit_thum2_bg" android:background="@color/clone_thum_bg" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/edit_thum3_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_8">
+            <ImageView android:id="@id/edit_thum3" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" android:scaleType="fitXY" />
+            <ImageView android:id="@id/edit_thum3_bg" android:background="@color/clone_thum_bg" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/edit_thum4_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_8">
+            <ImageView android:id="@id/edit_thum4" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" android:scaleType="fitXY" />
+            <ImageView android:id="@id/edit_thum4_bg" android:background="@color/clone_thum_bg" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/edit_thum5_layout" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimens_8">
+            <ImageView android:id="@id/edit_thum5" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" android:scaleType="fitXY" />
+            <ImageView android:id="@id/edit_thum5_bg" android:background="@color/clone_thum_bg" android:focusable="false" android:layout_width="@dimen/dimens_56" android:layout_height="@dimen/dimens_56" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/edit_tool_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_70" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/draw_button" android:background="@drawable/clone_make_bg_press" android:layout_width="@dimen/dimens_80" android:layout_height="@dimen/dimens_36">
+                <ImageView android:id="@id/draw_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clone_draw_press" />
+                <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/clone_edit_text_color_pressed" android:id="@id/draw_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clone_draw" android:layout_marginStart="@dimen/dimens_4" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clean_button" android:background="@drawable/clone_make_bg_no_press" android:layout_width="@dimen/dimens_80" android:layout_height="@dimen/dimens_36" android:layout_marginStart="@dimen/dimens_8">
+                <ImageView android:id="@id/clean_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clone_clean_no_press" />
+                <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/clone_edit_text_color_no_pressed" android:id="@id/clean_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clone_clean" android:layout_marginStart="@dimen/dimens_4" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/clone_specification" android:layout_width="@dimen/dimens_36" android:layout_height="@dimen/dimens_36" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimens_27" android:layout_alignParentEnd="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clone_specification" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

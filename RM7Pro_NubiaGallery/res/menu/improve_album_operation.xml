@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/improve_unselect_all" android:id="@id/select_all" android:visible="false" android:title="@string/select_all" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/menu_cloud_download_operation" android:id="@id/action_download" android:visible="false" android:title="@string/download" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_share_operation" android:id="@id/action_share" android:visible="false" android:title="@string/share" android:actionProviderClass="android.widget.ShareActionProvider" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_share_operation" android:enabled="true" android:id="@id/action_share_new" android:visible="true" android:title="@string/share" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_share_operation" android:enabled="true" android:id="@id/action_collage" android:visible="true" android:title="@string/share" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_delete_operation" android:id="@id/action_recycle" android:visible="true" android:title="@string/delete" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/menu_delete_operation" android:id="@id/action_real_delete" android:visible="false" android:title="@string/delete" app:showAsAction="always" />
+    <item android:icon="@drawable/menu_more_operation" android:id="@id/action_more_new" android:visible="true" android:title="@string/more" app:showAsAction="always|withText">
+        <menu>
+            <item android:icon="@drawable/menu_delete_operation" android:id="@id/action_cloud_delete" android:visible="true" android:title="@string/delete" app:showAsAction="always|withText" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center|right" android:layout_gravity="center|right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.music.ui.ScrollForeverTextView android:textSize="@dimen/textsize_51" android:textColor="@color/cf25252" android:ellipsize="marquee" android:id="@id/title_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dimen_600" android:scrollHorizontally="true" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="marquee_forever" android:textIsSelectable="false" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    <ImageView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/more_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ark_48_px" android:layout_marginRight="@dimen/ark_30_px" android:src="@drawable/actionbar_more_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

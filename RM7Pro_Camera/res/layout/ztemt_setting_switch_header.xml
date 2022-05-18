@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setting.ZtemtInlineSettingSwitch android:gravity="center_vertical" android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ztemt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dimens_16" android:paddingEnd="@dimen/dimens_16">
+        <RelativeLayout android:id="@id/text_layout" android:paddingTop="@dimen/dimens_14" android:paddingBottom="@dimen/dimens_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dimens_60" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/dimens_16" android:textColor="@color/settings_main_text_color" android:ellipsize="end" android:layout_gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/dimens_12" android:textColor="@color/settings_sub_text_color" android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+        </RelativeLayout>
+        <com.android.common.ui.MySwitch android:id="@id/setting_switch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true" ztemt:switchMinHeight="@dimen/dimens_28" ztemt:switchMinWidth="@dimen/dimens_47" ztemt:switchPadding="@dimen/dimens_4" ztemt:thumbOff="@drawable/nubia_switch_thumb_mtrl_off" ztemt:thumbOn="@drawable/nubia_switch_thumb_mtrl_on" ztemt:trackOff="@drawable/nubia_switch_track_mtrl_on" ztemt:trackOn="@drawable/nubia_switch_track_mtrl_on" />
+    </RelativeLayout>
+</com.android.setting.ZtemtInlineSettingSwitch>

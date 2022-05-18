@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/empty_focused_drawable" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center_horizontal" android:id="@id/camera_preview_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/captureanim_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <include layout="@layout/camera_member_switcher" />
+    <FrameLayout android:id="@id/camera_family_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/camera_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/screen_toast_layout_stub" android:layout="@layout/camera_toast_hint_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/prismadownload" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/more_settings_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.common.ui.OpaqueTextView android:textSize="@dimen/dimens_14" android:textColor="@color/alpha80_white" android:gravity="center" android:id="@id/wake_up_view" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/wake_camera_text" android:paddingStart="@dimen/dimens_20" android:paddingEnd="@dimen/dimens_20" />
+    <ViewStub android:id="@id/viewStub_debugview" android:layout="@layout/nubiacamera_debugview" style="@style/FragmentCenterSize" />
+</FrameLayout>

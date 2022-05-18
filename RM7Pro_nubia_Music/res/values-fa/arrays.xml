@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>بستن</item>
+        <item>۱۰ دقیقه</item>
+        <item>۳۰ دقیقه</item>
+        <item>۶۰ دقیقه</item>
+        <item>۹۰ دقیقه</item>
+    </string-array>
+</resources>

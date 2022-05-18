@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Да се изтрият ли избраните?</item>
+        <item quantity="one">Да се изтрие ли избраното?</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Албумите стават достъпни офлайн.</item>
+        <item quantity="one">Албумът става достъпен офлайн.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">Избрани: %1$d</item>
+        <item quantity="zero">Избрани: %1$d</item>
+        <item quantity="one">Избрани: %1$d</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">Избрани: %1$d</item>
+        <item quantity="zero">Избрани: %1$d</item>
+        <item quantity="one">Избрани: %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Избрани: %1$d</item>
+        <item quantity="zero">Избрани: %1$d</item>
+        <item quantity="one">Избрани: %1$d</item>
+    </plurals>
+</resources>

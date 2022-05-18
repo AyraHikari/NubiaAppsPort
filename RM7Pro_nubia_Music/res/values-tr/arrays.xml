@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="content_str_array">
+        <item>Kapat</item>
+        <item>15 dakika</item>
+        <item>30 Dakika</item>
+        <item>45 Dakika</item>
+        <item>60 Dakika</item>
+        <item>90 Dakika</item>
+    </string-array>
+    <string-array name="hot_radio_list">
+        <item>Xiami Popüler şarkılar</item>
+        <item>Klasikler</item>
+        <item>En son</item>
+        <item>İngilizce şarkılar</item>
+        <item>Tempo müzik</item>
+        <item>Çin POP müziği</item>
+        <item>Uyku müziği</item>
+        <item>Eski Kanton şarkıları</item>
+        <item>Hafif müzik</item>
+    </string-array>
+    <string-array name="top_type_list_xiami">
+        <item>Xiami Müzik Listesi</item>
+        <item>Xiami Yeni Şarkılar Listesi</item>
+        <item>Xiami Orijinal Şarkılar Listesi</item>
+        <item>Oricon Şarkıları Listesi</item>
+        <item>Hong Kong Şarkıları Listesi</item>
+        <item>Billboard Şarkıları Listesi</item>
+        <item>HITO Çince Şarkılar Listesi</item>
+        <item>M-net Haftanın Listesi</item>
+        <item>Birleşik Krallık şarkıları listesi</item>
+    </string-array>
+</resources>

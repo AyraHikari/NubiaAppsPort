@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/float_calculator_display_background" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.calculator2.CalculatorDisplay android:orientation="vertical" android:id="@id/display" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/toolbar_float" />
+        <com.android.calculator2.CalculatorScrollView4Float android:id="@id/formula_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:overScrollMode="never" android:paddingStart="@dimen/mfvc_large_padding" android:paddingEnd="@dimen/mfvc_large_padding">
+            <com.android.calculator2.CalculatorFormula android:textSize="24.0sp" android:textColor="@color/float_formula_text_color" android:ellipsize="none" android:gravity="end|center|top" android:id="@id/formula" android:layout_width="fill_parent" android:layout_height="@dimen/float_calculator_formula_height" android:singleLine="true" android:inputType="textNoSuggestions" android:fontFamily="sans-serif-light" />
+        </com.android.calculator2.CalculatorScrollView4Float>
+        <com.android.calculator2.CalculatorResult android:textSize="18.0sp" android:textColor="@color/display_result_text_color" android:gravity="end|center|top" android:id="@id/result" android:layout_width="fill_parent" android:layout_height="42.0dip" android:bufferType="spannable" android:singleLine="true" android:fontFamily="sans-serif-light" android:paddingEnd="@dimen/mfvc_large_padding" />
+    </com.android.calculator2.CalculatorDisplay>
+    <View android:background="@color/float_background_color_start" android:layout_width="fill_parent" android:layout_height="0.25dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

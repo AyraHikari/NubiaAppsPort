@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_alarm">Engeza i-alamu</string>
+    <string name="alarm_alert_alert_silenced">I-alamu ithuliswe emva kwamaminithi angu-%d</string>
+    <string name="alarm_alert_dismiss_text">Cashisa</string>
+    <string name="alarm_alert_snooze_set">Iyozela %d amaminithi</string>
+    <string name="alarm_alert_snooze_text">Ukusnuza</string>
+    <string name="alarm_alert_snooze_until">Snuza kuze kube ngu-%s</string>
+    <string name="alarm_klaxon_service_desc">Insiza yokudlala komsindo we-alamu usethwe ku-Desk Clock.</string>
+    <string name="alarm_repeat">Phindaphinda</string>
+    <string name="alarm_vibrate">Dlidliza</string>
+    <string name="alert">Ithoni yokukhala ye-alamu</string>
+    <string name="app_label">Iwashi</string>
+    <string name="cities_activity_title">Amadolobha</string>
+    <string name="day">Usuku olungu-1</string>
+    <string name="day_concat">", "</string>
+    <string name="days">%s izinsuku</string>
+    <string name="delete_alarm">Susa i-alamu</string>
+    <string name="enable_alarm">Vula i-alamu</string>
+    <string name="every_day">Nsuku zonke</string>
+    <string name="hour">1 ihora</string>
+    <string name="hours">%s amahora</string>
+    <string name="hours_label">h</string>
+    <string name="loading_ringtone">Ilayisha iringithoni...</string>
+    <string name="minute">1 iminithi</string>
+    <string name="minutes">%s amaminithi</string>
+    <string name="minutes_label">m</string>
+    <string name="never">Akusoze</string>
+    <string name="seconds_label">s</string>
+    <string name="silent_alarm_summary">Thulile</string>
+    <string name="sw_start_button">Qala</string>
+    <string name="timer_cancel">Khansela</string>
+    <string name="timer_delete">Susa</string>
+    <string name="timer_stop">Misa</string>
+    <string name="hours_label_description">amahora</string>
+    <string name="minutes_label_description">amaminithi</string>
+    <string name="seconds_label_description">amasekhondi</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+</resources>

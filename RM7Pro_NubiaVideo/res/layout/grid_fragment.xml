@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/topImageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/statusbar_actionbar_panel" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:id="@id/titleLayout" android:layout_width="fill_parent" android:layout_height="@dimen/activity_title_height" android:layout_marginTop="@dimen/activity_statusbar_height" android:layout_alignStart="@id/topImageView" android:layout_alignEnd="@id/topImageView">
+        <include layout="@layout/vertical_actionbar" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/app_bg" android:paddingTop="@dimen/activity_title_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titleLayout">
+        <android.support.v7.widget.RecyclerView android:scrollbarSize="3.0dip" android:scrollbarThumbVertical="@drawable/scrobar_bg" android:layout_gravity="center" android:id="@id/gridRecyclerView" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/grid_recycler_view_left_padding" />
+    </RelativeLayout>
+</RelativeLayout>

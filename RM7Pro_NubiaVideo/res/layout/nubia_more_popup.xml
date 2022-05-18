@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.video.commonui.app.MorePopupRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/nubia_more_popup_panel" android:background="@drawable/nubia_dialog_background_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/nubia_more_popup_mock_status_bar" android:background="@android:color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_status_bar_height" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/nubia_more_popup_top_View" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_action_bar_default_height" />
+        <View android:id="@id/nubia_more_popup_top_divider" android:background="?throughDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:id="@id/nubia_more_popup_dropdown" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ListView android:id="@id/nubia_more_popup_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+        </LinearLayout>
+        <View android:id="@id/nubia_more_popup_bottom_divider" android:background="?throughDivider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/nubia_more_popup_bottom_View" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_alert_dialog_button_layout_height" android:layout_marginBottom="8.0dip" />
+    </LinearLayout>
+</cn.nubia.video.commonui.app.MorePopupRelativeLayout>

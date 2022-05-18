@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/toolbarModeTextColor" android:id="@id/mode_old" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end" android:id="@id/more_act" android:visibility="gone" android:layout_width="@dimen/maintoolbar_moreact_width" android:layout_height="@dimen/maintoolbar_moreact_height" android:layout_marginBottom="@dimen/more_action_margin_bottom" android:src="@drawable/show_history" android:contentDescription="@string/desc_more_act" android:layout_marginEnd="@dimen/mfvc_large_padding" />
+    <ImageView android:layout_gravity="end" android:id="@id/picinpic" android:visibility="gone" android:layout_width="@dimen/maintoolbar_moreact_width" android:layout_height="@dimen/maintoolbar_moreact_height" android:layout_marginBottom="@dimen/more_action_margin_bottom" android:src="@drawable/floating_exit" android:contentDescription="@string/desc_more_act" android:layout_marginEnd="@dimen/mfvc_large_padding" />
+    <ImageView android:layout_gravity="end" android:id="@id/mod_change" android:visibility="gone" android:layout_width="@dimen/maintoolbar_moreact_width" android:layout_height="@dimen/maintoolbar_moreact_height" android:layout_marginBottom="@dimen/more_action_margin_bottom" android:src="@drawable/calculator_basic" android:contentDescription="@string/desc_more_act" android:layout_marginEnd="@dimen/mfvc_large_padding" />
+</Toolbar>

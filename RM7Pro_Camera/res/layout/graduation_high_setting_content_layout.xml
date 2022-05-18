@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/high_setting_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/high_setting_shutter_speed_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_157">
+        <RelativeLayout android:id="@id/high_setting_shutter_speed_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.ShutterSpeedView android:id="@id/shutter_speed_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/shutter_view" android:background="#4c000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/high_setting_shutter_speed_graduation_layout">
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimens_16" android:layout_marginRight="@dimen/dimens_16" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/high_setting_metering_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_above="@id/shutter_view">
+            <cn.nubia.camera.prosetting.ui.MeteringModeView android:id="@id/metering_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/shutter_metering_textView_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/high_setting_metering_graduation_layout">
+            <TextView android:textSize="@dimen/dimens_12" android:id="@id/shutter_metering_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_background_brightness_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_background_brightness_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.BackgroundBrightnessView android:id="@id/background_brightness_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/background_brightness_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_background_brightness_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_awb_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_157">
+        <RelativeLayout android:id="@id/high_setting_wb_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.WhiteBalanceView android:id="@id/wb_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/awb_view" android:background="#4c000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/high_setting_wb_graduation_layout">
+            <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimens_16" android:layout_marginRight="@dimen/dimens_16" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/high_setting_color_tint_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_above="@id/awb_view">
+            <cn.nubia.camera.prosetting.ui.ColorTintView android:id="@id/color_tint_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/awb_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:singleLine="true" android:layout_above="@id/high_setting_color_tint_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_iso_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_iso_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.ISOSensitivityView android:id="@id/iso_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/iso_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_iso_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_focus_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_focus_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.ManualFocusView android:id="@id/focus_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/focus_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_focus_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_microspur_focus_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_microspur_focus_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.MicrospurManualFocusView android:id="@id/microspur_focus_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/microspur_focus_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_microspur_focus_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_electronic_aperture_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_electronic_aperture_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.ElectronicApertureView android:id="@id/electronic_aperture_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/electronic_aperture_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_electronic_aperture_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_shutter_compensation_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_shutter_compensation_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.ShutterCompensationView android:id="@id/shutter_compensation_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/shutter_compensation_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_shutter_compensation_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_exposure_compensation_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <include layout="@layout/high_setting_item_ev" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_interval_shot_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <include layout="@layout/high_setting_item_interval" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_number_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_number_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.NumberView android:id="@id/number_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/number_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_number_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/high_setting_duration_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_97">
+        <RelativeLayout android:id="@id/high_setting_duration_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.DurationView android:id="@id/duration_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/duration_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_duration_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+</RelativeLayout>

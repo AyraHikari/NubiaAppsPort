@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d event</item>
+        <item quantity="one">‘+1 เหตุการณ์</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%d วัน</item>
+        <item quantity="one">1 วัน</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d เหตุการณ์</item>
+        <item quantity="one">1 เหตุการณ์</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">สัปดาห์ที่ %d</item>
+    </plurals>
+</resources>

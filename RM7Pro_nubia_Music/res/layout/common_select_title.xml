@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/titleLayout" android:layout_width="fill_parent" android:layout_height="@dimen/ark_169_px" android:layout_marginLeft="@dimen/ark_72_px" android:layout_marginRight="@dimen/ark_72_px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ark_textsize_big" android:id="@id/title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pick_path" android:layout_centerInParent="true" />
+</RelativeLayout>

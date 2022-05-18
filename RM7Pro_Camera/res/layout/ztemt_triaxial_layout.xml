@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ztemt_triaxial_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/ztemt_triaxial_tip" />
+    <RelativeLayout android:id="@id/progress_view_layout" android:background="@color/bar_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_6" android:layout_marginBottom="@dimen/dimens_173" android:layout_alignParentBottom="true">
+        <ProgressBar android:gravity="right" android:id="@id/triaxial_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_6" android:progressDrawable="@drawable/triaxial_progressbar_color" style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <TextView android:id="@id/move_tip_textid" android:visibility="gone" android:layout_marginTop="@dimen/dimens_158" android:text="@string/move_tip_text" android:layout_centerHorizontal="true" style="@style/TopTipStyle" />
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/progress_view_layout">
+        <ImageView android:id="@id/id_arrow_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triaxial_arrow_up" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/id_arrow_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triaxial_arrow_down" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/id_arrow_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triaxial_arrow_left" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/id_arrow_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/triaxial_arrow_right" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/triaxial_stop_shutter_layout" style="@style/InnerBottomBarSize">
+        <com.android.common.ui.shutterbutton.ZtemtShutterButton android:id="@id/triaxial_stop_shutter_button" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <com.android.common.ui.shutterbutton.MultiFunctionImageView android:id="@id/triaxial_stop_shutter_button_icon" android:layout_width="@dimen/dimens_82_7" android:layout_height="@dimen/dimens_82_7" android:src="@drawable/shutter_camera" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_shutter_button" />
+        </com.android.common.ui.shutterbutton.ZtemtShutterButton>
+    </RelativeLayout>
+</RelativeLayout>

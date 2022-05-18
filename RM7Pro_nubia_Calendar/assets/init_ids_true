@@ -1,0 +1,16 @@
+# appID,bannerID,insertID,splashID,NativeID 正式
+IDS=97,13,8,320,10,120
+# 纯图片，图文
+BANNER_IDS=7,7
+# 原生补充
+NATIVE_ID=10
+SEARCH_ID=161
+
+
+# appID,bannerID,insertID,splashID,NativeID 测试
+#IDS=72,13,8,483,10,120
+# 纯图片，图文
+BANNER_IDS=7,7
+# 原生补充
+NATIVE_ID=10
+SEARCH_ID=161

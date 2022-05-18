@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Matasa</item>
+        <item>Yatholakala</item>
+        <item>Okwesikhashana</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Usuku</item>
+        <item>Iviki</item>
+        <item>Inyanga</item>
+        <item>Ajenda</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Kuphela le senzakalo</item>
+        <item>Zonke izenzakalo ochungechungeni</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Kuphela le senzakalo</item>
+        <item>Lona kanye neyakusasa imicimbi</item>
+        <item>Zonke izenzakalo</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Lokhu &amp; izenzakalo zesikhathi esizayo</item>
+        <item>Zonke izenzakalo</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>okokuqala</item>
+        <item>isekhondi</item>
+        <item>okwesithathu</item>
+        <item>okwesine</item>
+        <item>okokugcina</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Njalo</item>
+        <item>Kuphela uma ithulile</item>
+        <item>Akusoze</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Lutho</item>
+        <item>0 amaminithi</item>
+        <item>1 iminithi</item>
+        <item>5 amaminithi</item>
+        <item>10 amaminithi</item>
+        <item>15 amaminithi</item>
+        <item>20 amaminithi</item>
+        <item>25 amaminithi</item>
+        <item>30 amaminithi</item>
+        <item>45 amaminithi</item>
+        <item>1 ihora</item>
+        <item>2 amahora</item>
+        <item>3 amahora</item>
+        <item>12 amahora</item>
+        <item>24 amahora</item>
+        <item>2 izinsuku</item>
+        <item>1 iviki</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Okuzenzakalelayo kwezici zakhona</item>
+        <item>Umgqibelo</item>
+        <item>Isonto</item>
+        <item>Umsombuluko</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Isaziso</item>
+        <item>I-imeyili</item>
+        <item>SMS</item>
+        <item>I-alamu</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 amaminithi</item>
+        <item>1 iminithi</item>
+        <item>5 amaminithi</item>
+        <item>10 amaminithi</item>
+        <item>15 amaminithi</item>
+        <item>20 amaminithi</item>
+        <item>25 amaminithi</item>
+        <item>30 amaminithi</item>
+        <item>45 amaminithi</item>
+        <item>1 ihora</item>
+        <item>2 amahora</item>
+        <item>3 amahora</item>
+        <item>12 amahora</item>
+        <item>24 amahora</item>
+        <item>2 izinsuku</item>
+        <item>1 iviki</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Ayikho impendulo</item>
+        <item>Yebo</item>
+        <item>Mhlawumbe</item>
+        <item>Cha</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>esase-Marshall Islands</item>
+        <item>esase-Midway Island</item>
+        <item>esase-Hawaii</item>
+        <item>esase-Alaska</item>
+        <item>esase-Pacific Time</item>
+        <item>esase-Tijuana</item>
+        <item>i-Arizona</item>
+        <item>esase-Chihuahua</item>
+        <item>esase-Mountain Time</item>
+        <item>i-Central America</item>
+        <item>esase-Central Time</item>
+        <item>esase-Mexico City</item>
+        <item>esase-Saskatchewan</item>
+        <item>esase-Bogota</item>
+        <item>esase-Eastern Time</item>
+        <item>esase-Venezuela</item>
+        <item>Isikhathi sase-Atlantic (Barbados)</item>
+        <item>Isikhathi sase-Atlantic (Canada)</item>
+        <item>Sase-Manaus</item>
+        <item>Sase-Santiago</item>
+        <item>Sase-Newfoundland</item>
+        <item>Sase-Brasilia</item>
+        <item>Sase-Buenos Aires</item>
+        <item>Sase-Greenland</item>
+        <item>Sase-Montevideo</item>
+        <item>Sase-Mid-Atlantic</item>
+        <item>Sase-Azores</item>
+        <item>Sase-Cape Verde Islands</item>
+        <item>Sase-Casablanca</item>
+        <item>Sase-London, Dublin</item>
+        <item>Sase-Amsterdam, Berlin</item>
+        <item>Sase-Belgrade</item>
+        <item>Sase-Brussels</item>
+        <item>Sase-Sarajevo</item>
+        <item>esase-Windhoek</item>
+        <item>Isikhathi Sasentshonalanga Afrika</item>
+        <item>esase-Amman, ne-Jordan</item>
+        <item>esease-Athens, ne-Istanbul</item>
+        <item>esase-Beirut, nase-Lebanon</item>
+        <item>esase-Cairo</item>
+        <item>esase-Helsinki</item>
+        <item>esase-Jerusalem</item>
+        <item>esase-Minsk</item>
+        <item>esase-Harare</item>
+        <item>esase-Baghdad</item>
+        <item>esase-Moscow</item>
+        <item>esase-Kuwait</item>
+        <item>esase-Nairobi</item>
+        <item>esase-Tehran</item>
+        <item>esase-Baku</item>
+        <item>esase-Tbilisi</item>
+        <item>esase-Yerevan</item>
+        <item>esase-Dubai</item>
+        <item>esase-Kabul</item>
+        <item>esase-Islamabad, ne-Karachi</item>
+        <item>"esase-Ural'sk"</item>
+        <item>esase-Yekaterinburg</item>
+        <item>esase-Kolkata</item>
+        <item>esase-Sri Lanka</item>
+        <item>esase-Kathmandu</item>
+        <item>esase-Astana</item>
+        <item>esase-Yangon</item>
+        <item>esase-Krasnoyarsk</item>
+        <item>esase-Bangkok</item>
+        <item>esase-Beijing</item>
+        <item>esase-Hong Kong</item>
+        <item>esase-Irkutsk</item>
+        <item>esase-Kuala Lumpur</item>
+        <item>esase-Perth</item>
+        <item>i-Taipei</item>
+        <item>esase-Seoul</item>
+        <item>esase-Tokyo, ne-Osaka</item>
+        <item>esase-Yakutsk</item>
+        <item>esase-Adelaide</item>
+        <item>esase--Darwin</item>
+        <item>esase-Brisbane</item>
+        <item>esase-Hobart</item>
+        <item>esase-Sydney, ne-Canberra</item>
+        <item>esase-Vladivostok</item>
+        <item>esase-Guam</item>
+        <item>esase-Magadan</item>
+        <item>esase-Auckland</item>
+        <item>esase-Fiji</item>
+        <item>isi-Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Okuzenzakalelayo</item>
+        <item>Imfihlo</item>
+        <item>Okusesidlangalaleni</item>
+    </string-array>
+</resources>

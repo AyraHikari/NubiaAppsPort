@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notepad_alert_dialog_cancel">لغو</string>
+    <string name="notepad_alert_dialog_ok">تأیید</string>
+    <string name="notepad_app_name">دفترچه یادداشت</string>
+    <string name="notepad_choose_multi_note">:%1$dیادداشت‌های انتخابی</string>
+    <string name="notepad_delete_multi_message">مطمئنید که می‌خواهید ‎ مورد دارای علامت را حذف کنید؟</string>
+    <string name="notepad_delete_single_message">مطمئنید که می‌خواهید این یادداشت را حذف کنید؟</string>
+    <string name="notepad_empty_search">مثانیه</string>
+    <string name="notepad_help_title_2">Tip: Long press the list to select Top or delete.</string>
+    <string name="notepad_help_title_3">Tip: Click more to add color markers.</string>
+    <string name="notepad_list_empty">میادداشت‌های خالی</string>
+    <string name="notepad_remind_time_invalid">The time is invalid</string>
+    <string name="notepad_search">جستجو</string>
+    <string name="notepad_share">اشتراک‌گذاری</string>
+    <string name="notepad_today">امروز</string>
+    <string name="notepad_yesterday">ديروز</string>
+</resources>

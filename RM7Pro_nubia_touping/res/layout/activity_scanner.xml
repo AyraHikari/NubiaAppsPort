@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_gravity="center" android:id="@id/scanner_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.zxing.view.ViewfinderView android:id="@id/viewfinder_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:corner_color="@color/corner_color" app:laser_color="@color/laser_color" app:frame_color="@color/viewfinder_frame" app:mask_color="@color/viewfinder_mask" app:result_point_color="@color/result_point_color" app:result_color="@color/result_view" app:label_text_color="@color/textColorWhite" app:label_text_1="@string/scan_notes_nubia_1" app:label_text_2="@string/scan_notes_nubia_2" app:label_text_3="@string/scan_notes_nubia_3" app:label_text_4="@string/scan_notes_nubia_4" app:laser_drawable="@drawable/scan_laser" />
+        <include layout="@layout/scanner_toolbar" />
+    </FrameLayout>
+    <TextView android:textColor="@color/textColorWhite" android:id="@id/scandetalTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:text="@string/scan_notes_nubia_scandetail" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">นำทางไปหน้าแรก</string>
+    <string name="abc_action_bar_up_description">กลับ</string>
+    <string name="abc_action_menu_overflow_description">ตัวเลือกอื่น</string>
+    <string name="abc_action_mode_done">เสร็จ</string>
+    <string name="abc_activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="abc_activitychooserview_choose_application">เลือกแอป</string>
+    <string name="abc_capital_off">ปิด</string>
+    <string name="abc_capital_on">เปิด</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">ลบ</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">เมนู+</string>
+    <string name="abc_search_hint">ค้นหา…</string>
+    <string name="abc_searchview_description_clear">ล้างคำค้นหา</string>
+    <string name="abc_searchview_description_query">คำค้นหา</string>
+    <string name="abc_searchview_description_search">ค้นหา</string>
+    <string name="abc_searchview_description_submit">ส่งคำค้นหา</string>
+    <string name="abc_searchview_description_voice">ค้นหาด้วยเสียง</string>
+    <string name="abc_shareactionprovider_share_with">แชร์กับ</string>
+    <string name="abc_shareactionprovider_share_with_application">แชร์ทาง %s</string>
+    <string name="abc_toolbar_collapse_description">ยุบ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="clone_specification_introduction_content">โคลนเป็นชนิดของโหมดการถ่ายภาพตลก โคลนคนและวัตถุในฉากเดียวกันผ่านการถ่ายภาพต่อเนื่องที่เคลื่อนที่เพื่อสร้างภาพใหม่</string>
+    <string name="clone_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="clone_specification_need">ถ่าย ภาพเดียวกัน, (มือถือ) ถือโทรศัพท์มั่นคง</string>
+    <string name="clone_specification_photo1">โคลนคนเดียวกันเป็นหลายๆคนภายใต้ฉากที่เหมือนกัน</string>
+    <string name="clone_specification_photo2">การถ่ายภาพแบบแขวนอยู่</string>
+    <string name="clone_specification_step">"1.  เลือกฉาก การถ่ายเพื่อให้พื้นหลังเหลื่อม. 
+2 ย้ายวัตถุที่คุณต้องการโคลน และถ่ายภาพ 5 ช็อต. 
+3 ระบบจะจดจำวัตถุที่เคลื่อนไหวโดยอัตโนมัติ และทำการลงทะเบียนภาพและรวมกัน 
+4 บนอินเทอร์เฟซที่แก้ไข ใช้แปรงทาสีป้ายสีพื้นที่คุณต้องการแสดง"</string>
+    <string name="clone_specification_title">โคลน</string>
+    <string name="clone_specification_tobbar_title">โคลน</string>
+    <string name="confirm">ตกลง</string>
+    <string name="dng_specification_introduction_content">DNG เป็นชนิดของรูปภาพดิบ ไม่สูญเสียข้อมูลสำคัญ จะเก็บรักษาข้อมูลภาพที่บันทึก ด้วยกล้อง และช่วยให้การประมวลผลภาพในอนาคต ในขณะเดียวกัน จะให้คุณภาพของภาพดีขึ้น</string>
+    <string name="dng_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="dng_specification_note">รูปแบบรูปภาพDNG ไม่สามารถแสดงตัวอย่างชั่วคราว หรือแก้ไขการดำเนินการโทรศัพท์มือถือ</string>
+    <string name="dng_specification_note_title">หมายเหตุ</string>
+    <string name="dng_specification_path">ที่จัดเก็บภายใน/DCIM/Camera/Dng</string>
+    <string name="dng_specification_path1">รูปแบบ: JPG＋DNG</string>
+    <string name="dng_specification_path1_title">รูปแบบเอ็าพุท</string>
+    <string name="dng_specification_path_title">ไดเรกทอรีที่จัดเก็บ</string>
+    <string name="dng_specification_photo1">การแสดงผลเริ่มต้นของ รูปแบบ DNGข้อมูลดิบในกล้องดิบ</string>
+    <string name="dng_specification_photo2">การปรับปรุง รูปแบบ DNGข้อมูลดิบในกล้องดิบ</string>
+    <string name="dng_specification_step">"เลือกไฟล์รูปแบบ DNG ในการจัดเก็บไดเรกทอรี 
+2 เปิดไฟล์ DNG ที่ใช้แทรกของ Photoshop กล้องดิบ 
+3 ไฟล์ DNG ในปลั๊กอินจะถูกแปลงเป็นภาพที่มองเห็นได้บนพื้นฐานของสี. 
+4 ทำการประมวลผลหลังจากแต่ละรายการเช่นภาพสี 
+5 บันทึกไฟล์เป็นรูปแบบที่ต้องปรับปรุง โดยปกติรูปแบบ JPG"</string>
+    <string name="dng_specification_step_title">ขั้นตอนการดำเนินการ:</string>
+    <string name="dng_specification_title">DNG</string>
+    <string name="dng_specification_tobbar_title">DNG</string>
+    <string name="electronic_specification_introduction_content">รูรับแสงอิเล็กทรอนิกส์เป็นชนิดของรูรับแสงโหมดการถ่ายภาพ คุณสามารถได้ภาพที่สวยงามรับสัมผัสเป็นเวลานาน โดยการปรับรูรับแสงอิเล็กทรอนิกส์</string>
+    <string name="electronic_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="electronic_specification_need">เก็บโทรศัพท์ของคุณมั่นคง</string>
+    <string name="electronic_specification_photo1">"อิเล็กทรอนิกส์รูรับแสง: F/44
+ สมดุลสีขาว: อัตโนมัติ 
+ โฟกัส: อัตโนมัติ 
+เวลา แสง: 87วินาที"</string>
+    <string name="electronic_specification_photo2">"อิเล็กทรอนิกส์รูรับแสง: F/22
+ สมดุลสีขาว: อัตโนมัติ 
+ โฟกัส: อัตโนมัติ 
+เวลา แสง: 18วินาที"</string>
+    <string name="electronic_specification_title">เส้นผ่าศูนย์กลางของช่องอิเล็กทรอนิกส์</string>
+    <string name="electronic_specification_tobbar_title">เส้นผ่าศูนย์กลางของช่องอิเล็กทรอนิกส์</string>
+    <string name="electronic_specification_where">เมฆขาว น้ำไหล ฉากกลางคืน นิ่ง วัตถุ ถนน ฯลฯ</string>
+    <string name="grid_focus">ความยาวโฟกัส</string>
+    <string name="grid_iso">ISO</string>
+    <string name="grid_light">การวัด</string>
+    <string name="grid_shutter">ความเร็วชัตเตอร์</string>
+    <string name="grid_tripod">ใช้ขาตั้งกล้อง</string>
+    <string name="grid_wb">ไวต์บาลานซ์</string>
+    <string name="input_artist_name">ดูข้อมูลผู้แต่งในรายละเอียดของภาพที่ถ่ายรองรับเฉพาะตัวอักษรและตัวเลขเท่านั้น</string>
+    <string name="input_custom_water_mark_title">โปรดใส่เครื่องหมายน้ำที่คุณกำหนดเอง</string>
+    <string name="light_draw_specification_introduction_content">กล้องวาดภาพด้วยแสงจะเคลื่อนไหวบันทึกวิถีของแสงโหมดการถ่ายภาพเป็นเวลานาน ผ่านการถ่ายภาพแสงของอาวุธด้วยสีหรือกระบวนการอื่น ๆ แบบเรียลไทม์ เคลื่อนย้ายรางระเบียน</string>
+    <string name="light_draw_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="light_draw_specification_need">กำลังเคลื่อนที่แหล่งกำเนิดแสง รักษาโทรศัพท์ของคุณมั่นคง</string>
+    <string name="light_draw_specification_photo1">"โหมดถ่ายภาพ: จับแสงเพื่อแสดงเวลาการรับแสง 
+ โครงสร้างร่างกายมนุษย์: 1 นาที 30 วินาที"</string>
+    <string name="light_draw_specification_photo2">"โหมดถ่ายภาพ: จับแสงเพื่อแสดงตัวอักษร 
+เวลาแสง: 50 วินาที"</string>
+    <string name="light_draw_specification_title">กล้องภาพวาดแสง</string>
+    <string name="light_draw_specification_tobbar_title">กล้องภาพวาดแสง</string>
+    <string name="light_draw_specification_where">วาดภาพด้วยแสง การเคลื่อนไหวแสงราง และอื่น ๆ</string>
+    <string name="more_settings">การตั้งค่าเพิ่มเติม</string>
+    <string name="off">ปิด</string>
+    <string name="pref_restore_detail">รีเซ็ต</string>
+    <string name="pref_restore_title">การตั้งค่ากล้อง</string>
+    <string name="pro_specification_introduction_content">นี่เราจะอธิบายฟังก์ชันพื้นฐานของกล้องนูเบียและแนะนำการดำเนินการเพื่อช่วยให้คุณสามารถใช้ทักษะเหล่านี้ถ่าย</string>
+    <string name="pro_specification_introduction_tip">คู่มือการเริ่มต้นกับกล้องนูเบีย</string>
+    <string name="pro_specification_title">มืออาชีพ</string>
+    <string name="pro_specification_tobbar_title">มืออาชีพ</string>
+    <string name="search_menu_title">ค้นหา</string>
+    <string name="settings_have_restored">คืนค่าการตั้งค่าแล้ว</string>
+    <string name="slow_shutter_specification_introduction_content">ชัตเตอร์เป็นชนิดของโหมดถ่ายภาพในสภาพแสงที่มืด คุณสามารถถ่ายฉากกลางคืนชัดเจน โดยยืดเวลาการรับแสง</string>
+    <string name="slow_shutter_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="slow_shutter_specification_need">ถ่ายภายใต้ฉากที่มีแสงไม่เพียงพอหรือเวลากลางคืน รักษาโทรศัพท์ของคุณมั่นคง</string>
+    <string name="slow_shutter_specification_photo1">"ความเร็วชัตเตอร์: 5วินาที 
+ISO: 100
+ สมดุลสีขาว: อัตโนมัติ 
+ โฟกัส: อัตโนมัติ"</string>
+    <string name="slow_shutter_specification_photo2">"ความเร็วชัตเตอร์: 7 วินาที 
+ISO: 100
+ สมดุลสีขาว: 
+ 5000K โฟกัสแมนนวล: อนันต์"</string>
+    <string name="slow_shutter_specification_title">ชัตเตอร์ช้า</string>
+    <string name="slow_shutter_specification_tobbar_title">ชัตเตอร์ช้า</string>
+    <string name="slow_shutter_specification_where">รางไฟ ฉากกลางคืน ดาวบนท้องฟ้า แฟลช ฯลฯ</string>
+    <string name="specification_need_title">เงื่อนไขการถ่ายภาพ</string>
+    <string name="specification_photo_title">ภาพตัวอย่าง</string>
+    <string name="specification_pro_focus_title">"1.โฟกัส "</string>
+    <string name="specification_pro_focus_title1">"1.โฟกัสอัตโนมัติ  "</string>
+    <string name="specification_pro_focus_title1_context">โฟกัสอัตโนมัติถูกตั้งค่าเป็นค่าเริ่มต้นเมื่อกล้องเริ่มต้น โฟกัสอัตโนมัติสามารถทำอย่างรวดเร็ว และถูกต้องที่กำหนดตำแหน่งของวัตถุ และทำให้ภาพที่ชัดเจน</string>
+    <string name="specification_pro_focus_title2">"1.2ล็อคโฟกัส  "</string>
+    <string name="specification_pro_focus_title2_context">วัตถุประสงค์: ตรวจสอบว่า จุดโฟกัสของวัตถุสอดคล้องกันระหว่างการถ่ายภาพต่อเนื่อง</string>
+    <string name="specification_pro_focus_title2_context1">เฟรมโฟกัส</string>
+    <string name="specification_pro_focus_title2_context2">ล็อคจุดโฟกัส</string>
+    <string name="specification_pro_focus_title2_context3">กดค้าง</string>
+    <string name="specification_pro_focus_title2_context4">ใช้ฉากโดยทั่วไป</string>
+    <string name="specification_pro_focus_title2_context5">"ถ่ายภาพมาโคร 
+ความเร็วสูงต่อเนื่อง ถ่าย 
+ ตั้งเวลาถ่ายภาพต่อเนื่อง"</string>
+    <string name="specification_pro_focus_title3">"1.3โฟกัสแมนนวล "</string>
+    <string name="specification_pro_focus_title3_context">วัตถุประสงค์: ปรับค่าโฟกัสให้ภาพของวัตถุจากระยะไกลเฉพาะชัดเจนด้วยตนเอง</string>
+    <string name="specification_pro_focus_title3_context1">1.3.1 การชมก่อนDOF</string>
+    <string name="specification_pro_focus_title3_context2">ในการโฟกัสแมนนวล พื้นที่สุดเข้มข้นของค่าพีคสีแดงในรูปต่อไปเป็นจุดโฟกัสชัดเจน มันสามารถช่วยให้ช่างภาพเพื่อโฟกัสที่แม่นยำมากขึ้น</string>
+    <string name="specification_pro_focus_title3_context3">ภาพตัวอย่าง</string>
+    <string name="specification_pro_focus_title3_context4">การถ่ายภาพ สังเกตค่าสูงสุดสีแดงเพื่อกำหนดจุดโฟกัสในภาพ</string>
+    <string name="specification_pro_focus_title3_context5">ต่อไปนี้แสดงภาพที่ถ่าย (ขยายบางส่วน)</string>
+    <string name="specification_pro_focus_title3_context6">ใช้ฉากทั่วไป</string>
+    <string name="specification_pro_focus_title3_context7">"มาโครถ่ายภาพ 
+ กระจกใส windows 
+ มืดแสง ทิวทัศน์กลางคืน ดาวบนท้องฟ้า ฯลฯ"</string>
+    <string name="specification_pro_focus_title_context">ทำให้ภาพชัดเจนผ่านการตรวจหาตำแหน่งของวัตถุ</string>
+    <string name="specification_pro_iso_title">5. ISO</string>
+    <string name="specification_pro_iso_title_context">ความหมายของI SO จะมีเซนเซอร์ภาพความไวต่อจำนวน ISO สูง กล้องเซ็นเซอร์ดูดซับแสงยิ่งสูง</string>
+    <string name="specification_pro_iso_title_context1">หมายเหตุ</string>
+    <string name="specification_pro_iso_title_context2">ดูตัวอย่างภาพต่อไปนี้ เมื่อคุณเลือกISO การเลือก ISO ต่ำสามารถรับประกันคุณภาพของภาพดีกว่า แต่คุณต้องลดความเร็วชัตเตอร์ (เวลาถ่ายภาพ) จะได้รับค่าแสงที่เหมาะสม</string>
+    <string name="specification_pro_iso_title_context3">ภาพตัวอย่าง</string>
+    <string name="specification_pro_iso_title_context4_1">ค่า ISOสูง：3200</string>
+    <string name="specification_pro_iso_title_context4_2">ความเร็วชัตเตอร์: 1 / 500วินาที</string>
+    <string name="specification_pro_iso_title_context5_1">ค่า ISOต่ำ：100</string>
+    <string name="specification_pro_iso_title_context5_2">ความเร็วชัตเตอร์:1/30วินาที</string>
+    <string name="specification_pro_light_title">"2.วัดแสง/ชดเชยแสง  "</string>
+    <string name="specification_pro_light_title1">"2.1.1ระบบวัดแสงอัตโนมัติ  "</string>
+    <string name="specification_pro_light_title1_context">วัดแสงอัตโนมัติถูกตั้งค่าเป็นค่าเริ่มต้นเมื่อกล้องเริ่มต้น มันเป็นชนิดของโหมด ซึ่งช่วยให้พิจารณาถึงความสว่างของภาพโดยรวม ในที่สุด จะสามารถช่วยคุณได้รับแสงที่แม่นยำ</string>
+    <string name="specification_pro_light_title2">"2. 1.2  แยกแสง (โฟกัส/วัดแสงแยก)"</string>
+    <string name="specification_pro_light_title2_context">โหมดวัดแสงแยกต่างหากจะมีผลหลังจากแยกจากเฟรมโฟกัส ทำการวัดแสงแยกต่างหากไปยังพื้นที่ที่เลือกเท่านั้น และจะทำให้บริเวณการรับแสงถูกต้องอย่างรวดเร็ว</string>
+    <string name="specification_pro_light_title2_context1">ภาพตัวอย่าง</string>
+    <string name="specification_pro_light_title2_context2">ฉากที่แสง มีความเปรียบต่างสูง</string>
+    <string name="specification_pro_light_title2_context3">ย้ายเฟรมแสงเพื่อให้ได้รับค่าแสงที่ถูกต้อง</string>
+    <string name="specification_pro_light_title3">"2.1.3ล็อคแสง  "</string>
+    <string name="specification_pro_light_title3_context">วัตถุประสงค์: ตรวจสอบว่า ปริมาณแสงมีความสอดคล้องในความสว่างเดียวกันถ่ายภาพต่อเนื่อง</string>
+    <string name="specification_pro_light_title3_context1">กรอบการวัดแสง</string>
+    <string name="specification_pro_light_title3_context2">ล็อคการวัดแสง</string>
+    <string name="specification_pro_light_title3_context3">กดค้าง</string>
+    <string name="specification_pro_light_title3_context4">ใช้ฉากทั่วไป</string>
+    <string name="specification_pro_light_title3_context5">แสงหรือสภาพแวดล้อมแสงที่ซับซ้อน การถ่ายภาพเหลื่อมเวลาระยะยาว</string>
+    <string name="specification_pro_light_title4">"2.2การชดเชยแสง "</string>
+    <string name="specification_pro_light_title4_context">ตามที่วัดแสงแยกต่างหาก ปรับค่าชดเชยแสงที่คุณจะเปลี่ยนภาพความสว่าง/มืด</string>
+    <string name="specification_pro_light_title4_context1">การชดเชยแสง</string>
+    <string name="specification_pro_light_title4_context2">เลื่อน</string>
+    <string name="specification_pro_light_title4_context3">"2.2.1ใช้การชดเชยแสง "</string>
+    <string name="specification_pro_light_title4_context4">ภายใต้สภาพแวดล้อมแสงซับซ้อน คุณสามารถปรับการชดเชยแสงเพื่อหลีกเลี่ยงแสงหรือเปิดเมื่อเปิดรับแสงไม่ถูกต้อง นอกจากนี้คุณยังสามารถปรับชดเชยแสงจะสว่าง หรือมืดถ่ายภาพผลของแสงเหมาะสม</string>
+    <string name="specification_pro_light_title4_context5">ภาพตัวอย่าง</string>
+    <string name="specification_pro_light_title4_context6">เซรามิกภายใต้แสงเวอร์</string>
+    <string name="specification_pro_light_title4_context7">หลังจากวัดแสง ลดการชดเชยแสง</string>
+    <string name="specification_pro_light_title4_context8">ใช้ฉากทั่วไป</string>
+    <string name="specification_pro_light_title4_context9">"แสงหรือสภาพแวดล้อมแสงซับซ้อน 
+ สภาพอากาศมีเมฆ หมอก ฝน และหิมะ"</string>
+    <string name="specification_pro_light_title_1">"2.1วัดแสง  "</string>
+    <string name="specification_pro_light_title_context">ได้รับค่าแสงที่ถูกต้องผ่านการตรวจจับความสว่างของฉากการถ่าย ในโหมดวัดแสงแบบต่าง ๆ ช่วงวัดแสงและปรับตัวฉากจะค่อนข้างแตกต่างกัน</string>
+    <string name="specification_pro_shutter_title">4. ความเร็วชัตเตอร์</string>
+    <string name="specification_pro_shutter_title_context">ความเร็วชัตเตอร์คือ ระยะเวลาเมื่อเซ็นเซอร์ภาพภายในกล้องจะเปิดรับแสง เช่น 1/2000วินาที, 1/500วินาที, 1วินาที, 2วินาที, ฯลฯ</string>
+    <string name="specification_pro_shutter_title_context1">หมายเหตุ</string>
+    <string name="specification_pro_shutter_title_context2">สามารถใช้ความเร็วชัตเตอร์ที่รวดเร็วในการถ่ายภาพเป้าหมายที่เคลื่อนที่อย่างรวดเร็วหรือฉากที่ความสว่างสูง ในขณะที่สามารถใช้ความไวชัตเตอร์เพื่อถ่ายภาพ โดยแสงที่เพียงพอ ในระหว่างกระบวนการถ่ายภาพ ความเร็วชัตเตอร์ควรยืดหยุ่นปรับใช้ iso เพื่อหลีกเลี่ยงภาพแสง</string>
+    <string name="specification_pro_shutter_title_context3">ภาพตัวอย่าง</string>
+    <string name="specification_pro_shutter_title_context4">การเปลี่ยนแปลงของเวลาแสงระบุว่า สถานะที่แตกต่าง แสงเวลาถ่ายภาพของ เป้าหมาย.1/500วินาที เคลื่อนไหวรถยนต์และผู้คน</string>
+    <string name="specification_pro_shutter_title_context5">เวลายิงแสง 2วินาที บันทึกการติดตามการเคลื่อนย้ายไฟยานพาหนะ</string>
+    <string name="specification_pro_tripod_title">"6.  วิธีการใช้ขาตั้งกล้อง"</string>
+    <string name="specification_pro_tripod_title_context">เมื่อเวลาเปิดรับแสงมีขนาดใหญ่กว่า 1/15วินาที สั่นไหวเล็กน้อยจะทำให้ภาพเบลอ ดังนั้น คุณต้องใช้ขาตั้งกล้องหรือวิธีอื่น ๆ ป้องกันการถ่าย</string>
+    <string name="specification_pro_tripod_title_context1">โหมดการถ่ายภาพทั่วไป</string>
+    <string name="specification_pro_tripod_title_context2">หลอดไฟ แสงอิเล็กทรอนิกส์ แสงสี เพลงดาว ตั้งเวลาถ่าย ภาพต่อเนื่อง ฯลฯ</string>
+    <string name="specification_pro_tripod_title_context3">เทคนิคการป้องกันภาพสั่นไหวของภาพ</string>
+    <string name="specification_pro_tripod_title_context4">ตรวจสอบความเสถียรของอุปกรณ์ของคุณก่อนถ่ายภาพ และใช้ตัวจับเวลานับถอยหลังในการถ่าย</string>
+    <string name="specification_pro_tripod_title_context5">ไดอะแกรมการทำงานของขาตั้งกล้อง</string>
+    <string name="specification_pro_tripod_title_context6">ช่วงแอปขาตั้งกล้อง</string>
+    <string name="specification_pro_wb_title">"3.  ไวต์บาลานซ์(WB)"</string>
+    <string name="specification_pro_wb_title1">3.1 ไวต์บาลานซ์อัตโนมัติWB</string>
+    <string name="specification_pro_wb_title1_context">ไวต์บาลานซ์อัตโนมัติ ถูกตั้งค่าเป็นค่าเริ่มต้นเมื่อกล้องเริ่มต้น ในที่สุด มันสามารถช่วยคุณคืนค่าสีจริงของเป้าหมาย</string>
+    <string name="specification_pro_wb_title2">3.2 0ตั้งค่าไวต์บาลานซ์ล่วงหน้า</string>
+    <string name="specification_pro_wb_title2_context">ทดแทนแหล่งกำเนิดแสง โดยการเลือก [หลอด] [ฟลูออเรสเซนต์] [แสงแดด] [เมฆ] หรือ [เงา] จะได้รับการคืนค่าสีที่ดีที่สุด</string>
+    <string name="specification_pro_wb_title2_context1">"3.2.1หลักการ  "</string>
+    <string name="specification_pro_wb_title2_context2">ตัวอย่าง: อุณหภูมิสีของหลอดไฟมีประมาณ 3000K ภาพที่ถ่ายภายใต้ 3000K มีแนวโน้มที่เป็นสีแดง หรือสีส้ม กล้องจะกำจัดแสงบาอุ่นภายใต้โหมด [แสงหลอดไฟฟ้า] จะทำให้ภาพที่ปรับให้เข้ากับพฤติกรรมการมองของสายตาคนเราเนื่องจากกล้องไม่ได้ปรับให้เข้ากับเอกลักษณ์ของสายตาคนเรา.</string>
+    <string name="specification_pro_wb_title2_context3">"3.2.2  ทักษะ"</string>
+    <string name="specification_pro_wb_title2_context4">1. หากตั้งค่า ไวต์บาลานซ์ ล่วงหน้าเป็นค่าต่ำ เช่น [หลอด], กล้องจะกำจัดบางแสงที่อบอุ่นให้ภาพเอียงสีเย็น หรือเป็นกลาง ในโหมด [เงา] กล้องจะตัดออกบางแสงเย็นจะทำให้ภาพเอียงอุ่น หรือโทนสี</string>
+    <string name="specification_pro_wb_title2_context5">"2.  รู้เกี่ยวกับหลักการทำงาน ของ ไวต์บาลานซ์และคล่องแคล่วใช้ ในรูปต่อไปนี้ คุณสามารถสร้างผลแตกต่างกันถ่าย โดยปรับไวต์บาลานซ์ล่วงหน้า"</string>
+    <string name="specification_pro_wb_title2_context6">ภาพตัวอย่าง</string>
+    <string name="specification_pro_wb_title2_context7">เมื่อคุณเลือก [หลอด]เพื่อถ่าย ภาพจะแสดงสีเย็น</string>
+    <string name="specification_pro_wb_title2_context8">เมื่อคุณเลือก [เมฆ]เพื่อถ่าย ภาพจะมีโทนสีอบอุ่น</string>
+    <string name="specification_pro_wb_title3">"3.3  ไวต์บาลานซ์แยกต่างหาก"</string>
+    <string name="specification_pro_wb_title3_context">หลังจากที่คุณได้เลือกสีของบางพื้นที่บนภาพด้วยตนเอง กล้องจะทำการชดเชยกลับตามสีของตัวเลือกการปรับสีของภาพ คุณสามารถเลือกสีให้สมดุลสีขาวเพื่อให้ได้เอฟเฟ็กต์ภาพที่มีสีสัน</string>
+    <string name="specification_pro_wb_title3_context1">ภาพตัวอย่าง</string>
+    <string name="specification_pro_wb_title3_context2">3.3.1 ล็อกไวต์บาลานซ์อิสระ</string>
+    <string name="specification_pro_wb_title3_context3">วัตถุประสงค์: ให้แน่ใจว่า สีที่มีความสอดคล้องในความสว่างเดียวกันถ่ายภาพต่อเนื่อง</string>
+    <string name="specification_pro_wb_title3_context4">ไวต์บาลานซ์อิสระ</string>
+    <string name="specification_pro_wb_title3_context5">ล็อคไวต์บาลานซ์</string>
+    <string name="specification_pro_wb_title3_context6">กดค้าง</string>
+    <string name="specification_pro_wb_title_context">คืนค่าสีจริงของวัตถุที่ผ่านการตรวจจับแหล่งกำเนิดแสงในฉาก</string>
+    <string name="specification_ready_phone">โทรศัพท์</string>
+    <string name="specification_ready_title">สิ่งที่คุณต้องการ</string>
+    <string name="specification_ready_tripod">ขาตั้งกล้อง</string>
+    <string name="specification_where_title">ฉากที่เหมาะสม</string>
+    <string name="star_track_specification_introduction_content">ดาวทั้งหมดขึ้นในทิดตะวันออก และตกในทิดตะวันตกเนื่องจากโลกหมุนทุกวันนั้น ด้วยกล้องที่ติดตามดาว คุณสามารถถ่ายชัดเจน และสว่างบนท้องฟ้าและบันทึกติดตามการเคลื่อนไหวของท้องฟ้าที่งดงามได้</string>
+    <string name="star_track_specification_introduction_tip">แนะนำโดยย่อ</string>
+    <string name="star_track_specification_need">ถ่ายใต้ท้องฟ้าแดด หลีกเลี่ยงอิทธิพลที่เกิดจากแสงจ้า รักษาโทรศัพท์ของคุณมั่นคง</string>
+    <string name="star_track_specification_photo1">"ความเร็วชัตเตอร์: 60วินาที 
+ISO: 1600
+ สมดุลสีขาว: 
+ 3500k โฟกัสแมนนวล:ไม่สิ้นสุด
+รวมเวลาแสง: 12,540 วินาที (ประมาณ 3.5 ชม.)"</string>
+    <string name="star_track_specification_photo2">"ความเร็วชัตเตอร์: 50วินาที 
+ ISO: 1600
+ สมดุลสีขาว: 
+ โฟกัสแมนนวล:ไม่สิ้นสุด
+รวมเวลาแสง: 15,450วินาที (ประมาณ 4.3 ชม.)"</string>
+    <string name="star_track_specification_title">กล้องดาวแทร็ก</string>
+    <string name="star_track_specification_tobbar_title">กล้องดาวแทร็ก</string>
+    <string name="star_track_specification_where">ติดตามบนท้องฟ้า ดาวตก ฯลฯ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="unavailable_in_current_mode">ไม่สามารถใช้ได้ในโหมดปัจจุบัน</string>
+</resources>

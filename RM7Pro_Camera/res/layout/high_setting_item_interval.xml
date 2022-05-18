@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/high_setting_interval_shot_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+        <cn.nubia.camera.prosetting.ui.IntervalShotGraduationView android:id="@id/interval_shot_graduation_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dimens_12" android:id="@id/interval_shot_textView" android:focusable="false" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/high_setting_interval_shot_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+</merge>

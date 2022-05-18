@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PadButtonStyle_split.Advanced" parent="@style/PadButtonStyle_split">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/pad_button_advanced_text_color</item>
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle_split.Advanced.Text" parent="@style/PadButtonStyle_split.Advanced">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Del" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:src">@drawable/portrait_blackspace_icon_spilit_sw320</item>
+    </style>
+    <style name="PadButtonStyle_split.Operator.Eq" parent="@style/PadButtonStyle_split.Operator">
+        <item name="android:background">@color/numeric_button_background_color</item>
+        <item name="android:foreground">@drawable/button_ripple_bg_split</item>
+        <item name="android:src">@drawable/eq_split</item>
+    </style>
+    <style name="PadButtonStyle_split.Numeric.Zero" parent="@style/PadButtonStyle_split.Numeric">
+        <item name="android:paddingRight">87.5dip</item>
+    </style>
+</resources>

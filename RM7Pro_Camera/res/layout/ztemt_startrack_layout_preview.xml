@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/starTraclPreviewRelativePage" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/startrack_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <TextView android:gravity="center" android:id="@id/capturing_time" android:visibility="gone" android:layout_alignParentTop="true" android:paddingStart="@dimen/dimens_3_5" android:layout_alignParentEnd="true" style="@style/OnViewfinderLabel" />
+    </RelativeLayout>
+    <include layout="@layout/tripod_tip_layout" />
+    <RelativeLayout android:id="@id/center_content" style="@style/FragmentCenterSize">
+        <include layout="@layout/ztemt_startrack_tip" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="spinner_bg_white">#ffffffff</item>
+    <item type="drawable" name="calendar_dialog_background_transparent">@color/text_color_white_00</item>
+</resources>

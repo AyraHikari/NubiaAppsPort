@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_alarm">Додај аларм</string>
+    <string name="alarm_alert_alert_silenced">Аларм је искључен након %d минута.</string>
+    <string name="alarm_alert_dismiss_text">Одбаци</string>
+    <string name="alarm_alert_snooze_set">Одлагање за %d минута.</string>
+    <string name="alarm_alert_snooze_text">Одложи</string>
+    <string name="alarm_alert_snooze_until">Одлагање до %s</string>
+    <string name="alarm_klaxon_service_desc">Услуга репродукције звука за аларме подешене у Сату.</string>
+    <string name="alarm_repeat">Понови</string>
+    <string name="alarm_vibrate">Вибрација</string>
+    <string name="alert">Мелодија аларма</string>
+    <string name="app_label">Сат</string>
+    <string name="cities_activity_title">Градови</string>
+    <string name="day">1 дан</string>
+    <string name="day_concat">", "</string>
+    <string name="days">%s дана</string>
+    <string name="delete_alarm">Избриши аларм</string>
+    <string name="enable_alarm">Укључи аларм</string>
+    <string name="every_day">Сваког дана</string>
+    <string name="hour">1 сат</string>
+    <string name="hours">%s сата(и)</string>
+    <string name="hours_label">с</string>
+    <string name="loading_ringtone">Учитавање звука звона...</string>
+    <string name="minute">1 минут</string>
+    <string name="minutes">%s минута</string>
+    <string name="minutes_label">мин</string>
+    <string name="never">Никад</string>
+    <string name="seconds_label">сек</string>
+    <string name="silent_alarm_summary">Нечујно</string>
+    <string name="sw_start_button">Покрени</string>
+    <string name="timer_cancel">Откажи</string>
+    <string name="timer_delete">Избриши</string>
+    <string name="timer_stop">Заустави</string>
+    <string name="hours_label_description">сати</string>
+    <string name="minutes_label_description">минути</string>
+    <string name="seconds_label_description">секунде</string>
+    <string name="time_picker_ampm_label">--</string>
+    <string name="time_picker_time_seperator">:</string>
+</resources>

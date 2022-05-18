@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">%d (na) kaganapan</item>
+        <item quantity="one">+1 kaganapan</item>
+    </plurals>
+    <plurals name="Ndays">
+        <item quantity="other">%d (na) araw</item>
+        <item quantity="one">1 araw</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d (na) kaganapan</item>
+        <item quantity="one">1 kaganapan</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d (na) oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d (na) min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d (na) minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="weekN">
+        <item quantity="other">LINGGO %d</item>
+    </plurals>
+</resources>

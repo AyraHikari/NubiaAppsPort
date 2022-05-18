@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="cn.nubia.photoeditor" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="cn.nubia.permission.BIND_DATA_COLLECTION"/>
+    <uses-permission android:name="zte.permission.BIND_DATA_COLLECTION"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <application android:allowBackup="true" android:debuggable="false" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@drawable/icon_photo_editor" android:label="@string/title_activity_filter_show" android:largeHeap="true" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/PhotoEditorTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="d8RK2gKRFAHPGKylKTIWqujG"/>
+        <meta-data android:name="unique_key" android:value="100103"/>
+        <service android:exported="false" android:name="cn.nubia.upgrade.service.UpgradeService" android:process="cn.nubia.upgradeService"/>
+        <provider android:authorities="cn.nubia.photoeditor.FileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboardHidden|orientation|screenSize|uiMode" android:label="@string/title_activity_filter_show" android:launchMode="singleTop" android:name="com.android.gallery3d.filtershow.FilterShowActivity" android:theme="@style/PhotoEditorFullTheme" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/title_activity_filter_show" android:name="com.android.gallery3d.filtershow.WelcomeActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.gallery3d.filtershow.materials.MaterialActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.photoeditor.Material"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.gallery3d.filtershow.materials.MaterialMoreActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.photoeditor.Material.More"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.GifEncoder.GifMakeActivity" android:screenOrientation="portrait" android:theme="@style/PhotoGifTheme">
+            <intent-filter android:icon="@drawable/icon_photo_joint">
+                <action android:name="zte.photoedit.makegif"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="cn.nubia.photoeditor.filtershow.provider.SharedImageProvider" android:grantUriPermissions="true" android:name="com.android.gallery3d.filtershow.provider.SharedImageProvider" android:readPermission="com.android.gallery3d.filtershow.permission.READ" android:writePermission="com.android.gallery3d.filtershow.permission.WRITE"/>
+        <service android:exported="false" android:name="com.android.gallery3d.filtershow.pipeline.ProcessingService"/>
+        <service android:exported="false" android:name="com.android.gallery3d.filtershow.aperture.ApertureService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.nubia.choosephoto.ChooseActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.choosephoto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="cn.nubia.collage.CollageActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.collage"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.nubia.collage.ui.CollageShareActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.collage.share"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.gallery3d.filtershow.MainSetActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen"/>
+        <activity android:name="com.android.gallery3d.filtershow.aperture.ApertureActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen">
+            <intent-filter>
+                <action android:name="cn.nubia.aperture"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:name="com.baidu.location.f" android:process=":remote"/>
+        <activity android:name="cn.nubia.permission.RequestPermissionsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen"/>
+        <activity android:name="cn.nubia.permission.RequestPermissionsActivityBase" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen"/>
+        <activity android:name="cn.nubia.permission.CollageRequestPermissionsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen"/>
+        <activity android:name="cn.nubia.permission.PermissionSetingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.FullScreen"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>

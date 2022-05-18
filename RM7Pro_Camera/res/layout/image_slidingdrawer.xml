@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.camera.extendedUI.HImageSlidingDrawer android:id="@id/imageDrawer" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/slidingDrawerHeight" android:layout_alignParentBottom="true" app:handleImage="@drawable/btn_sidemenu_prisma" app:positon="right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

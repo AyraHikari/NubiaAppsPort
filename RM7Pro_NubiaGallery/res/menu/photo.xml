@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_delete_normal" android:id="@id/action_delete" android:visible="false" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_edit" android:visible="false" android:title="@string/edit" android:showAsAction="never" />
+    <item android:id="@id/action_crop" android:title="@string/crop_action" android:showAsAction="never" />
+    <item android:id="@id/action_setas_wallpaper" android:visible="false" android:title="@string/setas_wallpaper" android:showAsAction="never" />
+    <item android:id="@id/action_setas_contactphoto" android:visible="false" android:title="@string/setas_contactphoto" android:showAsAction="never" />
+</menu>

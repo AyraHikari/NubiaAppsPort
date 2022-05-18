@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center">
+        <layer-list android:paddingStart="@dimen/mfvc_xlarge_padding" android:paddingEnd="@dimen/mfvc_xlarge_padding" />
+    </item>
+    <item android:gravity="fill_horizontal|center">
+        <shape android:tint="@color/pb_bg_11_color" android:shape="rectangle">
+            <corners android:radius="10.0dip" />
+            <size android:height="@dimen/mfvc_slider_normal_height" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/month" android:background="@drawable/minical_bg_shadow_holo_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/month_name" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MonthView_MiniMonthLabel" />
+    <include android:id="@id/day_names" layout="@layout/mini_month_header" />
+    <View android:background="@color/month_grid_lines" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <cn.nubia.calendar.month.MonthListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+</LinearLayout>

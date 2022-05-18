@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/thumbnail_layout" android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimens_18" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.common.ui.RotateImageView android:id="@id/thumbnail_background" android:focusable="false" android:clickable="false" android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" />
+    <FrameLayout android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" android:layout_centerInParent="true">
+        <com.android.common.ui.RotateImageView android:id="@id/thumbnail" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/thumbnail_size" android:layout_height="@dimen/thumbnail_size" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/sd_error" />
+    <RelativeLayout android:id="@id/music_title" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_120" android:layout_marginTop="@dimen/dimen_24">
+        <LinearLayout android:orientation="horizontal" android:id="@id/play_all_layout" android:paddingLeft="@dimen/dimen_54" android:paddingRight="@dimen/dimen_48" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dimen_72" android:layout_height="@dimen/dimen_72" android:src="@drawable/mini_play_selector" />
+            <TextView android:textSize="@dimen/textsize_48" android:textColor="@color/color_black_transparent_93" android:ellipsize="marquee" android:gravity="center" android:id="@id/shuffle_text" android:paddingLeft="@dimen/dimen_30" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/dimen_420" android:text="@string/shuffle_all" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sort_option_layout" android:paddingLeft="@dimen/dimen_54" android:paddingRight="@dimen/dimen_54" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sort" />
+            <TextView android:textSize="@dimen/textsize_36" android:textColor="#9a000000" android:ellipsize="marquee" android:gravity="center" android:id="@id/sort_option_text" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/dimen_420" android:text="@string/sort_music_time" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+        </LinearLayout>
+        <View android:background="@color/black_15" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contentarea" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <cn.nubia.music.ui.ScrollRefreshListView android:textSize="@dimen/textsize_54" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" android:layout_toLeftOf="@id/character_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/character_layout" android:visibility="gone" android:layout_width="31.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="200.0" />
+            <cn.nubia.commonui.widget.NubiaCharacterListView android:id="@id/letterlistview" android:focusable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="806.0" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="210.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <cn.nubia.music.ui.EmptyViewLayout android:gravity="center" android:layout_gravity="center" android:id="@id/emptyView_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@android:style/TextAppearance.Large" />
+</LinearLayout>

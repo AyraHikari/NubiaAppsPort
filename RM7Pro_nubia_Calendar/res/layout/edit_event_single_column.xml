@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/edit_event" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="0.0dip" style="@style/EditEvent_Layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/loading_message" android:background="@color/text_color_black_ff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/loading" android:layout_weight="1.0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="?android:attr/textAppearanceLarge" />
+    <ScrollView android:id="@id/scroll_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="2.0" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_gravity="center|top" android:id="@id/event_bg" android:background="@color/text_color_black_ff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+            <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/two_pane" android:paddingTop="0.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/edit_event_1" />
+                <include android:id="@id/attendees_group" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/edit_event_2" />
+            </LinearLayout>
+            <View android:layout_gravity="start|center|top" android:id="@id/color_chip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="12.0dip" />
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

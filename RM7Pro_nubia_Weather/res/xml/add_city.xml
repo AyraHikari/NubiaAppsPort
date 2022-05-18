@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut id="weather_add_city" icon="add" label="city_list_add_city">
+        <intent android:targetPackage="cn.nubia.weather" android:action="android.intent.action.AddCity" android:targetClass="cn.nubia.weather.ui.activity.CityAddActivity" />
+    </shortcut>
+</shortcuts>

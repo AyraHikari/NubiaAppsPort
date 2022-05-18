@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:shadow="http://shadow.com">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/select_album_layout" android:background="@drawable/nubia_list_item_background_cloud_setting" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/album_cover" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/cloud_album_setting_textclolor" android:id="@id/album_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:maxWidth="200.0dip" android:singleLine="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/album_cover" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/cloud_album_setting_textclolor" android:id="@id/album_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/album_info_name" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/album_cover" />
+        <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" android:layout_below="@id/album_cover" android:layout_marginStart="72.0dip" android:layout_marginEnd="16.0dip" layout="@layout/nubia_separation_line" />
+    </RelativeLayout>
+</LinearLayout>

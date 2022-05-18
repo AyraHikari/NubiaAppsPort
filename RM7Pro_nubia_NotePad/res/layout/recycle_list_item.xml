@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@id/notepad_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/notepad_list_recycle_item_height" android:layout_marginEnd="@dimen/notepad_list_item_margin_right" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/list_item_card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/notepad_list_recycle_item_height" android:layout_toStartOf="@id/notepad_checkbox">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/notepad_item_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/notepad_classify_image" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_image_width" android:layout_height="@dimen/notepad_list_item_image_height" android:src="@drawable/list_notepad_classify_work" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="@dimen/notepad_list_item_margin_left" android:layout_alignParentStart="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notepad_time_layout" android:layout_width="wrap_content" android:layout_height="@dimen/notepad_list_item_title_line_height" android:layout_alignParentEnd="true">
+                <ImageView android:layout_gravity="center" android:id="@id/notepad_top_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notepad_list_top" android:scaleType="centerInside" android:layout_marginEnd="@dimen/notepad_list_item_margin" />
+                <TextView android:textSize="@dimen/notepad_list_item_summary_size" android:textColor="@color/notepad_list_item_summary_color" android:gravity="center" android:layout_gravity="center" android:id="@id/notepad_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/notepad_list_item_margin_right" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/notepad_title_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/notepad_time_layout" android:layout_toEndOf="@id/notepad_classify_image">
+                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_item_title_line_height" android:layout_marginStart="@dimen/notepad_list_item_no_classic_title_margin_left" android:layout_alignParentStart="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/notepad_checklist" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_image_width" android:layout_height="@dimen/notepad_list_item_image_height" android:layout_marginEnd="@dimen/notepad_list_item_margin" />
+                    <TextView android:textSize="@dimen/notepad_list_item_title_size" android:textColor="@color/notepad_list_item_title_color" android:gravity="start" android:id="@id/notepad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="@dimen/notepad_list_item_margin_right" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/notepad_attribute" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notepad_list_bottom_margintop" android:layout_below="@id/notepad_item_top_layout" android:layout_marginStart="@dimen/notepad_list_line_item_no_classic_second_margin_left">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/notepad_list_item_image_line_height" android:layout_alignParentStart="true">
+                <ImageView android:id="@id/notepad_remind" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_attr_image_width" android:layout_height="@dimen/notepad_list_item_attr_image_height" android:layout_marginEnd="@dimen/notepad_list_item_margin" />
+                <ImageView android:id="@id/notepad_image" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_attr_image_width" android:layout_height="@dimen/notepad_list_item_attr_image_height" android:layout_marginEnd="@dimen/notepad_list_item_margin" />
+                <ImageView android:id="@id/notepad_record" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_attr_image_width" android:layout_height="@dimen/notepad_list_item_attr_image_height" android:layout_marginEnd="@dimen/notepad_list_item_margin" />
+                <ImageView android:id="@id/notepad_isCheckList" android:visibility="gone" android:layout_width="@dimen/notepad_list_item_attr_image_width" android:layout_height="@dimen/notepad_list_item_attr_image_height" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/notepad_list_item_speartor" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_item_speartor_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/notepad_list_line_item_no_classic_second_margin_left" />
+</RelativeLayout>

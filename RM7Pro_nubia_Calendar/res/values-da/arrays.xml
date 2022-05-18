@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="availability">
+        <item>Optaget</item>
+        <item>Ledig</item>
+        <item>Foreløbig</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Today</item>
+        <item>Dag</item>
+        <item>Uge</item>
+        <item>Måned</item>
+        <item>Dagsorden</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Kun denne begivenhed</item>
+        <item>Alle begivenheder i serien</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Kun denne begivenhed</item>
+        <item>Denne og fremtidige begivenheder</item>
+        <item>Alle begivenheder</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Denne og fremtidige begivenheder</item>
+        <item>Alle begivenheder</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>først</item>
+        <item>anden</item>
+        <item>tredje</item>
+        <item>fjerde</item>
+        <item>sidst</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Altid</item>
+        <item>Kun ved lydløs</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Ingen</item>
+        <item>0 minutter</item>
+        <item>1 minut</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+        <item>45 minutter</item>
+        <item>1 time</item>
+        <item>2 timer</item>
+        <item>3 timer</item>
+        <item>12 timer</item>
+        <item>24 timer</item>
+        <item>2 dage</item>
+        <item>1 uge</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Landestandard</item>
+        <item>lørdag</item>
+        <item>søndag</item>
+        <item>mandag</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>Er kun et par minutter forsinket.</item>
+        <item>Er der om ca. 10 minutter.</item>
+        <item>Gå bare i gang uden mig.</item>
+        <item>Jeg kan desværre ikke nå det. Vi bliver nødt til at lave en ny aftale.</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>Meddelelse</item>
+        <item>E-mail</item>
+        <item>Sms</item>
+        <item>Påmindelse</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 minutter</item>
+        <item>1 minut</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+        <item>45 minutter</item>
+        <item>1 time</item>
+        <item>2 timer</item>
+        <item>3 timer</item>
+        <item>12 timer</item>
+        <item>24 timer</item>
+        <item>2 dage</item>
+        <item>1 uge</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Intet svar</item>
+        <item>Ja</item>
+        <item>Måske</item>
+        <item>Nej</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalløerne</item>
+        <item>Midwayøen</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>Centralamerika</item>
+        <item>Central Time</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasilia</item>
+        <item>Buenos Aires</item>
+        <item>Grønland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic</item>
+        <item>Azorerne</item>
+        <item>Kap Verde-øerne</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>Vestafrika</item>
+        <item>Amman, Jordan</item>
+        <item>Athen, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Kairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>"Ural'sk"</item>
+        <item>Yekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnoyarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Standard</item>
+        <item>Privat</item>
+        <item>Offentlig</item>
+    </string-array>
+    <string-array name="magic_ring_items">
+        <item>standard</item>
+        <item>Lyd fra</item>
+        <item>Vibration</item>
+        <item>Ringetone</item>
+    </string-array>
+    <string-array name="magic_search_items">
+        <item>Kort</item>
+        <item>Vejr</item>
+        <item>Fødevarer</item>
+        <item>Fly</item>
+        <item>Hotel</item>
+    </string-array>
+    <string-array name="picture_dialog_items">
+        <item>Tag billede</item>
+        <item>Billeder</item>
+    </string-array>
+    <string-array name="share_array">
+        <item>Android Beam</item>
+        <item>E-mail</item>
+        <item>Bluetooth</item>
+        <item>Besked</item>
+    </string-array>
+</resources>

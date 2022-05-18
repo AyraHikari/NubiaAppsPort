@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-4.0px" android:right="-4.0px" android:bottom="-4.0px">
+        <shape>
+            <solid android:color="@color/calculator_navigationbar_color" />
+            <stroke android:width="2.0px" android:color="@color/pad_numeric_background_color" />
+        </shape>
+    </item>
+</layer-list>

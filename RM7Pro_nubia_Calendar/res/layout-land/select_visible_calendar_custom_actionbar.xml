@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="30.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_back_bg" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_visible_calendars_title" android:paddingStart="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end|center" android:id="@id/bottom_bar" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentEnd="true" style="@style/z7_btn_bar_style">
+        <Button android:id="@id/manage_sync_set" android:background="@drawable/btn_blue_bg_land" android:focusable="true" android:minWidth="@dimen/btn_width" android:text="@string/select_synced_calendars_button" style="@style/z7_btn_style" />
+    </LinearLayout>
+</RelativeLayout>

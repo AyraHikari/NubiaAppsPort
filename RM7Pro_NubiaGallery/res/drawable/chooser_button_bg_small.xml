@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="6.0dip" android:insetRight="6.0dip" android:insetTop="6.0dip" android:insetBottom="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_pressed="true">
+            <layer-list>
+                <item>
+                    <nine-patch android:src="@drawable/btn_small_default_bg" android:tint="@color/common_btn_pressed_bg" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/btn_small_default_border_bg" android:tint="@color/btn_pressed" />
+                </item>
+            </layer-list>
+        </item>
+        <item android:state_enabled="false">
+            <nine-patch android:src="@drawable/btn_small_default_border_bg" android:tint="@color/btn_disabled" />
+        </item>
+        <item>
+            <nine-patch android:src="@drawable/btn_small_default_border_bg" android:tint="@color/btn_default" />
+        </item>
+    </selector>
+</inset>

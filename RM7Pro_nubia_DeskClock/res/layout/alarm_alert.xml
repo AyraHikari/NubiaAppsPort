@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dc="http://schemas.android.com/apk/res-auto"
+  xmlns:custom="http://schemas.android.com/apk/res/cn.nubia.deskclock.preset">
+    <View android:id="@id/alarm_alert_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.nubia.deskclock.ui.AlarmFullScreenDragLayout android:id="@id/alarm_drag_main_view" android:background="@color/alert_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/alarm_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/bg_image" android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <LinearLayout android:id="@id/bottom_btn_bar" android:layout_alignParentBottom="true" style="@style/z7_btn_bar_style">
+                <Button android:textColor="@drawable/text_white_black_bg" android:id="@id/dismiss" android:background="@drawable/btn_red_bg" android:text="@string/alarm_alert_dismiss_text" style="@style/z7_btn_style" />
+                <View android:id="@id/separator" android:layout_width="@dimen/btn_margin_middle" android:layout_height="fill_parent" />
+                <Button android:id="@id/snooze" android:text="@string/alarm_alert_snooze_text" style="@style/z7_btn_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="77.66998dip" android:layout_alignParentTop="true">
+                <cn.nubia.deskclock.ui.NubiaAlertDigitalClock android:gravity="bottom" android:orientation="vertical" android:id="@id/digitalClock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" custom:isAlert="true">
+                    <TextView android:textSize="18.0dip" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/am_pm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:singleLine="true" android:fontFamily="NotoSansHans-Regular" style="@style/z7_alarm_time_light" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layoutDirection="ltr">
+                        <TextView android:ellipsize="none" android:id="@id/timeDisplayHours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/z7_alarm_time_light" />
+                        <TextView android:ellipsize="none" android:id="@id/timeDisplayMinutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/z7_alarm_time_light" />
+                    </LinearLayout>
+                </cn.nubia.deskclock.ui.NubiaAlertDigitalClock>
+                <FrameLayout android:id="@id/alarm_ring_down_view" android:layout_width="224.0dip" android:layout_height="224.0dip" android:layout_marginTop="107.0dip">
+                    <ImageView android:id="@id/nubia_count_down_ring_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ring_circle_background_selector" android:layout_centerInParent="true" />
+                    <TextView android:textSize="@dimen/alerttitle_font_second_size" android:textColor="@color/alarm_clock_alert_second_title_color" android:ellipsize="end" android:gravity="center" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="129.19998dip" android:singleLine="true" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+                    <TextView android:textSize="@dimen/alerttitle_font_size" android:textColor="@color/alarm_clock_alert_title_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/alart_snooze_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="98.19998dip" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </cn.nubia.deskclock.ui.AlarmFullScreenDragLayout>
+    <cn.nubia.deskclock.widget.lockscreenwave.LockScreenAnimLayout android:id="@id/lock_screen_anim_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <View android:id="@id/view_wave" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="-6.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <View android:id="@id/view_scan_text" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="22.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </cn.nubia.deskclock.widget.lockscreenwave.LockScreenAnimLayout>
+    <cn.nubia.deskclock.ui.HintView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/alarm_up_close" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:singleLine="true" android:layout_alignParentBottom="true" />
+</FrameLayout>

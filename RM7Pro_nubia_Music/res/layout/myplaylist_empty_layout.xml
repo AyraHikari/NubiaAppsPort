@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/textsize_42" android:textColor="@color/color_black_transparent_57" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_210" android:text="@string/has_none_playlist" android:drawableTop="@drawable/empty_music" android:drawablePadding="@dimen/dimen_51" />
+</RelativeLayout>

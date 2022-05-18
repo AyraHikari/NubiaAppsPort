@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/cn.nubia.photoeditor">
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/moreLayout" android:layout_width="@dimen/word_category_panel_height" android:layout_height="@dimen/word_category_panel_height">
+                <ImageButton android:layout_gravity="center" android:id="@id/moreButton" android:background="@drawable/filtershow_more_button_background" android:layout_width="@dimen/more_button_size" android:layout_height="@dimen/more_button_size" android:src="@drawable/filtershow_add" />
+                <TextView android:textColor="@color/default_text_color" android:gravity="center_horizontal" android:id="@id/moreTextView" android:visibility="gone" android:layout_width="@dimen/category_panel_icon_size" android:layout_height="wrap_content" android:text="@string/more" />
+            </LinearLayout>
+            <com.android.gallery3d.filtershow.category.CategoryTrack android:id="@id/listItems" android:layout_width="fill_parent" android:layout_height="@dimen/word_category_panel_height" android:divider="@android:color/transparent" android:dividerPadding="8.0dip" custom:iconSize="@dimen/category_panel_icon_size" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:background="@color/toolbar_separation_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageButton android:gravity="center" android:layout_gravity="center|left" android:id="@id/cancelFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/cancel" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/panelAccessoryViewList" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.android.gallery3d.filtershow.editors.SwapButton android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/hilit_color" android:layout_gravity="center" android:id="@id/applyEffect" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAllCaps="true" />
+        </LinearLayout>
+        <ImageButton android:gravity="center" android:layout_gravity="center|right" android:id="@id/applyFilter" android:background="@drawable/nubia_menu_item_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/done" />
+    </LinearLayout>
+</LinearLayout>

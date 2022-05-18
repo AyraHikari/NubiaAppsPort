@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/city_list_layout" android:background="@drawable/gradual_change" android:paddingTop="@dimen/weather_city_list_margin_top" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/cn.nubia.weather">
+    <LinearLayout android:orientation="vertical" android:id="@id/city_list_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/city_list_bottom">
+        <RelativeLayout android:id="@id/rl_select_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_top_bar_height" android:layout_marginTop="12.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="#d8ffffff" android:id="@id/tv_selected_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/NubiaFontMedium" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_normal_state" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_top_bar_height" android:layout_marginTop="12.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/back_layout" android:background="#00ffffff" android:paddingRight="@dimen/weather_citylist_back_margin_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <FrameLayout android:paddingLeft="@dimen/weather_citylist_back_margin_left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/city_list_back_img" android:background="@drawable/img_back_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <TextView android:textSize="20.0dip" android:textColor="@drawable/back_selector" android:id="@id/tv_citylist_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="@string/city_list_actionbar_title_text" style="@style/NubiaFontMedium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="@dimen/weather_city_divide_wide" android:layout_marginTop="8.0dip" />
+        <RelativeLayout android:id="@id/location_city_rl" android:background="#19000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_location_view_height">
+            <ImageView android:id="@id/city_location_icon_weather" android:layout_width="@dimen/weather_citylist_city_weather_width" android:layout_height="28.0dip" android:layout_marginLeft="@dimen/weather_citylist_item_margin_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/weather_citylist_location_city_name_margin_left" android:layout_toRightOf="@id/city_location_icon_weather" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/weather_citylist_location_city_name_text_size" android:textColor="@color/city_list_location_text_color" android:id="@id/location_text" android:layout_width="191.0dip" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weather_citylist_location_city_temperature_text_margin_top">
+                    <TextView android:textSize="@dimen/weather_citylist_location_city_temperature_text_size" android:textColor="@color/city_list_temp_color" android:id="@id/city_location_text_city_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-light" />
+                </LinearLayout>
+            </LinearLayout>
+            <cn.nubia.commonui.widget.NubiaSwitch android:id="@id/city_location_switch_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/weather_citylist_switch_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="#42ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/weather_citylist_divide_line_height" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <cn.nubia.weather.ui.view.DragSortListView android:id="@id/drag_city_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:footerDividersEnabled="false" app:drag_scroll_start="0.33" app:float_background_color="#30000000" app:float_alpha="0.5" app:slide_shuffle_speed="0.3" app:drag_enabled="true" app:drag_start_mode="onMove" app:drag_handle_id="@id/city_list_drag_image" />
+    </LinearLayout>
+    <include android:id="@id/city_list_bottom" layout="@layout/nubia_bottom_bar_layout" />
+</RelativeLayout>

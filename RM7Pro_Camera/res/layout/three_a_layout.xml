@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/three_a_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.camera.three_a.ui.FocusAreaView android:id="@id/focus_area_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.nubia.camera.three_a.ui.ThreeAViewLayout android:id="@id/whitebanlance_view_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <cn.nubia.camera.three_a.ui.WhiteBanlanceView android:id="@id/whitebanlance_view" android:background="@drawable/ic_mwb" android:visibility="invisible" android:layout_width="66.0dip" android:layout_height="66.0dip" />
+    </cn.nubia.camera.three_a.ui.ThreeAViewLayout>
+    <cn.nubia.camera.three_a.ui.ThreeAViewLayout android:id="@id/focus_view_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <cn.nubia.camera.three_a.ui.FocusView android:id="@id/focus_view" android:background="@drawable/ic_focus_metering_focused" android:visibility="invisible" android:layout_width="66.0dip" android:layout_height="66.0dip" />
+    </cn.nubia.camera.three_a.ui.ThreeAViewLayout>
+    <cn.nubia.camera.three_a.ui.ThreeAViewLayout android:id="@id/exposure_view_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <cn.nubia.camera.three_a.ui.ExposureView android:id="@id/exposure_view" android:background="@drawable/ic_focus_metering_exposure" android:visibility="invisible" android:layout_width="66.0dip" android:layout_height="66.0dip" />
+    </cn.nubia.camera.three_a.ui.ThreeAViewLayout>
+    <com.android.common.ui.RotateLayout android:id="@id/ev_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.nubia.camera.three_a.ui.EvView android:id="@id/ev_view" android:layout_width="wrap_content" android:layout_height="140.0dip" android:maxHeight="@dimen/dimen_0_6_7" android:progressDrawable="@drawable/ev_seek_bar_bg" android:minHeight="@dimen/dimen_0_6_7" android:thumb="@drawable/ev_drag_ball" android:thumbOffset="@dimen/dimens_2" />
+    </com.android.common.ui.RotateLayout>
+</RelativeLayout>

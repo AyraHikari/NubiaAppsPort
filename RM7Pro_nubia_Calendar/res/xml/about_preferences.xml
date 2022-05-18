@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preferences_about_title" style="@style/Preference.Nubia.FirstCategory">
+        <Preference android:title="@string/preferences_build_version" android:key="build_version" android:widgetLayout="@null" />
+    </PreferenceCategory>
+</PreferenceScreen>

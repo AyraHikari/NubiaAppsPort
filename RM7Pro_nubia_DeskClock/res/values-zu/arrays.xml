@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>I-alamu isethelwe iminithi elingaphansi ku-1 kusukela manje.</item>
+        <item>I-alamu isethelwe %1$s ukusuka manje.</item>
+        <item>I-alamu ihlelelwe angu-%2$s ukusuka manje.</item>
+        <item>I-alamu isethelwe %1$s%2$s ukusuka manje.</item>
+        <item>i-alamu isethelwe %3$s ukusuka manje.</item>
+        <item>I-Alamu isethelwe %1$s%3$s ukusuka manje.</item>
+        <item>I-alamu ihlelelwe u-%2$s kanye no-%3$s ukusuka manje.</item>
+        <item>I-alamu isethelwe %1$s, %2$s, %3$s kusuka manje.</item>
+    </string-array>
+    <string-array name="cities_names">
+        <item>esase-Abidjan</item>
+        <item>esase-Accra</item>
+        <item>esase-Addis Ababa</item>
+        <item>esase-Algiers</item>
+        <item>esase-Blantyre</item>
+        <item>esase-Brazzaville</item>
+        <item>esase-Cairo</item>
+        <item>esase-Casablanca</item>
+        <item>esase-Conakry</item>
+        <item>esase-Dakar</item>
+        <item>esase-Dar es Salaam</item>
+        <item>esase-Djibouti</item>
+        <item>esase-Freetown</item>
+        <item>esase-Gaborone</item>
+        <item>esase-Harare</item>
+        <item>esase-Johannesburg</item>
+        <item>esase-Kampala</item>
+        <item>esase-Khartoum</item>
+        <item>esase-Kigali</item>
+        <item>esase-Kinshasa</item>
+        <item>esase-Lagos</item>
+        <item>esase-Maseru</item>
+        <item>esase-Mogadishu</item>
+        <item>esase-Nairobi</item>
+        <item>esase-São Tomé</item>
+        <item>esase-Timbuktu</item>
+        <item>esase-Tripoli</item>
+        <item>esase-Tunis</item>
+        <item>esase-Anchorage</item>
+        <item>esase-Mendoza</item>
+        <item>esase-Aruba</item>
+        <item>esase-Asunción</item>
+        <item>esase-Barbados</item>
+        <item>esase-Belize</item>
+        <item>esase-Bogotá</item>
+        <item>esase-Buenos Aires</item>
+        <item>esase-Cancun</item>
+        <item>esase-Caracas</item>
+        <item>esase-Cayman</item>
+        <item>esase-Chicago</item>
+        <item>esase-Costa Rica</item>
+        <item>esase-Curaçao</item>
+        <item>esase-Dawson Creek</item>
+        <item>esase-Denver</item>
+        <item>esase-Detroit</item>
+        <item>esase-Dominica</item>
+        <item>esase-Edmonton</item>
+        <item>esase-El Salvador</item>
+        <item>esase-Fortaleza</item>
+        <item>esase-Grand Turk</item>
+        <item>esase-Grenada</item>
+        <item>esase-Guatemala</item>
+        <item>esase-Guyana</item>
+        <item>esase-Halifax</item>
+        <item>esase-Havana</item>
+        <item>esase-Indianapolis</item>
+        <item>esase-Knox</item>
+        <item>esase-Marengo</item>
+        <item>esase-Petersburg</item>
+        <item>esase-Tell City</item>
+        <item>esase-Vevay</item>
+        <item>esase-Vincennes</item>
+        <item>esase-Winamac</item>
+        <item>esase-Kingston</item>
+        <item>esase-Nuestra Señora de La Paz</item>
+        <item>esase-Lima</item>
+        <item>esase-Los Angeles</item>
+        <item>esase-Louisville</item>
+        <item>esase-Managua</item>
+        <item>esase-Martinique</item>
+        <item>esase-Mendoza</item>
+        <item>esase-Metlakatla</item>
+        <item>esase-Mexico City</item>
+        <item>esase-Monterrey</item>
+        <item>esase-Montevideo</item>
+        <item>esase-Montreal</item>
+        <item>esase-Nassau</item>
+        <item>esase-New York</item>
+        <item>esase-Beulah</item>
+        <item>esaphakathi nendawo</item>
+        <item>esase-New Salem</item>
+        <item>esase-Panama</item>
+        <item>esase-Phoenix</item>
+        <item>esase-Port of Spain</item>
+        <item>esase-Port-au-Prince</item>
+        <item>esase-Puerto Rico</item>
+        <item>esase-Santo Domingo</item>
+        <item>esase-São Paulo</item>
+        <item>esase-St. Johns</item>
+        <item>esase-St. Kitts</item>
+        <item>esase-St. Lucia</item>
+        <item>esase-St. Thomas</item>
+        <item>esase-Tijuana</item>
+        <item>esase-Toronto</item>
+        <item>esase-Vancouver</item>
+        <item>esase-Winnipeg</item>
+        <item>esase-South Pole</item>
+        <item>esase-Longyearbyen</item>
+        <item>esase-Almaty</item>
+        <item>esase-Amman</item>
+        <item>esase-Anadyr</item>
+        <item>esase-Aqtau</item>
+        <item>esase-Baghdad</item>
+        <item>esase-Bahrain</item>
+        <item>esase-Baku</item>
+        <item>esase-Bangkok</item>
+        <item>esase-Beirut</item>
+        <item>esase-Kolkata</item>
+        <item>esase-Damascus</item>
+        <item>esase-Dhaka</item>
+        <item>esase-Dubai</item>
+        <item>esase-Gaza</item>
+        <item>esase-Hebron</item>
+        <item>esase-Ho Chi Minh</item>
+        <item>esase-Hong Kong</item>
+        <item>esase-Istanbul</item>
+        <item>esase-Jakarta</item>
+        <item>esase-Jerusalem</item>
+        <item>esase-Kabul</item>
+        <item>esase-Karachi</item>
+        <item>esase-Kathmandu</item>
+        <item>esase-Kuala Lumpur</item>
+        <item>esase-Kuwait</item>
+        <item>esase-Macau</item>
+        <item>esase-Manila</item>
+        <item>esase-Muscat</item>
+        <item>esase-Phnom Penh</item>
+        <item>esase-Pyongyang</item>
+        <item>esase-Qatar</item>
+        <item>esase-Rangoon</item>
+        <item>esase-Riyadh</item>
+        <item>esase-Saigon</item>
+        <item>esase-Seoul</item>
+        <item>esase-Singapore</item>
+        <item>esase-Taipei</item>
+        <item>esase-Tehran</item>
+        <item>esase-Tel Aviv</item>
+        <item>esase-Tokyo</item>
+        <item>esase-Ulaanbaatar</item>
+        <item>esase-Bermuda</item>
+        <item>esase-Canary</item>
+        <item>esase-Cape Verde</item>
+        <item>esase-Reykjavik</item>
+        <item>esase-Stanley</item>
+        <item>esase-Adelaide</item>
+        <item>esase-Brisbane</item>
+        <item>esase-Canberra</item>
+        <item>esase-Darwin</item>
+        <item>esase-Melbourne</item>
+        <item>esase-New South Wales</item>
+        <item>esase-Perth</item>
+        <item>esase-Queensland</item>
+        <item>esase-Sydney</item>
+        <item>esase-Victoria</item>
+        <item>esase-Newfoundland</item>
+        <item>esase-Saskatchewan</item>
+        <item>esase-Easter Island</item>
+        <item>esase-Amsterdam</item>
+        <item>esase-Andorra</item>
+        <item>esase-Athens</item>
+        <item>esase-Belfast</item>
+        <item>esase-Belgrade</item>
+        <item>esase-Berlin</item>
+        <item>esase-Bratislava</item>
+        <item>esase-Brussels</item>
+        <item>esase-Bucharest</item>
+        <item>esase-Budapest</item>
+        <item>esase-Chisinau</item>
+        <item>esase-Copenhagen</item>
+        <item>esase-Dublin</item>
+        <item>esase-Gibraltar</item>
+        <item>esase-Helsinki</item>
+        <item>esase-Isle of Man</item>
+        <item>esase-Istanbul</item>
+        <item>esase-Kiev</item>
+        <item>esase-Lisbon</item>
+        <item>esase-London</item>
+        <item>esase-Luxembourg</item>
+        <item>esase-Madrid</item>
+        <item>esase-Malta</item>
+        <item>esase-Minsk</item>
+        <item>esase-Monaco</item>
+        <item>esase-Moscow</item>
+        <item>esase-Oslo</item>
+        <item>esase-Paris</item>
+        <item>esase-Prague</item>
+        <item>esase-Riga</item>
+        <item>esase-Rome</item>
+        <item>esase-San Marino</item>
+        <item>esase-Sarajevo</item>
+        <item>esase-Simferopol</item>
+        <item>esase-Skopje</item>
+        <item>esase-Sofia</item>
+        <item>esase-Stockholm</item>
+        <item>esase-Tallinn</item>
+        <item>esase-Vatican</item>
+        <item>esase-Vienna</item>
+        <item>esase-Vilnius</item>
+        <item>esase-Warsaw</item>
+        <item>esase-Zagreb</item>
+        <item>e-Zurich</item>
+        <item>esase-Antananarivo</item>
+        <item>esase-Maldives</item>
+        <item>esase-Mauritius</item>
+        <item>esase-Auckland</item>
+        <item>esase-Fiji</item>
+        <item>esase-Guam</item>
+        <item>esase-Honolulu</item>
+        <item>esase-Kiritimati</item>
+        <item>esase-Noumea</item>
+        <item>esase-Samoa</item>
+        <item>esase-Tahiti</item>
+        <item>esase-Antigua</item>
+        <item>esase-Austin</item>
+        <item>esase-Boston</item>
+        <item>esase-Calgary</item>
+        <item>esase-Columbus</item>
+        <item>esase-Dallas</item>
+        <item>esase-Knoxville</item>
+        <item>esase-Memphis</item>
+        <item>esase-Miami</item>
+        <item>esase-Minneapolis</item>
+        <item>esase-Ottawa</item>
+        <item>esase-Philadelphia</item>
+        <item>esase-Portland</item>
+        <item>esase-San Diego</item>
+        <item>esase-San Fransisco</item>
+        <item>esase-Salt Lake City</item>
+        <item>esase-San Jose</item>
+        <item>esase-San Salvador</item>
+        <item>esase-Seattle</item>
+        <item>esase-St. Louis</item>
+        <item>esase-Washington D.C.</item>
+        <item>esase-Houston</item>
+        <item>esase-San Antonio</item>
+        <item>esase-Jacksonville</item>
+        <item>esase-Baltimore</item>
+        <item>esase-Nashville</item>
+        <item>esase-Milwaukee</item>
+        <item>esase-Oklahoma City</item>
+        <item>esase-Las Vegas</item>
+        <item>esase-Albuquerque</item>
+        <item>esase-Tucson</item>
+        <item>esase-Sacramento</item>
+        <item>esase-Atlanta</item>
+        <item>esase-Cleveland</item>
+        <item>esase-New Orleans</item>
+        <item>esase-Tampa</item>
+        <item>esase-Pittsburgh</item>
+        <item>esase-Cincinnati</item>
+        <item>esase-Mountain View</item>
+        <item>esase-Reno</item>
+        <item>esase-Black Rock City</item>
+        <item>esase-Doha</item>
+        <item>esase-Beijing</item>
+        <item>esase-Mumbai</item>
+        <item>esase-Delhi</item>
+        <item>esase-Osaka</item>
+        <item>esase-Lahore</item>
+        <item>"esase-Sana'a"</item>
+        <item>esase-Barcelona</item>
+        <item>esase-Munich</item>
+        <item>esase-Milan</item>
+        <item>esase-Frankfurt</item>
+        <item>esase-Hanoi</item>
+        <item>esase-Ankara</item>
+        <item>esase-Bangalore</item>
+        <item>e-Brasília</item>
+        <item>esase-Cape Town</item>
+        <item>esase-Islamabad</item>
+        <item>e-Rio de Janeiro</item>
+        <item>e-Ann Arbor</item>
+        <item>e-Boulder</item>
+        <item>e-Cambridge</item>
+        <item>e-Kirkland</item>
+        <item>e-Madison</item>
+        <item>e-Hyderabad</item>
+        <item>e-Reston</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/notepad_title_large_text_size" android:textColor="@color/notepad_title_text_color" android:gravity="center" android:id="@id/notepad_title_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/title_height" android:layout_marginTop="32.0dip" android:layout_marginBottom="@dimen/list_item_margin" android:text="@string/notepad_app_name" android:maxLines="1" android:layout_marginStart="@dimen/list_item_margin" style="@style/NubiaFontMedium" />
+    <FrameLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/notepad_title_footer" android:layout_below="@id/notepad_title_header">
+        <cn.nubia.notepad.cloud.anim.NotePadSyncContentLayout android:id="@id/notepad_layout_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/synchronization_background_view" android:background="@color/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/synchronization_header_content_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sys_item_height" layout="@layout/notepad_sync_head_or_footer" />
+            <cn.nubia.notepad.view.DownSynchroniozeListView android:id="@id/content_list_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+            <include android:id="@id/synchronization_footer_content_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sys_item_height" android:layout_alignParentBottom="true" layout="@layout/notepad_sync_head_or_footer" />
+        </cn.nubia.notepad.cloud.anim.NotePadSyncContentLayout>
+        <ImageView android:id="@id/search_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nubia_window_background" android:scaleType="fitXY" />
+        <include android:id="@id/notepad_list_empty" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/notepad_empty_view" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/notepad_title_large_text_size" android:textColor="@color/notepad_title_text_color" android:gravity="center_vertical" android:id="@id/notepad_title_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:text="@string/notepad_app_name" android:maxLines="1" android:layout_above="@id/notepad_list_bottom_bar" android:paddingStart="@dimen/list_item_margin" android:paddingEnd="@dimen/list_item_margin" style="@style/NubiaFontMedium" />
+    <FrameLayout android:id="@id/notepad_list_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/notepad_list_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/notepad_list_bottom_height" layout="@layout/notepad_list_bottom" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/search_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nubia_search_view_layout_height">
+            <cn.nubia.commonui.widget.NubiaSearchView android:layout_gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/notepad_search" android:inputType="textFilter" android:iconifiedByDefault="false" />
+        </LinearLayout>
+    </FrameLayout>
+    <Button android:textColor="@color/notepad_list_item_search_title_color" android:id="@id/notepad_go_back" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_above="@id/notepad_list_bottom_bar" android:layout_alignParentStart="true" style="@style/Widget.Nubia.GuideButton" />
+</RelativeLayout>

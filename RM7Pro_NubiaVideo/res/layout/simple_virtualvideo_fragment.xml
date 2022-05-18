@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.video.mediaeditorview.simpleeditor.VirtualVideoFrameLayout android:id="@id/virtual_video_viewgroup" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.nubia.modules.videoRender.VirtualVideoViewImp android:layout_gravity="center" android:id="@id/simple_virtual_video_view" android:layout_width="@dimen/preview_height" android:layout_height="@dimen/editor_top_height" />
+    <cn.nubia.video.mediaeditorview.textfilter.AddWordFrameContainer android:layout_gravity="center" android:id="@id/text_frame_container" android:layout_width="@dimen/preview_height" android:layout_height="@dimen/editor_top_height" />
+    <ImageView android:layout_gravity="center" android:id="@id/virtual_video_play" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/virtual_video_play" />
+</cn.nubia.video.mediaeditorview.simpleeditor.VirtualVideoFrameLayout>

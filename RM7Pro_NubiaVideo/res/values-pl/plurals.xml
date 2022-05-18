@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Czy na pewno chcesz usunąć wszystkie wybrane elementy?</item>
+        <item quantity="one">Czy na pewno chcesz usunąć wszystkie wybrane elementy?</item>
+    </plurals>
+    <plurals name="number_of_items_hide_selected">
+        <item quantity="other">ukryj %1$d</item>
+        <item quantity="zero">ukryj %1$d</item>
+        <item quantity="one">ukryj %1$d</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Wybrano %1$d</item>
+        <item quantity="zero">Wybrano %1$d</item>
+        <item quantity="one">Wybrano %1$d</item>
+    </plurals>
+</resources>

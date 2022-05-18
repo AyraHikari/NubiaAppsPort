@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/quit_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/qualityRadioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RadioButton android:textSize="@dimen/quit_dialog_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/low" android:layout_width="fill_parent" android:layout_height="@dimen/quality_item_height" android:layout_marginLeft="@dimen/quit_dialog_ask_text_left_padding" android:layout_marginRight="@dimen/quit_dialog_ask_text_left_padding" android:button="@null" android:text="@string/quality_low" android:drawableRight="@drawable/quality_item_background" />
+        <View android:layout_marginLeft="0.0dip" style="@style/SegmentLine" />
+        <RadioButton android:textSize="@dimen/quit_dialog_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/normal" android:layout_width="fill_parent" android:layout_height="@dimen/quality_item_height" android:layout_marginLeft="@dimen/quit_dialog_ask_text_left_padding" android:layout_marginRight="@dimen/quit_dialog_ask_text_left_padding" android:button="@null" android:text="@string/quality_normal" android:drawableRight="@drawable/quality_item_background" />
+        <View android:layout_marginLeft="0.0dip" style="@style/SegmentLine" />
+        <RadioButton android:textSize="@dimen/quit_dialog_text_size" android:textColor="@color/eighty_seven_white" android:id="@id/high" android:layout_width="fill_parent" android:layout_height="@dimen/quality_item_height" android:layout_marginLeft="@dimen/quit_dialog_ask_text_left_padding" android:layout_marginRight="@dimen/quit_dialog_ask_text_left_padding" android:button="@null" android:text="@string/quality_high" android:drawableRight="@drawable/quality_item_background" />
+        <View android:layout_marginLeft="0.0dip" style="@style/SegmentLine" />
+    </RadioGroup>
+    <FrameLayout android:id="@id/lastLine" android:layout_width="fill_parent" android:layout_height="@dimen/quality_bottom_height" android:layout_marginLeft="@dimen/quality_item_text_left" android:layout_marginRight="@dimen/quality_item_text_right" android:layout_below="@id/qualityRadioGroup">
+        <TextView android:textSize="@dimen/quality_item_text_size" android:textColor="@color/quality_item_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/quality_cancle" android:background="@drawable/collage_quality_cancle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quality_cancle" />
+    </FrameLayout>
+</RelativeLayout>

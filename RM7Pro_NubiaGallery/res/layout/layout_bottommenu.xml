@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.nubia.gallery3d.ui.BottomMenuLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom_menu" android:background="@color/tab_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bottombar_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/menuitem_selected_cancel_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/menuitem_selected_cancel" android:background="@drawable/menu_item_selected_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+        <View android:layout_gravity="center_vertical" android:background="@color/bottommenu_divider_bg_color" android:layout_width="0.6700001dip" android:layout_height="24.0dip" android:layout_marginLeft="3.3299866dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:id="@id/menuitem1" android:visibility="gone" style="@style/MenuItemStyle" />
+        <TextView android:id="@id/menuitem2" android:visibility="gone" style="@style/MenuItemStyle" />
+        <TextView android:id="@id/menuitem3" android:visibility="gone" style="@style/MenuItemStyle" />
+        <TextView android:id="@id/menuitem4" android:visibility="gone" style="@style/MenuItemStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/menuitem_selected_all_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <View android:layout_gravity="center_vertical" android:background="@color/bottommenu_divider_bg_color" android:layout_width="0.6700001dip" android:layout_height="24.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/menuitem_selected_all" android:background="@drawable/menu_item_selected_all" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.3299866dip" android:layout_marginRight="8.0dip" />
+    </LinearLayout>
+</cn.nubia.gallery3d.ui.BottomMenuLayout>

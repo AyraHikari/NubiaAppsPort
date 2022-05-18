@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="stopwatch_text_size_last">18</integer>
+    <integer name="stopwatch_text_size_normal">15</integer>
+    <integer name="worldtime_home_cityname_size">22</integer>
+    <integer name="worldtime_home_date_size">15</integer>
+    <integer name="worldtime_home_time_size">15</integer>
+</resources>

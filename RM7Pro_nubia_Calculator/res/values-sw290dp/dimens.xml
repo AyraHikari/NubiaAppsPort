@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="formula_padding_end">19.0dip</dimen>
+    <item type="dimen" name="numeric_column_weight">1.0</item>
+    <dimen name="result_padding_end">19.0dip</dimen>
+</resources>

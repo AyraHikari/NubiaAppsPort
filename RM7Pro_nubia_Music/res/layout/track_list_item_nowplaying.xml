@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_183" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tone_item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_72" android:layout_marginRight="@dimen/listview_item_padding" android:layout_toLeftOf="@id/tone_item_click_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/textsize_45" android:textColor="@color/black" android:id="@id/tone_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textIsSelectable="false" />
+        <TextView android:textSize="@dimen/textsize_36" android:textColor="@color/black_50" android:id="@id/tone_artist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_18" android:singleLine="true" android:textIsSelectable="false" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/tone_item_click_layout" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ark_musicindicator_marginright" android:layout_marginRight="@dimen/ark_musicindicator_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <cn.nubia.music.ui.MusicPlayingIndicator android:id="@id/play_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ark_musicindicator_marginright" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/selectcheckoutbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+    </LinearLayout>
+</RelativeLayout>

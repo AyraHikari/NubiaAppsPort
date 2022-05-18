@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/timelapse_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/nubia_timing_layout" />
+    <RelativeLayout android:id="@id/progress_view_layout" android:background="@color/bar_background" android:visibility="gone" style="@style/InnerBottomBarSize">
+        <include layout="@layout/interval_progress_view" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/interval_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/interval_time_graduation_layout" android:background="#4c000000" android:paddingLeft="@dimen/dimens_16" android:paddingRight="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_60" android:layout_alignParentBottom="true">
+            <cn.nubia.camera.prosetting.ui.IntervalTimeView android:id="@id/interval_time_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/dimens_12" android:id="@id/interval_time_text_view" android:focusable="false" android:visibility="gone" android:layout_marginBottom="@dimen/dimens_10" android:layout_above="@id/interval_time_graduation_layout" android:layout_centerHorizontal="true" style="@style/temporary_hint" />
+    </RelativeLayout>
+</RelativeLayout>

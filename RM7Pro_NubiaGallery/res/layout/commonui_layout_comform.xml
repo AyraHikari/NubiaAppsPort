@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="@color/nubia_common_activated_green" android:gravity="center" android:id="@id/dialog_tv2" android:background="@drawable/nubia_dialog_left_btn_default_material_new" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+        <View android:background="@drawable/nubia_dialog_middle_btn_default_material_new" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/common_dialog_posneg_tvsize" android:textColor="@color/nubia_common_activated_green" android:gravity="center" android:id="@id/dialog_tv1" android:background="@drawable/nubia_dialog_right_btn_default_material_new" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:fontFamily="nubiafont-medium" android:elegantTextHeight="true" />
+    </LinearLayout>
+</LinearLayout>

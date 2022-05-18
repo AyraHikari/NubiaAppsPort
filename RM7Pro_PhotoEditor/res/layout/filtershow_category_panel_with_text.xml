@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/cn.nubia.photoeditor">
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/moreLayout" android:layout_width="@dimen/category_panel_icon_size" android:layout_height="@dimen/category_panel_height">
+                <ImageButton android:layout_gravity="center" android:id="@id/moreButton" android:background="@drawable/filtershow_more_button_background" android:layout_width="@dimen/more_button_size" android:layout_height="@dimen/more_button_size" android:src="@drawable/filtershow_add" />
+                <TextView android:textColor="@color/default_text_color" android:gravity="center_horizontal" android:id="@id/moreTextView" android:visibility="gone" android:layout_width="@dimen/category_panel_icon_size" android:layout_height="wrap_content" android:text="@string/more" />
+            </LinearLayout>
+            <com.android.gallery3d.filtershow.category.CategoryTrack android:id="@id/listItems" android:layout_width="fill_parent" android:layout_height="@dimen/category_panel_height" android:divider="@android:color/transparent" android:dividerPadding="8.0dip" custom:iconSize="@dimen/category_panel_icon_size" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <com.android.gallery3d.filtershow.category.IconView android:id="@id/addButton" android:layout_width="@dimen/category_panel_height" android:layout_height="@dimen/category_panel_height" android:src="@drawable/filtershow_add" />
+</LinearLayout>
